@@ -1,6 +1,6 @@
 # Geodirectory Code Reference Generator
 
-Generate [Geodirectory Code Reference](https://geodirectory.github.io/code-reference/).
+Generate [Geodirectory Code Reference](https://1naveengiri.github.io/geodirectory-code-reference/).
 
 ## Install
 
