@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-widget-post-images.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+/**
+ * GeoDir_Widget_Post_Image class.
+ *
+ * @since 2.0.0
+ */
+class GeoDir_Widget_Post_Images extends WP_Super_Duper {
+
+
+	public $arguments;
+	/**
+	 * Sets up the widgets name etc
+	 */
+	public function __construct() {
+
+		$options = array(
+			&#039;textdomain&#039;    =&gt; GEODIRECTORY_TEXTDOMAIN,
+			&#039;block-icon&#039;    =&gt; &#039;format-image&#039;,
+			&#039;block-category&#039;=&gt; &#039;geodirectory&#039;,
+			&#039;block-keywords&#039;=&gt; &quot;[&#039;images&#039;,&#039;geo&#039;,&#039;geodir&#039;]&quot;,
+			&#039;block-supports&#039;=&gt; array(
+				&#039;customClassName&#039;   =&gt; false
+			),
+			&#039;class_name&#039;    =&gt; __CLASS__,
+			&#039;base_id&#039;       =&gt; &#039;gd_post_images&#039;, // this us used as the widget id and the shortcode id.
+			&#039;name&#039;          =&gt; __(&#039;GD &gt; Post Images&#039;,&#039;geodirectory&#039;), // the name of the widget.
+			//&#039;disable_widget&#039;=&gt; true,
+			&#039;widget_ops&#039;    =&gt; array(
+				&#039;classname&#039;   =&gt; &#039;geodir-post-slider &#039;.geodir_bsui_class(), // widget class
+				&#039;description&#039; =&gt; esc_html__(&#039;This shows a GD post image.&#039;,&#039;geodirectory&#039;), // widget description
+				&#039;geodirectory&#039; =&gt; true,
+			),
+			&#039;arguments&#039; =&gt; array(
+				&#039;title&#039;=&gt; array(
+					&#039;type&#039; =&gt; &#039;text&#039;,
+					&#039;title&#039; =&gt; __( &#039;Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039; =&gt; __( &#039;The widget title.&#039;, &#039;geodirectory&#039; ),
+					&#039;default&#039; =&gt; &#039;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; false,
+					&#039;group&#039;     =&gt; __(&quot;General&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;id&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __( &#039;Post ID:&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039; =&gt; __( &#039;Leave blank to use current post id.&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039; =&gt; &#039;number&#039;,
+					&#039;placeholder&#039; =&gt; __( &#039;Leave blank to use current post id.&#039;, &#039;geodirectory&#039; ),
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;advanced&#039; =&gt; false
+				),
+				&#039;types&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Image types:&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Comma separated list of image types to show. Defaults to: post_images&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;text&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;value&#039;  =&gt; &#039;&#039;,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;placeholder&#039;  =&gt; &#039;post_images,logo,comment_images,website_screenshot&#039;,
+					&#039;advanced&#039; =&gt; false,
+					&#039;group&#039;     =&gt; __(&quot;General&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;fallback_types&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Fallback types:&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Comma separated list of fallback types to show (only one will be shown). Defaults to: logo,cat_default,cpt_default,listing_default&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;text&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;value&#039;  =&gt; &#039;&#039;,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;placeholder&#039;  =&gt; &#039;logo,cat_default,cpt_default,listing_default&#039;,
+					&#039;advanced&#039; =&gt; false,
+					&#039;group&#039;     =&gt; __(&quot;General&quot;,&quot;geodirectory&quot;),
+				),
+
+				&#039;ajax_load&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Load via Ajax&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;This will load all but the first slide via ajax for faster load times.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;checkbox&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;value&#039;  =&gt; &#039;1&#039;,
+					&#039;default&#039;  =&gt; 1,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;General&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;limit&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Image limit:&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Limit the number of images returned.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;number&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;value&#039;  =&gt; &#039;&#039;,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;General&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;limit_show&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Show limit:&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Limit the number of images shown. This can be used to output 1-2 images in a gallery and if linked to lightbox it can ajax load more images when in lightbox. This can also be sued to turn the slider into a carousel and will set the default visible images.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;number&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;value&#039;  =&gt; &#039;&#039;,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;General&quot;,&quot;geodirectory&quot;),
+				),
+
+				&#039;css_class&#039;  =&gt; array(
+					&#039;type&#039; =&gt; &#039;text&#039;,
+					&#039;title&#039; =&gt; __(&#039;Extra class:&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Give the wrapper an extra class so you can style things as you want.&#039;, &#039;geodirectory&#039;),
+					&#039;placeholder&#039; =&gt; &#039;&#039;,
+					&#039;default&#039; =&gt; &#039;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;General&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;type&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Output Type&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;How the images should be displayed.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;options&#039;   =&gt;  array(
+						&quot;image&quot; =&gt; __(&#039;Single image&#039;, &#039;geodirectory&#039;),
+						&quot;slider&quot; =&gt; __(&#039;Slider&#039;, &#039;geodirectory&#039;),
+						&quot;gallery&quot; =&gt; __(&#039;Gallery&#039;, &#039;geodirectory&#039;),
+						&quot;masonry&quot; =&gt; __(&#039;Masonry Gallery&#039;, &#039;geodirectory&#039;),
+					),
+					&#039;default&#039;  =&gt; &#039;image&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; false,
+					&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;slideshow&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Auto start&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Should the slider auto start.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;checkbox&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;value&#039;  =&gt; &#039;1&#039;,
+					&#039;default&#039;  =&gt; 1,
+					&#039;element_require&#039; =&gt; &#039;[%type%]==&quot;slider&quot;&#039;,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;controlnav&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Control Navigation&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Image navigation controls below slider.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;options&#039;   =&gt;  array(
+						&quot;1&quot; =&gt; __(&#039;Default&#039;, &#039;geodirectory&#039;),
+						&quot;0&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+						&quot;2&quot; =&gt; __(&#039;Thumbnails (not ajax compatible)&#039;, &#039;geodirectory&#039;),
+					),
+					&#039;default&#039;  =&gt; &#039;1&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;element_require&#039; =&gt; &#039;[%type%]==&quot;slider&quot;&#039;,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;animation&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Animation&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Slide or fade transition.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;options&#039;   =&gt;  array(
+						&quot;slide&quot; =&gt; __(&#039;Slide&#039;, &#039;geodirectory&#039;),
+						&quot;fade&quot; =&gt; __(&#039;Fade&#039;, &#039;geodirectory&#039;),
+					),
+					&#039;default&#039;  =&gt; &#039;slide&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;element_require&#039; =&gt; &#039;[%type%]==&quot;slider&quot;&#039;,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;show_title&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Show title&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Show the titles on the image.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;checkbox&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;value&#039;  =&gt; &#039;1&#039;,
+					&#039;default&#039;  =&gt; 1,
+					&#039;element_require&#039; =&gt; &#039;[%type%]!=&quot;gallery&quot;&#039;,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;show_caption&#039;  =&gt; array(
+					&#039;title&#039; 	=&gt; __(&#039;Show caption&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; 		=&gt; __(&#039;Show the captions on the image. Requires you to enable titles.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; 		=&gt; &#039;checkbox&#039;,
+					&#039;desc_tip&#039; 	=&gt; true,
+					&#039;value&#039;  	=&gt; &#039;0&#039;,
+					&#039;default&#039;   =&gt; 0,
+					&#039;element_require&#039; =&gt; &#039;[%type%]!=&quot;gallery&quot;&#039;,
+					&#039;advanced&#039; 	=&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;image_size&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Image size:&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;The WP image size as a text string.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;options&#039; =&gt; self:: get_image_sizes(),
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;value&#039;  =&gt; &#039;&#039;,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;aspect&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Aspect ratio&#039;, &#039;geodirectory&#039;).&quot; &quot;.__(&#039;(bootstrap only)&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;For a more consistent image view you can set the aspect ratio of the image view port.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;options&#039; =&gt; array(
+						&#039;&#039; =&gt; __(&quot;Default (16by9)&quot;,&quot;geodirectory&quot;),
+						&#039;21x9&#039; =&gt; __(&quot;21by9&quot;,&quot;geodirectory&quot;),
+						&#039;4x3&#039; =&gt; __(&quot;4by3&quot;,&quot;geodirectory&quot;),
+						&#039;1x1&#039; =&gt; __(&quot;1by1 (square)&quot;,&quot;geodirectory&quot;),
+						&#039;n&#039; =&gt; __(&quot;No ratio (natural)&quot;,&quot;geodirectory&quot;),
+					),
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;value&#039;  =&gt; &#039;&#039;,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;cover&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Image cover type:&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;This is how the image should cover the image viewport.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;options&#039; =&gt; array(
+						&#039;&#039; =&gt; __(&quot;Default (cover both)&quot;,&quot;geodirectory&quot;),
+						&#039;x&#039; =&gt; __(&quot;Width cover&quot;,&quot;geodirectory&quot;),
+						&#039;y&#039; =&gt; __(&quot;height cover&quot;,&quot;geodirectory&quot;),
+						&#039;n&#039; =&gt; __(&quot;No cover (contain)&quot;,&quot;geodirectory&quot;),
+					),
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;value&#039;  =&gt; &#039;&#039;,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;link_to&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Link to:&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Link images to where.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;options&#039;   =&gt;  array(
+						&quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+						&quot;post&quot; =&gt; __(&#039;Post&#039;, &#039;geodirectory&#039;),
+						&quot;lightbox&quot; =&gt; __(&#039;Lightbox image&#039;, &#039;geodirectory&#039;),
+					),
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; false,
+					&#039;group&#039;     =&gt; __(&quot;Link&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;link_screenshot_to&#039;  =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Link screenshots to:&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Link screenshot images to where.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;options&#039;   =&gt;  array(
+						&quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+						&quot;post&quot; =&gt; __(&#039;Post&#039;, &#039;geodirectory&#039;),
+						&quot;lightbox&quot; =&gt; __(&#039;Lightbox image&#039;, &#039;geodirectory&#039;),
+						&quot;lightbox_url&quot; =&gt; __(&#039;Lightbox iframe URL&#039;, &#039;geodirectory&#039;),
+						&quot;url&quot; =&gt; __(&#039;URL (new window)&#039;, &#039;geodirectory&#039;),
+						&quot;url_same&quot; =&gt; __(&#039;URL (same window)&#039;, &#039;geodirectory&#039;),
+					),
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true,
+					&#039;group&#039;     =&gt; __(&quot;Link&quot;,&quot;geodirectory&quot;),
+				),
+
+			)
+		);
+
+		$design_style = geodir_design_style();
+
+		if ( $design_style ) {
+			// background
+			$arguments[&#039;bg&#039;]  = geodir_get_sd_background_input(&#039;mt&#039;);
+
+			// margins
+			$arguments[&#039;mt&#039;]  = geodir_get_sd_margin_input(&#039;mt&#039;);
+			$arguments[&#039;mr&#039;]  = geodir_get_sd_margin_input(&#039;mr&#039;);
+			$arguments[&#039;mb&#039;]  = geodir_get_sd_margin_input(&#039;mb&#039; );
+			$arguments[&#039;ml&#039;]  = geodir_get_sd_margin_input(&#039;ml&#039;);
+
+			// padding
+			$arguments[&#039;pt&#039;]  = geodir_get_sd_padding_input(&#039;pt&#039;);
+			$arguments[&#039;pr&#039;]  = geodir_get_sd_padding_input(&#039;pr&#039;);
+			$arguments[&#039;pb&#039;]  = geodir_get_sd_padding_input(&#039;pb&#039;);
+			$arguments[&#039;pl&#039;]  = geodir_get_sd_padding_input(&#039;pl&#039;);
+
+			// border
+			$arguments[&#039;border&#039;]  = geodir_get_sd_border_input(&#039;border&#039;);
+			$arguments[&#039;rounded&#039;]  = geodir_get_sd_border_input(&#039;rounded&#039;);
+			$arguments[&#039;rounded_size&#039;]  = geodir_get_sd_border_input(&#039;rounded_size&#039;);
+
+			// shadow
+			$arguments[&#039;shadow&#039;]  = geodir_get_sd_shadow_input(&#039;shadow&#039;);
+
+			$options[&#039;arguments&#039;] = $options[&#039;arguments&#039;] + $arguments;
+		}
+
+		parent::__construct( $options );
+	}
+
+
+	/**
+	 * The Super block output function.
+	 *
+	 * @param array $args
+	 * @param array $widget_args
+	 * @param string $content
+	 *
+	 * @return mixed|string|void
+	 */
+	public function output($args = array(), $widget_args = array(),$content = &#039;&#039;){
+
+		/**
+		 * @var bool $ajax_load Ajax load or not.
+		 * @var string $animation Fade or slide.
+		 * @var bool $slideshow Auto start or not.
+		 * @var int $controlnav 0 = none, 1 =  standard, 2 = thumbnails
+		 * @var bool $show_title If the title should be shown or not.
+		 * @var int/empty $limit If the number of images should be limited.
+		 */
+		extract($args, EXTR_SKIP);
+
+		return $this-&gt;output_images($args);
+
+	}
+
+	/**
+	 * Output the imae slider.
+	 *
+	* @global bool $geodir_carousel_open  Check whether carousel already open.
+	 *
+	 * @param $options
+	 */
+	public function output_images($options){
+		global $post, $gd_post, $geodir_carousel_open;
+
+		// options
+		$defaults = array(
+			&#039;title&#039;     =&gt; &#039;&#039;, // widget title
+			&#039;type&#039;      =&gt; &#039;image&#039;, // image, slider, gallery
+			&#039;ajax_load&#039; =&gt; &#039;1&#039;,
+			&#039;animation&#039; =&gt; &#039;fade&#039;, // fade or slide
+			&#039;slideshow&#039; =&gt; &#039;&#039;, // auto start
+			&#039;controlnav&#039;=&gt; &#039;2&#039;, // 0 = none, 1 =  standard, 2 = thumbnails
+			&#039;show_title&#039;=&gt; &#039;1&#039;,
+			&#039;show_caption&#039; =&gt; &#039;0&#039;,
+			&#039;limit&#039;     =&gt; &#039;&#039;,
+			&#039;limit_show&#039;     =&gt; &#039;&#039;,
+			&#039;link_to&#039;     =&gt; &#039;&#039;,
+			&#039;link_screenshot_to&#039;     =&gt; &#039;&#039;,
+			&#039;image_size&#039;     =&gt; &#039;medium&#039;,
+			&#039;show_logo&#039;     =&gt; &#039;0&#039;,
+			&#039;cover&#039;   =&gt; &#039;&#039;, // image cover type
+			&#039;aspect&#039;    =&gt; &#039;&#039;, // image aspect ratio
+			&#039;id&#039; =&gt; &#039;&#039;,
+			&#039;types&#039;   =&gt; &#039;&#039;, // types to show, post_images,comment_images,logo
+			&#039;fallback_types&#039;   =&gt; &#039;logo,cat_default,cpt_default,listing_default,website_screenshot&#039;, //logo,cat_default,cpt_default,listing_default
+			&#039;css_class&#039; =&gt; &#039;&#039;,
+			&#039;bg&#039;    =&gt; &#039;&#039;,
+			&#039;mt&#039;    =&gt; &#039;&#039;,
+			&#039;mb&#039;    =&gt; &#039;3&#039;,
+			&#039;mr&#039;    =&gt; &#039;&#039;,
+			&#039;ml&#039;    =&gt; &#039;&#039;,
+			&#039;pt&#039;    =&gt; &#039;&#039;,
+			&#039;pb&#039;    =&gt; &#039;&#039;,
+			&#039;pr&#039;    =&gt; &#039;&#039;,
+			&#039;pl&#039;    =&gt; &#039;&#039;,
+			&#039;border&#039;    =&gt; &#039;&#039;,
+			&#039;rounded&#039;    =&gt; &#039;&#039;,
+			&#039;rounded_size&#039;    =&gt; &#039;&#039;,
+			&#039;shadow&#039;    =&gt; &#039;&#039;,
+		);
+
+		/**
+		 * Parse incoming $args into an array and merge it with $defaults
+		 */
+		$options = wp_parse_args( $options, $defaults );
+
+		// Nested carousels/sliders are not supported.
+		if ( $geodir_carousel_open &amp;&amp; $options[&#039;type&#039;] == &#039;slider&#039; ) {
+			$options[&#039;type&#039;] = &#039;image&#039;;
+			$options[&#039;slideshow&#039;] = false;
+			$options[&#039;limit_show&#039;] = 1;
+			$options[&#039;limit&#039;] = 1;
+		}
+
+		$design_style = !empty($args[&#039;design_style&#039;]) ? esc_attr($args[&#039;design_style&#039;]) : geodir_design_style();
+
+		if($this-&gt;is_preview()){
+			$options[&#039;ajax_load&#039;] = false;
+		}
+
+		if($options[&#039;type&#039;]==&#039;image&#039;){
+			$options[&#039;limit&#039;] = 1;
+		}
+
+		$revision_id = is_preview() &amp;&amp; !empty($gd_post-&gt;ID) ? absint($gd_post-&gt;ID) : &#039;&#039;;
+
+		// types
+		if(!empty($options[&#039;types&#039;])){
+			$options[&#039;types&#039;] = explode(&quot;,&quot;,$options[&#039;types&#039;]);
+		}
+		
+		// fallback types
+		if(!empty($options[&#039;fallback_types&#039;])){
+			$options[&#039;fallback_types&#039;] = explode(&quot;,&quot;,$options[&#039;fallback_types&#039;]);
+		}elseif($options[&#039;fallback_types&#039;]==&#039;0&#039;){
+			$options[&#039;fallback_types&#039;] = array();
+		}else{
+			$options[&#039;fallback_types&#039;] = array(&#039;logo&#039;,&#039;cat_default&#039;,&#039;cpt_default&#039;,&#039;listing_default&#039;);
+		}
+
+		// check if block preview
+		$block_preview = $this-&gt;is_block_content_call();
+		$post_id = ! empty( $gd_post-&gt;ID ) ? absint( $gd_post-&gt;ID ) : 0;
+		if ( $post_id &amp;&amp; wp_is_post_revision( $post_id ) ) {
+			$post_id = wp_get_post_parent_id( $post_id );
+		}
+
+		// Set static post ID.
+		if ( ! empty( $options[&#039;id&#039;] ) ) {
+			$post_id = absint( $options[&#039;id&#039;] );
+		}
+
+		if ( $block_preview ) {
+			$options[&#039;ajax_load&#039;] = false; // disable ajax loading
+			$post_id = -1;
+		}
+
+		if ( ! $post_id ) {
+			return &#039;&#039;;
+		}
+
+		if ( $block_preview ) {
+			$post_images = $this-&gt;get_dummy_images();
+		} else {
+			// Show images with all statuses to admin &amp; post author.
+			if ( is_preview() &amp;&amp; geodir_listing_belong_to_current_user( $post_id ) ) {
+				$status = &#039;&#039;;
+			} else {
+				$status = &#039;1&#039;;
+			}
+
+			$post_images = geodir_get_images( $post_id, $options[&#039;limit&#039;], $options[&#039;show_logo&#039;], $revision_id, $options[&#039;types&#039;], $options[&#039;fallback_types&#039;], $status );
+		}
+
+		// make it just a image if only one
+		if($options[&#039;type&#039;]==&#039;slider&#039; &amp;&amp; count($post_images) == 1 &amp;&amp; $options[&#039;limit_show&#039;]){
+			$options[&#039;type&#039;]=&#039;image&#039;;
+		}
+
+		ob_start();
+
+		if (!empty($post_images)) {
+			$main_wrapper_class = &quot;geodir-image-container&quot;;
+			$second_wrapper_class = &quot;geodir-image-wrapper&quot;;
+			$ul_class = &quot;geodir-post-image&quot;;
+			$image_size = isset($options[&#039;image_size&#039;]) &amp;&amp; $options[&#039;image_size&#039;] ? $options[&#039;image_size&#039;] : &#039;medium_large&#039;;
+			$main_wrapper_class .= &quot; geodir-image-sizes-&quot;.$image_size;
+
+			// margin_bottom
+			if ( !empty( $options ) ) {
+				// wrap class
+				$main_wrapper_class .= &quot; &quot;.geodir_build_aui_class($options);
+			}
+
+			if($options[&#039;type&#039;]==&#039;slider&#039;){
+				if(!$design_style){
+					// enqueue flexslider JS
+					GeoDir_Frontend_Scripts::enqueue_script( &#039;jquery-flexslider&#039; );
+				}
+
+
+				$main_wrapper_class .= &quot; geodir_flex-container &quot;;
+				$second_wrapper_class .= &quot; geodir_flexslider geodir-slider geodir-slider-loading &quot;;
+				$ul_class = &quot;geodir-slides&quot;;
+				if($options[&#039;limit_show&#039;]){
+					$second_wrapper_class .= &quot; geodir-carousel &quot;;
+				}
+			}elseif($options[&#039;type&#039;]==&#039;gallery&#039; || $options[&#039;type&#039;]==&#039;masonry&#039;){
+				if(!$image_size){$image_size = &#039;medium_large&#039;;}
+				$ul_class = &quot;geodir-gallery&quot;;
+			}
+
+			// Set the slider ID
+			$slider_id = wp_doing_ajax() ? &quot;geodir_images_ajax&quot; : &quot;geodir_images&quot;;
+			$slider_id .= &#039;_&#039; . uniqid() . &#039;_&#039; . $post_id; // Generate unique slider id. //@todo this is not cache friendly
+
+			// responsive image class
+			$aspect = $options[&#039;type&#039;]==&#039;masonry&#039; ? &#039;none&#039; : $options[&#039;aspect&#039;];
+			$responsive_image_class = &#039;&#039;;
+			if($design_style){
+				$embed_action_class = $options[&#039;link_to&#039;] ? &#039;embed-has-action &#039; : &#039;&#039;;
+				if(!$aspect || $aspect==&#039;16x9&#039;){
+					$responsive_image_class = $embed_action_class.&#039;embed-responsive embed-responsive-16by9&#039;;
+				}elseif($aspect==&#039;21x9&#039;){
+					$responsive_image_class = $embed_action_class.&#039;embed-responsive embed-responsive-21by9&#039;;
+				}elseif($aspect==&#039;4x3&#039;){
+					$responsive_image_class = $embed_action_class.&#039;embed-responsive embed-responsive-4by3&#039;;
+				}elseif($aspect==&#039;1x1&#039;){
+					$responsive_image_class = $embed_action_class.&#039;embed-responsive embed-responsive-1by1&#039;;
+				}else{
+					$responsive_image_class = $embed_action_class;
+				}
+			}
+
+
+			// image link
+			$link = &#039;&#039;;
+			$link_tag_open = &quot;&quot;;
+			$link_tag_close = &quot;&quot;;
+			if($options[&#039;link_to&#039;]==&#039;post&#039;){
+				$link = get_the_permalink($post_id);
+				$link_tag_open = &quot;&lt;a href=&#039;%s&#039; class=&#039;geodir-link-image $responsive_image_class d-block&#039;&gt;&quot;;
+				$link_tag_close = &quot;&lt;i class=\&quot;fas fa-link\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;/i&gt;&lt;/a&gt;&quot;;
+			}elseif($options[&#039;link_to&#039;]==&#039;lightbox&#039;){
+				$link = &#039;&#039;;
+				$lightbox_attrs = apply_filters( &#039;geodir_link_to_lightbox_attrs&#039;, &#039;&#039; );
+				$link_tag_open = &quot;&lt;a href=&#039;%s&#039; class=&#039;geodir-lightbox-image $responsive_image_class d-block&#039; data-lity {$lightbox_attrs}&gt;&quot;;
+				$link_tag_close = &quot;&lt;i class=\&quot;fas fa-search-plus\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;/i&gt;&lt;/a&gt;&quot;;
+			}elseif($responsive_image_class){
+				$link_tag_open = &#039;&lt;span class=&quot;&#039;.$responsive_image_class.&#039;&quot;&gt;&#039;;
+				$link_tag_close = &#039;&lt;/span&gt;&#039;;
+			}
+
+			// image_cover
+			if(!empty($options[&#039;cover&#039;])){
+				if($options[&#039;cover&#039;]==&#039;x&#039;){$main_wrapper_class .= &quot; gd-image-cover-x &quot;;}
+				if($options[&#039;cover&#039;]==&#039;y&#039;){$main_wrapper_class .= &quot; gd-image-cover-y &quot;;}
+				if($options[&#039;cover&#039;]==&#039;n&#039;){$main_wrapper_class .= &quot; gd-image-cover-n &quot;;}
+			}
+
+			$main_wrapper_class_x = &#039;card-img-top embed-responsive-item&#039;;
+
+			$args = array(
+				&#039;main_wrapper_class&#039;   =&gt; &quot; &quot;.$main_wrapper_class.&quot; &quot;.esc_attr($options[&#039;css_class&#039;]),
+				&#039;type&#039;  =&gt; $options[&#039;type&#039;],
+				&#039;slider_id&#039;    =&gt;  $slider_id,
+				&#039;second_wrapper_class&#039; =&gt;  $second_wrapper_class,
+				&#039;controlnav&#039;    =&gt;   $options[&#039;controlnav&#039;],
+				&#039;animation&#039;    =&gt;   $options[&#039;animation&#039;],
+				&#039;slideshow&#039;    =&gt;   $options[&#039;slideshow&#039;],
+				&#039;limit&#039;    =&gt;   $options[&#039;limit&#039;],
+				&#039;limit_show&#039;    =&gt;   $options[&#039;limit_show&#039;],
+				&#039;ajax_load&#039;    =&gt;   $options[&#039;ajax_load&#039;],
+				&#039;show_title&#039;    =&gt;   $options[&#039;show_title&#039;],
+				&#039;show_caption&#039;    =&gt;   $options[&#039;show_caption&#039;],
+				&#039;ul_class&#039;    =&gt;   $ul_class,
+				&#039;post_images&#039;    =&gt;   $post_images,
+				&#039;link_to&#039;    =&gt;     $options[&#039;link_to&#039;],
+				&#039;link_screenshot_to&#039;    =&gt;     $options[&#039;link_screenshot_to&#039;],
+				&#039;link&#039; =&gt; $link,
+				&#039;link_tag_open&#039; =&gt; $link_tag_open,
+				&#039;link_tag_close&#039; =&gt; $link_tag_close,
+				&#039;image_size&#039;   =&gt;  $image_size,
+				&#039;cover&#039; =&gt;  $options[&#039;cover&#039;],
+				&#039;aspect&#039; =&gt;  $options[&#039;aspect&#039;],
+				&#039;responsive_image_class&#039;   =&gt; $responsive_image_class
+			);
+
+
+			$template = $design_style ? $design_style.&quot;/images/images.php&quot; : &quot;legacy/images/images.php&quot;;
+
+
+
+			$output = geodir_get_template_html( $template, $args );
+
+			echo $output;
+			
+		}
+
+
+		// make it work with builder preview
+		if($this-&gt;is_elementor_preview()){
+			?&gt;
+			&lt;script type=&quot;text/javascript&quot;&gt;
+				(function(){
+					if (typeof init_read_more == &#039;function&#039;) {
+						init_read_more();
+						geodir_init_lazy_load();
+						geodir_refresh_business_hours();
+						// init any sliders
+						geodir_init_flexslider();
+					}
+				}());
+			&lt;/script&gt;
+			&lt;?php
+		}
+
+
+		return ob_get_clean();
+	}
+
+
+	/**
+	 * Get the available image sizes.
+	 * 
+	 * @return array
+	 */
+	public static function get_image_sizes() {
+		$image_sizes = array( &#039;&#039; =&gt; &#039;default&#039; );
+
+		$available = get_intermediate_image_sizes();
+
+		if ( ! empty( $available ) ) {
+			foreach( $available as $size ) {
+				$image_sizes[ $size ] = $size;
+			}
+		}
+
+		$image_sizes[&#039;full&#039;] = &#039;full&#039;;
+
+		return $image_sizes;
+	}
+
+	/**
+	 * Get dummy images for block demo content.
+	 *
+	 * @return array
+	 */
+	public static function get_dummy_images(){
+		$images = array();
+		$dummy_image_url = &#039;https://wpgd-jzgngzymm1v50s3e3fqotwtenpjxuqsmvkua.netdna-ssl.com/dummy/plugin/&#039;;
+		$dummy_images = array(
+			&#039;burger.jpg&#039;,
+			&#039;food-salad.jpg&#039;,
+			&#039;las-vegas.jpg&#039;,
+			&#039;plate-restaurant.jpg&#039;,
+			&#039;san-francisco.jpg&#039;,
+			&#039;sea-scape.jpg&#039;,
+		);
+
+		$count = 1;
+		foreach($dummy_images as $dummy_image){
+			// image
+			$image = new stdClass();
+			$image-&gt;ID = 0;
+			$image-&gt;post_id = 0;
+			$image-&gt;user_id = 0;
+			$image-&gt;title = sprintf( __( &#039;Demo image title %d&#039;, &#039;geodirectory&#039; ),$count);
+			$image-&gt;caption = sprintf( __( &#039;Demo image caption %d&#039;, &#039;geodirectory&#039; ),$count);
+			$image-&gt;file = $dummy_image_url.$dummy_image;
+			$image-&gt;mime_type = &#039;&#039;;
+			$image-&gt;menu_order = 0;
+			$image-&gt;featured= 0;
+			$image-&gt;is_approved = 1;
+			$image-&gt;metadata = &#039;&#039;;
+			$image-&gt;type = &#039;_dummy&#039;;
+			$images[] = $image;
+			$count++;
+		}
+
+		return $images;
+
+	}
+
+}
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

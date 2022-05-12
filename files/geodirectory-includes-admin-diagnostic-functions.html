@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">diagnostic-functions.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_diagnostic_tools_setting_page">
+        geodir_diagnostic_tools_setting_page()
+        <a href="#function_geodir_diagnostic_tools_setting_page" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/diagnostic-functions.php"><a href="../files/geodirectory-includes-admin-diagnostic-functions.html#source-view.14">geodirectory/includes/admin/diagnostic-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Displays &#039;GD Diagnostic Tools&#039; page.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_diagnostic_tools_setting_page</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_admin_ajax_handler">
+        geodir_admin_ajax_handler()
+        <a href="#function_geodir_admin_ajax_handler" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/diagnostic-functions.php"><a href="../files/geodirectory-includes-admin-diagnostic-functions.html#source-view.192">geodirectory/includes/admin/diagnostic-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">192</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Handles admin ajax.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_admin_ajax_handler</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_diagnose_tags_sync">
+        geodir_diagnose_tags_sync()
+        <a href="#function_geodir_diagnose_tags_sync" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/diagnostic-functions.php"><a href="../files/geodirectory-includes-admin-diagnostic-functions.html#source-view.228">geodirectory/includes/admin/diagnostic-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">228</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Syncs when tags are showing in the backend but missing from the front end.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_diagnose_tags_sync</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $plugin_prefix Geodirectory plugin table prefix.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_diagnose_cats_sync">
+        geodir_diagnose_cats_sync()
+        <a href="#function_geodir_diagnose_cats_sync" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/diagnostic-functions.php"><a href="../files/geodirectory-includes-admin-diagnostic-functions.html#source-view.347">geodirectory/includes/admin/diagnostic-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">347</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Syncs when categories are missing from the details table but showing in other places in the backend.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_diagnose_cats_sync</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"><p>Only checks posts with missing category info in details table.</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $plugin_prefix Geodirectory plugin table prefix.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_diagnose_version_clear">
+        geodir_diagnose_version_clear()
+        <a href="#function_geodir_diagnose_version_clear" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/diagnostic-functions.php"><a href="../files/geodirectory-includes-admin-diagnostic-functions.html#source-view.429">geodirectory/includes/admin/diagnostic-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">429</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Clears all GD version numbers so any upgrade functions will run again.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_diagnose_version_clear</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $plugin_prefix Geodirectory plugin table prefix.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_diagnose_ratings">
+        geodir_diagnose_ratings()
+        <a href="#function_geodir_diagnose_ratings" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/diagnostic-functions.php"><a href="../files/geodirectory-includes-admin-diagnostic-functions.html#source-view.497">geodirectory/includes/admin/diagnostic-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">497</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Checks ratings for correct location and content settings.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_diagnose_ratings</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_diagnose_multisite_conversion">
+        geodir_diagnose_multisite_conversion()
+        <a href="#function_geodir_diagnose_multisite_conversion" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/diagnostic-functions.php"><a href="../files/geodirectory-includes-admin-diagnostic-functions.html#source-view.545">geodirectory/includes/admin/diagnostic-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">545</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Checks if the GD database tables have been converted to use multisite correctly.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_diagnose_multisite_conversion</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_fix_virtual_page">
+        geodir_fix_virtual_page()
+        <a href="#function_geodir_fix_virtual_page" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/diagnostic-functions.php"><a href="../files/geodirectory-includes-admin-diagnostic-functions.html#source-view.615">geodirectory/includes/admin/diagnostic-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">615</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Fixes if the GD pages are not installed correctly.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_fix_virtual_page</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$slug</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$page_title</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$old_id</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$option</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$slug</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The page slug.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$page_title</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The page title.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$old_id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Old post ID.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$option</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Option meta key.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $current_user Current user object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_diagnose_default_pages">
+        geodir_diagnose_default_pages()
+        <a href="#function_geodir_diagnose_default_pages" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/diagnostic-functions.php"><a href="../files/geodirectory-includes-admin-diagnostic-functions.html#source-view.659">geodirectory/includes/admin/diagnostic-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">659</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Checks if the GD pages are installed correctly or not.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_diagnose_default_pages</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_diagnose_load_db_language">
+        geodir_diagnose_load_db_language()
+        <a href="#function_geodir_diagnose_load_db_language" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/diagnostic-functions.php"><a href="../files/geodirectory-includes-admin-diagnostic-functions.html#source-view.928">geodirectory/includes/admin/diagnostic-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">928</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Loads custom fields in to file for translation.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_diagnose_load_db_language</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_posts_clauses_request">
+        geodir_posts_clauses_request()
+        <a href="#function_geodir_posts_clauses_request" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/diagnostic-functions.php"><a href="../files/geodirectory-includes-admin-diagnostic-functions.html#source-view.978">geodirectory/includes/admin/diagnostic-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">978</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Adds sorting type - sort by expire.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_posts_clauses_request</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$clauses</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$clauses</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>{
+Attributes of the clause array.</p>
+<p>@type string $where Where clause.
+@type string $groupby Groupby clause.
+@type string $join Join clause.
+@type string $orderby Orderby clause.
+@type string $distinct Distinct clause.
+@type string $fields Fields clause.
+@type string $limits Limits clause.</p>
+<p>}</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wp_query WordPress Query object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $plugin_prefix Geodirectory plugin table prefix.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+// @todo do we want to reuse these or build new ones?
+
+
+
+
+
+/**
+ * Displays &#039;GD Diagnostic Tools&#039; page.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ */
+function geodir_diagnostic_tools_setting_page()
+{
+    ?&gt;
+    &lt;div class=&quot;inner_content_tab_main&quot;&gt;
+        &lt;div class=&quot;gd-content-heading&quot;&gt;
+
+
+            &lt;h3&gt;&lt;?php _e(&#039;GD Diagnostic Tools&#039;, &#039;geodirectory&#039;);?&gt;&lt;/h3&gt;
+            &lt;style&gt;
+                .gd-tools-table {
+                    width: 100%;
+                    border: 1px solid #666;
+                }
+
+                .gd-tool-results, .gd-tool-results td {
+                    padding: 0px;
+                }
+
+                .gd-tool-results-remove {
+                    float: right;
+                    margin-top: 10px;
+                }
+            &lt;/style&gt;
+            &lt;table class=&quot;form-table gd-tools-table&quot;&gt;
+                &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;strong&gt;&lt;?php _e(&#039;Tool&#039;, &#039;geodirectory&#039;);?&gt;&lt;/strong&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;strong&gt;&lt;?php _e(&#039;Description&#039;, &#039;geodirectory&#039;);?&gt;&lt;/strong&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;strong&gt;&lt;?php _e(&#039;Action&#039;, &#039;geodirectory&#039;);?&gt;&lt;/strong&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+
+
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;?php _e(&#039;GD pages check&#039;, &#039;geodirectory&#039;);?&gt;&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;small&gt;&lt;?php _e(&#039;Checks if the GD pages are installed correctly or not.&#039;, &#039;geodirectory&#039;);?&gt;&lt;/small&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;input type=&quot;button&quot; value=&quot;&lt;?php _e(&#039;Run&#039;, &#039;geodirectory&#039;);?&gt;&quot;
+                               class=&quot;button-primary geodir_diagnosis_button&quot; data-diagnose=&quot;default_pages&quot;/&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+
+
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;?php _e(&#039;Multisite DB conversion check&#039;, &#039;geodirectory&#039;);?&gt;&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;small&gt;&lt;?php _e(&#039;Checks if the GD database tables have been converted to use multisite correctly.&#039;, &#039;geodirectory&#039;);?&gt;&lt;/small&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;&lt;input type=&quot;button&quot; value=&quot;&lt;?php _e(&#039;Run&#039;, &#039;geodirectory&#039;);?&gt;&quot;
+                               class=&quot;button-primary geodir_diagnosis_button&quot; data-diagnose=&quot;multisite_conversion&quot;/&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;?php _e(&#039;Ratings check&#039;, &#039;geodirectory&#039;);?&gt;&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;small&gt;&lt;?php _e(&#039;Checks ratings for correct location and content settings&#039;, &#039;geodirectory&#039;);?&gt;&lt;/small&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;&lt;input type=&quot;button&quot; value=&quot;&lt;?php _e(&#039;Run&#039;, &#039;geodirectory&#039;);?&gt;&quot;
+                               class=&quot;button-primary geodir_diagnosis_button&quot; data-diagnose=&quot;ratings&quot;/&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+
+                &lt;tr&gt;
+                    &lt;?php
+                    $l_count = geodir_total_listings_count();
+                    $step_max_items = geodir_get_diagnose_step_max_items();
+                    if ($l_count &gt; $step_max_items) {
+                        $multiple = &#039;data-step=&quot;1&quot;&#039;;
+                    } else {
+                        $multiple = &quot;&quot;;
+                    }
+                    ?&gt;
+                    &lt;td&gt;&lt;?php _e(&#039;Sync GD tags&#039;, &#039;geodirectory&#039;);?&gt;&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;small&gt;&lt;?php _e(&#039;This tool can be used when tags are showing in the backend but missing from the front end.&#039;, &#039;geodirectory&#039;);?&gt;&lt;/small&gt;
+                        &lt;?php
+                        if ($l_count &gt; $step_max_items) {
+                            ?&gt;
+                            &lt;table id=&quot;tags_sync_sub_table&quot; class=&quot;widefat&quot; style=&quot;display: none&quot;&gt;
+                                &lt;?php
+                                $all_postypes = geodir_get_posttypes(&#039;array&#039;);
+
+                                if (!empty($all_postypes)) {
+                                    foreach ($all_postypes as $key =&gt; $value) {
+                                        ?&gt;
+                                        &lt;tr id=&quot;tags_sync_&lt;?php echo $key; ?&gt;&quot;&gt;
+                                            &lt;td&gt;
+                                                &lt;?php echo $value[&#039;labels&#039;][&#039;name&#039;]; ?&gt;
+                                            &lt;/td&gt;
+                                            &lt;td&gt;
+                                                &lt;input type=&quot;button&quot; value=&quot;&lt;?php _e(&#039;Run&#039;, &#039;geodirectory&#039;);?&gt;&quot;
+                                                       class=&quot;button-primary geodir_diagnosis_button&quot; data-ptype=&quot;&lt;?php echo $key; ?&gt;&quot; data-diagnose=&quot;tags_sync&quot;/&gt;
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;?php
+                                    }
+                                }
+                                ?&gt;
+                            &lt;/table&gt;
+                            &lt;?php
+                        }
+                        ?&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;input type=&quot;button&quot; value=&quot;&lt;?php _e(&#039;Run&#039;, &#039;geodirectory&#039;);?&gt;&quot;
+                               class=&quot;button-primary geodir_diagnosis_button&quot; &lt;?php echo $multiple; ?&gt; data-diagnose=&quot;tags_sync&quot;/&gt;
+
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;?php _e(&#039;Sync GD Categories&#039;, &#039;geodirectory&#039;);?&gt;&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;small&gt;&lt;?php _e(&#039;This tool can be used when categories are missing from the details table but showing in other places in the backend (only checks posts with missing category info in details table)&#039;, &#039;geodirectory&#039;);?&gt;&lt;/small&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;&lt;input type=&quot;button&quot; value=&quot;&lt;?php _e(&#039;Run&#039;, &#039;geodirectory&#039;);?&gt;&quot;
+                               class=&quot;button-primary geodir_diagnosis_button&quot; data-diagnose=&quot;cats_sync&quot;/&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+
+
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;?php _e(&#039;Clear all GD version numbers&#039;, &#039;geodirectory&#039;);?&gt;&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;small&gt;&lt;?php _e(&#039;This tool will clear all GD version numbers so any upgrade functions will run again.&#039;, &#039;geodirectory&#039;);?&gt;&lt;/small&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;&lt;input type=&quot;button&quot; value=&quot;&lt;?php _e(&#039;Run&#039;, &#039;geodirectory&#039;);?&gt;&quot;
+                               class=&quot;button-primary geodir_diagnosis_button&quot; data-diagnose=&quot;version_clear&quot;/&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;?php _e(&#039;Load custom fields translation&#039;, &#039;geodirectory&#039;);?&gt;&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;small&gt;&lt;?php _e(&#039;This tool will load strings from the database into a file to translate via po editor.Ex: custom fields&#039;, &#039;geodirectory&#039;);?&gt;&lt;/small&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;input type=&quot;button&quot; value=&quot;&lt;?php _e(&#039;Run&#039;, &#039;geodirectory&#039;);?&gt;&quot; class=&quot;button-primary geodir_diagnosis_button&quot; data-diagnose=&quot;load_db_language&quot;/&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;?php _e(&#039;Reload Countries table&#039;, &#039;geodirectory&#039;);?&gt;&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;small&gt;&lt;?php _e(&#039;This tool will drop and re-add the countries table, it is meant to refresh the list when countries are added/removed, if you have duplicate country problems you should merge those first or you could have orphaned posts.&#039;, &#039;geodirectory&#039;);?&gt;&lt;/small&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;input type=&quot;button&quot; value=&quot;&lt;?php _e(&#039;Run&#039;, &#039;geodirectory&#039;);?&gt;&quot; class=&quot;button-primary geodir_diagnosis_button&quot; data-diagnose=&quot;reload_db_countries&quot;/&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;?php
+                /**
+                 * Allows you to add more setting to the GD&gt;Tools settings page.
+                 *
+                 * Called after the last setting on the GD&gt;Tools page.
+                 * @since 1.0.0
+                 */
+                do_action(&#039;geodir_diagnostic_tool&#039;);?&gt;
+
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;?php
+}
+
+
+
+/* Ajax Handler Start */
+add_action(&#039;wp_ajax_geodir_admin_ajax&#039;, &quot;geodir_admin_ajax_handler&quot;);
+
+/**
+ * Handles admin ajax.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ */
+function geodir_admin_ajax_handler()
+{
+    if (isset($_REQUEST[&#039;geodir_admin_ajax_action&#039;]) &amp;&amp; $_REQUEST[&#039;geodir_admin_ajax_action&#039;] != &#039;&#039;) {
+        $geodir_admin_ajax_action = $_REQUEST[&#039;geodir_admin_ajax_action&#039;];
+        $diagnose_this = &quot;&quot;;
+        switch ($geodir_admin_ajax_action) {
+            case &#039;diagnosis&#039; :
+                if (isset($_REQUEST[&#039;diagnose_this&#039;]) &amp;&amp; $_REQUEST[&#039;diagnose_this&#039;] != &#039;&#039;) {
+                    $diagnose_this = sanitize_text_field($_REQUEST[&#039;diagnose_this&#039;]);
+                    call_user_func(&#039;geodir_diagnose_&#039; . $diagnose_this);
+
+                }
+                exit();
+                break;
+
+            case &#039;diagnosis-fix&#039; :
+                if (isset($_REQUEST[&#039;diagnose_this&#039;]) &amp;&amp; $_REQUEST[&#039;diagnose_this&#039;] != &#039;&#039;)
+                    $diagnose_this = sanitize_text_field($_REQUEST[&#039;diagnose_this&#039;]);
+                call_user_func(&#039;geodir_diagnose_&#039; . $diagnose_this);
+                exit();
+                break;
+        }
+    }
+    exit();
+}
+
+
+
+/**
+ * Syncs when tags are showing in the backend but missing from the front end.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ * @global string $plugin_prefix Geodirectory plugin table prefix.
+ */
+function geodir_diagnose_tags_sync()
+{
+    global $wpdb, $plugin_prefix;
+    $fix = isset($_POST[&#039;fix&#039;]) ? true : false;
+    $step = isset($_POST[&#039;step&#039;]) ? strip_tags(esc_sql($_POST[&#039;step&#039;])) : 0;
+    $step_max_items = geodir_get_diagnose_step_max_items();
+    $offset = (int) $step * $step_max_items;
+    $ptype = isset($_POST[&#039;ptype&#039;]) ? strip_tags(esc_sql($_POST[&#039;ptype&#039;])) : false;
+
+    $total_listings = geodir_total_listings_count();
+    $total_ptype_listings = 0;
+    if ($ptype) {
+        $total_ptype_listings = geodir_total_listings_count($ptype);
+    }
+    $max_step = ceil($total_ptype_listings / $step_max_items) - 1;
+
+    //if($fix){echo &#039;true&#039;;}else{echo &#039;false&#039;;}
+    $is_error_during_diagnose = false;
+    $output_str = &#039;&#039;;
+
+    if ($ptype &amp;&amp; !empty($ptype) &amp;&amp; $total_listings &gt; $step_max_items) {
+        $stepped_process = true;
+    } else {
+        $stepped_process = false;
+    }
+
+    if ($stepped_process) {
+        $sql = $wpdb-&gt;prepare( &quot;SELECT * FROM &quot; . $wpdb-&gt;prefix . &quot;geodir_&quot; . $ptype . &quot;_detail LIMIT %d OFFSET %d&quot;, $step_max_items, $offset );
+        $posts = $wpdb-&gt;get_results( $sql );
+
+        if (!empty($posts)) {
+
+            foreach ($posts as $p) {
+                $p-&gt;post_type = $ptype;
+                $raw_tags = wp_get_object_terms($p-&gt;post_id, $p-&gt;post_type . &#039;_tags&#039;, array(&#039;fields&#039; =&gt; &#039;names&#039;));
+                if (empty($raw_tags)) {
+                    $post_tags = &#039;&#039;;
+                } else {
+                    $post_tags = implode(&quot;,&quot;, $raw_tags);
+                }
+                $tablename = $plugin_prefix . $p-&gt;post_type . &#039;_detail&#039;;
+                $wpdb-&gt;query($wpdb-&gt;prepare(&quot;UPDATE &quot; . $tablename . &quot; SET post_tags=%s WHERE post_id =%d&quot;, $post_tags, $p-&gt;post_id));
+
+            }
+            if ($step &gt;= $max_step) {
+                $output_str = &quot;done&quot;;
+            } else {
+                $output_str = $step + 1;
+            }
+        }
+
+    } else {
+        $all_postypes = geodir_get_posttypes();
+
+        if (!empty($all_postypes)) {
+            foreach ($all_postypes as $key) {
+                // update each GD CPT
+                $posts = $wpdb-&gt;get_results( &quot;SELECT * FROM &quot; . $wpdb-&gt;prefix . &quot;geodir_&quot; . $key . &quot;_detail&quot;);
+
+                if (!empty($posts)) {
+
+                    foreach ($posts as $p) {
+                        $p-&gt;post_type = $key;
+                        $raw_tags = wp_get_object_terms($p-&gt;post_id, $p-&gt;post_type . &#039;_tags&#039;, array(&#039;fields&#039; =&gt; &#039;names&#039;));
+                        if (empty($raw_tags)) {
+                            $post_tags = &#039;&#039;;
+                        } else {
+                            $post_tags = implode(&quot;,&quot;, $raw_tags);
+                        }
+                        $tablename = $plugin_prefix . $p-&gt;post_type . &#039;_detail&#039;;
+                        $wpdb-&gt;query($wpdb-&gt;prepare(&quot;UPDATE &quot; . $tablename . &quot; SET post_tags=%s WHERE post_id =%d&quot;, $post_tags, $p-&gt;post_id));
+
+                    }
+                    $output_str .= &quot;&lt;li&gt;&quot; . $key . __(&#039;: Done&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+                }
+
+            }
+
+        }
+    }
+
+
+    if ($is_error_during_diagnose) {
+        $info_div_class = &quot;geodir_problem_info&quot;;
+        $fix_button_txt = &quot;&lt;input type=&#039;button&#039; value=&#039;&quot; . __(&#039;Fix&#039;, &#039;geodirectory&#039;) . &quot;&#039; class=&#039;button-primary geodir_fix_diagnostic_issue&#039; data-diagnostic-issue=&#039;ratings&#039; /&gt;&quot;;
+    } else {
+        $info_div_class = &quot;geodir_noproblem_info&quot;;
+        $fix_button_txt = &#039;&#039;;
+    }
+
+    if ($stepped_process) {
+        $percent = ($step/$max_step) * 100;
+        if ($output_str == &#039;done&#039;) {
+            echo $output_str;
+        } else {
+            $output = array(
+                &#039;step&#039; =&gt; $output_str,
+                &#039;percent&#039; =&gt; $percent
+            );
+            echo json_encode($output);
+        }
+    } else {
+        echo &quot;&lt;ul class=&#039;$info_div_class&#039;&gt;&quot;;
+        echo $output_str;
+        echo $fix_button_txt;
+        echo &quot;&lt;/ul&gt;&quot;;
+    }
+}
+
+/**
+ * Syncs when categories are missing from the details table but showing in other places in the backend.
+ *
+ * Only checks posts with missing category info in details table.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ * @global string $plugin_prefix Geodirectory plugin table prefix.
+ */
+function geodir_diagnose_cats_sync()
+{
+    global $wpdb, $plugin_prefix;
+    $fix = isset($_POST[&#039;fix&#039;]) ? true : false;
+
+    //if($fix){echo &#039;true&#039;;}else{echo &#039;false&#039;;}
+    $is_error_during_diagnose = false;
+    $output_str = &#039;&#039;;
+
+
+    $all_postypes = geodir_get_posttypes();
+
+    if (!empty($all_postypes)) {
+        foreach ($all_postypes as $key) {
+            // update each GD CTP
+            $posts = $wpdb-&gt;get_results(&quot;SELECT * FROM &quot; . $wpdb-&gt;prefix . &quot;geodir_&quot; . $key . &quot;_detail d WHERE d.&quot; . $key . &quot;category=&#039;&#039; &quot;);
+
+            if (!empty($posts)) {
+
+                foreach ($posts as $p) {
+                    $p-&gt;post_type = $key;
+                    $raw_cats = wp_get_object_terms($p-&gt;post_id, $p-&gt;post_type . &#039;category&#039;, array(&#039;fields&#039; =&gt; &#039;ids&#039;));
+
+                    if (empty($raw_cats)) {
+                        $post_category = get_post_meta($p-&gt;post_id, &#039;post_category&#039;, true);
+
+                        if (!empty($post_category) &amp;&amp; !empty($post_category[$p-&gt;post_type . &#039;category&#039;])) {
+                            $post_category[$p-&gt;post_type . &#039;category&#039;] = str_replace(&quot;d:&quot;, &quot;&quot;, $post_category[$p-&gt;post_type . &#039;category&#039;]);
+                            foreach (explode(&quot;,&quot;, $post_category[$p-&gt;post_type . &#039;category&#039;]) as $cat_part) {
+                                if (is_numeric($cat_part)) {
+                                    $raw_cats[] = (int)$cat_part;
+                                }
+                            }
+
+                        }
+
+                        if (!empty($raw_cats)) {
+                            $term_taxonomy_ids = wp_set_object_terms($p-&gt;post_id, $raw_cats, $p-&gt;post_type . &#039;category&#039;);
+
+                        }
+
+                    }
+
+
+                    if (empty($raw_cats)) {
+                        $post_cats = &#039;&#039;;
+                    } else {
+                        $post_cats = &#039;,&#039; . implode(&quot;,&quot;, $raw_cats) . &#039;,&#039;;
+                    }
+                    $tablename = $plugin_prefix . $p-&gt;post_type . &#039;_detail&#039;;
+                    $wpdb-&gt;query($wpdb-&gt;prepare(&quot;UPDATE &quot; . $tablename . &quot; SET &quot; . $p-&gt;post_type . &quot;category=%s WHERE post_id =%d&quot;, $post_cats, $p-&gt;post_id));
+                }
+
+            }
+            $output_str .= &quot;&lt;li&gt;&quot; . $key . __(&#039;: Done&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+
+        }
+
+    }
+
+    if ($is_error_during_diagnose) {
+        $info_div_class = &quot;geodir_problem_info&quot;;
+        $fix_button_txt = &quot;&lt;input type=&#039;button&#039; value=&#039;&quot; . __(&#039;Fix&#039;, &#039;geodirectory&#039;) . &quot;&#039; class=&#039;button-primary geodir_fix_diagnostic_issue&#039; data-diagnostic-issue=&#039;ratings&#039; /&gt;&quot;;
+    } else {
+        $info_div_class = &quot;geodir_noproblem_info&quot;;
+        $fix_button_txt = &#039;&#039;;
+    }
+    echo &quot;&lt;ul class=&#039;$info_div_class&#039;&gt;&quot;;
+    echo $output_str;
+    echo $fix_button_txt;
+    echo &quot;&lt;/ul&gt;&quot;;
+
+}
+
+/**
+ * Clears all GD version numbers so any upgrade functions will run again.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ * @global string $plugin_prefix Geodirectory plugin table prefix.
+ */
+function geodir_diagnose_version_clear()
+{
+    global $wpdb, $plugin_prefix;
+    $fix = isset($_POST[&#039;fix&#039;]) ? true : false;
+
+    //if($fix){echo &#039;true&#039;;}else{echo &#039;false&#039;;}
+    $is_error_during_diagnose = false;
+    $output_str = &#039;&#039;;
+
+
+    $gd_arr = array(&#039;GeoDirectory&#039; =&gt; &#039;geodirectory_db_version&#039;,
+        &#039;Payment Manager&#039; =&gt; &#039;geodir_payments_db_version&#039;,
+        &#039;GeoDirectory Framework&#039; =&gt; &#039;gdf_db_version&#039;,
+        &#039;Advanced Search&#039; =&gt; &#039;geodiradvancesearch_db_version&#039;,
+        &#039;Review Rating Manager&#039; =&gt; &#039;geodir_reviewratings_db_version&#039;,
+        &#039;Claim Manager&#039; =&gt; &#039;geodirclaim_db_version&#039;,
+        &#039;CPT Manager&#039; =&gt; &#039;geodir_custom_posts_db_version&#039;,
+        &#039;Location Manager&#039; =&gt; &#039;geodirlocation_db_version&#039;,
+        &#039;Payment Manager&#039; =&gt; &#039;geodir_payments_db_version&#039;,
+        &#039;Events Manager&#039; =&gt; &#039;geodirevents_db_version&#039;,
+    );
+
+    /**
+     * Filter the array of plugins to clear the version numbers for in the GD &gt;Tools : clear all version numbers.
+     *
+     * @since 1.0.0
+     * @param array $gd_arr The array or addons to clear, array(&#039;GeoDirectory&#039; =&gt; &#039;geodirectory_db_version&#039;,...
+     */
+    $ver_arr = apply_filters(&#039;geodir_db_version_name&#039;, $gd_arr);
+
+    if (!empty($ver_arr)) {
+        foreach ($ver_arr as $key =&gt; $val) {
+            if (delete_option($val)) {
+                $output_str .= &quot;&lt;li&gt;&quot; . $key . __(&#039; Version: Deleted&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+            } else {
+                $output_str .= &quot;&lt;li&gt;&quot; . $key . __(&#039; Version: Not Found&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+            }
+
+        }
+
+        if ($output_str) {
+            $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039; Upgrade/install scripts will run on next page reload.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+        }
+
+    }
+
+    if ($is_error_during_diagnose) {
+        $info_div_class = &quot;geodir_problem_info&quot;;
+        $fix_button_txt = &quot;&quot;;
+    } else {
+        $info_div_class = &quot;geodir_noproblem_info&quot;;
+        $fix_button_txt = &#039;&#039;;
+    }
+    echo &quot;&lt;ul class=&#039;$info_div_class&#039;&gt;&quot;;
+    echo $output_str;
+    echo $fix_button_txt;
+    echo &quot;&lt;/ul&gt;&quot;;
+
+}
+
+
+/**
+ * Checks ratings for correct location and content settings.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ */
+function geodir_diagnose_ratings()
+{
+    global $wpdb;
+    $fix = isset($_POST[&#039;fix&#039;]) ? true : false;
+
+    //if($fix){echo &#039;true&#039;;}else{echo &#039;false&#039;;}
+    $is_error_during_diagnose = false;
+    $output_str = &#039;&#039;;
+
+    // check review locations
+    if ($wpdb-&gt;get_results(&quot;SELECT * FROM &quot; . GEODIR_REVIEW_TABLE . &quot; WHERE city=&#039;&#039; OR city IS NULL OR latitude=&#039;&#039; OR latitude IS NULL&quot;)) {
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Review locations missing or broken&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+        $is_error_during_diagnose = true;
+
+        if ($fix) {
+            if (geodir_fix_review_location()) {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FIXED: Review locations fixed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            } else {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FAILED: Review locations fix failed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            }
+        }
+
+    } else {
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Review locations ok&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+    }
+
+    if ($is_error_during_diagnose) {
+        $info_div_class = &quot;geodir_problem_info&quot;;
+        $fix_button_txt = &quot;&lt;input type=&#039;button&#039; value=&#039;&quot; . __(&#039;Fix&#039;, &#039;geodirectory&#039;) . &quot;&#039; class=&#039;button-primary geodir_fix_diagnostic_issue&#039; data-diagnostic-issue=&#039;ratings&#039; /&gt;&quot;;
+    } else {
+        $info_div_class = &quot;geodir_noproblem_info&quot;;
+        $fix_button_txt = &#039;&#039;;
+    }
+    echo &quot;&lt;ul class=&#039;$info_div_class&#039;&gt;&quot;;
+    echo $output_str;
+    echo $fix_button_txt;
+    echo &quot;&lt;/ul&gt;&quot;;
+
+}
+
+
+/**
+ * Checks if the GD database tables have been converted to use multisite correctly.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ */
+function geodir_diagnose_multisite_conversion()
+{
+    global $wpdb;
+    $fix = isset($_POST[&#039;fix&#039;]) ? true : false;
+    //if($fix){echo &#039;true&#039;;}else{echo &#039;false&#039;;}
+    $is_error_during_diagnose = false;
+    $output_str = &#039;&#039;;
+
+    $filter_arr = array();
+    $filter_arr[&#039;output_str&#039;] = $output_str;
+    $filter_arr[&#039;is_error_during_diagnose&#039;] = $is_error_during_diagnose;
+    $table_arr = array(
+		&#039;geodir_api_keys&#039; =&gt; __(&#039;API Keys&#039;, &#039;geodirectory&#039;),
+		&#039;geodir_business_hours&#039; =&gt; __(&#039;Business Hours&#039;, &#039;geodirectory&#039;),
+        &#039;geodir_custom_fields&#039; =&gt; __(&#039;Custom fields&#039;, &#039;geodirectory&#039;),
+        &#039;geodir_post_icon&#039; =&gt; __(&#039;Post icon&#039;, &#039;geodirectory&#039;),
+        &#039;geodir_attachments&#039; =&gt; __(&#039;Attachments&#039;, &#039;geodirectory&#039;),
+        &#039;geodir_post_review&#039; =&gt; __(&#039;Reviews&#039;, &#039;geodirectory&#039;),
+        &#039;geodir_custom_sort_fields&#039; =&gt; __(&#039;Custom sort fields&#039;, &#039;geodirectory&#039;),
+        &#039;geodir_gd_place_detail&#039; =&gt; __(&#039;Place detail&#039;, &#039;geodirectory&#039;)
+    );
+
+    // allow other addons to hook in and add their checks
+
+    /**
+     * Filter the array of tables.
+     *
+     * Filter the array of tables to check during the GD&gt;Tools multisite DB conversion tool check, this allows addons to add their DB tables to the checks.
+     *
+     * @since 1.0.0
+     * @param array $table_arr The array of tables to check, array(&#039;geodir_post_review&#039; =&gt; __(&#039;Reviews&#039;, &#039;geodirectory&#039;),...
+     */
+    $table_arr = apply_filters(&#039;geodir_diagnose_multisite_conversion&#039;, $table_arr);
+
+    foreach ($table_arr as $table =&gt; $table_name) {
+        // Diagnose table
+        $filter_arr = geodir_diagnose_multisite_table($filter_arr, $table, $table_name, $fix);
+    }
+
+
+    $output_str = $filter_arr[&#039;output_str&#039;];
+    $is_error_during_diagnose = $filter_arr[&#039;is_error_during_diagnose&#039;];
+
+
+    if ($is_error_during_diagnose) {
+        $info_div_class = &quot;geodir_problem_info&quot;;
+        $fix_button_txt = &quot;&lt;input type=&#039;button&#039; value=&#039;&quot; . __(&#039;Fix&#039;, &#039;geodirectory&#039;) . &quot;&#039; class=&#039;button-primary geodir_fix_diagnostic_issue&#039; data-diagnostic-issue=&#039;multisite_conversion&#039; /&gt;&quot;;
+    } else {
+        $info_div_class = &quot;geodir_noproblem_info&quot;;
+        $fix_button_txt = &#039;&#039;;
+    }
+    echo &quot;&lt;ul class=&#039;$info_div_class&#039;&gt;&quot;;
+    echo $output_str;
+    echo $fix_button_txt;
+    echo &quot;&lt;/ul&gt;&quot;;
+}
+
+/**
+ * Fixes if the GD pages are not installed correctly.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ * @global object $current_user Current user object.
+ * @param string $slug The page slug.
+ * @param string $page_title The page title.
+ * @param int $old_id Old post ID.
+ * @param string $option Option meta key.
+ * @return bool Returns true when success. false when failure.
+ */
+function geodir_fix_virtual_page($slug, $page_title, $old_id, $option)
+{
+    global $wpdb, $current_user;
+
+    if (!empty($old_id)) {
+        wp_delete_post($old_id, true);
+    }//delete post if already there
+    else {
+        $page_found = $wpdb-&gt;get_var(
+            $wpdb-&gt;prepare(
+                &quot;SELECT ID FROM &quot; . $wpdb-&gt;posts . &quot; WHERE post_name = %s LIMIT 1;&quot;,
+                array($slug)
+            )
+        );
+        wp_delete_post($page_found, true);
+
+    }
+
+    $page_data = array(
+        &#039;post_status&#039; =&gt; &#039;publish&#039;,
+        &#039;post_type&#039; =&gt; &#039;page&#039;,
+        &#039;post_author&#039; =&gt; $current_user-&gt;ID,
+        &#039;post_name&#039; =&gt; $slug,
+        &#039;post_title&#039; =&gt; $page_title,
+        &#039;post_content&#039; =&gt; &#039;&#039;,
+        &#039;post_parent&#039; =&gt; 0,
+        &#039;comment_status&#039; =&gt; &#039;closed&#039;
+    );
+    $page_id = wp_insert_post($page_data);
+    geodir_update_option($option, $page_id);
+    if ($page_id) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+/**
+ * Checks if the GD pages are installed correctly or not.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ */
+function geodir_diagnose_default_pages()
+{
+    global $wpdb;
+    $is_error_during_diagnose = false;
+    $output_str = &#039;&#039;;
+    $fix = isset($_POST[&#039;fix&#039;]) ? true : false;
+    
+
+    //////////////////////////////////
+    /* Diagnose Add Listing Page Starts */
+    //////////////////////////////////
+    $option_value = geodir_get_option(&#039;geodir_add_listing_page&#039;);
+    $page = get_post($option_value);
+    if(!empty($page)){$page_found = $page-&gt;ID;}else{$page_found = &#039;&#039;;}
+
+    if(!empty($option_value) &amp;&amp; !empty($page_found) &amp;&amp; $option_value == $page_found &amp;&amp; $page-&gt;post_status==&#039;publish&#039;)
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Add Listing page exists with proper setting.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+    else {
+        $is_error_during_diagnose = true;
+        $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;Add Listing page is missing.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+        if ($fix) {
+            if (geodir_fix_virtual_page(&#039;add-listing&#039;, __(&#039;Add Listing&#039;, &#039;geodirectory&#039;), $page_found, &#039;geodir_add_listing_page&#039;)) {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FIXED: Add Listing page fixed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            } else {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FAILED: Add Listing page fix failed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            }
+        }
+    }
+
+    ////////////////////////////////
+    /* Diagnose Add Listing Page Ends */
+    ////////////////////////////////
+
+
+    //////////////////////////////////
+    /* Diagnose Listing Preview Page Starts */
+    //////////////////////////////////
+    $option_value = geodir_get_option(&#039;geodir_preview_page&#039;);
+    $page = get_post($option_value);
+    if(!empty($page)){$page_found = $page-&gt;ID;}else{$page_found = &#039;&#039;;}
+
+    if(!empty($option_value) &amp;&amp; !empty($page_found) &amp;&amp; $option_value == $page_found &amp;&amp; $page-&gt;post_status==&#039;publish&#039;)
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Listing Preview page exists with proper setting.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+    else {
+        $is_error_during_diagnose = true;
+        $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;Listing Preview page is missing.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+        if ($fix) {
+            if (geodir_fix_virtual_page(&#039;listing-preview&#039;, __(&#039;Listing Preview&#039;, &#039;geodirectory&#039;), $page_found, &#039;geodir_preview_page&#039;)) {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FIXED: Listing Preview page fixed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            } else {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FAILED: Listing Preview page fix failed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            }
+        }
+    }
+
+    ////////////////////////////////
+    /* Diagnose Listing Preview Page Ends */
+    ////////////////////////////////
+
+    //////////////////////////////////
+    /* Diagnose Listing Success Page Starts */
+    //////////////////////////////////
+    $option_value = geodir_get_option(&#039;geodir_success_page&#039;);
+    $page = get_post($option_value);
+    if(!empty($page)){$page_found = $page-&gt;ID;}else{$page_found = &#039;&#039;;}
+
+    if(!empty($option_value) &amp;&amp; !empty($page_found) &amp;&amp; $option_value == $page_found &amp;&amp; $page-&gt;post_status==&#039;publish&#039;)
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Listing Success page exists with proper setting.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+    else {
+        $is_error_during_diagnose = true;
+        $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;Listing Success page is missing.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+        if ($fix) {
+            if (geodir_fix_virtual_page(&#039;listing-success&#039;, __(&#039;Listing Success&#039;, &#039;geodirectory&#039;), $page_found, &#039;geodir_success_page&#039;)) {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FIXED: Listing Success page fixed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            } else {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FAILED: Listing Success page fix failed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            }
+        }
+    }
+
+    ////////////////////////////////
+    /* Diagnose Listing Sucess Page Ends */
+    ////////////////////////////////
+
+    //////////////////////////////////
+    /* Diagnose Info Page Starts */
+    //////////////////////////////////
+    $option_value = geodir_get_option(&#039;geodir_info_page&#039;);
+    $page = get_post($option_value);
+    if(!empty($page)){$page_found = $page-&gt;ID;}else{$page_found = &#039;&#039;;}
+
+    if(!empty($option_value) &amp;&amp; !empty($page_found) &amp;&amp; $option_value == $page_found &amp;&amp; $page-&gt;post_status==&#039;publish&#039;)
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Info page exists with proper setting.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+    else {
+        $is_error_during_diagnose = true;
+        $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;Info page is missing.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+        if ($fix) {
+            if (geodir_fix_virtual_page(&#039;gd-info&#039;, __(&#039;Info&#039;, &#039;geodirectory&#039;), $page_found, &#039;geodir_info_page&#039;)) {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FIXED: Info page fixed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            } else {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FAILED: Info page fix failed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            }
+        }
+    }
+
+    ////////////////////////////////
+    /* Diagnose Info Page Ends */
+    ////////////////////////////////
+
+    //////////////////////////////////
+    /* Diagnose Login Page Starts */
+    //////////////////////////////////
+    $option_value = geodir_get_option(&#039;geodir_login_page&#039;);
+    $page = get_post($option_value);
+    if(!empty($page)){$page_found = $page-&gt;ID;}else{$page_found = &#039;&#039;;}
+
+    if(!empty($option_value) &amp;&amp; !empty($page_found) &amp;&amp; $option_value == $page_found &amp;&amp; $page-&gt;post_status==&#039;publish&#039;)
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Login page exists with proper setting.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+    else {
+        $is_error_during_diagnose = true;
+        $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;Login page is missing.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+        if ($fix) {
+            if (geodir_fix_virtual_page(&#039;gd-login&#039;, __(&#039;Login&#039;, &#039;geodirectory&#039;), $page_found, &#039;geodir_login_page&#039;)) {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FIXED: Login page fixed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            } else {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FAILED: Login page fix failed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            }
+        }
+    }
+
+    ////////////////////////////////
+    /* Diagnose Info Page Ends */
+    ////////////////////////////////
+
+    //////////////////////////////////
+    /* Diagnose Location Page Starts */
+    //////////////////////////////////
+    $option_value = geodir_get_option(&#039;geodir_location_page&#039;);
+    $page = get_post($option_value);
+    if(!empty($page)){$page_found = $page-&gt;ID;}else{$page_found = &#039;&#039;;}
+
+    if(!empty($option_value) &amp;&amp; !empty($page_found) &amp;&amp; $option_value == $page_found &amp;&amp; $page-&gt;post_status==&#039;publish&#039;)
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Location page exists with proper setting.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+    else {
+        $is_error_during_diagnose = true;
+        $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;Location page is missing.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+        if ($fix) {
+            if (geodir_fix_virtual_page(&#039;location&#039;, __(&#039;Location&#039;, &#039;geodirectory&#039;), $page_found, &#039;geodir_location_page&#039;)) {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FIXED: Location page fixed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            } else {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FAILED: Location page fix failed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            }
+        }
+    }
+
+    ////////////////////////////////
+    /* Diagnose Location Page Ends */
+    ////////////////////////////////
+
+    //////////////////////////////////
+    /* Diagnose Archive Page Starts */
+    //////////////////////////////////
+    $option_value = geodir_get_option(&#039;geodir_archive_page&#039;);
+    $page = get_post($option_value);
+    if(!empty($page)){$page_found = $page-&gt;ID;}else{$page_found = &#039;&#039;;}
+
+    if(!empty($option_value) &amp;&amp; !empty($page_found) &amp;&amp; $option_value == $page_found &amp;&amp; $page-&gt;post_status==&#039;publish&#039;)
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Archive page exists with proper setting.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+    else {
+        $is_error_during_diagnose = true;
+        $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;Archive page is missing.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+        if ($fix) {
+            if (geodir_fix_virtual_page(&#039;gd-archive&#039;, __(&#039;GD Archive&#039;, &#039;geodirectory&#039;), $page_found, &#039;geodir_archive_page&#039;)) {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FIXED: Archive page fixed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            } else {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FAILED: Archive page fix failed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            }
+        }
+    }
+
+    ////////////////////////////////
+    /* Diagnose Archive Page Ends */
+    ////////////////////////////////
+
+    //////////////////////////////////
+    /* Diagnose Search Page Starts */
+    //////////////////////////////////
+    $option_value = geodir_get_option(&#039;geodir_search_page&#039;);
+    $page = get_post($option_value);
+    if(!empty($page)){$page_found = $page-&gt;ID;}else{$page_found = &#039;&#039;;}
+
+    if(!empty($option_value) &amp;&amp; !empty($page_found) &amp;&amp; $option_value == $page_found &amp;&amp; $page-&gt;post_status==&#039;publish&#039;)
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Search page exists with proper setting.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+    else {
+        $is_error_during_diagnose = true;
+        $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;Search page is missing.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+        if ($fix) {
+            if (geodir_fix_virtual_page(&#039;gd-search&#039;, __(&#039;GD Search&#039;, &#039;geodirectory&#039;), $page_found, &#039;geodir_search_page&#039;)) {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FIXED: Search page fixed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            } else {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FAILED: Search page fix failed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            }
+        }
+    }
+
+    ////////////////////////////////
+    /* Diagnose Search Page Ends */
+    ////////////////////////////////
+
+    //////////////////////////////////
+    /* Diagnose Details Page Starts */
+    //////////////////////////////////
+    $option_value = geodir_get_option(&#039;geodir_details_page&#039;);
+    $page = get_post($option_value);
+    if(!empty($page)){$page_found = $page-&gt;ID;}else{$page_found = &#039;&#039;;}
+
+    if(!empty($option_value) &amp;&amp; !empty($page_found) &amp;&amp; $option_value == $page_found &amp;&amp; $page-&gt;post_status==&#039;publish&#039;)
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Details page exists with proper setting.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+    else {
+        $is_error_during_diagnose = true;
+        $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;Details page is missing.&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+        if ($fix) {
+            if (geodir_fix_virtual_page(&#039;gd-details&#039;, __(&#039;GD Details&#039;, &#039;geodirectory&#039;), $page_found, &#039;geodir_details_page&#039;)) {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FIXED: Details page fixed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            } else {
+                $output_str .= &quot;&lt;li&gt;&lt;strong&gt;&quot; . __(&#039;--&gt;FAILED: Details page fix failed&#039;, &#039;geodirectory&#039;) . &quot;&lt;/strong&gt;&lt;/li&gt;&quot;;
+            }
+        }
+    }
+
+    ////////////////////////////////
+    /* Diagnose Details Page Ends */
+    ////////////////////////////////
+
+    $page_chk_arr = array(&#039;output_str&#039;=&gt;$output_str,&#039;is_error_during_diagnose&#039;=&gt;$is_error_during_diagnose );
+    /**
+     * This action is called at the end of the GD Tools page check function.
+     *
+     * @since 1.5.2
+     */
+    $page_chk_arr = apply_filters(&#039;geodir_diagnose_default_pages&#039;,$page_chk_arr);
+
+    $output_str = $page_chk_arr[&#039;output_str&#039;];
+    $is_error_during_diagnose = $page_chk_arr[&#039;is_error_during_diagnose&#039;];
+
+    if ($is_error_during_diagnose) {
+        if ($fix) {
+            flush_rewrite_rules();
+        }
+        $info_div_class = &quot;geodir_problem_info&quot;;
+        $fix_button_txt = &quot;&lt;input type=&#039;button&#039; value=&#039;&quot; . __(&#039;Fix&#039;, &#039;geodirectory&#039;) . &quot;&#039; class=&#039;button-primary geodir_fix_diagnostic_issue&#039; data-diagnostic-issue=&#039;default_pages&#039; /&gt;&quot;;
+    } else {
+        $info_div_class = &quot;geodir_noproblem_info&quot;;
+        $fix_button_txt = &#039;&#039;;
+    }
+    echo &quot;&lt;ul class=&#039;$info_div_class&#039;&gt;&quot;;
+    echo $output_str;
+    echo $fix_button_txt;
+    echo &quot;&lt;/ul&gt;&quot;;
+
+}
+
+/**
+ * Loads custom fields in to file for translation.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ */
+function geodir_diagnose_load_db_language() {
+    global $wpdb;
+	
+    $tools_controller = new GeoDir_Admin_Tools();
+    $is_error_during_diagnose = $tools_controller-&gt;load_db_language();
+
+    $output_str = &#039;&#039;;
+    $fix_button_txt = &#039;&#039;;
+
+    if ($is_error_during_diagnose) {
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Fail to load custom fields in to file for translation, please check file permission:&#039;, &#039;geodirectory&#039;) . &#039; &#039; . geodir_plugin_path() . &#039;/db-language.php&#039; . &quot;&lt;/li&gt;&quot;;
+		$info_div_class = &quot;geodir_problem_info&quot;;
+    } else {
+        $output_str .= &quot;&lt;li&gt;&quot; . __(&#039;Load custom fields in to file for translation: ok&#039;, &#039;geodirectory&#039;) . &quot;&lt;/li&gt;&quot;;
+		$info_div_class = &quot;geodir_noproblem_info&quot;;
+        $fix_button_txt = &#039;&#039;;
+    }
+    
+	echo &quot;&lt;ul class=&#039;$info_div_class&#039;&gt;&quot;;
+    echo $output_str;
+    echo $fix_button_txt;
+    echo &quot;&lt;/ul&gt;&quot;;
+
+}
+
+/* Ajax Handler Ends*/
+
+add_filter(&#039;posts_clauses_request&#039;, &#039;geodir_posts_clauses_request&#039;);
+/**
+ * Adds sorting type - sort by expire.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ * @global object $wp_query WordPress Query object.
+ * @global string $plugin_prefix Geodirectory plugin table prefix.
+ * @param array $clauses {
+ *    Attributes of the clause array.
+ *
+ *    @type string $where Where clause.
+ *    @type string $groupby Groupby clause.
+ *    @type string $join Join clause.
+ *    @type string $orderby Orderby clause.
+ *    @type string $distinct Distinct clause.
+ *    @type string $fields Fields clause.
+ *    @type string $limits Limits clause.
+ *
+ * }
+ * @return array Altered clause array.
+ */
+function geodir_posts_clauses_request($clauses)
+{
+    global $wpdb, $wp_query, $plugin_prefix;
+
+    if (is_admin() &amp;&amp; !empty($wp_query-&gt;query_vars) &amp;&amp; !empty($wp_query-&gt;query_vars[&#039;is_geodir_loop&#039;]) &amp;&amp; !empty($wp_query-&gt;query_vars[&#039;orderby&#039;]) &amp;&amp; $wp_query-&gt;query_vars[&#039;orderby&#039;] == &#039;expire&#039; &amp;&amp; !empty($wp_query-&gt;query_vars[&#039;post_type&#039;]) &amp;&amp; in_array($wp_query-&gt;query_vars[&#039;post_type&#039;], geodir_get_posttypes()) &amp;&amp; !empty($wp_query-&gt;query_vars[&#039;orderby&#039;]) &amp;&amp; isset($clauses[&#039;join&#039;]) &amp;&amp; isset($clauses[&#039;orderby&#039;]) &amp;&amp; isset($clauses[&#039;fields&#039;])) {
+        $table = $plugin_prefix . $wp_query-&gt;query_vars[&#039;post_type&#039;] . &#039;_detail&#039;;
+
+        $join = $clauses[&#039;join&#039;] . &#039; INNER JOIN &#039; . $table . &#039; AS gd_posts ON (gd_posts.post_id = &#039; . $wpdb-&gt;posts . &#039;.ID)&#039;;
+        $clauses[&#039;join&#039;] = $join;
+
+        $fields = $clauses[&#039;fields&#039;] != &#039;&#039; ? $clauses[&#039;fields&#039;] . &#039;, &#039; : &#039;&#039;;
+        $fields .= &#039;IF(UNIX_TIMESTAMP(DATE_FORMAT(gd_posts.expire_date, &quot;%Y-%m-%d&quot;)), UNIX_TIMESTAMP(DATE_FORMAT(gd_posts.expire_date, &quot;%Y-%m-%d&quot;)), 253402300799) AS gd_expire&#039;;
+        $clauses[&#039;fields&#039;] = $fields;
+
+        $order = !empty($wp_query-&gt;query_vars[&#039;order&#039;]) ? $wp_query-&gt;query_vars[&#039;order&#039;] : &#039;ASC&#039;;
+        $orderby = &#039;gd_expire &#039; . $order;
+        $clauses[&#039;orderby&#039;] = $orderby;
+    }
+    return $clauses;
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

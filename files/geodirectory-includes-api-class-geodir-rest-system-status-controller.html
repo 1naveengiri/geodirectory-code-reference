@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-rest-system-status-controller.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * REST API GD System Status controller
+ *
+ * Handles requests to the /system_status endpoint.
+ *
+ * @author   GeoDirectory
+ * @category API
+ * @package  GeoDirectory/API
+ * @since    2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+/**
+ * @package GeoDirectory/API
+ * @extends GeoDir_REST_Controller
+ */
+class GeoDir_REST_System_Status_Controller extends GeoDir_REST_Controller {
+
+	/**
+	 * Endpoint namespace.
+	 *
+	 * @var string
+	 */
+	protected $namespace = &#039;geodir/v2&#039;;
+
+	/**
+	 * Route base.
+	 *
+	 * @var string
+	 */
+	protected $rest_base = &#039;system_status&#039;;
+
+	/**
+	 * Register the route for /system_status
+	 */
+	public function register_routes() {
+		register_rest_route( $this-&gt;namespace, &#039;/&#039; . $this-&gt;rest_base, array(
+			array(
+				&#039;methods&#039;             =&gt; WP_REST_Server::READABLE,
+				&#039;callback&#039;            =&gt; array( $this, &#039;get_items&#039; ),
+				&#039;permission_callback&#039; =&gt; array( $this, &#039;get_items_permissions_check&#039; ),
+				&#039;args&#039;                =&gt; $this-&gt;get_collection_params(),
+			),
+			&#039;schema&#039; =&gt; array( $this, &#039;get_public_item_schema&#039; ),
+		) );
+	}
+
+	/**
+	 * Check whether a given request has permission to view system status.
+	 *
+	 * @param  WP_REST_Request $request Full details about the request.
+	 * @return WP_Error|boolean
+	 */
+	public function get_items_permissions_check( $request ) {
+		if ( ! geodir_rest_check_manager_permissions( &#039;system_status&#039;, &#039;read&#039; ) ) {
+			return new WP_Error( &#039;geodir_rest_cannot_view&#039;, __( &#039;Sorry, you cannot list resources.&#039;, &#039;geodirectory&#039; ), array( &#039;status&#039; =&gt; rest_authorization_required_code() ) );
+		}
+		return true;
+	}
+
+	/**
+	 * Get a system status info, by section.
+	 *
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_Error|WP_REST_Response
+	 */
+	public function get_items( $request ) {
+		$schema    = $this-&gt;get_item_schema();
+		$mappings  = $this-&gt;get_item_mappings();
+		$response  = array();
+
+		foreach ( $mappings as $section =&gt; $values ) {
+			foreach ( $values as $key =&gt; $value ) {
+				if ( isset( $schema[&#039;properties&#039;][ $section ][&#039;properties&#039;][ $key ][&#039;type&#039;] ) ) {
+					settype( $values[ $key ], $schema[&#039;properties&#039;][ $section ][&#039;properties&#039;][ $key ][&#039;type&#039;] );
+				}
+			}
+			settype( $values, $schema[&#039;properties&#039;][ $section ][&#039;type&#039;] );
+			$response[ $section ] = $values;
+		}
+
+		$response = $this-&gt;prepare_item_for_response( $response, $request );
+
+		return rest_ensure_response( $response );
+	}
+
+	/**
+	 * Get the system status schema, conforming to JSON Schema.
+	 *
+	 * @return array
+	 */
+	public function get_item_schema() {
+		$schema = array(
+			&#039;$schema&#039;    =&gt; &#039;http://json-schema.org/draft-04/schema#&#039;,
+			&#039;title&#039;      =&gt; &#039;system_status&#039;,
+			&#039;type&#039;       =&gt; &#039;object&#039;,
+			&#039;properties&#039; =&gt; array(
+				&#039;environment&#039; =&gt; array(
+					&#039;description&#039; =&gt; __( &#039;Environment.&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;        =&gt; &#039;object&#039;,
+					&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+					&#039;readonly&#039;    =&gt; true,
+					&#039;properties&#039;  =&gt; array(
+						&#039;home_url&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Home URL.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;format&#039;      =&gt; &#039;uri&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;site_url&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Site URL.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;format&#039;      =&gt; &#039;uri&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;geodir_version&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;GeoDirectory version.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;wp_version&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;WordPress version.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;wp_multisite&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Is WordPress multisite?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;wp_memory_limit&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;WordPress memory limit.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;integer&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;wp_debug_mode&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Is WordPress debug mode active?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;wp_cron&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Are WordPress cron jobs enabled?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;language&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;WordPress language.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;server_info&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Server info.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;php_version&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;PHP version.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;php_post_max_size&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;PHP post max size.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;integer&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;php_max_execution_time&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;PHP max execution time.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;integer&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;php_max_input_vars&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;PHP max input vars.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;integer&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;curl_version&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;cURL version.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;suhosin_installed&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Is SUHOSIN installed?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;max_upload_size&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Max upload size.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;integer&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;mysql_version&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;MySQL version.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;default_timezone&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Default timezone.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;fsockopen_or_curl_enabled&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Is fsockopen/cURL enabled?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;soapclient_enabled&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Is SoapClient class enabled?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;domdocument_enabled&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Is DomDocument class enabled?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;gzip_enabled&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Is GZip enabled?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;mbstring_enabled&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Is mbstring enabled?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;remote_post_successful&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Remote POST successful?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;remote_post_response&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Remote POST response.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;remote_get_successful&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Remote GET successful?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;remote_get_response&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Remote GET response.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+					),
+				),
+				&#039;database&#039; =&gt; array(
+					&#039;description&#039; =&gt; __( &#039;Database.&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;        =&gt; &#039;object&#039;,
+					&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+					&#039;readonly&#039;    =&gt; true,
+					&#039;properties&#039;  =&gt; array(
+						&#039;geodirectory_db_version&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;GD database version.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;database_prefix&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Database prefix.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;database_tables&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Database tables.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;array&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+							&#039;items&#039;       =&gt; array(
+								&#039;type&#039;    =&gt; &#039;string&#039;,
+							),
+						),
+					),
+				),
+				&#039;active_plugins&#039; =&gt; array(
+					&#039;description&#039; =&gt; __( &#039;Active plugins.&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;        =&gt; &#039;array&#039;,
+					&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+					&#039;readonly&#039;    =&gt; true,
+					&#039;items&#039;       =&gt; array(
+						&#039;type&#039;    =&gt; &#039;string&#039;,
+					),
+				),
+				&#039;theme&#039; =&gt; array(
+					&#039;description&#039; =&gt; __( &#039;Theme.&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;        =&gt; &#039;object&#039;,
+					&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+					&#039;readonly&#039;    =&gt; true,
+					&#039;properties&#039;  =&gt; array(
+						&#039;name&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Theme name.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;version&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Theme version.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;version_latest&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Latest version of theme.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;author_url&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Theme author URL.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;format&#039;      =&gt; &#039;uri&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;is_child_theme&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Is this theme a child theme?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;has_geodirectory_support&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Does the theme declare GeoDirectory support?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;has_outdated_templates&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Does this theme have outdated templates?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;overrides&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Template overrides.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;array&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+							&#039;items&#039;       =&gt; array(
+								&#039;type&#039;    =&gt; &#039;string&#039;,
+							),
+						),
+						&#039;parent_name&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Parent theme name.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;parent_version&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Parent theme version.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;parent_author_url&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Parent theme author URL.&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;format&#039;      =&gt; &#039;uri&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+					),
+				),
+				&#039;settings&#039; =&gt; array(
+					&#039;description&#039; =&gt; __( &#039;Settings.&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;        =&gt; &#039;object&#039;,
+					&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+					&#039;readonly&#039;    =&gt; true,
+					&#039;properties&#039;  =&gt; array(
+						&#039;api_enabled&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;REST API enabled?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;upload_max_filesize&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Max upload file size(in mb)&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;default_status&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;New listing default status&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;string&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+					),
+				),
+				&#039;security&#039; =&gt; array(
+					&#039;description&#039; =&gt; __( &#039;Security.&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;        =&gt; &#039;object&#039;,
+					&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+					&#039;readonly&#039;    =&gt; true,
+					&#039;properties&#039;  =&gt; array(
+						&#039;secure_connection&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Is the connection to your store secure?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+						&#039;hide_errors&#039; =&gt; array(
+							&#039;description&#039; =&gt; __( &#039;Hide errors from visitors?&#039;, &#039;geodirectory&#039; ),
+							&#039;type&#039;        =&gt; &#039;boolean&#039;,
+							&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+							&#039;readonly&#039;    =&gt; true,
+						),
+					),
+				),
+				&#039;pages&#039; =&gt; array(
+					&#039;description&#039; =&gt; __( &#039;GeoDirectory pages.&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;        =&gt; &#039;array&#039;,
+					&#039;context&#039;     =&gt; array( &#039;view&#039; ),
+					&#039;readonly&#039;    =&gt; true,
+					&#039;items&#039;       =&gt; array(
+						&#039;type&#039;    =&gt; &#039;string&#039;,
+					),
+				),
+			),
+		);
+
+		return $this-&gt;add_additional_fields_schema( $schema );
+	}
+
+	/**
+	 * Return an array of sections and the data associated with each.
+	 *
+	 * @return array
+	 */
+	public function get_item_mappings() {
+		return array(
+			&#039;environment&#039;    =&gt; $this-&gt;get_environment_info(),
+			&#039;database&#039;       =&gt; $this-&gt;get_database_info(),
+			&#039;active_plugins&#039; =&gt; $this-&gt;get_active_plugins(),
+			&#039;theme&#039;          =&gt; $this-&gt;get_theme_info(),
+			&#039;settings&#039;       =&gt; $this-&gt;get_settings(),
+			&#039;security&#039;       =&gt; $this-&gt;get_security_info(),
+			&#039;pages&#039;          =&gt; $this-&gt;get_pages(),
+		);
+	}
+
+	/**
+	 * Get array of environment information. Includes thing like software
+	 * versions, and various server settings.
+	 *
+	 * @return array
+	 */
+	public function get_environment_info() {
+		global $wpdb;
+
+		// Figure out cURL version, if installed.
+		$curl_version = &#039;&#039;;
+		if ( function_exists( &#039;curl_version&#039; ) ) {
+			$curl_version = curl_version();
+			$curl_version = $curl_version[&#039;version&#039;] . &#039;, &#039; . $curl_version[&#039;ssl_version&#039;];
+		}
+
+		// WP memory limit
+		$wp_memory_limit = geodir_let_to_num( WP_MEMORY_LIMIT );
+		if ( function_exists( &#039;memory_get_usage&#039; ) ) {
+			$wp_memory_limit = max( $wp_memory_limit, geodir_let_to_num( @ini_get( &#039;memory_limit&#039; ) ) );
+		}
+		
+		// User agent
+		$user_agent = isset( $_SERVER[&#039;HTTP_USER_AGENT&#039;] ) ? $_SERVER[&#039;HTTP_USER_AGENT&#039;] : &#039;&#039;;
+
+		// Test POST requests
+		$post_response = wp_safe_remote_post( &#039;http://api.wordpress.org/core/browse-happy/1.1/&#039;, array(
+			&#039;timeout&#039;     =&gt; 10,
+			&#039;user-agent&#039;  =&gt; &#039;WordPress/&#039; . get_bloginfo( &#039;version&#039; ) . &#039;; &#039; . home_url(),
+			&#039;httpversion&#039; =&gt; &#039;1.1&#039;,
+			&#039;body&#039;        =&gt; array(
+				&#039;useragent&#039;	=&gt; $user_agent,
+			),
+		) );
+		
+		$post_response_body = NULL;
+		$post_response_successful = false;
+		if ( ! is_wp_error( $post_response ) &amp;&amp; $post_response[&#039;response&#039;][&#039;code&#039;] &gt;= 200 &amp;&amp; $post_response[&#039;response&#039;][&#039;code&#039;] &lt; 300 ) {
+			$post_response_successful = true;
+			$post_response_body = json_decode( wp_remote_retrieve_body( $post_response ), true );
+		}
+
+		// Test GET requests
+		$get_response = wp_safe_remote_get( &#039;https://plugins.svn.wordpress.org/geodirectory/trunk/readme.txt&#039;, array(
+			&#039;timeout&#039;     =&gt; 10,
+			&#039;user-agent&#039;  =&gt; &#039;GeoDirectory/&#039; . GeoDir()-&gt;version,
+			&#039;httpversion&#039; =&gt; &#039;1.1&#039;
+		) );
+		$get_response_successful = false;
+		if ( ! is_wp_error( $post_response ) &amp;&amp; $post_response[&#039;response&#039;][&#039;code&#039;] &gt;= 200 &amp;&amp; $post_response[&#039;response&#039;][&#039;code&#039;] &lt; 300 ) {
+			$get_response_successful = true;
+		}
+
+		// Return all environment info. Described by JSON Schema.
+		return array(
+			&#039;home_url&#039;                  =&gt; get_option( &#039;home&#039; ),
+			&#039;site_url&#039;                  =&gt; get_option( &#039;siteurl&#039; ),
+			&#039;version&#039;                   =&gt; GeoDir()-&gt;version,
+			&#039;wp_version&#039;                =&gt; get_bloginfo( &#039;version&#039; ),
+			&#039;wp_multisite&#039;              =&gt; is_multisite(),
+			&#039;wp_memory_limit&#039;           =&gt; $wp_memory_limit,
+			&#039;wp_debug_mode&#039;             =&gt; ( defined( &#039;WP_DEBUG&#039; ) &amp;&amp; WP_DEBUG ),
+			&#039;wp_cron&#039;                   =&gt; ! ( defined( &#039;DISABLE_WP_CRON&#039; ) &amp;&amp; DISABLE_WP_CRON ),
+			&#039;language&#039;                  =&gt; get_locale(),
+			&#039;server_info&#039;               =&gt; $_SERVER[&#039;SERVER_SOFTWARE&#039;],
+			&#039;php_version&#039;               =&gt; phpversion(),
+			&#039;php_post_max_size&#039;         =&gt; geodir_let_to_num( ini_get( &#039;post_max_size&#039; ) ),
+			&#039;php_max_execution_time&#039;    =&gt; ini_get( &#039;max_execution_time&#039; ),
+			&#039;php_max_input_vars&#039;        =&gt; ini_get( &#039;max_input_vars&#039; ),
+			&#039;curl_version&#039;              =&gt; $curl_version,
+			&#039;suhosin_installed&#039;         =&gt; extension_loaded( &#039;suhosin&#039; ),
+			&#039;max_upload_size&#039;           =&gt; wp_max_upload_size(),
+			&#039;mysql_version&#039;             =&gt; ( ! empty( $wpdb-&gt;is_mysql ) ? $wpdb-&gt;db_version() : &#039;&#039; ),
+			&#039;default_timezone&#039;          =&gt; date_default_timezone_get(),
+			&#039;fsockopen_or_curl_enabled&#039; =&gt; ( function_exists( &#039;fsockopen&#039; ) || function_exists( &#039;curl_init&#039; ) ),
+			&#039;soapclient_enabled&#039;        =&gt; class_exists( &#039;SoapClient&#039; ),
+			&#039;domdocument_enabled&#039;       =&gt; class_exists( &#039;DOMDocument&#039; ),
+			&#039;gzip_enabled&#039;              =&gt; is_callable( &#039;gzopen&#039; ),
+			&#039;mbstring_enabled&#039;          =&gt; extension_loaded( &#039;mbstring&#039; ),
+			&#039;remote_post_successful&#039;    =&gt; $post_response_successful,
+			&#039;remote_post_response&#039;      =&gt; ( is_wp_error( $post_response ) ? $post_response-&gt;get_error_message() : $post_response[&#039;response&#039;][&#039;code&#039;] ),
+			&#039;remote_get_successful&#039;     =&gt; $get_response_successful,
+			&#039;remote_get_response&#039;       =&gt; ( is_wp_error( $get_response ) ? $get_response-&gt;get_error_message() : $get_response[&#039;response&#039;][&#039;code&#039;] ),
+			&#039;platform&#039;       			=&gt; ! empty( $post_response_body[&#039;platform&#039;] ) ? $post_response_body[&#039;platform&#039;] : &#039;-&#039;,
+			&#039;browser_name&#039;       		=&gt; ! empty( $post_response_body[&#039;name&#039;] ) ? $post_response_body[&#039;name&#039;] : &#039;-&#039;,
+			&#039;browser_version&#039;       	=&gt; ! empty( $post_response_body[&#039;version&#039;] ) ? $post_response_body[&#039;version&#039;] : &#039;-&#039;,
+			&#039;user_agent&#039;       			=&gt; $user_agent
+		);
+	}
+
+	/**
+	 * Add prefix to table.
+	 *
+	 * @param string $table table name
+	 * @return stromg
+	 */
+	protected function add_db_table_prefix( $table ) {
+		global $plugin_prefix;
+		return $plugin_prefix . $table;
+	}
+
+	/**
+	 * Get array of database information. Version, prefix, and table existence.
+	 *
+	 * @return array
+	 */
+	public function get_database_info() {
+		global $wpdb;
+
+		$database_table_sizes = $wpdb-&gt;get_results( $wpdb-&gt;prepare( &quot;
+			SELECT
+			    table_name AS &#039;name&#039;,
+			    round( ( data_length / 1024 / 1024 ), 2 ) &#039;data&#039;,
+			    round( ( index_length / 1024 / 1024 ), 2 ) &#039;index&#039;
+			FROM information_schema.TABLES
+			WHERE table_schema = %s
+			ORDER BY name ASC;
+		&quot;, DB_NAME ) );
+		
+		$post_types = geodir_get_posttypes();
+		
+		$core_tables = array(
+			&#039;api_keys&#039;,
+			&#039;attachments&#039;,
+			&#039;custom_fields&#039;,
+			&#039;custom_sort_fields&#039;,
+			&#039;post_review&#039;,
+		);
+		foreach ( $post_types as $post_type ) {
+			$core_tables[] = $post_type . &#039;_detail&#039;;
+		}
+
+		// GD Core tables to check existence of
+		$core_tables = apply_filters( &#039;geodir_database_tables&#039;, $core_tables );
+
+		/**
+		 * Adding the prefix to the tables array, for backwards compatibility.
+		 *
+		 * If we changed the tables above to include the prefix, then any filters against that table could break.
+		 */
+		$core_tables = array_map( array( $this, &#039;add_db_table_prefix&#039; ), $core_tables );
+
+		/**
+		 * The countries tabel is not geodir_ prefixed.
+		 */
+		$prefix = isset( $wpdb-&gt;base_prefix ) ? $wpdb-&gt;base_prefix : $wpdb-&gt;prefix;
+		$core_tables[] = $prefix . &#039;countries&#039;;
+
+		/**
+		 * Organize GeoDirectory and non-GeoDirectory tables separately for display purposes later.
+		 *
+		 * To ensure we include all GD tables, even if they do not exist, pre-populate the GD array with all the tables.
+		 */
+		$tables = array(
+			&#039;geodirectory&#039; =&gt; array_fill_keys( $core_tables, false ),
+			&#039;other&#039; =&gt; array()
+		);
+
+		$database_size = array(
+			&#039;data&#039; =&gt; 0,
+			&#039;index&#039; =&gt; 0
+		);
+
+		foreach ( $database_table_sizes as $table ) {
+			$table_type = in_array( $table-&gt;name, $core_tables ) ? &#039;geodirectory&#039; : &#039;other&#039;;
+
+			$tables[ $table_type ][ $table-&gt;name ] = array(
+				&#039;data&#039;  =&gt; $table-&gt;data,
+				&#039;index&#039; =&gt; $table-&gt;index
+			);
+
+			$database_size[ &#039;data&#039; ] += $table-&gt;data;
+			$database_size[ &#039;index&#039; ] += $table-&gt;index;
+		}
+
+		// Return all database info. Described by JSON Schema.
+		return array(
+			&#039;geodirectory_db_version&#039;   =&gt; get_option( &#039;geodirectory_db_version&#039; ),
+			&#039;database_prefix&#039;        	=&gt; $wpdb-&gt;prefix,
+			&#039;database_tables&#039;        	=&gt; $tables,
+			&#039;database_size&#039;          	=&gt; $database_size,
+		);
+	}
+
+	/**
+	 * Get array of counts of objects. Orders, products, etc.
+	 *
+	 * @return array
+	 */
+	public function get_post_type_counts() {
+		global $wpdb;
+
+		$post_type_counts = $wpdb-&gt;get_results( &quot;SELECT post_type AS &#039;type&#039;, count(1) AS &#039;count&#039; FROM {$wpdb-&gt;posts} GROUP BY post_type;&quot; );
+
+		return is_array( $post_type_counts ) ? $post_type_counts : array();
+	}
+
+	/**
+	 * Get a list of plugins active on the site.
+	 *
+	 * @return array
+	 */
+	public function get_active_plugins() {
+		require_once( ABSPATH . &#039;wp-admin/includes/plugin.php&#039; );
+		require_once( ABSPATH . &#039;wp-admin/includes/update.php&#039; );
+
+		if ( ! function_exists( &#039;get_plugin_updates&#039; ) ) {
+			return array();
+		}
+
+		// Get both site plugins and network plugins
+		$active_plugins = (array) get_option( &#039;active_plugins&#039;, array() );
+		if ( is_multisite() ) {
+			$network_activated_plugins = array_keys( get_site_option( &#039;active_sitewide_plugins&#039;, array() ) );
+			$active_plugins            = array_merge( $active_plugins, $network_activated_plugins );
+		}
+
+		$active_plugins_data = array();
+		$available_updates   = get_plugin_updates();
+
+		foreach ( $active_plugins as $plugin ) {
+			$data           = get_plugin_data( WP_PLUGIN_DIR . &#039;/&#039; . $plugin );
+
+			// convert plugin data to json response format.
+			$active_plugins_data[] = array(
+				&#039;plugin&#039;            =&gt; $plugin,
+				&#039;name&#039;              =&gt; $data[&#039;Name&#039;],
+				&#039;version&#039;           =&gt; $data[&#039;Version&#039;],
+				&#039;url&#039;               =&gt; $data[&#039;PluginURI&#039;],
+				&#039;author_name&#039;       =&gt; $data[&#039;AuthorName&#039;],
+				&#039;author_url&#039;        =&gt; esc_url_raw( $data[&#039;AuthorURI&#039;] ),
+				&#039;network_activated&#039; =&gt; $data[&#039;Network&#039;],
+				&#039;latest_verison&#039;	=&gt; ( array_key_exists( $plugin, $available_updates ) ) ? $available_updates[$plugin]-&gt;update-&gt;new_version : $data[&#039;Version&#039;]
+			);
+		}
+
+		return $active_plugins_data;
+	}
+
+	/**
+	 * Get info on the current active theme, info on parent theme (if presnet)
+	 * and a list of template overrides.
+	 *
+	 * @return array
+	 */
+	public function get_theme_info() {
+		$active_theme = wp_get_theme();
+
+		// Get parent theme info if this theme is a child theme, otherwise
+		// pass empty info in the response.
+		if ( is_child_theme() ) {
+			$parent_theme      = wp_get_theme( $active_theme-&gt;Template );
+			$parent_theme_info = array(
+				&#039;parent_name&#039;           =&gt; $parent_theme-&gt;Name,
+				&#039;parent_version&#039;        =&gt; $parent_theme-&gt;Version,
+				&#039;parent_latest_verison&#039; =&gt; GeoDir_Admin_Status::get_latest_theme_version( $parent_theme ),
+				&#039;parent_author_url&#039;     =&gt; $parent_theme-&gt;{&#039;Author URI&#039;},
+			);
+		} else {
+			$parent_theme_info = array( &#039;parent_name&#039; =&gt; &#039;&#039;, &#039;parent_version&#039; =&gt; &#039;&#039;, &#039;parent_latest_verison&#039; =&gt; &#039;&#039;, &#039;parent_author_url&#039; =&gt; &#039;&#039; );
+		}
+
+		/**
+		 * Scan the theme directory for all GD templates to see if our theme
+		 * overrides any of them.
+		 */
+		$override_files     = array();
+		$outdated_templates = false;
+		$scan_files         = GeoDir_Admin_Status::scan_template_files( GeoDir()-&gt;plugin_path() . &#039;/templates/&#039; );
+
+		//print_r($scan_files );exit;
+		foreach ( $scan_files as $file ) {
+			if ( file_exists( get_stylesheet_directory() . &#039;/&#039; . $file ) ) {
+				$theme_file = get_stylesheet_directory() . &#039;/&#039; . $file;
+			} elseif ( file_exists( get_stylesheet_directory() . &#039;/&#039; . GeoDir()-&gt;template_path() . $file ) ) {
+				$theme_file = get_stylesheet_directory() . &#039;/&#039; . GeoDir()-&gt;template_path() . $file;
+			} elseif ( file_exists( get_template_directory() . &#039;/&#039; . $file ) ) {
+				$theme_file = get_template_directory() . &#039;/&#039; . $file;
+			} elseif ( file_exists( get_template_directory() . &#039;/&#039; . GeoDir()-&gt;template_path() . $file ) ) {
+				$theme_file = get_template_directory() . &#039;/&#039; . GeoDir()-&gt;template_path() . $file;
+			} else {
+				$theme_file = false;
+			}
+
+			if ( ! empty( $theme_file ) ) {
+				$core_version  = GeoDir_Admin_Status::get_file_version( GeoDir()-&gt;plugin_path() . &#039;/templates/&#039; . $file );
+				$theme_version = GeoDir_Admin_Status::get_file_version( $theme_file );
+				if ( $core_version &amp;&amp; ( empty( $theme_version ) || version_compare( $theme_version, $core_version, &#039;&lt;&#039; ) ) ) {
+					if ( ! $outdated_templates ) {
+						$outdated_templates = true;
+					}
+				}
+				$override_files[] = array(
+					&#039;file&#039;         =&gt; str_replace( WP_CONTENT_DIR . &#039;/themes/&#039;, &#039;&#039;, $theme_file ),
+					&#039;version&#039;      =&gt; $theme_version,
+					&#039;core_version&#039; =&gt; $core_version,
+				);
+			}
+		}
+
+		$active_theme_info = array(
+			&#039;name&#039;                    =&gt; $active_theme-&gt;Name,
+			&#039;version&#039;                 =&gt; $active_theme-&gt;Version,
+			&#039;latest_verison&#039;          =&gt; GeoDir_Admin_Status::get_latest_theme_version( $active_theme ),
+			&#039;author_url&#039;              =&gt; esc_url_raw( $active_theme-&gt;{&#039;Author URI&#039;} ),
+			&#039;is_child_theme&#039;          =&gt; is_child_theme(),
+			&#039;has_geodirectory_support&#039; =&gt; ( current_theme_supports( &#039;geodirectory&#039; ) || in_array( $active_theme-&gt;template, geodir_get_core_supported_themes() ) ),
+			&#039;has_outdated_templates&#039;  =&gt; $outdated_templates,
+			&#039;overrides&#039;               =&gt; $override_files,
+		);
+
+		return array_merge( $active_theme_info, $parent_theme_info );
+	}
+
+	/**
+	 * Get some setting values for the site that are useful for debugging
+	 * purposes. For full settings access, use the settings api.
+	 *
+	 * @return array
+	 */
+	public function get_settings() {
+		global $geodirectory;
+		// Return array of useful settings for debugging.
+		return array(
+			&#039;api_enabled&#039;              =&gt; geodir_get_option( &#039;rest_api_enabled&#039; ) ? true : false,
+			&#039;upload_max_filesize&#039;      =&gt; geodir_get_option( &#039;upload_max_filesize&#039; ),
+			&#039;default_status&#039;      	   =&gt; geodir_get_option( &#039;default_status&#039; ),
+			&#039;maps_api_key&#039;      	   =&gt; geodir_get_option( &#039;google_maps_api_key&#039; ) ? true : false,
+			&#039;default_location&#039;         =&gt; $geodirectory-&gt;location-&gt;is_default_location_set(),
+		);
+	}
+
+	/**
+	 * Returns security tips.
+	 *
+	 * @return array
+	 */
+	public function get_security_info() {
+		$check_page = get_home_url();
+		return array(
+			&#039;secure_connection&#039; =&gt; &#039;https&#039; === substr( $check_page, 0, 5 ),
+			&#039;hide_errors&#039;       =&gt; ! ( defined( &#039;WP_DEBUG&#039; ) &amp;&amp; defined( &#039;WP_DEBUG_DISPLAY&#039; ) &amp;&amp; WP_DEBUG &amp;&amp; WP_DEBUG_DISPLAY ) || 0 === intval( ini_get( &#039;display_errors&#039; ) ),
+		);
+	}
+
+	/**
+	 * Returns a mini-report on GD pages and if they are configured correctly:
+	 * Present, visible, and including the correct shortcode.
+	 *
+	 * @return array
+	 */
+	public function get_pages() {
+		// GD pages to check against
+		$check_pages = array(
+			_x( &#039;Location page&#039;, &#039;Page setting&#039;, &#039;geodirectory&#039; ) =&gt; array(
+				&#039;option&#039;    =&gt; &#039;location&#039;,
+				&#039;shortcode&#039; =&gt; &#039;&#039;,
+			),
+			_x( &#039;Add listing page&#039;, &#039;Page setting&#039;, &#039;geodirectory&#039; ) =&gt; array(
+				&#039;option&#039;    =&gt; &#039;add&#039;,
+				&#039;shortcode&#039; =&gt; &#039;gd_add_listing&#039;,
+			),
+			_x( &#039;Search Page&#039;, &#039;Page setting&#039;, &#039;geodirectory&#039; ) =&gt; array(
+				&#039;option&#039;    =&gt; &#039;search&#039;,
+				&#039;shortcode&#039; =&gt; &#039;&#039;,
+			),
+			_x( &#039;Terms and Conditions page&#039;, &#039;Page setting&#039;, &#039;geodirectory&#039; ) =&gt; array(
+				&#039;option&#039;    =&gt; &#039;terms_conditions&#039;,
+				&#039;shortcode&#039; =&gt; &#039;&#039;,
+			),
+			_x( &#039;Archive page&#039;, &#039;Page setting&#039;, &#039;geodirectory&#039; ) =&gt; array(
+				&#039;option&#039;    =&gt; &#039;archive&#039;,
+				&#039;shortcode&#039; =&gt; &#039;&#039;,
+			),
+			_x( &#039;Details Page&#039;, &#039;Page setting&#039;, &#039;geodirectory&#039; ) =&gt; array(
+				&#039;option&#039;    =&gt; &#039;details&#039;,
+				&#039;shortcode&#039; =&gt; &#039;&#039;,
+			),
+		);
+
+		$pages_output = array();
+		foreach ( $check_pages as $page_name =&gt; $values ) {
+			$page_id  = geodir_get_page_id( $values[&#039;option&#039;], &#039;&#039;, false );
+			$page_set = $page_exists = $page_visible = false;
+			$shortcode_present = $shortcode_required = false;
+
+			// Page checks
+			if ( $page_id ) {
+				$page_set = true;
+			}
+			if ( get_post( $page_id ) ) {
+				$page_exists = true;
+			}
+			if ( &#039;publish&#039; === get_post_status( $page_id ) ) {
+				$page_visible = true;
+			}
+
+			// Shortcode checks
+			if ( $values[&#039;shortcode&#039;]  &amp;&amp; get_post( $page_id ) ) {
+				$shortcode_required = true;
+				$page = get_post( $page_id );
+				if ( has_shortcode( $page-&gt;post_content, $values[&#039;shortcode&#039;] ) ) {
+					$shortcode_present = true;
+				}
+			}
+
+			// Wrap up our findings into an output array
+			$pages_output[] = array(
+				&#039;page_name&#039;          =&gt; $page_name,
+				&#039;page_id&#039;            =&gt; $page_id,
+				&#039;page_set&#039;           =&gt; $page_set,
+				&#039;page_exists&#039;        =&gt; $page_exists,
+				&#039;page_visible&#039;       =&gt; $page_visible,
+				&#039;shortcode&#039;          =&gt; $values[&#039;shortcode&#039;],
+				&#039;shortcode_required&#039; =&gt; $shortcode_required,
+				&#039;shortcode_present&#039;  =&gt; $shortcode_present,
+			);
+		}
+
+		return $pages_output;
+	}
+
+	/**
+	 * Get any query params needed.
+	 *
+	 * @return array
+	 */
+	public function get_collection_params() {
+		return array(
+			&#039;context&#039; =&gt; $this-&gt;get_context_param( array( &#039;default&#039; =&gt; &#039;view&#039; ) ),
+		);
+	}
+
+	/**
+	 * Prepare the system status response
+	 *
+	 * @param array $system_status
+	 * @param WP_REST_Request $request Request object.
+	 * @return WP_REST_Response $response Response data.
+	 */
+	public function prepare_item_for_response( $system_status, $request ) {
+		$data = $this-&gt;add_additional_fields_to_object( $system_status, $request );
+		$data = $this-&gt;filter_response_by_context( $data, &#039;view&#039; );
+
+		$response = rest_ensure_response( $data );
+
+		/**
+		 * Filter the system status returned from the REST API.
+		 *
+		 * @param WP_REST_Response   $response The response object.
+		 * @param mixed              $system_status System status
+		 * @param WP_REST_Request    $request  Request object.
+		 */
+		return apply_filters( &#039;geodir_rest_prepare_system_status&#039;, $response, $system_status, $request );
+	}
+}
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-settings-general.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory General Settings
+ *
+ * @author      AyeCode
+ * @category    Admin
+ * @package     GeoDirectory/Admin
+ * @version     2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit; // Exit if accessed directly
+}
+
+if ( ! class_exists( &#039;GeoDir_Settings_General&#039;, false ) ) :
+
+/**
+ * GeoDir_Settings_General.
+ */
+class GeoDir_Settings_General extends GeoDir_Settings_Page {
+
+	/**
+	 * Constructor.
+	 */
+	public function __construct() {
+
+
+
+		$this-&gt;id    = &#039;general&#039;;
+		$this-&gt;label = __( &#039;General&#039;, &#039;geodirectory&#039; );
+
+		add_filter( &#039;geodir_settings_tabs_array&#039;, array( $this, &#039;add_settings_page&#039; ), 20 );
+		add_action( &#039;geodir_settings_&#039; . $this-&gt;id, array( $this, &#039;output&#039; ) );
+//		add_action( &#039;geodir_sections_&#039; . $this-&gt;id, array( $this, &#039;output_toggle_advanced&#039; ) );
+		add_action( &#039;geodir_sections_&#039; . $this-&gt;id, array( $this, &#039;output_sections&#039; ) );
+		add_action( &#039;geodir_settings_save_&#039; . $this-&gt;id, array( $this, &#039;save&#039; ) );
+
+
+
+	}
+
+	/**
+	 * Get sections.
+	 *
+	 * @return array
+	 */
+	public function get_sections() {
+
+		$sections = array(
+			&#039;&#039;          	=&gt; __( &#039;General&#039;, &#039;geodirectory&#039; ),
+			&#039;location&#039;      =&gt; __( &#039;Default location&#039;, &#039;geodirectory&#039; ),
+			&#039;pages&#039; 	    =&gt; __( &#039;Pages&#039;, &#039;geodirectory&#039; ),
+			&#039;seo&#039; 	        =&gt; __( &#039;Titles &amp; Meta&#039;, &#039;geodirectory&#039; ),
+			&#039;search&#039; 	    =&gt; __( &#039;Search&#039;, &#039;geodirectory&#039; ),
+			&#039;dummy_data&#039; 	=&gt; __( &#039;Dummy Data&#039;, &#039;geodirectory&#039; ),
+			&#039;developer&#039; 	=&gt; __( &#039;Developer&#039;, &#039;geodirectory&#039; ),
+			&#039;uninstall&#039; 	=&gt; __( &#039;Uninstall&#039;, &#039;geodirectory&#039; ),
+		);
+
+		return apply_filters( &#039;geodir_get_sections_&#039; . $this-&gt;id, $sections );
+	}
+
+	/**
+	 * Output the settings.
+	 */
+	public function output() {
+		global $current_section, $hide_save_button;
+
+		$settings = $this-&gt;get_settings( $current_section );
+
+		GeoDir_Admin_Settings::output_fields( $settings );
+
+		// hide save button on dummy data page
+		if ( &#039;dummy_data&#039; == $current_section ) {
+			$hide_save_button = true;
+		}elseif(&#039;location&#039; == $current_section ) {
+			// check if there are already listing before saving new location
+			global $wpdb;
+			$post_types        = geodir_get_posttypes();
+			$cpt_count   = count( $post_types );
+			$cptp        = array_fill( 0, $cpt_count, &quot;%s&quot; );
+			$cptp_string = implode( &quot;,&quot;, $cptp );
+			$has_posts   = $wpdb-&gt;get_var( $wpdb-&gt;prepare( &quot;SELECT ID FROM $wpdb-&gt;posts WHERE post_type IN ($cptp_string) LIMIT 1&quot;, $post_types ) );
+			if ( $has_posts ) {
+				?&gt;
+				&lt;script&gt;
+					jQuery(function () {
+						var default_location_city = jQuery(&quot;#default_location_city&quot;).val();
+						jQuery(&quot;.geodir-save-button&quot;).on(&quot;click&quot;,function () {
+							if(default_location_city &amp;&amp; default_location_city != jQuery(&quot;#default_location_city&quot;).val()){
+								return confirm(&quot;&lt;?php _e( &quot;Are you sure? This can break current listings.&quot;, &quot;geodirectory&quot; );?&gt;&quot;);
+							}
+						});
+					});
+				&lt;/script&gt;
+				&lt;?php
+			}
+		}
+	}
+
+
+	/**
+	 * Save settings.
+	 */
+	public function save() {
+		global $current_section;
+
+		$settings = $this-&gt;get_settings( $current_section );
+		GeoDir_Admin_Settings::save_fields( $settings );
+	}
+
+	/**
+	 * Get settings array.
+	 *
+	 * @return array
+	 */
+	public function get_settings( $current_section = &#039;&#039; ) {
+
+		if ( &#039;developer&#039; == $current_section ) {
+
+			/**
+			 * Filter GD general settings array.
+			 *
+			 * @since 1.0.0
+			 * @package GeoDirectory
+			 */
+			$settings = apply_filters( &#039;geodir_developer_options&#039;, array(
+				array(
+					&#039;title&#039; =&gt; __( &#039;Developer Settings&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;&#039;,
+					&#039;id&#039;    =&gt; &#039;developer_options&#039;,
+					//&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Advanced settings&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Disable advanced toggle, show advanced settings at all times (not recommended).&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;admin_disable_advanced&#039;,
+					&#039;type&#039;     =&gt; &#039;checkbox&#039;,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Enable admin hints&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;This will enable admin hint notifications throughout the site to help new GD users find their way around, this will only be visible to admins.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;enable_hints&#039;,
+					&#039;type&#039;     =&gt; &#039;checkbox&#039;,
+					&#039;default&#039;  =&gt; &#039;1&#039;,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Enable 404 rescue&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;This will check 404 pages where a GD CPT is identified and try and redirect to the correct url. This should help tell search engines about term or post permalink changes.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;enable_404_rescue&#039;,
+					&#039;type&#039;     =&gt; &#039;checkbox&#039;,
+					&#039;default&#039;  =&gt; &#039;1&#039;,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Enable beta addons&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;This will allow beta addons to be installed.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;admin_enable_beta&#039;,
+					&#039;type&#039;     =&gt; &#039;checkbox&#039;,
+					&#039;default&#039;  =&gt; &#039;1&#039;,
+				),
+
+				// @todo to be move to own design section
+				array(
+					&#039;id&#039; =&gt; &#039;design_style&#039;,
+					&#039;name&#039; =&gt; __(&#039;Default Design Style&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; wp_sprintf( __( &#039;The default design style to use. Go to Settings &gt; %s AyeCode UI %s to adjust AyeCode UI settings if you are having compatibility issues with Bootstrap style.&#039;, &#039;geodirectory&#039; ), &#039;&lt;a href=&quot;&#039; . admin_url( &#039;options-general.php?page=ayecode-ui-settings&#039; ) . &#039;&quot;&gt;&#039;, &#039;&lt;/a&gt;&#039; ),
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;options&#039; =&gt; array(
+						&#039;bootstrap&#039; =&gt;  __(&#039;Bootstrap&#039;, &#039;geodirectory&#039;),
+						&#039;&#039; =&gt;  __(&#039;Legacy (non-bootstrap)&#039;, &#039;geodirectory&#039;),
+					),
+					&#039;class&#039; =&gt; &#039;uwp-select&#039;,
+					&#039;desc_tip&#039; =&gt; false,
+					&#039;default&#039; =&gt; &#039;bootstrap&#039;,
+				),
+
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;developer_options&#039; ),
+			));
+		}elseif ( &#039;uninstall&#039; == $current_section ) {
+
+			/**
+			 * Filter GD general settings array.
+			 *
+			 * @since 1.0.0
+			 * @package GeoDirectory
+			 */
+			$settings = apply_filters( &#039;geodir_uninstall_options&#039;, array(
+				array(
+					&#039;title&#039; =&gt; __( &#039;Uninstall Settings&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;&lt;b&gt;&#039; . __( &#039;NOTE: Addons should be deleted before core to ensure complete uninstall.&#039;, &#039;geodirectory&#039; ) . &#039;&lt;/b&gt;&#039;,
+					&#039;id&#039;    =&gt; &#039;uninstall_options&#039;,
+					//&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Remove Data on Uninstall?&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Check this box if you would like GeoDirectory to completely remove all of its data when the plugin is deleted.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;admin_uninstall&#039;,
+					&#039;type&#039;     =&gt; &#039;checkbox&#039;,
+					//&#039;desc_tip&#039; =&gt; true,
+					//&#039;advanced&#039; =&gt; true
+				),
+
+
+
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;uninstall_options&#039; ),
+			));
+		}
+		elseif ( &#039;dummy_data&#039; == $current_section ) {
+
+			/**
+			 * Filter GD general settings array.
+			 *
+			 * @since 1.0.0
+			 * @package GeoDirectory
+			 */
+			$settings = apply_filters( &#039;geodir_dummy_data&#039;, array(
+				array(
+					&#039;title&#039; =&gt; __( &#039;Dummy data installer&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;*Hint*: Installing our Advanced Search addon FIRST will add extra search fields to non-default data types.&#039;,
+					&#039;id&#039;    =&gt; &#039;dummy_data&#039;,
+					//&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039; =&gt; &#039;&#039;,
+					&#039;desc&#039; =&gt; &#039;&#039;,
+					&#039;id&#039; =&gt; &#039;geodir_dummy_data_installer&#039;,
+					&#039;type&#039; =&gt; &#039;dummy_installer&#039;,
+					&#039;css&#039; =&gt; &#039;min-width:300px;&#039;,
+					&#039;std&#039; =&gt; &#039;40&#039;
+				),
+
+
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;dummy_data&#039; ),
+			));
+		}
+		else if ( &#039;pages&#039; == $current_section ) {
+			/**
+			 * Filter GD general settings array.
+			 *
+			 * @since 1.0.0
+			 * @package GeoDirectory
+			 */
+			$settings = apply_filters( &#039;geodir_page_options&#039;, array(
+				array(
+					&#039;title&#039; =&gt; __( &#039;Page Settings&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;These are essential pages used by GD, you can set the pages here and edit the title/slug of the page via WP page settings.&#039;,
+					&#039;id&#039;    =&gt; &#039;page_options&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Location page&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select the page to use for locations&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;page_location&#039;,
+					&#039;type&#039;     =&gt; &#039;single_select_page&#039;,
+					&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default_content&#039; =&gt; GeoDir_Defaults::page_location_content(),
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Add listing page&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select the page to use for adding listings&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;page_add&#039;,
+					&#039;type&#039;     =&gt; &#039;single_select_page&#039;,
+					&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default_content&#039; =&gt; GeoDir_Defaults::page_add_content(),
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Search Page&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select the page to use as the GD search page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;page_search&#039;,
+					&#039;type&#039;     =&gt; &#039;single_select_page&#039;,
+					&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default_content&#039; =&gt; GeoDir_Defaults::page_search_content(),
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Terms and Conditions page&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select the page to use for your terms and conditions.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;page_terms_conditions&#039;,
+					&#039;type&#039;     =&gt; &#039;single_select_page&#039;,
+					&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default_content&#039; =&gt; __(&#039;ENTER YOUR SITE TERMS AND CONDITIONS HERE&#039;,&#039;geodirectory&#039;)
+				),
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;page_options&#039; ),
+
+				array(
+					&#039;title&#039; =&gt; __( &#039;Template Page Settings&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;Template pages are used to design the respective pages and should never be linked to directly.&#039;,
+					&#039;id&#039;    =&gt; &#039;page_template_options&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Details Page&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select the page to use as the GD details page template&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;page_details&#039;,
+					&#039;type&#039;     =&gt; &#039;single_select_page&#039;,
+					&#039;is_template_page&#039;     =&gt; true,
+					&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default_content&#039; =&gt; GeoDir_Defaults::page_details_content(),
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Archive page&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select the page to use for GD archives such as taxonomy and CPT pages&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;page_archive&#039;,
+					&#039;type&#039;     =&gt; &#039;single_select_page&#039;,
+					&#039;is_template_page&#039;     =&gt; true,
+					&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default_content&#039; =&gt; GeoDir_Defaults::page_archive_content(),
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Archive item page&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select the page to use for GD archive items, this is the item template used on taxonomy and CPT pages&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;page_archive_item&#039;,
+					&#039;type&#039;     =&gt; &#039;single_select_page&#039;,
+					&#039;is_template_page&#039;     =&gt; true,
+					&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default_content&#039; =&gt; GeoDir_Defaults::page_archive_item_content(),
+				),
+
+
+
+
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;page_template_options&#039; ),
+			));
+		}
+		else if ( &#039;seo&#039; == $current_section ) {
+			/**
+			 * Filter GD general settings array.
+			 *
+			 * @since 1.0.0
+			 * @package GeoDirectory
+			 */
+			$settings = apply_filters( &#039;geodir_seo_options&#039;, array(
+				array(
+					&#039;title&#039; =&gt; __( &#039;Titles &amp; Meta Settings&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;Here you can set the titles and meta info for your GeoDirectory pages. &lt;b&gt;Click the tags to copy to clipboard&lt;/b&gt;&#039;,
+					&#039;id&#039;    =&gt; &#039;seo_options&#039;,
+					//&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;seo_archive_options&#039; ),
+
+				// CPT archive
+				array(
+					&#039;title&#039; =&gt; __( &#039;Post type page&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;The root page of a GD CPT eg: /places/&#039;,
+					&#039;id&#039;    =&gt; &#039;seo_cpt&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;seo_helper_tags&#039; =&gt; &#039;pt&#039;
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_cpt_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_cpt_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Meta Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_cpt_meta_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_cpt_meta_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Meta Description&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta description to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_cpt_meta_description&#039;,
+					&#039;type&#039;     =&gt; &#039;textarea&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_cpt_meta_description(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;seo_cpt&#039; ),
+
+				// Archive
+				array(
+					&#039;title&#039; =&gt; __( &#039;Archive pages&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;The GD category and tags pages.&#039;,
+					&#039;id&#039;    =&gt; &#039;seo_archive&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;seo_helper_tags&#039; =&gt; &#039;archive&#039;
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Category Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_cat_archive_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_cat_archive_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Category Meta Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_cat_archive_meta_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_cat_archive_meta_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Category Meta Description&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta description to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_cat_archive_meta_description&#039;,
+					&#039;type&#039;     =&gt; &#039;textarea&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_cat_archive_meta_description(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Tag Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_tag_archive_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_tag_archive_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Tag Meta Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_tag_archive_meta_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_tag_archive_meta_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Tag Meta Description&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta description to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_tag_archive_meta_description&#039;,
+					&#039;type&#039;     =&gt; &#039;textarea&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_tag_archive_meta_description(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;seo_archive&#039; ),
+
+				// Single (details)
+				array(
+					&#039;title&#039; =&gt; __( &#039;Single post pages&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;The GD single post details page.&#039;,
+					&#039;id&#039;    =&gt; &#039;seo_single&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;seo_helper_tags&#039; =&gt; &#039;single&#039;
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_single_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_single_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Meta Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_single_meta_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_single_meta_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Meta Description&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta description to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_single_meta_description&#039;,
+					&#039;type&#039;     =&gt; &#039;textarea&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_single_meta_description(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;seo_single&#039; ),
+
+
+				// location page
+				array(
+					&#039;title&#039; =&gt; __( &#039;Location page&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;The location page.&#039;,
+					&#039;id&#039;    =&gt; &#039;seo_location&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;seo_helper_tags&#039; =&gt; &#039;location&#039;
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_location_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_location_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Meta Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_location_meta_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_location_meta_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Meta Description&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta description to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_location_meta_description&#039;,
+					&#039;type&#039;     =&gt; &#039;textarea&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_location_meta_description(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;seo_location&#039; ),
+
+
+				// search page
+				array(
+					&#039;title&#039; =&gt; __( &#039;Search page&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;The search page.&#039;,
+					&#039;id&#039;    =&gt; &#039;seo_search&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;seo_helper_tags&#039; =&gt; &#039;search&#039;
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_search_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_search_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Meta Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_search_meta_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_search_meta_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Meta Description&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta description to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_search_meta_description&#039;,
+					&#039;type&#039;     =&gt; &#039;textarea&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_search_meta_description(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;seo_search&#039; ),
+
+				// add listing
+				array(
+					&#039;title&#039; =&gt; __( &#039;Add listing page&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;The add listing page.&#039;,
+					&#039;id&#039;    =&gt; &#039;seo_add_listing&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;seo_helper_tags&#039; =&gt; &#039;add-listing&#039;
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Add Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_add_listing_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_add_listing_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Edit Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_add_listing_title_edit&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_add_listing_title_edit(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Meta Title&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta title to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_add_listing_meta_title&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_add_listing_meta_title(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Meta Description&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Enter the meta description to use for the page&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;seo_add_listing_meta_description&#039;,
+					&#039;type&#039;     =&gt; &#039;textarea&#039;,
+					&#039;placeholder&#039; =&gt; GeoDir_Defaults::seo_add_listing_meta_description(),
+					&#039;class&#039;     =&gt; &#039;active-placeholder&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;seo_add_listing&#039; ),
+
+
+
+
+
+			));
+		}
+
+		else if ( &#039;search&#039; == $current_section ) {
+			/**
+			 * Filter GD general settings array.
+			 *
+			 * @since 1.0.0
+			 * @package GeoDirectory
+			 */
+			$settings = apply_filters( &#039;geodir_search_options&#039;, array(
+				array(
+					&#039;title&#039; =&gt; __( &#039;Search bar settings&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;id&#039;    =&gt; &#039;search_options&#039;,
+				),
+
+				array(
+					&#039;name&#039; =&gt; __(&#039;Search field placeholder text&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Show the search text box `placeholder` value on search form.&#039;, &#039;geodirectory&#039;),
+					&#039;id&#039; =&gt; &#039;search_default_text&#039;,
+					&#039;type&#039; =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; geodir_get_search_default_text(),
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;advanced&#039; =&gt; false
+				),
+				array(
+					&#039;name&#039; =&gt; __(&#039;Near field placeholder text&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Show the near text box \&#039;placeholder\&#039; value on search form.&#039;, &#039;geodirectory&#039;),
+					&#039;id&#039; =&gt; &#039;search_default_near_text&#039;,
+					&#039;type&#039; =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; geodir_get_search_default_near_text(),
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;advanced&#039; =&gt; false
+				),
+				array(
+					&#039;name&#039; =&gt; __(&#039;Search button label&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Show the search button label on search form. You can use a font awesome class here.&#039;, &#039;geodirectory&#039;),
+					&#039;id&#039; =&gt; &#039;search_default_button_text&#039;,
+					&#039;type&#039; =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; geodir_get_search_default_button_text(),
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;advanced&#039; =&gt; true
+				),
+
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;search_options&#039; ),
+
+				array(
+					&#039;title&#039; =&gt; __( &#039;Search results settings&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;id&#039;    =&gt; &#039;search_results_options&#039;,
+				),
+
+				array(
+					&#039;name&#039; =&gt; __(&#039;Search near radius&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Limits the search radius to X miles/km (lower numbers help with speed) &#039;, &#039;geodirectory&#039;),
+					&#039;id&#039; =&gt; &#039;search_radius&#039;,
+					&#039;type&#039; =&gt; &#039;number&#039;,
+					&#039;default&#039;  =&gt; &#039;7&#039;, // largest city in the world is 6.33
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; false,
+					&#039;custom_attributes&#039; =&gt; array(
+						&#039;min&#039; =&gt; &#039;0.1&#039;,
+						&#039;step&#039; =&gt; &#039;0.01&#039;,
+						&#039;lang&#039; =&gt; &#039;EN&#039;
+					)
+				),
+				array(
+					&#039;name&#039; =&gt; __(&#039;Search distances&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;Show search distances in miles or km&#039;, &#039;geodirectory&#039;),
+					&#039;id&#039; =&gt; &#039;search_distance_long&#039;,
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;class&#039; =&gt; &#039;geodir-select&#039;,
+					&#039;options&#039; =&gt; array(
+						&#039;miles&#039; =&gt; __(&#039;Miles&#039;, &#039;geodirectory&#039;),
+						&#039;km&#039; =&gt; __(&#039;Kilometers&#039;, &#039;geodirectory&#039;)
+					),
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default&#039;  =&gt; &#039;miles&#039;,
+					&#039;advanced&#039; =&gt; false
+				),
+				array(
+					&#039;name&#039; =&gt; __(&#039;Search distances short&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;If distance is less than 0.01 show distance in meters or feet&#039;, &#039;geodirectory&#039;),
+					&#039;id&#039; =&gt; &#039;search_distance_short&#039;,
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;class&#039; =&gt; &#039;geodir-select&#039;,
+					&#039;options&#039; =&gt; array(
+						&#039;feet&#039; =&gt; __(&#039;Feet&#039;, &#039;geodirectory&#039;),
+						&#039;meters&#039; =&gt; __(&#039;Meters&#039;, &#039;geodirectory&#039;)
+					),
+					&#039;default&#039;  =&gt; &#039;feet&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; false
+				),
+				array(
+					&#039;name&#039; =&gt; __(&#039;Search near additional&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;This is useful if your directory is limited to one location such as: New York or Australia (this setting should be blank if using default country, regions etc with multilocation addon as it will automatically add them)&#039;, &#039;geodirectory&#039;),
+					&#039;id&#039; =&gt; &#039;search_near_addition&#039;,
+					&#039;type&#039; =&gt; &#039;text&#039;,
+					&#039;placeholder&#039; =&gt; __(&#039;New York&#039;,&#039;geodirectory&#039;),
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true
+				),
+				array(
+					&#039;name&#039; =&gt; __(&#039;Individual word search limit&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039; =&gt; __(&#039;With this option you can limit individual words being searched for, for example searching for `Jo Brown` would return results with words like `Jones`, you can exclude these types of small character words if you wish.&#039;, &#039;geodirectory&#039;),
+					&#039;id&#039; =&gt; &#039;search_word_limit&#039;,
+					&#039;type&#039; =&gt; &#039;select&#039;,
+					&#039;class&#039; =&gt; &#039;geodir-select&#039;,
+					&#039;options&#039; =&gt; array_unique(array(
+						&#039;0&#039; =&gt; __(&#039;Disabled&#039;, &#039;geodirectory&#039;),
+						&#039;1&#039; =&gt; __(&#039;1 Character words excluded&#039;, &#039;geodirectory&#039;),
+						&#039;2&#039; =&gt; __(&#039;2 Character words and less excluded&#039;, &#039;geodirectory&#039;),
+						&#039;3&#039; =&gt; __(&#039;3 Character words and less excluded&#039;, &#039;geodirectory&#039;),
+					)),
+					&#039;default&#039;  =&gt; &#039;0&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true
+				),
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;search_results_options&#039; ),
+
+
+			));
+		}
+		else if ( &#039;location&#039; == $current_section ) {
+			/**
+			 * Filter GD general settings array.
+			 *
+			 * @since 1.0.0
+			 * @package GeoDirectory
+			 */
+			$settings = apply_filters( &#039;geodir_default_location&#039;, array(
+				array(
+					&#039;title&#039; =&gt; __( &#039;Set default location&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;Drag the map or the marker to set the city/town you wish to use as the default location, then click save changes.&#039;,
+					&#039;id&#039;    =&gt; &#039;default_location&#039;,
+					//&#039;desc_tip&#039; =&gt; true,
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;City&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;The default location city name.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;default_location_city&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;css&#039;      =&gt; &#039;min-width:300px;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default&#039;  =&gt; &#039;Philadelphia&#039;,
+					&#039;advanced&#039; =&gt; true
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Region&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;The default location region name.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;default_location_region&#039;,
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;css&#039;      =&gt; &#039;min-width:300px;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default&#039;  =&gt; &#039;Pennsylvania&#039;,
+					&#039;advanced&#039; =&gt; true
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Country&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;The default location country name.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;default_location_country&#039;,
+					&#039;css&#039;      =&gt; &#039;min-width:300px;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true,
+					&#039;type&#039;       =&gt; &#039;single_select_country&#039;,
+					&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+					&#039;default&#039;  =&gt; &#039;United States&#039;,
+					&#039;options&#039;    =&gt; geodir_get_countries()
+
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;City Latitude&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;The latitude of the default location.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;default_location_latitude&#039;,
+					&#039;type&#039; =&gt; &#039;number&#039;,
+					&#039;custom_attributes&#039; =&gt; array(
+						&#039;min&#039;           =&gt; &#039;-90&#039;,
+						&#039;max&#039;           =&gt; &#039;90&#039;,
+						&#039;step&#039;          =&gt; &#039;any&#039;,
+						&#039;lang&#039;          =&gt; &#039;EN&#039;
+					),
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default&#039;  =&gt; &#039;39.9523894183957&#039;,
+					&#039;advanced&#039; =&gt; true
+				),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;City Longitude&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;The longitude of the default location.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;default_location_longitude&#039;,
+					&#039;type&#039; =&gt; &#039;number&#039;,
+					&#039;custom_attributes&#039; =&gt; array(
+						&#039;min&#039;           =&gt; &#039;-180&#039;,
+						&#039;max&#039;           =&gt; &#039;180&#039;,
+						&#039;step&#039;          =&gt; &#039;any&#039;,
+						&#039;lang&#039;          =&gt; &#039;EN&#039;
+					),
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;default&#039;  =&gt; &#039;-75.16359824536897&#039;,
+					&#039;advanced&#039; =&gt; true
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Timezone&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select a city/timezone.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;default_location_timezone_string&#039;,
+					&#039;css&#039;      =&gt; &#039;min-width:300px;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true,
+					&#039;type&#039;     =&gt; &#039;single_select_timezone&#039;,
+					&#039;class&#039;    =&gt; &#039;geodir-select&#039;,
+					&#039;default&#039;  =&gt; geodir_timezone_string(),
+					&#039;options&#039;  =&gt; array()
+				),
+				array(
+					&#039;type&#039;     =&gt; &#039;checkbox&#039;,
+					&#039;id&#039;       =&gt; &#039;multi_city&#039;,
+					&#039;name&#039;     =&gt; __( &#039;Remove default city limit&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;This will allow listings to be added anywhere (outside default location).&#039;, &#039;geodirectory&#039; ),
+					&#039;default&#039;  =&gt; &#039;1&#039;,
+					&#039;desc_tip&#039; =&gt; false,
+					&#039;advanced&#039; =&gt; false,
+				),
+
+				array(
+					&#039;id&#039;       =&gt; &#039;default_location_map&#039;,
+					&#039;type&#039;     =&gt; &#039;default_location_map&#039;,
+				),
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;default_location&#039; ),
+			));
+		} else {
+			/**
+			 * Filter GD general pre settings array.
+			 *
+			 * @since 2.1.1.12
+			 *
+			 * @param array  $settings Settings array.
+			 * @param string $current_section Current section.
+			 */
+			$settings = apply_filters( &#039;geodir_general_default_options&#039;, array(), $current_section );
+
+			if ( empty( $settings ) ) {
+				/**
+				 * Filter GD general settings array.
+				 *
+				 * @since 1.0.0
+				 * @package GeoDirectory
+				 */
+				$settings = apply_filters( &#039;geodir_general_options&#039;, array(
+					array(
+						&#039;title&#039; =&gt; __( &#039;Site Settings&#039;, &#039;geodirectory&#039; ),
+						&#039;type&#039;  =&gt; &#039;title&#039;,
+						&#039;desc&#039;  =&gt; &#039;&#039;,
+						&#039;id&#039;    =&gt; &#039;general_options&#039;
+					),
+
+				array(
+					&#039;name&#039;       =&gt; __( &#039;Restrict wp-admin&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;       =&gt; __( &#039;The user roles that should be restricted from the wp-admin area.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;         =&gt; &#039;admin_blocked_roles&#039;,
+					&#039;default&#039;    =&gt; array(&#039;subscriber&#039;),
+					&#039;type&#039;       =&gt; &#039;multiselect&#039;,
+					&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+					&#039;options&#039;    =&gt; geodir_user_roles(array(&#039;administrator&#039;)),
+					&#039;desc_tip&#039;   =&gt; true,
+					//&#039;docs&#039;       =&gt; &quot;https://docs.wpgeodirectory.com/&quot;,
+					//&#039;advanced&#039; =&gt; true
+				),
+
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;general_options&#039; ),
+
+				array(
+					&#039;title&#039; =&gt; __( &#039;Listing Settings&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;&#039;,
+					&#039;id&#039;    =&gt; &#039;general_options_add&#039;
+				),
+
+
+				array(
+					&#039;name&#039; =&gt; __( &#039;User deleted posts&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039; =&gt; __( &#039;If checked a user deleted post will go to trash, otherwise it will be permanently deleted&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;   =&gt; &#039;user_trash_posts&#039;,
+					&#039;type&#039; =&gt; &#039;checkbox&#039;,
+					&#039;default&#039;  =&gt; &#039;1&#039;,
+					//&#039;docs&#039;       =&gt; &quot;https://docs.wpgeodirectory.com/&quot;,
+
+				),
+				array(
+					&#039;name&#039;       =&gt; __( &#039;New listing default status&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;       =&gt; __( &#039;This is the post status a new listing will get when submitted from the frontend.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;         =&gt; &#039;default_status&#039;,
+					&#039;default&#039;    =&gt; &#039;pending&#039;,
+					&#039;type&#039;       =&gt; &#039;select&#039;,
+//					&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+					&#039;options&#039; =&gt; array_unique(array(
+						&#039;pending&#039; =&gt; __(&#039;Pending Review&#039;, &#039;geodirectory&#039;),
+						&#039;publish&#039; =&gt; __(&#039;Publish&#039;, &#039;geodirectory&#039;),
+
+					)),
+					&#039;desc_tip&#039; =&gt; true,
+					//&#039;advanced&#039; =&gt; true
+				),
+				array(
+					&#039;name&#039; =&gt; __( &#039;Allow posting without logging in?&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039; =&gt; defined(&#039;WPE_PLUGIN_VERSION&#039;) ? __( &#039;If checked non logged in users will be able to post listings from the frontend.&#039;, &#039;geodirectory&#039; ) . &quot; &lt;span style=&#039;color:red&#039;&gt;&quot; . sprintf( __( &#039;WP ENGINE DETECTED: please see %sthis guide%s for this feature to work properly.&#039;, &#039;geodirectory&#039; ),&#039;&lt;a href=&quot;https://docs.wpgeodirectory.com/article/221-how-to-allow-posting-without-logging-in-when-using-wp-engine-hosting&quot;&gt;&#039;,&#039;&lt;/a&gt;&#039; ) . &quot;&lt;/span&gt;&quot; : __( &#039;If checked non logged in users will be able to post listings from the frontend.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;   =&gt; &#039;post_logged_out&#039;,
+					&#039;type&#039; =&gt; &#039;checkbox&#039;,
+					&#039;default&#039;  =&gt; &#039;0&#039;,
+					&#039;advanced&#039; =&gt; true
+				),
+
+				array(
+					&#039;name&#039; =&gt; __( &#039;Show preview button?&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039; =&gt; __( &#039;If checked a preview button will be shown on the add listing page so uses can preview their post.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;   =&gt; &#039;post_preview&#039;,
+					&#039;type&#039; =&gt; &#039;checkbox&#039;,
+					&#039;default&#039;  =&gt; &#039;1&#039;,
+					&#039;advanced&#039; =&gt; true
+				),
+
+				array(
+					&#039;name&#039; =&gt; __( &#039;Max upload file size(in mb)&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039; =&gt; __( &#039;(Maximum upload file size in MB, 1 MB = 1024 KB. Must be greater then 0(ZERO), for ex: 2. This setting will overwrite the max upload file size limit in image/file upload &amp; import listings for entire GeoDirectory core + GeoDirectory plugins.)&#039;, &#039;geodirectory&#039; ).wp_max_upload_size(),
+					&#039;id&#039;   =&gt; &#039;upload_max_filesize&#039;,
+					&#039;type&#039; =&gt; &#039;number&#039;,
+					&#039;css&#039;  =&gt; &#039;min-width:300px;&#039;,
+					&#039;default&#039;  =&gt; &#039;2&#039;,
+					&#039;custom_attributes&#039; =&gt; array(
+						&#039;min&#039; =&gt; &#039;0.1&#039;,
+						&#039;step&#039; =&gt; &#039;0.1&#039;,
+						&#039;lang&#039; =&gt; &#039;EN&#039;
+					),
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true
+				),
+
+				array(
+					&#039;name&#039; =&gt; __( &#039;Noindex empty archives?&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039; =&gt; __( &#039;If checked this will attempt to add `noindex` tags to empty GD archive pages.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;   =&gt; &#039;noindex_archives&#039;,
+					&#039;type&#039; =&gt; &#039;checkbox&#039;,
+					&#039;default&#039;  =&gt; &#039;0&#039;,
+					&#039;advanced&#039; =&gt; true
+				),
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;general_options_add&#039; ),
+
+				array(
+					&#039;title&#039; =&gt; __( &#039;Map Settings&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;&#039;,
+					&#039;id&#039;    =&gt; &#039;general_options_map&#039;
+				),
+
+				self::get_google_maps_api_key_setting(),
+	
+				self::get_google_geocode_api_key_setting(),
+
+				self::get_maps_api_setting(),
+
+				self::get_maps_lazy_load_setting(),
+
+				self::get_map_language_setting(),
+
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Default marker icon&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;This is the marker icon used if the category does not have a marker icon set.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;map_default_marker_icon&#039;,
+					&#039;type&#039;     =&gt; &#039;image&#039;,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true
+				),
+
+				array(
+					&#039;name&#039; =&gt; __(&#039;Enable map cache&#039;, &#039;geodirectory&#039;), // @todo we need to port this over from GDv1
+					&#039;desc&#039; =&gt; __(&#039;This will cache the map JSON for 24 hours or until a GD listing is saved.&#039;, &#039;geodirectory&#039;),
+					&#039;id&#039; =&gt; &#039;map_cache&#039;,
+					&#039;type&#039; =&gt; &#039;checkbox&#039;,
+					&#039;default&#039;  =&gt; &#039;0&#039;,
+					&#039;desc_tip&#039; =&gt; false,
+					&#039;advanced&#039; =&gt; true
+				),
+
+				array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;general_options_map&#039; ),
+
+				array(
+					&#039;title&#039; =&gt; __( &#039;Tracking Settings&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;  =&gt; &#039;title&#039;,
+					&#039;desc&#039;  =&gt; &#039;&#039;,
+					&#039;id&#039;    =&gt; &#039;general_options_tracking&#039;,
+					&#039;advanced&#039; =&gt; true
+				),
+
+				array(
+					&#039;name&#039; =&gt; __( &#039;Allow Usage Tracking?&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039; =&gt; sprintf( __( &#039;Want to help make GeoDirectory even more awesome? Allow GeoDirectory to collect non-sensitive diagnostic data and usage information. %1$sFind out more%2$s.&#039;, &#039;geodirectory&#039; ), &#039;&lt;a href=&quot;https://wpgeodirectory.com/usage-tracking/&quot; target=&quot;_blank&quot;&gt;&#039;, &#039;&lt;/a&gt;&#039; ),
+					&#039;id&#039;   =&gt; &#039;usage_tracking&#039;,
+					&#039;type&#039; =&gt; &#039;checkbox&#039;,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;advanced&#039; =&gt; true
+				),
+
+					array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;general_options_map&#039; ),
+
+				) );/* General Options End*/
+			}
+		}
+
+
+		return apply_filters( &#039;geodir_get_settings_&#039; . $this-&gt;id, $settings );
+	}
+
+    /**
+     * Get map language settings.
+     *
+     * @since 2.0.0
+     *
+     * @return array Language settings.
+     */
+	public static function get_map_language_setting(){
+		return array(
+			&#039;name&#039;       =&gt; __( &#039;Default map language&#039;, &#039;geodirectory&#039; ),
+			&#039;desc&#039;       =&gt; __( &#039;URLs will only be in one language, this will determine the language location slugs get. You should avoid changing this after listings have been added.&#039;, &#039;geodirectory&#039; ),
+			&#039;id&#039;         =&gt; &#039;map_language&#039;,
+			&#039;default&#039;    =&gt; &#039;en&#039;,
+			&#039;type&#039;       =&gt; &#039;select&#039;,
+			&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+			&#039;options&#039;    =&gt; self::supported_map_languages(),
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; true
+		);
+	}
+
+    /**
+     * Get Maps api settings.
+     *
+     * @since 2.0.0
+     *
+     * @return array Map Api settings.
+     */
+	public static function get_maps_api_setting(){
+		return array(
+			&#039;name&#039;       =&gt; __( &#039;Maps API&#039;, &#039;geodirectory&#039; ),
+			&#039;desc&#039;       =&gt; __( &quot;- Google Maps API will force to load Google JS library only.
+- OpenStreetMap API will force to load OpenStreetMap JS library only.
+- Load Automatic will load Google JS library first, but if Google maps JS library not loaded it then loads the OpenStreetMap JS library to load the maps (recommended for regions where Google maps banned).
+- Disable Maps will disable and hides maps for entire site.&quot;, &#039;geodirectory&#039; ),
+			&#039;id&#039;         =&gt; &#039;maps_api&#039;,
+			&#039;default&#039;    =&gt; &#039;auto&#039;,
+			&#039;type&#039;       =&gt; &#039;select&#039;,
+			&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+			&#039;options&#039;    =&gt; self::supported_maps_apis(),
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; true
+		);
+	}
+
+	/**
+	 * Map lazy load settings.
+	 *
+	 * @since 2.1.0.0
+	 *
+	 * @return array Settings.
+	 */
+	public static function get_maps_lazy_load_setting(){
+		return array(
+			&#039;name&#039;       =&gt; __( &#039;Lazy Load Maps&#039;, &#039;geodirectory&#039; ),
+			&#039;desc&#039;       =&gt; __( &quot;How to load maps on frontend.&quot;, &#039;geodirectory&#039; ),
+			&#039;id&#039;         =&gt; &#039;maps_lazy_load&#039;,
+			&#039;default&#039;    =&gt; &#039;&#039;,
+			&#039;type&#039;       =&gt; &#039;select&#039;,
+			&#039;class&#039;      =&gt; &#039;geodir-select&#039;,
+			&#039;options&#039;    =&gt; array(
+				&#039;&#039; =&gt; __( &#039;Off (no lazy loading)&#039;, &#039;geodirectory&#039; ),
+				&#039;auto&#039; =&gt; __( &#039;Auto (load when map visible on page scroll)&#039;, &#039;geodirectory&#039; ),
+				&#039;click&#039; =&gt; __( &#039;Click to Load (show a button to load map)&#039;, &#039;geodirectory&#039; ),
+			),
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; true
+		);
+	}
+
+    /**
+     * Get google maps api key settings.
+     *
+     * @since 2.0.0
+     *
+     * @return array Google maps api key settings.
+     */
+	public static function get_google_maps_api_key_setting(){
+		return array(
+			&#039;name&#039; =&gt; __( &#039;Google Maps API KEY&#039;, &#039;geodirectory&#039; ),
+			&#039;desc&#039; =&gt; __( &#039;Google Maps &lt;b&gt;requires&lt;/b&gt; an API key. Use the button to create a properly configured key using your Google account. &lt;/br&gt;Advanced: Open Street Map (OSM) API options.&#039;, &#039;geodirectory&#039; ),
+			&#039;id&#039;   =&gt; &#039;google_maps_api_key&#039;,
+			&#039;type&#039; =&gt; &#039;map_key&#039;,
+			&#039;default&#039;  =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;placeholder&#039; =&gt; __( &#039;Leave this blank to use Open Street Maps (OSM)&#039;, &#039;geodirectory&#039; )
+			//&#039;advanced&#039; =&gt; true
+		);
+	}
+
+	/**
+     * Get Google Geocoding API key settings.
+     *
+     * @since 2.0.0.64
+     *
+     * @return array Google Geocoding api key settings.
+     */
+	public static function get_google_geocode_api_key_setting(){
+		return array(
+			&#039;type&#039; =&gt; &#039;geocode_key&#039;,
+			&#039;id&#039; =&gt; &#039;google_geocode_api_key&#039;,
+			&#039;name&#039; =&gt; __( &#039;Google Geocoding API Key&#039;, &#039;geodirectory&#039; ),
+			&#039;desc&#039; =&gt; __( &#039;If above Google MAPs API key is restricted by HTTP referrers then it requires to use separate API key for Geocoding &amp; Timezone services.&#039;, &#039;geodirectory&#039; ),
+			&#039;default&#039;  =&gt; &#039;&#039;,
+			&#039;placeholder&#039; =&gt; geodir_get_option( &#039;google_maps_api_key&#039; ),
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; true
+		);
+	}
+
+	/**
+	 * Output a color picker input box.
+	 *
+	 * @param mixed $name
+	 * @param string $id
+	 * @param mixed $value
+	 * @param string $desc (default: &#039;&#039;)
+	 */
+	public function color_picker( $name, $id, $value, $desc = &#039;&#039; ) {
+		echo &#039;&lt;div class=&quot;color_box&quot;&gt;&#039; . geodir_help_tip( $desc ) . &#039;
+			&lt;input name=&quot;&#039; . esc_attr( $id ) . &#039;&quot; id=&quot;&#039; . esc_attr( $id ) . &#039;&quot; type=&quot;text&quot; value=&quot;&#039; . esc_attr( $value ) . &#039;&quot; class=&quot;colorpick&quot; /&gt; &lt;div id=&quot;colorPickerDiv_&#039; . esc_attr( $id ) . &#039;&quot; class=&quot;colorpickdiv&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;&#039;;
+	}
+
+	/**
+	 * The list of supported maps api&#039;s.
+	 * @return array
+	 */
+	public static function supported_maps_apis(){
+		return array(
+			&#039;auto&#039; =&gt; __(&#039;Automatic (recommended)&#039;, &#039;geodirectory&#039;),
+			&#039;google&#039; =&gt; __(&#039;Google Maps API&#039;, &#039;geodirectory&#039;),
+			&#039;osm&#039; =&gt; __(&#039;OpenStreetMap API&#039;, &#039;geodirectory&#039;),
+			&#039;none&#039; =&gt; __(&#039;Disable Maps&#039;, &#039;geodirectory&#039;),
+		);
+	}
+
+	/**
+	 * The list of supported Google maps api languages.
+	 *
+	 * @return array
+	 */
+	public static function supported_map_languages(){
+		return array(
+			&#039;ar&#039; =&gt; __(&#039;ARABIC&#039;, &#039;geodirectory&#039;),
+			&#039;eu&#039; =&gt; __(&#039;BASQUE&#039;, &#039;geodirectory&#039;),
+			&#039;bg&#039; =&gt; __(&#039;BULGARIAN&#039;, &#039;geodirectory&#039;),
+			&#039;bn&#039; =&gt; __(&#039;BENGALI&#039;, &#039;geodirectory&#039;),
+			&#039;ca&#039; =&gt; __(&#039;CATALAN&#039;, &#039;geodirectory&#039;),
+			&#039;cs&#039; =&gt; __(&#039;CZECH&#039;, &#039;geodirectory&#039;),
+			&#039;da&#039; =&gt; __(&#039;DANISH&#039;, &#039;geodirectory&#039;),
+			&#039;de&#039; =&gt; __(&#039;GERMAN&#039;, &#039;geodirectory&#039;),
+			&#039;el&#039; =&gt; __(&#039;GREEK&#039;, &#039;geodirectory&#039;),
+			&#039;en&#039; =&gt; __(&#039;ENGLISH&#039;, &#039;geodirectory&#039;),
+			&#039;en-AU&#039; =&gt; __(&#039;ENGLISH (AUSTRALIAN)&#039;, &#039;geodirectory&#039;),
+			&#039;en-GB&#039; =&gt; __(&#039;ENGLISH (GREAT BRITAIN)&#039;, &#039;geodirectory&#039;),
+			&#039;es&#039; =&gt; __(&#039;SPANISH&#039;, &#039;geodirectory&#039;),
+			&#039;fa&#039; =&gt; __(&#039;FARSI&#039;, &#039;geodirectory&#039;),
+			&#039;fi&#039; =&gt; __(&#039;FINNISH&#039;, &#039;geodirectory&#039;),
+			&#039;fil&#039; =&gt; __(&#039;FILIPINO&#039;, &#039;geodirectory&#039;),
+			&#039;fr&#039; =&gt; __(&#039;FRENCH&#039;, &#039;geodirectory&#039;),
+			&#039;gl&#039; =&gt; __(&#039;GALICIAN&#039;, &#039;geodirectory&#039;),
+			&#039;gu&#039; =&gt; __(&#039;GUJARATI&#039;, &#039;geodirectory&#039;),
+			&#039;hi&#039; =&gt; __(&#039;HINDI&#039;, &#039;geodirectory&#039;),
+			&#039;hr&#039; =&gt; __(&#039;CROATIAN&#039;, &#039;geodirectory&#039;),
+			&#039;hu&#039; =&gt; __(&#039;HUNGARIAN&#039;, &#039;geodirectory&#039;),
+			&#039;id&#039; =&gt; __(&#039;INDONESIAN&#039;, &#039;geodirectory&#039;),
+			&#039;it&#039; =&gt; __(&#039;ITALIAN&#039;, &#039;geodirectory&#039;),
+			&#039;iw&#039; =&gt; __(&#039;HEBREW&#039;, &#039;geodirectory&#039;),
+			&#039;ja&#039; =&gt; __(&#039;JAPANESE&#039;, &#039;geodirectory&#039;),
+			&#039;kn&#039; =&gt; __(&#039;KANNADA&#039;, &#039;geodirectory&#039;),
+			&#039;ko&#039; =&gt; __(&#039;KOREAN&#039;, &#039;geodirectory&#039;),
+			&#039;lt&#039; =&gt; __(&#039;LITHUANIAN&#039;, &#039;geodirectory&#039;),
+			&#039;lv&#039; =&gt; __(&#039;LATVIAN&#039;, &#039;geodirectory&#039;),
+			&#039;ml&#039; =&gt; __(&#039;MALAYALAM&#039;, &#039;geodirectory&#039;),
+			&#039;mr&#039; =&gt; __(&#039;MARATHI&#039;, &#039;geodirectory&#039;),
+			&#039;nl&#039; =&gt; __(&#039;DUTCH&#039;, &#039;geodirectory&#039;),
+			&#039;no&#039; =&gt; __(&#039;NORWEGIAN&#039;, &#039;geodirectory&#039;),
+			&#039;pl&#039; =&gt; __(&#039;POLISH&#039;, &#039;geodirectory&#039;),
+			&#039;pt&#039; =&gt; __(&#039;PORTUGUESE&#039;, &#039;geodirectory&#039;),
+			&#039;pt-BR&#039; =&gt; __(&#039;PORTUGUESE (BRAZIL)&#039;, &#039;geodirectory&#039;),
+			&#039;pt-PT&#039; =&gt; __(&#039;PORTUGUESE (PORTUGAL)&#039;, &#039;geodirectory&#039;),
+			&#039;ro&#039; =&gt; __(&#039;ROMANIAN&#039;, &#039;geodirectory&#039;),
+			&#039;ru&#039; =&gt; __(&#039;RUSSIAN&#039;, &#039;geodirectory&#039;),
+			&#039;sk&#039; =&gt; __(&#039;SLOVAK&#039;, &#039;geodirectory&#039;),
+			&#039;sl&#039; =&gt; __(&#039;SLOVENIAN&#039;, &#039;geodirectory&#039;),
+			&#039;sr&#039; =&gt; __(&#039;SERBIAN&#039;, &#039;geodirectory&#039;),
+			&#039;sv&#039; =&gt; __(&#039;SWEDISH&#039;, &#039;geodirectory&#039;),
+			&#039;tl&#039; =&gt; __(&#039;TAGALOG&#039;, &#039;geodirectory&#039;),
+			&#039;ta&#039; =&gt; __(&#039;TAMIL&#039;, &#039;geodirectory&#039;),
+			&#039;te&#039; =&gt; __(&#039;TELUGU&#039;, &#039;geodirectory&#039;),
+			&#039;th&#039; =&gt; __(&#039;THAI&#039;, &#039;geodirectory&#039;),
+			&#039;tr&#039; =&gt; __(&#039;TURKISH&#039;, &#039;geodirectory&#039;),
+			&#039;uk&#039; =&gt; __(&#039;UKRAINIAN&#039;, &#039;geodirectory&#039;),
+			&#039;vi&#039; =&gt; __(&#039;VIETNAMESE&#039;, &#039;geodirectory&#039;),
+			&#039;zh-CN&#039; =&gt; __(&#039;CHINESE (SIMPLIFIED)&#039;, &#039;geodirectory&#039;),
+			&#039;zh-TW&#039; =&gt; __(&#039;CHINESE (TRADITIONAL)&#039;, &#039;geodirectory&#039;),
+		);
+	}
+
+
+}
+
+endif;
+
+return new GeoDir_Settings_General();
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

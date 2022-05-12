@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-settings-cpt-sorting.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory CPT Sorting Settings
+ *
+ * @author      AyeCode
+ * @category    Admin
+ * @package     GeoDirectory/Admin
+ * @version     2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit; // Exit if accessed directly
+}
+
+if ( ! class_exists( &#039;GeoDir_Settings_Cpt_Sorting&#039;, false ) ) :
+
+	/**
+	 * GeoDir_Admin_Settings_General.
+	 */
+	class GeoDir_Settings_Cpt_Sorting extends GeoDir_Settings_Page {
+
+		/**
+		 * Post type.
+		 *
+		 * @var string
+		 */
+		private static $post_type = &#039;&#039;;
+
+		/**
+		 * Sub tab.
+		 *
+		 * @var string
+		 */
+		private static $sub_tab = &#039;&#039;;
+
+		/**
+		 * Constructor.
+		 */
+		public function __construct() {
+
+			self::$post_type = ( ! empty( $_REQUEST[&#039;post_type&#039;] ) &amp;&amp; is_scalar( $_REQUEST[&#039;post_type&#039;] ) ) ? sanitize_title( $_REQUEST[&#039;post_type&#039;] ) : &#039;gd_place&#039;;
+			self::$sub_tab   = ! empty( $_REQUEST[&#039;tab&#039;] ) ? sanitize_title( $_REQUEST[&#039;tab&#039;] ) : &#039;general&#039;;
+
+			$this-&gt;id    = &#039;cpt-sorting&#039;;
+			$this-&gt;label = __( &#039;Sorting&#039;, &#039;geodirectory&#039; );
+
+			add_filter( &#039;geodir_settings_tabs_array&#039;, array( $this, &#039;add_settings_page&#039; ), 20 );
+			add_action( &#039;geodir_settings_&#039; . $this-&gt;id, array( $this, &#039;output&#039; ) );
+		}
+
+		/**
+		 * Get sections.
+		 *
+		 * @return array
+		 */
+		public function get_sections() {
+
+			$sections = array(
+				&#039;&#039; =&gt; __( &#039;Custom Fields&#039;, &#039;geodirectory&#039; ),
+				//	&#039;location&#039;       =&gt; __( &#039;Custom fields&#039;, &#039;geodirectory&#039; ),
+				//	&#039;pages&#039; 	=&gt; __( &#039;Sorting options&#039;, &#039;geodirectory&#039; ),
+				//&#039;dummy_data&#039; 	=&gt; __( &#039;Dummy Data&#039;, &#039;geodirectory&#039; ),
+				//&#039;uninstall&#039; 	=&gt; __( &#039;Uninstall&#039;, &#039;geodirectory&#039; ),
+			);
+
+			return apply_filters( &#039;geodir_get_sections_&#039; . $this-&gt;id, $sections );
+		}
+
+		/**
+		 * Output the settings.
+		 */
+		public function output() {
+			global $hide_save_button;
+
+			$hide_save_button = true;
+
+			$listing_type = self::$post_type;
+
+			$sub_tab = self::$sub_tab;
+
+			include( dirname( __FILE__ ) . &#039;/../views/html-admin-settings-cpt-cf.php&#039; );
+
+
+		}
+
+
+		/**
+		 * Returns heading for the CPT settings left panel.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 * @return string The page heading.
+		 */
+		public static function left_panel_title() {
+			return sprintf( __( &#039;Fields&#039;, &#039;geodirectory&#039; ), geodir_get_post_type_singular_label( self::$post_type, false, true ) );
+
+		}
+
+		/**
+		 * Returns description for given sub tab - available fields box.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 * @return string The box description.
+		 */
+		public function left_panel_note() {
+			return sprintf( __( &#039;Click on any box below to make it appear in the sorting option dropdown on %s listing and search results.&lt;br /&gt;To make a field available here, go to custom fields tab and expand any field from selected fields panel and tick the checkbox saying \&#039;Include this field in sort option\&#039;.&#039;, &#039;geodirectory&#039; ), geodir_get_post_type_singular_label( self::$post_type, false, true ) );
+		}
+
+		/**
+		 * Output the admin settings cpt sorting left panel content.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 */
+		public function left_panel_content() {
+			?&gt;
+			&lt;div class=&quot;inside&quot;&gt;
+
+				&lt;div id=&quot;gd-form-builder-tab&quot; class=&quot;gd-form-builder-tab gd-tabs-panel&quot;&gt;
+					&lt;ul class=&quot;row row-cols-2 px-2&quot;&gt;
+						&lt;?php
+						$sort_options = self::custom_sort_options( self::$post_type );
+
+						if(!empty($sort_options)){
+							foreach ( $sort_options as $key =&gt; $val ) {
+								$val = stripslashes_deep( $val ); // strip slashes
+
+								$check_html_variable = self::field_exists( $val[&#039;htmlvar_name&#039;], self::$post_type );
+								$display             = &#039;&#039;;//$check_html_variable ? &#039; style=&quot;display:none;&quot;&#039; : &#039;&#039;;
+								//print_r($val);
+								?&gt;
+
+								&lt;li class=&quot;col px-1&quot; &lt;?php echo $display; ?&gt;&gt;
+									&lt;a id=&quot;gd-&lt;?php echo esc_attr( $val[&#039;field_type&#039;] . &#039;-_-&#039; . $val[&#039;htmlvar_name&#039;] ); ?&gt;&quot;
+									   data-field-type-key=&quot;&lt;?php echo esc_attr( $val[&#039;htmlvar_name&#039;] ); ?&gt;&quot;
+									   data-field-type=&quot;&lt;?php echo esc_attr( $val[&#039;field_type&#039;] ); ?&gt;&quot;
+									   class=&quot;gd-draggable-form-items  gd-&lt;?php echo esc_attr( $val[&#039;field_type&#039;] ); ?&gt; geodir-sort-&lt;?php echo esc_attr( $val[&#039;htmlvar_name&#039;] ); ?&gt; btn btn-sm d-block m-0 btn-outline-gray text-dark text-left&quot;
+									   href=&quot;javascript:void(0);&quot;&gt;
+										&lt;?php if ( isset( $val[&#039;field_icon&#039;] ) &amp;&amp; strpos( $val[&#039;field_icon&#039;], &#039;fa-&#039; ) !== false ) {
+											echo &#039;&lt;i class=&quot;fas &#039; . esc_attr( $val[&#039;field_icon&#039;] ) . &#039;&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&#039;;
+										} elseif ( isset( $val[&#039;field_icon&#039;] ) &amp;&amp; $val[&#039;field_icon&#039;] ) {
+											echo &#039;&lt;b style=&quot;background-image: url(&quot;&#039; . esc_attr( $val[&#039;field_icon&#039;] ) . &#039;&quot;)&quot;&gt;&lt;/b&gt;&#039;;
+										} else {
+											echo &#039;&lt;i class=&quot;fas fa-cog&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&#039;;
+										} ?&gt;
+										&lt;?php echo esc_attr( $val[&#039;frontend_title&#039;] ); ?&gt;
+										&lt;?php if ( ! empty( $val[&#039;description&#039;] ) ) { ?&gt;
+										&lt;span class=&quot;dashicons dashicons-editor-help text-muted float-right&quot; data-toggle=&quot;tooltip&quot;
+										      title=&quot;&lt;?php echo esc_attr( $val[&#039;description&#039;] ); ?&gt;&quot;&gt;
+										&lt;?php } ?&gt;
+								&lt;/span&gt;
+									&lt;/a&gt;
+								&lt;/li&gt;
+
+								&lt;?php
+							}
+						}
+						?&gt;
+					&lt;/ul&gt;
+					&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
+
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;?php
+
+		}
+
+
+		/**
+		 * Returns heading for the CPT settings left panel.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 * @return string The page heading.
+		 */
+		public static function right_panel_title() {
+			return sprintf( __( &#039;Sorting options&#039;, &#039;geodirectory&#039; ), geodir_get_post_type_singular_label( self::$post_type, false, true ) );
+		}
+
+		/**
+		 * Returns description for given sub tab - available fields box.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 * @return string The box description.
+		 */
+		public function right_panel_note() {
+			return sprintf( __( &#039;Click to expand and view field related settings. You may drag and drop to arrange fields order in sorting option dropdown box on %s listing and search results page.&#039;, &#039;geodirectory&#039; ), geodir_get_post_type_singular_label( self::$post_type, false, true ) );
+		}
+
+		/**
+		 * Output the admin cpt settings fields left panel content.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 */
+		public function right_panel_content() {
+			?&gt;
+			&lt;form&gt;&lt;/form&gt; &lt;!-- chrome removes the first form inside a form for some reason so we need this ?&gt; --&gt;
+			&lt;div class=&quot;inside&quot;&gt;
+
+				&lt;div id=&quot;gd-form-builder-tab&quot; class=&quot;gd-form-builder-tab gd-tabs-panel&quot;&gt;
+					&lt;div class=&quot;field_row_main&quot;&gt;
+						&lt;div class=&quot;dd gd-tabs-layout&quot; &gt;
+							&lt;ul class=&quot;dd-list gd-tabs-sortable gd-sortable-sortable&quot;&gt;
+								&lt;?php
+								global $wpdb;
+
+								$fields = $wpdb-&gt;get_results( $wpdb-&gt;prepare( &quot;SELECT * FROM &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; WHERE post_type = %s AND field_type != &#039;address&#039; ORDER BY sort_order ASC&quot;, array( self::$post_type ) ) );
+
+								if ( ! empty( $fields ) ) {
+
+									echo self::loop_fields_output($fields);
+
+								} else {
+									_e( &#039;Select fields from the left to be able to add new sort options.&#039;, &#039;geodirectory&#039; );
+								}
+
+
+
+//								if ( ! empty( $fields ) ) {
+//									foreach ( $fields as $field ) {
+//										//$result_str = $field-&gt;id;
+//										$result_str    = $field;
+//										$field_type    = $field-&gt;field_type;
+//										$field_ins_upd = &#039;display&#039;;
+//
+//										$default = false;
+//										self::output_custom_field_setting_item( $field_type, $result_str);
+//
+//										//geodir_custom_sort_field_adminhtml( $field_type, $result_str, $field_ins_upd, $default );
+//									}
+//								}else{
+//									_e(&quot;Select fields from the left to be able to add new sort options.&quot;,&quot;geodirectory&quot;);
+//								}
+								?&gt;
+							&lt;/ul&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+			&lt;?php
+		}
+
+		/**
+		 * Loop through the base to output them with the different levels.
+		 * @param $tabs
+		 * @param string $tab_id
+		 *
+		 * @return string
+		 */
+		public static function loop_fields_output($tabs,$tab_id = &#039;&#039;){
+			ob_start();
+
+			if(!empty($tabs)){
+				foreach($tabs as $key =&gt; $tab){
+
+					if($tab_id &amp;&amp; $tab-&gt;id!=$tab_id){
+						continue;
+					}elseif($tab_id &amp;&amp; $tab-&gt;id==$tab_id &amp;&amp; $tab-&gt;tab_level &gt; 0){
+						echo self::output_custom_field_setting_item($tab-&gt;id,$tab); break;
+					}
+
+					if($tab-&gt;tab_level==&#039;1&#039; ){continue;}
+
+
+					$tab_rendered = self::output_custom_field_setting_item($tab-&gt;id,$tab);
+					$tab_rendered = str_replace(&quot;&lt;/li&gt;&quot;,&quot;&quot;,$tab_rendered);
+					$child_tabs = &#039;&#039;;
+					foreach($tabs as $child_tab){
+						if($child_tab-&gt;tab_parent==$tab-&gt;id){
+							$child_tabs .= self::output_custom_field_setting_item($child_tab-&gt;id,$child_tab);
+						}
+					}
+
+					if($child_tabs){
+						$tab_rendered .= &quot;&lt;ul&gt;&quot;;
+						$tab_rendered .= $child_tabs;
+						$tab_rendered .= &quot;&lt;/ul&gt;&quot;;
+					}
+
+					echo $tab_rendered;
+					echo &quot;&lt;/li&gt;&quot;;
+
+					unset($tabs[$key]);
+
+				}
+			}
+			return ob_get_clean();
+		}
+
+
+		/**
+		 * Get sort options based on post type.
+		 *
+		 * @since 1.0.0
+		 * @package GeoDirectory
+		 * @global object $wpdb WordPress Database object.
+		 *
+		 * @param string $post_type The post type.
+		 *
+		 * @return bool|mixed|void Returns sort options when post type available. Otherwise returns false.
+		 */
+		public static function custom_sort_options( $post_type = &#039;&#039; ) {
+
+			global $wpdb;
+
+			if ( $post_type != &#039;&#039; ) {
+
+				$all_postypes = geodir_get_posttypes();
+
+				if ( ! in_array( $post_type, $all_postypes ) ) {
+					return false;
+				}
+
+				$fields = array();
+
+				$fields[&#039;random&#039;] = array(
+					&#039;post_type&#039;      =&gt; $post_type,
+					&#039;data_type&#039;      =&gt; &#039;&#039;,
+					&#039;field_type&#039;     =&gt; &#039;random&#039;,
+					&#039;frontend_title&#039; =&gt; &#039;Random&#039;,
+					&#039;htmlvar_name&#039;   =&gt; &#039;post_status&#039;,
+					&#039;field_icon&#039;     =&gt; &#039;fas fa-random&#039;,
+					&#039;description&#039;    =&gt; __( &#039;Random sort (not recommended for large sites)&#039;, &#039;geodirectory&#039; )
+				);
+
+				$fields[&#039;datetime&#039;] = array(
+					&#039;post_type&#039;      =&gt; $post_type,
+					&#039;data_type&#039;      =&gt; &#039;&#039;,
+					&#039;field_type&#039;     =&gt; &#039;datetime&#039;,
+					&#039;frontend_title&#039; =&gt; __( &#039;Add date&#039;, &#039;geodirectory&#039; ),
+					&#039;htmlvar_name&#039;   =&gt; &#039;post_date&#039;,
+					&#039;field_icon&#039;     =&gt; &#039;fas fa-calendar&#039;,
+					&#039;description&#039;    =&gt; __( &#039;Sort by date added&#039;, &#039;geodirectory&#039; )
+				);
+				$fields[&#039;bigint&#039;] = array(
+					&#039;post_type&#039;      =&gt; $post_type,
+					&#039;data_type&#039;      =&gt; &#039;&#039;,
+					&#039;field_type&#039;     =&gt; &#039;bigint&#039;,
+					&#039;frontend_title&#039; =&gt; __( &#039;Review&#039;, &#039;geodirectory&#039; ),
+					&#039;htmlvar_name&#039;   =&gt; &#039;comment_count&#039;,
+					&#039;field_icon&#039;     =&gt; &#039;far fa-comment-dots&#039;,
+					&#039;description&#039;    =&gt; __( &#039;Sort by the number of reviews&#039;, &#039;geodirectory&#039; )
+				);
+				$fields[&#039;float&#039;] = array(
+					&#039;post_type&#039;      =&gt; $post_type,
+					&#039;data_type&#039;      =&gt; &#039;&#039;,
+					&#039;field_type&#039;     =&gt; &#039;float&#039;,
+					&#039;frontend_title&#039; =&gt; __( &#039;Rating&#039;, &#039;geodirectory&#039; ),
+					&#039;htmlvar_name&#039;   =&gt; &#039;overall_rating&#039;,
+					&#039;field_icon&#039;     =&gt; &#039;fas fa-star&#039;,
+					&#039;description&#039;    =&gt; __( &#039;Sort by the overall rating value&#039;, &#039;geodirectory&#039; )
+				);
+				$fields[&#039;text&#039;] = array(
+					&#039;post_type&#039;      =&gt; $post_type,
+					&#039;data_type&#039;      =&gt; &#039;&#039;,
+					&#039;field_type&#039;     =&gt; &#039;text&#039;,
+					&#039;frontend_title&#039; =&gt; __( &#039;Title&#039;, &#039;geodirectory&#039; ),
+					&#039;htmlvar_name&#039;   =&gt; &#039;post_title&#039;,
+					&#039;field_icon&#039;     =&gt; &#039;fas fa-sort-alpha-up&#039;,
+					&#039;description&#039;    =&gt; __( &#039;Sort alphabetically by title&#039;, &#039;geodirectory&#039; )
+				);
+
+				/**
+				 * Hook to add custom sort options.
+				 *
+				 * @since 1.0.0
+				 *
+				 * @param array $fields Unmodified sort options array.
+				 * @param string $post_type Post type.
+				 */
+				return $fields = apply_filters( &#039;geodir_add_custom_sort_options&#039;, $fields, $post_type );
+
+			}
+
+			return false;
+		}
+
+		/**
+		 * Check if the field already exists.
+		 *
+		 * @param $field
+		 *
+		 * @return WP_Error
+		 */
+		public static function field_exists( $htmlvar_name, $post_type ) {
+			global $wpdb;
+
+			$check_html_variable = $wpdb-&gt;get_var(
+				$wpdb-&gt;prepare(
+					&quot;SELECT htmlvar_name FROM &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; WHERE htmlvar_name = %s AND post_type = %s&quot;,
+					array( $htmlvar_name, $post_type )
+				)
+			);
+
+			return $check_html_variable;
+
+		}
+
+		/**
+		 * Adds admin html for custom sorting fields.
+		 *
+		 * @since 1.0.0
+		 * @package GeoDirectory
+		 * @global object $wpdb WordPress Database object.
+		 * @param string $field_type The form field type.
+		 * @param object|int $result_str The custom field results object or row id.
+		 * @param string $field_ins_upd When set to &quot;submit&quot; displays form.
+		 * @param string $field_type_key The key of the custom field.
+		 */
+		public static function output_custom_field_setting_item($field_id = &#039;&#039;,$field = &#039;&#039;,$cf = array())
+		{
+			ob_start();
+			// if field not provided get it
+			if (!is_object($field) &amp;&amp; $field_id) {
+				global $wpdb;
+				$field = $wpdb-&gt;get_row($wpdb-&gt;prepare(&quot;select * from &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; where id= %d&quot;, array($field_id)));
+			}
+
+			// if field template not provided get it
+			if(empty($cf)){
+				$cf_arr  = self::custom_sort_options($field-&gt;post_type);
+				//$cf = (isset($cf_arr[$field-&gt;field_type])) ? $cf_arr[$field-&gt;field_type] : &#039;&#039;; // the field type
+				if(!$cf){
+					foreach ($cf_arr as $cf_temp){
+						if(isset($field-&gt;htmlvar_name) &amp;&amp; $cf_temp[&#039;htmlvar_name&#039;]==$field-&gt;htmlvar_name){
+							$cf = $cf_temp;
+							//$field = (object) array_merge((array) $field, (array) $cf_temp);
+							$field = (object) array_merge((array) $cf_temp, (array)  $field);
+							break;
+						}
+					}
+				}
+			}
+
+			//print_r(print_r($field));
+
+
+
+			$field = stripslashes_deep( $field );
+
+//			print_r($field);
+//			echo &#039;###&#039;;
+//			print_r($cf_arr);
+//			echo &#039;###&#039;;
+//			print_r($cf );echo &#039;####&#039;;exit;
+
+			####################
+
+
+			//$htmlvar_name = isset( $field_type_key ) ? $field_type_key : &#039;&#039;;
+
+			///print_r($field);
+
+			$frontend_title = &#039;&#039;;
+			if ( $frontend_title == &#039;&#039; ) {
+				$frontend_title = isset( $field-&gt;frontend_title ) ? $field-&gt;frontend_title : &#039;&#039;;
+			}
+
+			if ( $frontend_title == &#039;&#039; ) {
+				$frontend_title = isset( $cf[&#039;frontend_title&#039;] ) ? $cf[&#039;frontend_title&#039;] : &#039;&#039;;
+			}
+
+
+			$nonce = wp_create_nonce( &#039;custom_fields_&#039; . $field-&gt;id );
+
+			if ( isset( $cf[&#039;field_icon&#039;] ) &amp;&amp; geodir_is_fa_icon( $cf[&#039;field_icon&#039;] ) ) {
+				$field_icon = &#039;&lt;i class=&quot;&#039; . $cf[&#039;field_icon&#039;] . &#039;&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&#039;;
+			} elseif ( isset( $cf[&#039;field_icon&#039;] ) &amp;&amp; geodir_is_icon_url( $cf[&#039;field_icon&#039;] ) ) {
+				$field_icon = &#039;&lt;b style=&quot;background-image: url(&quot;&#039; . $cf[&#039;field_icon&#039;] . &#039;&quot;)&quot;&gt;&lt;/b&gt;&#039;;
+			} else {
+				$field_icon = &#039;&lt;i class=&quot;fas fa-cog&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&#039;;
+			}
+
+			$radio_id = ( isset( $field-&gt;htmlvar_name ) ) ? $field-&gt;htmlvar_name . $field-&gt;field_type : rand( 5, 500 );
+
+			/**
+			 * Contains custom field html.
+			 *
+			 * @since 2.0.0
+			 */
+			include( dirname( __FILE__ ) . &#039;/../views/html-admin-settings-cpt-sorting-setting-item.php&#039; );
+			return ob_get_clean();
+
+		}
+
+		/**
+		 * Get the sort order if not set.
+		 *
+		 * @return int
+		 */
+		public static function default_sort_order(){
+			global $wpdb;
+			$last_order = $wpdb-&gt;get_var(&quot;SELECT MAX(sort_order) as last_order FROM &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE);
+
+			return (int)$last_order + 1;
+		}
+
+		/**
+		 * Sanatize the custom field
+		 *
+		 * @param array/object $input {
+		 *    Attributes of the request field array.
+		 *
+		 *    @type string $action Ajax Action name. Default &quot;geodir_ajax_action&quot;.
+		 *    @type string $manage_field_type Field type Default &quot;custom_fields&quot;.
+		 *    @type string $create_field Create field Default &quot;true&quot;.
+		 *    @type string $field_ins_upd Field ins upd Default &quot;submit&quot;.
+		 *    @type string $_wpnonce WP nonce value.
+		 *    @type string $listing_type Listing type Example &quot;gd_place&quot;.
+		 *    @type string $field_type Field type Example &quot;radio&quot;.
+		 *    @type string $field_id Field id Example &quot;12&quot;.
+		 *    @type string $data_type Data type Example &quot;VARCHAR&quot;.
+		 *    @type string $is_active Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then the field will not be displayed anywhere.
+		 *    @type array $show_on_pkg Package list to display this field.
+		 *    @type string $admin_title Personal comment, it would not be displayed anywhere except in custom field settings.
+		 *    @type string $frontend_title Section title which you wish to display in frontend.
+		 *    @type string $frontend_desc Section description which will appear in frontend.
+		 *    @type string $htmlvar_name Html variable name. This should be a unique name.
+		 *    @type string $clabels Section Title which will appear in backend.
+		 *    @type string $default_value The default value (for &quot;link&quot; this will be used as the link text).
+		 *    @type string $sort_order The display order of this field in backend. e.g. 5.
+		 *    @type string $is_default Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then the field will be displayed as main form field or additional field.
+		 *    @type string $for_admin_use Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then only site admin can edit this field.
+		 *    @type string $is_required Use &quot;1&quot; to set field as required.
+		 *    @type string $required_msg Enter text for error message if field required and have not full fill requirement.
+		 *    @type string $show_in What locations to show the custom field in.
+		 *    @type string $show_as_tab Want to display this as a tab on detail page? If &quot;1&quot; then &quot;Show on detail page?&quot; must be Yes.
+		 *    @type string $option_values Option Values should be separated by comma.
+		 *    @type string $field_icon Upload icon using media and enter its url path, or enter font awesome class.
+		 *    @type string $css_class Enter custom css class for field custom style.
+		 *    @type array $extra_fields An array of extra fields to store.
+		 *
+		 * }
+		 */
+		private static function sanatize_custom_field($input){
+
+			// if object convert to array
+			if(is_object($input)){
+				$input = json_decode(json_encode($input), true);
+			}
+
+			$field = new stdClass();
+
+			// sanatize
+			$field-&gt;post_type = isset( $input[&#039;post_type&#039;] ) ? sanitize_text_field( $input[&#039;post_type&#039;] ) : null;
+			$field-&gt;field_type = isset( $input[&#039;field_type&#039;] ) ? sanitize_text_field( $input[&#039;field_type&#039;] ) : null;
+			$field-&gt;field_id = isset( $input[&#039;field_id&#039;] ) ? absint( $input[&#039;field_id&#039;] ) : &#039;&#039;;
+			$field-&gt;data_type = isset( $input[&#039;data_type&#039;] ) ? sanitize_text_field( $input[&#039;data_type&#039;] ) : &#039;&#039;;
+			$field-&gt;htmlvar_name = isset( $input[&#039;htmlvar_name&#039;] ) ? str_replace(array(&#039;-&#039;,&#039; &#039;,&#039;&quot;&#039;,&quot;&#039;&quot;), array(&#039;_&#039;,&#039;&#039;,&#039;&#039;,&#039;&#039;), sanitize_title_with_dashes( $input[&#039;htmlvar_name&#039;] ) ) : null;
+			$field-&gt;frontend_title = isset( $input[&#039;frontend_title&#039;] ) ? sanitize_text_field( $input[&#039;frontend_title&#039;] ) : null;
+			$field-&gt;sort = isset( $input[&#039;sort&#039;] ) ? sanitize_text_field( $input[&#039;sort&#039;] ) : &#039;asc&#039;;
+			//$field-&gt;asc = isset( $input[&#039;asc&#039;] ) ? absint( $input[&#039;asc&#039;] ) : 0;
+			//$field-&gt;asc_title = isset( $input[&#039;asc_title&#039;] ) ? sanitize_text_field( $input[&#039;asc_title&#039;] ) : $field-&gt;frontend_title.&quot; ASC&quot;;
+			//$field-&gt;desc = isset( $input[&#039;desc&#039;] ) ? absint( $input[&#039;desc&#039;] ) : 0;
+			//$field-&gt;desc_title = isset( $input[&#039;desc_title&#039;] ) ? sanitize_text_field( $input[&#039;desc_title&#039;] ) : $field-&gt;frontend_title.&quot; DESC&quot;;
+			$field-&gt;is_active = isset( $input[&#039;is_active&#039;] ) ? absint( $input[&#039;is_active&#039;] ) : 0;
+			$field-&gt;is_default = isset( $input[&#039;is_default&#039;] ) &amp;&amp; $input[&#039;is_default&#039;] ? 1 : 0;
+			//$field-&gt;default_order = isset( $input[&#039;default_order&#039;] ) ? sanitize_text_field( $input[&#039;default_order&#039;] ) : &#039;&#039;;
+			$field-&gt;sort_order = isset( $input[&#039;sort_order&#039;] ) ? absint( $input[&#039;sort_order&#039;] ) : self::default_sort_order();
+
+			// Set some default after sanitation
+			$field-&gt;data_type = self::sanitize_data_type($field);
+			if(!$field-&gt;htmlvar_name){$field-&gt;htmlvar_name =str_replace(array(&#039;-&#039;,&#039; &#039;,&#039;&quot;&#039;,&quot;&#039;&quot;), array(&#039;_&#039;,&#039;&#039;,&#039;&#039;,&#039;&#039;), sanitize_title_with_dashes( $input[&#039;frontend_title&#039;] ) );} // we use original input so the special chars are no converted already
+
+			// setup the default sort
+			//if( !$field-&gt;default_order &amp;&amp; $field-&gt;is_default ){$field-&gt;default_order = sanitize_text_field($input[&#039;is_default&#039;]);}
+
+			return $field;
+
+		}
+
+		/**
+		 * Sanatize data type.
+		 *
+		 * Sanatize option values.
+		 * @param $value
+		 *
+		 * @return mixed
+		 */
+		private static function sanitize_data_type( $field ){
+
+			$value = &#039;VARCHAR&#039;;
+
+			if($field-&gt;data_type == &#039;&#039;){
+
+				switch ($field-&gt;field_type){
+					case &#039;checkbox&#039;:
+						$value = &#039;TINYINT&#039;;
+						break;
+					case &#039;textarea&#039;:
+					case &#039;html&#039;:
+					case &#039;url&#039;:
+					case &#039;file&#039;:
+						$value = &#039;TEXT&#039;;
+						break;
+					default:
+						$value = &#039;VARCHAR&#039;;
+				}
+
+			}else{
+				// Strip X if first character, this is added as some servers will flag security rules if a data type is posted via form.
+				$value = ltrim($field-&gt;data_type, &#039;X&#039;);
+			}
+
+			return sanitize_text_field( $value);
+		}
+
+		/**
+		 * Save the custom field.
+		 *
+		 * @param array $field
+		 *
+		 * @return int|string
+		 */
+		public static function save_custom_field( $field = array() ) {
+			global $wpdb, $plugin_prefix;
+
+			$field = self::sanatize_custom_field( $field );
+
+			// Check field exists.
+			$exists = self::field_exists($field-&gt;htmlvar_name,$field-&gt;post_type);
+
+			if ( is_wp_error( $exists ) ) {
+				return new WP_Error( &#039;failed&#039;, $exists-&gt;get_error_message() );
+			} else if ( $exists &amp;&amp; $field-&gt;field_id===&#039;&#039; ) {
+				// Field id blank for dummy data and 0 for new
+				return &#039;&#039;; // Return blank, probably dummy data being inserted.
+			} else if ( $exists &amp;&amp; $field-&gt;field_id === 0 ) {
+				// Its new
+				$exists = false;
+			}
+
+			// If this is set as the default blank all the others first just incase.
+			if ( $field-&gt;is_default ) {
+				self::blank_default( $field-&gt;post_type );
+			}
+
+			$db_data = array(
+				&#039;post_type&#039; =&gt; $field-&gt;post_type,
+				&#039;data_type&#039; =&gt; $field-&gt;data_type,
+				&#039;field_type&#039; =&gt; $field-&gt;field_type,
+				&#039;frontend_title&#039; =&gt; $field-&gt;frontend_title,
+				&#039;htmlvar_name&#039; =&gt; $field-&gt;htmlvar_name,
+				&#039;sort_order&#039; =&gt; $field-&gt;sort_order,
+				&#039;sort&#039; =&gt; $field-&gt;sort,
+				&#039;is_active&#039; =&gt; $field-&gt;is_active,
+				&#039;is_default&#039; =&gt; $field-&gt;is_default,
+			);
+
+			$db_format = array(
+				&#039;%s&#039;, // post_type
+				&#039;%s&#039;, // data_type
+				&#039;%s&#039;, // field_type
+				&#039;%s&#039;, // frontend_title
+				&#039;%s&#039;, // htmlvar_name
+				&#039;%d&#039;, // sort_order
+				&#039;%s&#039;, // sort
+				&#039;%d&#039;, // is_active
+				&#039;%d&#039;, // is_default
+			);
+
+			if ( $exists ) {
+				// Update the field settings.
+				$result = $wpdb-&gt;update(
+					GEODIR_CUSTOM_SORT_FIELDS_TABLE,
+					$db_data,
+					array( &#039;id&#039; =&gt; $field-&gt;field_id ),
+					$db_format
+				);
+
+				if ( $result === false ) {
+					return new WP_Error( &#039;failed&#039;, __( &quot;Field update failed.&quot;, &quot;geodirectory&quot; ) );
+				}
+			} else {
+				// Insert the field settings.
+				$result = $wpdb-&gt;insert(
+					GEODIR_CUSTOM_SORT_FIELDS_TABLE,
+					$db_data,
+					$db_format
+				);
+
+				if ( $result === false ) {
+					return new WP_Error( &#039;failed&#039;, __( &quot;Field create failed.&quot;, &quot;geodirectory&quot; ) );
+				} else {
+					$field-&gt;field_id = $wpdb-&gt;insert_id;
+				}
+			}
+
+			// Clear cache.
+			self::clear_sort_cache( $field-&gt;post_type );
+
+			/**
+			 * Called after all custom sort fields are saved for a post.
+			 *
+			 * @since 1.0.0
+			 * @param int $lastid The post ID.
+			 */
+			do_action( &#039;geodir_after_custom_sort_fields_updated&#039;, $field-&gt;field_id, $field );
+
+			return $field-&gt;field_id;
+		}
+
+        /**
+         * Blank all defaults for a post type.
+         *
+         * @since 2.0.0
+         *
+         * @global object $wpdb WordPress Database object.
+         *
+         * @param $post_type Post type value.
+         */
+		public static function blank_default($post_type){
+			global $wpdb;
+
+			// blank all first
+			$wpdb-&gt;query( $wpdb-&gt;prepare( &quot;UPDATE &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; SET is_default=&#039;0&#039; WHERE post_type = %s&quot;, array( $post_type ) ) );
+		}
+
+
+		/**
+		 * Delete a custom sort field using field id.
+		 * @since 1.0.0
+		 * @package GeoDirectory
+		 * @global object $wpdb WordPress Database object.
+		 * @global string $plugin_prefix Geodirectory plugin table prefix.
+		 * @param string $field_id The field ID.
+		 * @return int|string Returns field id when successful deletion, else returns 0.
+		 */
+		public static function delete_custom_field( $field_id = &#039;&#039; ) {
+			global $wpdb;
+
+			if ( $field_id != &#039;&#039; ) {
+				$cf = trim( $field_id, &#039;_&#039; );
+
+				$field = self::get_field( $cf );
+
+				$wpdb-&gt;query( $wpdb-&gt;prepare( &quot;DELETE FROM &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; WHERE id = %d OR tab_parent = %d&quot;, array( $cf, $cf ) ) );
+
+				if ( ! empty( $field ) ) {
+					// Clear cache.
+					self::clear_sort_cache( $field-&gt;post_type );
+				}
+
+				return $field_id;
+			} else {
+				return 0;
+			}
+		}
+
+		/**
+		 * Set custom field order
+		 *
+		 * @since 1.0.0
+		 * @package GeoDirectory
+		 * @global object $wpdb WordPress Database object.
+		 * @param array $field_ids List of field ids.
+		 * @return array|bool Returns field ids when success, else returns false.
+		 */
+		public function set_field_orders( $tabs = array() ) {
+			global $wpdb;
+
+			$count = 0;
+			if ( ! empty( $tabs ) ) {
+				$result = false;
+				$field_id = 0;
+
+				foreach ( $tabs as $index =&gt; $info ) {
+					if ( empty( $field_id ) ) {
+						$field_id = absint( $info[&#039;id&#039;] );
+					}
+
+					$result = $wpdb-&gt;update(
+						GEODIR_CUSTOM_SORT_FIELDS_TABLE,
+						array( &#039;sort_order&#039; =&gt; $index, &#039;tab_level&#039; =&gt; $info[&#039;tab_level&#039;], &#039;tab_parent&#039; =&gt; $info[&#039;tab_parent&#039;] ),
+						array( &#039;id&#039; =&gt; absint( $info[&#039;id&#039;] ) ),
+						array( &#039;%d&#039;, &#039;%d&#039;, &#039;%d&#039; )
+					);
+					$count ++;
+				}
+
+				if ( $result !== false ) {
+					if ( $field_id &amp;&amp; ( $field = self::get_field( $field_id ) ) ) {
+						// Clear cache.
+						self::clear_sort_cache( $field-&gt;post_type );
+					}
+
+					return true;
+				} else {
+					return new WP_Error( &#039;failed&#039;, __( &quot;Failed to sort tab items.&quot;, &quot;geodirectory&quot; ) );
+				}
+			} else {
+				return new WP_Error( &#039;failed&#039;, __( &quot;Failed to sort tab items.&quot;, &quot;geodirectory&quot; ) );
+			}
+		}
+
+		public static function get_field( $field_id ) {
+			global $wpdb;
+
+			if ( empty( $field_id ) ) {
+				return array();
+			}
+
+			$field = $wpdb-&gt;get_row( $wpdb-&gt;prepare( &quot;SELECT * FROM &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; WHERE id = %d&quot;, array( (int) $field_id ) ) );
+
+			return $field;
+		}
+
+		/**
+		 * Clear the post type sorting cache.
+		 *
+		 * @since 2.2.4
+		 *
+		 * @param string $post_type The post type.
+		 * @return mixed.
+		 */
+		public static function clear_sort_cache( $post_type ) {
+			wp_cache_delete( &quot;geodir_get_posts_default_sort_{$post_type}&quot; );
+			wp_cache_delete( &quot;geodir_get_sort_options_{$post_type}&quot; );
+		}
+	}
+
+endif;
+
+return new GeoDir_Settings_Cpt_Sorting();
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

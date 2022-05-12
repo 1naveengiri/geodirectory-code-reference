@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">html-admin-settings-import-export-categories.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Display the page to manage import/export categories/listings.
+ *
+ * @since 2.0.0
+ * @package GeoDirectory
+ */
+
+$nonce = wp_create_nonce( &#039;geodir_import_export_nonce&#039; );
+$gd_cats_sample_csv = geodir_plugin_url() . &#039;/assets/gd_sample_categories.csv&#039;;
+/**
+* Filter sample category data csv file url.
+*
+* @since 1.0.0
+* @package GeoDirectory
+*
+* @param string $gd_cats_sample_csv Sample category data csv file url.
+*/
+$gd_cats_sample_csv = apply_filters( &#039;geodir_export_cats_sample_csv&#039;, $gd_cats_sample_csv );
+
+$gd_posttypes = geodir_get_posttypes( &#039;options-plural&#039; );
+
+wp_enqueue_script( &#039;jquery-ui-progressbar&#039; );
+
+$gd_chunksize_options = array();
+//$gd_chunksize_options[10] = 10;
+$gd_chunksize_options[100] = 100;
+$gd_chunksize_options[200] = 200;
+$gd_chunksize_options[500] = 500;
+$gd_chunksize_options[1000] = 1000;
+$gd_chunksize_options[2000] = 2000;
+$gd_chunksize_options[5000] = 5000;
+$gd_chunksize_options[10000] = 10000;
+$gd_chunksize_options[20000] = 20000;
+$gd_chunksize_options[50000] = 50000;
+$gd_chunksize_options[100000] = 100000;
+
+/**
+* Filter max entries per export csv file.
+*
+* @since 1.5.6
+* @package GeoDirectory
+*
+* @param string $gd_chunksize_options Entries options.
+*/
+$gd_chunksize_options = apply_filters( &#039;geodir_export_csv_chunksize_options&#039;, $gd_chunksize_options );
+
+$gd_chunksize_option = &#039;&#039;;
+foreach ($gd_chunksize_options as $value =&gt; $title) {
+$gd_chunksize_option .= &#039;&lt;option value=&quot;&#039; . $value . &#039;&quot; &#039; . selected($value, 5000, false) . &#039;&gt;&#039; . $title . &#039;&lt;/option&gt;&#039;;
+}
+
+?&gt;
+&lt;div class=&quot;inner_content_tab_main gd-import-export&quot;&gt;
+	&lt;div class=&quot;gd-content-heading&quot;&gt;
+		&lt;?php /**
+		 * Contains template for import/export requirements.
+		 *
+		 * @since 2.0.0
+		 */
+		include_once( dirname( dirname( __FILE__ ) ) . &#039;/views/html-admin-settings-import-export-reqs.php&#039; );
+		?&gt;
+		&lt;div id=&quot;gd_ie_imcategs&quot; class=&quot;metabox-holder accordion &quot;&gt;
+
+			&lt;div class=&quot;card p-0 mw-100 border-0 shadow-sm&quot; style=&quot;overflow: initial;&quot;&gt;
+				&lt;div class=&quot;card-header bg-white rounded-top&quot;&gt;
+					&lt;h2	class=&quot;gd-settings-title h5 mb-0 &quot;&gt;&lt;?php echo __( &#039;Categories: Import CSV&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/h2&gt;
+				&lt;/div&gt;
+				&lt;div id=&quot;gd_ie_imcats&quot; class=&quot;gd-hndle-pbox card-body&quot;&gt;
+
+					&lt;?php
+					$settings = array(
+						array(
+							&#039;name&#039;       =&gt; __( &#039;If cat_id/cat_slug exists&#039;, &#039;geodirectory&#039; ),
+							&#039;desc&#039;       =&gt; __( &#039;If the cat_id/cat_slug column exists in the CSV, you can either update the category or it can be skipped&#039;, &#039;geodirectory&#039; ),
+							&#039;id&#039;         =&gt; &#039;gd_im_choicecat&#039;,
+							&#039;default&#039;    =&gt; &#039;skip&#039;,
+							&#039;type&#039;       =&gt; &#039;select&#039;,
+							&#039;options&#039; =&gt; array_unique(array(
+								&#039;skip&#039; =&gt; __(&#039;Skip row&#039;, &#039;geodirectory&#039;),
+								&#039;update&#039; =&gt; __(&#039;Update Category&#039;, &#039;geodirectory&#039;),
+
+							)),
+							&#039;desc_tip&#039; =&gt; true,
+						)
+					);
+					GeoDir_Admin_Settings::output_fields( $settings );
+
+					?&gt;
+
+					&lt;div data-argument=&quot;gd_im_choicepost&quot; class=&quot;form-group row&quot;&gt;
+						&lt;label for=&quot;gd_im_choicepost&quot; class=&quot;font-weight-bold  col-sm-3 col-form-label&quot;&gt;&lt;?php _e(&#039;Upload CSV file&#039;, &#039;geodirectory&#039;); ?&gt;&lt;/label&gt;
+						&lt;div class=&quot;col-sm-9&quot;&gt;
+							&lt;?php
+							echo aui()-&gt;button(
+								array(
+									&#039;type&#039;      =&gt; &#039;a&#039;,
+									&#039;content&#039;   =&gt; __(&#039;Select file&#039;, &#039;geodirectory&#039;),
+									//&#039;icon&#039;      =&gt; ! empty( $action[&#039;icon&#039;] ) ? $action[&#039;icon&#039;] : &#039;&#039;,
+									&#039;href&#039;      =&gt; &#039;javascript:void(0)&#039;,
+									&#039;onclick&#039;   =&gt; &quot;jQuery(&#039;#gd_im_catplupload-browse-button&#039;).trigger(&#039;click&#039;);&quot;
+								)
+							);
+
+							echo aui()-&gt;button(
+								array(
+									&#039;type&#039;      =&gt; &#039;a&#039;,
+									&#039;class&#039;     =&gt; &#039;btn btn-outline-primary&#039;,
+									&#039;content&#039;   =&gt; __(&#039;Download Sample CSV&#039;, &#039;geodirectory&#039;),
+									&#039;icon&#039;      =&gt; &#039;fas fa-download&#039;,
+									&#039;href&#039;      =&gt; esc_url($gd_cats_sample_csv),
+								)
+							);
+							?&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;plupload-upload-uic hide-if-no-js&quot; id=&quot;gd_im_catplupload-upload-ui&quot;&gt;
+						&lt;input type=&quot;hidden&quot; readonly=&quot;readonly&quot; name=&quot;gd_im_cat_file&quot; class=&quot;gd-imex-file gd_im_cat_file&quot; id=&quot;gd_im_cat&quot; onclick=&quot;jQuery(&#039;#gd_im_catplupload-browse-button&#039;).trigger(&#039;click&#039;);&quot; /&gt;
+						&lt;input id=&quot;gd_im_catplupload-browse-button&quot; type=&quot;hidden&quot; value=&quot;&lt;?php esc_attr_e( &#039;Select &amp; Upload CSV&#039;, &#039;geodirectory&#039; ); ?&gt;&quot; class=&quot;gd-imex-cupload button-primary&quot;/&gt;
+						&lt;input type=&quot;hidden&quot; id=&quot;gd_im_cat_allowed_types&quot; data-exts=&quot;.csv&quot; value=&quot;csv&quot;/&gt;
+						&lt;?php
+						/**
+						 * Called just after the sample CSV download link.
+						 *
+						 * @since 1.0.0
+						 * @package GeoDirectory
+						 */
+						do_action( &#039;geodir_sample_cats_csv_download_link&#039; );
+						?&gt;
+						&lt;span class=&quot;ajaxnonceplu&quot;
+						      id=&quot;ajaxnonceplu&lt;?php echo wp_create_nonce( &#039;gd_im_catpluploadan&#039; ); ?&gt;&quot;&gt;&lt;/span&gt;
+						&lt;div class=&quot;filelist&quot;&gt;&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;span id=&quot;gd_im_catupload-error&quot; style=&quot;display:none&quot;&gt;&lt;/span&gt;
+					&lt;span class=&quot;description&quot;&gt;&lt;/span&gt;
+					&lt;div id=&quot;gd_importer&quot; style=&quot;display:none&quot;&gt;
+						&lt;input type=&quot;hidden&quot; id=&quot;gd_total&quot; value=&quot;0&quot;/&gt;
+						&lt;input type=&quot;hidden&quot; id=&quot;gd_prepared&quot; value=&quot;continue&quot;/&gt;
+						&lt;input type=&quot;hidden&quot; id=&quot;gd_processed&quot; value=&quot;0&quot;/&gt;
+						&lt;input type=&quot;hidden&quot; id=&quot;gd_created&quot; value=&quot;0&quot;/&gt;
+						&lt;input type=&quot;hidden&quot; id=&quot;gd_updated&quot; value=&quot;0&quot;/&gt;
+						&lt;input type=&quot;hidden&quot; id=&quot;gd_skipped&quot; value=&quot;0&quot;/&gt;
+						&lt;input type=&quot;hidden&quot; id=&quot;gd_invalid&quot; value=&quot;0&quot;/&gt;
+						&lt;input type=&quot;hidden&quot; id=&quot;gd_images&quot; value=&quot;0&quot;/&gt;
+						&lt;input type=&quot;hidden&quot; id=&quot;gd_terminateaction&quot; value=&quot;continue&quot;/&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;gd-import-progress&quot; id=&quot;gd-import-progress&quot; style=&quot;display:none&quot;&gt;
+						&lt;div class=&quot;gd-import-file&quot;&gt;
+							&lt;b&gt;&lt;?php _e( &quot;Import Data Status :&quot;, &#039;geodirectory&#039; ); ?&gt; &lt;/b&gt;&lt;font
+								id=&quot;gd-import-done&quot;&gt;0&lt;/font&gt; / &lt;font id=&quot;gd-import-total&quot;&gt;0&lt;/font&gt;&amp;nbsp;(
+							&lt;font
+								id=&quot;gd-import-perc&quot;&gt;0%&lt;/font&gt; )
+							&lt;div class=&quot;gd-fileprogress&quot;&gt;&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;gd-import-msg&quot; id=&quot;gd-import-msg&quot; style=&quot;display:none&quot;&gt;
+						&lt;div id=&quot;message&quot; class=&quot;message alert alert-success fade show&quot;&gt;&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;gd-import-csv-msg&quot; id=&quot;gd-import-errors&quot; style=&quot;display:none&quot;&gt;
+						&lt;div id=&quot;gd-csv-errors&quot; class=&quot;message fade&quot;&gt;&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;gd-imex-btns&quot; style=&quot;display:none;&quot;&gt;
+						&lt;input type=&quot;hidden&quot; class=&quot;geodir_import_file&quot; name=&quot;geodir_import_file&quot;
+						       value=&quot;save&quot;/&gt;
+						&lt;input onclick=&quot;gd_imex_PrepareImport(this, &#039;cat&#039;)&quot; type=&quot;button&quot;
+						       value=&quot;&lt;?php esc_attr_e( &#039;Import data now&#039;, &#039;geodirectory&#039; ); ?&gt;&quot;
+						       id=&quot;gd_import_data&quot; class=&quot;btn btn-primary&quot;/&gt;
+						&lt;input onclick=&quot;gd_imex_ContinueImport(this, &#039;cat&#039;)&quot; type=&quot;button&quot;
+						       value=&quot;&lt;?php _e( &quot;Continue Import Data&quot;, &#039;geodirectory&#039; ); ?&gt;&quot;
+						       id=&quot;gd_continue_data&quot; class=&quot;btn btn-primary&quot; style=&quot;display:none&quot;/&gt;
+						&lt;input type=&quot;button&quot;
+						       value=&quot;&lt;?php _e( &quot;Terminate Import Data&quot;, &#039;geodirectory&#039; ); ?&gt;&quot;
+						       id=&quot;gd_stop_import&quot; class=&quot;btn btn-outline-danger&quot; name=&quot;gd_stop_import&quot;
+						       style=&quot;display:none&quot; onclick=&quot;gd_imex_TerminateImport(this, &#039;cat&#039;)&quot;/&gt;
+						&lt;div id=&quot;gd_process_data&quot; style=&quot;display:none&quot;&gt;
+											&lt;span class=&quot;spinner is-active&quot;
+											      style=&quot;display:inline-block;margin:0 5px 0 5px;float:left&quot;&gt;&lt;/span&gt;&lt;?php _e( &quot;Wait, processing import data...&quot;, &#039;geodirectory&#039; ); ?&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;gd_ie_excategs&quot; class=&quot;metabox-holder accordion &quot;&gt;
+			&lt;div class=&quot;card p-0 mw-100 border-0 shadow-sm&quot; style=&quot;overflow: initial;&quot;&gt;
+				&lt;div class=&quot;card-header bg-white rounded-top&quot;&gt;
+					&lt;h2	class=&quot;gd-settings-title h5 mb-0 &quot;&gt;&lt;?php echo __( &#039;Categories: Export CSV&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/h2&gt;
+				&lt;/div&gt;
+
+				&lt;div id=&quot;gd_ie_ex_cats&quot; class=&quot;gd-hndle-pbox card-body&quot;&gt;
+					&lt;div class=&quot;inside&quot;&gt;
+
+						&lt;?php
+
+						$cpt_with_count = array();
+
+						foreach($gd_posttypes as $cpt =&gt; $name){
+							$cpt_with_count[] = array(
+								&#039;value&#039; =&gt; $cpt,
+								&#039;label&#039; =&gt; $name,
+								&#039;extra_attributes&#039; =&gt; array(
+									&#039;data-cats&#039; =&gt; absint(geodir_get_terms_count( $cpt ))
+								)
+							);
+						}
+
+						echo aui()-&gt;select(
+							array(
+								&#039;label_col&#039;        =&gt; &#039;3&#039;,
+								&#039;label_class&#039;=&gt; &#039;font-weight-bold&#039;,
+								&#039;label_type&#039;        =&gt; &#039;horizontal&#039;,
+								&#039;label&#039;       =&gt; __( &#039;Post Type&#039;, &#039;geodirectory&#039; ),
+								&#039;class&#039;     =&gt; &#039;mw-100&#039;,
+								&#039;wrap_class&#039;      =&gt; count($gd_posttypes) &lt; 2 ? &#039;d-none&#039; : &#039;&#039;,
+//								&#039;desc&#039;       =&gt; __( &#039;If the ID column exists in the CSV, you can either update the listing or it can be skipped&#039;, &#039;geodirectory&#039; ),
+								&#039;id&#039;         =&gt; &#039;gd_post_type&#039;,
+								&#039;name&#039;         =&gt; &#039;gd_post_type&#039;,
+//								&#039;default&#039;    =&gt; &#039;pending&#039;,
+								&#039;options&#039; =&gt; $cpt_with_count,
+//								&#039;desc_tip&#039; =&gt; true,
+
+							)
+						);
+
+
+						echo aui()-&gt;select(
+							array(
+								&#039;label_col&#039;        =&gt; &#039;3&#039;,
+								&#039;label_class&#039;=&gt; &#039;font-weight-bold&#039;,
+								&#039;label_type&#039;        =&gt; &#039;horizontal&#039;,
+								&#039;label&#039;       =&gt; __( &#039;Max entries per csv file&#039;, &#039;geodirectory&#039; ) . geodir_help_tip( __( &#039;Please select the maximum number of entries per csv file (defaults to 5000, you might want to lower this to prevent memory issues on some installs)&#039;, &#039;geodirectory&#039; )),
+								&#039;class&#039;     =&gt; &#039;mw-100&#039;,
+//								&#039;wrap_class&#039;      =&gt; count($gd_posttypes) &lt; 2 ? &#039;d-none&#039; : &#039;&#039;,
+//								&#039;desc&#039;       =&gt; __( &#039;If the ID column exists in the CSV, you can either update the listing or it can be skipped&#039;, &#039;geodirectory&#039; ),
+								&#039;id&#039;         =&gt; &#039;gd_chunk_size&#039;,
+								&#039;name&#039;         =&gt; &#039;gd_chunk_size&#039;,
+								&#039;value&#039;    =&gt; &#039;5000&#039;,
+								&#039;options&#039; =&gt; $gd_chunksize_options,
+//								&#039;desc_tip&#039; =&gt; true,
+
+							)
+						);
+						?&gt;
+
+						&lt;div class=&quot;pt-3 gd-export-categories-progress&quot; style=&quot;display:none;&quot;&gt;
+							&lt;div id=&#039;gd_progressbar_box&#039;&gt;
+								&lt;div id=&quot;gd_progressbar&quot; class=&quot;gd_progressbar&quot;&gt;
+									&lt;div class=&quot;gd-progress-label&quot;&gt;&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+							&lt;p style=&quot;display:inline-block&quot;&gt;&lt;?php _e( &#039;Elapsed Time:&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/p&gt;&amp;nbsp;&amp;nbsp;
+							&lt;p id=&quot;gd_timer&quot; class=&quot;gd_timer&quot;&gt;00:00:00&lt;/p&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;gd-ie-actions d-flex flex-row align-items-center&quot;&gt;
+							&lt;input type=&quot;submit&quot; value=&quot;&lt;?php echo esc_attr( __( &#039;Export CSV&#039;, &#039;geodirectory&#039; ) );?&gt;&quot; class=&quot;btn btn-primary&quot; name=&quot;gd_ie_excats_submit&quot; id=&quot;gd_ie_excats_submit&quot;&gt;
+							&lt;div id=&quot;gd_ie_ex_files&quot; class=&quot;gd-ie-files ml-4 mt-2&quot;&gt;&lt;/div&gt;
+						&lt;/div&gt;
+
+
+&lt;!--						&lt;table class=&quot;form-table&quot;&gt;--&gt;
+&lt;!--							&lt;tbody&gt;--&gt;
+&lt;!--							&lt;tr&gt;--&gt;
+&lt;!--								&lt;td class=&quot;fld&quot;&gt;&lt;label for=&quot;gd_post_type&quot;&gt;--&gt;&lt;?php //_e( &#039;Post Type:&#039;, &#039;geodirectory&#039; );?&gt;&lt;!--&lt;/label&gt;&lt;/td&gt;--&gt;
+&lt;!--								&lt;td&gt;&lt;select name=&quot;gd_post_type&quot; id=&quot;gd_post_type&quot; style=&quot;min-width:140px&quot;&gt;--&gt;&lt;?php //echo $gd_posttypes_option;?&gt;&lt;!--&lt;/select&gt;&lt;/td&gt;--&gt;
+&lt;!--							&lt;/tr&gt;--&gt;
+&lt;!--							&lt;tr&gt;--&gt;
+&lt;!--								&lt;td class=&quot;fld&quot; style=&quot;vertical-align:top&quot;&gt;&lt;label for=&quot;gd_chunk_size&quot;&gt;--&gt;&lt;?php //_e( &#039;Max entries per csv file:&#039;, &#039;geodirectory&#039; );?&gt;&lt;!--&lt;/label&gt;&lt;/td&gt;--&gt;
+&lt;!--								&lt;td&gt;&lt;select name=&quot;gd_chunk_size&quot; id=&quot;gd_chunk_size&quot; style=&quot;min-width:140px&quot;&gt;--&gt;&lt;?php //echo $gd_chunksize_option;?&gt;&lt;!--&lt;/select&gt;&lt;span class=&quot;description&quot;&gt;--&gt;&lt;?php //_e( &#039;Please select the maximum number of entries per csv file (defaults to 5000, you might want to lower this to prevent memory issues on some installs)&#039;, &#039;geodirectory&#039; );?&gt;&lt;!--&lt;/span&gt;&lt;/td&gt;--&gt;
+&lt;!--							&lt;/tr&gt;--&gt;
+&lt;!--							&lt;tr&gt;--&gt;
+&lt;!--								&lt;td class=&quot;fld&quot; style=&quot;vertical-align:top&quot;&gt;&lt;label&gt;--&gt;&lt;?php //_e( &#039;Progress:&#039;, &#039;geodirectory&#039; );?&gt;&lt;!--&lt;/label&gt;&lt;/td&gt;--&gt;
+&lt;!--								&lt;td&gt;--&gt;
+&lt;!--									&lt;div id=&#039;gd_progressbar_box&#039;&gt;&lt;div id=&quot;gd_progressbar&quot; class=&quot;gd_progressbar&quot;&gt;&lt;div class=&quot;gd-progress-label&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&quot;display:inline-block&quot;&gt;--&gt;&lt;?php //_e( &#039;Elapsed Time:&#039;, &#039;geodirectory&#039; );?&gt;&lt;!--&lt;/p&gt;&amp;nbsp;&amp;nbsp;&lt;p id=&quot;gd_timer&quot; class=&quot;gd_timer&quot;&gt;00:00:00&lt;/p&gt;--&gt;
+&lt;!----&gt;
+&lt;!--								&lt;/td&gt;--&gt;
+&lt;!--							&lt;/tr&gt;--&gt;
+&lt;!--							&lt;tr class=&quot;gd-ie-actions&quot;&gt;--&gt;
+&lt;!--								&lt;td style=&quot;vertical-align:top&quot;&gt;--&gt;
+&lt;!--									&lt;input type=&quot;submit&quot; value=&quot;--&gt;&lt;?php //echo esc_attr( __( &#039;Export CSV&#039;, &#039;geodirectory&#039; ) );?&gt;&lt;!--&quot; class=&quot;button-primary&quot; name=&quot;gd_ie_excats_submit&quot; id=&quot;gd_ie_excats_submit&quot;&gt;--&gt;
+&lt;!--								&lt;/td&gt;--&gt;
+&lt;!--								&lt;td id=&quot;gd_ie_ex_files&quot; class=&quot;gd-ie-files&quot;&gt;&lt;/td&gt;--&gt;
+&lt;!--							&lt;/tr&gt;--&gt;
+&lt;!--							&lt;/tbody&gt;--&gt;
+&lt;!--						&lt;/table&gt;--&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;?php
+		/**
+		 * Allows you to add more setting to the GD &gt; Import &amp; Export page.
+		 *
+		 * Called after the last setting on the GD &gt; Import &amp; Export page.
+		 * @since 1.4.6
+		 * @package GeoDirectory
+		 *
+		 * @param array $gd_posttypes GD post types.
+		 * @param array $gd_chunksize_options File chunk size options.
+		 * @param string $nonce Wordpress security token for GD import &amp; export.
+		 */
+		do_action( &#039;geodir_import_export_categories&#039;, $gd_posttypes, $gd_chunksize_options, $nonce );
+		?&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;?php GeoDir_Settings_Import_Export::get_import_export_js($nonce);?&gt;
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

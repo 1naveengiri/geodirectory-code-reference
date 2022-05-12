@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-widget-ninja-forms.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_add_ninja_forms_template">
+        geodir_add_ninja_forms_template()
+        <a href="#function_geodir_add_ninja_forms_template" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/widgets/class-geodir-widget-ninja-forms.php"><a href="../files/geodirectory-includes-widgets-class-geodir-widget-ninja-forms.html#source-view.537">geodirectory/includes/widgets/class-geodir-widget-ninja-forms.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">537</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Add ninja forms template.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_add_ninja_forms_template</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$templates</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$templates</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Templates.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_ninja_forms_contact_template">
+        geodir_ninja_forms_contact_template()
+        <a href="#function_geodir_ninja_forms_contact_template" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/widgets/class-geodir-widget-ninja-forms.php"><a href="../files/geodirectory-includes-widgets-class-geodir-widget-ninja-forms.html#source-view.556">geodirectory/includes/widgets/class-geodir-widget-ninja-forms.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">556</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Ninja forms contact Templates.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_ninja_forms_contact_template</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory GeoDirectory Popular Post View Widget
+ *
+ * @since 1.0.0
+ *
+ * @package GeoDirectory
+ */
+
+/**
+ * GeoDirectory listings widget class.
+ *
+ * @since 1.0.0
+ */
+class GeoDir_Widget_Ninja_Forms extends WP_Super_Duper {
+
+
+    /**
+     * Register the popular posts widget.
+     *
+     * @since 1.0.0
+     * @since 1.5.1 Changed from PHP4 style constructors to PHP5 __construct.
+     */
+    public function __construct() {
+
+
+        $options = array(
+            &#039;textdomain&#039;    =&gt; GEODIRECTORY_TEXTDOMAIN,
+            &#039;block-icon&#039;    =&gt; &#039;admin-site&#039;,
+            &#039;block-category&#039;=&gt; &#039;geodirectory&#039;,
+            &#039;block-keywords&#039;=&gt; &quot;[&#039;ninja&#039;,&#039;contact&#039;,&#039;geo&#039;]&quot;,
+
+            &#039;class_name&#039;    =&gt; __CLASS__,
+            &#039;base_id&#039;       =&gt; &#039;gd_ninja_forms&#039;, // this us used as the widget id and the shortcode id.
+            &#039;name&#039;          =&gt; __(&#039;GD &gt; Ninja Forms&#039;,&#039;geodirectory&#039;), // the name of the widget.
+            &#039;widget_ops&#039;    =&gt; array(
+                &#039;classname&#039;   =&gt; &#039;geodir-ninja-forms &#039;.geodir_bsui_class(), // widget class
+                &#039;description&#039; =&gt; esc_html__(&#039;Lets you use a ninja form to send to listings.&#039;,&#039;geodirectory&#039;), // widget description
+                &#039;customize_selective_refresh&#039; =&gt; true,
+                &#039;geodirectory&#039; =&gt; true,
+                &#039;gd_wgt_showhide&#039; =&gt; &#039;show_on&#039;,
+                &#039;gd_wgt_restrict&#039; =&gt; array( &#039;gd-detail&#039; ),
+            ),
+
+        );
+
+        
+
+
+        parent::__construct( $options );
+
+    }
+
+    /**
+     * Set the arguments later.
+     *
+     * @return array
+     */
+    public function set_arguments(){
+
+        $design_style = geodir_design_style();
+
+        $arguments = array();
+        $arguments[&#039;form_id&#039;] = array(
+                &#039;title&#039; =&gt; __(&#039;Form:&#039;, &#039;geodirectory&#039;),
+                &#039;desc&#039; =&gt; __(&#039;Select the form to use. (You can create a GD contact form from the Ninja Forms settings&#039;, &#039;geodirectory&#039;),
+                &#039;type&#039; =&gt; &#039;select&#039;,
+                &#039;options&#039;   =&gt;  $this-&gt;get_ninja_form_options(),
+                &#039;default&#039;  =&gt; &#039;&#039;,
+                &#039;custom_attributes&#039; =&gt; array(
+                    //&#039;required&#039;    =&gt; &#039;true&#039;, //
+                ),
+                &#039;desc_tip&#039; =&gt; true,
+                &#039;advanced&#039; =&gt; false
+            );
+            $arguments[&#039;text&#039;] = array(
+                &#039;title&#039; =&gt; __(&#039;Text:&#039;, &#039;geodirectory&#039;),
+                &#039;desc&#039; =&gt; __(&#039;The text shown than opens the lightbox.&#039;, &#039;geodirectory&#039;),
+                &#039;type&#039; =&gt; &#039;text&#039;,
+                &#039;default&#039;  =&gt; __(&#039;Contact form&#039;,&#039;geodirectory&#039;),
+                &#039;desc_tip&#039; =&gt; true,
+                &#039;advanced&#039; =&gt; false
+            );
+            $arguments[&#039;post_contact&#039;] = array(
+                &#039;title&#039; =&gt; __(&quot;Post Contact form&quot;, &#039;geodirectory&#039;),
+                &#039;desc&#039; =&gt; __(&#039;If the form is to contact a listing this will only show the form if the `email` field is filled.&#039;, &#039;geodirectory&#039;),
+                &#039;type&#039; =&gt; &#039;checkbox&#039;,
+                &#039;desc_tip&#039; =&gt; true,
+                &#039;value&#039;  =&gt; &#039;1&#039;,
+                &#039;default&#039;  =&gt; &#039;1&#039;,
+                &#039;advanced&#039; =&gt; true
+            );
+            $arguments[&#039;output&#039;] = array(
+                &#039;title&#039; =&gt; __(&#039;Output Type:&#039;, &#039;geodirectory&#039;),
+                &#039;desc&#039; =&gt; __(&#039;How the link to open the lightbox is displayed.&#039;, &#039;geodirectory&#039;),
+                &#039;type&#039; =&gt; &#039;select&#039;,
+                &#039;options&#039;   =&gt;  array(
+                    &#039;button&#039;      =&gt; __(&#039;Button (lightbox)&#039;,&#039;geodirectory&#039;),
+                    &#039;link&#039;      =&gt; __(&quot;Link (lightbox)&quot;,&#039;geodirectory&#039;),
+                    &#039;form&#039;      =&gt; __(&quot;Form&quot;,&#039;geodirectory&#039;),
+                ),
+                &#039;default&#039;  =&gt; &#039;button&#039;,
+                &#039;desc_tip&#039; =&gt; true,
+                &#039;advanced&#039; =&gt; true
+            );
+
+
+        if($design_style) {
+
+            $arguments[&#039;alignment&#039;]           = array(
+                &#039;name&#039;     =&gt; &#039;alignment&#039;,
+                &#039;title&#039;    =&gt; __( &#039;Alignment:&#039;, &#039;geodirectory&#039; ),
+                &#039;desc&#039;     =&gt; __( &#039;How the item should be positioned on the page.&#039;, &#039;geodirectory&#039; ),
+                &#039;type&#039;     =&gt; &#039;select&#039;,
+                &#039;options&#039;  =&gt; array(
+                    &quot;&quot;       =&gt; __( &#039;None&#039;, &#039;geodirectory&#039; ),
+                    &quot;left&quot;   =&gt; __( &#039;Left&#039;, &#039;geodirectory&#039; ),
+                    &quot;center&quot; =&gt; __( &#039;Center&#039;, &#039;geodirectory&#039; ),
+                    &quot;right&quot;  =&gt; __( &#039;Right&#039;, &#039;geodirectory&#039; ),
+                ),
+                &#039;desc_tip&#039; =&gt; true,
+                &#039;advanced&#039; =&gt; false,
+                &#039;group&#039;    =&gt; __( &quot;Positioning&quot;, &quot;geodirectory&quot; )
+            );
+
+            $arguments[&#039;output&#039;] = array(
+                &#039;title&#039; =&gt; __(&#039;Output Type:&#039;, &#039;geodirectory&#039;),
+                &#039;desc&#039; =&gt; __(&#039;How the link to open the lightbox is displayed.&#039;, &#039;geodirectory&#039;),
+                &#039;type&#039; =&gt; &#039;select&#039;,
+                &#039;options&#039;  =&gt; array(
+                    &quot;button&quot; =&gt; __(&#039;Button&#039;, &#039;geodirectory&#039;),
+                    &quot;badge&quot; =&gt; __( &#039;Badge&#039;, &#039;geodirectory&#039; ),
+                    &quot;pill&quot;  =&gt; __( &#039;Pill&#039;, &#039;geodirectory&#039; ),
+                    &quot;link&quot;  =&gt; __( &#039;Link&#039;, &#039;geodirectory&#039; ),
+                    &#039;form&#039;      =&gt; __(&quot;Form&quot;,&#039;geodirectory&#039;),
+                ),
+                &#039;default&#039;  =&gt; &#039;&#039;,
+                &#039;desc_tip&#039; =&gt; true,
+                &#039;advanced&#039; =&gt; false,
+                &#039;group&#039;    =&gt; __( &quot;Design&quot;, &quot;geodirectory&quot; )
+            );
+
+            $arguments[&#039;shadow&#039;] = array(
+                &#039;title&#039; =&gt; __(&#039;Shadow&#039;, &#039;geodirectory&#039;),
+                &#039;desc&#039; =&gt; __(&#039;Select the shadow badge type.&#039;, &#039;geodirectory&#039;),
+                &#039;type&#039; =&gt; &#039;select&#039;,
+                &#039;options&#039;   =&gt;  array(
+                    &quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+                    &quot;small&quot; =&gt; __(&#039;small&#039;, &#039;geodirectory&#039;),
+                    &quot;medium&quot; =&gt; __(&#039;medium&#039;, &#039;geodirectory&#039;),
+                    &quot;large&quot; =&gt; __(&#039;large&#039;, &#039;geodirectory&#039;),
+                ),
+                &#039;default&#039;  =&gt; &#039;&#039;,
+                &#039;desc_tip&#039; =&gt; true,
+                &#039;advanced&#039; =&gt; false,
+                &#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+            );
+
+            $arguments[&#039;color&#039;] = array(
+                &#039;title&#039; =&gt; __(&#039;Badge Color&#039;, &#039;geodirectory&#039;),
+                &#039;desc&#039; =&gt; __(&#039;Select the the badge color.&#039;, &#039;geodirectory&#039;),
+                &#039;type&#039; =&gt; &#039;select&#039;,
+                &#039;options&#039;   =&gt;  array(
+                                    &quot;&quot; =&gt; __(&#039;Custom colors&#039;, &#039;geodirectory&#039;),
+                                )+geodir_aui_colors(true, true, true),
+                &#039;default&#039;  =&gt; &#039;&#039;,
+                &#039;desc_tip&#039; =&gt; true,
+                &#039;advanced&#039; =&gt; false,
+                &#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+            );
+
+            $arguments[&#039;bg_color&#039;]  = array(
+                &#039;type&#039; =&gt; &#039;color&#039;,
+                &#039;title&#039; =&gt; __(&#039;Badge background color:&#039;, &#039;geodirectory&#039;),
+                &#039;desc&#039; =&gt; __(&#039;Color for the badge background.&#039;, &#039;geodirectory&#039;),
+                &#039;placeholder&#039; =&gt; &#039;&#039;,
+                &#039;default&#039; =&gt; &#039;#0073aa&#039;,
+                &#039;desc_tip&#039; =&gt; true,
+                &#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+                &#039;element_require&#039; =&gt; $design_style ?  &#039;[%color%]==&quot;&quot;&#039; : &#039;&#039;,
+            );
+            $arguments[&#039;txt_color&#039;]  = array(
+                &#039;type&#039; =&gt; &#039;color&#039;,
+                &#039;title&#039; =&gt; __(&#039;Badge text color:&#039;, &#039;geodirectory&#039;),
+                &#039;desc&#039; =&gt; __(&#039;Color for the badge text.&#039;, &#039;geodirectory&#039;),
+                &#039;placeholder&#039; =&gt; &#039;&#039;,
+                &#039;desc_tip&#039; =&gt; true,
+                &#039;default&#039;  =&gt; &#039;#ffffff&#039;,
+                &#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+                &#039;element_require&#039; =&gt; $design_style ?  &#039;[%color%]==&quot;&quot; &amp;&amp; [%show%]!=&quot;icon&quot;&#039; : &#039;&#039;,
+            );
+            $arguments[&#039;size&#039;]  = array(
+                &#039;type&#039; =&gt; &#039;select&#039;,
+                &#039;title&#039; =&gt; __(&#039;Badge size:&#039;, &#039;geodirectory&#039;),
+                &#039;desc&#039; =&gt; __(&#039;Size of the badge.&#039;, &#039;geodirectory&#039;),
+                &#039;options&#039; =&gt;  array(
+                    &quot;&quot; =&gt; __(&#039;Default&#039;, &#039;geodirectory&#039;),
+                    &quot;h6&quot; =&gt; __(&#039;XS (badge)&#039;, &#039;geodirectory&#039;),
+                    &quot;h5&quot; =&gt; __(&#039;S (badge)&#039;, &#039;geodirectory&#039;),
+                    &quot;h4&quot; =&gt; __(&#039;M (badge)&#039;, &#039;geodirectory&#039;),
+                    &quot;h3&quot; =&gt; __(&#039;L (badge)&#039;, &#039;geodirectory&#039;),
+                    &quot;h2&quot; =&gt; __(&#039;XL (badge)&#039;, &#039;geodirectory&#039;),
+                    &quot;h1&quot; =&gt; __(&#039;XXL (badge)&#039;, &#039;geodirectory&#039;),
+                    &quot;btn-lg&quot; =&gt; __(&#039;L (button)&#039;, &#039;geodirectory&#039;),
+                    &quot;btn-sm&quot; =&gt; __(&#039;S (button)&#039;, &#039;geodirectory&#039;),
+                ),
+                &#039;default&#039; =&gt; &#039;h5&#039;,
+                &#039;desc_tip&#039; =&gt; true,
+                &#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+            );
+
+            $arguments[&#039;mt&#039;]  = geodir_get_sd_margin_input(&#039;mt&#039;);
+            $arguments[&#039;mr&#039;]  = geodir_get_sd_margin_input(&#039;mr&#039;);
+            $arguments[&#039;mb&#039;]  = geodir_get_sd_margin_input(&#039;mb&#039;);
+            $arguments[&#039;ml&#039;]  = geodir_get_sd_margin_input(&#039;ml&#039;);
+
+        }
+
+
+        return $arguments;
+    }
+
+
+    /**
+     * The Super block output function.
+     *
+     * @param array $args
+     * @param array $widget_args
+     * @param string $content
+     *
+     * @return mixed|string|void
+     */
+    public function output($args = array(), $widget_args = array(),$content = &#039;&#039;){
+
+        global $post,$gd_post;
+
+        $defaults = array(
+            &#039;form_id&#039; =&gt; &#039;&#039;,
+            &#039;text&#039; =&gt; __(&#039;Contact form&#039;,&#039;geodirectory&#039;),
+            &#039;post_contact&#039; =&gt; &#039;1&#039;,
+            &#039;output&#039; =&gt; &#039;button&#039;,
+            &#039;shadow&#039;           =&gt; &#039;&#039;,
+            &#039;color&#039;           =&gt; &#039;primary&#039;,
+            &#039;bg_color&#039;           =&gt; &#039;&#039;,
+            &#039;txt_color&#039;           =&gt; &#039;#ffffff&#039;,
+            &#039;size&#039;           =&gt; &#039;h5&#039;,
+            &#039;position&#039;           =&gt; &#039;&#039;,
+            &#039;mt&#039;    =&gt; &#039;&#039;,
+            &#039;mb&#039;    =&gt; &#039;&#039;,
+            &#039;mr&#039;    =&gt; &#039;&#039;,
+            &#039;ml&#039;    =&gt; &#039;&#039;,
+        );
+
+        /**
+         * Parse incoming $args into an array and merge it with $defaults
+         */
+        $args = wp_parse_args( $args, $defaults );
+
+
+        $design_style = geodir_design_style();
+
+        if($design_style){
+            $args[&#039;type&#039;] = $args[&#039;output&#039;];
+            $args[&#039;badge&#039;] = $args[&#039;text&#039;];
+        }
+
+        $is_preview = $this-&gt;is_preview();
+
+        $output = &#039;&#039;;
+
+        $show = false;
+        $post_id = isset($post-&gt;ID) ? $post-&gt;ID : &#039;&#039;;
+        if($args[&#039;post_contact&#039;]==&#039;1&#039;){
+            $package_id = ! empty( $gd_post-&gt;package_id ) ? $gd_post-&gt;package_id : &#039;&#039;;
+            if(isset($post-&gt;post_type) &amp;&amp; in_array($post-&gt;post_type, geodir_get_posttypes()) &amp;&amp; isset($gd_post-&gt;email) &amp;&amp; $gd_post-&gt;email &amp;&amp; geodir_check_field_visibility( $package_id, &#039;email&#039;, $post-&gt;post_type ) ) {
+                $show = true;
+            }
+        }else{
+            $show = true;
+        }
+
+        if ( $is_preview ) {
+            $show = true;
+            $post_id = 0;
+        }
+        
+
+		/**
+		 * Filters whether show or not widget output.
+		 *
+		 * @since 2.0.46
+		 *
+		 * @param bool $show Whether to show or not widget output.
+		 * @param object $post The post object.
+		 * @param array $args Widget arguments.
+		 * @param object $this Widget object.
+		 */
+		$show = apply_filters( &#039;geodir_show_ninja_form_widget&#039;, $show, $post, $args, $this );
+
+		if ( $show ) {
+			$action_text = apply_filters( &#039;geodir_ninja_form_widget_action_text&#039;, $args[&#039;text&#039;], $post-&gt;ID, $args );
+			$action_text = __( $action_text, &#039;geodirectory&#039; );
+
+            if ( $design_style ) {
+                if ( empty( $args[&#039;css_class&#039;] ) ) {
+                    $args[&#039;css_class&#039;] = &#039;&#039;;
+                }
+
+                // margins
+                if ( !empty( $args[&#039;mt&#039;] ) ) { $args[&#039;css_class&#039;] .= &quot; mt-&quot;.sanitize_html_class($args[&#039;mt&#039;]).&quot; &quot;; }
+                if ( !empty( $args[&#039;mr&#039;] ) ) { $args[&#039;css_class&#039;] .= &quot; mr-&quot;.sanitize_html_class($args[&#039;mr&#039;]).&quot; &quot;; }
+                if ( !empty( $args[&#039;mb&#039;] ) ) { $args[&#039;css_class&#039;] .= &quot; mb-&quot;.sanitize_html_class($args[&#039;mb&#039;]).&quot; &quot;; }
+                if ( !empty( $args[&#039;ml&#039;] ) ) { $args[&#039;css_class&#039;] .= &quot; ml-&quot;.sanitize_html_class($args[&#039;ml&#039;]).&quot; &quot;; }
+
+                // set alignment class
+                if ( $args[&#039;alignment&#039;] != &#039;&#039; ) {
+                    if($design_style){
+                        if($args[&#039;alignment&#039;]==&#039;block&#039;){$args[&#039;css_class&#039;] .= &quot; d-block &quot;;}
+                        elseif($args[&#039;alignment&#039;]==&#039;left&#039;){$args[&#039;css_class&#039;] .= &quot; float-left mr-2 &quot;;}
+                        elseif($args[&#039;alignment&#039;]==&#039;right&#039;){$args[&#039;css_class&#039;] .= &quot; float-right ml-2 &quot;;}
+                        elseif($args[&#039;alignment&#039;]==&#039;center&#039;){$args[&#039;css_class&#039;] .= &quot; text-center &quot;;}
+                    }else{
+                        $args[&#039;css_class&#039;] .= $args[&#039;alignment&#039;]==&#039;block&#039; ? &quot; gd-d-block gd-clear-both &quot; : &quot; geodir-align-&quot; . sanitize_html_class( $args[&#039;alignment&#039;] );
+                    }
+                }
+
+                if(!empty($args[&#039;size&#039;])){
+                    switch ($args[&#039;size&#039;]) {
+                        case &#039;small&#039;:
+                            $args[&#039;size&#039;] = $design_style ? &#039;&#039; : &#039;small&#039;;
+                            break;
+                        case &#039;medium&#039;:
+                            $args[&#039;size&#039;] = $design_style ? &#039;h4&#039; : &#039;medium&#039;;
+                            break;
+                        case &#039;large&#039;:
+                            $args[&#039;size&#039;] = $design_style ? &#039;h2&#039; : &#039;large&#039;;
+                            break;
+                        case &#039;extra-large&#039;:
+                            $args[&#039;size&#039;] = $design_style ? &#039;h1&#039; : &#039;extra-large&#039;;
+                            break;
+                        case &#039;h6&#039;: $args[&#039;size&#039;] = &#039;h6&#039;;break;
+                        case &#039;h5&#039;: $args[&#039;size&#039;] = &#039;h5&#039;;break;
+                        case &#039;h4&#039;: $args[&#039;size&#039;] = &#039;h4&#039;;break;
+                        case &#039;h3&#039;: $args[&#039;size&#039;] = &#039;h3&#039;;break;
+                        case &#039;h2&#039;: $args[&#039;size&#039;] = &#039;h2&#039;;break;
+                        case &#039;h1&#039;: $args[&#039;size&#039;] = &#039;h1&#039;;break;
+                        case &#039;btn-lg&#039;: $args[&#039;size&#039;] = &#039;&#039;; $args[&#039;css_class&#039;] = &#039;btn-lg&#039;;break;
+                        case &#039;btn-sm&#039;:$args[&#039;size&#039;] = &#039;&#039;;  $args[&#039;css_class&#039;] = &#039;btn-sm&#039;;break;
+                        default:
+                            $args[&#039;size&#039;] = &#039;&#039;;
+
+                    }
+
+                }
+
+                if ( $args[&#039;output&#039;] == &#039;form&#039; ) {
+                    $output = $is_preview ? &#039;&#039; :  do_shortcode( &quot;[ninja_form id=&quot; . absint( $args[&#039;form_id&#039;] ) . &quot;]&quot; );
+                }else{
+
+                    $args[&#039;link&#039;]       =&quot;#form&quot;;
+                    $args[&#039;onclick&#039;] = &#039;gd_ninja_lightbox(\&#039;geodir_ninja_forms\&#039;,\&#039;\&#039;,&#039; . absint( $post_id ) . &#039;,&#039; . absint( $args[&#039;form_id&#039;] ) . &#039;); return false;&#039;;
+
+
+                    $output = geodir_get_post_badge( $post_id, $args );
+                }
+            }else{
+                if ( $args[&#039;output&#039;] == &#039;button&#039; ) {
+                    $output = &#039;&lt;button class=&quot;btn btn-default geodir-ninja-forms-link&quot; onclick=&quot;gd_ajax_lightbox(\&#039;geodir_ninja_forms\&#039;,\&#039;\&#039;,&#039; . absint( $post_id ) . &#039;,&#039; . absint( $args[&#039;form_id&#039;] ) . &#039;); return false;&quot;&gt;&#039; . esc_attr( $action_text ) . &#039;&lt;/button&gt;&#039;;
+                } elseif ( $args[&#039;output&#039;] == &#039;form&#039; ) {
+                    $output = $is_preview ? &#039;&#039; : do_shortcode( &quot;[ninja_form id=&quot; . absint( $args[&#039;form_id&#039;] ) . &quot;]&quot; );
+                } else {
+                    $output = &#039;&lt;a class=&quot;geodir-ninja-forms-link&quot; href=&quot;#&quot; onclick=&quot;gd_ajax_lightbox(\&#039;geodir_ninja_forms\&#039;,\&#039;\&#039;,&#039; . absint( $post_id ) . &#039;,&#039; . absint( $args[&#039;form_id&#039;] ) . &#039;); return false;&quot;&gt;&#039; . esc_attr( $action_text ) . &#039;&lt;/a&gt;&#039;;
+
+                }
+            }
+
+
+		}
+
+		return $output;
+	}
+
+    /**
+     * Get an array of Ninja Forms forms to choose from.
+     *
+     * @return array
+     */
+    public function get_ninja_form_options(){
+        $forms = Ninja_Forms()-&gt;form()-&gt;get_forms();
+        $form_options = array();
+        foreach( $forms as $form ){
+            $form_options[$form-&gt;get_id()] = $form-&gt;get_setting( &#039;title&#039; ) . &quot; (ID: &quot;.$form-&gt;get_id().&quot;)&quot;;
+        }
+        asort($form_options);
+
+        return array(&#039;&#039;=&gt;__(&#039;Select a form&#039;,&#039;geodirectory&#039;)) + $form_options;
+    }
+
+
+}
+
+
+class GeoDir_Ninja_Forms_MergeTags extends NF_Abstracts_MergeTags
+{
+    /*
+	 * The $id property should match the array key where the class is registered.
+	 */
+    protected $id = &#039;geodirectory&#039;;
+
+    /**
+     * GeoDir_Ninja_Forms_MergeTags constructor.
+     *
+     * @since 2.0.0
+     */
+    public function __construct()
+    {
+        parent::__construct();
+
+        /* Translatable display name for the group. */
+        $this-&gt;title = __( &#039;&lt;span class=&quot;dashicons-before dashicons-admin-site&quot;&gt; GeoDirectory&lt;/span&gt;&#039;, &#039;geodirectory&#039; );
+
+        /* Individual tag registration. */
+        $this-&gt;merge_tags = array(
+
+            &#039;email&#039; =&gt; array(
+                &#039;id&#039; =&gt; &#039;email&#039;,
+                &#039;tag&#039; =&gt; &#039;{GD:listing_email}&#039;, // The tag to be  used.
+                &#039;label&#039; =&gt; __( &#039;Email&#039;, &#039;geodirectory&#039; ), // Translatable label for tag selection.
+                &#039;callback&#039; =&gt; &#039;email&#039; // Class method for processing the tag. See below.
+            ),
+        );
+
+        /*
+		 * Use the `init` and `admin_init` hooks for any necessary data setup that relies on WordPress.
+		 * See: https://codex.wordpress.org/Plugin_API/Action_Reference
+		 */
+        add_action( &#039;init&#039;, array( $this, &#039;init&#039; ) );
+        add_action( &#039;admin_init&#039;, array( $this, &#039;admin_init&#039; ) );
+    }
+
+    public function init(){ /* This section intentionally left blank. */ }
+    public function admin_init(){ /* This section intentionally left blank. */ }
+
+    /**
+     * Get Post id.
+     *
+     * @since 2.0.0
+     *
+     * @global object $post WordPress post object.
+     *
+     * @return int $post_id.
+     */
+    protected function post_id()
+    {
+        global $post;
+
+        if ( is_admin() &amp;&amp; defined( &#039;DOING_AJAX&#039; ) &amp;&amp; DOING_AJAX ) {
+            // If we are doing AJAX, use the referer to get the Post ID.
+            $post_id = absint( url_to_postid( wp_get_referer() ) );
+
+            // Check referer contains correct post
+            if ( $post_id &amp;&amp; ! geodir_is_gd_post_type( get_post_type( $post_id ) ) ) {
+                $post_id = 0;
+            }
+
+            // Retrieve value from form data.
+            if ( empty( $post_id ) &amp;&amp; ( $_post_id = (int) $this-&gt;get_submitted_value( &#039;listing_id&#039; ) ) ) {
+                $post_id = $_post_id;
+            }
+        } elseif ( $post ) {
+            $post_id = $post-&gt;ID;
+        } else {
+            return false; // No Post ID found.
+        }
+
+        return $post_id;
+    }
+
+    /**
+     * The callback method for the {my:foo} merge tag.
+     * @return string
+     */
+    public function email()
+    {
+        $post_id = $this-&gt;post_id();
+
+        if( ! $post_id ) return &#039;&#039;;
+        $listing_email = geodir_get_post_meta($post_id,&#039;email&#039;,true);
+        return $listing_email ? $listing_email : &#039;&#039;;
+    }
+
+    /**
+     * Retrieve field value from form data.
+     * @return string|array
+     */
+    public function get_submitted_value( $field_key ) {
+        $field_value = &#039;&#039;;
+
+        if ( empty( $_POST[&#039;formData&#039;] ) ) {
+        	return $field_value;
+        }
+
+        $_form_data = json_decode( $_POST[&#039;formData&#039;], TRUE  );
+
+        // php5.2 fallback
+        if ( empty( $_form_data ) ) {
+            $_form_data = json_decode( stripslashes( $_POST[&#039;formData&#039;] ), TRUE  );
+        }
+
+        if ( empty( $_form_data[&#039;id&#039;] ) ) {
+            return $field_value;
+        }
+        $fields = Ninja_Forms()-&gt;form( $_form_data[&#039;id&#039;] )-&gt;get_fields();
+
+        if ( ! empty( $fields ) ) {
+            foreach( $fields as $id =&gt; $field ) {
+                if ( $field-&gt;get_setting( &#039;key&#039; ) == $field_key &amp;&amp; isset( $_form_data[&#039;fields&#039;][ $id ][&#039;value&#039;] ) ) {
+                    $field_value = $_form_data[&#039;fields&#039;][ $id ][&#039;value&#039;];
+                }
+            }
+        }
+
+        return $field_value;
+    }
+}
+
+add_filter(&#039;ninja_forms_new_form_templates&#039;,&#039;geodir_add_ninja_forms_template&#039;);
+
+/**
+ * Add ninja forms template.
+ *
+ * @since 2.0.0
+ *
+ * @param array $templates Templates.
+ * @return array
+ */
+function geodir_add_ninja_forms_template($templates){
+
+    $new_templates[&#039;formtemplate-geodirectory-contactform&#039;] = array(
+        &#039;id&#039;             =&gt; &#039;formtemplate-geodirectory-contactform&#039;,
+        &#039;title&#039;         =&gt; __( &#039;GeoDirectory Contact Form&#039;, &#039;geodirectory&#039; ),
+        &#039;template-desc&#039; =&gt; __( &#039;Allow your users to contact the listing owners. You can add and remove fields as needed.&#039;, &#039;geodirectory&#039; ),
+        &#039;form&#039; =&gt; geodir_ninja_forms_contact_template()
+    );
+
+    return $new_templates + $templates;
+}
+
+/**
+ * Ninja forms contact Templates.
+ *
+ * @since 2.0.0
+ *
+ * @return string settings templates.
+ */
+function geodir_ninja_forms_contact_template(){
+    return &#039;{
+    &quot;settings&quot;: {
+        &quot;title&quot;: &quot;GeoDirectory Contact Form&quot;,
+        &quot;key&quot;: &quot;geodirectory_contact&quot;,
+        &quot;created_at&quot;: &quot;2018-03-29 19:16:00&quot;,
+        &quot;default_label_pos&quot;: &quot;above&quot;,
+        &quot;conditions&quot;: [],
+        &quot;objectType&quot;: &quot;Form Setting&quot;,
+        &quot;editActive&quot;: &quot;&quot;,
+        &quot;show_title&quot;: &quot;0&quot;,
+        &quot;clear_complete&quot;: &quot;1&quot;,
+        &quot;hide_complete&quot;: &quot;1&quot;,
+        &quot;wrapper_class&quot;: &quot;&quot;,
+        &quot;element_class&quot;: &quot;&quot;,
+        &quot;add_submit&quot;: &quot;1&quot;,
+        &quot;logged_in&quot;: &quot;&quot;,
+        &quot;not_logged_in_msg&quot;: &quot;&quot;,
+        &quot;sub_limit_number&quot;: &quot;&quot;,
+        &quot;sub_limit_msg&quot;: &quot;&quot;,
+        &quot;calculations&quot;: [],
+        &quot;formContentData&quot;: [{
+            &quot;order&quot;: &quot;0&quot;,
+            &quot;cells&quot;: [{
+                &quot;order&quot;: &quot;0&quot;,
+                &quot;fields&quot;: [&quot;name&quot;],
+                &quot;width&quot;: &quot;100&quot;
+            }]
+        }, {
+            &quot;order&quot;: &quot;1&quot;,
+            &quot;cells&quot;: [{
+                &quot;order&quot;: &quot;0&quot;,
+                &quot;fields&quot;: [&quot;email&quot;],
+                &quot;width&quot;: &quot;100&quot;
+            }]
+        }, {
+            &quot;order&quot;: &quot;2&quot;,
+            &quot;cells&quot;: [{
+                &quot;order&quot;: &quot;0&quot;,
+                &quot;fields&quot;: [&quot;message&quot;],
+                &quot;width&quot;: &quot;100&quot;
+            }]
+        }, {
+            &quot;order&quot;: &quot;3&quot;,
+            &quot;cells&quot;: [{
+                &quot;order&quot;: &quot;0&quot;,
+                &quot;fields&quot;: [&quot;submit&quot;],
+                &quot;width&quot;: &quot;100&quot;
+            }]
+        }],
+        &quot;container_styles_background-color&quot;: &quot;&quot;,
+        &quot;container_styles_border&quot;: &quot;&quot;,
+        &quot;container_styles_border-style&quot;: &quot;&quot;,
+        &quot;container_styles_border-color&quot;: &quot;&quot;,
+        &quot;container_styles_color&quot;: &quot;&quot;,
+        &quot;container_styles_height&quot;: &quot;&quot;,
+        &quot;container_styles_width&quot;: &quot;&quot;,
+        &quot;container_styles_font-size&quot;: &quot;&quot;,
+        &quot;container_styles_margin&quot;: &quot;&quot;,
+        &quot;container_styles_padding&quot;: &quot;&quot;,
+        &quot;container_styles_display&quot;: &quot;&quot;,
+        &quot;container_styles_float&quot;: &quot;&quot;,
+        &quot;container_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;container_styles_advanced&quot;: &quot;&quot;,
+        &quot;title_styles_background-color&quot;: &quot;&quot;,
+        &quot;title_styles_border&quot;: &quot;&quot;,
+        &quot;title_styles_border-style&quot;: &quot;&quot;,
+        &quot;title_styles_border-color&quot;: &quot;&quot;,
+        &quot;title_styles_color&quot;: &quot;&quot;,
+        &quot;title_styles_height&quot;: &quot;&quot;,
+        &quot;title_styles_width&quot;: &quot;&quot;,
+        &quot;title_styles_font-size&quot;: &quot;&quot;,
+        &quot;title_styles_margin&quot;: &quot;&quot;,
+        &quot;title_styles_padding&quot;: &quot;&quot;,
+        &quot;title_styles_display&quot;: &quot;&quot;,
+        &quot;title_styles_float&quot;: &quot;&quot;,
+        &quot;title_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;title_styles_advanced&quot;: &quot;&quot;,
+        &quot;row_styles_background-color&quot;: &quot;&quot;,
+        &quot;row_styles_border&quot;: &quot;&quot;,
+        &quot;row_styles_border-style&quot;: &quot;&quot;,
+        &quot;row_styles_border-color&quot;: &quot;&quot;,
+        &quot;row_styles_color&quot;: &quot;&quot;,
+        &quot;row_styles_height&quot;: &quot;&quot;,
+        &quot;row_styles_width&quot;: &quot;&quot;,
+        &quot;row_styles_font-size&quot;: &quot;&quot;,
+        &quot;row_styles_margin&quot;: &quot;&quot;,
+        &quot;row_styles_padding&quot;: &quot;&quot;,
+        &quot;row_styles_display&quot;: &quot;&quot;,
+        &quot;row_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;row_styles_advanced&quot;: &quot;&quot;,
+        &quot;row-odd_styles_background-color&quot;: &quot;&quot;,
+        &quot;row-odd_styles_border&quot;: &quot;&quot;,
+        &quot;row-odd_styles_border-style&quot;: &quot;&quot;,
+        &quot;row-odd_styles_border-color&quot;: &quot;&quot;,
+        &quot;row-odd_styles_color&quot;: &quot;&quot;,
+        &quot;row-odd_styles_height&quot;: &quot;&quot;,
+        &quot;row-odd_styles_width&quot;: &quot;&quot;,
+        &quot;row-odd_styles_font-size&quot;: &quot;&quot;,
+        &quot;row-odd_styles_margin&quot;: &quot;&quot;,
+        &quot;row-odd_styles_padding&quot;: &quot;&quot;,
+        &quot;row-odd_styles_display&quot;: &quot;&quot;,
+        &quot;row-odd_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;row-odd_styles_advanced&quot;: &quot;&quot;,
+        &quot;success-msg_styles_background-color&quot;: &quot;&quot;,
+        &quot;success-msg_styles_border&quot;: &quot;&quot;,
+        &quot;success-msg_styles_border-style&quot;: &quot;&quot;,
+        &quot;success-msg_styles_border-color&quot;: &quot;&quot;,
+        &quot;success-msg_styles_color&quot;: &quot;&quot;,
+        &quot;success-msg_styles_height&quot;: &quot;&quot;,
+        &quot;success-msg_styles_width&quot;: &quot;&quot;,
+        &quot;success-msg_styles_font-size&quot;: &quot;&quot;,
+        &quot;success-msg_styles_margin&quot;: &quot;&quot;,
+        &quot;success-msg_styles_padding&quot;: &quot;&quot;,
+        &quot;success-msg_styles_display&quot;: &quot;&quot;,
+        &quot;success-msg_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;success-msg_styles_advanced&quot;: &quot;&quot;,
+        &quot;error_msg_styles_background-color&quot;: &quot;&quot;,
+        &quot;error_msg_styles_border&quot;: &quot;&quot;,
+        &quot;error_msg_styles_border-style&quot;: &quot;&quot;,
+        &quot;error_msg_styles_border-color&quot;: &quot;&quot;,
+        &quot;error_msg_styles_color&quot;: &quot;&quot;,
+        &quot;error_msg_styles_height&quot;: &quot;&quot;,
+        &quot;error_msg_styles_width&quot;: &quot;&quot;,
+        &quot;error_msg_styles_font-size&quot;: &quot;&quot;,
+        &quot;error_msg_styles_margin&quot;: &quot;&quot;,
+        &quot;error_msg_styles_padding&quot;: &quot;&quot;,
+        &quot;error_msg_styles_display&quot;: &quot;&quot;,
+        &quot;error_msg_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;error_msg_styles_advanced&quot;: &quot;&quot;
+    },
+    &quot;fields&quot;: [{
+        &quot;objectType&quot;: &quot;Field&quot;,
+        &quot;objectDomain&quot;: &quot;fields&quot;,
+        &quot;editActive&quot;: false,
+        &quot;order&quot;: 1,
+        &quot;label&quot;: &quot;Listing ID&quot;,
+        &quot;type&quot;: &quot;hidden&quot;,
+        &quot;key&quot;: &quot;listing_id&quot;,
+        &quot;default&quot;: &quot;{wp:post_id}&quot;,
+        &quot;admin_label&quot;: &quot;&quot;,
+        &quot;drawerDisabled&quot;: false
+    },{
+        &quot;objectType&quot;: &quot;Field&quot;,
+        &quot;objectDomain&quot;: &quot;fields&quot;,
+        &quot;editActive&quot;: false,
+        &quot;order&quot;: 2,
+        &quot;label&quot;: &quot;Contact&quot;,
+        &quot;type&quot;: &quot;textbox&quot;,
+        &quot;key&quot;: &quot;contact&quot;,
+        &quot;label_pos&quot;: &quot;default&quot;,
+        &quot;required&quot;: false,
+        &quot;default&quot;: &quot;{wp:post_title}&quot;,
+        &quot;placeholder&quot;: &quot;&quot;,
+        &quot;container_class&quot;: &quot;&quot;,
+        &quot;element_class&quot;: &quot;&quot;,
+        &quot;input_limit&quot;: &quot;&quot;,
+        &quot;input_limit_type&quot;: &quot;characters&quot;,
+        &quot;input_limit_msg&quot;: &quot;Character(s) left&quot;,
+        &quot;manual_key&quot;: false,
+        &quot;disable_input&quot;: 1,
+        &quot;admin_label&quot;: &quot;&quot;,
+        &quot;help_text&quot;: &quot;&quot;,
+        &quot;disable_browser_autocomplete&quot;: 1,
+        &quot;mask&quot;: &quot;&quot;,
+        &quot;custom_mask&quot;: &quot;&quot;,
+        &quot;custom_name_attribute&quot;: &quot;&quot;,
+        &quot;drawerDisabled&quot;: false,
+        &quot;desc_text&quot;: &quot;&lt;p&gt;This is for your reference only and can\&#039;t be changed.&lt;/p&gt;&quot;
+    },{
+        &quot;objectType&quot;: &quot;Field&quot;,
+        &quot;objectDomain&quot;: &quot;fields&quot;,
+        &quot;editActive&quot;: false,
+        &quot;order&quot;: 3,
+        &quot;label&quot;: &quot;Divider&quot;,
+        &quot;type&quot;: &quot;hr&quot;,
+        &quot;container_class&quot;: &quot;&quot;,
+        &quot;element_class&quot;: &quot;&quot;,
+        &quot;key&quot;: &quot;hr&quot;,
+        &quot;drawerDisabled&quot;: false
+    },{
+        &quot;label&quot;: &quot;Name&quot;,
+        &quot;key&quot;: &quot;name&quot;,
+        &quot;parent_id&quot;: &quot;1&quot;,
+        &quot;type&quot;: &quot;textbox&quot;,
+        &quot;created_at&quot;: &quot;2016-08-24 16:39:20&quot;,
+        &quot;label_pos&quot;: &quot;above&quot;,
+        &quot;required&quot;: &quot;1&quot;,
+        &quot;order&quot;: &quot;4&quot;,
+        &quot;placeholder&quot;: &quot;&quot;,
+        &quot;default&quot;: &quot;&quot;,
+        &quot;wrapper_class&quot;: &quot;&quot;,
+        &quot;element_class&quot;: &quot;&quot;,
+        &quot;objectType&quot;: &quot;Field&quot;,
+        &quot;objectDomain&quot;: &quot;fields&quot;,
+        &quot;editActive&quot;: &quot;&quot;,
+        &quot;container_class&quot;: &quot;&quot;,
+        &quot;input_limit&quot;: &quot;&quot;,
+        &quot;input_limit_type&quot;: &quot;characters&quot;,
+        &quot;input_limit_msg&quot;: &quot;Character(s) left&quot;,
+        &quot;manual_key&quot;: &quot;&quot;,
+        &quot;disable_input&quot;: &quot;&quot;,
+        &quot;admin_label&quot;: &quot;&quot;,
+        &quot;help_text&quot;: &quot;&quot;,
+        &quot;desc_text&quot;: &quot;&quot;,
+        &quot;disable_browser_autocomplete&quot;: &quot;&quot;,
+        &quot;mask&quot;: &quot;&quot;,
+        &quot;custom_mask&quot;: &quot;&quot;,
+        &quot;wrap_styles_background-color&quot;: &quot;&quot;,
+        &quot;wrap_styles_border&quot;: &quot;&quot;,
+        &quot;wrap_styles_border-style&quot;: &quot;&quot;,
+        &quot;wrap_styles_border-color&quot;: &quot;&quot;,
+        &quot;wrap_styles_color&quot;: &quot;&quot;,
+        &quot;wrap_styles_height&quot;: &quot;&quot;,
+        &quot;wrap_styles_width&quot;: &quot;&quot;,
+        &quot;wrap_styles_font-size&quot;: &quot;&quot;,
+        &quot;wrap_styles_margin&quot;: &quot;&quot;,
+        &quot;wrap_styles_padding&quot;: &quot;&quot;,
+        &quot;wrap_styles_display&quot;: &quot;&quot;,
+        &quot;wrap_styles_float&quot;: &quot;&quot;,
+        &quot;wrap_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;wrap_styles_advanced&quot;: &quot;&quot;,
+        &quot;label_styles_background-color&quot;: &quot;&quot;,
+        &quot;label_styles_border&quot;: &quot;&quot;,
+        &quot;label_styles_border-style&quot;: &quot;&quot;,
+        &quot;label_styles_border-color&quot;: &quot;&quot;,
+        &quot;label_styles_color&quot;: &quot;&quot;,
+        &quot;label_styles_height&quot;: &quot;&quot;,
+        &quot;label_styles_width&quot;: &quot;&quot;,
+        &quot;label_styles_font-size&quot;: &quot;&quot;,
+        &quot;label_styles_margin&quot;: &quot;&quot;,
+        &quot;label_styles_padding&quot;: &quot;&quot;,
+        &quot;label_styles_display&quot;: &quot;&quot;,
+        &quot;label_styles_float&quot;: &quot;&quot;,
+        &quot;label_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;label_styles_advanced&quot;: &quot;&quot;,
+        &quot;element_styles_background-color&quot;: &quot;&quot;,
+        &quot;element_styles_border&quot;: &quot;&quot;,
+        &quot;element_styles_border-style&quot;: &quot;&quot;,
+        &quot;element_styles_border-color&quot;: &quot;&quot;,
+        &quot;element_styles_color&quot;: &quot;&quot;,
+        &quot;element_styles_height&quot;: &quot;&quot;,
+        &quot;element_styles_width&quot;: &quot;&quot;,
+        &quot;element_styles_font-size&quot;: &quot;&quot;,
+        &quot;element_styles_margin&quot;: &quot;&quot;,
+        &quot;element_styles_padding&quot;: &quot;&quot;,
+        &quot;element_styles_display&quot;: &quot;&quot;,
+        &quot;element_styles_float&quot;: &quot;&quot;,
+        &quot;element_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;element_styles_advanced&quot;: &quot;&quot;,
+        &quot;cellcid&quot;: &quot;c3277&quot;
+    }, {
+        &quot;label&quot;: &quot;Email&quot;,
+        &quot;key&quot;: &quot;email&quot;,
+        &quot;parent_id&quot;: &quot;1&quot;,
+        &quot;type&quot;: &quot;email&quot;,
+        &quot;created_at&quot;: &quot;2016-08-24 16:39:20&quot;,
+        &quot;label_pos&quot;: &quot;above&quot;,
+        &quot;required&quot;: &quot;1&quot;,
+        &quot;order&quot;: &quot;5&quot;,
+        &quot;placeholder&quot;: &quot;&quot;,
+        &quot;default&quot;: &quot;&quot;,
+        &quot;wrapper_class&quot;: &quot;&quot;,
+        &quot;element_class&quot;: &quot;&quot;,
+        &quot;objectType&quot;: &quot;Field&quot;,
+        &quot;objectDomain&quot;: &quot;fields&quot;,
+        &quot;editActive&quot;: &quot;&quot;,
+        &quot;container_class&quot;: &quot;&quot;,
+        &quot;admin_label&quot;: &quot;&quot;,
+        &quot;help_text&quot;: &quot;&quot;,
+        &quot;desc_text&quot;: &quot;&quot;,
+        &quot;wrap_styles_background-color&quot;: &quot;&quot;,
+        &quot;wrap_styles_border&quot;: &quot;&quot;,
+        &quot;wrap_styles_border-style&quot;: &quot;&quot;,
+        &quot;wrap_styles_border-color&quot;: &quot;&quot;,
+        &quot;wrap_styles_color&quot;: &quot;&quot;,
+        &quot;wrap_styles_height&quot;: &quot;&quot;,
+        &quot;wrap_styles_width&quot;: &quot;&quot;,
+        &quot;wrap_styles_font-size&quot;: &quot;&quot;,
+        &quot;wrap_styles_margin&quot;: &quot;&quot;,
+        &quot;wrap_styles_padding&quot;: &quot;&quot;,
+        &quot;wrap_styles_display&quot;: &quot;&quot;,
+        &quot;wrap_styles_float&quot;: &quot;&quot;,
+        &quot;wrap_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;wrap_styles_advanced&quot;: &quot;&quot;,
+        &quot;label_styles_background-color&quot;: &quot;&quot;,
+        &quot;label_styles_border&quot;: &quot;&quot;,
+        &quot;label_styles_border-style&quot;: &quot;&quot;,
+        &quot;label_styles_border-color&quot;: &quot;&quot;,
+        &quot;label_styles_color&quot;: &quot;&quot;,
+        &quot;label_styles_height&quot;: &quot;&quot;,
+        &quot;label_styles_width&quot;: &quot;&quot;,
+        &quot;label_styles_font-size&quot;: &quot;&quot;,
+        &quot;label_styles_margin&quot;: &quot;&quot;,
+        &quot;label_styles_padding&quot;: &quot;&quot;,
+        &quot;label_styles_display&quot;: &quot;&quot;,
+        &quot;label_styles_float&quot;: &quot;&quot;,
+        &quot;label_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;label_styles_advanced&quot;: &quot;&quot;,
+        &quot;element_styles_background-color&quot;: &quot;&quot;,
+        &quot;element_styles_border&quot;: &quot;&quot;,
+        &quot;element_styles_border-style&quot;: &quot;&quot;,
+        &quot;element_styles_border-color&quot;: &quot;&quot;,
+        &quot;element_styles_color&quot;: &quot;&quot;,
+        &quot;element_styles_height&quot;: &quot;&quot;,
+        &quot;element_styles_width&quot;: &quot;&quot;,
+        &quot;element_styles_font-size&quot;: &quot;&quot;,
+        &quot;element_styles_margin&quot;: &quot;&quot;,
+        &quot;element_styles_padding&quot;: &quot;&quot;,
+        &quot;element_styles_display&quot;: &quot;&quot;,
+        &quot;element_styles_float&quot;: &quot;&quot;,
+        &quot;element_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;element_styles_advanced&quot;: &quot;&quot;,
+        &quot;cellcid&quot;: &quot;c3281&quot;
+    },{
+        &quot;objectType&quot;: &quot;Field&quot;,
+        &quot;objectDomain&quot;: &quot;fields&quot;,
+        &quot;editActive&quot;: false,
+        &quot;order&quot;: 6,
+        &quot;label&quot;: &quot;Phone&quot;,
+        &quot;type&quot;: &quot;phone&quot;,
+        &quot;key&quot;: &quot;phone&quot;,
+        &quot;label_pos&quot;: &quot;default&quot;,
+        &quot;required&quot;: false,
+        &quot;default&quot;: &quot;&quot;,
+        &quot;placeholder&quot;: &quot;&quot;,
+        &quot;container_class&quot;: &quot;&quot;,
+        &quot;element_class&quot;: &quot;&quot;,
+        &quot;input_limit&quot;: &quot;&quot;,
+        &quot;input_limit_type&quot;: &quot;characters&quot;,
+        &quot;input_limit_msg&quot;: &quot;Character(s) left&quot;,
+        &quot;manual_key&quot;: false,
+        &quot;admin_label&quot;: &quot;&quot;,
+        &quot;help_text&quot;: &quot;&quot;,
+        &quot;mask&quot;: &quot;&quot;,
+        &quot;custom_mask&quot;: &quot;&quot;,
+        &quot;custom_name_attribute&quot;: &quot;phone&quot;,
+        &quot;drawerDisabled&quot;: false
+    }, {
+        &quot;label&quot;: &quot;Message&quot;,
+        &quot;key&quot;: &quot;message&quot;,
+        &quot;parent_id&quot;: &quot;1&quot;,
+        &quot;type&quot;: &quot;textarea&quot;,
+        &quot;created_at&quot;: &quot;2016-08-24 16:39:20&quot;,
+        &quot;label_pos&quot;: &quot;above&quot;,
+        &quot;required&quot;: &quot;1&quot;,
+        &quot;order&quot;: &quot;7&quot;,
+        &quot;placeholder&quot;: &quot;&quot;,
+        &quot;default&quot;: &quot;&quot;,
+        &quot;wrapper_class&quot;: &quot;&quot;,
+        &quot;element_class&quot;: &quot;&quot;,
+        &quot;objectType&quot;: &quot;Field&quot;,
+        &quot;objectDomain&quot;: &quot;fields&quot;,
+        &quot;editActive&quot;: &quot;&quot;,
+        &quot;container_class&quot;: &quot;&quot;,
+        &quot;input_limit&quot;: &quot;&quot;,
+        &quot;input_limit_type&quot;: &quot;characters&quot;,
+        &quot;input_limit_msg&quot;: &quot;Character(s) left&quot;,
+        &quot;manual_key&quot;: &quot;&quot;,
+        &quot;disable_input&quot;: &quot;&quot;,
+        &quot;admin_label&quot;: &quot;&quot;,
+        &quot;help_text&quot;: &quot;&quot;,
+        &quot;desc_text&quot;: &quot;&quot;,
+        &quot;disable_browser_autocomplete&quot;: &quot;&quot;,
+        &quot;textarea_rte&quot;: &quot;&quot;,
+        &quot;disable_rte_mobile&quot;: &quot;&quot;,
+        &quot;textarea_media&quot;: &quot;&quot;,
+        &quot;wrap_styles_background-color&quot;: &quot;&quot;,
+        &quot;wrap_styles_border&quot;: &quot;&quot;,
+        &quot;wrap_styles_border-style&quot;: &quot;&quot;,
+        &quot;wrap_styles_border-color&quot;: &quot;&quot;,
+        &quot;wrap_styles_color&quot;: &quot;&quot;,
+        &quot;wrap_styles_height&quot;: &quot;&quot;,
+        &quot;wrap_styles_width&quot;: &quot;&quot;,
+        &quot;wrap_styles_font-size&quot;: &quot;&quot;,
+        &quot;wrap_styles_margin&quot;: &quot;&quot;,
+        &quot;wrap_styles_padding&quot;: &quot;&quot;,
+        &quot;wrap_styles_display&quot;: &quot;&quot;,
+        &quot;wrap_styles_float&quot;: &quot;&quot;,
+        &quot;wrap_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;wrap_styles_advanced&quot;: &quot;&quot;,
+        &quot;label_styles_background-color&quot;: &quot;&quot;,
+        &quot;label_styles_border&quot;: &quot;&quot;,
+        &quot;label_styles_border-style&quot;: &quot;&quot;,
+        &quot;label_styles_border-color&quot;: &quot;&quot;,
+        &quot;label_styles_color&quot;: &quot;&quot;,
+        &quot;label_styles_height&quot;: &quot;&quot;,
+        &quot;label_styles_width&quot;: &quot;&quot;,
+        &quot;label_styles_font-size&quot;: &quot;&quot;,
+        &quot;label_styles_margin&quot;: &quot;&quot;,
+        &quot;label_styles_padding&quot;: &quot;&quot;,
+        &quot;label_styles_display&quot;: &quot;&quot;,
+        &quot;label_styles_float&quot;: &quot;&quot;,
+        &quot;label_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;label_styles_advanced&quot;: &quot;&quot;,
+        &quot;element_styles_background-color&quot;: &quot;&quot;,
+        &quot;element_styles_border&quot;: &quot;&quot;,
+        &quot;element_styles_border-style&quot;: &quot;&quot;,
+        &quot;element_styles_border-color&quot;: &quot;&quot;,
+        &quot;element_styles_color&quot;: &quot;&quot;,
+        &quot;element_styles_height&quot;: &quot;&quot;,
+        &quot;element_styles_width&quot;: &quot;&quot;,
+        &quot;element_styles_font-size&quot;: &quot;&quot;,
+        &quot;element_styles_margin&quot;: &quot;&quot;,
+        &quot;element_styles_padding&quot;: &quot;&quot;,
+        &quot;element_styles_display&quot;: &quot;&quot;,
+        &quot;element_styles_float&quot;: &quot;&quot;,
+        &quot;element_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;element_styles_advanced&quot;: &quot;&quot;,
+        &quot;cellcid&quot;: &quot;c3284&quot;
+    }, {
+        &quot;label&quot;: &quot;Submit&quot;,
+        &quot;key&quot;: &quot;submit&quot;,
+        &quot;parent_id&quot;: &quot;1&quot;,
+        &quot;type&quot;: &quot;submit&quot;,
+        &quot;created_at&quot;: &quot;2016-08-24 16:39:20&quot;,
+        &quot;processing_label&quot;: &quot;Processing&quot;,
+        &quot;order&quot;: &quot;8&quot;,
+        &quot;objectType&quot;: &quot;Field&quot;,
+        &quot;objectDomain&quot;: &quot;fields&quot;,
+        &quot;editActive&quot;: &quot;&quot;,
+        &quot;container_class&quot;: &quot;&quot;,
+        &quot;element_class&quot;: &quot;&quot;,
+        &quot;wrap_styles_background-color&quot;: &quot;&quot;,
+        &quot;wrap_styles_border&quot;: &quot;&quot;,
+        &quot;wrap_styles_border-style&quot;: &quot;&quot;,
+        &quot;wrap_styles_border-color&quot;: &quot;&quot;,
+        &quot;wrap_styles_color&quot;: &quot;&quot;,
+        &quot;wrap_styles_height&quot;: &quot;&quot;,
+        &quot;wrap_styles_width&quot;: &quot;&quot;,
+        &quot;wrap_styles_font-size&quot;: &quot;&quot;,
+        &quot;wrap_styles_margin&quot;: &quot;&quot;,
+        &quot;wrap_styles_padding&quot;: &quot;&quot;,
+        &quot;wrap_styles_display&quot;: &quot;&quot;,
+        &quot;wrap_styles_float&quot;: &quot;&quot;,
+        &quot;wrap_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;wrap_styles_advanced&quot;: &quot;&quot;,
+        &quot;label_styles_background-color&quot;: &quot;&quot;,
+        &quot;label_styles_border&quot;: &quot;&quot;,
+        &quot;label_styles_border-style&quot;: &quot;&quot;,
+        &quot;label_styles_border-color&quot;: &quot;&quot;,
+        &quot;label_styles_color&quot;: &quot;&quot;,
+        &quot;label_styles_height&quot;: &quot;&quot;,
+        &quot;label_styles_width&quot;: &quot;&quot;,
+        &quot;label_styles_font-size&quot;: &quot;&quot;,
+        &quot;label_styles_margin&quot;: &quot;&quot;,
+        &quot;label_styles_padding&quot;: &quot;&quot;,
+        &quot;label_styles_display&quot;: &quot;&quot;,
+        &quot;label_styles_float&quot;: &quot;&quot;,
+        &quot;label_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;label_styles_advanced&quot;: &quot;&quot;,
+        &quot;element_styles_background-color&quot;: &quot;&quot;,
+        &quot;element_styles_border&quot;: &quot;&quot;,
+        &quot;element_styles_border-style&quot;: &quot;&quot;,
+        &quot;element_styles_border-color&quot;: &quot;&quot;,
+        &quot;element_styles_color&quot;: &quot;&quot;,
+        &quot;element_styles_height&quot;: &quot;&quot;,
+        &quot;element_styles_width&quot;: &quot;&quot;,
+        &quot;element_styles_font-size&quot;: &quot;&quot;,
+        &quot;element_styles_margin&quot;: &quot;&quot;,
+        &quot;element_styles_padding&quot;: &quot;&quot;,
+        &quot;element_styles_display&quot;: &quot;&quot;,
+        &quot;element_styles_float&quot;: &quot;&quot;,
+        &quot;element_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;element_styles_advanced&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_background-color&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_border&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_border-style&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_border-color&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_color&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_height&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_width&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_font-size&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_margin&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_padding&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_display&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_float&quot;: &quot;&quot;,
+        &quot;submit_element_hover_styles_show_advanced_css&quot;: &quot;0&quot;,
+        &quot;submit_element_hover_styles_advanced&quot;: &quot;&quot;,
+        &quot;cellcid&quot;: &quot;c3287&quot;
+    }],
+    &quot;actions&quot;: [{
+        &quot;title&quot;: &quot;&quot;,
+        &quot;key&quot;: &quot;&quot;,
+        &quot;type&quot;: &quot;save&quot;,
+        &quot;active&quot;: &quot;1&quot;,
+        &quot;created_at&quot;: &quot;2016-08-24 16:39:20&quot;,
+        &quot;label&quot;: &quot;Store Submission&quot;,
+        &quot;objectType&quot;: &quot;Action&quot;,
+        &quot;objectDomain&quot;: &quot;actions&quot;,
+        &quot;editActive&quot;: &quot;&quot;,
+        &quot;conditions&quot;: {
+            &quot;collapsed&quot;: &quot;&quot;,
+            &quot;process&quot;: &quot;1&quot;,
+            &quot;connector&quot;: &quot;all&quot;,
+            &quot;when&quot;: [{
+                &quot;connector&quot;: &quot;AND&quot;,
+                &quot;key&quot;: &quot;&quot;,
+                &quot;comparator&quot;: &quot;&quot;,
+                &quot;value&quot;: &quot;&quot;,
+                &quot;type&quot;: &quot;field&quot;,
+                &quot;modelType&quot;: &quot;when&quot;
+            }],
+            &quot;then&quot;: [{
+                &quot;key&quot;: &quot;&quot;,
+                &quot;trigger&quot;: &quot;&quot;,
+                &quot;value&quot;: &quot;&quot;,
+                &quot;type&quot;: &quot;field&quot;,
+                &quot;modelType&quot;: &quot;then&quot;
+            }],
+            &quot;else&quot;: []
+        },
+        &quot;payment_gateways&quot;: &quot;&quot;,
+        &quot;payment_total&quot;: &quot;&quot;,
+        &quot;tag&quot;: &quot;&quot;,
+        &quot;to&quot;: &quot;&quot;,
+        &quot;email_subject&quot;: &quot;&quot;,
+        &quot;email_message&quot;: &quot;&quot;,
+        &quot;from_name&quot;: &quot;&quot;,
+        &quot;from_address&quot;: &quot;&quot;,
+        &quot;reply_to&quot;: &quot;&quot;,
+        &quot;email_format&quot;: &quot;html&quot;,
+        &quot;cc&quot;: &quot;&quot;,
+        &quot;bcc&quot;: &quot;&quot;,
+        &quot;attach_csv&quot;: &quot;&quot;,
+        &quot;redirect_url&quot;: &quot;&quot;,
+        &quot;email_message_plain&quot;: &quot;&quot;
+    }, {
+        &quot;title&quot;: &quot;&quot;,
+        &quot;key&quot;: &quot;&quot;,
+        &quot;type&quot;: &quot;email&quot;,
+        &quot;active&quot;: &quot;1&quot;,
+        &quot;created_at&quot;: &quot;2016-08-24 16:39:20&quot;,
+        &quot;label&quot;: &quot;Email Confirmation&quot;,
+        &quot;to&quot;: &quot;{field:email}&quot;,
+        &quot;subject&quot;: &quot;This is an email action.&quot;,
+        &quot;message&quot;: &quot;Hello, Ninja Forms!&quot;,
+        &quot;objectType&quot;: &quot;Action&quot;,
+        &quot;objectDomain&quot;: &quot;actions&quot;,
+        &quot;editActive&quot;: &quot;&quot;,
+        &quot;conditions&quot;: {
+            &quot;collapsed&quot;: &quot;&quot;,
+            &quot;process&quot;: &quot;1&quot;,
+            &quot;connector&quot;: &quot;all&quot;,
+            &quot;when&quot;: [],
+            &quot;then&quot;: [{
+                &quot;key&quot;: &quot;&quot;,
+                &quot;trigger&quot;: &quot;&quot;,
+                &quot;value&quot;: &quot;&quot;,
+                &quot;type&quot;: &quot;field&quot;,
+                &quot;modelType&quot;: &quot;then&quot;
+            }],
+            &quot;else&quot;: []
+        },
+        &quot;payment_gateways&quot;: &quot;&quot;,
+        &quot;payment_total&quot;: &quot;&quot;,
+        &quot;tag&quot;: &quot;&quot;,
+        &quot;email_subject&quot;: &quot;Submission Confirmation &quot;,
+        &quot;email_message&quot;: &quot;&lt;p&gt;{all_fields_table}&lt;br&gt;&lt;\/p&gt;&quot;,
+        &quot;from_name&quot;: &quot;&quot;,
+        &quot;from_address&quot;: &quot;&quot;,
+        &quot;reply_to&quot;: &quot;&quot;,
+        &quot;email_format&quot;: &quot;html&quot;,
+        &quot;cc&quot;: &quot;&quot;,
+        &quot;bcc&quot;: &quot;&quot;,
+        &quot;attach_csv&quot;: &quot;&quot;,
+        &quot;email_message_plain&quot;: &quot;&quot;
+    }, {
+        &quot;title&quot;: &quot;&quot;,
+        &quot;key&quot;: &quot;&quot;,
+        &quot;type&quot;: &quot;email&quot;,
+        &quot;active&quot;: &quot;1&quot;,
+        &quot;created_at&quot;: &quot;2016-08-24 16:47:39&quot;,
+        &quot;objectType&quot;: &quot;Action&quot;,
+        &quot;objectDomain&quot;: &quot;actions&quot;,
+        &quot;editActive&quot;: &quot;&quot;,
+        &quot;label&quot;: &quot;Email Notification&quot;,
+        &quot;conditions&quot;: {
+            &quot;collapsed&quot;: &quot;&quot;,
+            &quot;process&quot;: &quot;1&quot;,
+            &quot;connector&quot;: &quot;all&quot;,
+            &quot;when&quot;: [{
+                &quot;connector&quot;: &quot;AND&quot;,
+                &quot;key&quot;: &quot;&quot;,
+                &quot;comparator&quot;: &quot;&quot;,
+                &quot;value&quot;: &quot;&quot;,
+                &quot;type&quot;: &quot;field&quot;,
+                &quot;modelType&quot;: &quot;when&quot;
+            }],
+            &quot;then&quot;: [{
+                &quot;key&quot;: &quot;&quot;,
+                &quot;trigger&quot;: &quot;&quot;,
+                &quot;value&quot;: &quot;&quot;,
+                &quot;type&quot;: &quot;field&quot;,
+                &quot;modelType&quot;: &quot;then&quot;
+            }],
+            &quot;else&quot;: []
+        },
+        &quot;payment_gateways&quot;: &quot;&quot;,
+        &quot;payment_total&quot;: &quot;&quot;,
+        &quot;tag&quot;: &quot;&quot;,
+        &quot;to&quot;: &quot;{GD:listing_email}&quot;,
+        &quot;email_subject&quot;: &quot;New contact form: {wp:site_title}&quot;,
+        &quot;email_message&quot;: &quot;&lt;p&gt;{all_fields_table}&lt;\/p&gt;&lt;p&gt;-{field:name} ( {field:email} )&lt;\/p&gt;&quot;,
+        &quot;from_name&quot;: &quot;&quot;,
+        &quot;from_address&quot;: &quot;&quot;,
+        &quot;reply_to&quot;: &quot;{field:email}&quot;,
+        &quot;email_format&quot;: &quot;html&quot;,
+        &quot;cc&quot;: &quot;&quot;,
+        &quot;bcc&quot;: &quot;{system:admin_email}&quot;,
+        &quot;attach_csv&quot;: &quot;0&quot;,
+        &quot;email_message_plain&quot;: &quot;&quot;
+    }, {
+        &quot;title&quot;: &quot;&quot;,
+        &quot;key&quot;: &quot;&quot;,
+        &quot;type&quot;: &quot;successmessage&quot;,
+        &quot;active&quot;: &quot;1&quot;,
+        &quot;created_at&quot;: &quot;2016-08-24 16:39:20&quot;,
+        &quot;label&quot;: &quot;Success Message&quot;,
+        &quot;message&quot;: &quot;Thank you {field:name} your contact form has been sent to the user!&quot;,
+        &quot;objectType&quot;: &quot;Action&quot;,
+        &quot;objectDomain&quot;: &quot;actions&quot;,
+        &quot;editActive&quot;: &quot;&quot;,
+        &quot;conditions&quot;: {
+            &quot;collapsed&quot;: &quot;&quot;,
+            &quot;process&quot;: &quot;1&quot;,
+            &quot;connector&quot;: &quot;all&quot;,
+            &quot;when&quot;: [{
+                &quot;connector&quot;: &quot;AND&quot;,
+                &quot;key&quot;: &quot;&quot;,
+                &quot;comparator&quot;: &quot;&quot;,
+                &quot;value&quot;: &quot;&quot;,
+                &quot;type&quot;: &quot;field&quot;,
+                &quot;modelType&quot;: &quot;when&quot;
+            }],
+            &quot;then&quot;: [{
+                &quot;key&quot;: &quot;&quot;,
+                &quot;trigger&quot;: &quot;&quot;,
+                &quot;value&quot;: &quot;&quot;,
+                &quot;type&quot;: &quot;field&quot;,
+                &quot;modelType&quot;: &quot;then&quot;
+            }],
+            &quot;else&quot;: []
+        },
+        &quot;payment_gateways&quot;: &quot;&quot;,
+        &quot;payment_total&quot;: &quot;&quot;,
+        &quot;tag&quot;: &quot;&quot;,
+        &quot;to&quot;: &quot;&quot;,
+        &quot;email_subject&quot;: &quot;&quot;,
+        &quot;email_message&quot;: &quot;&quot;,
+        &quot;from_name&quot;: &quot;&quot;,
+        &quot;from_address&quot;: &quot;&quot;,
+        &quot;reply_to&quot;: &quot;&quot;,
+        &quot;email_format&quot;: &quot;html&quot;,
+        &quot;cc&quot;: &quot;&quot;,
+        &quot;bcc&quot;: &quot;&quot;,
+        &quot;attach_csv&quot;: &quot;&quot;,
+        &quot;redirect_url&quot;: &quot;&quot;,
+        &quot;success_msg&quot;: &quot;&lt;p&gt;Form submitted successfully.&lt;\/p&gt;&lt;p&gt;A confirmation email was sent to {field:email}.&lt;\/p&gt;&quot;,
+        &quot;email_message_plain&quot;: &quot;&quot;
+    }]
+}&#039;;
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

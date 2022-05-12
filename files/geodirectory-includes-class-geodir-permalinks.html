@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-permalinks.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Permalinks
+ *
+ * Setup GD permalinks.
+ *
+ * @class     GeoDir_Permalinks
+ * @since     2.0.0
+ * @package   GeoDirectory
+ * @category  Class
+ * @author    AyeCode
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+/**
+ * GeoDir_Permalinks Class.
+ */
+class GeoDir_Permalinks {
+
+	public $rewrite_rule_problem = &#039;&#039;;
+	public $rewrite_rules = array();
+
+	public function __construct() {
+		// add rewrite tags (query params)
+		add_action(&#039;init&#039;, array( $this, &#039;rewrite_tags&#039;), 10, 0);
+
+		// post (single) rewrite rules
+		add_action(&#039;init&#039;, array( $this, &#039;post_rewrite_rules&#039;), 10, 0);
+
+		// location page rewrite rules
+		add_action(&#039;init&#039;, array( $this, &#039;location_rewrite_rules&#039;), 11,0);
+
+		// search page rewrite rules
+		add_action(&#039;init&#039;, array( $this, &#039;search_rewrite_rules&#039;), 11,0);
+
+		// author page permalinks
+		add_filter( &#039;init&#039;, array( $this, &#039;author_rewrite_rules&#039; ) );
+
+		// post (single) url filter
+		add_filter( &#039;post_type_link&#039;, array( $this, &#039;post_url&#039;), 0, 4);
+
+		// search page rewrite rules
+		add_action(&#039;init&#039;, array( $this, &#039;insert_rewrite_rules&#039;), 20,0);
+
+		// flush rewrite rules
+		add_action( &#039;init&#039;, array( __CLASS__, &#039;flush_rewrite_rules&#039; ), 99 );
+
+		// make child cat not contain parent cat url
+		add_filter(&#039;term_link&#039;, array($this,&#039;term_url_no_parent&#039;), 9, 3);
+
+		// maybe make the details page 404 if the locations vars are wrong
+		add_action(&#039;wp&#039;,array($this,&#039;maybe_404&#039;));
+
+		// try and recover from 404 if GD CPT detected
+		add_action(&#039;wp&#039;,array($this,&#039;_404_rescue&#039;));
+
+		// Arrange rewrite rules to fix paged, feed permalinks on category pages.
+		add_filter( &#039;rewrite_rules_array&#039;, array( __CLASS__, &#039;arrange_rewrite_rules&#039; ), 999, 1 );
+
+		//add_action( &#039;registered_post_type&#039;, array( __CLASS__, &#039;register_post_type_rules&#039; ), 10, 2 );
+
+		//add_action(&#039;init&#039;, array( $this, &#039;temp_check_rules&#039;),10000000000);
+	}
+
+	// @todo remove after testing
+	public function temp_check_rules($rules){
+
+		if(is_admin()){return;}
+		global $wp_rewrite;
+		//print_r( $wp_rewrite );
+		print_r(get_option( &#039;rewrite_rules&#039; ));
+
+		echo &#039;###&#039;;exit;
+
+		return $rules;
+	}
+
+	public function maybe_404() {
+		global $wp_query;
+
+		if(geodir_is_page(&#039;single&#039;)){
+			global $gd_post,$geodirectory;
+			
+			$should_404 = false;
+			$post_type = isset($wp_query-&gt;query_vars[&#039;post_type&#039;]) ? $wp_query-&gt;query_vars[&#039;post_type&#039;] : &#039;&#039;;
+			$post_locations = $geodirectory-&gt;location-&gt;get_post_location($gd_post);
+
+			// check country
+			if(isset($wp_query-&gt;query_vars[&#039;country&#039;]) &amp;&amp; isset($gd_post-&gt;country) &amp;&amp; $wp_query-&gt;query_vars[&#039;country&#039;]){
+				if(isset($post_locations-&gt;country_slug) &amp;&amp; $post_locations-&gt;country_slug!=$wp_query-&gt;query_vars[&#039;country&#039;]){
+					$should_404 = true;
+				}
+			}
+
+			// check region
+			if(!$should_404 &amp;&amp; isset($wp_query-&gt;query_vars[&#039;region&#039;]) &amp;&amp; isset($gd_post-&gt;region) &amp;&amp; $wp_query-&gt;query_vars[&#039;region&#039;]){
+				if(isset($post_locations-&gt;region_slug) &amp;&amp; $post_locations-&gt;region_slug!=$wp_query-&gt;query_vars[&#039;region&#039;]){
+					$should_404 = true;
+				}
+			}
+
+			// check city
+			if(!$should_404 &amp;&amp; isset($wp_query-&gt;query_vars[&#039;city&#039;]) &amp;&amp; isset($gd_post-&gt;city) &amp;&amp; $wp_query-&gt;query_vars[&#039;city&#039;]){
+				if(isset($post_locations-&gt;city_slug) &amp;&amp; $post_locations-&gt;city_slug!=$wp_query-&gt;query_vars[&#039;city&#039;]){
+					$should_404 = true;
+				}
+			}
+
+			// check category
+			if ( ! $should_404 &amp;&amp; isset( $wp_query-&gt;query_vars[$post_type.&quot;category&quot;] ) &amp;&amp; $wp_query-&gt;query_vars[ $post_type . &quot;category&quot; ] &amp;&amp; isset( $gd_post-&gt;default_category ) &amp;&amp; $gd_post-&gt;default_category ) {
+				$is_cat = get_term_by( &#039;slug&#039;, $wp_query-&gt;query_vars[ $post_type . &quot;category&quot; ], $post_type . &quot;category&quot; );
+
+				/**
+				 * @since 2.0.0.67
+				 */
+				$is_cat = apply_filters( &#039;geodir_post_url_filter_term&#039;, $is_cat, $gd_post, (int) $gd_post-&gt;default_category );
+
+				if ( ! $is_cat || ( isset( $is_cat-&gt;term_id ) &amp;&amp; $is_cat-&gt;term_id != $gd_post-&gt;default_category ) ) {
+					$should_404 = true;
+				}
+			}
+
+			if ( $should_404 ) {
+				$wp_query-&gt;set_404();
+				status_header(404);
+			}
+		}
+
+		// Allow post author to access their pending listings.
+		if ( ! empty( $wp_query ) &amp;&amp; ! empty( $wp_query-&gt;query_vars[&#039;post_type&#039;] ) &amp;&amp; ! empty( $wp_query-&gt;query_vars[&#039;p&#039;] ) &amp;&amp; is_404() &amp;&amp; ! is_preview() &amp;&amp; ( $user_id = (int) get_current_user_id() ) ) {
+			if ( geodir_is_gd_post_type( $wp_query-&gt;query_vars[&#039;post_type&#039;] ) &amp;&amp; in_array( get_post_status( (int) $wp_query-&gt;query_vars[&#039;p&#039;] ), array_keys( geodir_get_post_statuses( $wp_query-&gt;query_vars[&#039;post_type&#039;] ) ) ) &amp;&amp; GeoDir_Post_Data::owner_check( (int) $wp_query-&gt;query_vars[&#039;p&#039;], $user_id ) &amp;&amp; ( $redirect = get_permalink( (int) $wp_query-&gt;query_vars[&#039;p&#039;] ) ) ) {
+				$redirect = add_query_arg( array( &#039;preview&#039; =&gt; &#039;true&#039; ), $redirect );
+
+				if ( $redirect &amp;&amp; $redirect != geodir_curPageURL() ) {
+					wp_safe_redirect( $redirect );
+					exit;
+				}
+			}
+		}
+
+	}
+
+	/**
+	 * Check the 404 page to see if its a GD CPT and if we can find the correct page.
+	 *
+	 * This can help with GDv1 -&gt; GDv2 sites auto tell search engines the urls have moved.
+	 */
+	public function _404_rescue(){
+		if(is_404() &amp;&amp; geodir_get_option(&quot;enable_404_rescue&quot;,1)){
+			global $wp_query,$wp, $geodirectory;
+
+			$post_type = isset($wp_query-&gt;query_vars[&#039;post_type&#039;]) ? $wp_query-&gt;query_vars[&#039;post_type&#039;] : &#039;&#039;;
+			$url_segments = explode(&quot;/&quot;,$wp-&gt;request);
+
+			// if no post type query var then double check if its maybe a GD CPT but not registering as a query var
+			if(!$post_type &amp;&amp; !empty($url_segments)){
+				$post_type_slug = $url_segments[0];
+				$gd_cpts = geodir_get_posttypes(&#039;array&#039;);
+				if(!empty($gd_cpts)){
+					foreach($gd_cpts as $cpt =&gt; $cpt_options){
+						if ( ! empty( $cpt_options[&#039;rewrite&#039;][&#039;slug&#039;] ) &amp;&amp; $post_type_slug ) {
+							if ( $cpt_options[&#039;rewrite&#039;][&#039;slug&#039;] == $post_type_slug ) {
+								$post_type = $cpt;
+								break;
+							} elseif ( urlencode( geodir_cpt_permalink_rewrite_slug( $cpt ) ) == $post_type_slug ) { // Match translated slug
+								$post_type = $cpt;
+								break;
+							}
+						}
+					}
+				}
+			}
+			
+			if (in_array($post_type, geodir_get_posttypes())) {
+				$has_location = false;
+				if ( ! empty( $geodirectory-&gt;location ) &amp;&amp; ( $location = $geodirectory-&gt;location ) ) {
+					if ( ! empty( $location-&gt;country_slug ) || ! empty( $location-&gt;region_slug ) || ! empty( $location-&gt;city_slug ) || ! empty( $location-&gt;neighbourhood_slug ) ) {
+						$has_location = true;
+					}
+				}
+				$maybe_slug = end($url_segments);
+
+				if( $maybe_slug ){
+					array_shift($url_segments);// remove the CPT slug
+					$location_segments = array();
+					$location_string = &#039;&#039;;
+					$redirect = &#039;&#039;;
+					$is_cat = get_term_by( &#039;slug&#039;, $maybe_slug, $post_type.&quot;category&quot;);
+					if(!empty($is_cat)){
+
+						foreach($url_segments as $url_segment){
+							if($url_segment == $maybe_slug ){continue;}
+
+							// check its not a term also
+							$is_term = get_term_by( &#039;slug&#039;, $url_segment, $post_type.&quot;category&quot;);
+							if(empty($is_term)){
+								$location_segments[] = $url_segment;
+							}
+						}
+
+						if ( ! empty( $location_segments ) &amp;&amp; ! $has_location ) {
+							$location_string = implode( &quot;/&quot;, $location_segments );
+						}
+
+						$term_link = get_term_link( $maybe_slug, $post_type.&quot;category&quot; );
+
+						if($term_link){
+							$redirect = trailingslashit($term_link).$location_string;
+							if(self::is_slash()){
+								$redirect = trailingslashit($redirect);
+							}
+						}
+
+					}elseif($is_tag = get_term_by( &#039;slug&#039;, $maybe_slug, $post_type.&quot;_tags&quot;)){
+						$tag_slug = geodir_get_option( &#039;permalink_tag_base&#039;, &#039;tags&#039; );
+
+						foreach($url_segments as $url_segment){
+							 // Old url contains /tags/, so remove /tags/ as well from url.
+							if ( $url_segment == $maybe_slug || $url_segment == $tag_slug ) {
+								continue;
+							}
+
+							// check its not a term also
+							$is_term = get_term_by( &#039;slug&#039;, $url_segment, $post_type.&quot;_tags&quot;);
+							if(empty($is_term)){
+								$location_segments[] = $url_segment;
+							}
+						}
+
+						if ( ! empty( $location_segments ) &amp;&amp; ! $has_location ) {
+							$location_string = implode( &quot;/&quot;, $location_segments );
+						}
+
+						$term_link = get_term_link( $maybe_slug, $post_type.&quot;_tags&quot; );
+
+						if($term_link){
+							$redirect = trailingslashit($term_link).$location_string;
+							if(self::is_slash()){
+								$redirect = trailingslashit($redirect);
+							}
+						}
+					}elseif($is_post = get_page_by_path($maybe_slug,OBJECT,$post_type)){
+						$redirect = get_permalink($is_post-&gt;ID);
+					}
+
+					// redirect if needed and if its not to the same url
+					if($redirect &amp;&amp; $redirect != geodir_curPageURL()){
+						wp_redirect($redirect,&#039;301&#039;);exit;
+					}
+				}
+
+			}
+		}
+	}
+
+	/**
+	 * Remove the parent slug from the term link.
+	 * 
+	 * @param $termlink
+	 * @param $term
+	 * @param $taxonomy
+	 *
+	 * @return mixed
+	 */
+	public function term_url_no_parent( $termlink, $term, $taxonomy ) {
+		if ( ! geodir_is_gd_taxonomy( $taxonomy ) ) {
+			return $termlink;
+		}
+
+		if ( ! empty( $term ) &amp;&amp; is_object( $term ) &amp;&amp; ! isset( $term-&gt;parent ) &amp;&amp; ! empty( $term-&gt;term_id ) ) {
+			$_term = get_term( $term-&gt;term_id );
+
+			if ( ! empty( $_term ) &amp;&amp; ! is_wp_error( $_term ) ) {
+				$term = $_term;
+			}
+		}
+
+		if ( ! empty( $term-&gt;parent ) ) {
+			$parent = self::get_term_parent_info( $term-&gt;parent, $taxonomy );
+			$parent_slug = isset( $parent-&gt;slug ) ? $parent-&gt;slug : &#039;&#039;;
+
+			if ( $parent_slug ) {
+				$termlink = str_replace( &quot;/$parent_slug/&quot;, &quot;/&quot;, $termlink );
+			}
+		}
+
+		return $termlink;
+	}
+
+	/**
+	 * Loop through and get the category parent.
+	 *
+	 * @param $term_id
+	 * @param $taxonomy
+	 * @param string $slug
+	 *
+	 * @return array|null|WP_Error|WP_Term
+	 */
+	public function get_term_parent_info($term_id, $taxonomy,$slug=&#039;&#039; ){
+		$parent = get_term( $term_id, $taxonomy );
+
+		if($slug){
+			$parent-&gt;slug = $parent-&gt;slug.&quot;/&quot;.$slug;
+		}
+		if (!empty($parent-&gt;parent)){
+
+			$term = self::get_term_parent_info($parent-&gt;parent, $taxonomy,$parent-&gt;slug );
+		}else{
+			$term = $parent;
+		}
+
+		return $term;
+	}
+
+	public function insert_rewrite_rules(){
+
+//		print_r($this-&gt;rewrite_rules);
+
+		if(!empty($this-&gt;rewrite_rules)){
+			// organise the right order
+			usort($this-&gt;rewrite_rules, array( $this, &quot;sort_rewrites&quot;));
+			foreach($this-&gt;rewrite_rules as $rule){
+				add_rewrite_rule($rule[&#039;regex&#039;],$rule[&#039;redirect&#039;],$rule[&#039;after&#039;]);
+			}
+		}
+	}
+
+	function sort_rewrites($b, $a) {
+		if ($a[&#039;count&#039;] == $b[&#039;count&#039;]) {
+			return 0;
+		}
+		return ($a[&#039;count&#039;] &lt; $b[&#039;count&#039;]) ? -1 : 1;
+	}
+
+	public function rewrite_rule_problem_notice() {
+		?&gt;
+		&lt;div class=&quot;notice notice-error&quot;&gt;
+			&lt;p&gt;&lt;?php _e( &#039;&lt;b&gt;GeoDirectory permalink error&lt;/b&gt; the following rule appears twice:&#039;, &#039;geodirectory&#039; ); echo &quot; &quot;. esc_attr( $this-&gt;rewrite_rule_problem ); ?&gt;&lt;/p&gt;
+			&lt;p&gt;&lt;?php _e( &#039;&lt;b&gt;Try making the GeoDirectory permalinks more unique.&lt;/b&gt;&#039;, &#039;geodirectory&#039; );?&gt;&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;?php
+	}
+
+	public function add_rewrite_rule($regex, $redirect, $after = &#039;&#039;){
+
+//		echo $regex . &quot;\n&quot;;
+//		echo $redirect . &quot;\n&quot;;
+
+		// check if there are double rules
+		if(isset($this-&gt;rewrite_rules[$regex])){
+			global $geodirectory;
+			$parts = explode( &#039;/([^/]*)/?$&#039;, $regex );
+			if(count($parts) == 2 &amp;&amp; isset($geodirectory-&gt;settings[&#039;permalink_structure&#039;]) &amp;&amp; $geodirectory-&gt;settings[&#039;permalink_structure&#039;]==&#039;&#039;){}else{
+				$this-&gt;rewrite_rule_problem = $regex;
+				add_action( &#039;admin_notices&#039;, array($this,&#039;rewrite_rule_problem_notice&#039;) );
+			}
+		}
+
+		$static_sections = 0;
+		$sections = explode(&quot;/&quot;, str_replace(&#039;^/&#039;,&#039;&#039;,$regex));
+		if(!empty($sections)){
+			foreach ($sections as $section){
+				if(substr( $section, 0, 1 ) === &quot;(&quot;){
+
+				}else{
+					$static_sections++;
+				}
+			}
+		}
+
+		$count = ( 10 * count( explode( &quot;/&quot;, str_replace( array( &#039;([^/]+)&#039;,&#039;([^/]*)&#039; ), &#039;&#039;, $regex ) ) ) ) - 
+		         ( substr_count( $regex, &#039;([^/]+)&#039; ) + substr_count( $regex,&#039;([^/]*)&#039; ) ) + 
+				 ( $static_sections * 11 ) + 
+				 ( substr( $regex, -3 ) == &#039;/?$&#039; ? 1 : 0 ); // High priority to &quot;^places/([^/]*)/([^/]*)/([^/]*)/([^/]*)/?$&quot; than &quot;^places/([^/]*)/([^/]*)/([^/]*)/([^/]*)/?&quot; to fix cpt + neighbourhood urls
+	
+		$this-&gt;rewrite_rules[$regex] = array(
+			&#039;regex&#039;     =&gt; $regex,
+			&#039;redirect&#039;  =&gt; $redirect,
+			&#039;after&#039;     =&gt; $after,
+			&#039;count&#039;     =&gt; $count
+			//&#039;count&#039;     =&gt; (10 * count( explode(&quot;/&quot;, str_replace(array(&#039;([^/]+)&#039;,&#039;([^/]*)&#039;),&#039;&#039;,$regex)) ) ) - (substr_count($regex,&#039;([^/]+)&#039;) + substr_count($regex,&#039;([^/]*)&#039;))//count( explode(&quot;/&quot;, str_replace(array(&#039;([^/]+)&#039;,&#039;([^/]*)&#039;),&#039;&#039;,$regex)) ),
+			//&#039;count&#039;     =&gt; count( explode(&quot;/&quot;, str_replace(array(&#039;([^/]+)&#039;,&#039;([^/]*)&#039;),&#039;&#039;,$regex)) ),
+			//&#039;countx&#039;     =&gt; explode(&quot;/&quot;, str_replace(array(&#039;([^/]+)&#039;,&#039;([^/]*)&#039;),&#039;&#039;,$regex))
+		);
+	}
+	
+
+	
+
+	/**
+	 * Add the locations page rewrite rules.
+	 */
+	public function location_rewrite_rules(){
+		// locations page
+		$this-&gt;add_rewrite_rule( &quot;^&quot;.$this-&gt;location_slug().&quot;/([^/]+)/([^/]+)/([^/]+)/?&quot;, &#039;index.php?pagename=&#039;.$this-&gt;location_slug().&#039;&amp;country=$matches[1]&amp;region=$matches[2]&amp;city=$matches[3]&#039;, &#039;top&#039; );
+		$this-&gt;add_rewrite_rule( &quot;^&quot;.$this-&gt;location_slug().&quot;/([^/]+)/([^/]+)/?&quot;, &#039;index.php?pagename=&#039;.$this-&gt;location_slug().&#039;&amp;country=$matches[1]&amp;region=$matches[2]&#039;, &#039;top&#039; );
+		$this-&gt;add_rewrite_rule( &quot;^&quot;.$this-&gt;location_slug().&quot;/([^/]+)/?&quot;, &#039;index.php?pagename=&#039;.$this-&gt;location_slug().&#039;&amp;country=$matches[1]&#039;, &#039;top&#039; );
+	}
+
+	/**
+	 * Add the search page rewrite rules.
+	 */
+	public function search_rewrite_rules(){
+		// add search paging rewrite
+		$this-&gt;add_rewrite_rule( &quot;^&quot;.$this-&gt;search_slug() . &#039;/page/([^/]+)/?&#039;, &#039;index.php?pagename=&#039;.$this-&gt;search_slug().&#039;&amp;paged=$matches[1]&#039;, &#039;top&#039; );
+	}
+
+	/**
+	 * Add author page pretty urls.
+     *
+     * @since 2.0.0
+	 *
+	 * @param array $rules Rules.
+	 *
+	 * @return array $rules.
+	 */
+	public function author_rewrite_rules( $rules ) {
+		global $wp_rewrite;
+
+		$post_types = geodir_get_posttypes( &#039;array&#039; );
+		$saves_slug_arr = array();
+
+		if ( ! empty( $post_types ) ) {
+			$author_rewrite_base = $wp_rewrite-&gt;author_base . &quot;/([^/]+)&quot;;
+
+			// The author permalink structure
+			$author_permastruct = $wp_rewrite-&gt;get_author_permastruct();
+			if ( ! empty( $author_permastruct ) ) {
+				$author_rewrite_base = trim( str_replace( &#039;%author%&#039;, &quot;([^/]+)&quot;, $author_permastruct ), &quot;/&quot; );
+			}
+
+			foreach ( $post_types as $post_type =&gt; $cpt ) {
+				$cpt_slug = isset( $cpt[&#039;rewrite&#039;][&#039;slug&#039;] ) ? $cpt[&#039;rewrite&#039;][&#039;slug&#039;] : &#039;&#039;;
+				$saves_slug = self::favs_slug( $cpt_slug );
+
+				// Add CPT author rewrite rules
+				$this-&gt;add_rewrite_rule(&quot;^&quot; . $author_rewrite_base . &quot;/$cpt_slug/?$&quot;,&#039;index.php?author_name=$matches[1]&amp;post_type=&#039;.$post_type,&#039;top&#039;);
+				$this-&gt;add_rewrite_rule(&quot;^&quot; . $author_rewrite_base . &quot;/$cpt_slug/page/?([0-9]{1,})/?$&quot;,&#039;index.php?author_name=$matches[1]&amp;post_type=&#039;.$post_type.&#039;&amp;paged=$matches[2]&#039;,&#039;top&#039;);
+
+				// favs
+				if(!isset($saves_slug_arr[$saves_slug])){ // only add this once unless the favs slug changes per CPT
+					$this-&gt;add_rewrite_rule(&quot;^&quot; . $author_rewrite_base . &quot;/$saves_slug/?$&quot;,&#039;index.php?author_name=$matches[1]&amp;gd_favs=1&#039;);
+					$this-&gt;add_rewrite_rule(&quot;^&quot; . $author_rewrite_base . &quot;/$saves_slug/page/?([0-9]{1,})/?$&quot;,&#039;index.php?author_name=$matches[1]&amp;gd_favs=1&amp;paged=$matches[2]&#039;,&#039;top&#039;);
+				}
+				$this-&gt;add_rewrite_rule(&quot;^&quot; . $author_rewrite_base . &quot;/$saves_slug/$cpt_slug/?$&quot;,&#039;index.php?author_name=$matches[1]&amp;gd_favs=1&amp;post_type=&#039;.$post_type,&#039;top&#039;);
+				$this-&gt;add_rewrite_rule(&quot;^&quot; . $author_rewrite_base . &quot;/$saves_slug/$cpt_slug/page/?([0-9]{1,})/?$&quot;,&#039;index.php?author_name=$matches[1]&amp;gd_favs=1&amp;post_type=&#039;.$post_type.&#039;&amp;paged=$matches[2]&#039;,&#039;top&#039;);
+
+				// Translate slug
+				do_action( &#039;geodir_permalinks_author_rewrite_rule&#039;, $post_type, $cpt, $this, $cpt_slug, $saves_slug, $saves_slug_arr );
+
+				$saves_slug_arr[$saves_slug] = $saves_slug;
+			}
+		}
+
+		return $rules;
+	}
+
+	/**
+	 * Returns permalink structure using post link.
+	 *
+	 * @since 1.0.0
+	 * @since 1.5.9 Fix the broken links when domain name contain CPT and home page
+	 *              is set to current location.
+	 * @since 1.6.18 Fix with WPML the location terms added twice when CPT slug is translated.
+	 *
+	 * @package GeoDirectory
+	 * @global object $wpdb WordPress Database object.
+	 * @global object $wp_query WordPress Query object.
+	 * @global object $post WordPress Post object.
+	 * @param string $post_link The post link.
+	 * @param object $post_obj The post object.
+	 * @param string $leavename Not yet implemented.
+	 * @param bool $sample Is this a sample post?.
+	 * @return string The post link.
+	 */
+	public function post_url( $post_link, $post_obj, $leavename, $sample ) {
+		global $wpdb, $wp_query, $post, $gd_post, $comment_post_cache, $gd_permalink_cache;
+
+		$correct_post = true;
+
+		if ( isset( $post_obj-&gt;post_status ) &amp;&amp; in_array( $post_obj-&gt;post_status, array( &#039;draft&#039;, &#039;pending&#039;, &#039;auto-draft&#039;, &#039;future&#039; ) ) ) {
+			return $post_link; // If draft or post name is empty then return default url.
+		} elseif ( isset( $post_obj-&gt;ID ) &amp;&amp; isset( $gd_post-&gt;ID ) &amp;&amp; $post_obj-&gt;ID == $gd_post-&gt;ID ) {
+			// Check its the correct post.
+			// Update $gd_post on post saved.
+			if ( isset( $post_obj-&gt;post_status ) &amp;&amp; isset( $gd_post-&gt;post_status ) &amp;&amp; $post_obj-&gt;post_status != $gd_post-&gt;post_status ) {
+				wp_cache_delete( &quot;gd_post_&quot; . $gd_post-&gt;ID, &#039;gd_post&#039; );
+
+				$gd_post = geodir_get_post_info( $gd_post-&gt;ID );
+			}
+		} else {
+			$correct_post = false;
+		}
+
+		// Only modify if its a GD post type.
+		if ( geodir_is_gd_post_type( $post_obj-&gt;post_type ) ) {
+			/*
+			 * Available permalink tags:
+			 * %country% , %region% , %city% , %category% , %postname% , %post_id%
+			 */
+
+			// Check if a pretty permalink is required
+			$permalink_structure = apply_filters( &#039;geodir_post_permalink_structure&#039;, geodir_get_permalink_structure(), $post_obj-&gt;post_type );
+			if ( strpos( $permalink_structure, &#039;%postname%&#039; ) === false || empty( $permalink_structure ) ) {
+				return $post_link;
+			}
+
+			// Backup the original post data first so we can restore it later
+			if ( ! $correct_post ) {
+				$orig_post = $gd_post;
+				$gd_post = geodir_get_post_info( $post_obj-&gt;ID );
+			}
+
+			if ( empty( $gd_post ) ) {
+				return $post_link;
+			}
+
+			// If we don&#039;t the GD post info then get it.
+			if ( ! isset( $gd_post-&gt;default_category ) ) {
+				$gd_post = geodir_get_post_info( $gd_post-&gt;ID );
+
+				if ( ! empty( $gd_post ) ) {
+					$gd_post = $gd_post;
+				}
+			}
+
+			if ( $gd_post-&gt;post_type == &#039;revision&#039; ) {
+				$gd_post-&gt;post_type = get_post_type( wp_get_post_parent_id( $gd_post-&gt;ID ) );
+			}
+
+			/*
+			 * Get the site url. ( without any location filters )
+			 */
+			if ( function_exists( &#039;geodir_location_geo_home_link&#039; ) ) {
+				remove_filter( &#039;home_url&#039;, &#039;geodir_location_geo_home_link&#039;, 100000 );
+			}
+
+			$permalink = trailingslashit( home_url() );
+
+			if ( function_exists( &#039;geodir_location_geo_home_link&#039; ) ) {
+				add_filter( &#039;home_url&#039;, &#039;geodir_location_geo_home_link&#039;, 100000, 2 );
+			}
+
+			/*
+			 * Add the CPT slug.
+			 */
+			$post_types = geodir_get_posttypes( &#039;array&#039; );
+			$cpt_slug = $post_types[ $gd_post-&gt;post_type ][&#039;rewrite&#039;][&#039;slug&#039;];
+
+			$cpt_slug = apply_filters( &#039;geodir_post_permalink_structure_cpt_slug&#039;, $cpt_slug, $gd_post, $post_link );
+
+			$permalink .= $cpt_slug . $permalink_structure;
+
+			/*
+			 * Add Country if needed. (%country%)
+			 */
+			if ( strpos( $permalink, &#039;%country%&#039; ) !== false ) {
+				$locations = $this-&gt;get_post_location_slugs( $gd_post );
+
+				if ( isset( $locations-&gt;country_slug ) &amp;&amp; $locations-&gt;country_slug ) {
+					$permalink = str_replace( &#039;%country%&#039;, $locations-&gt;country_slug, $permalink );
+				}
+			}
+
+			/*
+			 * Add Region if needed. (%region%)
+			 */
+			if ( strpos( $permalink, &#039;%region%&#039; ) !== false ) {
+				$locations = isset( $locations ) ? $locations : $this-&gt;get_post_location_slugs( $gd_post );
+
+				if ( isset( $locations-&gt;region_slug ) &amp;&amp; $locations-&gt;region_slug ) {
+					$permalink = str_replace( &#039;%region%&#039;, $locations-&gt;region_slug, $permalink );
+				}
+			}
+
+			/*
+			 * Add City if needed. (%city%)
+			 */
+			if ( strpos( $permalink, &#039;%city%&#039; ) !== false ) {
+				$locations = isset( $locations ) ? $locations : $this-&gt;get_post_location_slugs( $gd_post );
+
+				if ( isset( $locations-&gt;city_slug ) &amp;&amp; $locations-&gt;city_slug ) {
+					$permalink = str_replace( &#039;%city%&#039;, $locations-&gt;city_slug, $permalink );
+				}
+			}
+
+			/*
+			 * Add Category if needed. (%category%)
+			 */
+			if ( strpos( $permalink, &#039;%category%&#039; ) !== false ) {
+				if ( is_admin() &amp;&amp; isset( $_POST[&#039;default_category&#039;] ) &amp;&amp; $_POST[&#039;default_category&#039;] ) {
+					$term = get_term_by( &#039;id&#039;, absint( $_POST[&#039;default_category&#039;] ), $gd_post-&gt;post_type . &quot;category&quot; );
+				} elseif ( isset( $gd_post-&gt;default_category ) &amp;&amp; $gd_post-&gt;default_category ) {
+					$term = get_term_by( &#039;id&#039;, absint( $gd_post-&gt;default_category ), $gd_post-&gt;post_type . &quot;category&quot; );
+				} elseif ( isset( $gd_post-&gt;post_category ) &amp;&amp; $gd_post-&gt;post_category ) {
+					$cat_id = explode( &quot;,&quot;, trim( $gd_post-&gt;post_category, &quot;,&quot; ) );
+					$cat_id = ! empty( $cat_id ) ? absint( $cat_id[0] ) : 0;
+
+					if ( $cat_id ) {
+						$term = get_term_by( &#039;id&#039;, $cat_id, $gd_post-&gt;post_type . &quot;category&quot; );
+					}
+				}
+
+				if ( ! empty( $term ) &amp;&amp; $term-&gt;slug ) {
+					/**
+					 * @since 2.0.0.67
+					 */
+					$term = apply_filters( &#039;geodir_post_url_filter_term&#039;, $term, $gd_post );
+					$permalink = str_replace( &#039;%category%&#039;, $term-&gt;slug, $permalink );
+				}
+			}
+
+			/*
+			 * Add post name if needed. (%postname%)
+			 */
+			if ( ! $leavename &amp;&amp; strpos( $permalink, &#039;%postname%&#039; ) !== false ) {
+				$permalink = str_replace( &#039;%postname%&#039;, $gd_post-&gt;post_name, $permalink );
+			}
+
+			/*
+			 * Add post ID if needed. (%post_id%)
+			 */
+			if ( strpos( $permalink, &#039;%post_id%&#039; ) !== false ) {
+				$permalink = str_replace( &#039;%post_id%&#039;, $gd_post-&gt;ID, $permalink );
+			}
+
+			$post_link = $permalink;
+
+			// @todo we will com back to cache
+//			if (isset($comment_post_cache[$gd_post-&gt;ID])) {
+//				$gd_post = $comment_post_cache[$gd_post-&gt;ID];
+//			}
+//			if (isset($gd_permalink_cache[$gd_post-&gt;ID]) &amp;&amp; $gd_permalink_cache[$gd_post-&gt;ID] &amp;&amp; !$sample) {
+//				$post_id = $gd_post-&gt;ID;
+//				if (isset($orig_post)) {
+//					$gd_post = $orig_post;
+//				}
+//				return $gd_permalink_cache[$post_id];
+//			}
+
+			// Temp cache the permalink
+			if ( ! $sample &amp;&amp; ( ! isset( $_REQUEST[&#039;geodir_ajax&#039;] ) || ( isset( $_REQUEST[&#039;geodir_ajax&#039;] ) &amp;&amp; $_REQUEST[&#039;geodir_ajax&#039;] != &#039;add_listing&#039; ) ) ) {
+				$gd_permalink_cache[ $gd_post-&gt;ID ] = $post_link;
+			}
+		}
+		if ( isset( $orig_post ) ) {
+			$gd_post = $orig_post;
+		}
+
+		return $post_link;
+	}
+
+    /**
+     * Function get the post location slugs.
+     *
+     * @since 2.0.0
+     *
+     * @param object $post Post object.
+     * @return object Post location slugs.
+     */
+	private function get_post_location_slugs($gd_post){
+		//print_r($gd_post);echo &#039;###&#039;;
+		global $geodirectory;
+		//return apply_filters(&#039;geodir_post_permalinks&#039;,geodir_get_default_location(), $gd_post);
+		return apply_filters(&#039;geodir_post_permalinks&#039;,$geodirectory-&gt;location-&gt;get_post_location($gd_post), $gd_post);
+
+	}
+
+	/**
+	 * Register GD rewrite rules.
+	 *
+	 * @global WP_Rewrite $wp_rewrite WordPress rewrite component.
+	 */
+	public function post_rewrite_rules() {
+		global $wp_rewrite;
+
+		$gd_permalink_structure = geodir_get_permalink_structure();
+
+		$post_types = geodir_get_posttypes( &#039;array&#039; );
+
+		if ( ! empty( $post_types ) ) {
+			if ( empty( $gd_permalink_structure ) ) {
+				$gd_permalink_structure = &#039;/%postname%/&#039;;
+			}
+			$permalink_arr = explode( &quot;/&quot;, trim( $gd_permalink_structure, &quot;/&quot; ) );
+
+			foreach ( $post_types as $cpt =&gt; $post_type ) {
+
+				$cpt_permalink_arr = $permalink_arr;
+				foreach ( $cpt_permalink_arr as $key =&gt; $val ) {
+					if ( $val == &#039;%category%&#039; ) {
+						$cpt_permalink_arr[ $key ] = &quot;%&quot; . $cpt . &quot;category%&quot;;
+					}
+				}
+
+				$cpt_permalink_arr = apply_filters( &#039;geodir_post_permalink_structure_params&#039;, $cpt_permalink_arr, $cpt, $post_type );
+
+				// add the post single permalinks
+				$regex_part = &#039;/&#039;;
+				foreach ( $cpt_permalink_arr as $rkey =&gt; $rvalue ) {
+					if ( $rvalue == &quot;%post_id%&quot; ) {
+						$regex_part .= &#039;([0-9]+)/&#039;;
+					} else {
+						$regex_part .= &#039;([^/]*)/&#039;;
+					}
+				}
+				$regex_part .= &#039;?&#039;;
+				$regex      = &#039;^&#039; . $post_type[&#039;rewrite&#039;][&#039;slug&#039;] . $regex_part;
+				$redirect   = &#039;index.php?&#039;;
+				$match      = 1;
+				$query_vars = array();
+
+				foreach ( $cpt_permalink_arr as $tag ) {
+					$tag = trim( $tag, &quot;%&quot; );
+					if ( $tag == &quot;postname&quot; ) {
+						$query_vars[] = &quot;$cpt=&quot; . &#039;$matches[&#039; . $match . &#039;]&#039;;
+					} else {
+						$query_vars[] = trim( $tag, &quot;%&quot; ) . &#039;=$matches[&#039; . $match . &#039;]&#039;;
+					}
+					$match ++;
+				}
+				if ( ! empty( $query_vars ) ) {
+					$redirect .= implode( &#039;&amp;&#039;, $query_vars );
+				}
+
+				$after = $gd_permalink_structure == &quot;/%postname%/&quot; ? &#039;bottom&#039; : &#039;top&#039;;
+
+				// Add rewrite rule for /attachment/.
+				$this-&gt;add_rewrite_rule( trim( $regex, &#039;?^&#039; ) . &#039;attachment/([^/]+)/?$&#039;, $redirect . &#039;&amp;attachment=$matches[&#039; . $match . &#039;]&#039;, &#039;top&#039; );
+
+				// Create query for /comment-page-xx.
+				$comment_regex = trim( $regex, &#039;?^&#039; );
+				$comment_regex .= $wp_rewrite-&gt;comments_pagination_base . &#039;-([0-9]{1,})/?$&#039;;
+				$comment_redirect = $redirect . &#039;&amp;cpage=$matches[&#039; . $match . &#039;]&#039;;
+				$this-&gt;add_rewrite_rule( $comment_regex, $comment_redirect, &#039;top&#039; );
+
+				$this-&gt;add_rewrite_rule( $regex, $redirect, $after );
+
+				// Translate slug
+				do_action( &#039;geodir_permalinks_post_rewrite_rule&#039;, $cpt, $post_type, $this, $regex_part, $redirect, $after );
+			}
+		}
+	}
+
+	/**
+	 * Add GD rewrite tags.
+     *
+     * @since 2.0.0
+	 */
+	public function rewrite_tags(){
+		add_rewrite_tag(&#039;%country%&#039;, &#039;([^&amp;]+)&#039;);
+		add_rewrite_tag(&#039;%region%&#039;, &#039;([^&amp;]+)&#039;);
+		add_rewrite_tag(&#039;%city%&#039;, &#039;([^&amp;]+)&#039;);
+		add_rewrite_tag(&#039;%gd_favs%&#039;, &#039;([^&amp;]+)&#039;);
+		add_rewrite_tag(&#039;%sort_by%&#039;, &#039;([^&amp;]+)&#039;);
+		add_rewrite_tag(&#039;%latlon%&#039;, &#039;((\-?\d+(\.\d+)?),\s*(\-?\d+(\.\d+)?))&#039;);
+		add_rewrite_tag(&#039;%dist%&#039;, &#039;((?=.+)(?:[1-9]\d*|0)?(?:\.\d+))&#039;);
+	}
+
+	/**
+	 * Get the slug for user favs.
+     *
+     * @since 2.0.0
+	 *
+	 * @param string $cpt_slug Optional. Custom Posttype slug. Default null.
+	 *
+	 * @return mixed|void
+	 */
+	public static function favs_slug($cpt_slug = &#039;&#039; ){
+		return apply_filters(&#039;geodir_rewrite_favs_slug&#039;,&#039;favs&#039;,$cpt_slug);
+	}
+
+	/**
+	 * Get the slug for the search page.
+     *
+     * @since 2.0.0
+	 *
+	 * @param string $search_slug Optional. Search slug. Default search.
+	 *
+	 * @return string
+	 */
+	public function search_slug($search_slug = &#039;search&#039; ){
+
+		if($page_id = geodir_search_page_id()){
+			if($slug = get_post_field( &#039;post_name&#039;, $page_id )){
+				$search_slug = $slug;
+			}
+		}
+
+		return apply_filters(&#039;geodir_rewrite_search_slug&#039;,$search_slug);
+	}
+
+	/**
+	 * Get the slug for the locations page.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param string $location_slug Optional. Search slug. Default search.
+	 *
+	 * @return string
+	 */
+	public function location_slug($location_slug = &#039;location&#039; ){
+
+		if($page_id = geodir_location_page_id()){
+			if($slug = get_post_field( &#039;post_name&#039;, $page_id )){
+				$location_slug = $slug;
+			}
+		}
+
+		return apply_filters(&#039;geodir_rewrite_location_slug&#039;,$location_slug);
+	}
+
+
+	/**
+	 * Tell if the current core permalink structure ends with a slash or not.
+	 *
+	 * @return bool
+	 */
+	public function is_slash(){
+		global $wp_rewrite;
+		$permalink_structure = isset($wp_rewrite-&gt;permalink_structure) ? $wp_rewrite-&gt;permalink_structure : &#039;&#039;;
+		if($permalink_structure){
+			if(substr($permalink_structure, -1)==&#039;/&#039;){
+				return true;
+			}
+		}
+
+		return false;
+
+	}
+
+	/**
+	 * Arrange rewrite rules to work feed on categories pages.
+	 *
+	 * @since 2.0.0.75
+	 *
+	 * @global WP_Rewrite $wp_rewrite
+	 *
+	 * @param array $rules Array of rewrite rules.
+	 * @return array Rewrite rules array.
+	 */
+	public static function arrange_rewrite_rules( $rules ) {
+		global $wp_rewrite;
+
+		$post_types = geodir_get_posttypes( &#039;names&#039; );
+
+		$post_type_slugs = array();
+
+		// Get post type slugs
+		foreach ( $rules as $regex =&gt; $query ) {
+			if ( strpos( $query, &#039;index.php?post_type=&#039; ) !== 0 ) {
+				continue;
+			}
+
+			foreach ( $post_types as $post_type ) {
+				if ( strpos( $query, &#039;index.php?post_type=&#039; . $post_type . &#039;&amp;&#039; ) === 0 ) {
+					$_regex = explode( &#039;/&#039;, $regex );
+					$slug = ! empty( $_regex[0] ) ? str_replace( &#039;^&#039;, &#039;&#039;, $_regex[0] ) : &#039;&#039;;
+
+					if ( ! empty( $slug ) &amp;&amp; ! in_array( $slug, $post_type_slugs ) ) {
+						$post_type_slugs[ $post_type ] = $_regex[0];
+					}
+				}
+			}
+		}
+
+		if ( empty( $post_type_slugs ) ) {
+			return $rules;
+		}
+
+		$_post_type_slugs = array_flip( $post_type_slugs );
+		$post_type_slugs = array_unique( array_values( $post_type_slugs ) );
+
+		$_rules = $rules;
+		foreach ( $rules as $regex =&gt; $query ) {
+			if ( isset( $_rules[ $regex ] ) &amp;&amp; strpos( $query, &#039;&amp;geodir-api=&#039; ) !== false ) {
+				unset( $_rules[ $regex ] );
+				continue;
+			}
+
+			foreach ( $post_type_slugs as $key =&gt; $slug ) {
+				if ( isset( $_rules[ $regex ] ) &amp;&amp; ( strpos( $regex, &#039;^&#039; . $slug . &#039;/&#039; ) === 0 || strpos( $regex, $slug . &#039;/&#039; ) === 0 ) &amp;&amp; ( strpos( $query, &#039;?attachment=&#039; ) !== false || strpos( $query, &#039;&amp;attachment=&#039; ) !== false || strpos( $query, &#039;&amp;tb=1&#039; ) !== false || strpos( $query, &#039;&amp;embed=true&#039; ) !== false ) ) {
+					if ( strpos( $query, &#039;&amp;&#039; . $_post_type_slugs[ $slug ] . &#039;=&#039; ) === false &amp;&amp; strpos( $query, &#039;?&#039; . $_post_type_slugs[ $slug ] . &#039;=&#039; ) === false ) {
+						unset( $_rules[ $regex ] );
+					}
+				}
+			}
+		}
+
+		$rules = $_rules;
+
+		return $rules;
+	}
+
+	/**
+	 * Check &amp; flush rewrite rules.
+	 *
+	 * @since 2.0.0.92
+	 *
+	 * @return void
+	 */
+	public static function flush_rewrite_rules() {
+		// Rank Math flush rewrite rules to generate sitemaps.
+		if ( class_exists( &#039;RankMath\\Helper&#039; ) ) {
+			if ( ! wp_doing_ajax() &amp;&amp; ! wp_doing_cron() &amp;&amp; get_option( &#039;geodir_rank_math_flush_rewrite&#039; ) ) {
+				flush_rewrite_rules();
+				delete_option( &#039;geodir_rank_math_flush_rewrite&#039; );
+			}
+		}
+	}
+}
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

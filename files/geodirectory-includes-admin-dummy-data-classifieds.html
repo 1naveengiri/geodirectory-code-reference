@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">classifieds.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_extra_custom_fields_classifieds">
+        geodir_extra_custom_fields_classifieds()
+        <a href="#function_geodir_extra_custom_fields_classifieds" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dummy-data/classifieds.php"><a href="../files/geodirectory-includes-admin-dummy-data-classifieds.html#source-view.639">geodirectory/includes/admin/dummy-data/classifieds.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">639</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_extra_custom_fields_classifieds</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fields</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_type</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$package_id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$fields</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$package_id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GD Classifieds dummy data.
+ *
+ * @since 2.0.0.59
+ * @package GeoDirectory
+ */
+
+// Set the dummy image url
+$dummy_image_url = &#039;https://wpgd-jzgngzymm1v50s3e3fqotwtenpjxuqsmvkua.netdna-ssl.com/dummy/classifieds/&#039;; // CDN URL will be faster
+
+
+// Set the dummy categories
+$dummy_categories = array();
+
+
+$dummy_categories[&#039;electronics&#039;] = array(
+	&#039;name&#039;      =&gt; __( &#039;Electronics&#039;, &#039;geodirectory&#039; ),
+	&#039;icon&#039;      =&gt; $dummy_image_url . &#039;icons/electronics.png&#039;,
+	&#039;font_icon&#039; =&gt; &#039;fas fa-bolt&#039;,
+	&#039;color&#039;     =&gt; &#039;#fcdc1f&#039;,
+);
+$dummy_categories[&#039;phones&#039;]      = array(
+	&#039;name&#039;        =&gt; __( &#039;Mobile Phones&#039;, &#039;geodirectory&#039; ),
+	&#039;icon&#039;        =&gt; $dummy_image_url . &#039;icons/phones.png&#039;,
+	&#039;font_icon&#039;   =&gt; &#039;fas fa-mobile&#039;,
+	&#039;color&#039;       =&gt; &#039;#fb9e05&#039;,
+	&#039;parent-name&#039; =&gt; __( &#039;Electronics&#039;, &#039;geodirectory&#039; )
+);
+$dummy_categories[&#039;tvs&#039;]         = array(
+	&#039;name&#039;        =&gt; __( &#039;Televisions&#039;, &#039;geodirectory&#039; ),
+	&#039;icon&#039;        =&gt; $dummy_image_url . &#039;icons/tvs.png&#039;,
+	&#039;font_icon&#039;   =&gt; &#039;fas fa-tv&#039;,
+	&#039;color&#039;       =&gt; &#039;#f44e3b&#039;,
+	&#039;parent-name&#039; =&gt; __( &#039;Electronics&#039;, &#039;geodirectory&#039; )
+);
+
+$dummy_categories[&#039;instruments&#039;] = array(
+	&#039;name&#039;      =&gt; __( &#039;Instruments&#039;, &#039;geodirectory&#039; ),
+	&#039;icon&#039;      =&gt; $dummy_image_url . &#039;icons/instruments.png&#039;,
+	&#039;font_icon&#039; =&gt; &#039;fas fa-music&#039;,
+	&#039;color&#039;     =&gt; &#039;#009ce0&#039;,
+);
+$dummy_categories[&#039;guitars&#039;]     = array(
+	&#039;name&#039;      =&gt; __( &#039;Guitars&#039;, &#039;geodirectory&#039; ),
+	&#039;icon&#039;      =&gt; $dummy_image_url . &#039;icons/guitars.png&#039;,
+	&#039;font_icon&#039; =&gt; &#039;fas fa-music&#039;,
+	&#039;color&#039;     =&gt; &#039;#15a5a5&#039;,
+);
+
+$dummy_categories[&#039;furniture&#039;] = array(
+	&#039;name&#039;      =&gt; __( &#039;Furniture&#039;, &#039;geodirectory&#039; ),
+	&#039;icon&#039;      =&gt; $dummy_image_url . &#039;icons/furniture.png&#039;,
+	&#039;font_icon&#039; =&gt; &#039;fas fa-bed&#039;,
+	&#039;color&#039;     =&gt; &#039;#6abd21&#039;,
+);
+$dummy_categories[&#039;beds&#039;]      = array(
+	&#039;name&#039;      =&gt; __( &#039;Beds&#039;, &#039;geodirectory&#039; ),
+	&#039;icon&#039;      =&gt; $dummy_image_url . &#039;icons/beds.png&#039;,
+	&#039;font_icon&#039; =&gt; &#039;fas fa-bed&#039;,
+	&#039;color&#039;     =&gt; &#039;#ab3b9e&#039;,
+);
+
+
+// Set any custom fields
+$dummy_custom_fields = GeoDir_Admin_Dummy_Data::extra_custom_fields( $post_type ); // set extra default fields
+
+// Set any sort fields
+$dummy_sort_fields = array();
+
+// date added
+$dummy_sort_fields[] = array(
+	&#039;post_type&#039;      =&gt; $post_type,
+	&#039;data_type&#039;      =&gt; &#039;&#039;,
+	&#039;field_type&#039;     =&gt; &#039;datetime&#039;,
+	&#039;frontend_title&#039; =&gt; __( &#039;Newest&#039;, &#039;geodirectory&#039; ),
+	&#039;htmlvar_name&#039;   =&gt; &#039;post_date&#039;,
+	&#039;sort&#039;           =&gt; &#039;desc&#039;,
+	&#039;is_active&#039;      =&gt; &#039;1&#039;,
+	&#039;is_default&#039;     =&gt; &#039;1&#039;,
+);
+
+// title
+$dummy_sort_fields[] = array(
+	&#039;post_type&#039;      =&gt; $post_type,
+	&#039;data_type&#039;      =&gt; &#039;VARCHAR&#039;,
+	&#039;field_type&#039;     =&gt; &#039;text&#039;,
+	&#039;frontend_title&#039; =&gt; __( &#039;Title&#039;, &#039;geodirectory&#039; ),
+	&#039;htmlvar_name&#039;   =&gt; &#039;post_title&#039;,
+	&#039;sort&#039;           =&gt; &#039;asc&#039;,
+	&#039;is_active&#039;      =&gt; &#039;1&#039;,
+	&#039;is_default&#039;     =&gt; &#039;0&#039;,
+);
+
+// price
+$dummy_sort_fields[] = array(
+	&#039;post_type&#039;      =&gt; $post_type,
+	&#039;data_type&#039;      =&gt; &#039;FLOAT&#039;,
+	&#039;field_type&#039;     =&gt; &#039;text&#039;,
+	&#039;frontend_title&#039; =&gt; __( &#039;Price&#039;, &#039;geodirectory&#039; ),
+	&#039;htmlvar_name&#039;   =&gt; &#039;price&#039;,
+	&#039;sort&#039;           =&gt; &#039;asc&#039;,
+	&#039;is_active&#039;      =&gt; &#039;1&#039;,
+	&#039;is_default&#039;     =&gt; &#039;0&#039;,
+);
+
+// rating
+$dummy_sort_fields[] = array(
+	&#039;post_type&#039;      =&gt; $post_type,
+	&#039;data_type&#039;      =&gt; &#039;VARCHAR&#039;,
+	&#039;field_type&#039;     =&gt; &#039;float&#039;,
+	&#039;frontend_title&#039; =&gt; __( &#039;Rating&#039;, &#039;geodirectory&#039; ),
+	&#039;htmlvar_name&#039;   =&gt; &#039;overall_rating&#039;,
+	&#039;sort&#039;           =&gt; &#039;desc&#039;,
+	&#039;is_active&#039;      =&gt; &#039;1&#039;,
+	&#039;is_default&#039;     =&gt; &#039;0&#039;,
+);
+
+// Set dummy posts
+$dummy_posts = array();
+
+//phones
+$dummy_posts[] = array(
+	&quot;post_type&quot;     =&gt; $post_type,
+	&quot;post_title&quot;    =&gt; __( &#039;Samsung S10+&#039;, &#039;geodirectory&#039; ),
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/images/phone1.jpg&quot;,
+		&quot;$dummy_image_url/images/phone2.jpg&quot;,
+		&quot;$dummy_image_url/images/phone3.jpg&quot;,
+		&quot;$dummy_image_url/images/phone4.jpg&quot;,
+		&quot;$dummy_image_url/images/phone5.jpg&quot;
+	),
+	&quot;post_category&quot; =&gt; array( __( &#039;Electronics&#039;, &#039;geodirectory&#039; ), __( &#039;Mobile Phones&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;     =&gt; array( &#039;samsung&#039;, &#039;smart phone&#039; ),
+	&quot;video&quot;         =&gt; &#039;&#039;,
+	&quot;phone&quot;         =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;         =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;         =&gt; &#039;450&#039;,
+	&#039;condition&#039;     =&gt; &#039;New&#039;,
+	&#039;brand&#039;         =&gt; &#039;Samsung&#039;,
+	&#039;model&#039;         =&gt; &#039;S10+&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;PayPal,Cash&#039;,
+	&quot;post_dummy&quot;    =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;     =&gt; $post_type,
+	&quot;post_title&quot;    =&gt; &quot;Samsung Note&quot;,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/images/phone2.jpg&quot;,
+		&quot;$dummy_image_url/images/phone1.jpg&quot;,
+		&quot;$dummy_image_url/images/phone3.jpg&quot;,
+		&quot;$dummy_image_url/images/phone4.jpg&quot;,
+		&quot;$dummy_image_url/images/phone5.jpg&quot;
+	),
+	&quot;post_category&quot; =&gt; array( __( &#039;Electronics&#039;, &#039;geodirectory&#039; ), __( &#039;Mobile Phones&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;     =&gt; array( &#039;samsung&#039;, &#039;smart phone&#039; ),
+	&quot;video&quot;         =&gt; &#039;&#039;,
+	&quot;phone&quot;         =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;         =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;         =&gt; &#039;450&#039;,
+	&#039;condition&#039;     =&gt; &#039;Good&#039;,
+	&#039;brand&#039;         =&gt; &#039;Samsung&#039;,
+	&#039;model&#039;         =&gt; &#039;Note&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;PayPal,Cash&#039;,
+	&quot;post_dummy&quot;    =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;     =&gt; $post_type,
+	&quot;post_title&quot;    =&gt; &quot;Huawei P10&quot;,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/images/phone3.jpg&quot;,
+		&quot;$dummy_image_url/images/phone2.jpg&quot;,
+		&quot;$dummy_image_url/images/phone1.jpg&quot;,
+		&quot;$dummy_image_url/images/phone4.jpg&quot;,
+		&quot;$dummy_image_url/images/phone5.jpg&quot;
+	),
+	&quot;post_category&quot; =&gt; array( __( &#039;Electronics&#039;, &#039;geodirectory&#039; ), __( &#039;Mobile Phones&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;     =&gt; array( &#039;huawei&#039;, &#039;smart phone&#039; ),
+	&quot;video&quot;         =&gt; &#039;&#039;,
+	&quot;phone&quot;         =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;         =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;         =&gt; &#039;650&#039;,
+	&#039;condition&#039;     =&gt; &#039;New&#039;,
+	&#039;brand&#039;         =&gt; &#039;Huawei&#039;,
+	&#039;model&#039;         =&gt; &#039;P10&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Trade&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash,Cheque,PayPal,Credit Card,Debit Card&#039;,
+	&quot;post_dummy&quot;    =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;     =&gt; $post_type,
+	&quot;post_title&quot;    =&gt; &quot;iPhone X&quot;,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/images/phone4.jpg&quot;,
+		&quot;$dummy_image_url/images/phone2.jpg&quot;,
+		&quot;$dummy_image_url/images/phone3.jpg&quot;,
+		&quot;$dummy_image_url/images/phone1.jpg&quot;,
+		&quot;$dummy_image_url/images/phone5.jpg&quot;
+	),
+	&quot;post_category&quot; =&gt; array( __( &#039;Electronics&#039;, &#039;geodirectory&#039; ), __( &#039;Mobile Phones&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;     =&gt; array( &#039;iphones&#039;, &#039;smart phone&#039; ),
+	&quot;video&quot;         =&gt; &#039;&#039;,
+	&quot;phone&quot;         =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;         =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;         =&gt; &#039;850&#039;,
+	&#039;condition&#039;     =&gt; &#039;Fair&#039;,
+	&#039;brand&#039;         =&gt; &#039;Apple&#039;,
+	&#039;model&#039;         =&gt; &#039;X&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;PayPal&#039;,
+	&quot;post_dummy&quot;    =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;     =&gt; $post_type,
+	&quot;post_title&quot;    =&gt; &quot;Huawei P10 Lite&quot;,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/images/phone5.jpg&quot;,
+		&quot;$dummy_image_url/images/phone2.jpg&quot;,
+		&quot;$dummy_image_url/images/phone3.jpg&quot;,
+		&quot;$dummy_image_url/images/phone4.jpg&quot;,
+		&quot;$dummy_image_url/images/phone1.jpg&quot;
+	),
+	&quot;post_category&quot; =&gt; array( __( &#039;Electronics&#039;, &#039;geodirectory&#039; ), __( &#039;Mobile Phones&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;     =&gt; array( &#039;huawei&#039;, &#039;smart phone&#039; ),
+	&quot;video&quot;         =&gt; &#039;&#039;,
+	&quot;phone&quot;         =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;         =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;         =&gt; &#039;250&#039;,
+	&#039;condition&#039;     =&gt; &#039;Poor&#039;,
+	&#039;brand&#039;         =&gt; &#039;Huawei&#039;,
+	&#039;model&#039;         =&gt; &#039;P10 Lite&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash&#039;,
+	&quot;post_dummy&quot;    =&gt; &#039;1&#039;
+);
+
+//furniture
+$dummy_posts[] = array(
+	&quot;post_type&quot;     =&gt; $post_type,
+	&quot;post_title&quot;    =&gt; __( &#039;King Sized bed&#039;, &#039;geodirectory&#039; ),
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/images/bed1.jpg&quot;,
+		&quot;$dummy_image_url/images/bed2.jpg&quot;,
+		&quot;$dummy_image_url/images/bed3.jpg&quot;,
+		&quot;$dummy_image_url/images/bed4.jpg&quot;,
+		&quot;$dummy_image_url/images/bed5.jpg&quot;,
+		&quot;$dummy_image_url/images/bed6.jpg&quot;,
+	),
+	&quot;post_category&quot; =&gt; array( __( &#039;Furniture&#039;, &#039;geodirectory&#039; ), __( &#039;Beds&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;     =&gt; array( &#039;king size&#039;, &#039;bed&#039; ),
+	&quot;video&quot;         =&gt; &#039;&#039;,
+	&quot;phone&quot;         =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;         =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;         =&gt; &#039;900&#039;,
+	&#039;condition&#039;     =&gt; &#039;New&#039;,
+	&#039;brand&#039;         =&gt; &#039;Silentnight&#039;,
+	&#039;model&#039;         =&gt; &#039;Geltex 3000&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Trade&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash,Credit Card,Debit Card&#039;,
+	&quot;post_dummy&quot;    =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;     =&gt; $post_type,
+	&quot;post_title&quot;    =&gt; __( &#039;Sleepeezee double bed&#039;, &#039;geodirectory&#039; ),
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/images/bed2.jpg&quot;,
+		&quot;$dummy_image_url/images/bed3.jpg&quot;,
+		&quot;$dummy_image_url/images/bed4.jpg&quot;,
+		&quot;$dummy_image_url/images/bed5.jpg&quot;,
+		&quot;$dummy_image_url/images/bed6.jpg&quot;,
+		&quot;$dummy_image_url/images/bed1.jpg&quot;,
+	),
+	&quot;post_category&quot; =&gt; array( __( &#039;Furniture&#039;, &#039;geodirectory&#039; ), __( &#039;Beds&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;     =&gt; array( &#039;Drawers&#039; ),
+	&quot;video&quot;         =&gt; &#039;&#039;,
+	&quot;phone&quot;         =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;         =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;         =&gt; &#039;360&#039;,
+	&#039;condition&#039;     =&gt; &#039;New&#039;,
+	&#039;brand&#039;         =&gt; &#039;Sleepeezee&#039;,
+	&#039;model&#039;         =&gt; &#039;Easy sleep 2000&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Trade&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Credit Card,Debit Card&#039;,
+	&quot;post_dummy&quot;    =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;     =&gt; $post_type,
+	&quot;post_title&quot;    =&gt; __( &#039;Slumber 1000&#039;, &#039;geodirectory&#039; ),
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/images/bed3.jpg&quot;,
+		&quot;$dummy_image_url/images/bed4.jpg&quot;,
+		&quot;$dummy_image_url/images/bed5.jpg&quot;,
+		&quot;$dummy_image_url/images/bed6.jpg&quot;,
+		&quot;$dummy_image_url/images/bed1.jpg&quot;,
+		&quot;$dummy_image_url/images/bed2.jpg&quot;,
+	),
+	&quot;post_category&quot; =&gt; array( __( &#039;Furniture&#039;, &#039;geodirectory&#039; ), __( &#039;Beds&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;     =&gt; array(),
+	&quot;video&quot;         =&gt; &#039;&#039;,
+	&quot;phone&quot;         =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;         =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;         =&gt; &#039;750&#039;,
+	&#039;condition&#039;     =&gt; &#039;New&#039;,
+	&#039;brand&#039;         =&gt; &#039;Slumberland&#039;,
+	&#039;model&#039;         =&gt; &#039;Slumber 1000&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Trade&#039;,
+	&#039;payment_types&#039; =&gt; &#039;PayPal,Cash,Credit Card,Debit Card&#039;,
+	&quot;post_dummy&quot;    =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;     =&gt; $post_type,
+	&quot;post_title&quot;    =&gt; __( &#039;Slumber 5000&#039;, &#039;geodirectory&#039; ),
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/images/bed2.jpg&quot;,
+		&quot;$dummy_image_url/images/bed3.jpg&quot;,
+		&quot;$dummy_image_url/images/bed4.jpg&quot;,
+		&quot;$dummy_image_url/images/bed5.jpg&quot;,
+		&quot;$dummy_image_url/images/bed6.jpg&quot;,
+		&quot;$dummy_image_url/images/bed1.jpg&quot;,
+	),
+	&quot;post_category&quot; =&gt; array( __( &#039;Furniture&#039;, &#039;geodirectory&#039; ), __( &#039;Beds&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;     =&gt; array( &#039;bed&#039; ),
+	&quot;video&quot;         =&gt; &#039;&#039;,
+	&quot;phone&quot;         =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;         =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;         =&gt; &#039;5000&#039;,
+	&#039;condition&#039;     =&gt; &#039;New&#039;,
+	&#039;brand&#039;         =&gt; &#039;Slumberland&#039;,
+	&#039;model&#039;         =&gt; &#039;Slumber 5000&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Trade&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Credit Card,Debit Card&#039;,
+	&quot;post_dummy&quot;    =&gt; &#039;1&#039;
+);
+
+// instruments
+$dummy_posts[] = array(
+	&quot;post_type&quot;         =&gt; $post_type,
+	&quot;post_title&quot;        =&gt; __( &#039;Gibson Worn Bourbon&#039;, &#039;geodirectory&#039; ),
+	&quot;post_images&quot;       =&gt; array(
+		&quot;$dummy_image_url/images/guitar1.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar2.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar3.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar4.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar5.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar6.jpg&quot;,
+	),
+	&quot;post_category&quot;     =&gt; array( __( &#039;Instruments&#039;, &#039;geodirectory&#039; ),__( &#039;Guitars&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;         =&gt; array( &#039;Gibson&#039;, &#039;Les Paul&#039; ),
+	&quot;video&quot;             =&gt; &#039;https://www.youtube.com/watch?v=pEOnUxj9Esg&#039;,
+	&quot;phone&quot;             =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;             =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;             =&gt; &#039;599&#039;,
+	&#039;condition&#039;     =&gt; &#039;Fair&#039;,
+	&#039;brand&#039;         =&gt; &#039;Gibson&#039;,
+	&#039;model&#039;         =&gt; &#039;Les Paul Faded 2018 Worn Bourbon&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash,PayPal&#039;,
+	&quot;post_dummy&quot;        =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;         =&gt; $post_type,
+	&quot;post_title&quot;        =&gt; __( &#039;Gibson 2018 Mojave Burst&#039;, &#039;geodirectory&#039; ),
+	&quot;post_images&quot;       =&gt; array(
+		&quot;$dummy_image_url/images/guitar6.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar1.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar2.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar3.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar4.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar5.jpg&quot;,
+	),
+	&quot;post_category&quot;     =&gt; array( __( &#039;Instruments&#039;, &#039;geodirectory&#039; ),__( &#039;Guitars&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;         =&gt; array( &#039;SUZUKI&#039;, &#039;car&#039; ),
+	&quot;video&quot;             =&gt; &#039;https://www.youtube.com/watch?v=pEOnUxj9Esg&#039;,
+	&quot;phone&quot;             =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;             =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;             =&gt; &#039;1799&#039;,
+	&#039;condition&#039;     =&gt; &#039;New&#039;,
+	&#039;brand&#039;         =&gt; &#039;Gibson&#039;,
+	&#039;model&#039;         =&gt; &#039;Les Paul 2018 Mojave Burst&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Trade&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash,Cheque,PayPal,Credit Card,Debit Card&#039;,
+	&quot;post_dummy&quot;        =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;         =&gt; $post_type,
+	&quot;post_title&quot;        =&gt; __( &#039;Fender Jazzmaster&#039;, &#039;geodirectory&#039; ),
+	&quot;post_images&quot;       =&gt; array(
+		&quot;$dummy_image_url/images/guitar5.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar6.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar1.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar2.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar3.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar4.jpg&quot;,
+	),
+	&quot;post_category&quot;     =&gt; array( __( &#039;Instruments&#039;, &#039;geodirectory&#039; ),__( &#039;Guitars&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;         =&gt; array( &#039;Fender&#039; ),
+	&quot;video&quot;             =&gt; &#039;https://www.youtube.com/watch?v=p8WA0pPzBjE&#039;,
+	&quot;phone&quot;             =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;             =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;             =&gt; &#039;2400&#039;,
+	&#039;condition&#039;     =&gt; &#039;New&#039;,
+	&#039;brand&#039;         =&gt; &#039;Fender&#039;,
+	&#039;model&#039;         =&gt; &#039;Jazzmaster&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Trade&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash,Credit Card,Debit Card&#039;,
+	&quot;post_dummy&quot;        =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;         =&gt; $post_type,
+	&quot;post_title&quot;        =&gt; __( &#039;Fender Stratocaster&#039;, &#039;geodirectory&#039; ),
+	&quot;post_images&quot;       =&gt; array(
+		&quot;$dummy_image_url/images/guitar4.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar5.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar6.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar1.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar2.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar3.jpg&quot;,
+	),
+	&quot;post_category&quot;     =&gt; array( __( &#039;Instruments&#039;, &#039;geodirectory&#039; ),__( &#039;Guitars&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;         =&gt; array( &#039;Fender&#039;, &#039;Stratocaster&#039;, &#039;Used&#039; ),
+	&quot;video&quot;             =&gt; &#039;https://www.youtube.com/watch?v=p8WA0pPzBjE&#039;,
+	&quot;phone&quot;             =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;             =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;             =&gt; &#039;250&#039;,
+	&#039;condition&#039;     =&gt; &#039;Poor&#039;,
+	&#039;brand&#039;         =&gt; &#039;Fender&#039;,
+	&#039;model&#039;         =&gt; &#039;Stratocaster&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash&#039;,
+	&quot;post_dummy&quot;        =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;         =&gt; $post_type,
+	&quot;post_title&quot;        =&gt; __( &#039;Yamaha Pacifica 612V&#039;, &#039;geodirectory&#039; ),
+	&quot;post_images&quot;       =&gt; array(
+		&quot;$dummy_image_url/images/guitar3.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar4.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar5.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar6.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar1.jpg&quot;,
+		&quot;$dummy_image_url/images/guitar2.jpg&quot;,
+	),
+	&quot;post_category&quot;     =&gt; array( __( &#039;Instruments&#039;, &#039;geodirectory&#039; ),__( &#039;Guitars&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;         =&gt; array( &#039;Yamaha&#039;, &#039;Used&#039;, ),
+	&quot;video&quot;             =&gt; &#039;https://www.youtube.com/watch?v=sQ0oRotYW58&#039;,
+	&quot;phone&quot;             =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;             =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;             =&gt; &#039;500&#039;,
+	&#039;condition&#039;     =&gt; &#039;Good&#039;,
+	&#039;brand&#039;         =&gt; &#039;Yamaha&#039;,
+	&#039;model&#039;         =&gt; &#039;Pacifica 612V&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash,PayPal&#039;,
+	&quot;post_dummy&quot;        =&gt; &#039;1&#039;
+);
+
+
+//electronics
+$dummy_posts[] = array(
+	&quot;post_type&quot;         =&gt; $post_type,
+	&quot;post_title&quot;        =&gt; &quot;Samsung 55 inch tv&quot;,
+	&quot;post_images&quot;       =&gt; array(
+		&quot;$dummy_image_url/images/tv1.jpg&quot;,
+		&quot;$dummy_image_url/images/tv2.jpg&quot;,
+		&quot;$dummy_image_url/images/tv3.jpg&quot;,
+		&quot;$dummy_image_url/images/tv4.jpg&quot;,
+		&quot;$dummy_image_url/images/tv5.jpg&quot;,
+		&quot;$dummy_image_url/images/tv6.jpg&quot;,
+	),
+	&quot;post_category&quot;     =&gt; array( __( &#039;Electronics&#039;, &#039;geodirectory&#039; ),__( &#039;Televisions&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;         =&gt; array( &#039;TV&#039;,&#039;55&quot;&#039; ),
+	&quot;video&quot;             =&gt; &#039;&#039;,
+	&quot;phone&quot;             =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;             =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;             =&gt; &#039;350&#039;,
+	&#039;condition&#039;     =&gt; &#039;Good&#039;,
+	&#039;brand&#039;         =&gt; &#039;Samsung&#039;,
+	&#039;model&#039;         =&gt; &#039;XCT55&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash,PayPal&#039;,
+	&quot;post_dummy&quot;        =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;         =&gt; $post_type,
+	&quot;post_title&quot;        =&gt; &quot;Samsung 65 inch OLED&quot;,
+	&quot;post_images&quot;       =&gt; array(
+		&quot;$dummy_image_url/images/tv6.jpg&quot;,
+		&quot;$dummy_image_url/images/tv1.jpg&quot;,
+		&quot;$dummy_image_url/images/tv2.jpg&quot;,
+		&quot;$dummy_image_url/images/tv3.jpg&quot;,
+		&quot;$dummy_image_url/images/tv4.jpg&quot;,
+		&quot;$dummy_image_url/images/tv5.jpg&quot;,
+	),
+	&quot;post_category&quot;     =&gt; array( __( &#039;Electronics&#039;, &#039;geodirectory&#039; ),__( &#039;Televisions&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;         =&gt; array( &#039;TV&#039;,&#039;65&quot;&#039; ),
+	&quot;video&quot;             =&gt; &#039;&#039;,
+	&quot;phone&quot;             =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;             =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;             =&gt; &#039;1150&#039;,
+	&#039;condition&#039;     =&gt; &#039;Fair&#039;,
+	&#039;brand&#039;         =&gt; &#039;Samsung&#039;,
+	&#039;model&#039;         =&gt; &#039;OLED65&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash,PayPal&#039;,
+	&quot;post_dummy&quot;        =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;         =&gt; $post_type,
+	&quot;post_title&quot;        =&gt; &quot;LG 85 inch LCD&quot;,
+	&quot;post_images&quot;       =&gt; array(
+		&quot;$dummy_image_url/images/tv5.jpg&quot;,
+		&quot;$dummy_image_url/images/tv6.jpg&quot;,
+		&quot;$dummy_image_url/images/tv1.jpg&quot;,
+		&quot;$dummy_image_url/images/tv2.jpg&quot;,
+		&quot;$dummy_image_url/images/tv3.jpg&quot;,
+		&quot;$dummy_image_url/images/tv4.jpg&quot;,
+	),
+	&quot;post_category&quot;     =&gt; array( __( &#039;Electronics&#039;, &#039;geodirectory&#039; ),__( &#039;Televisions&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;         =&gt; array( &#039;TV&#039;,&#039;85&quot;&#039; ),
+	&quot;video&quot;             =&gt; &#039;&#039;,
+	&quot;phone&quot;             =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;             =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;             =&gt; &#039;2150&#039;,
+	&#039;condition&#039;     =&gt; &#039;New&#039;,
+	&#039;brand&#039;         =&gt; &#039;LG&#039;,
+	&#039;model&#039;         =&gt; &#039;LCD85&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Trade&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash,Cheque,PayPal,Credit Card,Debit Card&#039;,
+	&quot;post_dummy&quot;        =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;         =&gt; $post_type,
+	&quot;post_title&quot;        =&gt; &quot;LG 42 inch LCD&quot;,
+	&quot;post_images&quot;       =&gt; array(
+		&quot;$dummy_image_url/images/tv4.jpg&quot;,
+		&quot;$dummy_image_url/images/tv5.jpg&quot;,
+		&quot;$dummy_image_url/images/tv6.jpg&quot;,
+		&quot;$dummy_image_url/images/tv1.jpg&quot;,
+		&quot;$dummy_image_url/images/tv2.jpg&quot;,
+		&quot;$dummy_image_url/images/tv3.jpg&quot;,
+	),
+	&quot;post_category&quot;     =&gt; array( __( &#039;Electronics&#039;, &#039;geodirectory&#039; ),__( &#039;Televisions&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;         =&gt; array( &#039;TV&#039;,&#039;42&quot;&#039; ),
+	&quot;video&quot;             =&gt; &#039;&#039;,
+	&quot;phone&quot;             =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;             =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;             =&gt; &#039;150&#039;,
+	&#039;condition&#039;     =&gt; &#039;Fair&#039;,
+	&#039;brand&#039;         =&gt; &#039;LG&#039;,
+	&#039;model&#039;         =&gt; &#039;LCD42&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash&#039;,
+	&quot;post_dummy&quot;        =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;         =&gt; $post_type,
+	&quot;post_title&quot;        =&gt; &quot;LG 80 inch LCD poor condition&quot;,
+	&quot;post_images&quot;       =&gt; array(
+		&quot;$dummy_image_url/images/tv3.jpg&quot;,
+		&quot;$dummy_image_url/images/tv4.jpg&quot;,
+		&quot;$dummy_image_url/images/tv5.jpg&quot;,
+		&quot;$dummy_image_url/images/tv6.jpg&quot;,
+		&quot;$dummy_image_url/images/tv1.jpg&quot;,
+		&quot;$dummy_image_url/images/tv2.jpg&quot;,
+	),
+	&quot;post_category&quot;     =&gt; array( __( &#039;Electronics&#039;, &#039;geodirectory&#039; ),__( &#039;Televisions&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;         =&gt; array( &#039;TV&#039;,&#039;80&quot;&#039; ),
+	&quot;video&quot;             =&gt; &#039;&#039;,
+	&quot;phone&quot;             =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;             =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;             =&gt; &#039;190&#039;,
+	&#039;condition&#039;     =&gt; &#039;Poor&#039;,
+	&#039;brand&#039;         =&gt; &#039;LG&#039;,
+	&#039;model&#039;         =&gt; &#039;LCD80&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash,PayPal&#039;,
+	&quot;post_dummy&quot;        =&gt; &#039;1&#039;
+);
+
+$dummy_posts[] = array(
+	&quot;post_type&quot;         =&gt; $post_type,
+	&quot;post_title&quot;        =&gt; &quot;LG TV Quick Sale needed&quot;,
+	&quot;post_images&quot;       =&gt; array(
+		&quot;$dummy_image_url/images/tv2.jpg&quot;,
+		&quot;$dummy_image_url/images/tv3.jpg&quot;,
+		&quot;$dummy_image_url/images/tv4.jpg&quot;,
+		&quot;$dummy_image_url/images/tv5.jpg&quot;,
+		&quot;$dummy_image_url/images/tv6.jpg&quot;,
+		&quot;$dummy_image_url/images/tv1.jpg&quot;,
+	),
+	&quot;post_category&quot;     =&gt; array( __( &#039;Electronics&#039;, &#039;geodirectory&#039; ),__( &#039;Televisions&#039;, &#039;geodirectory&#039; ) ),
+	&quot;post_tags&quot;         =&gt; array( &#039;TV&#039;,&#039;65&quot;&#039; ),
+	&quot;video&quot;             =&gt; &#039;&#039;,
+	&quot;phone&quot;             =&gt; &#039;(111) 677-4444&#039;,
+	&quot;email&quot;             =&gt; &#039;info@example.com&#039;,
+	&quot;price&quot;             =&gt; &#039;200&#039;,
+	&#039;condition&#039;     =&gt; &#039;Good&#039;,
+	&#039;brand&#039;         =&gt; &#039;LG&#039;,
+	&#039;model&#039;         =&gt; &#039;LCD65&#039;,
+	&#039;seller_type&#039;   =&gt; &#039;Private&#039;,
+	&#039;payment_types&#039; =&gt; &#039;Cash&#039;,
+	&quot;post_dummy&quot;        =&gt; &#039;1&#039;
+);
+
+
+$dummy_post_content = &quot;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet fringilla metus vitae tincidunt. Nullam porttitor porta ex, quis fringilla elit viverra vel. Pellentesque vitae orci ut mi tincidunt varius. Praesent sed leo tincidunt lacus porttitor laoreet. Proin molestie erat a vestibulum lobortis. Nullam tincidunt elit sem, non fermentum nisl convallis at. Vivamus eu diam dapibus, tempor lorem in, vestibulum est. Pellentesque venenatis pellentesque dapibus. Donec dapibus ac est a volutpat.
+
+Nulla vel nisi bibendum, scelerisque velit in, auctor magna. In hac habitasse platea dictumst. Cras nec augue vitae odio tincidunt consequat. Vivamus mattis eu magna a commodo. Fusce vel massa quam. Vivamus ligula turpis, dignissim pretium leo non, aliquet euismod tellus. Donec tincidunt convallis diam nec convallis. Vestibulum sed diam euismod ex porttitor imperdiet et non lectus. Pellentesque blandit ex vitae pretium dictum. Mauris eu lorem eu ex auctor eleifend aliquam eget turpis. Aliquam erat volutpat. Proin et sapien a magna mollis pharetra.
+
+Maecenas pulvinar neque risus, nec feugiat elit hendrerit quis. Phasellus ut nibh vitae eros suscipit consectetur. Etiam tristique felis quis metus venenatis sollicitudin. Sed orci lorem, fringilla at finibus eget, vehicula eget ipsum. Etiam egestas feugiat nisi ut lobortis. Maecenas tellus risus, consequat nec pellentesque eget, dictum eu libero. Etiam accumsan risus ac justo pretium, at malesuada urna facilisis. Vestibulum sit amet vulputate diam. Nulla metus dui, ultricies sed dui sed, porttitor mollis erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Praesent eget molestie dolor. Nulla pretium cursus ipsum molestie laoreet. Morbi efficitur quis neque sit amet ornare. Pellentesque fringilla sem eu nibh tristique rhoncus. Morbi id eros nec ligula interdum ultricies at tincidunt mi. Mauris ac accumsan ante. Integer sem eros, mollis eu sapien sit amet, facilisis porta arcu.
+
+Aliquam erat volutpat. Suspendisse quis nulla sodales sapien varius ultrices eu at felis. Suspendisse pretium pellentesque leo ac ornare. Nam tristique turpis id neque venenatis ullamcorper. Nulla venenatis, sem a fringilla hendrerit, libero augue venenatis ex, eget consectetur augue urna eu ipsum. Donec faucibus sit amet arcu vitae imperdiet. Suspendisse suscipit ac nunc ultrices tristique. Duis risus risus, tincidunt ut consectetur ac, congue vel sem. Quisque quis erat quis odio mattis aliquet nec ut urna.
+&quot;;
+
+foreach ( $dummy_posts as $key =&gt; $args ) {
+	$dummy_posts[ $key ][&#039;post_content&#039;] = $dummy_post_content;
+}
+
+function geodir_extra_custom_fields_classifieds( $fields, $post_type, $package_id ) {
+	$package = $package_id != &#039;&#039; ? array( $package_id ) : &#039;&#039;;
+	
+	// price
+	$fields[] = array(
+		&#039;post_type&#039;          =&gt; $post_type,
+		&#039;show_on_pkg&#039;        =&gt; $package,
+		&#039;field_type&#039;         =&gt; &#039;text&#039;,
+		&#039;data_type&#039;          =&gt; &#039;FLOAT&#039;,
+		&#039;decimal_point&#039;      =&gt; &#039;2&#039;,
+		&#039;admin_title&#039;        =&gt; &#039;Price&#039;,
+		&#039;frontend_title&#039;     =&gt; &#039;Price&#039;,
+		&#039;frontend_desc&#039;      =&gt; &#039;Enter the price in $ (no currency symbol)&#039;,
+		&#039;htmlvar_name&#039;       =&gt; &#039;price&#039;,
+		&#039;is_active&#039;          =&gt; true,
+		&#039;for_admin_use&#039;      =&gt; false,
+		&#039;default_value&#039;      =&gt; &#039;&#039;,
+		&#039;option_values&#039;      =&gt; &#039;&#039;,
+		&#039;show_in&#039;            =&gt; &#039;[detail]&#039;,
+		&#039;is_required&#039;        =&gt; false,
+		&#039;validation_pattern&#039; =&gt; addslashes_gpc( &#039;\d+(\.\d{2})?&#039; ), // add slashes required
+		&#039;validation_msg&#039;     =&gt; &#039;Please enter number and decimal only e.g: 100.50&#039;,
+		&#039;required_msg&#039;       =&gt; &#039;&#039;,
+		&#039;field_icon&#039;         =&gt; &#039;fas fa-dollar-sign&#039;,
+		&#039;css_class&#039;          =&gt; &#039;&#039;,
+		&#039;cat_sort&#039;           =&gt; true,
+		&#039;cat_filter&#039;         =&gt; true,
+		&#039;extra&#039;              =&gt; array(
+			&#039;is_price&#039;                  =&gt; 1,
+			&#039;thousand_separator&#039;        =&gt; &#039;comma&#039;,
+			&#039;decimal_separator&#039;         =&gt; &#039;period&#039;,
+			&#039;decimal_display&#039;           =&gt; &#039;if&#039;,
+			&#039;currency_symbol&#039;           =&gt; &#039;$&#039;,
+			&#039;currency_symbol_placement&#039; =&gt; &#039;left&#039;
+		),
+		&#039;clabels&#039;            =&gt; &#039;Price&#039;
+	);
+
+	// Condition
+	$fields[] = array(
+		&#039;post_type&#039;      =&gt; $post_type,
+		&#039;data_type&#039;      =&gt; &#039;VARCHAR&#039;,
+		&#039;field_type&#039;     =&gt; &#039;select&#039;,
+		&#039;field_type_key&#039; =&gt; &#039;select&#039;,
+		&#039;is_active&#039;      =&gt; 1,
+		&#039;for_admin_use&#039;  =&gt; 0,
+		&#039;is_default&#039;     =&gt; 0,
+		&#039;admin_title&#039;    =&gt; __( &#039;Condition&#039;, &#039;geodirectory&#039; ),
+		&#039;frontend_desc&#039;  =&gt; __( &#039;Condition.&#039;, &#039;geodirectory&#039; ),
+		&#039;frontend_title&#039; =&gt; __( &#039;Condition&#039;, &#039;geodirectory&#039; ),
+		&#039;htmlvar_name&#039;   =&gt; &#039;condition&#039;,
+		&#039;default_value&#039;  =&gt; &#039;used&#039;,
+		&#039;is_required&#039;    =&gt; &#039;1&#039;,
+		&#039;required_msg&#039;   =&gt; &#039;&#039;,
+		&#039;show_in&#039;        =&gt; &#039;[detail]&#039;,
+		&#039;show_on_pkg&#039;    =&gt; $package,
+		&#039;option_values&#039;  =&gt; &#039;Select Status/,New,Good,Fair,Poor&#039;,
+		&#039;field_icon&#039;     =&gt; &#039;fas fa-search&#039;,
+		&#039;css_class&#039;      =&gt; &#039;&#039;,
+		&#039;cat_sort&#039;       =&gt; 1,
+		&#039;cat_filter&#039;     =&gt; 1,
+		&#039;clabels&#039;        =&gt; __( &#039;Condition&#039;, &#039;geodirectory&#039; )
+	);
+
+	// Brand
+	$fields[] = array(
+		&#039;post_type&#039;      =&gt; $post_type,
+		&#039;data_type&#039;      =&gt; &#039;VARCHAR&#039;,
+		&#039;field_type&#039;     =&gt; &#039;select&#039;,
+		&#039;field_type_key&#039; =&gt; &#039;select&#039;,
+		&#039;is_active&#039;      =&gt; 1,
+		&#039;for_admin_use&#039;  =&gt; 0,
+		&#039;is_default&#039;     =&gt; 0,
+		&#039;admin_title&#039;    =&gt; __( &#039;Brand&#039;, &#039;geodirectory&#039; ),
+		&#039;frontend_desc&#039;  =&gt; __( &#039;Please select the brand.&#039;, &#039;geodirectory&#039; ),
+		&#039;frontend_title&#039; =&gt; __( &#039;Brand&#039;, &#039;geodirectory&#039; ),
+		&#039;htmlvar_name&#039;   =&gt; &#039;brand&#039;,
+		&#039;default_value&#039;  =&gt; &#039;&#039;,
+		&#039;is_required&#039;    =&gt; &#039;&#039;,
+		&#039;required_msg&#039;   =&gt; &#039;&#039;,
+		&#039;show_in&#039;        =&gt; &#039;[detail]&#039;,
+		&#039;show_on_pkg&#039;    =&gt; $package,
+		&#039;option_values&#039;  =&gt; &#039;Select Brand/,Samsung,LG,Huawei,Apple,Silentnight,Sleepeezee,Slumberland,Fender,Gibson,Yamaha&#039;,
+		&#039;field_icon&#039;     =&gt; &#039;fas fa-box&#039;,
+		&#039;css_class&#039;      =&gt; &#039;&#039;,
+		&#039;cat_sort&#039;       =&gt; 1,
+		&#039;cat_filter&#039;     =&gt; 1,
+		&#039;clabels&#039;        =&gt; __( &#039;Brand&#039;, &#039;geodirectory&#039; )
+	);
+
+	// Model
+	$fields[] = array(
+		&#039;post_type&#039;      =&gt; $post_type,
+		&#039;data_type&#039;      =&gt; &#039;VARCHAR&#039;,
+		&#039;field_type&#039;     =&gt; &#039;text&#039;,
+		&#039;is_active&#039;      =&gt; 1,
+		&#039;for_admin_use&#039;  =&gt; 0,
+		&#039;is_default&#039;     =&gt; 0,
+		&#039;admin_title&#039;    =&gt; __( &#039;Model&#039;, &#039;geodirectory&#039; ),
+		&#039;frontend_desc&#039;  =&gt; __( &#039;Please select the model.&#039;, &#039;geodirectory&#039; ),
+		&#039;frontend_title&#039; =&gt; __( &#039;Model&#039;, &#039;geodirectory&#039; ),
+		&#039;htmlvar_name&#039;   =&gt; &#039;model&#039;,
+		&#039;default_value&#039;  =&gt; &#039;&#039;,
+		&#039;is_required&#039;    =&gt; &#039;&#039;,
+		&#039;required_msg&#039;   =&gt; &#039;&#039;,
+		&#039;show_in&#039;        =&gt; &#039;[detail]&#039;,
+		&#039;show_on_pkg&#039;    =&gt; $package,
+		&#039;field_icon&#039;     =&gt; &#039;fas fa-box-open&#039;,
+		&#039;css_class&#039;      =&gt; &#039;&#039;,
+		&#039;cat_sort&#039;       =&gt; 1,
+		&#039;cat_filter&#039;     =&gt; 1,
+		&#039;clabels&#039;        =&gt; __( &#039;Model&#039;, &#039;geodirectory&#039; )
+	);
+
+	// Seller Type
+	$fields[] = array(
+		&#039;post_type&#039;      =&gt; $post_type,
+		&#039;data_type&#039;      =&gt; &#039;VARCHAR&#039;,
+		&#039;field_type&#039;     =&gt; &#039;select&#039;,
+		&#039;field_type_key&#039; =&gt; &#039;select&#039;,
+		&#039;is_active&#039;      =&gt; 1,
+		&#039;for_admin_use&#039;  =&gt; 0,
+		&#039;is_default&#039;     =&gt; 0,
+		&#039;admin_title&#039;    =&gt; __( &#039;Seller Type&#039;, &#039;geodirectory&#039; ),
+		&#039;frontend_desc&#039;  =&gt; __( &#039;Please select if you are a private or trade seller.&#039;, &#039;geodirectory&#039; ),
+		&#039;frontend_title&#039; =&gt; __( &#039;Seller Type&#039;, &#039;geodirectory&#039; ),
+		&#039;htmlvar_name&#039;   =&gt; &#039;seller_type&#039;,
+		&#039;default_value&#039;  =&gt; &#039;&#039;,
+		&#039;is_required&#039;    =&gt; &#039;1&#039;,
+		&#039;required_msg&#039;   =&gt; &#039;&#039;,
+		&#039;show_in&#039;        =&gt; &#039;[detail]&#039;,
+		&#039;show_on_pkg&#039;    =&gt; $package,
+		&#039;option_values&#039;  =&gt; &#039;Select Status/,Private,Trade&#039;,
+		&#039;field_icon&#039;     =&gt; &#039;fas fa-user&#039;,
+		&#039;css_class&#039;      =&gt; &#039;&#039;,
+		&#039;cat_sort&#039;       =&gt; 1,
+		&#039;cat_filter&#039;     =&gt; 1,
+		&#039;clabels&#039;        =&gt; __( &#039;Seller Type&#039;, &#039;geodirectory&#039; )
+	);
+
+	// Payment Types
+	$fields[] = array(
+		&#039;post_type&#039;          =&gt; $post_type,
+		&#039;field_type&#039;         =&gt; &#039;multiselect&#039;,
+		&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+		&#039;admin_title&#039;        =&gt; __( &#039;Payment Types&#039;, &#039;geodirectory&#039; ),
+		&#039;frontend_title&#039;     =&gt; __( &#039;Payment Types&#039;, &#039;geodirectory&#039; ),
+		&#039;frontend_desc&#039;      =&gt; __( &#039;Select the accepted payment types.&#039;, &#039;geodirectory&#039; ),
+		&#039;htmlvar_name&#039;       =&gt; &#039;payment_types&#039;,
+		&#039;is_active&#039;          =&gt; true,
+		&#039;for_admin_use&#039;      =&gt; false,
+		&#039;default_value&#039;      =&gt; &#039;&#039;,
+		&#039;show_in&#039;            =&gt; &#039;[detail],[listing]&#039;,
+		&#039;is_required&#039;        =&gt; false,
+		&#039;option_values&#039;      =&gt; &#039;Cash,Cheque,PayPal,Credit Card,Debit Card&#039;,
+		&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+		&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+		&#039;required_msg&#039;       =&gt; &#039;&#039;,
+		&#039;field_icon&#039;         =&gt; &#039;far fa-money-bill-alt&#039;,
+		&#039;css_class&#039;          =&gt; &#039;gd-comma-list&#039;,
+		&#039;cat_sort&#039;           =&gt; true,
+		&#039;cat_filter&#039;         =&gt; true,
+		&#039;show_on_pkg&#039;        =&gt; $package,
+		&#039;clabels&#039;            =&gt; &#039;Payment Types&#039;
+	);
+
+	return $fields;
+}
+
+// Dummy page templates
+$dummy_page_templates[&#039;archive_item&#039;] = &quot;[gd_archive_item_section type=&#039;open&#039; position=&#039;left&#039;]
+[gd_post_badge key=&#039;featured&#039; condition=&#039;is_not_empty&#039; badge=&#039;FEATURED&#039; bg_color=&#039;#fd4700&#039; txt_color=&#039;#ffffff&#039; css_class=&#039;gd-ab-top-left-angle gd-badge-shadow&#039;]
+[gd_post_badge key=&#039;video&#039; condition=&#039;is_not_empty&#039; icon_class=&#039;fas fa-video&#039; badge=&#039;Video&#039; link=&#039;%%input%%&#039; bg_color=&#039;#0073aa&#039; txt_color=&#039;#ffffff&#039; list_hide_secondary=&#039;2&#039; css_class=&#039;gd-badge-shadow gd-ab-top-right gd-lity&#039;]
+[gd_post_badge key=&#039;price&#039; condition=&#039;is_not_empty&#039;  badge=&#039;%%input%%&#039; bg_color=&#039;#f70c0c&#039; txt_color=&#039;#ffffff&#039; css_class=&#039;gd-ab-bottom-right&#039;]
+[gd_post_badge key=&#039;seller_type&#039; condition=&#039;is_equal&#039; search=&#039;Trade&#039; icon_class=&#039;fas fa-user-tie&#039; badge=&#039;Trade&#039; bg_color=&#039;#46c40d&#039; txt_color=&#039;#ffffff&#039; list_hide=&#039;5&#039; list_hide_secondary=&#039;3&#039; css_class=&#039;gd-ab-bottom-left&#039;]
+[gd_post_badge key=&#039;seller_type&#039; condition=&#039;is_equal&#039; search=&#039;Private&#039; icon_class=&#039;fas fa-user&#039; badge=&#039;Private&#039; bg_color=&#039;#00bf9f&#039; txt_color=&#039;#ffffff&#039; list_hide=&#039;5&#039; list_hide_secondary=&#039;3&#039; css_class=&#039;gd-ab-bottom-left&#039;]
+[gd_post_images type=&#039;image&#039; ajax_load=&#039;true&#039; link_to=&#039;post&#039; types=&#039;logo,post_images&#039;]
+[gd_archive_item_section type=&#039;close&#039; position=&#039;left&#039;]
+[gd_archive_item_section type=&#039;open&#039; position=&#039;right&#039;]
+[gd_post_title tag=&#039;h2&#039;]
+[gd_post_badge key=&#039;brand&#039; condition=&#039;is_not_empty&#039; badge=&#039;%%input%%&#039; bg_color=&#039;#1664b1&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039;]
+[gd_post_badge key=&#039;model&#039; condition=&#039;is_not_empty&#039; badge=&#039;%%input%%&#039; bg_color=&#039;#4c95de&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039;]
+[gd_post_badge key=&#039;condition&#039; condition=&#039;is_equal&#039; search=&#039;New&#039; badge=&#039;Condition: %%input%%&#039; bg_color=&#039;#19be00&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039;]
+[gd_post_badge key=&#039;condition&#039; condition=&#039;is_equal&#039; search=&#039;Good&#039; badge=&#039;Condition: %%input%%&#039; bg_color=&#039;#d9d702&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039;]
+[gd_post_badge key=&#039;condition&#039; condition=&#039;is_equal&#039; search=&#039;Fair&#039; badge=&#039;Condition: %%input%%&#039; bg_color=&#039;#df8d00&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039;]
+[gd_post_badge key=&#039;condition&#039; condition=&#039;is_equal&#039; search=&#039;Poor&#039; badge=&#039;Condition: %%input%%&#039; bg_color=&#039;#c93a0d&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039;]
+[gd_post_badge key=&#039;payment_types&#039; condition=&#039;is_contains&#039; search=&#039;PayPal&#039; icon_class=&#039;fab fa-paypal&#039; badge=&#039;Accepts PayPal&#039; bg_color=&#039;#0076c1&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039; list_hide_secondary=&#039;3&#039;]
+[gd_author_actions author_page_only=&#039;1&#039;]
+[gd_post_distance]
+[gd_post_rating alignment=&#039;left&#039; list_hide_secondary=&#039;2&#039;]
+[gd_post_fav show=&#039;&#039; alignment=&#039;right&#039; list_hide_secondary=&#039;2&#039;]
+[gd_post_meta key=&#039;business_hours&#039; location=&#039;listing&#039; list_hide_secondary=&#039;2&#039;]
+[gd_output_location location=&#039;listing&#039;]
+[gd_post_content key=&#039;post_content&#039; limit=&#039;60&#039; max_height=&#039;120&#039;]
+[gd_archive_item_section type=&#039;close&#039; position=&#039;right&#039;]&quot;;
+
+
+$gutenberg = geodir_is_gutenberg();
+if( $gutenberg ) {
+	$dummy_page_templates[&#039;archive_item&#039;] = &quot;&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;open&#039;  position=&#039;left&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-badge {\&quot;key\&quot;:\&quot;seller_type\&quot;,\&quot;search\&quot;:\&quot;Trade\&quot;,\&quot;icon_class\&quot;:\&quot;fas fa-user-tie\&quot;,\&quot;badge\&quot;:\&quot;Trade\&quot;,\&quot;color\&quot;:\&quot;warning\&quot;,\&quot;alignment\&quot;:\&quot;left\&quot;,\&quot;position\&quot;:\&quot;ab-top-left-angle\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_badge id=&#039;&#039;  key=&#039;seller_type&#039;  condition=&#039;is_equal&#039;  search=&#039;Trade&#039;  icon_class=&#039;fas fa-user-tie&#039;  badge=&#039;Trade&#039;  link=&#039;&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;warning&#039;  bg_color=&#039;#0073aa&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  alignment=&#039;left&#039;  position=&#039;ab-top-left-angle&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-badge --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-badge {\&quot;key\&quot;:\&quot;post_date\&quot;,\&quot;condition\&quot;:\&quot;is_less_than\&quot;,\&quot;search\&quot;:\&quot;+30\&quot;,\&quot;badge\&quot;:\&quot;New\&quot;,\&quot;bg_color\&quot;:\&quot;#ff0000\&quot;,\&quot;position\&quot;:\&quot;ab-top-right\&quot;,\&quot;mt\&quot;:\&quot;1\&quot;,\&quot;mr\&quot;:\&quot;1\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_badge id=&#039;&#039;  key=&#039;post_date&#039;  condition=&#039;is_less_than&#039;  search=&#039;+30&#039;  icon_class=&#039;&#039;  badge=&#039;New&#039;  link=&#039;&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;&#039;  bg_color=&#039;#ff0000&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  alignment=&#039;&#039;  position=&#039;ab-top-right&#039;  mt=&#039;1&#039;  mr=&#039;1&#039;  mb=&#039;&#039;  ml=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-badge --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-badge {\&quot;key\&quot;:\&quot;default_category\&quot;,\&quot;condition\&quot;:\&quot;is_not_empty\&quot;,\&quot;badge\&quot;:\&quot;%%input%%\&quot;,\&quot;link\&quot;:\&quot;%%input%%\&quot;,\&quot;cta\&quot;:\&quot;0\&quot;,\&quot;bg_color\&quot;:\&quot;rgba(0,0,0,0.5)\&quot;,\&quot;position\&quot;:\&quot;ab-bottom-left\&quot;,\&quot;ml\&quot;:\&quot;1\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_badge id=&#039;&#039;  key=&#039;default_category&#039;  condition=&#039;is_not_empty&#039;  search=&#039;&#039;  icon_class=&#039;&#039;  badge=&#039;%%input%%&#039;  link=&#039;%%input%%&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;0&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;&#039;  bg_color=&#039;rgba(0,0,0,0.5)&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  alignment=&#039;&#039;  position=&#039;ab-bottom-left&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;1&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-badge --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-fav {\&quot;show_advanced\&quot;:true,\&quot;show\&quot;:\&quot;icon\&quot;,\&quot;icon_color_off\&quot;:\&quot;rgba(223,223,223,0.8)\&quot;,\&quot;icon_color_on\&quot;:\&quot;#ff0000\&quot;,\&quot;type\&quot;:\&quot;link\&quot;,\&quot;position\&quot;:\&quot;ab-bottom-right\&quot;,\&quot;mr\&quot;:\&quot;1\&quot;,\&quot;mb\&quot;:\&quot;n1\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-post-fav\&quot;&gt;[gd_post_fav show=&#039;icon&#039;  icon=&#039;&#039;  icon_color_off=&#039;rgba(223,223,223,0.8)&#039;  icon_color_on=&#039;#ff0000&#039;  type=&#039;link&#039;  shadow=&#039;&#039;  color=&#039;&#039;  bg_color=&#039;&#039;  txt_color=&#039;&#039;  size=&#039;h5&#039;  alignment=&#039;&#039;  position=&#039;ab-bottom-right&#039;  mt=&#039;&#039;  mr=&#039;1&#039;  mb=&#039;n1&#039;  ml=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-post-fav --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-images {\&quot;show_advanced\&quot;:true,\&quot;show_title\&quot;:false,\&quot;link_to\&quot;:\&quot;post\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-post-images\&quot;&gt;[gd_post_images title=&#039;&#039;  types=&#039;&#039;  fallback_types=&#039;&#039;  ajax_load=&#039;true&#039;  limit=&#039;&#039;  limit_show=&#039;&#039;  css_class=&#039;&#039;  type=&#039;image&#039;  slideshow=&#039;true&#039;  controlnav=&#039;1&#039;  animation=&#039;slide&#039;  show_title=&#039;false&#039;  show_caption=&#039;false&#039;  image_size=&#039;&#039;  aspect=&#039;&#039;  cover=&#039;&#039;  link_to=&#039;post&#039;  link_screenshot_to=&#039;&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-post-images --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;type\&quot;:\&quot;close\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;close&#039;  position=&#039;left&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;position\&quot;:\&quot;right\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;open&#039;  position=&#039;right&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-title {\&quot;overflow\&quot;:\&quot;ellipsis\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-post-title\&quot;&gt;[gd_post_title tag=&#039;h2&#039;  font_size_class=&#039;h5&#039;  overflow=&#039;ellipsis&#039;  text_color=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-post-title --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-content {\&quot;show_advanced\&quot;:true,\&quot;limit\&quot;:20,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-post-content\&quot;&gt;[gd_post_content title=&#039;&#039;  id=&#039;&#039;  key=&#039;post_content&#039;  show=&#039;&#039;  limit=&#039;20&#039;  max_height=&#039;&#039;  read_more=&#039;&#039;  alignment=&#039;&#039;  strip_tags=&#039;false&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-post-content --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;type\&quot;:\&quot;close\&quot;,\&quot;position\&quot;:\&quot;right\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;close&#039;  position=&#039;right&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;position\&quot;:\&quot;footer\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;open&#039;  position=&#039;footer&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-badge {\&quot;key\&quot;:\&quot;condition\&quot;,\&quot;search\&quot;:\&quot;Poor\&quot;,\&quot;badge\&quot;:\&quot;Condition: %%input%%\&quot;,\&quot;color\&quot;:\&quot;danger\&quot;,\&quot;alignment\&quot;:\&quot;left\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_badge id=&#039;&#039;  key=&#039;condition&#039;  condition=&#039;is_equal&#039;  search=&#039;Poor&#039;  icon_class=&#039;&#039;  badge=&#039;Condition: %%input%%&#039;  link=&#039;&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;danger&#039;  bg_color=&#039;#0073aa&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  alignment=&#039;left&#039;  position=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-badge --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-badge {\&quot;key\&quot;:\&quot;condition\&quot;,\&quot;search\&quot;:\&quot;Fair\&quot;,\&quot;badge\&quot;:\&quot;Condition: %%input%%\&quot;,\&quot;color\&quot;:\&quot;warning\&quot;,\&quot;alignment\&quot;:\&quot;left\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_badge id=&#039;&#039;  key=&#039;condition&#039;  condition=&#039;is_equal&#039;  search=&#039;Fair&#039;  icon_class=&#039;&#039;  badge=&#039;Condition: %%input%%&#039;  link=&#039;&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;warning&#039;  bg_color=&#039;#0073aa&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  alignment=&#039;left&#039;  position=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-badge --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-badge {\&quot;key\&quot;:\&quot;condition\&quot;,\&quot;search\&quot;:\&quot;Good\&quot;,\&quot;badge\&quot;:\&quot;Condition: %%input%%\&quot;,\&quot;color\&quot;:\&quot;info\&quot;,\&quot;alignment\&quot;:\&quot;left\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_badge id=&#039;&#039;  key=&#039;condition&#039;  condition=&#039;is_equal&#039;  search=&#039;Good&#039;  icon_class=&#039;&#039;  badge=&#039;Condition: %%input%%&#039;  link=&#039;&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;info&#039;  bg_color=&#039;#0073aa&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  alignment=&#039;left&#039;  position=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-badge --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-badge {\&quot;key\&quot;:\&quot;condition\&quot;,\&quot;search\&quot;:\&quot;New\&quot;,\&quot;badge\&quot;:\&quot;Condition: %%input%%\&quot;,\&quot;color\&quot;:\&quot;success\&quot;,\&quot;alignment\&quot;:\&quot;left\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_badge id=&#039;&#039;  key=&#039;condition&#039;  condition=&#039;is_equal&#039;  search=&#039;New&#039;  icon_class=&#039;&#039;  badge=&#039;Condition: %%input%%&#039;  link=&#039;&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;success&#039;  bg_color=&#039;#0073aa&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  alignment=&#039;left&#039;  position=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-badge --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-badge {\&quot;key\&quot;:\&quot;price\&quot;,\&quot;condition\&quot;:\&quot;is_not_empty\&quot;,\&quot;badge\&quot;:\&quot;%%input%% \&quot;,\&quot;link\&quot;:\&quot;%%post_url%%\&quot;,\&quot;color\&quot;:\&quot;danger\&quot;,\&quot;alignment\&quot;:\&quot;right\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_badge id=&#039;&#039;  key=&#039;price&#039;  condition=&#039;is_not_empty&#039;  search=&#039;&#039;  icon_class=&#039;&#039;  badge=&#039;%%input%% &#039;  link=&#039;%%post_url%%&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;danger&#039;  bg_color=&#039;#0073aa&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  alignment=&#039;right&#039;  position=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-badge --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;type\&quot;:\&quot;close\&quot;,\&quot;position\&quot;:\&quot;footer\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;close&#039;  position=&#039;footer&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;&quot;;
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

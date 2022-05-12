@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">abstract-geodir-rest-terms-controller.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * REST API GEoDirectory Terms controller
+ *
+ * Handles requests to the categories endpoint.
+ *
+ * @author   GeoDirectory
+ * @category API
+ * @package  GeoDirectory/API
+ * @since    2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+/**
+ * Core class used to managed terms associated with a taxonomy via the REST API.
+ *
+ * @since 2.0.0
+ *
+ * @see Geodir_REST_Terms_Controller
+ */
+class Geodir_REST_Terms_Controller extends WP_REST_Terms_Controller {
+
+	/**
+	 * Taxonomy key.
+	 *
+	 * @var string
+	 */
+	protected $taxonomy;
+
+	/**
+	 * Instance of a term meta fields object.
+	 *
+	 * @var WP_REST_Term_Meta_Fields
+	 */
+	protected $meta;
+
+	/**
+	 * Column to have the terms be sorted by.
+	 *
+	 * @var string
+	 */
+	protected $sort_column;
+
+	/**
+	 * Number of terms that were found.
+	 *
+	 * @var int
+	 */
+	protected $total_terms;
+
+	/**
+	 * Constructor.
+	 *
+	 * @param string $taxonomy Taxonomy key.
+	 */
+	public function __construct( $taxonomy ) {
+		$this-&gt;taxonomy = $taxonomy;
+		$this-&gt;namespace = GEODIR_REST_SLUG . &#039;/v&#039; . GEODIR_REST_API_VERSION;
+		$tax_obj = get_taxonomy( $taxonomy );
+		$this-&gt;rest_base = ! empty( $tax_obj-&gt;rest_base ) ? $tax_obj-&gt;rest_base : $tax_obj-&gt;name;
+
+		$this-&gt;meta = new WP_REST_Term_Meta_Fields( $taxonomy );
+	}
+	
+	/**
+	 * Registers the routes for the objects of the controller.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @see register_rest_route()
+	 */
+	public function register_routes() {
+
+		register_rest_route( $this-&gt;namespace, &#039;/&#039; . $this-&gt;rest_base, array(
+			array(
+				&#039;methods&#039;             =&gt; WP_REST_Server::READABLE,
+				&#039;callback&#039;            =&gt; array( $this, &#039;get_items&#039; ),
+				&#039;permission_callback&#039; =&gt; array( $this, &#039;get_items_permissions_check&#039; ),
+				&#039;args&#039;                =&gt; $this-&gt;get_collection_params(),
+			),
+		) );
+
+		register_rest_route( $this-&gt;namespace, &#039;/&#039; . $this-&gt;rest_base . &#039;/(?P&lt;id&gt;[\d]+)&#039;, array(
+			&#039;args&#039; =&gt; array(
+				&#039;id&#039; =&gt; array(
+					&#039;description&#039; =&gt; __( &#039;Unique identifier for the term.&#039; ),
+					&#039;type&#039;        =&gt; &#039;integer&#039;,
+				),
+			),
+			array(
+				&#039;methods&#039;             =&gt; WP_REST_Server::READABLE,
+				&#039;callback&#039;            =&gt; array( $this, &#039;get_item&#039; ),
+				&#039;permission_callback&#039; =&gt; array( $this, &#039;get_item_permissions_check&#039; ),
+				&#039;args&#039;                =&gt; array(
+					&#039;context&#039; =&gt; $this-&gt;get_context_param( array( &#039;default&#039; =&gt; &#039;view&#039; ) ),
+				),
+			),
+		) );
+	}
+
+	/**
+	 * Checks if a request has access to read terms in the specified taxonomy.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return bool|WP_Error True if the request has read access, otherwise false or WP_Error object.
+	 */
+	public function get_items_permissions_check( $request ) {
+		$tax_obj = get_taxonomy( $this-&gt;taxonomy );
+		if ( ! $tax_obj || ! $this-&gt;check_is_taxonomy_allowed( $this-&gt;taxonomy ) ) {
+			return false;
+		}
+
+		return true;
+	}
+
+	/**
+	 * Retrieves terms associated with a taxonomy.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function get_items( $request ) {
+
+		// Retrieve the list of registered collection query parameters.
+		$registered = $this-&gt;get_collection_params();
+
+		/*
+		 * This array defines mappings between public API query parameters whose
+		 * values are accepted as-passed, and their internal WP_Query parameter
+		 * name equivalents (some are the same). Only values which are also
+		 * present in $registered will be set.
+		 */
+		$parameter_mappings = array(
+			&#039;exclude&#039;    =&gt; &#039;exclude&#039;,
+			&#039;include&#039;    =&gt; &#039;include&#039;,
+			&#039;order&#039;      =&gt; &#039;order&#039;,
+			&#039;orderby&#039;    =&gt; &#039;orderby&#039;,
+			&#039;post&#039;       =&gt; &#039;post&#039;,
+			&#039;hide_empty&#039; =&gt; &#039;hide_empty&#039;,
+			&#039;per_page&#039;   =&gt; &#039;number&#039;,
+			&#039;search&#039;     =&gt; &#039;search&#039;,
+			&#039;slug&#039;       =&gt; &#039;slug&#039;,
+		);
+
+		$prepared_args = array();
+
+		/*
+		 * For each known parameter which is both registered and present in the request,
+		 * set the parameter&#039;s value on the query $prepared_args.
+		 */
+		foreach ( $parameter_mappings as $api_param =&gt; $wp_param ) {
+			if ( isset( $registered[ $api_param ], $request[ $api_param ] ) ) {
+				$prepared_args[ $wp_param ] = $request[ $api_param ];
+			}
+		}
+
+		if ( isset( $prepared_args[&#039;orderby&#039;] ) &amp;&amp; isset( $request[&#039;orderby&#039;] ) ) {
+			$orderby_mappings = array(
+				&#039;include_slugs&#039; =&gt; &#039;slug__in&#039;,
+			);
+
+			if ( isset( $orderby_mappings[ $request[&#039;orderby&#039;] ] ) ) {
+				$prepared_args[&#039;orderby&#039;] = $orderby_mappings[ $request[&#039;orderby&#039;] ];
+			}
+		}
+
+		if ( isset( $registered[&#039;offset&#039;] ) &amp;&amp; ! empty( $request[&#039;offset&#039;] ) ) {
+			$prepared_args[&#039;offset&#039;] = $request[&#039;offset&#039;];
+		} else {
+			$prepared_args[&#039;offset&#039;] = ( $request[&#039;page&#039;] - 1 ) * $prepared_args[&#039;number&#039;];
+		}
+
+		$taxonomy_obj = get_taxonomy( $this-&gt;taxonomy );
+
+		if ( $taxonomy_obj-&gt;hierarchical &amp;&amp; isset( $registered[&#039;parent&#039;], $request[&#039;parent&#039;] ) ) {
+			if ( 0 === $request[&#039;parent&#039;] ) {
+				// Only query top-level terms.
+				$prepared_args[&#039;parent&#039;] = 0;
+			} else {
+				if ( $request[&#039;parent&#039;] ) {
+					$prepared_args[&#039;parent&#039;] = $request[&#039;parent&#039;];
+				}
+			}
+		}
+
+		/**
+		 * Filters the query arguments before passing them to get_terms().
+		 *
+		 * The dynamic portion of the hook name, `$this-&gt;taxonomy`, refers to the taxonomy slug.
+		 *
+		 * Enables adding extra arguments or setting defaults for a terms
+		 * collection request.
+		 *
+		 * @since 2.0.0
+		 *
+		 * @link https://developer.wordpress.org/reference/functions/get_terms/
+		 *
+		 * @param array           $prepared_args Array of arguments to be
+		 *                                       passed to get_terms().
+		 * @param WP_REST_Request $request       The current request.
+		 */
+		$prepared_args = apply_filters( &quot;rest_{$this-&gt;taxonomy}_query&quot;, $prepared_args, $request );
+
+		if ( ! empty( $prepared_args[&#039;post&#039;] )  ) {
+			$query_result = wp_get_object_terms( $prepared_args[&#039;post&#039;], $this-&gt;taxonomy, $prepared_args );
+
+			// Used when calling wp_count_terms() below.
+			$prepared_args[&#039;object_ids&#039;] = $prepared_args[&#039;post&#039;];
+		} else {
+			$query_result = get_terms( $this-&gt;taxonomy, $prepared_args );
+		}
+
+		$query_result = apply_filters( &quot;geodir_rest_{$this-&gt;taxonomy}_query_result&quot;, $query_result, $prepared_args, $request );
+
+		$count_args = $prepared_args;
+
+		unset( $count_args[&#039;number&#039;], $count_args[&#039;offset&#039;] );
+
+		$total_terms = wp_count_terms( $this-&gt;taxonomy, $count_args );
+
+		// wp_count_terms can return a falsy value when the term has no children.
+		if ( ! $total_terms ) {
+			$total_terms = 0;
+		}
+
+		$response = array();
+
+		foreach ( $query_result as $term ) {
+			$data = $this-&gt;prepare_item_for_response( $term, $request );
+			$response[] = $this-&gt;prepare_response_for_collection( $data );
+		}
+
+		$response = rest_ensure_response( $response );
+
+		// Store pagination values for headers.
+		$per_page = (int) $prepared_args[&#039;number&#039;];
+		$page     = ceil( ( ( (int) $prepared_args[&#039;offset&#039;] ) / $per_page ) + 1 );
+
+		$response-&gt;header( &#039;X-WP-Total&#039;, (int) $total_terms );
+
+		$max_pages = ceil( $total_terms / $per_page );
+
+		$response-&gt;header( &#039;X-WP-TotalPages&#039;, (int) $max_pages );
+
+		$base = add_query_arg( $request-&gt;get_query_params(), rest_url( $this-&gt;namespace . &#039;/&#039; . $this-&gt;rest_base ) );
+		if ( $page &gt; 1 ) {
+			$prev_page = $page - 1;
+
+			if ( $prev_page &gt; $max_pages ) {
+				$prev_page = $max_pages;
+			}
+
+			$prev_link = add_query_arg( &#039;page&#039;, $prev_page, $base );
+			$response-&gt;link_header( &#039;prev&#039;, $prev_link );
+		}
+		if ( $max_pages &gt; $page ) {
+			$next_page = $page + 1;
+			$next_link = add_query_arg( &#039;page&#039;, $next_page, $base );
+
+			$response-&gt;link_header( &#039;next&#039;, $next_link );
+		}
+
+		return $response;
+	}
+
+	/**
+	 * Checks if a request has access to read or edit the specified term.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return bool|WP_Error True if the request has read access for the item, otherwise false or WP_Error object.
+	 */
+	public function get_item_permissions_check( $request ) {
+		$term = $this-&gt;get_term( $request[&#039;id&#039;] );
+		if ( is_wp_error( $term ) ) {
+			return $term;
+		}
+
+		return true;
+	}
+
+	/**
+	 * Gets a single term from a taxonomy.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function get_item( $request ) {
+		$term = $this-&gt;get_term( $request[&#039;id&#039;] );
+		if ( is_wp_error( $term ) ) {
+			return $term;
+		}
+
+		$response = $this-&gt;prepare_item_for_response( $term, $request );
+
+		return rest_ensure_response( $response );
+	}
+
+	/**
+	 * Prepares links for the request.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param object $term Term object.
+	 * @return array Links for the given term.
+	 */
+	protected function prepare_links( $term ) {
+		$base = $this-&gt;namespace . &#039;/&#039; . $this-&gt;rest_base;
+		$links = array(
+			&#039;self&#039;       =&gt; array(
+				&#039;href&#039; =&gt; rest_url( trailingslashit( $base ) . $term-&gt;term_id ),
+			),
+			&#039;collection&#039; =&gt; array(
+				&#039;href&#039; =&gt; rest_url( $base ),
+			),
+			&#039;about&#039;      =&gt; array(
+				&#039;href&#039; =&gt; rest_url( sprintf( &#039;%s/taxonomies/%s&#039;, $this-&gt;namespace, $this-&gt;taxonomy ) ),
+			),
+		);
+
+		if ( $term-&gt;parent ) {
+			$parent_term = get_term( (int) $term-&gt;parent, $term-&gt;taxonomy );
+
+			if ( $parent_term ) {
+				$links[&#039;up&#039;] = array(
+					&#039;href&#039;       =&gt; rest_url( trailingslashit( $base ) . $parent_term-&gt;term_id ),
+					&#039;embeddable&#039; =&gt; true,
+				);
+			}
+		}
+
+		$taxonomy_obj = get_taxonomy( $term-&gt;taxonomy );
+
+		if ( empty( $taxonomy_obj-&gt;object_type ) ) {
+			return $links;
+		}
+
+		$post_type_links = array();
+
+		foreach ( $taxonomy_obj-&gt;object_type as $type ) {
+			$post_type_object = get_post_type_object( $type );
+
+			if ( empty( $post_type_object-&gt;show_in_rest ) ) {
+				continue;
+			}
+
+			$rest_base = ! empty( $post_type_object-&gt;rest_base ) ? $post_type_object-&gt;rest_base : $post_type_object-&gt;name;
+			$post_type_links[] = array(
+				&#039;href&#039; =&gt; add_query_arg( $this-&gt;taxonomy, $term-&gt;term_id, rest_url( sprintf( &#039;%s/%s&#039;, $this-&gt;namespace, $rest_base ) ) ),
+			);
+		}
+
+		if ( ! empty( $post_type_links ) ) {
+			$links[&#039;https://api.w.org/post_type&#039;] = $post_type_links;
+		}
+
+		return $links;
+	}
+
+	/**
+	 * Retrieves the term&#039;s schema, conforming to JSON Schema.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @return array Item schema data.
+	 */
+	public function get_item_schema() {
+		$schema = array(
+			&#039;$schema&#039;    =&gt; &#039;http://json-schema.org/draft-04/schema#&#039;,
+			&#039;title&#039;      =&gt; $this-&gt;taxonomy,
+			&#039;type&#039;       =&gt; &#039;object&#039;,
+			&#039;properties&#039; =&gt; array(
+				&#039;id&#039;          =&gt; array(
+					&#039;description&#039;  =&gt; __( &#039;Unique identifier for the term.&#039; ),
+					&#039;type&#039;         =&gt; &#039;integer&#039;,
+					&#039;context&#039;      =&gt; array( &#039;view&#039; ),
+					&#039;readonly&#039;     =&gt; true,
+				),
+				&#039;count&#039;       =&gt; array(
+					&#039;description&#039;  =&gt; __( &#039;Number of published posts for the term.&#039; ),
+					&#039;type&#039;         =&gt; &#039;integer&#039;,
+					&#039;context&#039;      =&gt; array( &#039;view&#039; ),
+					&#039;readonly&#039;     =&gt; true,
+				),
+				&#039;description&#039; =&gt; array(
+					&#039;description&#039;  =&gt; __( &#039;HTML description of the term.&#039; ),
+					&#039;type&#039;         =&gt; &#039;string&#039;,
+					&#039;context&#039;      =&gt; array( &#039;view&#039; ),
+				),
+				&#039;link&#039;        =&gt; array(
+					&#039;description&#039;  =&gt; __( &#039;URL of the term.&#039; ),
+					&#039;type&#039;         =&gt; &#039;string&#039;,
+					&#039;format&#039;       =&gt; &#039;uri&#039;,
+					&#039;context&#039;      =&gt; array( &#039;view&#039; ),
+					&#039;readonly&#039;     =&gt; true,
+				),
+				&#039;name&#039;        =&gt; array(
+					&#039;description&#039;  =&gt; __( &#039;HTML title for the term.&#039; ),
+					&#039;type&#039;         =&gt; &#039;string&#039;,
+					&#039;context&#039;      =&gt; array( &#039;view&#039; ),
+					&#039;arg_options&#039;  =&gt; array(
+						&#039;sanitize_callback&#039; =&gt; &#039;sanitize_text_field&#039;,
+					),
+					&#039;required&#039;     =&gt; true,
+				),
+				&#039;slug&#039;        =&gt; array(
+					&#039;description&#039;  =&gt; __( &#039;An alphanumeric identifier for the term unique to its type.&#039; ),
+					&#039;type&#039;         =&gt; &#039;string&#039;,
+					&#039;context&#039;      =&gt; array( &#039;view&#039; ),
+					&#039;arg_options&#039;  =&gt; array(
+						&#039;sanitize_callback&#039; =&gt; array( $this, &#039;sanitize_slug&#039; ),
+					),
+				),
+				&#039;taxonomy&#039;    =&gt; array(
+					&#039;description&#039;  =&gt; __( &#039;Type attribution for the term.&#039; ),
+					&#039;type&#039;         =&gt; &#039;string&#039;,
+					&#039;enum&#039;         =&gt; array( $this-&gt;taxonomy ),
+					&#039;context&#039;      =&gt; array( &#039;view&#039; ),
+					&#039;readonly&#039;     =&gt; true,
+				),
+			),
+		);
+
+		$taxonomy = get_taxonomy( $this-&gt;taxonomy );
+
+		if ( $taxonomy-&gt;hierarchical ) {
+			$schema[&#039;properties&#039;][&#039;parent&#039;] = array(
+				&#039;description&#039;  =&gt; __( &#039;The parent term ID.&#039; ),
+				&#039;type&#039;         =&gt; &#039;integer&#039;,
+				&#039;context&#039;      =&gt; array( &#039;view&#039; ),
+			);
+		}
+
+		$schema[&#039;properties&#039;][&#039;meta&#039;] = $this-&gt;meta-&gt;get_field_schema();
+
+		return $this-&gt;add_additional_fields_schema( $schema );
+	}
+
+	/**
+	 * Retrieves the query params for collections.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @return array Collection parameters.
+	 */
+	public function get_collection_params() {
+		$query_params = parent::get_collection_params();
+		$taxonomy = get_taxonomy( $this-&gt;taxonomy );
+
+		$query_params[&#039;context&#039;] = array(
+			&#039;description&#039;       =&gt; __( &#039;Scope under which the request is made; determines fields present in response.&#039; ),
+			&#039;type&#039;              =&gt; &#039;string&#039;,
+			&#039;default&#039;           =&gt; &#039;view&#039;,
+			&#039;enum&#039;              =&gt; array(
+				&#039;view&#039;
+			),
+		);
+
+		$query_params[&#039;exclude&#039;] = array(
+			&#039;description&#039;       =&gt; __( &#039;Ensure result set excludes specific IDs.&#039; ),
+			&#039;type&#039;              =&gt; &#039;array&#039;,
+			&#039;items&#039;             =&gt; array(
+				&#039;type&#039;          =&gt; &#039;integer&#039;,
+			),
+			&#039;default&#039;           =&gt; array(),
+		);
+
+		$query_params[&#039;include&#039;] = array(
+			&#039;description&#039;       =&gt; __( &#039;Limit result set to specific IDs.&#039; ),
+			&#039;type&#039;              =&gt; &#039;array&#039;,
+			&#039;items&#039;             =&gt; array(
+				&#039;type&#039;          =&gt; &#039;integer&#039;,
+			),
+			&#039;default&#039;           =&gt; array(),
+		);
+
+		if ( ! $taxonomy-&gt;hierarchical ) {
+			$query_params[&#039;offset&#039;] = array(
+				&#039;description&#039;       =&gt; __( &#039;Offset the result set by a specific number of items.&#039; ),
+				&#039;type&#039;              =&gt; &#039;integer&#039;,
+			);
+		}
+
+		$query_params[&#039;order&#039;] = array(
+			&#039;description&#039;       =&gt; __( &#039;Order sort attribute ascending or descending.&#039; ),
+			&#039;type&#039;              =&gt; &#039;string&#039;,
+			&#039;default&#039;           =&gt; &#039;asc&#039;,
+			&#039;enum&#039;              =&gt; array(
+				&#039;asc&#039;,
+				&#039;desc&#039;,
+			),
+		);
+
+		$query_params[&#039;orderby&#039;] = array(
+			&#039;description&#039;       =&gt; __( &#039;Sort collection by term attribute.&#039; ),
+			&#039;type&#039;              =&gt; &#039;string&#039;,
+			&#039;default&#039;           =&gt; &#039;name&#039;,
+			&#039;enum&#039;              =&gt; array(
+				&#039;id&#039;,
+				&#039;name&#039;,
+				&#039;slug&#039;,
+				&#039;count&#039;,
+			),
+		);
+
+		$query_params[&#039;hide_empty&#039;] = array(
+			&#039;description&#039;       =&gt; __( &#039;Whether to hide terms not assigned to any posts.&#039; ),
+			&#039;type&#039;              =&gt; &#039;boolean&#039;,
+			&#039;default&#039;           =&gt; false,
+		);
+
+		if ( $taxonomy-&gt;hierarchical ) {
+			$query_params[&#039;parent&#039;] = array(
+				&#039;description&#039;       =&gt; __( &#039;Limit result set to terms assigned to a specific parent.&#039; ),
+				&#039;type&#039;              =&gt; &#039;integer&#039;,
+			);
+		}
+
+		$query_params[&#039;post&#039;] = array(
+			&#039;description&#039;       =&gt; __( &#039;Limit result set to terms assigned to a specific post.&#039; ),
+			&#039;type&#039;              =&gt; &#039;integer&#039;,
+			&#039;default&#039;           =&gt; null,
+		);
+
+		$query_params[&#039;slug&#039;] = array(
+			&#039;description&#039;       =&gt; __( &#039;Limit result set to terms with one or more specific slugs.&#039; ),
+			&#039;type&#039;              =&gt; &#039;array&#039;,
+			&#039;items&#039;             =&gt; array(
+				&#039;type&#039;          =&gt; &#039;string&#039;
+			),
+		);
+
+		/**
+		 * Filter collection parameters for the terms controller.
+		 *
+		 * The dynamic part of the filter `$this-&gt;taxonomy` refers to the taxonomy
+		 * slug for the controller.
+		 *
+		 * This filter registers the collection parameter, but does not map the
+		 * collection parameter to an internal WP_Term_Query parameter.  Use the
+		 * `rest_{$this-&gt;taxonomy}_query` filter to set WP_Term_Query parameters.
+		 *
+		 * @since 2.0.0
+		 *
+		 * @param array       $query_params JSON Schema-formatted collection parameters.
+		 * @param WP_Taxonomy $taxonomy     Taxonomy object.
+		 */
+		return apply_filters( &quot;rest_{$this-&gt;taxonomy}_collection_params&quot;, $query_params, $taxonomy );
+	}
+
+	/**
+	 * Checks that the taxonomy is valid.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param string $taxonomy Taxonomy to check.
+	 * @return bool Whether the taxonomy is allowed for REST management.
+	 */
+	protected function check_is_taxonomy_allowed( $taxonomy ) {
+		$taxonomy_obj = get_taxonomy( $taxonomy );
+		if ( $taxonomy_obj &amp;&amp; ! empty( $taxonomy_obj-&gt;show_in_rest ) ) {
+			return true;
+		}
+		return false;
+	}
+}
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

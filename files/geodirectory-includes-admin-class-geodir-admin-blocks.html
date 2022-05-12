@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-admin-blocks.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory Admin
+ *
+ * @class    GeoDir_Admin
+ * @author   AyeCode
+ * @category Admin
+ * @package  GeoDirectory/Admin
+ * @version  2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit; // Exit if accessed directly
+}
+
+/**
+ * GeoDir_Admin_Blocks class.
+ *
+ * Adds blocks for all GD shortcodes.
+ */
+class GeoDir_Admin_Blocks {
+
+	/**
+	 * Returns the instance.
+	 *
+	 * @since  1.0.0
+	 * @access public
+	 * @return object
+	 */
+	public static function get_instance() {
+
+		static $instance = null;
+
+		if ( is_null( $instance ) ) {
+			$instance = new self;
+			$instance-&gt;includes();
+			$instance-&gt;setup_actions();
+		}
+
+		return $instance;
+	}
+
+	/**
+	 * Constructor method.
+	 *
+	 * @since  1.0.0
+	 * @access private
+	 * @return void
+	 */
+	private function __construct() {}
+
+    /**
+     * Includes files.
+     *
+     * @since 2.0.0
+     * @access private
+     */
+	private function includes() {
+		
+	}
+
+	/**
+	 * Sets up main plugin actions and filters.
+	 *
+	 * @since  1.0.0
+	 * @access public
+	 * @return void
+	 */
+	private function setup_actions() {
+		global $wp_version;
+
+		add_action( &#039;enqueue_block_editor_assets&#039;, array( $this, &#039;enqueue&#039; ) );
+
+		if( version_compare( $wp_version, &quot;5.8-beta&quot;, &quot;&lt;&quot; )){
+			add_filter( &#039;block_categories&#039;, array( $this, &#039;block_category&#039;) , 8, 2 );
+		}else{
+			add_filter( &#039;block_categories_all&#039;, array( $this, &#039;block_category&#039;) , 8, 2 );
+		}
+
+		add_action( &#039;init&#039;, array( $this, &#039;register_block_patterns&#039;), 20  );
+	}
+
+	public function register_block_patterns(){
+
+		if(function_exists(&#039;register_block_pattern_category&#039;)){
+			register_block_pattern_category(
+				&#039;geodirectory-parts&#039;,
+				array( &#039;label&#039; =&gt; __( &#039;GeoDirectory Parts&#039;, &#039;geodirectory&#039; ) )
+			);
+
+//			register_block_pattern_category(
+//				&#039;geodirectory-archives&#039;,
+//				array( &#039;label&#039; =&gt; __( &#039;GeoDirectory Archives&#039;, &#039;geodirectory&#039; ) )
+//			);
+
+			$this-&gt;search_bp();
+//			$this-&gt;archives_bp();
+			$this-&gt;category_bp();
+		}
+
+	}
+
+
+
+	public function archives_bp(){
+
+		$post_types = geodir_get_posttypes(&#039;options-plural&#039;);
+
+		$post_type_option = count($post_types) &gt; 1 ? &quot;post_type=&#039;&#039;&quot; : &#039;&#039;;
+		$post_type_hide_option = count($post_types) &gt; 1 ? &quot; post_type_hide=&#039;false&#039; &quot; : &#039;&#039;;
+		/**
+		 * Filter search block pattern attributes.
+		 *
+		 * @since 2.1.1.0
+		 *
+		 * @param string $attrs Attributes.
+		 */
+		$extra_attrs = apply_filters( &#039;geodir_register_block_pattern_search_attrs&#039;, &#039;&#039; );
+
+		register_block_pattern(
+			&#039;geodirectory/search-1&#039;,
+			array(
+				&#039;title&#039;       =&gt; __( &#039;GD &gt; Archive style 1&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; &#039;&#039;,
+				&#039;categories&#039;  =&gt; array( &#039;geodirectory-archives&#039; ),
+				&#039;content&#039;     =&gt;
+					&#039;&lt;!-- wp:group {&quot;className&quot;:&quot;bsui&quot;,&quot;layout&quot;:{&quot;inherit&quot;:false}} --&gt;&lt;div class=&quot;wp-block-group bsui&quot;&gt;&#039;.
+					&#039;&lt;!-- wp:group {&quot;className&quot;:&quot;container&quot;,&quot;layout&quot;:{&quot;inherit&quot;:false}} --&gt;&lt;div class=&quot;wp-block-group container-fluid&quot;&gt;&#039;.
+					&#039;&lt;!-- wp:group {&quot;className&quot;:&quot;row&quot;,&quot;layout&quot;:{&quot;inherit&quot;:false}} --&gt;&lt;div class=&quot;wp-block-group row&quot;&gt;&#039;.
+					&#039;&lt;!-- wp:group {&quot;className&quot;:&quot;col&quot;,&quot;layout&quot;:{&quot;inherit&quot;:false}} --&gt;&lt;div class=&quot;wp-block-group col&quot;&gt;&#039;.
+					GeoDir_Defaults::page_archive_content(false, true).
+					&#039;&lt;/div&gt;&lt;!-- /wp:group --&gt;&#039;.
+					&#039;&lt;/div&gt;&lt;!-- /wp:group --&gt;&#039;.
+					&#039;&lt;/div&gt;&lt;!-- /wp:group --&gt;&#039;.
+					&#039;&lt;/div&gt;&lt;!-- /wp:group --&gt;&#039;,
+			)
+		);
+
+//		register_block_pattern(
+//			&#039;geodirectory/search-2&#039;,
+//			array(
+//				&#039;title&#039;       =&gt; __( &#039;GD &gt; Search Style 2&#039;, &#039;geodirectory&#039; ),
+//				&#039;description&#039; =&gt; &#039;&#039;,
+//				&#039;categories&#039;  =&gt; array( &#039;geodirectory-archives&#039; ),
+//				&#039;content&#039;     =&gt; &quot;&lt;!-- wp:geodirectory/geodir-widget-search {\&quot;show_advanced\&quot;:true,\&quot;pt\&quot;:\&quot;3\&quot;,\&quot;pr\&quot;:\&quot;3\&quot;,\&quot;pl\&quot;:\&quot;3\&quot;,\&quot;border\&quot;:\&quot;gray\&quot;,\&quot;rounded\&quot;:\&quot;rounded\&quot;,\&quot;shadow\&quot;:\&quot;shadow-sm\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+//&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-search\&quot;&gt;[gd_search &quot;.$post_type_option.$post_type_hide_option.&quot;bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;3&#039;  pr=&#039;3&#039;  pb=&#039;&#039;  pl=&#039;3&#039;  border=&#039;gray&#039;  rounded=&#039;rounded&#039;  rounded_size=&#039;&#039;  shadow=&#039;shadow-sm&#039;&quot; . $extra_attrs . &quot; ]&lt;/div&gt;
+//&lt;!-- /wp:geodirectory/geodir-widget-search --&gt;&quot;,
+//			)
+//		);
+	}
+
+	public function search_bp() {
+		$post_types = geodir_get_posttypes( &#039;options-plural&#039; );
+
+		$post_type_attrs = count( $post_types ) &gt; 1 ? &quot; post_type=&#039;&#039;  post_type_hide=&#039;false&#039;&quot; : &quot;&quot;;
+
+		/**
+		 * Filter search block pattern attributes.
+		 *
+		 * @since 2.1.1.0
+		 *
+		 * @param string $attrs Attributes.
+		 */
+		$extra_attrs = apply_filters( &#039;geodir_register_block_pattern_search_attrs&#039;, &#039;&#039; );
+
+		register_block_pattern(
+			&#039;geodirectory/search-1&#039;,
+			array(
+				&#039;title&#039;       =&gt; __( &#039;GD &gt; Search Style 1&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; &#039;&#039;,
+				&#039;categories&#039;  =&gt; array( &#039;geodirectory-parts&#039; ),
+				&#039;content&#039;     =&gt; &quot;&lt;!-- wp:geodirectory/geodir-widget-search {\&quot;bg\&quot;:\&quot;light\&quot;,\&quot;pt\&quot;:\&quot;3\&quot;,\&quot;pr\&quot;:\&quot;5\&quot;,\&quot;pl\&quot;:\&quot;5\&quot;,\&quot;border\&quot;:\&quot;gray\&quot;,\&quot;rounded\&quot;:\&quot;rounded-pill\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-search\&quot;&gt;[gd_search&quot; . $post_type_attrs . &quot;  hide_search_input=&#039;false&#039;  hide_near_input=&#039;false&#039;  bg=&#039;light&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;3&#039;  pr=&#039;5&#039;  pb=&#039;&#039;  pl=&#039;5&#039;  border=&#039;gray&#039;  rounded=&#039;rounded-pill&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039;  show=&#039;&#039;&quot; . $extra_attrs . &quot; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-search --&gt;&quot;,
+			)
+		);
+
+		register_block_pattern(
+			&#039;geodirectory/search-2&#039;,
+			array(
+				&#039;title&#039;       =&gt; __( &#039;GD &gt; Search Style 2&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; &#039;&#039;,
+				&#039;categories&#039;  =&gt; array( &#039;geodirectory-parts&#039; ),
+				&#039;content&#039;     =&gt; &quot;&lt;!-- wp:geodirectory/geodir-widget-search {\&quot;show_advanced\&quot;:true,\&quot;pt\&quot;:\&quot;3\&quot;,\&quot;pr\&quot;:\&quot;3\&quot;,\&quot;pl\&quot;:\&quot;3\&quot;,\&quot;border\&quot;:\&quot;gray\&quot;,\&quot;rounded\&quot;:\&quot;rounded\&quot;,\&quot;shadow\&quot;:\&quot;shadow-sm\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-search\&quot;&gt;[gd_search&quot; . $post_type_attrs . &quot;  hide_search_input=&#039;false&#039;  hide_near_input=&#039;false&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;3&#039;  pr=&#039;3&#039;  pb=&#039;&#039;  pl=&#039;3&#039;  border=&#039;gray&#039;  rounded=&#039;rounded&#039;  rounded_size=&#039;&#039;  shadow=&#039;shadow-sm&#039;  show=&#039;&#039;&quot; . $extra_attrs . &quot; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-search --&gt;&quot;,
+			)
+		);
+	}
+
+	public function category_bp(){
+		register_block_pattern(
+			&#039;geodirectory/categories-1&#039;,
+			array(
+				&#039;title&#039;       =&gt; __( &#039;GD &gt; Categories Style 1&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; &#039;&#039;,
+				&#039;categories&#039;  =&gt; array( &#039;geodirectory-parts&#039; ),
+				&#039;content&#039;     =&gt; &quot;&lt;!-- wp:geodirectory/geodir-widget-categories {\&quot;hide_empty\&quot;:true,\&quot;design_type\&quot;:\&quot;icon-top\&quot;,\&quot;icon_size\&quot;:\&quot;box-medium\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-categories\&quot;&gt;[gd_categories title=&#039;&#039;  post_type=&#039;0&#039;  cpt_title=&#039;false&#039;  title_tag=&#039;h4&#039;  cpt_ajax=&#039;false&#039;  filter_ids=&#039;&#039;  hide_empty=&#039;true&#039;  hide_count=&#039;false&#039;  hide_icon=&#039;false&#039;  use_image=&#039;false&#039;  image_size=&#039;medium&#039;  cpt_left=&#039;false&#039;  sort_by=&#039;count&#039;  max_level=&#039;1&#039;  max_count=&#039;all&#039;  max_count_child=&#039;all&#039;  no_cpt_filter=&#039;false&#039;  no_cat_filter=&#039;false&#039;  widget_title_tag=&#039;&#039;  widget_title_size_class=&#039;&#039;  widget_title_align_class=&#039;&#039;  widget_title_color_class=&#039;&#039;  widget_title_border_class=&#039;&#039;  widget_title_border_color_class=&#039;&#039;  widget_title_mt_class=&#039;&#039;  widget_title_mr_class=&#039;&#039;  widget_title_mb_class=&#039;&#039;  widget_title_ml_class=&#039;&#039;  widget_title_pt_class=&#039;&#039;  widget_title_pr_class=&#039;&#039;  widget_title_pb_class=&#039;&#039;  widget_title_pl_class=&#039;&#039;  design_type=&#039;icon-top&#039;  row_items=&#039;&#039; row_positioning=&#039;&#039;  card_padding_inside=&#039;&#039;  card_color=&#039;&#039;  card_shadow=&#039;&#039;  icon_color=&#039;&#039;  icon_size=&#039;box-medium&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-categories --&gt;&quot;,
+			)
+		);
+
+		register_block_pattern(
+			&#039;geodirectory/categories-2&#039;,
+			array(
+				&#039;title&#039;       =&gt; __( &#039;GD &gt; Categories Style 2&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; &#039;&#039;,
+				&#039;categories&#039;  =&gt; array( &#039;geodirectory-parts&#039; ),
+				&#039;content&#039;     =&gt; &quot;&lt;!-- wp:geodirectory/geodir-widget-categories {\&quot;hide_empty\&quot;:true,\&quot;hide_count\&quot;:true,\&quot;design_type\&quot;:\&quot;icon-left\&quot;,\&quot;card_padding_inside\&quot;:\&quot;1\&quot;,\&quot;card_color\&quot;:\&quot;indigo\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-categories\&quot;&gt;[gd_categories title=&#039;&#039;  post_type=&#039;0&#039;  cpt_title=&#039;false&#039;  title_tag=&#039;h4&#039;  cpt_ajax=&#039;false&#039;  filter_ids=&#039;&#039;  hide_empty=&#039;true&#039;  hide_count=&#039;true&#039;  hide_icon=&#039;false&#039;  use_image=&#039;false&#039;  image_size=&#039;medium&#039;  cpt_left=&#039;false&#039;  sort_by=&#039;count&#039;  max_level=&#039;1&#039;  max_count=&#039;all&#039;  max_count_child=&#039;all&#039;  no_cpt_filter=&#039;false&#039;  no_cat_filter=&#039;false&#039;  widget_title_tag=&#039;&#039;  widget_title_size_class=&#039;&#039;  widget_title_align_class=&#039;&#039;  widget_title_color_class=&#039;&#039;  widget_title_border_class=&#039;&#039;  widget_title_border_color_class=&#039;&#039;  widget_title_mt_class=&#039;&#039;  widget_title_mr_class=&#039;&#039;  widget_title_mb_class=&#039;&#039;  widget_title_ml_class=&#039;&#039;  widget_title_pt_class=&#039;&#039;  widget_title_pr_class=&#039;&#039;  widget_title_pb_class=&#039;&#039;  widget_title_pl_class=&#039;&#039;  design_type=&#039;icon-left&#039;  row_items=&#039;&#039;  row_positioning=&#039;&#039;  card_padding_inside=&#039;1&#039;  card_color=&#039;indigo&#039;  card_shadow=&#039;&#039;  icon_color=&#039;&#039;  icon_size=&#039;&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-categories --&gt;&quot;,
+			)
+		);
+	}
+
+	/**
+	 * Add custom block category.
+	 *
+	 * @param $categories
+	 * @param $post
+	 *
+	 * @return array
+	 */
+	function block_category( $categories, $post ) {
+
+		return array_merge(
+			array(
+				array(
+					&#039;slug&#039; =&gt; &#039;geodirectory&#039;,
+					&#039;title&#039; =&gt; __( &#039;GeoDirectory&#039;, &#039;geodirectory&#039; ),
+					&#039;icon&#039;  =&gt; &#039;wordpress&#039;, // gets changed via JS
+				),
+			),
+			$categories
+		);
+	}
+
+    /**
+     * Enqueue scripts and styles.
+     *
+     * @since 2.0.0
+     */
+	public function enqueue() {
+		global $pagenow,$wp_version;
+		$design_style = geodir_design_style();
+		$suffix = defined( &#039;SCRIPT_DEBUG&#039; ) &amp;&amp; SCRIPT_DEBUG ? &#039;&#039; : &#039;.min&#039;;
+
+		$deps = ( $pagenow == &#039;widgets.php&#039; || ( $pagenow == &#039;site-editor.php&#039; &amp;&amp; ( function_exists( &#039;wp_is_block_theme&#039; ) &amp;&amp; wp_is_block_theme() ) ) ) &amp;&amp; version_compare( $wp_version, &#039;5.8&#039;, &#039;&gt;=&#039; ) ? array( &#039;wp-blocks&#039;, &#039;wp-element&#039;) : array( &#039;wp-blocks&#039;, &#039;wp-element&#039;, &#039;wp-editor&#039; );
+		wp_enqueue_script(
+			&#039;gd-gutenberg&#039;,
+			geodir_plugin_url() . &#039;/assets/js/blocks&#039;.$suffix.&#039;.js&#039;,
+			$deps,
+			GEODIRECTORY_VERSION
+		);
+
+		if(!$design_style){
+			wp_enqueue_style(
+				&#039;gd-gutenberg&#039;,
+				geodir_plugin_url() . &#039;/assets/css/block_editor.css&#039;,
+				array( &#039;wp-edit-blocks&#039; ),
+				GEODIRECTORY_VERSION
+			);
+		}
+		
+	}
+}
+// init the class.
+GeoDir_Admin_Blocks::get_instance();</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

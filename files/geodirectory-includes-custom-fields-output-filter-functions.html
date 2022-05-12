@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">output-filter-functions.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_predefined_custom_field_output_twitter_feed">
+        geodir_predefined_custom_field_output_twitter_feed()
+        <a href="#function_geodir_predefined_custom_field_output_twitter_feed" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/custom-fields/output-filter-functions.php"><a href="../files/geodirectory-includes-custom-fields-output-filter-functions.html#source-view.19">geodirectory/includes/custom-fields/output-filter-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Filter the custom field output.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_predefined_custom_field_output_twitter_feed</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cf</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$html</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The html to be output.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The location name of the output location.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cf</span>
+                : <span class="phpdocumentor-signature__argument__return-type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The custom field object info.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.6.9</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_predefined_custom_field_output_distanceto">
+        geodir_predefined_custom_field_output_distanceto()
+        <a href="#function_geodir_predefined_custom_field_output_distanceto" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/custom-fields/output-filter-functions.php"><a href="../files/geodirectory-includes-custom-fields-output-filter-functions.html#source-view.70">geodirectory/includes/custom-fields/output-filter-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">70</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Filter distance to custom field output.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_predefined_custom_field_output_distanceto</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cf</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$html</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The html to filter.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The location to output the html.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cf</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The custom field array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$output</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The output string that tells us what to output.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.67</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_post_badge_match_value">
+        geodir_post_badge_match_value()
+        <a href="#function_geodir_post_badge_match_value" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/custom-fields/output-filter-functions.php"><a href="../files/geodirectory-includes-custom-fields-output-filter-functions.html#source-view.151">geodirectory/includes/custom-fields/output-filter-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">151</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Filter post badge match value.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_post_badge_match_value</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$match_value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$match_field</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$args</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$find_post</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$field</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$match_value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Match value.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$match_field</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Match field.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$args</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The badge parameters.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$find_post</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post object.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$field</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The custom field array.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.75</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_cf_custom">
+        geodir_cf_custom()
+        <a href="#function_geodir_cf_custom" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/custom-fields/output-filter-functions.php"><a href="../files/geodirectory-includes-custom-fields-output-filter-functions.html#source-view.206">geodirectory/includes/custom-fields/output-filter-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">206</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_cf_custom</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cf</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$p</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$html</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cf</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$p</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$output</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_custom_field_output_map_directions">
+        geodir_custom_field_output_map_directions()
+        <a href="#function_geodir_custom_field_output_map_directions" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/custom-fields/output-filter-functions.php"><a href="../files/geodirectory-includes-custom-fields-output-filter-functions.html#source-view.357">geodirectory/includes/custom-fields/output-filter-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">357</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Filter map directions to custom field output.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_custom_field_output_map_directions</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cf</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_gd_post</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$html</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The html to filter.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The location to output the html.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cf</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The custom field array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$output</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The output string that tells us what to output.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$_gd_post</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.86</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_custom_field_output_post_status">
+        geodir_custom_field_output_post_status()
+        <a href="#function_geodir_custom_field_output_post_status" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/custom-fields/output-filter-functions.php"><a href="../files/geodirectory-includes-custom-fields-output-filter-functions.html#source-view.438">geodirectory/includes/custom-fields/output-filter-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">438</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Filter post status post meta field output.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_custom_field_output_post_status</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cf</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_gd_post</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$html</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The html to filter.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The location to output the html.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cf</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The custom field array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$output</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The output string that tells us what to output.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$_gd_post</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.94</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_custom_field_output_default_category">
+        geodir_custom_field_output_default_category()
+        <a href="#function_geodir_custom_field_output_default_category" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/custom-fields/output-filter-functions.php"><a href="../files/geodirectory-includes-custom-fields-output-filter-functions.html#source-view.507">geodirectory/includes/custom-fields/output-filter-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">507</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Filter default category post meta field output.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_custom_field_output_default_category</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cf</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_gd_post</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$html</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The html to filter.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The location to output the html.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cf</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The custom field array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$output</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The output string that tells us what to output.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$_gd_post</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.94</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_custom_field_output_business_hours_day">
+        geodir_custom_field_output_business_hours_day()
+        <a href="#function_geodir_custom_field_output_business_hours_day" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/custom-fields/output-filter-functions.php"><a href="../files/geodirectory-includes-custom-fields-output-filter-functions.html#source-view.589">geodirectory/includes/custom-fields/output-filter-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">589</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Output business hours for the day.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_custom_field_output_business_hours_day</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cf</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$p</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$html</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The html to filter.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The location to output the html.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cf</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The custom field array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$p</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The post id.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$output</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The output string that tells us what to output.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.1.0.7</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_custom_field_output_post_link">
+        geodir_custom_field_output_post_link()
+        <a href="#function_geodir_custom_field_output_post_link" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/custom-fields/output-filter-functions.php"><a href="../files/geodirectory-includes-custom-fields-output-filter-functions.html#source-view.701">geodirectory/includes/custom-fields/output-filter-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">701</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Filter post link post meta field output.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_custom_field_output_post_link</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cf</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_gd_post</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$html</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The html to filter.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The location to output the html.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cf</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The custom field array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$output</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The output string that tells us what to output.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$_gd_post</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.1.0.20</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Custom fields output functions for the listing location.
+ *
+ * @since 2.0.0
+ * @package GeoDirectory
+ */
+
+/**
+ * Filter the custom field output.
+ *
+ * @param string $html The html to be output.
+ * @param string $location The location name of the output location.
+ * @param object $cf The custom field object info.
+ *
+ * @since 1.6.9
+ * @return string The html to output.
+ */
+function geodir_predefined_custom_field_output_twitter_feed($html,$location,$cf){
+	global $gd_post;
+
+
+	if (isset($gd_post-&gt;{$cf[&#039;htmlvar_name&#039;]}) &amp;&amp; $gd_post-&gt;{$cf[&#039;htmlvar_name&#039;]} != &#039;&#039; ):
+
+		$class = ($cf[&#039;htmlvar_name&#039;] == &#039;geodir_timing&#039;) ? &quot;geodir-i-time&quot; : &quot;geodir-i-text&quot;;
+
+		$field_icon = geodir_field_icon_proccess($cf);
+		if (strpos($field_icon, &#039;http&#039;) !== false) {
+			$field_icon_af = &#039;&#039;;
+		} elseif ($field_icon == &#039;&#039;) {
+			$field_icon_af = ($cf[&#039;htmlvar_name&#039;] == &#039;geodir_timing&#039;) ? &#039;&lt;i class=&quot;fas fa-clock&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&#039; : &quot;&quot;;
+		} else {
+			$field_icon_af = $field_icon;
+			$field_icon = &#039;&#039;;
+		}
+
+		// Database value.
+		if ( ! empty( $output ) &amp;&amp; isset( $output[&#039;raw&#039;] ) ) {
+			return $gd_post-&gt;{$cf[&#039;htmlvar_name&#039;]};
+		}
+
+		$value = &#039;&lt;a class=&quot;twitter-timeline&quot; data-height=&quot;600&quot; data-dnt=&quot;true&quot; href=&quot;https://twitter.com/&#039;.$gd_post-&gt;{$cf[&#039;htmlvar_name&#039;]}.&#039;&quot;&gt;&#039; . wp_sprintf( __( &#039;Tweets by %s&#039;, &#039;geodirectory&#039; ), $gd_post-&gt;{$cf[&#039;htmlvar_name&#039;]} ) . &#039;&lt;/a&gt; &lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&#039;;
+
+		// Stripped value.
+		if ( ! empty( $output ) &amp;&amp; isset( $output[&#039;strip&#039;] ) ) {
+			return $value;
+		}
+
+		$html = &#039;&lt;div class=&quot;geodir_post_meta &#039; . $cf[&#039;css_class&#039;] . &#039; geodir-field-&#039; . $cf[&#039;htmlvar_name&#039;] . &#039;&quot; style=&quot;clear:both;&quot;&gt;&#039;;
+		$html .= $value;
+		$html .= &#039;&lt;/div&gt;&#039;;
+
+	endif;
+
+	return $html;
+}
+add_filter(&#039;geodir_custom_field_output_text_key_twitter_feed&#039;,&#039;geodir_predefined_custom_field_output_twitter_feed&#039;,10,3);
+
+/**
+ * Filter distance to custom field output.
+ *
+ * @since 2.0.0.67
+ *
+ * @param string $html The html to filter.
+ * @param string $location The location to output the html.
+ * @param array $cf The custom field array.
+ * @param string $output The output string that tells us what to output.
+ * @return string The html to output.
+ */
+function geodir_predefined_custom_field_output_distanceto( $html, $location, $cf, $output ) {
+	global $gd_post;
+
+	$htmlvar_name = $cf[&#039;htmlvar_name&#039;];
+
+	if ( ! empty( $gd_post-&gt;{$htmlvar_name} ) ) {
+		$label = trim( $cf[&#039;frontend_title&#039;] );
+		$value = $gd_post-&gt;{$htmlvar_name};
+		$_value = explode( &#039;,&#039;, $value );
+		$latitude = ! empty( $_value[0] ) ? trim( $_value[0] ) : &#039;&#039;;
+		$longitude = ! empty( $_value[1] ) ? trim( $_value[1] ) : &#039;&#039;;
+		$post_latitude = ! empty( $gd_post-&gt;latitude ) ? $gd_post-&gt;latitude : &#039;&#039;;
+		$post_longitude = ! empty( $gd_post-&gt;longitude ) ? trim( $gd_post-&gt;longitude ) : &#039;&#039;;
+
+		if ( empty( $latitude ) || empty( $longitude ) || empty( $post_latitude ) || empty( $post_longitude ) ) {
+			return &#039;&lt;!-- --&gt;&#039;;
+		}
+
+		$start_point = array( &#039;latitude&#039; =&gt; $latitude, &#039;longitude&#039; =&gt; $longitude );
+		$end_point = array( &#039;latitude&#039; =&gt; $post_latitude, &#039;longitude&#039; =&gt; $post_longitude );
+
+		$unit = geodir_get_option( &#039;search_distance_long&#039;, &#039;miles&#039; );
+		$distance = geodir_calculateDistanceFromLatLong( $start_point, $end_point, $unit );
+		$_distance = geodir_show_distance( geodir_sanitize_float( $distance ) );
+
+		$field_icon = geodir_field_icon_proccess( $cf );
+		$output = geodir_field_output_process($output);
+		if ( strpos( $field_icon, &#039;http&#039; ) !== false ) {
+			$field_icon_af = &#039;&#039;;
+		} elseif ( $field_icon == &#039;&#039; ) {
+			$field_icon_af = &#039;&lt;i class=&quot;fas fa-road&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&#039;;
+		} else {
+			$field_icon_af = $field_icon;
+			$field_icon    = &#039;&#039;;
+		}
+
+		if ( ! empty( $output ) &amp;&amp; isset( $output[&#039;raw&#039;] ) ) {
+			// Database value.
+			return $value;
+		} elseif ( ! empty( $output ) &amp;&amp; isset( $output[&#039;strip&#039;] ) ) {
+			// Stripped value.
+			return $_distance;
+		}
+
+		$html = &#039;&lt;div class=&quot;geodir_post_meta &#039; . $cf[&#039;css_class&#039;] . &#039; geodir-field-&#039; . $htmlvar_name . &#039;&quot;&gt;&#039;;
+
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) $html .= &#039;&lt;span class=&quot;geodir_post_meta_icon geodir-i-distanceto&quot; style=&quot;&#039; . $field_icon . &#039;&quot;&gt;&#039; . $field_icon_af;
+		if ( $output == &#039;&#039; || isset( $output[&#039;label&#039;] ) ) $html .= $label ? &#039;&lt;span class=&quot;geodir_post_meta_title&quot;&gt;&#039; . __( $label, &#039;geodirectory&#039; ) . &#039;: &#039; . &#039;&lt;/span&gt;&#039; : &#039;&#039;;
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) $html .= &#039;&lt;/span&gt;&#039;;
+		if ( $output == &#039;&#039; || isset( $output[&#039;value&#039;] ) ) {
+			$google_map_link = &#039;https://www.google.com/maps/dir/&#039; . $start_point[&#039;latitude&#039;] . &#039;,&#039; . $start_point[&#039;longitude&#039;] . &#039;/&#039; . $end_point[&#039;latitude&#039;] . &#039;,&#039; . $end_point[&#039;longitude&#039;] . &#039;/&#039;;
+			$google_map_link = apply_filters( &#039;geodir_custom_field_output_distanceto_on_google_map&#039;, $google_map_link, $start_point, $end_point );
+
+			if ( $google_map_link ) {
+				$html .= &#039;&lt;a href=&quot;&#039; . esc_url( $google_map_link ) . &#039;&quot; target=&quot;_blank&quot; title=&quot;&#039; . esc_attr__( &#039;View on Google map&#039;, &#039;geodirectory&#039; ) . &#039;&quot;&gt;&#039;;
+			}
+			$html .= $_distance;
+			if ( $google_map_link ) {
+				$html .= &#039;&lt;/a&gt;&#039;;
+			}
+		}
+
+		$html .= &#039;&lt;/div&gt;&#039;;
+	}
+
+	return $html;
+}
+add_filter( &#039;geodir_custom_field_output_text_key_distanceto&#039;, &#039;geodir_predefined_custom_field_output_distanceto&#039;, 10, 4 );
+
+/**
+ * Filter post badge match value.
+ *
+ * @since 2.0.0.75
+ *
+ * @param string $match_value Match value.
+ * @param string $match_field Match field.
+ * @param array $args The badge parameters.
+ * @param array $find_post Post object.
+ * @param array $field The custom field array.
+ * @return string Filtered value.
+ */
+function geodir_post_badge_match_value( $match_value, $match_field, $args, $find_post, $field ) {
+	if ( $match_field ) {
+		if ( in_array( $match_field, array( &#039;post_date&#039;, &#039;post_modified&#039;, &#039;post_date_gmt&#039;, &#039;post_modified_gmt&#039; ) ) ) {
+			$date_format = geodir_date_time_format();
+			$date_format = apply_filters( &#039;geodir_post_badge_date_time_format&#039;, $date_format, $match_field, $args, $find_post, $field );
+
+			if ( $date_format ) {
+				$match_value = ! empty( $match_value ) &amp;&amp; strpos( $match_value, &#039;0000-00-00&#039; ) === false ? date_i18n( $date_format, strtotime( $match_value ) ) : &#039;&#039;;
+			}
+		}
+
+		// Featured image
+		if ( ! empty( $match_value ) &amp;&amp; $match_field == &#039;featured_image&#039; &amp;&amp; ! empty( $args[&#039;badge&#039;] ) &amp;&amp; strpos( $args[&#039;badge&#039;], &#039;%%input%%&#039; ) !== false ) {
+			$upload_dir = wp_upload_dir();
+			$upload_baseurl = $upload_dir[&#039;baseurl&#039;];
+
+			$match_value = str_replace( array( &#039;%%input%%&#039;, &#039;&amp;lt;&#039;, &#039;&amp;gt;&#039; ), array( $upload_baseurl . $match_value, &#039;&lt;&#039;, &#039;&gt;&#039; ), $args[&#039;badge&#039;] );
+		}
+
+		// File
+		if ( ! empty( $field[&#039;type&#039;] ) &amp;&amp; $field[&#039;type&#039;] == &#039;file&#039; &amp;&amp; ! empty( $args[&#039;badge&#039;] ) &amp;&amp; strpos( $args[&#039;badge&#039;], &#039;%%input%%&#039; ) !== false ) {
+			$attachments = GeoDir_Media::get_attachments_by_type( $find_post-&gt;ID, $match_field );
+
+			if ( ! empty( $attachments ) ) {
+				$upload_dir = wp_upload_dir();
+				$upload_baseurl = $upload_dir[&#039;baseurl&#039;];
+				
+				$attachment_urls = array();
+
+				foreach ( $attachments as $attachment ) {
+					if ( ! empty( $attachment-&gt;file ) ) {
+						$attachment_urls[] = str_replace( array( &#039;%%input%%&#039;, &#039;&amp;lt;&#039;, &#039;&amp;gt;&#039; ), array( $upload_baseurl . $attachment-&gt;file, &#039;&lt;&#039;, &#039;&gt;&#039; ), $args[&#039;badge&#039;] );
+					}
+				}
+
+				if ( ! empty( $attachment_urls ) ) {
+					$match_value = implode( &quot; &quot;, $attachment_urls );
+				}
+			}
+		}
+
+		// Default category
+		if ( $match_field == &#039;default_category&#039; &amp;&amp; ! empty( $find_post-&gt;default_category ) ) {
+			$term = get_term_by( &#039;id&#039;, absint( $find_post-&gt;default_category ), $find_post-&gt;post_type . &#039;category&#039; );
+
+			if ( ! empty( $term ) &amp;&amp; ! is_wp_error( $term ) ) {
+				$match_value = esc_attr( $term-&gt;name );
+			}
+		}
+	}
+
+	return $match_value;
+}
+add_filter( &#039;geodir_post_badge_match_value&#039;, &#039;geodir_post_badge_match_value&#039;, 10, 5 );
+
+function geodir_cf_custom( $html, $location, $cf, $p = &#039;&#039;, $output = &#039;&#039; ) {
+	// check we have the post value
+	if ( is_numeric( $p ) ) {
+		$gd_post = geodir_get_post_info( $p );
+	} else {
+		global $gd_post;
+	}
+
+	if ( empty( $gd_post ) ) {
+		return $html;
+	}
+
+	if ( ! is_array( $cf ) &amp;&amp; $cf != &#039;&#039; ) {
+		$cf = geodir_get_field_infoby( &#039;htmlvar_name&#039;, $cf, $gd_post-&gt;post_type );
+	}
+
+	if ( empty( $cf[&#039;htmlvar_name&#039;] ) ) {
+		return $html;
+	}
+
+	$htmlvar_name = $cf[&#039;htmlvar_name&#039;];
+
+	// Check if there is a location specific filter.
+	if ( has_filter( &quot;geodir_custom_field_output_custom_loc_{$location}&quot; ) ) {
+		/**
+		 * Filter the event field html by location.
+		 *
+		 * @since 2.0.0.0
+		 *
+		 * @param string $html The html to filter.
+		 * @param array $cf The custom field array.
+		 */
+		$html = apply_filters( &quot;geodir_custom_field_output_custom_loc_{$location}&quot;, $html, $cf, $output, $gd_post );
+	}
+
+	// Check if there is a custom field specific filter.
+	if ( has_filter( &quot;geodir_custom_field_output_custom_var_{$htmlvar_name}&quot; ) ) {
+		/**
+		 * Filter the event field html by individual custom field.
+		 *
+		 * @since 2.0.0.0
+		 *
+		 * @param string $html The html to filter.
+		 * @param string $location The location to output the html.
+		 * @param array $cf The custom field array.
+		 */
+		$html = apply_filters( &quot;geodir_custom_field_output_custom_var_{$htmlvar_name}&quot;, $html, $location, $cf, $output, $gd_post );
+	}
+
+	if ( empty( $html ) ) {
+		$value = isset( $gd_post-&gt;{$htmlvar_name} ) ? $gd_post-&gt;{$htmlvar_name} : &#039;&#039;;
+
+		if ( ! empty( $value ) ) {
+			$value = stripslashes_deep( $value );
+
+			// Private address
+			$address_fields = geodir_post_meta_address_fields( $gd_post-&gt;post_type );
+
+			if ( ! empty( $value ) &amp;&amp; ! empty( $address_fields ) &amp;&amp; isset( $address_fields[ $htmlvar_name ] ) ) {
+				$value = geodir_post_address( $value, $htmlvar_name, $gd_post );
+			}
+		}
+
+		if ( $value != &#039;&#039; ) {
+			$class = &quot;geodir-i-custom&quot;;
+			$field_icon = geodir_field_icon_proccess( $cf );
+			$output = geodir_field_output_process( $output );
+			if ( strpos( $field_icon, &#039;http&#039; ) !== false ) {
+				$field_icon_af = &#039;&#039;;
+			} elseif ( $field_icon == &#039;&#039; ) {
+				$field_icon_af = &#039;&#039;;
+			} else {
+				$field_icon_af = $field_icon;
+				$field_icon = &#039;&#039;;
+			}
+
+			// Database value.
+			if ( ! empty( $output ) &amp;&amp; isset( $output[&#039;raw&#039;] ) ) {
+				return $value;
+			}
+
+			$value = apply_filters( &#039;geodir_custom_field_output_field_value&#039;, $value, $location, $cf, $gd_post );
+
+			// round rating
+			if ( $value &amp;&amp; $htmlvar_name == &#039;overall_rating&#039; ) {
+				$value = round( $value, 1 );
+			}
+
+			// Translate country.
+			if ( $htmlvar_name == &#039;country&#039; ) {
+				$value = __( $value, &#039;geodirectory&#039; );
+			}
+
+			if ( isset( $cf[&#039;data_type&#039;] ) &amp;&amp; ( $cf[&#039;data_type&#039;] == &#039;INT&#039; || $cf[&#039;data_type&#039;] == &#039;FLOAT&#039; || $cf[&#039;data_type&#039;] == &#039;DECIMAL&#039; ) &amp;&amp; isset( $cf[&#039;extra_fields&#039;] ) &amp;&amp; $cf[&#039;extra_fields&#039;] ) {
+				$extra_fields = stripslashes_deep( maybe_unserialize( $cf[&#039;extra_fields&#039;] ) );
+
+				if ( ! empty( $extra_fields ) &amp;&amp; isset( $extra_fields[&#039;is_price&#039;] ) &amp;&amp; $extra_fields[&#039;is_price&#039;] ) {
+					if ( ! ceil( $value ) &gt; 0 ) {
+						return &#039;&#039;;// dont output blank prices
+					}
+					$value = geodir_currency_format_number( $value, $cf );
+				} else if ( isset( $cf[&#039;data_type&#039;] ) &amp;&amp; $cf[&#039;data_type&#039;] == &#039;INT&#039; ) {
+					if ( ceil( $value ) &gt; 0 ) {
+						$value = geodir_cf_format_number( $value, $cf );
+					}
+				} else if ( isset( $cf[&#039;data_type&#039;] ) &amp;&amp; ( $cf[&#039;data_type&#039;] == &#039;FLOAT&#039; || $cf[&#039;data_type&#039;] == &#039;DECIMAL&#039; ) ) {
+					if ( ceil( $value ) &gt; 0 ) {
+						$value = geodir_cf_format_decimal( $value, $cf );
+					}
+				}
+			}
+
+			// Return stripped value.
+			if ( ! empty( $output ) &amp;&amp; isset( $output[&#039;strip&#039;] ) ) {
+				return $value;
+			}
+
+			$html = &#039;&lt;div class=&quot;geodir_post_meta &#039; . $cf[&#039;css_class&#039;] . &#039; geodir-field-&#039; . $htmlvar_name . &#039;&quot;&gt;&#039;;
+
+			if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+				$html .= &#039;&lt;span class=&quot;geodir_post_meta_icon &#039;.$class.&#039;&quot; style=&quot;&#039; . $field_icon . &#039;&quot;&gt;&#039; . $field_icon_af;
+			}
+			if ( $output == &#039;&#039; || isset( $output[&#039;label&#039;] ) ) {
+				$html .= $cf[&#039;frontend_title&#039;] != &#039;&#039; ? &#039;&lt;span class=&quot;geodir_post_meta_title&quot; &gt;&#039; . __( $cf[&#039;frontend_title&#039;], &#039;geodirectory&#039; ) . &#039;: &#039;.&#039;&lt;/span&gt;&#039; : &#039;&#039;;
+			}
+			if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+				$html .= &#039;&lt;/span&gt;&#039;;
+			}
+			if ( $output == &#039;&#039; || isset( $output[&#039;value&#039;] ) ) {
+				$html .= $value;
+			}
+
+			$html .= &#039;&lt;/div&gt;&#039;;
+		}
+	}
+
+	return $html;
+}
+add_filter( &#039;geodir_custom_field_output_custom&#039;, &#039;geodir_cf_custom&#039;, 10, 5 );
+
+/**
+ * Filter map directions to custom field output.
+ *
+ * @since 2.0.0.86
+ *
+ * @param string $html The html to filter.
+ * @param string $location The location to output the html.
+ * @param array $cf The custom field array.
+ * @param string $output The output string that tells us what to output.
+ * @return string The html to output.
+ */
+function geodir_custom_field_output_map_directions( $html, $location, $cf, $output, $_gd_post ) {
+	if ( ! empty( $_gd_post ) ) {
+		$gd_post = $_gd_post;
+	} else {
+		global $gd_post;
+	}
+
+	$htmlvar_name = $cf[&#039;htmlvar_name&#039;];
+
+	if ( ! empty( $gd_post-&gt;latitude ) &amp;&amp; ! empty( $gd_post-&gt;longitude ) ) {
+		$label = trim( $cf[&#039;frontend_title&#039;] );
+		$latitude = $gd_post-&gt;latitude;
+		$longitude = $gd_post-&gt;longitude;
+
+		$field_icon = geodir_field_icon_proccess( $cf );
+		$output = geodir_field_output_process( $output );
+		if ( strpos( $field_icon, &#039;http&#039; ) !== false ) {
+			$field_icon_af = &#039;&#039;;
+		} elseif ( $field_icon == &#039;&#039; ) {
+			$field_icon_af = &#039;&lt;i class=&quot;fas fa-road&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&#039;;
+		} else {
+			$field_icon_af = $field_icon;
+			$field_icon    = &#039;&#039;;
+		}
+
+		$map_directions_url = &#039;https://www.google.com/maps/dir/&#039; . $latitude . &#039;,&#039; . $longitude . &#039;/&#039;;
+		$map_directions_url = apply_filters( &#039;geodir_custom_field_output_directions_on_map&#039;, $map_directions_url, $latitude, $longitude );
+
+		$map_directions_url = geodir_post_address( $map_directions_url, &#039;map_directions&#039;, $gd_post );
+
+		if ( empty( $map_directions_url ) ) {
+			return &#039;&#039;;
+		}
+
+		if ( ! empty( $output ) &amp;&amp; ( isset( $output[&#039;raw&#039;] ) || isset( $output[&#039;strip&#039;] ) ) ) {
+			// Stripped value.
+			return $map_directions_url;
+		}
+
+		$html = &#039;&lt;div class=&quot;geodir_post_meta &#039; . $cf[&#039;css_class&#039;] . &#039; geodir-field-&#039; . $htmlvar_name . &#039;&quot;&gt;&#039;;
+
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+			$html .= &#039;&lt;span class=&quot;geodir_post_meta_icon geodir-i-custom&quot; style=&quot;&#039; . $field_icon . &#039;&quot;&gt;&#039; . $field_icon_af;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+			$html .= &#039;&lt;/span&gt;&#039;;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;value&#039;] ) ) {
+			if ( $map_directions_url ) {
+				$html .= &#039;&lt;a href=&quot;&#039; . esc_url( $map_directions_url ) . &#039;&quot; target=&quot;_blank&quot; title=&quot;&#039; . esc_attr__( &#039;View on Map&#039;, &#039;geodirectory&#039; ) . &#039;&quot;&gt;&#039;;
+			}
+
+			if ( $output == &#039;&#039; || isset( $output[&#039;label&#039;] ) ) {
+				$html .= $label;
+			} else {
+				$html .= $map_directions_url;
+			}
+
+			if ( $map_directions_url ) {
+				$html .= &#039;&lt;/a&gt;&#039;;
+			}
+		}
+
+		$html .= &#039;&lt;/div&gt;&#039;;
+	}
+
+	return $html;
+}
+add_filter( &#039;geodir_custom_field_output_custom_var_map_directions&#039;, &#039;geodir_custom_field_output_map_directions&#039;, 10, 5 );
+
+/**
+ * Filter post status post meta field output.
+ *
+ * @since 2.0.0.94
+ *
+ * @param string $html The html to filter.
+ * @param string $location The location to output the html.
+ * @param array $cf The custom field array.
+ * @param string $output The output string that tells us what to output.
+ * @return string The html to output.
+ */
+function geodir_custom_field_output_post_status( $html, $location, $cf, $output, $_gd_post ) {
+	if ( ! empty( $_gd_post ) ) {
+		$gd_post = $_gd_post;
+	} else {
+		global $gd_post;
+	}
+
+	$htmlvar_name = $cf[&#039;htmlvar_name&#039;];
+
+	if ( isset( $gd_post-&gt;{$htmlvar_name} ) &amp;&amp; $gd_post-&gt;{$htmlvar_name} != &#039;&#039; ) {
+		$class = &quot;geodir-i-custom&quot;;
+		$field_icon = geodir_field_icon_proccess( $cf );
+		$output = geodir_field_output_process( $output );
+		if ( strpos( $field_icon, &#039;http&#039; ) !== false ) {
+			$field_icon_af = &#039;&#039;;
+		} elseif ( $field_icon == &#039;&#039; ) {
+			$field_icon_af = &#039;&#039;;
+		} else {
+			$field_icon_af = $field_icon;
+			$field_icon = &#039;&#039;;
+		}
+
+		$value = $gd_post-&gt;{$htmlvar_name};
+
+		// Database value.
+		if ( ! empty( $output ) &amp;&amp; isset( $output[&#039;raw&#039;] ) ) {
+			return $value;
+		}
+
+		$value = geodir_get_post_status_name( $value );
+
+		// Return stripped value.
+		if ( ! empty( $output ) &amp;&amp; isset( $output[&#039;strip&#039;] ) ) {
+			return $value;
+		}
+
+		$html = &#039;&lt;div class=&quot;geodir_post_meta &#039; . $cf[&#039;css_class&#039;] . &#039; geodir-field-&#039; . $htmlvar_name . &#039;&quot;&gt;&#039;;
+
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+			$html .= &#039;&lt;span class=&quot;geodir_post_meta_icon &#039;.$class.&#039;&quot; style=&quot;&#039; . $field_icon . &#039;&quot;&gt;&#039; . $field_icon_af;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;label&#039;] ) ) {
+			$html .= $cf[&#039;frontend_title&#039;] != &#039;&#039; ? &#039;&lt;span class=&quot;geodir_post_meta_title&quot; &gt;&#039; . __( $cf[&#039;frontend_title&#039;], &#039;geodirectory&#039; ) . &#039;: &#039;.&#039;&lt;/span&gt;&#039; : &#039;&#039;;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+			$html .= &#039;&lt;/span&gt;&#039;;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;value&#039;] ) ) {
+			$html .= $value;
+		}
+
+		$html .= &#039;&lt;/div&gt;&#039;;
+	}
+
+	return $html;
+}
+add_filter( &#039;geodir_custom_field_output_custom_var_post_status&#039;, &#039;geodir_custom_field_output_post_status&#039;, 10, 5 );
+
+/**
+ * Filter default category post meta field output.
+ *
+ * @since 2.0.0.94
+ *
+ * @param string $html The html to filter.
+ * @param string $location The location to output the html.
+ * @param array $cf The custom field array.
+ * @param string $output The output string that tells us what to output.
+ * @return string The html to output.
+ */
+function geodir_custom_field_output_default_category( $html, $location, $cf, $output, $_gd_post ) {
+	if ( ! empty( $_gd_post ) ) {
+		$gd_post = $_gd_post;
+	} else {
+		global $gd_post;
+	}
+
+	$htmlvar_name = $cf[&#039;htmlvar_name&#039;];
+
+	if ( isset( $gd_post-&gt;{$htmlvar_name} ) &amp;&amp; ! empty( $gd_post-&gt;{$htmlvar_name} ) ) {
+		$class = &quot;geodir-i-custom&quot;;
+		$field_icon = geodir_field_icon_proccess( $cf );
+		$output = geodir_field_output_process( $output );
+		if ( strpos( $field_icon, &#039;http&#039; ) !== false ) {
+			$field_icon_af = &#039;&#039;;
+		} elseif ( $field_icon == &#039;&#039; ) {
+			$field_icon_af = &#039;&#039;;
+		} else {
+			$field_icon_af = $field_icon;
+			$field_icon = &#039;&#039;;
+		}
+
+		$value = $gd_post-&gt;{$htmlvar_name};
+
+		// Database value.
+		if ( ! empty( $output ) &amp;&amp; isset( $output[&#039;raw&#039;] ) ) {
+			return $value;
+		}
+
+		$term = get_term_by( &#039;id&#039;, absint( $value ), $gd_post-&gt;post_type . &#039;category&#039; );
+
+		if ( ! ( ! empty( $term ) &amp;&amp; is_object( $term ) &amp;&amp; ! is_wp_error( $term ) ) ) {
+			return NULL;
+		}
+
+		$value = $term-&gt;name;
+
+		// Return stripped value.
+		if ( ! empty( $output ) &amp;&amp; isset( $output[&#039;strip&#039;] ) ) {
+			return $value;
+		}
+
+		$term_link = get_term_link( $term );
+
+		if ( ! empty( $term_link ) &amp;&amp; ! is_wp_error( $term_link ) ) {
+			$value = &#039;&lt;a href=&quot;&#039; . esc_url( $term_link ) . &#039;&quot;&gt;&#039; . $value . &#039;&lt;/a&gt;&#039;;
+		}
+
+		$html = &#039;&lt;div class=&quot;geodir_post_meta &#039; . $cf[&#039;css_class&#039;] . &#039; geodir-field-&#039; . $htmlvar_name . &#039;&quot;&gt;&#039;;
+
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+			$html .= &#039;&lt;span class=&quot;geodir_post_meta_icon &#039;.$class.&#039;&quot; style=&quot;&#039; . $field_icon . &#039;&quot;&gt;&#039; . $field_icon_af;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;label&#039;] ) ) {
+			$html .= $cf[&#039;frontend_title&#039;] != &#039;&#039; ? &#039;&lt;span class=&quot;geodir_post_meta_title&quot; &gt;&#039; . __( $cf[&#039;frontend_title&#039;], &#039;geodirectory&#039; ) . &#039;: &#039;.&#039;&lt;/span&gt;&#039; : &#039;&#039;;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+			$html .= &#039;&lt;/span&gt;&#039;;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;value&#039;] ) ) {
+			$html .= $value;
+		}
+
+		$html .= &#039;&lt;/div&gt;&#039;;
+	}
+
+	return $html;
+}
+add_filter( &#039;geodir_custom_field_output_custom_var_default_category&#039;, &#039;geodir_custom_field_output_default_category&#039;, 10, 5 );
+
+/**
+ * Output business hours for the day.
+ *
+ * @since 2.1.0.7
+ *
+ * @param string $html The html to filter.
+ * @param string $location The location to output the html.
+ * @param array $cf The custom field array.
+ * @param int $p The post id.
+ * @param string $output The output string that tells us what to output.
+ * @return string The html to output.
+ */
+function geodir_custom_field_output_business_hours_day( $html, $location, $cf, $p = &#039;&#039;, $output = &#039;&#039; ) {
+	if ( ! empty( $cf[&#039;name&#039;] ) &amp;&amp; ! empty( $cf[&#039;extra_fields&#039;] ) &amp;&amp; is_array( $cf[&#039;extra_fields&#039;] ) &amp;&amp; isset( $cf[&#039;extra_fields&#039;][&#039;day&#039;] ) &amp;&amp; $cf[&#039;name&#039;] == &#039;business_hours_&#039; . $cf[&#039;extra_fields&#039;][&#039;day&#039;] ) {
+		$htmlvar_name = &#039;business_hours&#039;;
+		$day = $cf[&#039;extra_fields&#039;][&#039;day&#039;];
+		$design_style = geodir_design_style();
+
+		if ( $day == &#039;today&#039; ) {
+			$day_nos = geodir_day_short_names();
+			$day = $day_nos[ date( &#039;N&#039; ) ];
+		} else {
+			$day = ucfirst( substr( $day, 0, 2 ) );
+		}
+
+		if ( is_numeric( $p ) ) {
+			$gd_post = geodir_get_post_info( $p );
+		} else {
+			global $gd_post;
+		}
+
+		if ( ! ( ! empty( $gd_post ) &amp;&amp; ! empty( $gd_post-&gt;{$htmlvar_name} ) &amp;&amp; geodir_check_field_visibility( $gd_post-&gt;package_id, $htmlvar_name, $gd_post-&gt;post_type ) ) ) {
+			return $html;
+		}
+
+		$value = stripslashes_deep( $gd_post-&gt;{$htmlvar_name} );
+		$business_hours = geodir_get_business_hours( $value, ( ! empty( $gd_post-&gt;country ) ? $gd_post-&gt;country : &#039;&#039; ) );
+
+		if ( ! ( ! empty( $business_hours[&#039;days&#039;] ) &amp;&amp; ! empty( $business_hours[&#039;days&#039;][ $day ] ) ) ) {
+			return $html;
+		}
+		$hours = $business_hours[&#039;days&#039;][ $day ];
+
+		$class = &quot;geodir-i-custom&quot;;
+		$output = geodir_field_output_process( $output );
+		$field_icon = geodir_field_icon_proccess( $cf );
+		if ( strpos( $field_icon, &#039;http&#039; ) !== false ) {
+			$field_icon_af = &#039;&#039;;
+		} elseif ( $field_icon == &#039;&#039; ) {
+			$field_icon_af = &#039;&#039;;
+		} else {
+			$field_icon_af = $field_icon;
+			$field_icon = &#039;&#039;;
+		}
+
+		$css_class = &#039; &#039; . $cf[&#039;css_class&#039;];
+		$has_open = false;
+		if ( ! empty( $hours[&#039;open&#039;] ) ) {
+			$has_open = true;
+		}
+		if ( ! empty( $hours[&#039;closed&#039;] ) ) {
+			$css_class .= &#039; gd-bh-days-closed&#039;;
+		}
+
+		$slots_class = &#039;&#039;;
+		if ( $design_style ) {
+			$class .= &#039; d-inline-block mr-1 align-top&#039;;
+			$slots_class .= &#039; d-inline-block&#039;;
+			$css_class .= &#039; py-1&#039;;
+		}
+
+		$slots = &#039;&#039;;
+		foreach ( $hours[&#039;slots&#039;] as $i =&gt; $slot ) {
+			$slot_class = &#039;&#039;;
+			if ( ! empty( $slot[&#039;open&#039;] ) ) {
+				$slot_class .= &#039; gd-bh-open-now&#039;;
+
+				if ( ! $has_open ) {
+					$has_open = true;
+				}
+			}
+			$slots .= &#039;&lt;div class=&quot;gd-bh-slot&#039; . $slot_class . &#039;&quot;&gt;&lt;div class=&quot;gd-bh-slot-r&quot;&gt;&#039; . $slot[&#039;range&#039;] . &#039;&lt;/div&gt;&lt;/div&gt;&#039;;
+		}
+
+		$value = &#039;&lt;div class=&quot;gd-bh-slots&#039; . $slots_class . &#039;&quot;&gt;&#039;;
+		$value .= $slots;
+		$value .= &#039;&lt;/div&gt;&#039;;
+		if ( ! empty( $has_open ) ) {
+			$css_class .= &#039; gd-bh-open-today&#039;;
+		}
+
+		$html = &#039;&lt;div class=&quot;geodir_post_meta gd-bh-day-hours&#039; . $css_class . &#039; geodir-field-&#039; . $htmlvar_name . &#039;&quot;&gt;&#039;;
+
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+			$html .= &#039;&lt;span class=&quot;geodir_post_meta_icon &#039; . $class . &#039;&quot; style=&quot;&#039; . $field_icon . &#039;&quot;&gt;&#039; . $field_icon_af;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;label&#039;] ) ) {
+			$html .= $cf[&#039;frontend_title&#039;] != &#039;&#039; ? &#039;&lt;span class=&quot;geodir_post_meta_title&quot; &gt;&#039; . __( $cf[&#039;frontend_title&#039;], &#039;geodirectory&#039; ) . &#039;: &#039;.&#039;&lt;/span&gt;&#039; : &#039;&#039;;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+			$html .= &#039;&lt;/span&gt;&#039;;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;value&#039;] ) ) {
+			$html .= $value;
+		}
+
+		$html .= &#039;&lt;/div&gt;&#039;;
+	}
+
+	return $html;
+}
+add_filter( &#039;geodir_custom_field_output_custom&#039;, &#039;geodir_custom_field_output_business_hours_day&#039;, 50, 5 );
+
+/**
+ * Filter post link post meta field output.
+ *
+ * @since 2.1.0.20
+ *
+ * @param string $html The html to filter.
+ * @param string $location The location to output the html.
+ * @param array $cf The custom field array.
+ * @param string $output The output string that tells us what to output.
+ * @return string The html to output.
+ */
+function geodir_custom_field_output_post_link( $html, $location, $cf, $output, $_gd_post ) {
+	if ( ! empty( $_gd_post ) ) {
+		$gd_post = $_gd_post;
+	} else {
+		global $gd_post;
+	}
+
+	$htmlvar_name = $cf[&#039;htmlvar_name&#039;];
+
+	if ( ! empty( $gd_post ) ) {
+		$class = &quot;geodir-i-custom&quot;;
+		$field_icon = geodir_field_icon_proccess( $cf );
+		$output = geodir_field_output_process( $output );
+		if ( strpos( $field_icon, &#039;http&#039; ) !== false ) {
+			$field_icon_af = &#039;&#039;;
+		} elseif ( $field_icon == &#039;&#039; ) {
+			$field_icon_af = &#039;&#039;;
+		} else {
+			$field_icon_af = $field_icon;
+			$field_icon = &#039;&#039;;
+		}
+
+		$value = get_permalink( $gd_post-&gt;ID );
+
+		// Database value.
+		if ( ! empty( $output ) &amp;&amp; isset( $output[&#039;raw&#039;] ) ) {
+			return $value;
+		}
+
+		$value = geodir_get_post_status_name( $value );
+
+		// Return stripped value.
+		if ( ! empty( $output ) &amp;&amp; isset( $output[&#039;strip&#039;] ) ) {
+			return $value;
+		}
+
+		$title = trim( esc_html( strip_tags( stripslashes( get_the_title( $gd_post-&gt;ID ) ) ) ) );
+
+		$value = &#039;&lt;a href=&quot;&#039; . $value . &#039;&quot; title=&quot;&#039; . esc_attr( wp_sprintf( _x( &#039;View: %s&#039;, &#039;listing title hover&#039;, &#039;geodirectory&#039; ), $title ) ) . &#039;&quot;&gt;&#039; . $title . &#039;&lt;/a&gt;&#039;;
+
+		$html = &#039;&lt;div class=&quot;geodir_post_meta &#039; . $cf[&#039;css_class&#039;] . &#039; geodir-field-&#039; . $htmlvar_name . &#039;&quot;&gt;&#039;;
+
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+			$html .= &#039;&lt;span class=&quot;geodir_post_meta_icon &#039;.$class.&#039;&quot; style=&quot;&#039; . $field_icon . &#039;&quot;&gt;&#039; . $field_icon_af;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;label&#039;] ) ) {
+			$html .= $cf[&#039;frontend_title&#039;] != &#039;&#039; ? &#039;&lt;span class=&quot;geodir_post_meta_title&quot; &gt;&#039; . __( $cf[&#039;frontend_title&#039;], &#039;geodirectory&#039; ) . &#039;: &#039;.&#039;&lt;/span&gt;&#039; : &#039;&#039;;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;icon&#039;] ) ) {
+			$html .= &#039;&lt;/span&gt;&#039;;
+		}
+		if ( $output == &#039;&#039; || isset( $output[&#039;value&#039;] ) ) {
+			$html .= $value;
+		}
+
+		$html .= &#039;&lt;/div&gt;&#039;;
+	}
+
+	return $html;
+}
+add_filter( &#039;geodir_custom_field_output_custom_var_post_link&#039;, &#039;geodir_custom_field_output_post_link&#039;, 10, 5 );</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

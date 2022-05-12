@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-admin-permalink-settings.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Adds settings to the permalinks admin settings page
+ *
+ * @class       GeoDir_Admin_Permalink_Settings
+ * @author      AyeCode
+ * @category    Admin
+ * @package     GeoDirectory/Admin
+ * @version     2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+if ( ! class_exists( &#039;GeoDir_Admin_Permalink_Settings&#039;, false ) ) :
+
+	/**
+	 * GeoDir_Admin_Permalink_Settings Class.
+	 */
+	class GeoDir_Admin_Permalink_Settings {
+
+		/**
+		 * Permalink settings.
+		 *
+		 * @var string
+		 */
+		private $permalinks = &#039;&#039;;
+
+		/**
+		 * Hook in tabs.
+		 */
+		public function __construct() {
+			$this-&gt;settings_init();
+			$this-&gt;settings_save();
+		}
+
+		/**
+		 * Init our settings.
+		 */
+		public function settings_init() {
+			// Add a section to the permalinks page
+			add_settings_section( &#039;geodir-permalink&#039;, __( &#039;GeoDirectory permalinks&#039;, &#039;geodirectory&#039; ), array(
+				$this,
+				&#039;settings&#039;
+			), &#039;permalink&#039; );
+
+
+			$this-&gt;permalinks = geodir_get_permalink_structure();
+		}
+
+
+		/**
+		 * Show the settings.
+		 */
+		public function settings() {
+			global $geodirectory;
+			echo wpautop( __( &#039;These settings control the permalinks used specifically for GeoDirectory CPTs&#039;, &#039;geodirectory&#039; ) );
+
+			// Get shop page
+			$base_slug    = geodir_get_ctp_slug( &#039;gd_place&#039; );
+			$default_location = $geodirectory-&gt;location-&gt;get_default_location();
+			//print_r($default_location);
+
+
+			$structures = array(
+				__( &#039;Default&#039;, &#039;geodirectory&#039; )     =&gt; array(
+					&#039;value&#039; =&gt; &#039;&#039;,
+					&#039;example&#039; =&gt; esc_html( home_url( &#039;/&#039; ) ) . esc_html( $base_slug ).&#039;/sample-place/&#039;
+				),
+				__( &#039;Full location&#039;, &#039;geodirectory&#039; )     =&gt; array(
+					&#039;value&#039; =&gt; &#039;/%country%/%region%/%city%/%postname%/&#039;,
+					&#039;example&#039; =&gt; esc_html( home_url( &#039;/&#039; ) ) . trailingslashit( $base_slug ) .
+					             trailingslashit( $default_location-&gt;country_slug ).
+					             trailingslashit( $default_location-&gt;region_slug ).
+					             trailingslashit( $default_location-&gt;city_slug ) . &#039;sample-place/&#039;
+				),
+				__( &#039;Full location with category&#039;, &#039;geodirectory&#039; )     =&gt; array(
+					&#039;value&#039; =&gt; &#039;/%country%/%region%/%city%/%category%/%postname%/&#039;,
+					&#039;example&#039; =&gt; esc_html( home_url( &#039;/&#039; ) ) . trailingslashit( $base_slug ) .
+					             trailingslashit( $default_location-&gt;country_slug ).
+					             trailingslashit( $default_location-&gt;region_slug ).
+					             trailingslashit( $default_location-&gt;city_slug ) .
+					             &#039;attractions/&#039; .
+					             &#039;sample-place/&#039;
+				)
+			);
+
+			$is_default = false;
+			
+			$available_tags = array(
+				/* translators: %s: permalink structure tag */
+				&#039;country&#039;     =&gt; __( &#039;%s (Country slug of the post. Ex: united-states.)&#039;, &#039;geodirectory&#039; ),
+				/* translators: %s: permalink structure tag */
+				&#039;region&#039; =&gt; __( &#039;%s (Region slug of the post. Ex: pennsylvania.)&#039;, &#039;geodirectory&#039; ),
+				/* translators: %s: permalink structure tag */
+				&#039;city&#039;      =&gt; __( &#039;%s (City slug of the post. Ex: philadelphia.)&#039;, &#039;geodirectory&#039; ),
+				/* translators: %s: permalink structure tag */
+				&#039;category&#039; =&gt; __( &#039;%s (Category slug. Nested sub-categories appear as nested directories in the URL.)&#039;, &#039;geodirectory&#039; ),
+				/* translators: %s: permalink structure tag */
+				&#039;postname&#039; =&gt; __( &#039;%s (The sanitized post title (slug).)&#039;, &#039;geodirectory&#039; ),
+				/* translators: %s: permalink structure tag */
+				&#039;post_id&#039;  =&gt; __( &#039;%s (The unique ID of the post. Ex: 423.)&#039;, &#039;geodirectory&#039; ),
+			);
+
+			/**
+			 * Filters the list of available permalink structure tags on the Permalinks settings page.
+			 *
+			 * @since 2.0.0
+			 *
+			 * @param array $available_tags A key =&gt; value pair of available permalink structure tags.
+			 */
+			$available_tags = apply_filters( &#039;geodir_available_permalink_structure_tags&#039;, $available_tags );
+			
+			/* translators: %s: permalink structure tag */
+			$structure_tag_added = __( &#039;%s added to permalink structure&#039;, &#039;geodirectory&#039; );
+
+			/* translators: %s: permalink structure tag */
+			$structure_tag_already_used = __( &#039;%s (already used in permalink structure)&#039;, &#039;geodirectory&#039; );
+
+			//print_r($structures);
+			?&gt;
+			&lt;table class=&quot;form-table gd-permalink-structure&quot;&gt;
+				&lt;tbody&gt;
+
+
+
+				&lt;?php foreach ($structures as $label =&gt; $structure ){
+					if( $structure[&#039;value&#039;] == $this-&gt;permalinks){$is_default = true;}
+					?&gt;
+				&lt;tr&gt;
+					&lt;th&gt;
+						&lt;label&gt;
+							&lt;input name=&quot;geodirectory_permalink&quot; type=&quot;radio&quot;
+					                  value=&quot;&lt;?php echo esc_attr( $structure[&#039;value&#039;] ); ?&gt;&quot;
+					                  class=&quot;gdtog&quot; &lt;?php checked( $structure[&#039;value&#039;] , $this-&gt;permalinks ); ?&gt; /&gt;
+							&lt;?php echo $label; ?&gt;
+						&lt;/label&gt;
+					&lt;/th&gt;
+					&lt;td&gt;
+						&lt;?php if( $label == __( &#039;Default&#039;, &#039;geodirectory&#039; ) ) {?&gt;
+							&lt;code class=&quot;default-example&quot;&gt;
+								&lt;?php echo esc_html( home_url( &#039;/&#039; ) ); ?&gt;?gd_place=sample-place
+							&lt;/code&gt;
+							&lt;code class=&quot;non-default-example&quot;&gt;
+								&lt;?php echo $structure[&#039;example&#039;]; ?&gt;
+							&lt;/code&gt;
+						&lt;?php }else{?&gt;
+						&lt;code&gt;
+							&lt;?php echo $structure[&#039;example&#039;]; ?&gt;
+						&lt;/code&gt;
+						&lt;?php }?&gt;
+					&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;?php }?&gt;
+
+
+				&lt;tr&gt;
+					&lt;th&gt;
+						&lt;label&gt;
+							&lt;input name=&quot;geodirectory_permalink&quot; id=&quot;geodir_custom_selection&quot; type=&quot;radio&quot; value=&quot;custom&quot;
+					                  class=&quot;tog&quot; &lt;?php checked( $is_default , false ); ?&gt; /&gt;
+							&lt;?php _e( &#039;Custom base&#039;, &#039;geodirectory&#039; ); ?&gt;
+						&lt;/label&gt;
+					&lt;/th&gt;
+					&lt;td&gt;
+						&lt;code&gt;&lt;?php echo esc_html( home_url( &#039;/&#039; ) ) . &#039;%cpt_slug%&#039;; ?&gt;&lt;/code&gt;
+						&lt;input name=&quot;geodirectory_permalink_structure&quot; id=&quot;geodir_permalink_structure&quot; type=&quot;text&quot;
+						       value=&quot;&lt;?php echo esc_attr( $this-&gt;permalinks ?  $this-&gt;permalinks : &#039;&#039; ); ?&gt;&quot;
+						       class=&quot;regular-text code&quot;&gt;
+						&lt;br /&gt;&lt;br /&gt;
+						&lt;div class=&quot;gd-available-structure-tags hide-if-no-js&quot;&gt;
+							&lt;div id=&quot;gd_custom_selection_updated&quot; aria-live=&quot;assertive&quot; class=&quot;screen-reader-text&quot;&gt;&lt;/div&gt;
+							&lt;?php if ( ! empty( $available_tags ) ) { ?&gt;
+								&lt;p&gt;&lt;?php _e( &#039;Available tags:&#039; ); ?&gt;&lt;/p&gt;
+								&lt;ul role=&quot;list&quot;&gt;
+									&lt;?php
+									foreach ( $available_tags as $tag =&gt; $explanation ) {
+										?&gt;
+										&lt;li&gt;
+											&lt;button type=&quot;button&quot;
+													class=&quot;button button-secondary&quot;
+													aria-label=&quot;&lt;?php echo esc_attr( sprintf( $explanation, $tag ) ); ?&gt;&quot;
+													data-added=&quot;&lt;?php echo esc_attr( sprintf( $structure_tag_added, $tag ) ); ?&gt;&quot;
+													data-used=&quot;&lt;?php echo esc_attr( sprintf( $structure_tag_already_used, $tag ) ); ?&gt;&quot;&gt;
+												&lt;?php echo &#039;%&#039; . $tag . &#039;%&#039;; ?&gt;
+											&lt;/button&gt;
+										&lt;/li&gt;
+										&lt;?php
+									}
+									?&gt;
+								&lt;/ul&gt;
+							&lt;?php } ?&gt;
+						&lt;/div&gt;
+					&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+
+			&lt;h2 class=&quot;title&quot;&gt;&lt;?php _e(&#039;GeoDirectory Taxonomies&#039;); ?&gt;&lt;/h2&gt;
+			&lt;p&gt;&lt;?php
+				/* translators: %s: placeholder that must come at the start of the URL */
+				printf( __( &#039;If you like, you may enter custom structures for your category and tag URLs here. For example, using &lt;code&gt;topics&lt;/code&gt; as your category base would make your category links like &lt;code&gt;%s/topics/attractions/&lt;/code&gt;. Tags and category can not be blank.&#039;,&#039;geodirectory&#039; ),  home_url( &#039;/&#039; ) .  $base_slug  ); ?&gt;&lt;/p&gt;
+
+			&lt;table class=&quot;form-table&quot;&gt;
+				&lt;tr&gt;
+					&lt;th&gt;&lt;label for=&quot;geodirectory_category_base&quot;&gt;&lt;?php /* translators: prefix for category permalinks */ _e(&#039;Category base&#039;,&#039;geodirectory&#039;); ?&gt;&lt;/label&gt;&lt;/th&gt;
+					&lt;td&gt;&lt;input name=&quot;geodirectory_category_base&quot; id=&quot;geodirectory_category_base&quot; type=&quot;text&quot; value=&quot;&lt;?php echo esc_attr( geodir_get_option(&#039;permalink_category_base&#039;,&#039;category&#039;) ); ?&gt;&quot; class=&quot;regular-text code&quot; /&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th&gt;&lt;label for=&quot;geodirectory_tag_base&quot;&gt;&lt;?php _e(&#039;Tag base&#039;,&#039;geodirectory&#039; ); ?&gt;&lt;/label&gt;&lt;/th&gt;
+					&lt;td&gt;&lt;input name=&quot;geodirectory_tag_base&quot; id=&quot;geodirectory_tag_base&quot; type=&quot;text&quot; value=&quot;&lt;?php echo esc_attr(geodir_get_option(&#039;permalink_tag_base&#039;,&#039;tags&#039;)); ?&gt;&quot; class=&quot;regular-text code&quot; /&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/table&gt;
+
+
+			&lt;style&gt;.form-table.gd-permalink-structure .gd-available-structure-tags li{float:left;margin-right:5px}&lt;/style&gt;
+			&lt;script type=&quot;text/javascript&quot;&gt;
+			var gdPermalinkStructureFocused = false,
+				$gdPermalinkStructure = jQuery(&#039;#geodir_permalink_structure&#039;),
+				$gdPermalinkStructureInputs = jQuery(&#039;.gd-permalink-structure input:radio&#039;),
+				$gdPermalinkCustomSelection = jQuery(&#039;#geodir_custom_selection&#039;),
+				$gdAvailableStructureTags = jQuery(&#039;.form-table.gd-permalink-structure .gd-available-structure-tags button&#039;);
+			// Change permalink structure input when selecting one of the common structures.
+			$gdPermalinkStructureInputs.on(&#039;change&#039;, function() {
+				if (&#039;custom&#039; === this.value) {
+					return;
+				}
+				$gdPermalinkStructure.val(this.value);
+				// Update button states after selection.
+				$gdAvailableStructureTags.each(function() {
+					gdChangeStructureTagButtonState(jQuery(this));
+				});
+			});
+			$gdPermalinkStructure.on(&#039;click input&#039;, function() {
+				$gdPermalinkCustomSelection.prop(&#039;checked&#039;, true);
+			});
+			// Check if the permalink structure input field has had focus at least once.
+			$gdPermalinkStructure.on(&#039;focus&#039;, function(event) {
+				gdPermalinkStructureFocused = true;
+				jQuery(this).off(event);
+			});
+			/**
+			 * Enables or disables a structure tag button depending on its usage.
+			 *
+			 * If the structure is already used in the custom permalink structure,
+			 * it will be disabled.
+			 *
+			 * @param {object} button Button jQuery object.
+			 */
+			function gdChangeStructureTagButtonState(button) {
+				if (-1 !== $gdPermalinkStructure.val().indexOf(button.text().trim())) {
+					button.attr(&#039;data-label&#039;, button.attr(&#039;aria-label&#039;));
+					button.attr(&#039;aria-label&#039;, button.attr(&#039;data-used&#039;));
+					button.attr(&#039;aria-pressed&#039;, true);
+					button.addClass(&#039;active&#039;);
+				} else if (button.attr(&#039;data-label&#039;)) {
+					button.attr(&#039;aria-label&#039;, button.attr(&#039;data-label&#039;));
+					button.attr(&#039;aria-pressed&#039;, false);
+					button.removeClass(&#039;active&#039;);
+				}
+			}
+			// Check initial button state.
+			$gdAvailableStructureTags.each(function() {
+				gdChangeStructureTagButtonState(jQuery(this));
+			});
+			// Observe permalink structure field and disable buttons of tags that are already present.
+			$gdPermalinkStructure.on(&#039;change&#039;, function() {
+				$gdAvailableStructureTags.each(function() {
+					gdChangeStructureTagButtonState(jQuery(this));
+				});
+			});
+			$gdAvailableStructureTags.on(&#039;click&#039;, function() {
+				var permalinkStructureValue = $gdPermalinkStructure.val(),
+					selectionStart = $gdPermalinkStructure[0].selectionStart,
+					selectionEnd = $gdPermalinkStructure[0].selectionEnd,
+					textToAppend = jQuery(this).text().trim(),
+					textToAnnounce = jQuery(this).attr(&#039;data-added&#039;),
+					newSelectionStart;
+				// Remove structure tag if already part of the structure.
+				if (-1 !== permalinkStructureValue.indexOf(textToAppend)) {
+					permalinkStructureValue = permalinkStructureValue.replace(textToAppend + &#039;/&#039;, &#039;&#039;);
+					$gdPermalinkStructure.val(&#039;/&#039; === permalinkStructureValue ? &#039;&#039; : permalinkStructureValue);
+					// Announce change to screen readers.
+					jQuery(&#039;#custom_selection_updated&#039;).text(textToAnnounce);
+					// Disable button.
+					gdChangeStructureTagButtonState(jQuery(this));
+					return;
+				}
+				// Input field never had focus, move selection to end of input.
+				if (!gdPermalinkStructureFocused &amp;&amp; 0 === selectionStart &amp;&amp; 0 === selectionEnd) {
+					selectionStart = selectionEnd = permalinkStructureValue.length;
+				}
+				$gdPermalinkCustomSelection.prop(&#039;checked&#039;, true);
+				// Prepend and append slashes if necessary.
+				if (&#039;/&#039; !== permalinkStructureValue.substr(0, selectionStart).substr(-1)) {
+					textToAppend = &#039;/&#039; + textToAppend;
+				}
+				if (&#039;/&#039; !== permalinkStructureValue.substr(selectionEnd, 1)) {
+					textToAppend = textToAppend + &#039;/&#039;;
+				}
+				// Insert structure tag at the specified position.
+				$gdPermalinkStructure.val(permalinkStructureValue.substr(0, selectionStart) + textToAppend + permalinkStructureValue.substr(selectionEnd));
+				// Announce change to screen readers.
+				jQuery(&#039;#custom_selection_updated&#039;).text(textToAnnounce);
+				// Disable button.
+				gdChangeStructureTagButtonState(jQuery(this));
+				// If input had focus give it back with cursor right after appended text.
+				if (gdPermalinkStructureFocused &amp;&amp; $gdPermalinkStructure[0].setSelectionRange) {
+					newSelectionStart = (permalinkStructureValue.substr(0, selectionStart) + textToAppend).length;
+					$gdPermalinkStructure[0].setSelectionRange(newSelectionStart, newSelectionStart);
+					$gdPermalinkStructure.focus();
+				}
+			});
+			jQuery(function($) {
+				jQuery(&#039;.permalink-structure input&#039;).on(&quot;change&quot;,function() {
+					jQuery(&#039;.gd-permalink-structure&#039;).find(&#039;code.non-default-example, code.default-example&#039;).hide();
+					if (jQuery(this).val()) {
+						jQuery(&#039;.gd-permalink-structure code.non-default-example&#039;).show();
+						jQuery(&#039;.gd-permalink-structure input&#039;).removeAttr(&#039;disabled&#039;);
+						jQuery(&#039;.gd-available-structure-tags li button&#039;).removeAttr(&#039;disabled&#039;);
+					} else {
+						jQuery(&#039;.gd-permalink-structure code.default-example&#039;).show();
+						jQuery(&#039;.gd-permalink-structure input:eq(0)&#039;).trigger(&quot;click&quot;);
+						jQuery(&#039;.gd-permalink-structure input&#039;).attr(&#039;disabled&#039;, &#039;disabled&#039;);
+						jQuery(&#039;.gd-available-structure-tags li button&#039;).attr(&#039;disabled&#039;, &#039;disabled&#039;);
+					}
+
+				});
+				jQuery(&#039;.permalink-structure input:checked&#039;).trigger(&quot;change&quot;,);
+
+				jQuery(&#039;form[name=&quot;form&quot;]&#039;).on(&quot;submit&quot;,function(e){
+					$return = true;
+
+					$permalink_structure = jQuery(&#039;#geodir_permalink_structure&#039;).val();
+
+					// check permalinks contain post name or post id
+					if($permalink_structure != &#039;&#039;){
+						if(!$permalink_structure.includes(&quot;/%postname%&quot;) &amp;&amp; !$permalink_structure.includes(&quot;/%post_id%&quot;)){
+							alert(&quot;&lt;?php _e(&#039;GeoDirectory permalinks must contain either `%postname%` or `%post_id%`, please check and try again.&#039;,&#039;geodirectory&#039;); ?&gt;&quot;);
+							$return = false;
+						}
+
+					}
+
+					// check tag base is not blank
+					if(jQuery(&#039;#geodirectory_tag_base&#039;).val()==&#039;&#039;){
+						alert(&quot;&lt;?php _e(&#039;GeoDirectory tag base can not be blank, please check and try again.&#039;,&#039;geodirectory&#039;); ?&gt;&quot;);
+						$return = false;
+					}
+
+					// check category base
+					if(jQuery(&#039;#geodirectory_category_base&#039;).val()==&#039;&#039;){
+
+						
+						alert(&quot;&lt;?php _e(&#039;GeoDirectory category base can not be blank, please check and try again.&#039;,&#039;geodirectory&#039;); ?&gt;&quot;);
+						$return = false;
+
+//						if($permalink_structure==&#039;&#039;){
+//							$return = false;
+//						}else if($permalink_structure.split(&quot;/&quot;).length-1 &lt; 3){
+//							$return = false;
+//						}
+//
+//						if(!$return){
+//							alert(&quot;&lt;?php //_e(&#039;GeoDirectory category base can only be blank if the GeoDirectory permalinks use more than one tag, please check and try again.&#039;,&#039;geodirectory&#039;); ?&gt;//&quot;);
+//						}
+					}
+
+					return $return;
+				});
+
+
+			});
+			&lt;/script&gt;
+			&lt;?php
+		}
+
+		/**
+		 * Save the settings.
+		 */
+		public function settings_save() {
+			if ( ! is_admin() ) {
+				return;
+			}
+
+			//print_r($_POST);exit;
+
+			// We need to save the options ourselves; settings api does not trigger save for the permalinks page.
+			if ( isset( $_POST[&#039;permalink_structure&#039;] ) ) {
+				if ( function_exists( &#039;switch_to_locale&#039; ) ) {
+					switch_to_locale( get_locale() );
+				}
+
+				$permalink_structure = isset( $_POST[&#039;geodirectory_permalink_structure&#039;] ) ? trim( $_POST[&#039;geodirectory_permalink_structure&#039;] ) : &#039;&#039;;
+				if ( ! empty( $permalink_structure ) ) {
+					$permalink_structure = preg_replace( &#039;#/+#&#039;, &#039;/&#039;, &#039;/&#039; . str_replace( &#039;#&#039;, &#039;&#039;, $permalink_structure ) );
+				}
+				$permalink_structure = sanitize_option( &#039;permalink_structure&#039;, $permalink_structure );
+
+				// Set permalink structure.
+				geodir_set_permalink_structure( $permalink_structure );
+
+				// taxonomy base
+				if ( isset( $_POST[&#039;geodirectory_category_base&#039;] ) ) {
+					$category_base = sanitize_title_with_dashes($_POST[&#039;geodirectory_category_base&#039;]);
+					geodir_update_option(&#039;permalink_category_base&#039;,$category_base);
+				}
+				if ( isset( $_POST[&#039;geodirectory_tag_base&#039;] ) ) {
+					$tag_base = !empty($_POST[&#039;geodirectory_tag_base&#039;]) ? sanitize_title_with_dashes($_POST[&#039;geodirectory_tag_base&#039;]) : &#039;tags&#039;;
+					geodir_update_option(&#039;permalink_tag_base&#039;,$tag_base);
+				}
+
+				if ( function_exists( &#039;restore_current_locale&#039; ) ) {
+					restore_current_locale();
+				}
+			}
+		}
+	}
+
+endif;
+
+return new GeoDir_Admin_Permalink_Settings();
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

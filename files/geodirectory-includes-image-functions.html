@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">image-functions.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_image_tag_ajaxify">
+        geodir_image_tag_ajaxify()
+        <a href="#function_geodir_image_tag_ajaxify" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.21">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">21</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for replace images tag src and class values.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_image_tag_ajaxify</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$img_tag</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lazy_load</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"><p>Check if $lazy_load is true then replace image tag class value
+else replace only image src value.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$img_tag</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Image tag html.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$lazy_load</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Default true.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_image_src">
+        geodir_get_image_src()
+        <a href="#function_geodir_get_image_src" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.44">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">44</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for get image src path by image object.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_image_src</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$image</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$size</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;medium&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$image</span>
+                : <span class="phpdocumentor-signature__argument__return-type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>image object.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$size</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;medium&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Set image size. Default medium.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_image_tag">
+        geodir_get_image_tag()
+        <a href="#function_geodir_get_image_tag" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.89">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">89</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the image tag.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_image_tag</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$image</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$size</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;medium&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$align</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$classes</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$image</span>
+                : <span class="phpdocumentor-signature__argument__return-type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Image data.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$size</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;medium&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Get the image size. Default medium.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$align</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. get the image alignment value. Default null.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$classes</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_screenshot">
+        geodir_get_screenshot()
+        <a href="#function_geodir_get_screenshot" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.166">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">166</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Retrieve mshots screenshot url for requested url.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_screenshot</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$url</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$params</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$url</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The url to generate screenshot.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$params</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Screenshot parameters.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.100</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_field_screenshot">
+        geodir_get_field_screenshot()
+        <a href="#function_geodir_get_field_screenshot" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.212">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">212</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_field_screenshot</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$field</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sizes</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array(&#039;w&#039; =&gt; 825, &#039;h&#039; =&gt; 430, &#039;image&#039; =&gt; 1)</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$field</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sizes</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array(&#039;w&#039; =&gt; 825, &#039;h&#039; =&gt; 430, &#039;image&#039; =&gt; 1)</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_video_screenshot">
+        geodir_get_video_screenshot()
+        <a href="#function_geodir_get_video_screenshot" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.234">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">234</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get a screenshot URL from a video URL.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_video_screenshot</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$field_raw</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed|void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$field_raw</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_images">
+        geodir_get_images()
+        <a href="#function_geodir_get_images" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.265">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">265</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Gets the post images.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_images</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_id</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$limit</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logo</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$revision_id</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$types</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fallback_types</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array(&#039;logo&#039;, &#039;cat_default&#039;, &#039;cpt_default&#039;, &#039;listing_default&#039;, &#039;website_screenshot&#039;)</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The post ID.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$limit</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Number of images.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$logo</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Show logo image? Default: false.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$revision_id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The revision post ID.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$types</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Images types to retrieve.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$fallback_types</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array(&#039;logo&#039;, &#039;cat_default&#039;, &#039;cpt_default&#039;, &#039;listing_default&#039;, &#039;website_screenshot&#039;)</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Fallback images types to retrieve for empty results.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$status</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Retrieve images with status passed.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $gd_post The GeoDirectory post object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_is_fa_icon">
+        geodir_is_fa_icon()
+        <a href="#function_geodir_is_fa_icon" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.523">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">523</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Check font awesome icon or not.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_is_fa_icon</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$icon</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$icon</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Font awesome icon.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_is_icon_url">
+        geodir_is_icon_url()
+        <a href="#function_geodir_is_icon_url" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.540">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">540</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Check icon url.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_is_icon_url</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$icon</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$icon</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Icon url.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_post_has_image_types">
+        geodir_post_has_image_types()
+        <a href="#function_geodir_post_has_image_types" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.561">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">561</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Validate post image types.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_post_has_image_types</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$types</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_id</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$revision_id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"><p>$since 2.0.0.65</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$types</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Array of image types. Ex: logo, comment_images, post_images.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post ID.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$revision_id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post revision ID. Default 0.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_image_dimension">
+        geodir_get_image_dimension()
+        <a href="#function_geodir_get_image_dimension" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.604">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">604</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Retrieve image dimension.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_image_dimension</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$image_url</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$default</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$image_url</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The image url.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$default</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Default dimension. Default empty.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.100</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>array $geodir_image_dimension Array of cached image dimension.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_set_external_srcset">
+        geodir_set_external_srcset()
+        <a href="#function_geodir_set_external_srcset" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/image-functions.php"><a href="../files/geodirectory-includes-image-functions.html#source-view.681">geodirectory/includes/image-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">681</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Check if a image meta file source is external and if so change the srcset to match.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_set_external_srcset</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sources</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$size_array</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$image_src</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$image_meta</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attachment_id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sources</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$size_array</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$image_src</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$image_meta</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$attachment_id</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Post image functions.
+ *
+ * @since 2.0.0
+ * @package GeoDirectory
+ */
+
+/**
+ * Function for replace images tag src and class values.
+ *
+ * Check if $lazy_load is true then replace image tag class value
+ * else replace only image src value.
+ *
+ * @since 2.0.0
+ *
+ * @param string $img_tag Image tag html.
+ * @param bool $lazy_load Optional. Default true.
+ * @return string $img_tag.
+ */
+function geodir_image_tag_ajaxify($img_tag,$lazy_load = true){
+
+    
+    $strip = array(&quot;src=&quot;,&quot;srcset=&quot;);
+    $replace = array(&quot;src=&#039;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADklEQVR42mP8X88wLAAAK5IBgMYCdqgAAAAASUVORK5CYII=&#039; data-src=&quot;,&quot;data-srcset=&quot;);
+    if($lazy_load){
+        $strip[] = &#039;class=&quot;&#039;;
+        $replace[] = &#039;class=&quot;geodir-lazy-load &#039;;
+    }
+    $img_tag = str_replace($strip,$replace,$img_tag);
+
+    return $img_tag;
+}
+
+/**
+ * Function for get image src path by image object.
+ *
+ * @since 2.0.0
+ *
+ * @param object $image image object.
+ * @param string $size Optional. Set image size. Default medium.
+ * @return string $img_src Image path.
+ */
+function geodir_get_image_src($image, $size = &#039;medium&#039;){
+    $img_src = &#039;&#039;;
+
+    $meta = isset($image-&gt;metadata) ? maybe_unserialize($image-&gt;metadata) : &#039;&#039;;
+    $upload_dir = wp_upload_dir();
+
+	// base url
+	$base_url = $upload_dir[&#039;baseurl&#039;];
+
+    if(isset($meta[&#039;sizes&#039;]) &amp;&amp; $size){
+        $img_url_basename = wp_basename($base_url.$image-&gt;file);
+        if($img_url_basename &amp;&amp; isset($meta[&#039;sizes&#039;][$size]) &amp;&amp; isset($meta[&#039;sizes&#039;][$size][&#039;file&#039;]) &amp;&amp; $meta[&#039;sizes&#039;][$size][&#039;file&#039;]){
+	        if(substr( $image-&gt;file, 0, 4 ) === &quot;http&quot;){
+		        $img_url = esc_url_raw( $image-&gt;file );
+	        }else{
+		        $img_url = $base_url.$image-&gt;file;
+	        }
+            $img_src = str_replace($img_url_basename, wp_basename($meta[&#039;sizes&#039;][$size][&#039;file&#039;]), $img_url);
+        }
+    }
+
+    // no sizes just return full size
+    if(!$img_src){
+        if(isset($image-&gt;file)){
+	        if(substr( $image-&gt;file, 0, 4 ) === &quot;http&quot;){
+		        $img_src = esc_url_raw( $image-&gt;file );
+	        }else{
+		        $img_src = $base_url.$image-&gt;file;
+	        }
+        }
+    }
+
+    return $img_src;
+}
+
+/**
+ * Get the image tag.
+ *
+ * @since 2.0.0
+ *
+ * @param object $image Image data.
+ * @param string $size Optional. Get the image size. Default medium.
+ * @param string $align Optional. get the image alignment value. Default null.
+ * @return string $html Image tag.
+ */
+function geodir_get_image_tag( $image, $size = &#039;medium&#039;,$align = &#039;&#039;, $classes = &#039;&#039; ) {
+	$meta = isset($image-&gt;metadata) ? maybe_unserialize($image-&gt;metadata) : &#039;&#039;;
+	$img_src = geodir_get_image_src($image, $size);
+	$width = &#039;&#039;;
+	$height = &#039;&#039;;
+	if($size){
+		$width = isset($meta[&#039;sizes&#039;][$size][&#039;width&#039;]) ? $meta[&#039;sizes&#039;][$size][&#039;width&#039;] : &#039;&#039;;
+		$height = isset($meta[&#039;sizes&#039;][$size][&#039;height&#039;]) ? $meta[&#039;sizes&#039;][$size][&#039;height&#039;] : &#039;&#039;;
+	}
+	if(!$width){$width = isset($meta[&#039;width&#039;]) ? $meta[&#039;width&#039;] : &#039;&#039;;}
+	if(!$height){$height = isset($meta[&#039;height&#039;]) ? $meta[&#039;height&#039;] : &#039;&#039;;}
+	$hwstring = image_hwstring($width, $height);
+
+	$id = isset($image-&gt;ID) ? esc_attr( $image-&gt;ID ) : 0;
+	$_title = isset( $image-&gt;title ) &amp;&amp; $image-&gt;title ? wp_strip_all_tags( stripslashes_deep( $image-&gt;title ) ) : &#039;&#039;;
+	$title = $_title ? &#039;title=&quot;&#039; . esc_attr( $_title ) . &#039;&quot; &#039; : &#039;&#039;;
+	$_caption = ! empty( $image-&gt;caption ) ? wp_strip_all_tags( stripslashes_deep( $image-&gt;caption ) ) : &#039;&#039;;
+	$caption = $_caption ? &#039; data-caption=&quot;&#039; . esc_attr( $_caption ) . &#039;&quot; &#039; : &#039;&#039;;
+
+	if ( $_title ) {
+		$alt = $_title;
+	} else if ( $img_src ) {
+		$alt = preg_replace( &#039;/\.[^.]+$/&#039;, &#039;&#039;, basename( $img_src ) );
+		$alt = str_replace( array( &#039;-&#039;, &#039;_&#039; ), &#039; &#039;, $alt );
+	} else {
+		$alt = &#039;&#039;;
+	}
+
+	if ( $alt ) {
+		$alt = esc_attr( trim( $alt ) );
+	}
+
+	$class = &#039;align&#039; . esc_attr($align) .&#039; size-&#039; . esc_attr($size) . &#039; geodir-image-&#039; . $id .&#039; &#039; . $classes;
+	if ( geodir_design_style() ) {
+		$class .= &#039; w-100 p-0 m-0 mw-100 border-0&#039;;
+	}
+
+	/**
+	 * Filters the value of the attachment&#039;s image tag class attribute.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param string       $class CSS class name or space-separated list of classes.
+	 * @param int          $id    Attachment ID.
+	 * @param string       $align Part of the class name for aligning the image.
+	 * @param string|array $size  Size of image. Image size or array of width and height values (in that order).
+	 *                            Default &#039;medium&#039;.
+	 */
+	$class = apply_filters( &#039;geodir_get_image_tag_class&#039;, $class, $id, $align, $size );
+
+	$html = &#039;&lt;img src=&quot;&#039; . esc_attr($img_src) . &#039;&quot; alt=&quot;&#039; . $alt . &#039;&quot; &#039; . $title . $caption . $hwstring . &#039;class=&quot;&#039; . $class . &#039;&quot; /&gt;&#039;;
+
+	/**
+	 * Filters the HTML content for the image tag.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param string       $html  HTML content for the image.
+	 * @param int          $id    Attachment ID.
+	 * @param string       $alt   Alternate text.
+	 * @param string       $title Attachment title.
+	 * @param string       $align Part of the class name for aligning the image.
+	 * @param string|array $size  Size of image. Image size or array of width and height values (in that order).
+	 *                            Default &#039;medium&#039;.
+	 */
+	return apply_filters( &#039;geodir_get_image_tag&#039;, $html, $id, $alt, $title, $align, $size );
+}
+
+/**
+ * Retrieve mshots screenshot url for requested url.
+ *
+ * @since 2.0.0.100
+ *
+ * @param string $url The url to generate screenshot.
+ * @param array  $params Screenshot parameters.
+ * @return string Screenshot url.
+ */
+function geodir_get_screenshot( $url, $params = array() ) {
+	$screenshot_base_url = &#039;https://s.wordpress.com/mshots/v1/&#039;;
+
+	$params = wp_parse_args( $params, array(
+		&#039;image&#039; =&gt; false,     // Check image &amp; assign auto vpw &amp; vph when empty.
+		&#039;w&#039; =&gt; &#039;&#039;,            // Screenshot width
+		&#039;h&#039; =&gt; &#039;&#039;,            // Screenshot height
+		&#039;vpw&#039; =&gt; &#039;&#039;,          // Viewport width
+		&#039;vph&#039; =&gt; &#039;&#039;,          // Viewport height
+		&#039;requeue&#039; =&gt; false,   // &#039;true&#039; to remove cached &amp; regenerate screenshot.
+	) );
+
+	$params = apply_filters( &#039;geodir_get_screenshot_params&#039;, $params, $url, $params );
+
+	$args = array();
+	if ( ! empty( $params[&#039;w&#039;] ) ) {
+		$args[&#039;w&#039;] = $params[&#039;w&#039;];
+	}
+	if ( ! empty( $params[&#039;h&#039;] ) ) {
+		$args[&#039;h&#039;] = $params[&#039;h&#039;];
+	}
+	if ( ! empty( $params[&#039;image&#039;] ) &amp;&amp; ( empty( $params[&#039;vpw&#039;] ) || empty( $params[&#039;vph&#039;] ) ) ) {
+		// Find image dimension.
+		$dimension = geodir_get_image_dimension( $url );
+
+		if ( ! empty( $dimension ) &amp;&amp; ! empty( $dimension[&#039;width&#039;] ) &amp;&amp; ! empty( $dimension[&#039;height&#039;] ) ) {
+			$args[&#039;vpw&#039;] = $dimension[&#039;width&#039;];
+			$args[&#039;vph&#039;] = $dimension[&#039;height&#039;];
+		}
+	}
+	if ( ! empty( $params[&#039;vpw&#039;] ) &amp;&amp; ! empty( $params[&#039;vph&#039;] ) ) {
+		$args[&#039;vpw&#039;] = $params[&#039;vpw&#039;];
+		$args[&#039;vph&#039;] = $params[&#039;vph&#039;];
+	}
+	if ( ! empty( $params[&#039;requeue&#039;] ) ) {
+		$args[&#039;requeue&#039;] = &#039;true&#039;;
+	}
+
+	$screenshot = $screenshot_base_url . urlencode( $url );
+	if ( ! empty( $args ) ) {
+		$screenshot = add_query_arg( $args, $screenshot );
+	}
+
+	return apply_filters( &#039;geodir_get_screenshot&#039;, $screenshot, $url, $params, $args );
+}
+
+function geodir_get_field_screenshot( $field, $sizes = array( &#039;w&#039; =&gt; 825, &#039;h&#039; =&gt; 430, &#039;image&#039; =&gt; 1 ) ) {
+	global $gd_post;
+	$url = &#039;&#039;;
+	if ( isset( $gd_post-&gt;{$field} ) &amp;&amp; esc_url( $gd_post-&gt;{$field}) ) {
+		// check if maybe a video URL
+		if ($video = geodir_get_video_screenshot( $gd_post-&gt;{$field})) {
+			$url = $video;
+		}else{
+			$url = geodir_get_screenshot( $gd_post-&gt;{$field}, $sizes );
+		}
+	}
+
+	return $url;
+}
+
+/**
+ * Get a screenshot URL from a video URL.
+ * 
+ * @param $field_raw
+ *
+ * @return mixed|void
+ */
+function geodir_get_video_screenshot( $field_raw ) {
+	$screenshot = &#039;&#039;;
+	$screenshot_base_url = &#039;https://img.youtube.com/vi/%s/hqdefault.jpg&#039;;
+
+	// check if its a video URL
+	if (!empty($field_raw) &amp;&amp; preg_match(&quot;/^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\/(?:(?:watch)?\?(?:.*&amp;)?v(?:i)?=|(?:embed|v|vi|user)\/))([^\?&amp;\&quot;&#039;&gt;]+)/&quot;, $field_raw, $matches) ) {
+		if(!empty($matches[1])){
+			$screenshot = esc_url( sprintf($screenshot_base_url, esc_attr($matches[1])) );
+		}
+	}
+
+	return apply_filters( &#039;geodir_get_video_screenshot&#039;, $screenshot, $field_raw);
+}
+
+/**
+ * Gets the post images.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ *
+ * @global object $gd_post The GeoDirectory post object.
+ *
+ * @param int $post_id The post ID.
+ * @param int|string $limit Optional. Number of images.
+ * @param bool $logo Optional. Show logo image? Default: false.
+ * @param int $revision_id The revision post ID.
+ * @param array $types Images types to retrieve.
+ * @param array $fallback_types Fallback images types to retrieve for empty results.
+ * @param int|string $status Optional. Retrieve images with status passed.
+ * @return array|bool Returns images as an array. Each item is an object.
+ */
+function geodir_get_images( $post_id = 0, $limit = &#039;&#039;, $logo = false, $revision_id = &#039;&#039;, $types = array() , $fallback_types = array( &#039;logo&#039;, &#039;cat_default&#039;, &#039;cpt_default&#039;, &#039;listing_default&#039;, &#039;website_screenshot&#039; ), $status = &#039;&#039; ) {
+	global $gd_post;
+
+	$post_images = array();
+
+	if ( ! empty( $types ) ) {
+		$original_types = $types;
+
+		// Check for URL screenshots
+		$has_screenshots = false;
+		if ( ! empty( $types ) ) {
+			foreach ( $types as $key =&gt; $val ) {
+				if ( stripos( strrev( $val ), &quot;tohsneercs_&quot; ) === 0 ) {
+					$field = str_replace( &quot;_screenshot&quot;, &quot;&quot;, $val );
+
+					if ( isset( $gd_post-&gt;{$field} ) &amp;&amp; esc_url( $gd_post-&gt;{$field} ) ) {
+						$has_screenshots = true;
+					} else {
+						unset( $types[$key] ); // Unset if an invalid screenshot type
+					}
+				}
+			}
+		}
+
+		$types = geodir_post_has_image_types( $types, $post_id, $revision_id );
+
+		if ( ! empty( $types ) ) {
+			if ( $has_screenshots ) {
+				foreach ( $types as $type ) {
+					if ( $limit &amp;&amp; count( $post_images ) &gt;= $limit ) {
+						break;
+					}
+
+					$new_images = array();
+					if ( stripos( strrev( $type ), &quot;tohsneercs_&quot;) === 0 ) {
+						$field = str_replace( &quot;_screenshot&quot;, &quot;&quot;, $type );
+
+						if ( isset( $gd_post-&gt;{$field} ) &amp;&amp; esc_url( $gd_post-&gt;{$field} ) ) {
+							$image_src = geodir_get_field_screenshot( $field );
+
+							if ( $image_src ) {
+								$image = new stdClass();
+								$image-&gt;ID = 0;
+								$image-&gt;post_id = $post_id;
+								$image-&gt;user_id = 0;
+								$image-&gt;title = wp_sprintf( __( &#039;%s screenshot&#039;, &#039;geodirectory&#039; ), esc_attr( $field ) );
+								$image-&gt;caption = &#039;&#039;;
+								$image-&gt;file = ltrim( $image_src, &#039;/\\&#039; );
+								$image-&gt;mime_type = &#039;&#039;;
+								$image-&gt;menu_order = 0;
+								$image-&gt;featured= 0;
+								$image-&gt;is_approved = 1;
+								$image-&gt;metadata = &#039;&#039;;
+								$image-&gt;type = esc_attr( $field ) . &#039;_screenshot&#039;;
+								$new_images[] = $image;
+							}
+						}
+					} else {
+						$new_images = GeoDir_Media::get_attachments_by_type( $post_id, $type, $limit, $revision_id, &#039;&#039;, $status );
+					}
+
+					if ( ! empty( $new_images ) ) {
+						foreach ( $new_images as $new_image ) {
+							if ( $limit &amp;&amp; count( $post_images ) &gt;= $limit ) {
+								break;
+							}
+							array_push( $post_images, $new_image );
+						}
+					}
+				}
+			} else {
+				$post_images = GeoDir_Media::get_attachments_by_type( $post_id, $types, $limit, $revision_id, &#039;&#039;, $status );
+			}
+		}
+	} else {
+		$post_images = GeoDir_Media::get_post_images( $post_id, $limit, $revision_id, $status );
+	}
+
+	if ( ! empty( $post_images ) ) {
+		// wp_image_add_srcset_and_sizes( $image, $image_meta, $attachment_id );
+		if ( $logo &amp;&amp; geodir_post_has_image_types( &#039;logo&#039;, $post_id, $revision_id ) ) {
+			$logo_image = GeoDir_Media::get_attachments_by_type( $post_id, &#039;logo&#039;, 1, $revision_id, &#039;&#039;, $status );
+			if ( $logo_image ) {
+				$post_images = $logo_image + $post_images;
+			}
+		}
+	} else if ( ! empty( $fallback_types ) ) {
+		$fallback_image = new stdClass();
+		$default_img_id = 0;
+
+		// Fallback images
+		foreach( $fallback_types as $fallback_type ) {
+			// Logo
+			if ( $fallback_type == &#039;logo&#039; &amp;&amp; isset( $gd_post-&gt;logo ) &amp;&amp; $gd_post-&gt;logo &amp;&amp; geodir_post_has_image_types( &#039;logo&#039;, $post_id ) ) {
+				$logo_image = GeoDir_Media::get_attachments_by_type( $post_id, &#039;logo&#039;, 1, &#039;&#039;, &#039;&#039;, $status );
+				if ( $logo_image ) {
+					$post_images = $logo_image;
+					break;
+				}
+			}
+
+			if ( $fallback_type == &#039;cat_default&#039; ) {
+				$term_img = 0;
+				// Cat image
+				if ( geodir_is_page(&#039;archive&#039; ) ) {
+					if ( $term_id = get_queried_object_id() ) {
+						$term_img = get_term_meta( $term_id, &#039;ct_cat_default_img&#039;, true );
+					}
+				}
+
+				if ( empty( $term_img ) ) {
+					$default_term_id = geodir_get_post_meta( $post_id, &#039;default_category&#039; );
+
+					if ( $default_term_id ) {
+						$term_img = get_term_meta( $default_term_id, &#039;ct_cat_default_img&#039;, true );
+					}
+				}
+
+				if ( ! empty( $term_img ) ) {
+					$default_img_id = $term_img[&#039;id&#039;];
+
+					if ( !empty( $default_img_id ) &amp;&amp; ! empty( $term_img[&#039;src&#039;] ) ) {
+						$imag_title = __( &#039;Placeholder image&#039;, &#039;geodirectory&#039; );
+						$imag_caption = &#039;&#039;;
+						$image_mime_type = &#039;&#039;;
+						$image_metadata = &#039;&#039;;
+
+						if ( absint( $default_img_id ) &gt; 0 &amp;&amp; ( $default_image_post = get_post( absint( $default_img_id ) ) ) ) {
+							// Image title
+							if ( ! empty( $default_image_post-&gt;post_title ) ) {
+								$imag_title = strip_tags( $default_image_post-&gt;post_title );
+							}
+
+							// Image caption
+							if ( ! empty( $default_image_post-&gt;post_excerpt ) ) {
+								$imag_caption = strip_tags( $default_image_post-&gt;post_excerpt );
+							}
+
+							// Image mime type
+							if ( ! empty( $default_image_post-&gt;post_mime_type ) ) {
+								$image_mime_type = strip_tags( $default_image_post-&gt;post_mime_type );
+							}
+
+							// Image metadata
+							$image_metadata = wp_get_attachment_metadata( absint( $default_img_id ) );
+						}
+
+						$image_src = geodir_file_relative_url( $term_img[&#039;src&#039;], false );
+						$post_images = array();
+						$image = new stdClass();
+						$image-&gt;ID = 0;
+						$image-&gt;post_id = $post_id;
+						$image-&gt;user_id = 0;
+						$image-&gt;title = $imag_title;
+						$image-&gt;caption = $imag_caption;
+						$image-&gt;file = &#039;/&#039; . ltrim( $image_src, &#039;/\\&#039; );
+						$image-&gt;mime_type = $image_mime_type;
+						$image-&gt;menu_order = 0;
+						$image-&gt;featured= 0;
+						$image-&gt;is_approved = 1;
+						$image-&gt;metadata = $image_metadata;
+						$image-&gt;type = &#039;post_images&#039;;
+						$post_images[] = $image;
+						break;
+					} else if ( ! empty( $default_img_id ) &amp;&amp; absint( $default_img_id ) &gt; 0 ) {
+						$default_img_id = absint( $default_img_id );
+						break;
+					}
+				}
+			}
+
+			if ( $fallback_type == &#039;cpt_default&#039; &amp;&amp; ! empty( $gd_post ) ) {
+				// Check for CPT default image
+				$cpt = $gd_post-&gt;post_type;
+				if ( $cpt ) {
+					$cpts = geodir_get_posttypes(&#039;array&#039;);
+					if ( ! empty( $cpts[$cpt][&#039;default_image&#039;] ) ) {
+						$default_img_id = absint( $cpts[$cpt][&#039;default_image&#039;] );
+						break;
+					}
+				}
+			}
+
+			if ( $fallback_type == &#039;listing_default&#039; ) {
+				$listing_default_image_id = geodir_get_option( &#039;listing_default_image&#039; );
+				if ( $listing_default_image_id ) {
+					$default_img_id = absint( $listing_default_image_id );
+					break;
+				}
+			}
+
+			if ( is_int( $fallback_type ) ) {
+				$default_img_id = absint( $fallback_type );
+				break;
+			}
+
+			if ( stripos( strrev( $fallback_type ), &quot;tohsneercs_&quot; ) === 0 ) { // screenshots
+				$field = str_replace( &quot;_screenshot&quot;, &quot;&quot;, $fallback_type );
+
+				if ( isset( $gd_post-&gt;{$field} ) &amp;&amp; esc_url( $gd_post-&gt;{$field} ) ) {
+					$image_src = geodir_get_field_screenshot( $field );
+
+					if ( $image_src ) {
+						$image = new stdClass();
+						$image-&gt;ID = 0;
+						$image-&gt;post_id = $post_id;
+						$image-&gt;user_id = 0;
+						$image-&gt;title = wp_sprintf( __( &#039;%s screenshot&#039;, &#039;geodirectory&#039; ), esc_attr( $field ) );
+						$image-&gt;caption = &#039;&#039;;
+						$image-&gt;file = ltrim( $image_src, &#039;/\\&#039; );
+						$image-&gt;mime_type = &#039;&#039;;
+						$image-&gt;menu_order = 0;
+						$image-&gt;featured= 0;
+						$image-&gt;is_approved = 1;
+						$image-&gt;metadata = &#039;&#039;;
+						$image-&gt;type = esc_attr( $field ).&#039;_screenshot&#039;;
+						$post_images[] = $image;
+						break;
+					}
+				}
+			}
+		}
+
+		// Default image
+		if ( empty( $post_images ) &amp;&amp; $default_img_id ) {
+			$default_image_post = get_post( $default_img_id );
+
+			if ( $default_image_post ) {
+				$wp_upload_dir = wp_upload_dir();
+
+				$post_images = array();
+				$image = new stdClass();
+				$image-&gt;ID = 0;
+				$image-&gt;post_id = $default_image_post-&gt;ID;
+				$image-&gt;user_id = 0;
+				$image-&gt;title = !empty($default_image_post-&gt;post_title) ? stripslashes_deep( $default_image_post-&gt;post_title ) : __( &#039;Placeholder image&#039;, &#039;geodirectory&#039; );
+				$image-&gt;caption = !empty($default_image_post-&gt;post_excerpt) ? stripslashes_deep( $default_image_post-&gt;post_excerpt ) : &#039;&#039;;
+				$image-&gt;file = str_replace( $wp_upload_dir[&#039;basedir&#039;], &#039;&#039;, get_attached_file( $default_img_id ) );
+				$image-&gt;mime_type = $default_image_post-&gt;post_mime_type;
+				$image-&gt;menu_order = 0;
+				$image-&gt;featured = 0;
+				$image-&gt;is_approved = 1;
+				$image-&gt;metadata= wp_get_attachment_metadata( $default_img_id );
+				$image-&gt;type = &#039;post_images&#039;;
+				$post_images[] = $image;
+			}
+		}
+	}
+
+	return $post_images;
+}
+
+/**
+ * Check font awesome icon or not.
+ *
+ * @param string $icon Font awesome icon.
+ * @return bool True if font awesome icon.
+ */
+function geodir_is_fa_icon( $icon ) {
+	$return = false;
+	if ( $icon != &#039;&#039; ) {
+		$fa_icon = trim( $icon );
+		if ( strpos( $fa_icon, &#039;fa fa-&#039; ) === 0 || strpos( $fa_icon, &#039;fas fa-&#039; ) === 0 || strpos( $fa_icon, &#039;far fa-&#039; ) === 0 || strpos( $fa_icon, &#039;fab fa-&#039; ) === 0 || strpos( $fa_icon, &#039;fa-&#039; ) === 0 ) {
+			$return = true;
+		}
+	}
+	return apply_filters( &#039;geodir_is_fa_icon&#039;, $return, $icon  );
+}
+
+/**
+ * Check icon url.
+ *
+ * @param string $icon Icon url.
+ * @return bool True if icon url.
+ */
+function geodir_is_icon_url( $icon ) {
+	$return = false;
+	if ( $icon != &#039;&#039; ) {
+		$icon = trim( $icon );
+		if ( strpos( $icon, &#039;http://&#039; ) === 0 || strpos( $icon, &#039;https://&#039; ) === 0 ) {
+			$return = true;
+		}
+	}
+	return apply_filters( &#039;geodir_is_icon_url&#039;, $return, $icon  );
+}
+
+/**
+ * Validate post image types.
+ *
+ * $since 2.0.0.65
+ *
+ * @param array $types Array of image types. Ex: logo, comment_images, post_images.
+ * @param int $post_id Post ID.
+ * @param int $revision_id Post revision ID. Default 0.
+ * @return array Array of valid image types.
+ */
+function geodir_post_has_image_types( $types = array(), $post_id = 0, $revision_id = 0 ) {
+	if ( ! empty( $types ) ) {
+		if ( is_scalar( $types ) ) {
+			$image_types = array_map( &#039;trim&#039;, explode( &quot;,&quot;, $types ) );
+		} else {
+			$image_types = $types;
+		}
+		$image_types = array_filter( array_unique( $image_types ) );
+
+		if ( ! empty( $image_types ) ) {
+			$post_type = get_post_type( $post_id );
+			$package_id = geodir_get_post_package_id( $post_id, $post_type );
+
+			$valid_types = array();
+			foreach ( $image_types as $type ) {
+				if ( in_array( $type, array( &#039;post_images&#039;, &#039;comment_images&#039; ) ) ) {
+					$valid_types[] = $type;
+				} elseif(stripos(strrev($type), &quot;tohsneercs_&quot;) === 0){
+					$valid_types[] = $type;
+				}elseif ( geodir_check_field_visibility( $package_id, $type, $post_type ) ) {
+					$valid_types[] = $type;
+				}
+			}
+			$image_types = $valid_types;
+		}
+	} else {
+		$image_types = array();
+	}
+
+	return apply_filters( &#039;geodir_post_has_image_types&#039;, $image_types, $types, $post_id, $revision_id  );
+}
+
+/**
+ * Retrieve image dimension.
+ *
+ * @since 2.0.0.100
+ *
+ * @global array $geodir_image_dimension Array of cached image dimension.
+ *
+ * @param string $image_url The image url.
+ * @param array  $default Default dimension. Default empty.
+ * @return array Image dimension array.
+ */
+function geodir_get_image_dimension( $image_url, $default = array() ) {
+	global $geodir_image_dimension;
+
+	if ( empty( $geodir_image_dimension ) ) {
+		$geodir_image_dimension = array();
+	}
+
+	if ( ! empty( $geodir_image_dimension[ $image_url ] ) ) {
+		return $geodir_image_dimension[ $image_url ];
+	}
+
+	if ( empty( $image_url ) ) {
+		$geodir_image_dimension[ $image_url ] = $default;
+
+		return $default;
+	}
+
+	$_image_url = $image_url;
+
+	if ( ! path_is_absolute( $image_url ) ) {
+		$uploads = wp_upload_dir(); // Array of key =&gt; value pairs
+
+		$image_url = str_replace( $uploads[&#039;baseurl&#039;], $uploads[&#039;basedir&#039;], $image_url );
+	}
+
+	if ( ! path_is_absolute( $image_url ) &amp;&amp; strpos( $image_url, WP_CONTENT_URL ) !== false ) {
+		$image_url = str_replace( WP_CONTENT_URL, WP_CONTENT_DIR, $image_url );
+	}
+
+	if ( strpos( $image_url, &#039;http://&#039; ) !== false || strpos( $image_url, &#039;https://&#039; ) !== false ) {
+		$geodir_image_dimension[ $_image_url ] = $default;
+
+		return $default;
+	}
+
+	$dimension = array();
+	if ( is_file( $image_url ) &amp;&amp; file_exists( $image_url ) ) {
+		$size = @getimagesize( trim( $image_url ) );
+
+		// Check for .svg image
+		if ( empty( $size ) &amp;&amp; preg_match( &#039;/\.svg$/i&#039;, $image_url ) ) {
+			if ( ( $xml = simplexml_load_file( $image_url ) ) !== false ) {
+				$attributes = $xml-&gt;attributes();
+
+				if ( ! empty( $attributes ) &amp;&amp; isset( $attributes-&gt;viewBox ) ) {
+					$viewbox = explode( &#039; &#039;, $attributes-&gt;viewBox );
+
+					$size = array();
+					$size[0] = isset( $attributes-&gt;width ) &amp;&amp; preg_match( &#039;/\d+/&#039;, $attributes-&gt;width, $value ) ? (int) $value[0] : ( count( $viewbox ) == 4 ? (int) trim( $viewbox[2] ) : 0 );
+					$size[1] = isset( $attributes-&gt;height ) &amp;&amp; preg_match( &#039;/\d+/&#039;, $attributes-&gt;height, $value ) ? (int) $value[0] : ( count( $viewbox ) == 4 ? (int) trim( $viewbox[3] ) : 0 );
+				}
+			}
+		}
+
+		if ( ! empty( $size ) &amp;&amp; ! empty( $size[0] ) &amp;&amp; ! empty( $size[1] ) ) {
+			$dimension = array( &#039;width&#039; =&gt; $size[0], &#039;height&#039; =&gt; $size[1] );
+		}
+	}
+
+	$dimension = ! empty( $dimension ) ? $dimension : $default;
+
+	$geodir_image_dimension[ $_image_url ] = $dimension;
+
+	return $dimension;
+}
+
+/**
+ * Check if a image meta file source is external and if so change the srcset to match.
+ * 
+ * @param $sources
+ * @param $size_array
+ * @param $image_src
+ * @param $image_meta
+ * @param $attachment_id
+ *
+ * @return mixed
+ */
+function geodir_set_external_srcset( $sources, $size_array, $image_src, $image_meta, $attachment_id ) {
+
+	if($attachment_id === 0 &amp;&amp; !empty($sources) &amp;&amp; isset($image_meta[&#039;file&#039;]) &amp;&amp; substr( $image_meta[&#039;file&#039;], 0, 4 ) === &quot;http&quot;){
+		$img_url_basename = wp_basename( $image_src );
+		foreach ( $sources as $key =&gt; $source ) {
+			$sources[$key][&#039;url&#039;] = str_replace($img_url_basename, wp_basename($source[&#039;url&#039;]), $image_src);
+		}
+	}
+
+	return $sources;
+}
+add_filter(&#039;wp_calculate_image_srcset&#039;,&#039;geodir_set_external_srcset&#039;,10,5);
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

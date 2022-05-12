@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-maps.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Maps
+ *
+ * Setup GD maps.
+ *
+ * @class     GeoDir_Maps
+ * @since     2.0.0
+ * @package   GeoDirectory
+ * @category  Class
+ * @author    AyeCode
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+/**
+ * GeoDir_Maps Class.
+ */
+class GeoDir_Maps {
+
+	public function __construct() {
+
+
+	}
+
+	/**
+	 * Get the map JS API provider name.
+	 *
+	 * @since 1.6.1
+	 * @package GeoDirectory
+	 *
+	 * @return string The map API provider name.
+	 */
+	public static function active_map() {
+		$active_map = geodir_get_option( &#039;maps_api&#039;, &#039;google&#039; );
+
+		if(($active_map ==&#039;google&#039; || $active_map ==&#039;auto&#039;) &amp;&amp; !geodir_get_option( &#039;google_maps_api_key&#039; )){
+			$active_map = &#039;osm&#039;;
+		}
+		
+		if ( ! in_array( $active_map, array( &#039;none&#039;, &#039;auto&#039;, &#039;google&#039;, &#039;osm&#039; ) ) ) {
+			$active_map = &#039;auto&#039;;
+		}
+
+		/**
+		 * Filter the map JS API provider name.
+		 *
+		 * @since 1.6.1
+		 * @param string $active_map The map API provider name.
+		 */
+		return apply_filters( &#039;geodir_map_name&#039;, $active_map );
+	}
+
+	/**
+	 * Get the marker icon size.
+	 * This will return width and height of icon in array (ex: w =&gt; 36, h =&gt; 45).
+	 *
+	 * @since 1.6.1
+	 * @package GeoDirectory
+	 *
+	 * @global $gd_marker_sizes Array of the marker icons sizes.
+	 *
+	 * @param string $icon Marker icon url.
+	 * @return array The icon size.
+	 */
+	public static function get_marker_size( $icon, $default_size = array( &#039;w&#039; =&gt; 36, &#039;h&#039; =&gt; 45 ) ) {
+		global $gd_marker_sizes;
+
+		if ( empty( $gd_marker_sizes ) ) {
+			$gd_marker_sizes = array();
+		}
+
+		if ( ! empty( $gd_marker_sizes[ $icon ] ) ) {
+			return $gd_marker_sizes[ $icon ];
+		}
+
+		if ( empty( $icon ) ) {
+			$gd_marker_sizes[ $icon ] = $default_size;
+
+			return $default_size;
+		}
+
+		$icon_url = $icon;
+
+		if ( ! path_is_absolute( $icon ) ) {
+			$uploads = wp_upload_dir(); // Array of key =&gt; value pairs
+
+			$icon = str_replace( $uploads[&#039;baseurl&#039;], $uploads[&#039;basedir&#039;], $icon );
+		}
+
+		if ( ! path_is_absolute( $icon ) &amp;&amp; strpos( $icon, WP_CONTENT_URL ) !== false ) {
+			$icon = str_replace( WP_CONTENT_URL, WP_CONTENT_DIR, $icon );
+		}
+
+		$sizes = array();
+		if ( is_file( $icon ) &amp;&amp; file_exists( $icon ) ) {
+			$size = getimagesize( trim( $icon ) );
+
+			// Check for .svg image
+			if ( empty( $size ) &amp;&amp; preg_match( &#039;/\.svg$/i&#039;, $icon ) ) {
+				if ( ( $xml = simplexml_load_file( $icon ) ) !== false ) {
+					$attributes = $xml-&gt;attributes();
+
+					if ( ! empty( $attributes ) &amp;&amp; isset( $attributes-&gt;viewBox ) ) {
+						$viewbox = explode( &#039; &#039;, $attributes-&gt;viewBox );
+
+						$size = array();
+						$size[0] = isset( $attributes-&gt;width ) &amp;&amp; preg_match( &#039;/\d+/&#039;, $attributes-&gt;width, $value ) ? (int) $value[0] : ( count( $viewbox ) == 4 ? (int) trim( $viewbox[2] ) : 0 );
+						$size[1] = isset( $attributes-&gt;height ) &amp;&amp; preg_match( &#039;/\d+/&#039;, $attributes-&gt;height, $value ) ? (int) $value[0] : ( count( $viewbox ) == 4 ? (int) trim( $viewbox[3] ) : 0 );
+					}
+				}
+			}
+
+			if ( ! empty( $size[0] ) &amp;&amp; ! empty( $size[1] ) ) {
+				$sizes = array( &#039;w&#039; =&gt; $size[0], &#039;h&#039; =&gt; $size[1] );
+			}
+		}
+
+		$sizes = ! empty( $sizes ) ? $sizes : $default_size;
+
+		$gd_marker_sizes[ $icon_url ] = $sizes;
+
+		return $sizes;
+	}
+
+	/**
+	 * Adds the marker cluster script for OpenStreetMap when Google JS Library not loaded.
+	 *
+	 * @since 1.6.1
+	 * @package GeoDirectory
+	 */
+	public static function footer_script() {
+		$osm_extra = &#039;&#039;;
+
+		if ( self::active_map() == &#039;auto&#039; &amp;&amp; ! self::lazy_load_map() ) {
+			$plugin_url = geodir_plugin_url();
+
+			ob_start();
+?&gt;
+if (!(window.google &amp;&amp; typeof google.maps !== &#039;undefined&#039;)) {
+	var css = document.createElement(&quot;link&quot;);css.setAttribute(&quot;rel&quot;,&quot;stylesheet&quot;);css.setAttribute(&quot;type&quot;,&quot;text/css&quot;);css.setAttribute(&quot;media&quot;,&quot;all&quot;);css.setAttribute(&quot;id&quot;,&quot;geodirectory-leaflet-style-css&quot;);css.setAttribute(&quot;href&quot;,&quot;&lt;?php echo $plugin_url; ?&gt;/assets/leaflet/leaflet.css?ver=&lt;?php echo GEODIRECTORY_VERSION; ?&gt;&quot;);
+	document.getElementsByTagName(&quot;head&quot;)[0].appendChild(css);
+	var css = document.createElement(&quot;link&quot;);css.setAttribute(&quot;rel&quot;,&quot;stylesheet&quot;);css.setAttribute(&quot;type&quot;,&quot;text/css&quot;);css.setAttribute(&quot;media&quot;,&quot;all&quot;);css.setAttribute(&quot;id&quot;,&quot;geodirectory-leaflet-routing-style&quot;);css.setAttribute(&quot;href&quot;,&quot;&lt;?php echo $plugin_url; ?&gt;/assets/leaflet/routing/leaflet-routing-machine.css?ver=&lt;?php echo GEODIRECTORY_VERSION; ?&gt;&quot;);
+	document.getElementsByTagName(&quot;head&quot;)[0].appendChild(css);
+	document.write(&#039;&lt;&#039; + &#039;script id=&quot;geodirectory-leaflet-script&quot; src=&quot;&lt;?php echo $plugin_url; ?&gt;/assets/leaflet/leaflet.min.js?ver=&lt;?php echo GEODIRECTORY_VERSION; ?&gt;&quot; type=&quot;text/javascript&quot;&gt;&lt;&#039; + &#039;/script&gt;&#039;);
+	document.write(&#039;&lt;&#039; + &#039;script id=&quot;geodirectory-leaflet-geo-script&quot; src=&quot;&lt;?php echo $plugin_url; ?&gt;/assets/leaflet/osm.geocode.min.js?ver=&lt;?php echo GEODIRECTORY_VERSION; ?&gt;&quot; type=&quot;text/javascript&quot;&gt;&lt;&#039; + &#039;/script&gt;&#039;);
+	document.write(&#039;&lt;&#039; + &#039;script id=&quot;geodirectory-leaflet-routing-script&quot; src=&quot;&lt;?php echo $plugin_url; ?&gt;/assets/leaflet/routing/leaflet-routing-machine.min.js?ver=&lt;?php echo GEODIRECTORY_VERSION; ?&gt;&quot; type=&quot;text/javascript&quot;&gt;&lt;&#039; + &#039;/script&gt;&#039;);
+	document.write(&#039;&lt;&#039; + &#039;script id=&quot;geodirectory-o-overlappingmarker-script&quot; src=&quot;&lt;?php echo $plugin_url; ?&gt;/assets/jawj/oms-leaflet.min.js?ver=&lt;?php echo GEODIRECTORY_VERSION; ?&gt;&quot; type=&quot;text/javascript&quot;&gt;&lt;&#039; + &#039;/script&gt;&#039;);
+}
+&lt;?php
+			do_action( &#039;geodir_maps_extra_script&#039; );
+
+			$osm_extra = ob_get_clean();
+		}
+
+		return $osm_extra;
+	}
+
+	/**
+	 * Function for get default marker icon.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param bool $full_path Optional. Default marker icon full path. Default false.
+	 * @return string $icon.
+	 */
+	public static function default_marker_icon( $full_path = false ) {
+		$icon = geodir_get_option( &#039;map_default_marker_icon&#039; );
+
+		if ( ! empty( $icon ) &amp;&amp; (int) $icon &gt; 0 ) {
+			$icon = wp_get_attachment_url( $icon );
+		}
+		
+		if ( ! $icon ) {
+			$icon = geodir_file_relative_url( GEODIRECTORY_PLUGIN_URL . &#039;/assets/images/pin.png&#039; );
+			geodir_update_option( &#039;map_default_marker_icon&#039;, $icon );
+		}
+		
+		$icon = geodir_file_relative_url( $icon, $full_path );
+		
+		return apply_filters( &#039;geodir_default_marker_icon&#039;, $icon, $full_path );
+	}
+
+	/**
+	 * Returns the default language of the map.
+	 *
+	 * @since   1.0.0
+	 * @package GeoDirectory
+	 * @return string Returns the default language.
+	 */
+	public static function map_language() {
+		$geodir_default_map_language = geodir_get_option( &#039;map_language&#039; );
+		if ( empty( $geodir_default_map_language ) ) {
+			$geodir_default_map_language = &#039;en&#039;;
+		}
+
+		/**
+		 * Filter default map language.
+		 *
+		 * @since 1.0.0
+		 *
+		 * @param string $geodir_default_map_language Default map language.
+		 */
+		return apply_filters( &#039;geodir_default_map_language&#039;, $geodir_default_map_language );
+	}
+
+	/**
+	 * Get OpenStreepMap routing language.
+	 *
+	 * @since 2.1.0.7
+	 *
+	 * @return string Routing language.
+	 */
+	public static function osm_routing_language() {
+		$map_lang = self::map_language();
+		$langs = array( &#039;en&#039;, &#039;de&#039;, &#039;sv&#039;, &#039;es&#039;, &#039;sp&#039;, &#039;nl&#039;, &#039;fr&#039;, &#039;it&#039;, &#039;pt&#039;, &#039;sk&#039;, &#039;el&#039;, &#039;ca&#039;, &#039;ru&#039;, &#039;pl&#039;, &#039;uk&#039; );
+
+		if ( in_array( $map_lang, $langs ) ) {
+			$routing_lang = $map_lang;
+		} else if ( in_array( substr( $map_lang, 0, 2 ), $langs ) ) {
+			$routing_lang = substr( $map_lang, 0, 2 );
+		} else {
+			$routing_lang = &#039;en&#039;;
+		}
+
+		return apply_filters( &#039;geodir_osm_routing_language&#039;, $routing_lang );
+	}
+
+	/**
+	 * Returns the Google maps api key.
+	 *
+	 * @since   1.6.4
+	 * @since   2.0.0 Added $query param.
+	 * @param bool $query If this is for a query and if so add the key=.
+	 * @package GeoDirectory
+	 * @return string Returns the api key.
+	 */
+	public static function google_api_key( $query = false ) {
+		$key = geodir_get_option( &#039;google_maps_api_key&#039; );
+
+		if ( $key &amp;&amp; $query ) {
+			$key = &quot;&amp;key=&quot; . $key;
+		}
+
+		/**
+		 * Filter Google maps api key.
+		 *
+		 * @since 1.6.4
+		 *
+		 * @param string $key Google maps api key.
+		 */
+		return apply_filters( &#039;geodir_google_api_key&#039;, $key, $query );
+	}
+
+	/**
+	 * Returns the Google Geocoding API key.
+	 *
+	 * @since   2.0.0.64
+	 * @param bool $query If this is for a query and if so add the key=.
+	 * @package GeoDirectory
+	 * @return string Returns the Geocoding api key.
+	 */
+	public static function google_geocode_api_key( $query = false ) {
+		$key = geodir_get_option( &#039;google_geocode_api_key&#039; );
+
+		if ( empty( $key ) ) {
+			$key = self::google_api_key();
+		}
+
+		if ( $key &amp;&amp; $query ) {
+			$key = &quot;&amp;key=&quot; . $key;
+		}
+
+		/**
+		 * Filter Google Geocoding API key.
+		 *
+		 * @since 2.0.0.64
+		 *
+		 * @param string $key Google Geocoding API key.
+		 */
+		return apply_filters( &#039;geodir_google_geocode_api_key&#039;, $key, $query );
+	}
+
+	/**
+	 * Categories list on map.
+	 *
+	 * @since 2.0.0
+	 * @package GeoDirectory
+	 *
+	 * @param string $post_type The post type e.g gd_place.
+	 * @param int $cat_parent Optional. Parent term ID to retrieve its child terms. Default 0.
+	 * @param bool $hide_empty Optional. Do you want to hide the terms that has no posts. Default true.
+	 * @param int $padding Optional. CSS padding value in pixels. e.g: 12 will be considers as 12px.
+	 * @param string $map_canvas Unique canvas name for your map.
+	 * @param bool $child_collapse Do you want to collapse child terms by default?.
+	 * @param string $terms Optional. Terms.
+	 * @param bool $hierarchical Whether to include terms that have non-empty descendants (even if $hide_empty is set to true). Default false.
+	 * @param string $tick_terms Tick/untick terms. Optional.
+	 * @return string|void
+	 */
+	public static function get_categories_filter( $post_type, $cat_parent = 0, $hide_empty = true, $padding = 0, $map_canvas = &#039;&#039;, $child_collapse = false, $terms = &#039;&#039;, $hierarchical = false, $tick_terms = &#039;&#039; ) {
+		global $cat_count, $geodir_cat_icons;
+
+		$taxonomy = $post_type . &#039;category&#039;;
+
+		$exclude_categories = geodir_get_option( &#039;exclude_cat_on_map&#039;, array() );
+		//$exclude_categories = array(70);
+		$exclude_categories = !empty($exclude_categories[$taxonomy]) &amp;&amp; is_array($exclude_categories[$taxonomy]) ? array_unique($exclude_categories[$taxonomy]) : array();
+		$exclude_categories[$taxonomy] = &quot;70&quot;;
+		$exclude_cat_str = implode(&#039;,&#039;, $exclude_categories);
+		// terms include/exclude
+		$include = array();
+		$exclude = array();
+
+		if ( $terms !== false &amp;&amp; $terms !== true &amp;&amp; $terms != &#039;&#039; ) {
+			$terms_array = explode( &quot;,&quot;, $terms );
+			foreach( $terms_array as $term_id ) {
+				$tmp_id = trim( $term_id );
+				if ( $tmp_id == &#039;&#039; ) {
+					continue;
+				}
+				if ( abs( $tmp_id ) != $tmp_id ) {
+					$exclude[] = absint( $tmp_id );
+				} else {
+					$include[] = absint( $tmp_id );
+				}
+			}
+		}
+
+		$_tick_terms = array();
+		$_untick_terms = array();
+		// Tick/untick terms
+		if ( ! empty( $tick_terms ) ) {
+			$tick_terms_arr = explode( &#039;,&#039;, $tick_terms );
+			foreach( $tick_terms_arr as $term_id ) {
+				$tmp_id = trim( $term_id );
+				if ( $tmp_id == &#039;&#039; ) {
+					continue;
+				}
+
+				if ( geodir_term_post_type( absint( $tmp_id ) ) != $post_type ) {
+					continue; // Bail for other CPT
+				}
+
+				if ( abs( $tmp_id ) != $tmp_id ) {
+					$_untick_terms[] = absint( $tmp_id );
+				} else {
+					$_tick_terms[] = absint( $tmp_id );
+				}
+			}
+		}
+
+		/**
+		 * Untick categories on the map.
+		 *
+		 * @since 2.0.0.68
+		 */
+		$_tick_terms = apply_filters( &#039;geodir_map_categories_tick_terms&#039;, $_tick_terms, $post_type, $cat_parent );
+
+		/**
+		 * Tick categories on the map.
+		 *
+		 * @since 2.0.0.68
+		 */
+		$_untick_terms = apply_filters( &#039;geodir_map_categories_untick_terms&#039;, $_untick_terms, $post_type, $cat_parent );
+
+		$term_args = array(
+			&#039;taxonomy&#039; =&gt; array( $taxonomy ),
+			&#039;parent&#039; =&gt; $cat_parent,
+		    //&#039;exclude&#039; =&gt; $exclude_cat_str,
+			&#039;hide_empty &#039; =&gt; $hide_empty
+		);
+
+		if(!empty($include)){
+			$term_args[&#039;include&#039;] = $include;
+		}
+
+		if(!empty($exclude)){
+			$term_args[&#039;exclude&#039;] = $exclude;
+		}
+
+		/**
+		 * Filter terms order by field.
+		 *
+		 * @since 2.0.0.67
+		 */
+		$orderby = apply_filters( &#039;geodir_map_categories_orderby&#039;, &#039;&#039;, $post_type, $cat_parent, $hierarchical );
+		if ( ! empty( $orderby ) ) {
+			$term_args[&#039;orderby&#039;] = $orderby;
+		}
+
+		/**
+		 * Filter terms in ascending or descending order.
+		 *
+		 * @since 2.0.0.67
+		 */
+		$order = apply_filters( &#039;geodir_map_categories_order&#039;, &#039;&#039;, $post_type, $cat_parent, $hierarchical );
+		if ( ! empty( $order ) ) {
+			$term_args[&#039;order&#039;] = $order;
+		}
+
+		$cat_terms = get_terms( $term_args );
+		
+		if ($hide_empty &amp;&amp; ! $hierarchical) {
+			$cat_terms = geodir_filter_empty_terms($cat_terms);
+		}
+
+		$main_list_class = &#039;&#039;;
+		$design_style = geodir_design_style();
+		$ul_class = $design_style ? &#039; list-unstyled p-0 m-0&#039; : &#039;&#039;;
+		$li_class = $design_style ? &#039; list-unstyled p-0 m-0 &#039; : &#039;&#039;;
+		//If there are terms, start displaying
+		if ( count( $cat_terms ) &gt; 0 ) {
+			//Displaying as a list
+			$p = $padding * 15;
+			$padding++;
+
+			if ($cat_parent == 0) {
+				$list_class = &#039;main_list geodir-map-terms&#039;;
+				$li_class = $design_style ? &#039; list-unstyled p-0 m-0 &#039; : &#039;&#039;;
+				$display = &#039;&#039;;
+			} else {
+				$list_class = &#039;sub_list&#039;;
+				$li_class = $design_style ? &#039; list-unstyled p-0 m-0 ml-2 &#039; : &#039;&#039;;
+				$display = !$child_collapse ? &#039;&#039; : &#039;display:none&#039;;
+			}
+
+			$out = &#039;&lt;ul class=&quot;treeview &#039; . $list_class . $ul_class .&#039;&quot; style=&quot;margin-left:&#039; . $p . &#039;px;&#039; . $display . &#039;;&quot;&gt;&#039;;
+
+			$geodir_cat_icons = geodir_get_term_icon();
+
+			foreach ( $cat_terms as $cat_term ) {
+				$icon = !empty( $geodir_cat_icons ) &amp;&amp; isset( $geodir_cat_icons[ $cat_term-&gt;term_id ] ) ? $geodir_cat_icons[ $cat_term-&gt;term_id ] : &#039;&#039;;
+
+				if ( ! in_array( $cat_term-&gt;term_id, $exclude ) ) {
+					//Secret sauce.  Function calls itself to display child elements, if any
+					$checked = true;
+					if ( empty( $_tick_terms ) &amp;&amp; empty( $_untick_terms ) ) {
+						// Tick all
+					} elseif ( ! empty( $_tick_terms ) &amp;&amp; empty( $_untick_terms ) ) {
+						if ( ! in_array( $cat_term-&gt;term_id, $_tick_terms ) ) {
+							$checked = false; // Untick
+						}
+					} elseif ( empty( $_tick_terms ) &amp;&amp; ! empty( $_untick_terms ) ) {
+						if ( in_array( $cat_term-&gt;term_id, $_untick_terms ) ) {
+							$checked = false; // Untick
+						}
+					} else {
+						if ( ! in_array( $cat_term-&gt;term_id, $_tick_terms ) || in_array( $cat_term-&gt;term_id, $_untick_terms ) ) {
+							$checked = false; // Untick
+						}
+					}
+
+					/**
+					 * Tick category on the map.
+					 *
+					 * @since 2.0.0.68
+					 */
+					$checked = apply_filters( &#039;geodir_map_categories_tick_term&#039;, $checked, $cat_term-&gt;term_id );
+
+					$checked = $checked !== false ? &#039;checked=&quot;checked&quot;&#039; : &#039;&#039;;
+
+					$term_check = &#039;&lt;input type=&quot;checkbox&quot; &#039; . $checked . &#039; id=&quot;&#039; .$map_canvas.&#039;_tick_cat_&#039;. $cat_term-&gt;term_id . &#039;&quot; class=&quot;group_selector &#039; . $main_list_class . &#039;&quot;&#039;;
+					$term_check .= &#039; name=&quot;&#039; . $map_canvas . &#039;_cat[]&quot; &#039;;
+					$term_check .= &#039;  title=&quot;&#039; . esc_attr(geodir_utf8_ucfirst($cat_term-&gt;name)) . &#039;&quot; value=&quot;&#039; . $cat_term-&gt;term_id . &#039;&quot; onclick=&quot;javascript:build_map_ajax_search_param(\&#039;&#039; . $map_canvas . &#039;\&#039;,false, this)&quot;&gt;&#039;;
+
+					if($design_style){
+						$term_img = &#039;&lt;img class=&quot;w-auto mr-1 ml-n1 rounded-circle&quot; style=&quot;height:22px;&quot; alt=&quot;&#039; . esc_attr( geodir_strtolower( $cat_term-&gt;name ) ) . &#039;.&quot; src=&quot;&#039; . $icon . &#039;&quot; title=&quot;&#039; . geodir_utf8_ucfirst($cat_term-&gt;name) . &#039;&quot; loading=lazy /&gt;&#039;;
+						$term_html = &#039;&lt;li class=&quot;&#039;.$li_class.&#039;&quot;&gt;&#039; .aui()-&gt;input(
+							array(
+								&#039;id&#039;                =&gt; &quot;{$map_canvas}_tick_cat_{$cat_term-&gt;term_id}&quot;,
+								&#039;name&#039;              =&gt; &quot;{$map_canvas}_cat[]&quot;,
+								&#039;type&#039;              =&gt; &quot;checkbox&quot;,
+								&#039;value&#039;             =&gt; absint( $cat_term-&gt;term_id),
+								&#039;label&#039;             =&gt; $term_img . esc_attr(geodir_utf8_ucfirst($cat_term-&gt;name)),
+								&#039;class&#039;             =&gt; &#039;group_selector h-100 &#039; . $main_list_class,
+								&#039;label_class&#039;       =&gt; &#039;text-light&#039;,
+								&#039;checked&#039;           =&gt; $checked,
+								&#039;no_wrap&#039;            =&gt; true,
+								&#039;extra_attributes&#039;  =&gt; array(
+									&#039;onclick&#039; =&gt; &#039;javascript:build_map_ajax_search_param(\&#039;&#039; . $map_canvas . &#039;\&#039;,false, this)&#039;,
+								),
+							)
+						);
+
+					}else{
+						$term_img = &#039;&lt;img height=&quot;15&quot; width=&quot;15&quot; alt=&quot;&#039; . $cat_term-&gt;taxonomy . &#039;&quot; src=&quot;&#039; . $icon . &#039;&quot; title=&quot;&#039; . geodir_utf8_ucfirst($cat_term-&gt;name) . &#039;&quot; loading=lazy /&gt;&#039;;
+
+						$term_html = &#039;&lt;li class=&quot;&#039;.$li_class.&#039;&quot;&gt;&#039; . $term_check . &#039;&lt;label for=&quot;&#039; . $map_canvas.&#039;_tick_cat_&#039;. $cat_term-&gt;term_id . &#039;&quot;&gt;&#039; . $term_img . geodir_utf8_ucfirst($cat_term-&gt;name) . &#039;&lt;/label&gt;&lt;span class=&quot;gd-map-cat-toggle&quot;&gt;&lt;i class=&quot;fas fa-long-arrow-alt-down&quot; aria-hidden=&quot;true&quot; style=&quot;display:none&quot;&gt;&lt;/i&gt;&lt;/span&gt;&#039;;
+					}
+
+					$out .= $term_html;
+				}
+
+				// get sub category by recursion
+				$out .= self::get_categories_filter( $post_type, $cat_term-&gt;term_id, $hide_empty, $padding, $map_canvas, $child_collapse, $terms, false, $tick_terms );
+
+				$out .= &#039;&lt;/li&gt;&#039;;
+			}
+
+			$out .= &#039;&lt;/ul&gt;&#039;;
+
+			return $out;
+		} else {
+			if ( $cat_parent == 0 ) {
+				return _e( &#039;No category&#039;, &#039;geodirectory&#039; );
+			}
+		}
+		return;
+	}
+
+	/**
+	 * Function for get map popup content.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param int|object $item Map popup content item int or objects values.
+	 * @return string $content.
+	 */
+	public static function marker_popup_content( $item ) {
+		global $post, $gd_post;
+
+		$content = &#039;&#039;;
+
+		if ( is_int( $item ) ) {
+			$item = geodir_get_post_info( $item );
+		}
+
+		if ( ! ( ! empty( $item-&gt;post_type ) &amp;&amp; geodir_is_gd_post_type( $item-&gt;post_type ) ) ) {
+			return $content;
+		}
+
+		$post		= $item;
+		$gd_post 	= $item;
+
+		setup_postdata( $gd_post );
+
+		$content = GeoDir_Template_Loader::map_popup_template_content();
+
+		if ( $content != &#039;&#039; ) {
+			$content = trim( $content );
+		}
+
+		return $content;
+	}
+
+	/**
+	 * Get the map load type.
+	 *
+	 * @since 2.1.0.0
+	 *
+	 * @return null|string The map load type.
+	 */
+	public static function lazy_load_map() {
+		$lazy_load = geodir_get_option( &#039;maps_lazy_load&#039;, &#039;&#039; );
+
+		if ( ! in_array( $lazy_load, array( &#039;auto&#039;, &#039;click&#039; ) ) ) {
+			$lazy_load = &#039;&#039;;
+		}
+
+		if ( is_admin() &amp;&amp; ! wp_doing_ajax() ) {
+			$lazy_load = &#039;&#039;;
+		}
+
+		/**
+		 * Filter the map map load type
+		 *
+		 * @since 2.1.0.0
+		 *
+		 * @param null|string $lazy_load The map load type.
+		 */
+		return apply_filters( &#039;geodir_lazy_load_map&#039;, $lazy_load );
+	}
+
+	/**
+	 * Array of map parameters.
+	 *
+	 * @since 2.1.0.0
+	 *
+	 * @return array Map params array.
+	 */
+	public static function get_map_params() {
+		$suffix = defined( &#039;SCRIPT_DEBUG&#039; ) &amp;&amp; SCRIPT_DEBUG ? &#039;&#039; : &#039;.min&#039;;
+		$language = self::map_language();
+		$version_tag = &#039;?ver=&#039; . GEODIRECTORY_VERSION;
+
+		// Google Maps API
+		$google_api_key = self::google_api_key();
+		
+		$aui = geodir_design_style() ? &#039;/aui&#039; : &#039;&#039;;
+
+		$map_params = array(
+			&#039;api&#039; =&gt; self::active_map(),
+			&#039;lazyLoad&#039; =&gt; self::lazy_load_map(),
+			&#039;language&#039; =&gt; $language,
+			&#039;lazyLoadButton&#039; =&gt; &#039;&lt;div class=&quot;btn btn-light text-center mx-auto align-self-center shadow-lg c-pointer&quot;&gt;&lt;i class=&quot;far fa-map&quot;&gt;&lt;/i&gt; &#039; . __( &#039;Load Map&#039;, &#039;geodirectory&#039; ) . &#039;&lt;/div&gt;&#039;,
+			&#039;lazyLoadPlaceholder&#039; =&gt; geodir_plugin_url() . &#039;/assets/images/placeholder.svg&#039;,
+			&#039;apis&#039; =&gt; array(
+				&#039;google&#039; =&gt; apply_filters( &#039;geodir_map_api_google_data&#039;,
+					array(
+						&#039;key&#039; =&gt; $google_api_key,
+						&#039;scripts&#039; =&gt; array(
+							array( 
+								&#039;id&#039; =&gt; &#039;geodir-google-maps-script&#039;,
+								&#039;src&#039; =&gt; &#039;https://maps.googleapis.com/maps/api/js?key=&#039; . $google_api_key . &#039;&amp;libraries=places&amp;language=&#039; . $language . &#039;&amp;ver=&#039; . GEODIRECTORY_VERSION,
+								&#039;main&#039; =&gt; true,
+								&#039;onLoad&#039; =&gt; true,
+								&#039;onError&#039; =&gt; true,
+							),
+							array( 
+								&#039;id&#039; =&gt; &#039;geodir-gomap-script&#039;,
+								&#039;src&#039; =&gt; geodir_plugin_url() . &#039;/assets/js/goMap&#039; . $suffix . &#039;.js&#039; . $version_tag,
+							),
+							array( 
+								&#039;id&#039; =&gt; &#039;geodir-g-overlappingmarker-script&#039;,
+								&#039;src&#039; =&gt; geodir_plugin_url() . &#039;/assets/jawj/oms&#039; . $suffix . &#039;.js&#039; . $version_tag,
+								&#039;check&#039; =&gt; ! geodir_is_page( &#039;add-listing&#039; )
+							),
+							array( 
+								&#039;id&#039; =&gt; &#039;geodir-map-widget-script&#039;,
+								&#039;src&#039; =&gt; geodir_plugin_url() . &#039;/assets&#039;.$aui.&#039;/js/map&#039; . $suffix . &#039;.js&#039; . $version_tag,
+							)
+						)
+					)
+				),
+				&#039;osm&#039; =&gt; apply_filters( &#039;geodir_map_api_osm_data&#039;,
+					array(
+						&#039;styles&#039; =&gt; array(
+							array( 
+								&#039;id&#039; =&gt; &#039;geodir-leaflet-css&#039;,
+								&#039;src&#039; =&gt; geodir_plugin_url() . &#039;/assets/leaflet/leaflet.css&#039; . $version_tag
+							),
+							array( 
+								&#039;id&#039; =&gt; &#039;geodir-leaflet-routing-machine-css&#039;,
+								&#039;src&#039; =&gt; geodir_plugin_url() . &#039;/assets/leaflet/routing/leaflet-routing-machine.css&#039;,
+								&#039;check&#039; =&gt; ! geodir_is_page( &#039;add-listing&#039; )
+							),
+						),
+						&#039;scripts&#039; =&gt; array(
+							array( 
+								&#039;id&#039; =&gt; &#039;geodir-leaflet-script&#039;,
+								&#039;src&#039; =&gt; geodir_plugin_url() . &#039;/assets/leaflet/leaflet&#039; . $suffix . &#039;.js&#039; . $version_tag,
+								&#039;main&#039; =&gt; true,
+							),
+							array( 
+								&#039;id&#039; =&gt; &#039;geodir-leaflet-geo-script&#039;,
+								&#039;src&#039; =&gt; geodir_plugin_url() . &#039;/assets/leaflet/osm.geocode&#039; . $suffix . &#039;.js&#039; . $version_tag
+							),
+							array( 
+								&#039;id&#039; =&gt; &#039;leaflet-routing-machine-script&#039;,
+								&#039;src&#039; =&gt; geodir_plugin_url() . &#039;/assets/leaflet/routing/leaflet-routing-machine&#039; . $suffix . &#039;.js&#039; . $version_tag,
+								&#039;check&#039; =&gt; ! geodir_is_page( &#039;add-listing&#039; )
+							),
+							array( 
+								&#039;id&#039; =&gt; &#039;geodir-o-overlappingmarker-script&#039;,
+								&#039;src&#039; =&gt; geodir_plugin_url() . &#039;/assets/jawj/oms-leaflet&#039; . $suffix . &#039;.js&#039; . $version_tag,
+								&#039;check&#039; =&gt; ! geodir_is_page( &#039;add-listing&#039; )
+							),
+							array( 
+								&#039;id&#039; =&gt; &#039;geodir-gomap-script&#039;,
+								&#039;src&#039; =&gt; geodir_plugin_url() . &#039;/assets/js/goMap&#039; . $suffix . &#039;.js&#039; . $version_tag,
+							),
+							array( 
+								&#039;id&#039; =&gt; &#039;geodir-map-widget-script&#039;,
+								&#039;src&#039; =&gt; geodir_plugin_url() . &#039;/assets&#039;.$aui.&#039;/js/map&#039; . $suffix . &#039;.js&#039; . $version_tag,
+							)
+						)
+					)
+				)
+			)
+		);
+
+		/**
+		 * Filters the map parameters.
+		 *
+		 * @since 2.1.0.0
+		 *
+		 * @param array Map params array.
+		 */
+		return apply_filters( &#039;geodir_map_params&#039;, $map_params );
+	}
+
+	/**
+	 * Check and add map script when no map on the page.
+	 *
+	 * @since 2.1.0.5
+	 */
+	public static function check_map_script() {
+		global $geodir_map_script;
+
+		if ( ! $geodir_map_script &amp;&amp; geodir_lazy_load_map() &amp;&amp; GeoDir_Maps::active_map() !=&#039;none&#039; &amp;&amp; ! wp_script_is( &#039;geodir-map&#039;, &#039;enqueued&#039; ) ) {
+			$geodir_map_script = true;
+			$suffix = defined( &#039;SCRIPT_DEBUG&#039; ) &amp;&amp; SCRIPT_DEBUG ? &#039;&#039; : &#039;.min&#039;;
+
+?&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+/* &lt;![CDATA[ */
+&lt;?php echo &quot;var geodir_map_params=&quot; . wp_json_encode( geodir_map_params() ) . &#039;;&#039;; ?&gt;var el=document.createElement(&quot;script&quot;);el.setAttribute(&quot;type&quot;,&quot;text/javascript&quot;);el.setAttribute(&quot;id&quot;,&#039;geodir-map-js&#039;);el.setAttribute(&quot;src&quot;,&#039;&lt;?php echo geodir_plugin_url(); ?&gt;/assets/js/geodir-map&lt;?php echo $suffix; ?&gt;.js&#039;);el.setAttribute(&quot;async&quot;,true);document.getElementsByTagName(&quot;head&quot;)[0].appendChild(el);
+/* ]]&gt; */
+&lt;/script&gt;&lt;?php
+		}
+	}
+}
+
+return new GeoDir_Maps();
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

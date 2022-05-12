@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-admin-addons.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Addons Page
+ * 
+ *
+ * @author   AyeCode
+ * @category Admin
+ * @package  GeoDirectoru/Admin
+ * @version  2.0.0
+ * @info     Derived from GeoDir_Admin_Addons
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+/**
+ * GeoDir_Admin_Addons Class.
+ */
+class GeoDir_Admin_Addons {
+
+
+	/**
+	 * Get the extensions page tabs.
+	 *
+	 * @return array of tabs.
+	 */
+	public static function get_tabs(){
+		$tabs = array(
+			&#039;addons&#039; =&gt; __(&quot;Addons&quot;, &quot;geodirectory&quot;),
+			&#039;themes&#039; =&gt; __(&quot;Themes&quot;, &quot;geodirectory&quot;),
+			&#039;recommended_plugins&#039; =&gt; __(&quot;Recommended plugins&quot;, &quot;geodirectory&quot;),
+			&#039;membership&#039; =&gt; __(&quot;Membership&quot;, &quot;geodirectory&quot;),
+		);
+
+		
+
+		return $tabs;
+	}
+
+	/**
+	 * Get sections for the addons screen
+	 *
+	 * @return array of objects
+	 */
+	public static function get_sections() {
+
+		return array(); //@todo we prob don&#039;t need these yet.
+
+		if ( false === ( $sections = get_transient( &#039;geodir_addons_sections&#039; ) ) ) {
+			$raw_sections = wp_safe_remote_get( &#039;#url&#039;, array( &#039;user-agent&#039; =&gt; &#039;GeoDirectory Addons Page&#039; ) );
+			if ( ! is_wp_error( $raw_sections ) ) {
+				$sections = json_decode( wp_remote_retrieve_body( $raw_sections ) );
+
+				if ( $sections ) {
+					set_transient( &#039;geodir_addons_sections&#039;, $sections, WEEK_IN_SECONDS );
+				}
+			}
+		}
+
+		$addon_sections = array();
+
+		if ( $sections ) {
+			foreach ( $sections as $sections_id =&gt; $section ) {
+				if ( empty( $sections_id ) ) {
+					continue;
+				}
+				$addon_sections[ $sections_id ]           = new stdClass;
+				$addon_sections[ $sections_id ]-&gt;title    = geodir_clean( $section-&gt;title );
+				$addon_sections[ $sections_id ]-&gt;endpoint = geodir_clean( $section-&gt;endpoint );
+			}
+		}
+
+
+
+		return apply_filters( &#039;geodir_addons_sections&#039;, $addon_sections );
+	}
+
+	/**
+	 * Get section for the addons screen.
+	 *
+	 * @param  string $section_id
+	 *
+	 * @return object|bool
+	 */
+	public static function get_tab( $tab_id ) {
+		$tabs = self::get_tabs();
+		if ( isset( $tabs[ $tab_id ] ) ) {
+			return $tabs[ $tab_id ] ;
+		}
+		return false;
+	}
+
+	/**
+	 * Get section for the addons screen.
+	 *
+	 * @param  string $section_id
+	 *
+	 * @return object|bool
+	 */
+	public static function get_section( $section_id ) {
+		$sections = self::get_sections();
+		if ( isset( $sections[ $section_id ] ) ) {
+			return $sections[ $section_id ];
+		}
+		return false;
+	}
+
+	/**
+	 * Get section content for the addons screen.
+	 *
+	 * @param  string $section_id
+	 *
+	 * @return array
+	 */
+	public static function get_section_data( $section_id ) {
+		$section      = self::get_tab( $section_id );
+		$api_url = &quot;https://wpgeodirectory.com/edd-api/v2/products/&quot;;
+		$section_data = new stdClass();
+
+		//delete_transient( &#039;gd_addons_section_&#039; . $section_id );
+
+		if($section_id==&#039;recommended_plugins&#039;){
+			$section_data-&gt;products = self::get_recommend_wp_plugins_edd_formatted();
+		}
+		elseif ( ! empty( $section ) ) {
+			if ( false === ( $section_data = get_transient( &#039;gd_addons_section_&#039; . $section_id ) ) ) { //@todo restore after testing
+//			if ( 1==1) {
+
+				$query_args = array( &#039;category&#039; =&gt; $section_id, &#039;number&#039; =&gt; 100, &#039;orderby&#039; =&gt; &#039;sales&#039;, &#039;order&#039; =&gt; &#039;desc&#039;);
+				$query_args = apply_filters(&#039;wpeu_edd_api_query_args&#039;,$query_args,$api_url,$section_id);
+
+				$raw_section = wp_safe_remote_get( esc_url_raw( add_query_arg($query_args ,$api_url) ), array( &#039;user-agent&#039; =&gt; &#039;GeoDirectory Addons Page&#039;,&#039;timeout&#039;     =&gt; 15, ) );
+
+				if ( ! is_wp_error( $raw_section ) ) {
+					$section_data = json_decode( wp_remote_retrieve_body( $raw_section ) );
+
+					if ( ! empty( $section_data-&gt;products ) ) {
+						set_transient( &#039;gd_addons_section_&#039; . $section_id, $section_data, DAY_IN_SECONDS );
+					}
+				}
+			}
+		}
+
+		//print_r($section_data);
+		$products = isset($section_data-&gt;products) ? $section_data-&gt;products : &#039;&#039;;
+
+		return apply_filters( &#039;geodir_addons_section_data&#039;, $products, $section_id );
+	}
+
+
+	/**
+	 * Check if a plugin is installed (only works if WPEU is installed and active)
+	 *
+	 * @param $id
+	 *
+	 * @return bool
+	 */
+	public static function is_plugin_installed( $id, $addon = &#039;&#039; ){
+		$all_plugins = get_plugins();
+
+		//print_r($all_plugins);exit;
+
+		$installed = false;
+
+		foreach($all_plugins as $p_slug =&gt; $plugin ){
+
+			if( isset($plugin[&#039;Update ID&#039;]) &amp;&amp; $id == $plugin[&#039;Update ID&#039;]){
+				$installed = true;
+			}elseif(!empty($addon)){
+
+			}
+
+		}
+
+		return $installed;
+	}
+
+	public static function install_plugin_install_status($addon){
+
+		// Default to a &quot;new&quot; plugin
+		$status = &#039;install&#039;;
+		$url = isset($addon-&gt;info-&gt;link) ? $addon-&gt;info-&gt;link : false;
+		$file = false;
+		$version = &#039;&#039;;
+
+
+		// url
+
+
+		$slug = isset($addon-&gt;info-&gt;slug) ? $addon-&gt;info-&gt;slug : &#039;&#039;;
+		if(!empty($addon-&gt;licensing-&gt;edd_slug)){$slug = $addon-&gt;licensing-&gt;edd_slug;}
+		$id = !empty($addon-&gt;info-&gt;id) ? absint($addon-&gt;info-&gt;id) : &#039;&#039;;
+		$version = isset($addon-&gt;licensing-&gt;version) ? $addon-&gt;licensing-&gt;version : &#039;&#039;;
+
+		// check if we are looking for beta versions
+		if(geodir_get_option(&#039;admin_enable_beta&#039;, 1) &amp;&amp; !empty($addon-&gt;licensing-&gt;beta_version)){
+			$version = $addon-&gt;licensing-&gt;beta_version;
+		}
+
+		// get the slug
+
+		$all_plugins = get_plugins();
+		foreach($all_plugins as $p_slug =&gt; $plugin ){
+
+			if( $id &amp;&amp; isset($plugin[&#039;Update ID&#039;]) &amp;&amp; $id == $plugin[&#039;Update ID&#039;]){
+				$status = &#039;installed&#039;;
+				$file = $p_slug;break;
+			}elseif(!empty($addon-&gt;licensing-&gt;edd_slug)){
+				if (strpos($p_slug, $addon-&gt;licensing-&gt;edd_slug.&#039;/&#039;) === 0) {
+					$status = &#039;installed&#039;;
+					$file = $p_slug;break;
+				}
+			}
+		}
+
+
+		// if no file then try to guess it
+		if ( ! $file &amp;&amp; isset($addon-&gt;licensing-&gt;edd_slug)) {
+			$file = esc_attr($addon-&gt;licensing-&gt;edd_slug).&quot;/&quot;.esc_attr($addon-&gt;licensing-&gt;edd_slug).&quot;.php&quot;;
+		}
+
+
+
+		return compact( &#039;status&#039;, &#039;url&#039;, &#039;version&#039;, &#039;file&#039; );
+	}
+
+	/**
+	 * Check if a theme is installed.
+	 *
+	 * @param $id
+	 *
+	 * @return bool
+	 */
+	public static function is_theme_installed( $addon ){
+		$all_themes = wp_get_themes();
+
+		$slug = isset($addon-&gt;info-&gt;slug) ? $addon-&gt;info-&gt;slug : &#039;&#039;;
+		if(!empty($addon-&gt;licensing-&gt;edd_slug)){$slug = $addon-&gt;licensing-&gt;edd_slug;}
+
+
+		foreach($all_themes as $key =&gt; $theme ){
+			if($slug == $key){
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+	/**
+	 * Check if a theme is active.
+	 *
+	 * @param $addon
+	 *
+	 * @return bool
+	 */
+	public static function is_theme_active( $addon ){
+		$theme = wp_get_theme();
+
+		//manuall checks
+		if($addon-&gt;info-&gt;title ==&quot;Whoop!&quot;){
+			$addon-&gt;info-&gt;title = &quot;Whoop&quot;;
+		}
+
+
+		if($addon-&gt;info-&gt;title == $theme-&gt;get( &#039;Name&#039; )){
+			return true;
+		}
+
+		return false;
+	}
+
+	/**
+	 * Get theme activation url.
+	 *
+	 * @param $addon
+	 *
+	 * @return bool
+	 */
+	public static function get_theme_activation_url( $addon ){
+		$themes = wp_prepare_themes_for_js();
+
+		//manuall checks
+		if($addon-&gt;info-&gt;title ==&quot;Whoop!&quot;){
+			$addon-&gt;info-&gt;title = &quot;Whoop&quot;;
+		}
+
+
+		foreach($themes as $theme){
+			if($addon-&gt;info-&gt;title == $theme[&#039;name&#039;]){
+				return $theme[&#039;actions&#039;][&#039;activate&#039;];
+			}
+		}
+
+		return false;
+	}
+
+	/**
+	 * Get theme install url.
+	 *
+	 * @param $addon
+	 *
+	 * @return bool
+	 */
+	public static function get_theme_install_url( $slug ){
+
+		$install_url = add_query_arg( array(
+			&#039;action&#039; =&gt; &#039;install-theme&#039;,
+			&#039;theme&#039;  =&gt; urlencode( $slug ),
+		), admin_url( &#039;update.php&#039; ) );
+		$install_url = wp_nonce_url( $install_url, &#039;install-theme_&#039; . $slug );
+
+		return $install_url;
+	}
+
+
+
+
+	/**
+	 * Outputs a button.
+	 *
+	 * @param string $url
+	 * @param string $text
+	 * @param string $theme
+	 * @param string $plugin
+	 */
+	public static function output_button( $addon ) {
+		$current_tab     = empty( $_GET[&#039;tab&#039;] ) ? &#039;addons&#039; : sanitize_title( $_GET[&#039;tab&#039;] );
+//		$button_text = __(&#039;Free&#039;,&#039;geodirectory&#039;);
+//		$licensing = false;
+//		$installed = false;
+//		$price = &#039;&#039;;
+//		$license = &#039;&#039;;
+//		$slug = &#039;&#039;;
+//		$url = isset($addon-&gt;info-&gt;link) ? $addon-&gt;info-&gt;link : &#039;&#039;;
+//		$class = &#039;button-primary&#039;;
+//		$install_status = &#039;get&#039;;
+//		$onclick = &#039;&#039;;
+
+		$wp_org_themes = array(&#039;supreme-directory&#039;,&#039;directory-starter&#039;,&#039;whoop&#039;);
+
+		$button_args = array(
+			&#039;type&#039; =&gt; $current_tab,
+			&#039;id&#039; =&gt; isset($addon-&gt;info-&gt;id) ? absint($addon-&gt;info-&gt;id) : &#039;&#039;,
+			&#039;title&#039; =&gt; isset($addon-&gt;info-&gt;title) ? $addon-&gt;info-&gt;title : &#039;&#039;,
+			&#039;button_text&#039; =&gt; __(&#039;Free&#039;,&#039;geodirectory&#039;),
+			&#039;price_text&#039; =&gt; __(&#039;Free&#039;,&#039;geodirectory&#039;),
+			&#039;link&#039; =&gt; isset($addon-&gt;info-&gt;link) ? $addon-&gt;info-&gt;link : &#039;&#039;, // link to product
+			&#039;url&#039; =&gt; isset($addon-&gt;info-&gt;link) ? $addon-&gt;info-&gt;link : &#039;&#039;, // button url
+			&#039;class&#039; =&gt; &#039;button-primary&#039;,
+			&#039;install_status&#039; =&gt; &#039;get&#039;,
+			&#039;installed&#039; =&gt; false,
+			&#039;price&#039; =&gt; &#039;&#039;,
+			&#039;licensing&#039; =&gt; isset($addon-&gt;licensing-&gt;enabled) &amp;&amp; $addon-&gt;licensing-&gt;enabled ? true : false,
+			&#039;license&#039; =&gt; isset($addon-&gt;licensing-&gt;license) &amp;&amp; $addon-&gt;licensing-&gt;license ? $addon-&gt;licensing-&gt;license : &#039;&#039;,
+			&#039;onclick&#039; =&gt; &#039;&#039;,
+			&#039;slug&#039; =&gt; isset($addon-&gt;info-&gt;slug) ? $addon-&gt;info-&gt;slug : &#039;&#039;,
+			&#039;active&#039; =&gt; false,
+			&#039;file&#039; =&gt; &#039;&#039;,
+			&#039;update_url&#039; =&gt; &#039;&#039;,
+		);
+
+		if($current_tab == &#039;addons&#039; &amp;&amp; isset($addon-&gt;info-&gt;id) &amp;&amp; $addon-&gt;info-&gt;id){
+			include_once( ABSPATH . &#039;wp-admin/includes/plugin-install.php&#039; ); //for plugins_api..
+			if(!empty($addon-&gt;licensing-&gt;edd_slug)){$button_args[&#039;slug&#039;] = $addon-&gt;licensing-&gt;edd_slug;}
+			$status = self::install_plugin_install_status($addon);
+			$button_args[&#039;file&#039;] = isset($status[&#039;file&#039;]) ? $status[&#039;file&#039;] : &#039;&#039;;
+			if(isset($status[&#039;status&#039;])){$button_args[&#039;install_status&#039;] = $status[&#039;status&#039;];}
+			$button_args[&#039;update_url&#039;] = &quot;https://wpgeodirectory.com&quot;;
+		}elseif($current_tab == &#039;themes&#039; &amp;&amp; isset($addon-&gt;info-&gt;id) &amp;&amp; $addon-&gt;info-&gt;id) {
+			if(!empty($addon-&gt;licensing-&gt;edd_slug)){$button_args[&#039;slug&#039;] = $addon-&gt;licensing-&gt;edd_slug;}
+			$button_args[&#039;installed&#039;] = self::is_theme_installed($addon);
+			if(!in_array($button_args[&#039;slug&#039;],$wp_org_themes)){
+				$button_args[&#039;update_url&#039;] = &quot;https://wpgeodirectory.com&quot;;
+			}
+		}elseif($current_tab == &#039;recommended_plugins&#039; &amp;&amp; isset($addon-&gt;info-&gt;slug) &amp;&amp; $addon-&gt;info-&gt;slug){
+			include_once( ABSPATH . &#039;wp-admin/includes/plugin-install.php&#039; ); //for plugins_api..
+			$status = install_plugin_install_status(array(&quot;slug&quot;=&gt;$button_args[&#039;slug&#039;],&quot;version&quot;=&gt;&quot;&quot;));
+			$button_args[&#039;install_status&#039;] = isset($status[&#039;status&#039;]) ? $status[&#039;status&#039;] : &#039;install&#039;;
+			$button_args[&#039;file&#039;] = isset($status[&#039;file&#039;]) ? $status[&#039;file&#039;] : &#039;&#039;;
+		}
+
+		// set price
+		if(isset($addon-&gt;pricing) &amp;&amp; !empty($addon-&gt;pricing)){
+			if(is_object($addon-&gt;pricing)){
+				$prices = (Array)$addon-&gt;pricing;
+				$button_args[&#039;price&#039;] = reset($prices);
+			}elseif(isset($addon-&gt;pricing)){
+				$button_args[&#039;price&#039;] = $addon-&gt;pricing;
+			}
+		}
+
+		// set price text
+		if( $button_args[&#039;price&#039;] &amp;&amp; $button_args[&#039;price&#039;] != &#039;0.00&#039; ){
+			$button_args[&#039;price_text&#039;] = sprintf( __(&#039;From: $%d&#039;, &#039;geodirectory&#039;), $button_args[&#039;price&#039;]);
+		}
+
+
+		// set if installed
+		if(in_array($button_args[&#039;install_status&#039;], array(&#039;installed&#039;,&#039;latest_installed&#039;,&#039;update_available&#039;,&#039;newer_installed&#039;))){
+			$button_args[&#039;installed&#039;] = true;
+		}
+
+//		print_r($button_args);
+		// set if active
+		if($button_args[&#039;installed&#039;] &amp;&amp; ($button_args[&#039;file&#039;] || $button_args[&#039;type&#039;] == &#039;themes&#039;)){
+			if($button_args[&#039;type&#039;] != &#039;themes&#039;){
+				$button_args[&#039;active&#039;] = is_plugin_active($button_args[&#039;file&#039;]);
+			}else{
+				$button_args[&#039;active&#039;] = self::is_theme_active($addon);
+			}
+		}
+
+		// set button text and class
+		if($button_args[&#039;active&#039;]){
+			$button_args[&#039;button_text&#039;] = __(&#039;Active&#039;,&#039;geodirectory&#039;);
+			$button_args[&#039;class&#039;] = &#039; button-secondary disabled &#039;;
+		}elseif($button_args[&#039;installed&#039;]){
+			$button_args[&#039;button_text&#039;] = __(&#039;Activate&#039;,&#039;geodirectory&#039;);
+
+			if($button_args[&#039;type&#039;] != &#039;themes&#039;){
+				if ( current_user_can( &#039;manage_options&#039; ) ) {
+					$button_args[&#039;url&#039;] = wp_nonce_url(admin_url(&#039;plugins.php?action=activate&amp;plugin=&#039;.$button_args[&#039;file&#039;]), &#039;activate-plugin_&#039; . $button_args[&#039;file&#039;]);
+				}else{
+					$button_args[&#039;url&#039;] = &#039;#&#039;;
+				}
+			}else{
+				if ( current_user_can( &#039;switch_themes&#039; ) ) {
+					$button_args[&#039;url&#039;] = self::get_theme_activation_url($addon);
+				}else{
+					$button_args[&#039;url&#039;] = &#039;#&#039;;
+				}
+			}
+
+		}else{
+			if($button_args[&#039;type&#039;] == &#039;recommended_plugins&#039;){
+				$button_args[&#039;button_text&#039;] = __(&#039;Install&#039;,&#039;geodirectory&#039;);
+				$button_args[&#039;onclick&#039;] = &#039;gd_recommended_install_plugin(this,&quot;&#039;.$button_args[&#039;slug&#039;].&#039;&quot;,&quot;&#039;.wp_create_nonce( &#039;updates&#039; ).&#039;&quot;);return false;&#039;;
+			}else{
+				$button_args[&#039;button_text&#039;] = __(&#039;Get it&#039;,&#039;geodirectory&#039;);
+
+				if($button_args[&#039;type&#039;] == &#039;themes&#039; &amp;&amp; in_array($button_args[&#039;slug&#039;],$wp_org_themes) ){
+					$button_args[&#039;button_text&#039;] = __(&#039;Install&#039;,&#039;geodirectory&#039;);
+					$button_args[&#039;url&#039;] = self::get_theme_install_url($button_args[&#039;slug&#039;]);
+					$button_args[&#039;onclick&#039;] = &#039;gd_set_button_installing(this);&#039;;
+				}
+
+			}
+		}
+
+		
+		// filter the button arguments
+		$button_args = apply_filters(&#039;edd_api_button_args&#039;,$button_args);
+
+
+
+
+		// set price text
+		if(isset($button_args[&#039;price_text&#039;])){
+			?&gt;
+			&lt;a
+				target=&quot;_blank&quot;
+				class=&quot;addons-price-text&quot;
+				href=&quot;&lt;?php echo esc_url( $button_args[&#039;link&#039;] ); ?&gt;&quot;&gt;
+				&lt;?php echo esc_html( $button_args[&#039;price_text&#039;] ); ?&gt;
+			&lt;/a&gt;
+			&lt;?php
+		}
+
+
+		$target = &#039;&#039;;
+		if ( ! empty( $button_args[&#039;url&#039;] ) ) {
+			$target = strpos($button_args[&#039;url&#039;], get_site_url()) !== false ? &#039;&#039; : &#039; target=&quot;_blank&quot; &#039;;
+		}
+
+		?&gt;
+		&lt;a
+			data-licence=&quot;&lt;?php echo esc_attr($button_args[&#039;license&#039;]);?&gt;&quot;
+			data-licensing=&quot;&lt;?php echo $button_args[&#039;licensing&#039;] ? 1 : 0;?&gt;&quot;
+			data-title=&quot;&lt;?php echo esc_attr($button_args[&#039;title&#039;]);?&gt;&quot;
+			data-type=&quot;&lt;?php echo esc_attr($button_args[&#039;type&#039;]);?&gt;&quot;
+			data-text-error-message=&quot;&lt;?php _e(&#039;Something went wrong!&#039;,&#039;geodirectory&#039;);?&gt;&quot;
+			data-text-activate=&quot;&lt;?php _e(&#039;Activate&#039;,&#039;geodirectory&#039;);?&gt;&quot;
+			data-text-activating=&quot;&lt;?php _e(&#039;Activating&#039;,&#039;geodirectory&#039;);?&gt;&quot;
+			data-text-deactivate=&quot;&lt;?php _e(&#039;Deactivate&#039;,&#039;geodirectory&#039;);?&gt;&quot;
+			data-text-installed=&quot;&lt;?php _e(&#039;Installed&#039;,&#039;geodirectory&#039;);?&gt;&quot;
+			data-text-install=&quot;&lt;?php _e(&#039;Install&#039;,&#039;geodirectory&#039;);?&gt;&quot;
+			data-text-installing=&quot;&lt;?php _e(&#039;Installing&#039;,&#039;geodirectory&#039;);?&gt;&quot;
+			data-text-error=&quot;&lt;?php _e(&#039;Error&#039;,&#039;geodirectory&#039;);?&gt;&quot;
+			&lt;?php if(!empty($button_args[&#039;onclick&#039;])){echo &quot; onclick=&#039;&quot;.$button_args[&#039;onclick&#039;].&quot;&#039; &quot;;}?&gt;
+			&lt;?php echo $target;?&gt;
+			class=&quot;addons-button  &lt;?php echo esc_attr( $button_args[&#039;class&#039;] ); ?&gt;&quot;
+			href=&quot;&lt;?php echo esc_url( $button_args[&#039;url&#039;] ); ?&gt;&quot;&gt;
+			&lt;?php echo esc_html( $button_args[&#039;button_text&#039;] ); ?&gt;
+		&lt;/a&gt;
+		&lt;?php
+
+
+	}
+
+
+	/**
+	 * Handles output of the addons page in admin.
+	 */
+	public static function output() {
+		add_thickbox();
+		$tabs            = self::get_tabs();
+		$sections        = self::get_sections();
+		$theme           = wp_get_theme();
+		$section_keys    = array_keys( $sections );
+		$current_section = isset( $_GET[&#039;section&#039;] ) ? sanitize_text_field( $_GET[&#039;section&#039;] ) : current( $section_keys );
+		$current_tab     = empty( $_GET[&#039;tab&#039;] ) ? &#039;addons&#039; : sanitize_title( $_GET[&#039;tab&#039;] );
+		include_once( dirname( __FILE__ ) . &#039;/views/html-admin-page-addons.php&#039; );
+	}
+
+	/**
+	 * A list of recommended wp.org plugins.
+	 * @return array
+	 */
+	public static function get_recommend_wp_plugins(){
+		$plugins = array(
+			&#039;ayecode-connect&#039; =&gt; array(
+				&#039;url&#039;   =&gt; &#039;https://wordpress.org/plugins/ayecode-connect/&#039;,
+				&#039;slug&#039;   =&gt; &#039;ayecode-connect&#039;,
+				&#039;name&#039;   =&gt; &#039;AyeCode Connect&#039;,
+				&#039;file&#039;  =&gt; &#039;ayecode-connect/ayecode-connect.php&#039;,
+				&#039;desc&#039;   =&gt; __( &#039;Allows you to install any purchased AyeCode Ltd product add-ons without a zip file. It also installs and activates licences automatically, so there is no need to copy/paste licenses.&#039;, &#039;geodirectory&#039; ),
+			),
+			&#039;ninja-forms&#039; =&gt; array(
+				&#039;url&#039;   =&gt; &#039;https://wordpress.org/plugins/ninja-forms/&#039;,
+				&#039;slug&#039;   =&gt; &#039;ninja-forms&#039;,
+				&#039;name&#039;   =&gt; &#039;Ninja Forms&#039;,
+				&#039;file&#039;  =&gt; &#039;ninja-forms/ninja-forms.php&#039;,
+				&#039;desc&#039;   =&gt; __(&#039;Setup forms such as contact or booking forms for your listings.&#039;,&#039;geodirectory&#039;),
+			),
+			&#039;userswp&#039; =&gt; array(
+				&#039;url&#039;   =&gt; &#039;https://wordpress.org/plugins/userswp/&#039;,
+				&#039;slug&#039;   =&gt; &#039;userswp&#039;,
+				&#039;name&#039;   =&gt; &#039;UsersWP&#039;,
+				&#039;file&#039;  =&gt; &#039;userswp/userswp.php&#039;,
+				&#039;desc&#039;   =&gt; __(&#039;Allow frontend user login and registration as well as have slick profile pages.&#039;,&#039;geodirectory&#039;),
+			),
+			// just testing script for below plugins
+//			&#039;ewww-image-optimizer&#039; =&gt; array(
+//				&#039;url&#039;   =&gt; &#039;https://wordpress.org/plugins/ewww-image-optimizer/&#039;,
+//				&#039;slug&#039;   =&gt; &#039;ewww-image-optimizer&#039;,
+//				&#039;name&#039;   =&gt; &#039;EWWW Image Optimizer&#039;,
+//				&#039;desc&#039;   =&gt; __(&#039;testing&#039;,&#039;geodirectory&#039;),
+//			),
+//			&#039;hide-admin-bar&#039; =&gt; array(
+//				&#039;url&#039;   =&gt; &#039;https://wordpress.org/plugins/hide-admin-bar/&#039;,
+//				&#039;slug&#039;   =&gt; &#039;hide-admin-bar&#039;,
+//				&#039;name&#039;   =&gt; &#039;Hide admin bar&#039;,
+//				&#039;desc&#039;   =&gt; __(&#039;testing&#039;,&#039;geodirectory&#039;),
+//			),
+		);
+
+		return $plugins;
+	}
+
+	/**
+	 * Format the recommended list of wp.org plugins for our extensions section output.
+	 *
+	 * @return array
+	 */
+	public static function get_recommend_wp_plugins_edd_formatted(){
+		$formatted = array();
+		$plugins = self::get_recommend_wp_plugins();
+
+		foreach($plugins as $plugin){
+			$product = new stdClass();
+			$product-&gt;info = new stdClass();
+			$product-&gt;info-&gt;id = &#039;&#039;;
+			$product-&gt;info-&gt;slug = isset($plugin[&#039;slug&#039;]) ? $plugin[&#039;slug&#039;] : &#039;&#039;;
+			$product-&gt;info-&gt;title = isset($plugin[&#039;name&#039;]) ? $plugin[&#039;name&#039;] : &#039;&#039;;
+			$product-&gt;info-&gt;excerpt = isset($plugin[&#039;desc&#039;]) ? $plugin[&#039;desc&#039;] : &#039;&#039;;
+			$product-&gt;info-&gt;link = isset($plugin[&#039;url&#039;]) ? $plugin[&#039;url&#039;] : &#039;&#039;;
+			$product-&gt;info-&gt;thumbnail = isset($plugin[&#039;thumbnail&#039;]) ? $plugin[&#039;thumbnail&#039;] : &quot;https://ps.w.org/&quot;.$plugin[&#039;slug&#039;].&quot;/assets/banner-772x250.png&quot;;
+			$formatted[] = $product;
+		}
+
+		return $formatted;
+	}
+
+	public static function get_wizard_paid_addons(){
+		$addons = self::get_section_data( &#039;addons&#039; );
+		
+		return $addons;
+	}
+}
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

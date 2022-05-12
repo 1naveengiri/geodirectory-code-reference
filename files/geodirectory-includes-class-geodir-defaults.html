@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-defaults.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+/**
+ * GeoDirectory GeoDir_Defaults.
+ *
+ * A place to store default values used in many places.
+ *
+ * @class    GeoDir_Defaults
+ * @package  GeoDirectory/Classes
+ * @category Class
+ * @author   AyeCode
+ */
+class GeoDir_Defaults {
+
+
+	/**
+	 * The content for the add listing page.
+	 *
+	 * @return string
+	 */
+	 public static function page_add_content($no_filter = false, $blocks = false){
+
+		 if($blocks){
+			 $content = &quot;&lt;!-- wp:geodirectory/geodir-widget-notifications --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-notifications\&quot;&gt;[gd_notifications]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-notifications --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-add-listing {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-add-listing\&quot;&gt;[gd_add_listing post_type=&#039;&#039;  show_login=&#039;true&#039;  login_msg=&#039;&#039;  container=&#039;&#039;  mapzoom=&#039;0&#039;  label_type=&#039;&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-add-listing --&gt;&quot;;
+		 }else{
+			 $content = &quot;[gd_notifications]\n[gd_add_listing show_login=1]&quot;;
+		 }
+
+		 if($no_filter){
+			 return $content;
+		 }else{
+			 return apply_filters(&quot;geodir_default_page_add_content&quot;, $content, $blocks);
+		 }
+	 }
+
+	/**
+	 * The content for the search page.
+	 *
+	 * @return string
+	 */
+	public static function page_search_content($no_filter = false, $blocks = false){
+
+		if($blocks){
+			$content = &quot;&lt;!-- wp:geodirectory/geodir-widget-notifications --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-notifications\&quot;&gt;[gd_notifications]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-notifications --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-search {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-search\&quot;&gt;[gd_search bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-search --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-loop-actions {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-loop-actions\&quot;&gt;[gd_loop_actions bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-loop-actions --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-loop {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-loop\&quot;&gt;[gd_loop layout=&#039;2&#039;  row_gap=&#039;&#039;  column_gap=&#039;&#039;  card_border=&#039;&#039;  card_shadow=&#039;&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-loop --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-loop-paging {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-loop-paging\&quot;&gt;[gd_loop_paging show_advanced=&#039;&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-loop-paging --&gt;&quot;;
+		}else{
+			$content = &quot;[gd_notifications]\n[gd_search]\n[gd_loop_actions]\n[gd_loop layout=2]\n[gd_loop_paging]&quot;;
+		}
+
+		if($no_filter){
+			return $content;
+		}else{
+			return apply_filters(&quot;geodir_default_page_search_content&quot;,$content, $blocks);
+		}
+	}
+
+	/**
+	 * The content for the location page.
+	 *
+	 * @return string
+	 */
+	public static function page_location_content($no_filter = false, $blocks = false){
+		if($blocks){
+			$content = &quot;&lt;!-- wp:geodirectory/geodir-widget-notifications --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-notifications\&quot;&gt;[gd_notifications]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-notifications --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-categories {\&quot;hide_empty\&quot;:true,\&quot;design_type\&quot;:\&quot;icon-top\&quot;,\&quot;icon_size\&quot;:\&quot;box-medium\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-categories\&quot;&gt;[gd_categories title=&#039;&#039;  post_type=&#039;0&#039;  cpt_title=&#039;false&#039;  title_tag=&#039;h4&#039;  cpt_ajax=&#039;false&#039;  filter_ids=&#039;&#039;  hide_empty=&#039;true&#039;  hide_count=&#039;false&#039;  hide_icon=&#039;false&#039;  use_image=&#039;false&#039;  cpt_left=&#039;false&#039;  sort_by=&#039;count&#039;  max_level=&#039;1&#039;  max_count=&#039;all&#039;  max_count_child=&#039;all&#039;  no_cpt_filter=&#039;false&#039;  no_cat_filter=&#039;false&#039;  design_type=&#039;icon-top&#039;  row_items=&#039;&#039;  card_padding_inside=&#039;&#039;  card_color=&#039;&#039;  icon_color=&#039;&#039;  icon_size=&#039;box-medium&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-categories --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-map {\&quot;show_advanced\&quot;:true,\&quot;height\&quot;:\&quot;300px\&quot;,\&quot;map_type\&quot;:\&quot;directory\&quot;,\&quot;search_filter\&quot;:true,\&quot;post_type_filter\&quot;:true,\&quot;cat_filter\&quot;:true,\&quot;child_collapse\&quot;:true,\&quot;mb\&quot;:\&quot;4\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-map\&quot;&gt;[gd_map title=&#039;&#039;  width=&#039;100%&#039;  height=&#039;300px&#039;  maptype=&#039;ROADMAP&#039;  zoom=&#039;0&#039;  map_type=&#039;directory&#039;  post_settings=&#039;true&#039;  post_type=&#039;&#039;  terms=&#039;&#039;  tick_terms=&#039;&#039;  tags=&#039;&#039;  all_posts=&#039;false&#039;  post_id=&#039;&#039;  search_filter=&#039;true&#039;  post_type_filter=&#039;true&#039;  cat_filter=&#039;true&#039;  child_collapse=&#039;true&#039;  map_directions=&#039;false&#039;  scrollwheel=&#039;false&#039;  sticky=&#039;false&#039;  static=&#039;false&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;4&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-map --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-search {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-search\&quot;&gt;[gd_search bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-search --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-listings {\&quot;post_limit\&quot;:6,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-listings\&quot;&gt;[gd_listings title=&#039;&#039;  post_type=&#039;gd_place&#039;  category=&#039;&#039;  related_to=&#039;&#039;  tags=&#039;&#039;  post_author=&#039;&#039;  post_limit=&#039;6&#039;  post_ids=&#039;&#039;  add_location_filter=&#039;true&#039;  show_featured_only=&#039;false&#039;  show_special_only=&#039;false&#039;  with_pics_only=&#039;false&#039;  with_videos_only=&#039;false&#039;  show_favorites_only=&#039;false&#039;  favorites_by_user=&#039;&#039;  use_viewing_post_type=&#039;false&#039;  sort_by=&#039;&#039;  title_tag=&#039;h3&#039;  layout=&#039;2&#039;  view_all_link=&#039;true&#039;  with_pagination=&#039;false&#039;  top_pagination=&#039;false&#039;  bottom_pagination=&#039;true&#039;  pagination_info=&#039;&#039;  hide_if_empty=&#039;false&#039;  row_gap=&#039;&#039;  column_gap=&#039;&#039;  card_border=&#039;&#039;  card_shadow=&#039;&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-listings --&gt;&quot;;
+		}else{
+			$content = &quot;[gd_notifications]\n[gd_categories]\n[gd_map map_type=&#039;directory&#039; width=100% height=300 search_filter=1 cat_filter=1 post_type_filter=1]\n[gd_search]\n[gd_listings post_limit=10 add_location_filter=&#039;1&#039;]&quot;;
+		}
+
+		if($no_filter){
+			return $content;
+		}else{
+			return apply_filters(&quot;geodir_default_page_location_content&quot;,$content, $blocks);
+		}
+	}
+
+	/**
+	 * The content for the archive page.
+	 *
+	 * @return string
+	 */
+	public static function page_archive_content($no_filter = false, $blocks = false){
+		if($blocks){
+			$content = &quot;&lt;!-- wp:geodirectory/geodir-widget-notifications --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-notifications\&quot;&gt;[gd_notifications]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-notifications --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-search {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-search\&quot;&gt;[gd_search bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-search --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-loop-actions {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-loop-actions\&quot;&gt;[gd_loop_actions bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-loop-actions --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-loop {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-loop\&quot;&gt;[gd_loop layout=&#039;2&#039;  row_gap=&#039;&#039;  column_gap=&#039;&#039;  card_border=&#039;&#039;  card_shadow=&#039;&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-loop --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-loop-paging {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-loop-paging\&quot;&gt;[gd_loop_paging show_advanced=&#039;&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-loop-paging --&gt;&quot;;
+		}else{
+			$content = &quot;[gd_notifications]\n[gd_category_description]\n[gd_search]\n[gd_loop_actions]\n[gd_loop layout=2]\n[gd_loop_paging]&quot;;
+		}
+
+		if($no_filter){
+			return $content;
+		}else{
+			return apply_filters(&quot;geodir_default_page_archive_content&quot;,$content,$blocks);
+		}
+	}
+	/**
+	 * The content for the archive item page.
+	 *
+	 * @return string
+	 */
+	public static function page_archive_item_content($no_filter = false, $blocks = false){
+
+		if($blocks){
+			$content = &quot;&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;open&#039;  position=&#039;left&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-badge {\&quot;key\&quot;:\&quot;featured\&quot;,\&quot;condition\&quot;:\&quot;is_not_empty\&quot;,\&quot;badge\&quot;:\&quot;Featured\&quot;,\&quot;bg_color\&quot;:\&quot;#fd4700\&quot;,\&quot;position\&quot;:\&quot;ab-top-left-angle\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_badge id=&#039;&#039;  key=&#039;featured&#039;  condition=&#039;is_not_empty&#039;  search=&#039;&#039;  icon_class=&#039;&#039;  badge=&#039;Featured&#039;  link=&#039;&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;&#039;  bg_color=&#039;#fd4700&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  alignment=&#039;&#039;  position=&#039;ab-top-left-angle&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-badge --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-badge {\&quot;key\&quot;:\&quot;post_date\&quot;,\&quot;condition\&quot;:\&quot;is_less_than\&quot;,\&quot;search\&quot;:\&quot;+30\&quot;,\&quot;badge\&quot;:\&quot;New\&quot;,\&quot;bg_color\&quot;:\&quot;#ff0000\&quot;,\&quot;position\&quot;:\&quot;ab-top-right\&quot;,\&quot;mt\&quot;:\&quot;1\&quot;,\&quot;mr\&quot;:\&quot;1\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_badge id=&#039;&#039;  key=&#039;post_date&#039;  condition=&#039;is_less_than&#039;  search=&#039;+30&#039;  icon_class=&#039;&#039;  badge=&#039;New&#039;  link=&#039;&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;&#039;  bg_color=&#039;#ff0000&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  alignment=&#039;&#039;  position=&#039;ab-top-right&#039;  mt=&#039;1&#039;  mr=&#039;1&#039;  mb=&#039;&#039;  ml=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-badge --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-badge {\&quot;key\&quot;:\&quot;default_category\&quot;,\&quot;condition\&quot;:\&quot;is_not_empty\&quot;,\&quot;badge\&quot;:\&quot;%%input%%\&quot;,\&quot;link\&quot;:\&quot;%%input%%\&quot;,\&quot;cta\&quot;:\&quot;0\&quot;,\&quot;bg_color\&quot;:\&quot;rgba(0,0,0,0.5)\&quot;,\&quot;position\&quot;:\&quot;ab-bottom-left\&quot;,\&quot;ml\&quot;:\&quot;1\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_badge id=&#039;&#039;  key=&#039;default_category&#039;  condition=&#039;is_not_empty&#039;  search=&#039;&#039;  icon_class=&#039;&#039;  badge=&#039;%%input%%&#039;  link=&#039;%%input%%&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;0&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;&#039;  bg_color=&#039;rgba(0,0,0,0.5)&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  alignment=&#039;&#039;  position=&#039;ab-bottom-left&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;1&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-badge --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-fav {\&quot;show_advanced\&quot;:true,\&quot;show\&quot;:\&quot;icon\&quot;,\&quot;icon_color_off\&quot;:\&quot;rgba(223,223,223,0.8)\&quot;,\&quot;icon_color_on\&quot;:\&quot;#ff0000\&quot;,\&quot;type\&quot;:\&quot;link\&quot;,\&quot;position\&quot;:\&quot;ab-bottom-right\&quot;,\&quot;mr\&quot;:\&quot;1\&quot;,\&quot;mb\&quot;:\&quot;n1\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-post-fav\&quot;&gt;[gd_post_fav show=&#039;icon&#039;  icon=&#039;&#039;  icon_color_off=&#039;rgba(223,223,223,0.8)&#039;  icon_color_on=&#039;#ff0000&#039;  type=&#039;link&#039;  shadow=&#039;&#039;  color=&#039;&#039;  bg_color=&#039;&#039;  txt_color=&#039;&#039;  size=&#039;h5&#039;  alignment=&#039;&#039;  position=&#039;ab-bottom-right&#039;  mt=&#039;&#039;  mr=&#039;1&#039;  mb=&#039;n1&#039;  ml=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-post-fav --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-images {\&quot;show_advanced\&quot;:true,\&quot;show_title\&quot;:false,\&quot;link_to\&quot;:\&quot;post\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-post-images\&quot;&gt;[gd_post_images title=&#039;&#039;  types=&#039;&#039;  fallback_types=&#039;&#039;  ajax_load=&#039;true&#039;  limit=&#039;&#039;  limit_show=&#039;&#039;  css_class=&#039;&#039;  type=&#039;image&#039;  slideshow=&#039;true&#039;  controlnav=&#039;1&#039;  animation=&#039;slide&#039;  show_title=&#039;false&#039;  show_caption=&#039;false&#039;  image_size=&#039;&#039;  aspect=&#039;&#039;  cover=&#039;&#039;  link_to=&#039;post&#039;  link_screenshot_to=&#039;&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-post-images --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;type\&quot;:\&quot;close\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;close&#039;  position=&#039;left&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;position\&quot;:\&quot;right\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;open&#039;  position=&#039;right&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-title {\&quot;overflow\&quot;:\&quot;ellipsis\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-post-title\&quot;&gt;[gd_post_title tag=&#039;h2&#039;  font_size_class=&#039;h5&#039;  overflow=&#039;ellipsis&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-post-title --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-output-location {\&quot;location\&quot;:\&quot;listing\&quot;,\&quot;list_style\&quot;:\&quot;wrap\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-output-location\&quot;&gt;[gd_output_location location=&#039;listing&#039;  list_style=&#039;wrap&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-output-location --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-content {\&quot;show_advanced\&quot;:true,\&quot;limit\&quot;:20,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-post-content\&quot;&gt;[gd_post_content title=&#039;&#039;  id=&#039;&#039;  key=&#039;post_content&#039;  show=&#039;&#039;  limit=&#039;20&#039;  max_height=&#039;&#039;  read_more=&#039;&#039;  alignment=&#039;&#039;  strip_tags=&#039;false&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-post-content --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;type\&quot;:\&quot;close\&quot;,\&quot;position\&quot;:\&quot;right\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;close&#039;  position=&#039;right&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;position\&quot;:\&quot;footer\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;open&#039;  position=&#039;footer&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-rating {\&quot;show\&quot;:\&quot;stars\&quot;,\&quot;alignment\&quot;:\&quot;left\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-post-rating\&quot;&gt;[gd_post_rating show=&#039;stars&#039;  size=&#039;&#039;  alignment=&#039;left&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-post-rating --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-meta {\&quot;show_advanced\&quot;:true,\&quot;key\&quot;:\&quot;business_hours\&quot;,\&quot;alignment\&quot;:\&quot;right\&quot;,\&quot;list_hide_secondary\&quot;:\&quot;2\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_post_meta title=&#039;&#039;  id=&#039;&#039;  key=&#039;business_hours&#039;  show=&#039;&#039;  no_wrap=&#039;false&#039;  alignment=&#039;right&#039;  text_alignment=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;2&#039;  location=&#039;&#039;  css_class=&#039;&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-post-meta --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-archive-item-section {\&quot;type\&quot;:\&quot;close\&quot;,\&quot;position\&quot;:\&quot;footer\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+[gd_archive_item_section type=&#039;close&#039;  position=&#039;footer&#039; ]
+&lt;!-- /wp:geodirectory/geodir-widget-archive-item-section --&gt;&quot;;
+		}else{
+			$content = &quot;[gd_archive_item_section type=&#039;open&#039; position=&#039;left&#039;]
+[gd_post_badge key=&#039;featured&#039; condition=&#039;is_not_empty&#039; badge=&#039;FEATURED&#039; bg_color=&#039;#fd4700&#039; txt_color=&#039;#ffffff&#039; css_class=&#039;gd-ab-top-left-angle gd-badge-shadow&#039;]
+[gd_post_images type=&#039;image&#039; ajax_load=&#039;true&#039; link_to=&#039;post&#039; types=&#039;logo,post_images&#039;]
+[gd_archive_item_section type=&#039;close&#039; position=&#039;left&#039;]
+[gd_archive_item_section type=&#039;open&#039; position=&#039;right&#039;]
+[gd_post_title tag=&#039;h2&#039;]
+[gd_post_badge key=&#039;post_date&#039; condition=&#039;is_less_than&#039; search=&#039;+30&#039; icon_class=&#039;fas fa-certificate&#039; badge=&#039;New&#039; bg_color=&#039;#ff0000&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039;]
+[gd_post_badge key=&#039;featured&#039; condition=&#039;is_not_empty&#039; icon_class=&#039;fas fa-certificate&#039; badge=&#039;Featured&#039; bg_color=&#039;#ffb100&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039;]
+[gd_post_badge key=&#039;claimed&#039; condition=&#039;is_not_empty&#039; search=&#039;+30&#039; icon_class=&#039;fas fa-user-check fa-fw&#039; badge=&#039;Verified&#039; bg_color=&#039;#23c526&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039; list_hide_secondary=&#039;3&#039;]
+[gd_post_badge key=&#039;facebook&#039; condition=&#039;is_not_empty&#039; icon_class=&#039;fab fa-facebook-f fa-fw&#039; link=&#039;%%input%%&#039; new_window=&#039;1&#039; bg_color=&#039;#2b4be8&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039;]
+[gd_post_badge key=&#039;twitter&#039; condition=&#039;is_not_empty&#039; icon_class=&#039;fab fa-twitter fa-fw&#039; link=&#039;%%input%%&#039; new_window=&#039;1&#039; bg_color=&#039;#2bb8e8&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039;]
+[gd_post_badge key=&#039;website&#039; condition=&#039;is_not_empty&#039; icon_class=&#039;fas fa-link fa-fw&#039; link=&#039;%%input%%&#039; new_window=&#039;1&#039; bg_color=&#039;#85a9b5&#039; txt_color=&#039;#ffffff&#039; alignment=&#039;left&#039;]
+[gd_author_actions author_page_only=&#039;1&#039;]
+[gd_post_distance]
+[gd_post_rating alignment=&#039;left&#039; list_hide_secondary=&#039;2&#039;]
+[gd_post_fav show=&#039;&#039; alignment=&#039;right&#039; list_hide_secondary=&#039;2&#039;]
+[gd_post_meta key=&#039;business_hours&#039; location=&#039;listing&#039; list_hide_secondary=&#039;2&#039;]
+[gd_output_location location=&#039;listing&#039;]
+[gd_post_content key=&#039;post_content&#039; limit=&#039;60&#039; max_height=&#039;120&#039;]
+[gd_archive_item_section type=&#039;close&#039; position=&#039;right&#039;]&quot;;
+		}
+
+
+		if($no_filter){
+			return $content;
+		}else{
+			return apply_filters(&quot;geodir_default_page_archive_item_content&quot;,$content, $blocks);
+		}
+	}
+
+	/**
+	 * The content for the details page.
+	 *
+	 * @return string
+	 */
+	public static function page_details_content($no_filter = false,$blocks = false){
+		if($blocks){
+			$content = &quot;&lt;!-- wp:geodirectory/geodir-widget-notifications --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-notifications\&quot;&gt;[gd_notifications]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-notifications --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-post-images {\&quot;show_advanced\&quot;:true,\&quot;type\&quot;:\&quot;slider\&quot;,\&quot;show_caption\&quot;:true,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-post-images\&quot;&gt;[gd_post_images title=&#039;&#039;  types=&#039;&#039;  fallback_types=&#039;&#039;  ajax_load=&#039;true&#039;  limit=&#039;&#039;  limit_show=&#039;&#039;  css_class=&#039;&#039;  type=&#039;slider&#039;  slideshow=&#039;true&#039;  controlnav=&#039;1&#039;  animation=&#039;slide&#039;  show_title=&#039;true&#039;  show_caption=&#039;true&#039;  image_size=&#039;&#039;  aspect=&#039;&#039;  cover=&#039;&#039;  link_to=&#039;&#039;  link_screenshot_to=&#039;&#039;  bg=&#039;&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-post-images --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-single-taxonomies {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-single-taxonomies\&quot;&gt;[gd_single_taxonomies taxonomy=&#039;&#039;  prefix=&#039;&#039;  link_style=&#039;&#039;  link_color=&#039;&#039;  link_color_custom=&#039;&#039;  link_icon=&#039;false&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;2&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-single-taxonomies --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-single-tabs {\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-single-tabs\&quot;&gt;[gd_single_tabs show_as_list=&#039;false&#039;  output=&#039;&#039;  tab_style=&#039;&#039;  disable_greedy=&#039;false&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-single-tabs --&gt;
+
+&lt;!-- wp:geodirectory/geodir-widget-single-next-prev {\&quot;mt\&quot;:\&quot;4\&quot;,\&quot;content\&quot;:\&quot;\&quot;} --&gt;
+&lt;div class=\&quot;wp-block-geodirectory-geodir-widget-single-next-prev\&quot;&gt;[gd_single_next_prev bg=&#039;&#039;  mt=&#039;4&#039;  mr=&#039;&#039;  mb=&#039;3&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&lt;/div&gt;
+&lt;!-- /wp:geodirectory/geodir-widget-single-next-prev --&gt;&quot;;
+		}else{
+			$content = &quot;[gd_notifications]\n[gd_post_images type=&#039;slider&#039; ajax_load=&#039;true&#039; slideshow=&#039;true&#039; show_title=&#039;true&#039; animation=&#039;slide&#039; controlnav=&#039;1&#039; ]\n[gd_single_taxonomies]\n[gd_single_tabs]\n[gd_single_next_prev]&quot;;
+		}
+
+
+		if($no_filter){
+			return $content;
+		}else{
+			return apply_filters(&quot;geodir_default_page_details_content&quot;,$content,$blocks);
+		}
+	}
+
+
+
+	/**
+	 * The pending post user email subject default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_user_pending_post_subject(){
+		return apply_filters(&#039;geodir_email_user_pending_post_subject&#039;,__(&quot;[[#site_name#]] Your listing has been submitted for approval&quot;,&quot;geodirectory&quot;));
+	}
+
+	/**
+	 * The pending post user email body default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_user_pending_post_body(){
+		return apply_filters(&#039;geodir_email_user_pending_post_body&#039;,
+			__(&quot;Dear [#client_name#],
+
+You submitted the below listing information. This email is just for your information.
+
+[#listing_link#]
+
+Thank you for your contribution.&quot;,&quot;geodirectory&quot;
+			)
+		);
+	}
+
+	/**
+	 * The publish post user email subject default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_user_publish_post_subject(){
+		return apply_filters(&#039;geodir_email_user_publish_post_subject&#039;,__(&quot;[[#site_name#]] Listing Published Successfully&quot;,&quot;geodirectory&quot;));
+	}
+
+	/**
+	 * The publish post user email body default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_user_publish_post_body(){
+		return apply_filters(&#039;geodir_email_user_publish_post_body&#039;,
+			__(&quot;Dear [#client_name#],
+
+Your listing [#listing_link#] has been published. This email is just for your information.
+
+[#listing_link#]
+
+Thank you for your contribution.&quot;,&quot;geodirectory&quot;
+			)
+		);
+	}
+
+	/**
+	 * The listing owner comment submit email subject default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_owner_comment_submit_subject(){
+		return apply_filters(&#039;geodir_email_owner_comment_submit_subject&#039;,__(&quot;[[#site_name#]] A new comment has been submitted on your listing [#listing_title#]&quot;,&quot;geodirectory&quot;));
+	}
+
+	/**
+	 * The listing owner comment submit email body default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_owner_comment_submit_body(){
+		return apply_filters(&#039;geodir_email_owner_comment_submit_body&#039;,
+			__(&quot;Dear [#client_name#],
+
+A new comment has been submitted on your listing [#listing_link#].
+
+Author: [#comment_author#] ( IP: [#comment_author_IP#] )
+Email: [#comment_author_email#]
+Listing: [#listing_url#]
+Date: [#comment_date#]
+Comment: [#comment_content#]
+
+Approve it: [#comment_approve_link#]
+Trash it: [#comment_trash_link#]
+Spam it: [#comment_spam_link#]
+
+Thank You.&quot;,&quot;geodirectory&quot;
+			)
+		);
+	}
+
+	/**
+	 * The listing owner comment approved email subject default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_owner_comment_approved_subject(){
+		return apply_filters(&#039;geodir_email_owner_comment_approved_subject&#039;,__(&quot;[[#site_name#]] A comment on your listing [#listing_title#] has been approved&quot;,&quot;geodirectory&quot;));
+	}
+
+	/**
+	 * The listing owner comment approved email body default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_owner_comment_approved_body(){
+		return apply_filters(&#039;geodir_email_owner_comment_submit_body&#039;,
+			__(&quot;Dear [#client_name#],
+
+A new comment has been submitted on your listing [#listing_link#].
+
+Author: [#comment_author#] ( IP: [#comment_author_IP#] )
+Email: [#comment_author_email#]
+Listing: [#listing_url#]
+Date: [#comment_date#]
+Comment: [#comment_content#]
+
+Approve it: [#comment_approve_link#]
+Trash it: [#comment_trash_link#]
+Spam it: [#comment_spam_link#]
+
+Thank You.&quot;,&quot;geodirectory&quot;
+			)
+		);
+	}
+
+	/**
+	 * The commenter comment approved email subject default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_author_comment_approved_subject(){
+		return apply_filters(&#039;geodir_email_author_comment_approved_subject&#039;,__(&quot;[[#site_name#]] Your comment on listing [#listing_title#] has been approved&quot;,&quot;geodirectory&quot;));
+	}
+
+	/**
+	 * The commenter comment approved email body default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_author_comment_approved_body(){
+		return apply_filters(&#039;geodir_email_author_comment_approved_body&#039;,
+			__(&quot;Dear [#comment_author#],
+
+Your comment on listing [#listing_link#] has been approved.
+
+Comment: [#comment_content#]
+
+Thank You.&quot;,&quot;geodirectory&quot;
+			)
+		);
+	}
+
+	/**
+	 * The pending post admin email subject default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_admin_pending_post_subject(){
+		return apply_filters(&#039;geodir_email_admin_pending_post_subject&#039;,__(&quot;[[#site_name#]] A new listing has been submitted for review&quot;,&quot;geodirectory&quot;));
+	}
+
+	/**
+	 * The pending post admin email body default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_admin_pending_post_body(){
+		return apply_filters(&#039;geodir_email_admin_pending_post_body&#039;,
+			__(&quot;Dear Admin,
+
+A new listing has been submitted [#listing_link#]. This email is just for your information.
+
+Thank you,
+[#site_name_url#]&quot;,&quot;geodirectory&quot;)
+		);
+	}
+
+	/**
+	 * The post edited admin email subject default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_admin_post_edit_subject(){
+		return apply_filters(&#039;geodir_email_admin_post_edit_subject&#039;,__(&quot;[[#site_name#]] Listing edited by Author&quot;,&quot;geodirectory&quot;));
+	}
+
+	/**
+	 * The post edited admin email body default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_admin_post_edit_body(){
+		return apply_filters(&#039;geodir_email_admin_post_edit_body&#039;,
+			__(&quot;Dear Admin,
+
+A listing [#listing_link#] has been edited by its author [#post_author_name#].
+
+Listing Details:
+Listing ID: [#post_id#]
+Listing URL: [#listing_link#]
+Date: [#current_date#]
+
+This email is just for your information.&quot;,&quot;geodirectory&quot;
+			)
+		);
+	}
+
+	/**
+	 * The moderate comment admin email subject default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_admin_moderate_comment_subject(){
+		return apply_filters(&#039;geodir_email_admin_moderate_comment_subject&#039;,__(&quot;[[#site_name#]] A new comment is waiting for your approval&quot;,&quot;geodirectory&quot;));
+	}
+
+	/**
+	 * The moderate comment admin email body default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_admin_moderate_comment_body(){
+		return apply_filters(&#039;geodir_email_admin_moderate_comment_body&#039;,
+			__(&quot;Dear Admin,
+
+A new comment has been submitted on the listing [#listing_link#] and it is waiting for your approval.
+
+Author: [#comment_author#] ( IP: [#comment_author_IP#] )
+Email: [#comment_author_email#]
+Listing: [#listing_url#]
+Date: [#comment_date#]
+Comment: [#comment_content#]
+
+Approve it: [#comment_approve_link#]
+Trash it: [#comment_trash_link#]
+Spam it: [#comment_spam_link#]
+
+Please visit the moderation panel for more details: [#comment_moderation_link#]
+
+Thank You.&quot;,&quot;geodirectory&quot;
+			)
+		);
+	}
+
+	/**
+	 * The report post admin email subject default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_admin_report_post_subject(){
+		return apply_filters( &#039;geodir_email_admin_report_post_subject&#039;, __( &quot;[[#site_name#]] Someone has reported a post!&quot;, &quot;geodirectory&quot; ) );
+	}
+
+	/**
+	 * The report post admin email body default.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_admin_report_post_body(){
+		return apply_filters(&#039;geodir_email_admin_report_post_body&#039;,
+			__(&quot;Dear Admin,
+
+Someone has reported a post [#listing_link#].
+
+Details:
+Post: [#listing_title#] (Post ID: [#post_id#])
+Post Url: [#listing_url#]
+Reporter Name: [#report_post_user_name#] (User ID: [#report_post_user_id#])
+Reporter Email: [#report_post_user_email#]
+Reporter IP: [#report_post_user_ip#]
+Date: [#report_post_date#]
+Reason: [#report_post_reason#]
+Message: [#report_post_message#]
+
+---
+Please visit the report post section for more details: [#report_post_section_link#]
+
+Thank You.&quot;, &quot;geodirectory&quot; )
+		);
+	}
+
+	/**
+	 * The default email name text.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_name(){
+		return get_bloginfo(&#039;name&#039;);
+	}
+
+	/**
+	 * The default email address.
+	 *
+	 * @return mixed|void
+	 */
+	public static function email_address(){
+		return get_bloginfo(&#039;admin_email&#039;);
+	}
+
+	/**
+	 * The default CPT page title.
+	 *
+	 * @return string
+	 */
+	public static function seo_cpt_title(){
+		return __(&quot;All %%pt_plural%% %%in_location_single%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default CPT meta title.
+	 *
+	 * @return string
+	 */
+	public static function seo_cpt_meta_title(){
+		return __(&quot;%%pt_plural%% %%in_location%% %%page%% %%sep%% %%sitename%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default CPT meta description.
+	 *
+	 * @return string
+	 */
+	public static function seo_cpt_meta_description(){
+		return __(&quot;%%pt_plural%% %%in_location%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default cat archive page title.
+	 *
+	 * @return string
+	 */
+	public static function seo_cat_archive_title(){
+		return __(&quot;All %%category%% %%in_location_single%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default cat archive meta title.
+	 *
+	 * @return string
+	 */
+	public static function seo_cat_archive_meta_title(){
+		return __(&quot;%%category%% %%in_location%% %%page%% %%sep%% %%sitename%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default cat archive meta description.
+	 *
+	 * @return string
+	 */
+	public static function seo_cat_archive_meta_description(){
+		return __(&quot;Posts related to Category: %%category%% %%in_location%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default tag archive page title.
+	 *
+	 * @return string
+	 */
+	public static function seo_tag_archive_title(){
+		return __(&quot;Tag: %%tag%% %%in_location_single%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default tag archive meta title.
+	 *
+	 * @return string
+	 */
+	public static function seo_tag_archive_meta_title(){
+		return __(&quot;%%tag%% %%in_location%% %%page%% %%sep%% %%sitename%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default tag archive meta description.
+	 *
+	 * @return string
+	 */
+	public static function seo_tag_archive_meta_description(){
+		return __(&quot;Posts related to Tag: %%tag%% %%in_location%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default single page title.
+	 *
+	 * @return string
+	 */
+	public static function seo_single_title(){
+		return __(&quot;%%title%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default single meta title.
+	 *
+	 * @return string
+	 */
+	public static function seo_single_meta_title(){
+		return __(&quot;%%title%% %%sep%% %%sitename%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default single meta description.
+	 *
+	 * @return string
+	 */
+	public static function seo_single_meta_description(){
+		return __(&quot;%%excerpt%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default location page title.
+	 *
+	 * @return string
+	 */
+	public static function seo_location_title(){
+		return __(&quot;%%location_single%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default location meta title.
+	 *
+	 * @return string
+	 */
+	public static function seo_location_meta_title(){
+		return __(&quot;%%title%% %%location%% %%sep%% %%sitename%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default location meta description.
+	 *
+	 * @return string
+	 */
+	public static function seo_location_meta_description(){
+		return __(&quot;%%location%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default search page title.
+	 *
+	 * @return string
+	 */
+	public static function seo_search_title(){
+		return __(&quot;Search results for: %%search_term%% %%search_near%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default search meta title.
+	 *
+	 * @return string
+	 */
+	public static function seo_search_meta_title(){
+		return __(&quot;%%pt_plural%% search results for %%search_term%% %%search_near%% %%sep%% %%sitename%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default search meta description.
+	 *
+	 * @return string
+	 */
+	public static function seo_search_meta_description(){
+		return __(&quot;%%pt_plural%% search results for %%search_term%% %%search_near%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default add_listing page title.
+	 *
+	 * @return string
+	 */
+	public static function seo_add_listing_title(){
+		return __(&quot;Add %%pt_single%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default add_listing page title when editing.
+	 *
+	 * @return string
+	 */
+	public static function seo_add_listing_title_edit(){
+		return __(&quot;Edit %%pt_single%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default add_listing meta title.
+	 *
+	 * @return string
+	 */
+	public static function seo_add_listing_meta_title(){
+		return __(&quot;Add %%pt_single%% %%sep%% %%sitename%%&quot;,&quot;geodirectory&quot;);
+	}
+
+	/**
+	 * The default add_listing meta description.
+	 *
+	 * @return string
+	 */
+	public static function seo_add_listing_meta_description(){
+		return __(&quot;Add your %%pt_single%% to %%sitename%%&quot;,&quot;geodirectory&quot;);
+	}
+
+}
+
+
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

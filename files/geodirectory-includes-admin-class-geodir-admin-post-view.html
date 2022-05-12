@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-admin-post-view.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory Admin Post View
+ *
+ * @author      AyeCode
+ * @category    Admin
+ * @package     GeoDirectory/Admin
+ * @version     2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit; // Exit if accessed directly
+}
+
+if ( ! class_exists( &#039;GeoDir_Admin_Post_View&#039;, false ) ) {
+
+	/**
+	 * GeoDir_Admin_Post_View Class.
+	 */
+	class GeoDir_Admin_Post_View {
+
+		/**
+		 * Start the action.
+		 */
+		public static function init() {
+
+			// add listing settings
+			add_action( &#039;add_meta_boxes&#039;, array( __CLASS__, &#039;add_meta_boxes&#039; ) );
+
+			// remove default featured image settings and revisions meta boxes
+			add_action(&#039;do_meta_boxes&#039;, array( __CLASS__, &#039;remove_wp_meta_box&#039;));
+
+			// remove the default category selector
+			add_action(&#039;admin_menu&#039;, array( __CLASS__,&#039;remove_cat_meta_box&#039;));
+			
+			add_action(&#039;admin_footer-edit.php&#039;, array( __CLASS__,&#039;posts_footer&#039;));
+			add_action(&#039;admin_footer-post.php&#039;, array( __CLASS__,&#039;post_form_footer&#039;));
+			add_action(&#039;admin_footer-post-new.php&#039;, array( __CLASS__,&#039;post_form_footer&#039;));
+			add_action(&#039;post_date_column_status&#039;, array( __CLASS__,&#039;posts_column_status&#039;), 10, 4);
+			add_filter( &#039;post_row_actions&#039;, array( __CLASS__,&#039;post_row_actions&#039; ), 20, 2 );
+			add_filter( &#039;sd_pagenow_exclude&#039;, array( __CLASS__, &#039;sd_pagenow_exclude&#039; ), 10, 1 );
+			add_filter( &#039;geodir_get_widgets&#039;, array( __CLASS__, &#039;sd_get_widgets&#039; ), 99, 1 );
+
+			self::add_post_type_view_filters();
+		}
+
+		/**
+		 * Adds custom columns on geodirectory post types.
+		 *
+		 * @package GeoDirectory
+		 */
+		public static function add_post_type_view_filters() {
+
+			if ( $post_types = geodir_get_posttypes() ) {
+				foreach ( $post_types as $post_type ) :
+					add_filter( &quot;manage_edit-{$post_type}_columns&quot;, array( __CLASS__, &#039;edit_post_columns&#039; ), 100 );
+					//Filter-Payment-Manager to show Package
+					add_action( &quot;manage_{$post_type}_posts_custom_column&quot;, array(
+						__CLASS__,
+						&#039;manage_post_columns&#039;
+					), 10, 2 );
+
+					add_filter( &quot;manage_edit-{$post_type}_sortable_columns&quot;, array(
+						__CLASS__,
+						&#039;post_sortable_columns&#039;
+					) );
+
+				endforeach;
+			}
+		}
+
+		/**
+		 * Modify admin post listing page columns.
+		 *
+		 * @param array $columns The column array.
+		 *
+		 * @return array Altered column array.
+		 */
+		public static function edit_post_columns( $columns ) {
+
+			//print_r($columns);echo &#039;###&#039;;
+
+			$new_columns = array(
+				&#039;image&#039; =&gt; __( &#039;Image&#039;, &#039;geodirectory&#039; ),
+				&#039;location&#039;  =&gt; __( &#039;Location&#039;, &#039;geodirectory&#039; ),
+				&#039;gd_categories&#039; =&gt; __( &#039;Categories&#039;, &#039;geodirectory&#039; ),
+				&#039;gd_tags&#039; =&gt; __( &#039;Tags&#039;, &#039;geodirectory&#039; ),
+			);
+			$offset = 2;
+
+
+			$columns = array_merge( array_slice( $columns, 0, $offset ), $new_columns, array_slice( $columns, $offset ) );
+
+
+			return $columns;
+		}
+
+		/**
+		 * Adds content to our custom post listing page columns.
+		 *
+		 * @global object $wpdb WordPress Database object.
+		 * @global object $post WordPress Post object.
+		 *
+		 * @param string $column The column name.
+		 * @param int $post_id The post ID.
+		 */
+		public static function manage_post_columns( $column, $post_id ) {
+			global $post, $wpdb, $gd_post;
+
+			if ( ! ( ! empty( $gd_post ) &amp;&amp; $gd_post-&gt;ID == $post_id ) ) {
+				$gd_post = geodir_get_post_info( $post_id );
+			}
+
+			switch ( $column ):
+				/* If displaying the &#039;city&#039; column. */
+				case &#039;location&#039; :
+					$location = $gd_post;
+					/* If no city is found, output a default message. */
+					if ( empty( $location ) ) {
+						_e( &#039;Unknown&#039;, &#039;geodirectory&#039; );
+					} else {
+						/* If there is a city id, append &#039;city name&#039; to the text string. */
+						echo( __( $location-&gt;country, &#039;geodirectory&#039; ) . &#039;, &#039; . $location-&gt;region . &#039;, &#039; . $location-&gt;city );
+					}
+					break;
+
+
+				/* If displaying the &#039;categories&#039; column. */
+				case &#039;gd_categories&#039; :
+
+					/* Get the categories for the post. */
+
+
+					$terms = wp_get_object_terms( $post_id, get_object_taxonomies( $post ) );
+
+					/* If terms were found. */
+					if ( ! empty( $terms ) ) {
+						$out = array();
+						/* Loop through each term, linking to the &#039;edit posts&#039; page for the specific term. */
+						foreach ( $terms as $term ) {
+							if ( ! strstr( $term-&gt;taxonomy, &#039;tag&#039; ) ) {
+								$out[] = sprintf( &#039;&lt;a href=&quot;%s&quot;&gt;%s&lt;/a&gt;&#039;,
+									esc_url( add_query_arg( array(
+										&#039;post_type&#039;     =&gt; $post-&gt;post_type,
+										$term-&gt;taxonomy =&gt; $term-&gt;slug
+									), &#039;edit.php&#039; ) ),
+									esc_html( sanitize_term_field( &#039;name&#039;, $term-&gt;name, $term-&gt;term_id, $term-&gt;taxonomy, &#039;display&#039; ) )
+								);
+							}
+						}
+						/* Join the terms, separating them with a comma. */
+						echo( join( &#039;, &#039;, $out ) );
+					} /* If no terms were found, output a default message. */
+					else {
+						_e( &#039;No Categories&#039;, &#039;geodirectory&#039; );
+					}
+					break;
+
+				/* If displaying the &#039;tags&#039; column. */
+				case &#039;gd_tags&#039; :
+
+					/* Get the categories for the post. */
+
+
+					$terms = wp_get_object_terms( $post_id, get_object_taxonomies( $post ) );
+
+					/* If terms were found. */
+					if ( ! empty( $terms ) ) {
+						$out = array();
+						/* Loop through each term, linking to the &#039;edit posts&#039; page for the specific term. */
+						foreach ( $terms as $term ) {
+							if ( strstr( $term-&gt;taxonomy, &#039;tag&#039; ) ) {
+								$out[] = sprintf( &#039;&lt;a href=&quot;%s&quot;&gt;%s&lt;/a&gt;&#039;,
+									esc_url( add_query_arg( array(
+										&#039;post_type&#039;     =&gt; $post-&gt;post_type,
+										$term-&gt;taxonomy =&gt; $term-&gt;slug
+									), &#039;edit.php&#039; ) ),
+									esc_html( sanitize_term_field( &#039;name&#039;, $term-&gt;name, $term-&gt;term_id, $term-&gt;taxonomy, &#039;display&#039; ) )
+								);
+							}
+						}
+						/* Join the terms, separating them with a comma. */
+						echo( join( &#039;, &#039;, $out ) );
+					} /* If no terms were found, output a default message. */
+					else {
+						_e( &#039;No Tags&#039;, &#039;geodirectory&#039; );
+					}
+					break;
+				/* If displaying the &#039;city&#039; column. */
+				case &#039;image&#039; :
+					$upload_dir = wp_upload_dir();
+					$image_raw = isset( $gd_post-&gt;featured_image ) &amp;&amp; ! empty( $gd_post-&gt;featured_image ) ? $gd_post-&gt;featured_image : &#039;&#039;;
+					/* If no city is found, output a default message. */
+					if ( empty( $image_raw ) ) {
+						_e( &#039;N/A&#039;, &#039;geodirectory&#039; );
+					} else {
+						echo do_shortcode( &#039;[gd_post_images types=&quot;post_images&quot; fallback_types=&quot;post_images&quot; limit=&quot;1&quot; limit_show=&quot;1&quot; type=&quot;image&quot; slideshow=&quot;0&quot; controlnav=&quot;0&quot; show_title=&quot;0&quot; show_caption=&quot;0&quot; image_size=&quot;thumbnail&quot;]&#039; );
+					}
+					break;
+
+
+			endswitch;
+		}
+
+		/**
+		 * Makes admin post listing page columns sortable.
+		 *
+		 * @param array $columns The column array.
+		 *
+		 * @return array Altered column array.
+		 */
+		public static function post_sortable_columns( $columns ) {
+
+			$columns[&#039;expire&#039;] = &#039;expire&#039;;
+
+			return $columns;
+		}
+
+		/**
+		 * Adds meta boxes to the GD post types.
+		 *
+		 * @since 1.0.0
+		 * @package GeoDirectory
+		 * @global object $post WordPress Post object.
+		 */
+		public static function add_meta_boxes() {
+			global $post;
+
+			$geodir_post_types = geodir_get_posttypes( &#039;array&#039; );
+			$geodir_posttypes  = array_keys( $geodir_post_types );
+
+			if ( isset( $post-&gt;post_type ) &amp;&amp; in_array( $post-&gt;post_type, $geodir_posttypes ) ):
+				$post_type_object = get_post_type_object( $post-&gt;post_type );
+				$geodir_posttype = $post-&gt;post_type;
+				$post_typename   = __( $geodir_post_types[ $geodir_posttype ][&#039;labels&#039;][&#039;singular_name&#039;], &#039;geodirectory&#039; );
+				$post_typename   = geodir_ucwords( $post_typename );
+
+				add_meta_box( &#039;geodir_post_images&#039;, $post_typename . &#039; &#039; . __( &#039;Attachments&#039;, &#039;geodirectory&#039; ), array(
+					__CLASS__,
+					&#039;attachment_settings&#039;
+				), $geodir_posttype, &#039;side&#039; );
+				add_meta_box( &#039;geodir_post_info&#039;, $post_typename . &#039; &#039; . __( &#039;Information&#039;, &#039;geodirectory&#039; ), array(
+					__CLASS__,
+					&#039;listing_setting&#039;
+				), $geodir_posttype, &#039;normal&#039;, &#039;high&#039; );
+				if ( post_type_supports( $geodir_posttype, &#039;author&#039; ) &amp;&amp; current_user_can( $post_type_object-&gt;cap-&gt;edit_others_posts ) ) {
+					add_meta_box( &#039;geodir_mbox_owner&#039;, wp_sprintf( __( &#039;%s Owner&#039;, &#039;geodirectory&#039; ), $post_typename ), array(
+						__CLASS__,
+						&#039;owner_meta_box&#039;
+					), $geodir_posttype, &#039;normal&#039;, &#039;core&#039; );
+				}
+			endif;
+
+		}
+
+		/**
+		 * Prints post information meta box content.
+		 *
+		 * @since 1.0.0
+		 * @package GeoDirectory
+		 * @global object $post The post object.
+		 * @global int $post_id The post ID.
+		 */
+		public static function listing_setting() {
+			global $post, $post_id;
+
+			$post_type = get_post_type();
+			$package_id = geodir_get_post_package_id( $post, $post_type );
+
+			wp_nonce_field( plugin_basename( __FILE__ ), &#039;geodir_post_info_noncename&#039; );
+
+			$wrapper_class = geodir_design_style() ? &#039;bsui&#039; : &#039;&#039;;
+
+			echo &#039;&lt;div id=&quot;geodir_wrapper&quot; class=&quot;&#039;.$wrapper_class.&#039;&quot;&gt;&#039;;
+			/**
+			 * Called before the GD custom fields are output in the wp-admin area.
+			 *
+			 * @since 1.0.0
+			 * @see &#039;geodir_after_default_field_in_meta_box&#039;
+			 */
+			do_action( &#039;geodir_before_default_field_in_meta_box&#039; );
+
+			// to display all fields in one information box
+			geodir_get_custom_fields_html( $package_id, &#039;all&#039;, $post_type );
+			/**
+			 * Called after the GD custom fields are output in the wp-admin area.
+			 *
+			 * @since 1.0.0
+			 * @see &#039;geodir_before_default_field_in_meta_box&#039;
+			 */
+			do_action( &#039;geodir_after_default_field_in_meta_box&#039; );
+			echo &#039;&lt;/div&gt;&#039;;
+		}
+
+        /**
+         * Owner meta box.
+         *
+         * @since 2.0.0
+         *
+         * @global object $post WordPress post object.
+         * @global object $user_ID WordPress user_ID object.
+         *
+         */
+		public static function owner_meta_box() {
+			global $post, $user_ID;
+			$curent_user_id = empty($post-&gt;ID) ? $user_ID : $post-&gt;post_author;
+			$user = get_user_by( &#039;id&#039;, $curent_user_id );
+			/* translators: 1: user display name 2: user ID 3: user email */
+			$curent_user_name	= sprintf(
+				esc_html__( &#039;%1$s (#%2$s &amp;ndash; %3$s)&#039;, &#039;geodirectory&#039; ),
+				$user-&gt;display_name,
+				absint( $user-&gt;ID ),
+				$user-&gt;user_email
+			);
+			?&gt;
+			&lt;label class=&quot;screen-reader-text&quot; for=&quot;post_author_override&quot;&gt;&lt;?php _e(&#039;User&#039;, &#039;geodirectory&#039;); ?&gt;&lt;/label&gt;
+			&lt;select class=&quot;geodir-user-search&quot; name=&quot;post_author_override&quot; id=&quot;post_author_override&quot; data-placeholder=&quot;&lt;?php esc_attr_e( &#039;Search for a user&amp;hellip;&#039;, &#039;geodirectory&#039; ); ?&gt;&quot; data-allow_clear=&quot;false&quot;&gt;&lt;option value=&quot;&lt;?php echo esc_attr( $curent_user_id ); ?&gt;&quot; selected=&quot;selected&quot;&gt;&lt;?php echo $curent_user_name; ?&gt;&lt;option&gt;&lt;/select&gt;
+			&lt;?php
+		}
+
+		/**
+		 * Prints Attachments meta box content.
+		 *
+		 * @since 1.0.0
+		 * @package GeoDirectory
+		 * @global object $post The post object.
+		 * @global int $post_id The post ID.
+		 */
+		public static function attachment_settings() {
+			global $post, $post_id;
+
+			wp_nonce_field( plugin_basename( __FILE__ ), &#039;geodir_post_attachments_noncename&#039; );
+
+			if ( $featured_image = get_the_post_thumbnail( $post_id, &#039;medium&#039; ) ) {
+				echo &#039;&lt;h4&gt;&#039; . __( &#039;Featured Image&#039;, &#039;geodirectory&#039; ) . &#039;&lt;/h4&gt;&#039;;
+				echo $featured_image;
+			}
+
+			$image_limit = 0;
+
+			?&gt;
+
+
+			&lt;h5 class=&quot;form_title&quot;&gt;
+				&lt;?php if ( $image_limit != 0 &amp;&amp; $image_limit == 1 ) {
+					echo &#039;&lt;br /&gt;&lt;small&gt;(&#039; . __( &#039;You can upload&#039;, &#039;geodirectory&#039; ) . &#039; &#039; . $image_limit . &#039; &#039; . __( &#039;image with this package&#039;, &#039;geodirectory&#039; ) . &#039;)&lt;/small&gt;&#039;;
+				} ?&gt;
+				&lt;?php if ( $image_limit != 0 &amp;&amp; $image_limit &gt; 1 ) {
+					echo &#039;&lt;br /&gt;&lt;small&gt;(&#039; . __( &#039;You can upload&#039;, &#039;geodirectory&#039; ) . &#039; &#039; . $image_limit . &#039; &#039; . __( &#039;images with this package&#039;, &#039;geodirectory&#039; ) . &#039;)&lt;/small&gt;&#039;;
+				} ?&gt;
+				&lt;?php if ( $image_limit == 0 ) {
+					echo &#039;&lt;br /&gt;&lt;small&gt;(&#039; . __( &#039;You can upload unlimited images with this package&#039;, &#039;geodirectory&#039; ) . &#039;)&lt;/small&gt;&#039;;
+				} ?&gt;
+			&lt;/h5&gt;
+			&lt;?php
+			$curImages = GeoDir_Media::get_field_edit_string($post_id,&#039;post_images&#039;);
+
+			// adjust values here
+			$id = &quot;post_images&quot;; // this will be the name of form field. Image url(s) will be submitted in $_POST using this key. So if $id == �img1� then $_POST[�img1�] will have all the image urls
+
+			$svalue = stripslashes_deep( $curImages ); // this will be initial value of the above form field. Image urls.
+
+			$multiple = true; // allow multiple files upload
+			?&gt;
+			&lt;div class=&quot;gtd-form_row clearfix&quot; id=&quot;&lt;?php echo $id; ?&gt;dropbox&quot;
+			     style=&quot;border:1px solid #999999;padding:5px;text-align:center;&quot;&gt;
+				&lt;input type=&quot;hidden&quot; name=&quot;&lt;?php echo $id; ?&gt;&quot; id=&quot;&lt;?php echo $id; ?&gt;&quot; value=&quot;&lt;?php echo esc_attr( $svalue ); ?&gt;&quot;/&gt;
+
+				&lt;div
+					class=&quot;plupload-upload-uic hide-if-no-js &lt;?php if ( $multiple ): ?&gt;plupload-upload-uic-multiple&lt;?php endif; ?&gt;&quot;
+					id=&quot;&lt;?php echo $id; ?&gt;plupload-upload-ui&quot;&gt;
+					&lt;h4&gt;&lt;?php _e( &#039;Drop files to upload&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/h4&gt;
+					&lt;input id=&quot;&lt;?php echo $id; ?&gt;plupload-browse-button&quot; type=&quot;button&quot;
+					       value=&quot;&lt;?php _e( &#039;Select Files&#039;, &#039;geodirectory&#039; ); ?&gt;&quot; class=&quot;button&quot;/&gt;
+					&lt;span class=&quot;ajaxnonceplu&quot;
+					      id=&quot;ajaxnonceplu&lt;?php echo wp_create_nonce( $id . &#039;pluploadan&#039; ); ?&gt;&quot;&gt;&lt;/span&gt;
+					&lt;div class=&quot;filelist&quot;&gt;&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;plupload-thumbs &lt;?php if ( $multiple ): ?&gt;plupload-thumbs-multiple&lt;?php endif; ?&gt; clearfix&quot;
+				     id=&quot;&lt;?php echo $id; ?&gt;plupload-thumbs&quot; style=&quot;border-top:1px solid #ccc; padding-top:10px;&quot;&gt;
+				&lt;/div&gt;
+				&lt;span id=&quot;upload-msg&quot;&gt;&lt;?php _e( &#039;Please drag &amp; drop the images to rearrange the order&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/span&gt;
+				&lt;span class=&quot;geodir-regenerate-thumbnails bsui&quot; style=&quot;margin:25px 0 10px 0;display:block;&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;button-secondary&quot; aria-label=&quot;&lt;?php esc_attr_e( &#039;Regenerate Thumbnails&#039;, &#039;geodirectory&#039; );?&gt;&quot; aria-expanded=&quot;false&quot; data-action=&quot;geodir-regenerate-thumbnails&quot; data-post-id=&quot;&lt;?php echo $post_id; ?&gt;&quot;&gt;&lt;?php _e( &#039;Regenerate Thumbnails&#039;, &#039;geodirectory&#039; );?&gt;&lt;/button&gt;&lt;span style=&quot;margin-top:5px;display:block;&quot;&gt;&lt;?php _e( &#039;Regenerate thumbnails &amp; metadata.&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/span&gt;&lt;/span&gt;
+				&lt;span id=&quot;&lt;?php echo $id; ?&gt;upload-error&quot; style=&quot;display:none&quot;&gt;&lt;/span&gt;
+				&lt;?php if ( geodir_design_style() ) { ?&gt;
+				&lt;div class=&quot;modal fade bsui&quot; id=&quot;gd-image-meta-input&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;exampleModalLabel&quot; aria-hidden=&quot;true&quot;&gt;
+					&lt;div class=&quot;modal-dialog&quot;&gt;
+						&lt;div class=&quot;modal-content&quot;&gt;
+							&lt;div class=&quot;modal-header&quot;&gt;
+								&lt;h5 class=&quot;modal-title&quot;&gt;&lt;?php _e(&#039;Set Image Texts&#039;,&#039;geodirectory&#039;); ?&gt;&lt;/h5&gt;
+								&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+									&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+								&lt;/button&gt;
+							&lt;/div&gt;
+							&lt;div class=&quot;modal-body text-left&quot;&gt;&lt;/div&gt;
+							&lt;div class=&quot;modal-footer&quot;&gt;&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;?php } else { ?&gt;
+				&lt;span style=&quot;display: none&quot; id=&quot;gd-image-meta-input&quot; class=&quot;lity-hide lity-show&quot;&gt;&lt;/span&gt;
+				&lt;?php } ?&gt;
+			&lt;/div&gt;
+
+			&lt;?php
+
+		}
+
+		/**
+		 * Removes default thumbnail metabox on GD post types.
+		 *
+		 * @since 1.0.0
+		 * @package GeoDirectory
+		 * @global object $post WordPress Post object.
+		 */
+		public static function remove_wp_meta_box()
+		{
+			global $post;
+
+			$geodir_posttypes = geodir_get_posttypes();
+
+			if (isset($post) &amp;&amp; in_array($post-&gt;post_type, $geodir_posttypes)):
+
+				remove_meta_box(&#039;postimagediv&#039;, $post-&gt;post_type, &#039;side&#039;);
+				remove_meta_box(&#039;revisionsdiv&#039;, $post-&gt;post_type, &#039;normal&#039;);
+				remove_meta_box(&#039;authordiv&#039;, $post-&gt;post_type, &#039;normal&#039;);
+
+				//remove_meta_box($post-&gt;post_type.&#039;category&#039; . &#039;div&#039;, $post-&gt;post_type, &#039;normal&#039;);
+
+			endif;
+
+		}
+
+		/**
+		 * Removes taxonomy meta boxes.
+		 *
+		 * GeoDirectory hide categories post meta.
+		 *
+		 */
+		public static function remove_cat_meta_box()
+		{
+
+			$geodir_post_types = geodir_get_option(&#039;post_types&#039;);
+
+			if (!empty($geodir_post_types)) {
+				foreach ($geodir_post_types as $geodir_post_type =&gt; $geodir_posttype_info) {
+
+					$gd_taxonomy = geodir_get_taxonomies($geodir_post_type);
+
+					if(!empty($gd_taxonomy)) {
+						foreach ($gd_taxonomy as $tax) {
+
+							remove_meta_box($tax . &#039;div&#039;, $geodir_post_type, &#039;normal&#039;);
+
+						}
+					}
+
+				}
+			}
+		}
+
+        /**
+         * Add scripts in Posts footer.
+         *
+         * @since 2.0.0
+         *
+         */
+		public static function posts_footer() {
+			$screen		= get_current_screen();
+			$screen_id	= $screen ? $screen-&gt;id : &#039;&#039;;
+		
+			if ( ! ( $screen_id &amp;&amp; in_array( $screen_id, geodir_get_screen_ids() ) ) ) {
+				return;
+			}
+			$post_type = isset( $screen-&gt;post_type ) ? $screen-&gt;post_type : &#039;&#039;;
+
+			$statuses = geodir_get_custom_statuses( $post_type );
+			$status_list = &#039;&#039;;
+			foreach ( $statuses as $status =&gt; $label ) {
+			  $status_list .= &#039;&lt;option value=&quot;&#039; . $status . &#039;&quot;&gt;&#039; . $label . &#039;&lt;/option&gt;&#039;;
+			}
+			?&gt;
+			&lt;script type=&quot;text/javascript&quot;&gt;
+			jQuery(function($) {
+			   $(&#039;select[name=&quot;_status&quot;]&#039;).append(&#039;&lt;?php echo addslashes($status_list); ?&gt;&#039;);
+			});
+			&lt;/script&gt;
+			&lt;?php
+		}
+
+        /**
+         * Add scripts in post form footer.
+         *
+         * @since 2.0.0
+         *
+         */
+		public static function post_form_footer() {
+			global $post;
+
+			if ( !( ! empty( $post-&gt;post_type ) &amp;&amp; geodir_is_gd_post_type( $post-&gt;post_type ) ) ) {
+				return;
+			}
+			 
+			$statuses = geodir_get_custom_statuses( $post-&gt;post_type );
+			$status_list = &#039;&#039;;
+			$current_label = &#039;&#039;;
+			foreach ( $statuses as $status =&gt; $label ) {
+			  if ( $post-&gt;post_status == $status ) {
+				  $current_label = $label;
+			  }
+			  $status_list .= &#039;&lt;option data-save-text=&quot;&#039; . wp_sprintf( __( &#039;Save as %s&#039;, &#039;geodirectory&#039; ), $label ) . &#039;&quot; value=&quot;&#039; . $status . &#039;&quot; &#039; . selected( ( $post-&gt;post_status == $status ), true, false ) . &#039;&gt;&#039; . $label . &#039;&lt;/option&gt;&#039;;
+			}
+			?&gt;
+			&lt;script type=&quot;text/javascript&quot;&gt;
+			jQuery(function($) {
+			   var $mbox = $(&quot;#submitdiv&quot;);
+			   $(&quot;select#post_status&quot;, $mbox).append(&#039;&lt;?php echo addslashes($status_list); ?&gt;&#039;);
+			   &lt;?php if ( $current_label ) { ?&gt;$(&quot;.misc-pub-section #post-status-display&quot;, $mbox).text(&#039;&lt;?php echo $current_label; ?&gt;&#039;);&lt;?php } ?&gt;
+			   $(&#039;.save-post-status&#039;, $mbox).on(&quot;click&quot;,function(e) {
+				   var txt = $(&quot;select#post_status option:selected&quot;, $mbox).data(&#039;save-text&#039;);
+				   if (txt) {
+					   $(&#039;#save-post&#039;, $mbox).show().val(txt);
+				   }
+			   });
+			   $(&#039;.save-post-status&#039;, $mbox).trigger(&#039;click&#039;);
+			});
+			&lt;/script&gt;
+			&lt;?php
+		}
+
+        /**
+         * Posts column status.
+         *
+         * @since 2.0.0
+         *
+         * @param string $status Post column status.
+         * @param object $post Post object.
+         * @param string $column Post column.
+         * @param string $mode Post mode.
+         * @return string $status.
+         */
+		public static function posts_column_status( $status, $post, $column, $mode ) {
+			if ( $column == &#039;date&#039; &amp;&amp; ! empty( $post-&gt;post_type ) &amp;&amp; geodir_is_gd_post_type( $post-&gt;post_type ) ) {
+				$statuses = geodir_get_custom_statuses( $post-&gt;post_type );
+				if ( ! empty( $statuses[ $post-&gt;post_status ] ) ) {
+					$status = $statuses[ $post-&gt;post_status ];
+				}
+			}
+			return $status;
+		}
+
+		/**
+		 * Filters the array of row action links on the Posts list table.
+		 *
+		 * @since 2.1.0.10
+		 *
+		 * @param string[] $actions An array of row action links.
+		 * @param WP_Post  $post    The post object.
+		 * @return array An array of row action links.
+		 */
+		public static function post_row_actions( $actions, $post ) {
+			if ( ! empty( $post-&gt;post_type ) &amp;&amp; geodir_is_gd_post_type( $post-&gt;post_type ) ) {
+				$actions[&#039;geodir-regenerate-thumbnails bsui&#039;] = &#039;&lt;button type=&quot;button&quot; class=&quot;button-link&quot; aria-label=&quot;&#039; . esc_attr__( &#039;Regenerate Thumbnails&#039;, &#039;geodirectory&#039; ) . &#039;&quot; aria-expanded=&quot;false&quot; data-action=&quot;geodir-regenerate-thumbnails&quot; data-post-id=&quot;&#039; . $post-&gt;ID . &#039;&quot;&gt;&#039; . __( &#039;Regenerate Thumbnails&#039;, &#039;geodirectory&#039; ) . &#039;&lt;/button&gt;&#039;;
+			}
+
+			return $actions;
+		}
+
+		/**
+		 * Load GD widgets on CPT list page.
+		 *
+		 * @since 2.1.1.0
+		 *
+		 * @param array $pagenow_exclude Exclude pagenow list.
+		 * @return array Filtered pagenow list.
+		 */
+		public static function sd_pagenow_exclude( $pagenow_exclude ) {
+			global $pagenow;
+
+			if ( $pagenow == &#039;edit.php&#039; &amp;&amp; ! empty( $pagenow_exclude ) &amp;&amp; ( $key = array_search( &#039;edit.php&#039;, $pagenow_exclude ) ) !== false &amp;&amp; ! empty( $_REQUEST[&#039;post_type&#039;] ) &amp;&amp; geodir_is_gd_post_type( sanitize_text_field( $_REQUEST[&#039;post_type&#039;] ) ) ) {
+				unset( $pagenow_exclude[ $key ] );
+			}
+
+			return $pagenow_exclude;
+		}
+
+		/**
+		 * Load images widget on CPT list page.
+		 *
+		 * @since 2.1.1.0
+		 *
+		 * @param array $widgets Widget list.
+		 * @return array GD widgets to load on edit.php page.
+		 */
+		public static function sd_get_widgets( $widgets ) {
+			global $pagenow;
+
+			if ( $pagenow == &#039;edit.php&#039; &amp;&amp; ! empty( $_REQUEST[&#039;post_type&#039;] ) &amp;&amp; geodir_is_gd_post_type( sanitize_text_field( $_REQUEST[&#039;post_type&#039;] ) ) ) {
+				$widgets = array( &#039;GeoDir_Widget_Post_Images&#039; );
+			}
+
+			return $widgets;
+		}
+
+	}
+
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

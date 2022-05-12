@@ -1,0 +1,3192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">admin-functions.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_screen_ids">
+        geodir_get_screen_ids()
+        <a href="#function_geodir_get_screen_ids" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.20">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get all GeoDirectory screen ids.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_screen_ids</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_custom_field_save">
+        geodir_custom_field_save()
+        <a href="#function_geodir_custom_field_save" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.102">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">102</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Save or Update custom fields into the database.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_custom_field_save</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$field</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$field</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>{
+Attributes of the request field array.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.5.6</span>
+                                                                                                        <section class="phpdocumentor-description"><p>Fix for saving multiselect custom field &quot;Display Type&quot; on first attempt.</p>
+</section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $plugin_prefix Geodirectory plugin table prefix.</p>
+</section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $action Ajax Action name. Default &quot;geodir_ajax_action&quot;.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $manage_field_type Field type Default &quot;custom_fields&quot;.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $create_field Create field Default &quot;true&quot;.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $field_ins_upd Field ins upd Default &quot;submit&quot;.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $_wpnonce WP nonce value.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $listing_type Listing type Example &quot;gd_place&quot;.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $field_type Field type Example &quot;radio&quot;.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $field_id Field id Example &quot;12&quot;.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $data_type Data type Example &quot;VARCHAR&quot;.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $is_active Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then the field will not be displayed anywhere.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>array $show_on_pkg Package list to display this field.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $admin_title Personal comment, it would not be displayed anywhere except in custom field settings.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $frontend_title Section title which you wish to display in frontend.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $frontend_desc Section description which will appear in frontend.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $htmlvar_name Html variable name. This should be a unique name.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $clabels Section Title which will appear in backend.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $default_value The default value (for &quot;link&quot; this will be used as the link text).</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $sort_order The display order of this field in backend. e.g. 5.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $is_default Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then the field will be displayed as main form field or additional field.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $for_admin_use Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then only site admin can edit this field.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $is_required Use &quot;1&quot; to set field as required.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $required_msg Enter text for error message if field required and have not full fill requirement.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $show_on_listing Want to show this on listing page?.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $show_in What locations to show the custom field in.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $show_on_detail Want to show this in More Info tab on detail page?.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $show_as_tab Want to display this as a tab on detail page? If &quot;1&quot; then &quot;Show on detail page?&quot; must be Yes.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $option_values Option Values should be separated by comma.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $field_icon Upload icon using media and enter its url path, or enter font awesome class.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $css_class Enter custom css class for field custom style.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">type</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>array $extra_fields An array of extra fields to store.</p>
+<p>}</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_init_filesystem">
+        geodir_init_filesystem()
+        <a href="#function_geodir_init_filesystem" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.116">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">116</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Initiate the WordPress file system and provide fallback if needed.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_init_filesystem</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.4.8</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_posts_count">
+        geodir_get_posts_count()
+        <a href="#function_geodir_get_posts_count" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.171">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">171</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the posts counts for the current post type.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_posts_count</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_type</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post type.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.4.6</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.6.4</span>
+                                                                                                        <section class="phpdocumentor-description"><p>Updated to filter posts.</p>
+</section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $plugin_prefix Geodirectory plugin table prefix.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_terms_count">
+        geodir_get_terms_count()
+        <a href="#function_geodir_get_terms_count" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.235">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">235</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Retrieve terms count for given post type.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_terms_count</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_type</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post type.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.4.6</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_create_page">
+        geodir_create_page()
+        <a href="#function_geodir_create_page" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.270">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">270</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Create a page.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_create_page</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$slug</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$option</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$page_title</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$page_content</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_parent</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;publish&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$slug</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The page slug.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$option</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The option meta key.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$page_title</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The page title.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$page_content</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The page description.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_parent</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Parent page ID.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$status</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;publish&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post status.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $current_user Current user object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_admin_upgrade_notice">
+        geodir_admin_upgrade_notice()
+        <a href="#function_geodir_admin_upgrade_notice" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.322">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">322</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Displays an update message for plugin list screens.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_admin_upgrade_notice</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">(string)</span></code>
+
+        <section class="phpdocumentor-description"><p>Shows only the version updates from the current until the newest version</p>
+</section>
+
+    
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_in_plugin_upgrade_message">
+        geodir_in_plugin_upgrade_message()
+        <a href="#function_geodir_in_plugin_upgrade_message" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.348">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">348</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Format the update message.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_in_plugin_upgrade_message</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$content</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$content</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_imex_export_skip_statuses">
+        geodir_imex_export_skip_statuses()
+        <a href="#function_geodir_imex_export_skip_statuses" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.383">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">383</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the statuses to skip during GD export listings.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_imex_export_skip_statuses</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.6.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_admin_current_post_type">
+        geodir_admin_current_post_type()
+        <a href="#function_geodir_admin_current_post_type" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.411">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">411</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the current post type in the WordPress admin</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_admin_current_post_type</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.4.2</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>null|WP_Post $post Post object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $typenow Post type.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object|WP_Screen $current_screen Current screen object</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_add_column_if_not_exist">
+        geodir_add_column_if_not_exist()
+        <a href="#function_geodir_add_column_if_not_exist" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.444">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">444</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Add column if table column not exist.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_add_column_if_not_exist</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$db</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$column</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$column_attr</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&quot;VARCHAR( 255 ) NOT NULL&quot;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$db</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The table name.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$column</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The column name.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$column_attr</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&quot;VARCHAR( 255 ) NOT NULL&quot;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The column attributes.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_core_supported_themes">
+        geodir_get_core_supported_themes()
+        <a href="#function_geodir_get_core_supported_themes" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.462">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">462</span>
+</aside>
+
+        <p class="phpdocumentor-summary">GeoDirectory Core Supported Themes.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_core_supported_themes</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, string&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_setup_timezone_api">
+        geodir_setup_timezone_api()
+        <a href="#function_geodir_setup_timezone_api" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.466">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">466</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_setup_timezone_api</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$prefix</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$prefix</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_admin_body_class_active_map">
+        geodir_admin_body_class_active_map()
+        <a href="#function_geodir_admin_body_class_active_map" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.486">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">486</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Add body class for current active map.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_admin_body_class_active_map</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$class</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$class</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The class of the HTML element.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashicon_options">
+        geodir_dashicon_options()
+        <a href="#function_geodir_dashicon_options" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.510">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">510</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashicon_options</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_sd_margin_input">
+        geodir_get_sd_margin_input()
+        <a href="#function_geodir_get_sd_margin_input" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.758">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">758</span>
+</aside>
+
+        <p class="phpdocumentor-summary">A helper function for margin inputs.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_sd_margin_input</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;mt&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$overwrite</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$include_negatives</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;mt&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$overwrite</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$include_negatives</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_sd_padding_input">
+        geodir_get_sd_padding_input()
+        <a href="#function_geodir_get_sd_padding_input" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.831">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">831</span>
+</aside>
+
+        <p class="phpdocumentor-summary">A helper function for padding inputs.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_sd_padding_input</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;pt&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$overwrite</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;pt&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$overwrite</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_sd_border_input">
+        geodir_get_sd_border_input()
+        <a href="#function_geodir_get_sd_border_input" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.897">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">897</span>
+</aside>
+
+        <p class="phpdocumentor-summary">A helper function for border inputs.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_sd_border_input</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;border&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$overwrite</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;border&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$overwrite</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_sd_shadow_input">
+        geodir_get_sd_shadow_input()
+        <a href="#function_geodir_get_sd_shadow_input" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.961">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">961</span>
+</aside>
+
+        <p class="phpdocumentor-summary">A helper function for padding inputs.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_sd_shadow_input</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;shadow&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$overwrite</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;shadow&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$overwrite</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_sd_background_input">
+        geodir_get_sd_background_input()
+        <a href="#function_geodir_get_sd_background_input" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.993">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">993</span>
+</aside>
+
+        <p class="phpdocumentor-summary">A helper function for padding inputs.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_sd_background_input</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;bg&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$overwrite</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;bg&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$overwrite</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_sd_title_tag_input">
+        geodir_get_sd_title_tag_input()
+        <a href="#function_geodir_get_sd_title_tag_input" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.1022">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1022</span>
+</aside>
+
+        <p class="phpdocumentor-summary">A helper function for title tag inputs.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_sd_title_tag_input</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$overwrite</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$overwrite</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_sd_font_size_input">
+        geodir_get_sd_font_size_input()
+        <a href="#function_geodir_get_sd_font_size_input" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.1058">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1058</span>
+</aside>
+
+        <p class="phpdocumentor-summary">A helper function for font size inputs.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_sd_font_size_input</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$overwrite</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$overwrite</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_sd_text_align_input">
+        geodir_get_sd_text_align_input()
+        <a href="#function_geodir_get_sd_text_align_input" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.1098">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1098</span>
+</aside>
+
+        <p class="phpdocumentor-summary">A helper function for title tag inputs.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_sd_text_align_input</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$overwrite</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$overwrite</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_sd_text_color_input">
+        geodir_get_sd_text_color_input()
+        <a href="#function_geodir_get_sd_text_color_input" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.1131">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1131</span>
+</aside>
+
+        <p class="phpdocumentor-summary">A helper function for padding inputs.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_sd_text_color_input</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$overwrite</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$overwrite</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_sd_title_inputs">
+        geodir_get_sd_title_inputs()
+        <a href="#function_geodir_get_sd_title_inputs" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.1154">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1154</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_sd_title_inputs</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_build_aui_class">
+        geodir_build_aui_class()
+        <a href="#function_geodir_build_aui_class" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.1308">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1308</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Build AUI classes from settings.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_build_aui_class</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$args</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$args</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">todo</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>find best way to use px- py- or general p-</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_is_archive_item_template_page">
+        geodir_is_archive_item_template_page()
+        <a href="#function_geodir_is_archive_item_template_page" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.1362">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1362</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Check if we are on the archive item edit page.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_is_archive_item_template_page</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_add_aui_screens">
+        geodir_add_aui_screens()
+        <a href="#function_geodir_add_aui_screens" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.1397">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1397</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Tell AyeCode UI to load on certain admin pages.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_add_aui_screens</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$screen_ids</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$screen_ids</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_create_wp_template">
+        geodir_create_wp_template()
+        <a href="#function_geodir_create_wp_template" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/admin-functions.php"><a href="../files/geodirectory-includes-admin-admin-functions.html#source-view.1423">geodirectory/includes/admin/admin-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1423</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Create a template.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_create_wp_template</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$option</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$args</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$update_option</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|<abbr title="\WP_Error">WP_Error</abbr></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$option</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The option meta key.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$args</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Template arguments.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$update_option</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>True to update option.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.2.4</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $current_user Current user object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory Admin Functions
+ *
+ * @author   AyeCode Ltd
+ * @category Core
+ * @package  GeoDirectory/Admin/Functions
+ * @version  2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit; // Exit if accessed directly
+}
+
+/**
+ * Get all GeoDirectory screen ids.
+ *
+ * @return array
+ */
+function geodir_get_screen_ids() {
+	$screen_ids = array(
+		&#039;toplevel_page_geodirectory&#039;,
+		&#039;geodirectory_page_gd-settings&#039;,
+		&#039;geodirectory_page_gd-status&#039;,
+		&#039;geodirectory_page_gd-addons&#039;,
+		&#039;comment&#039;
+	);
+
+	// Check for translated screen id.
+	$geodir_screen_id = sanitize_title( __( &#039;GeoDirectory&#039;, &#039;geodirectory&#039; ) );
+
+	if ( $geodir_screen_id != &#039;geodirectory&#039; ) {
+		$screen_ids[] = &#039;toplevel_page_&#039; . $geodir_screen_id;
+		$screen_ids[] = $geodir_screen_id . &#039;_page_gd-settings&#039;;
+		$screen_ids[] = $geodir_screen_id . &#039;_page_gd-status&#039;;
+		$screen_ids[] = $geodir_screen_id . &#039;_page_gd-addons&#039;;
+	}
+
+	// Add the CPT screens
+	$post_types = geodir_get_posttypes( &#039;names&#039; );
+	if ( ! empty( $post_types ) ) {
+		foreach ( $post_types as $post_type ) {
+			$screen_ids[] = $post_type; // CPT add new
+			$screen_ids[] = &#039;edit-&#039; . $post_type; // CPT view screen
+			$screen_ids[] = &#039;edit-&#039; . $post_type . &#039;_tags&#039;; // CPT tags screen
+			$screen_ids[] = &#039;edit-&#039; . $post_type . &#039;category&#039;; // CPT category screen
+			$screen_ids[] = $post_type . &#039;_page_&#039;.$post_type.&#039;-settings&#039;; // CPT settings page
+		}
+	}
+
+	return apply_filters( &#039;geodirectory_screen_ids&#039;, $screen_ids );
+}
+
+/**
+ * Save or Update custom fields into the database.
+ *
+ * @since 1.0.0
+ * @since 1.5.6 Fix for saving multiselect custom field &quot;Display Type&quot; on first attempt.
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ * @global string $plugin_prefix Geodirectory plugin table prefix.
+ *
+ * @param array $field {
+ *    Attributes of the request field array.
+ *
+ * @type string $action Ajax Action name. Default &quot;geodir_ajax_action&quot;.
+ * @type string $manage_field_type Field type Default &quot;custom_fields&quot;.
+ * @type string $create_field Create field Default &quot;true&quot;.
+ * @type string $field_ins_upd Field ins upd Default &quot;submit&quot;.
+ * @type string $_wpnonce WP nonce value.
+ * @type string $listing_type Listing type Example &quot;gd_place&quot;.
+ * @type string $field_type Field type Example &quot;radio&quot;.
+ * @type string $field_id Field id Example &quot;12&quot;.
+ * @type string $data_type Data type Example &quot;VARCHAR&quot;.
+ * @type string $is_active Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then the field will not be displayed anywhere.
+ * @type array $show_on_pkg Package list to display this field.
+ * @type string $admin_title Personal comment, it would not be displayed anywhere except in custom field settings.
+ * @type string $frontend_title Section title which you wish to display in frontend.
+ * @type string $frontend_desc Section description which will appear in frontend.
+ * @type string $htmlvar_name Html variable name. This should be a unique name.
+ * @type string $clabels Section Title which will appear in backend.
+ * @type string $default_value The default value (for &quot;link&quot; this will be used as the link text).
+ * @type string $sort_order The display order of this field in backend. e.g. 5.
+ * @type string $is_default Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then the field will be displayed as main form field or additional field.
+ * @type string $for_admin_use Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then only site admin can edit this field.
+ * @type string $is_required Use &quot;1&quot; to set field as required.
+ * @type string $required_msg Enter text for error message if field required and have not full fill requirement.
+ * @type string $show_on_listing Want to show this on listing page?.
+ * @type string $show_in What locations to show the custom field in.
+ * @type string $show_on_detail Want to show this in More Info tab on detail page?.
+ * @type string $show_as_tab Want to display this as a tab on detail page? If &quot;1&quot; then &quot;Show on detail page?&quot; must be Yes.
+ * @type string $option_values Option Values should be separated by comma.
+ * @type string $field_icon Upload icon using media and enter its url path, or enter font awesome class.
+ * @type string $css_class Enter custom css class for field custom style.
+ * @type array $extra_fields An array of extra fields to store.
+ *
+ * }
+ * @param bool $default Not yet implemented.
+ *
+ * @return int|string If field is unique returns inserted row id. Otherwise returns error string.
+ */
+function geodir_custom_field_save( $field = array() ) {
+
+	$cfs = new GeoDir_Settings_Cpt_Cf();
+
+	return $cfs-&gt;save_custom_field( $field );
+}
+
+/**
+ * Initiate the WordPress file system and provide fallback if needed.
+ *
+ * @since 1.4.8
+ * @package GeoDirectory
+ * @return bool|string Returns the file system class on success. False on failure.
+ */
+function geodir_init_filesystem() {
+
+	if ( ! function_exists( &#039;get_filesystem_method&#039; ) ) {
+		require_once( ABSPATH . &quot;/wp-admin/includes/file.php&quot; );
+	}
+	$access_type = get_filesystem_method();
+	if ( $access_type === &#039;direct&#039; ) {
+		/* you can safely run request_filesystem_credentials() without any issues and don&#039;t need to worry about passing in a URL */
+		$creds = request_filesystem_credentials( trailingslashit( site_url() ) . &#039;wp-admin/&#039;, &#039;&#039;, false, false, array() );
+
+		/* initialize the API */
+		if ( ! WP_Filesystem( $creds ) ) {
+			/* any problems and we exit */
+			return false;
+		}
+
+		global $wp_filesystem;
+
+		return $wp_filesystem;
+		/* do our file manipulations below */
+	} elseif ( defined( &#039;FTP_USER&#039; ) ) {
+		$creds = request_filesystem_credentials( trailingslashit( site_url() ) . &#039;wp-admin/&#039;, &#039;&#039;, false, false, array() );
+
+		/* initialize the API */
+		if ( ! WP_Filesystem( $creds ) ) {
+			/* any problems and we exit */
+			return false;
+		}
+
+		global $wp_filesystem;
+
+		return $wp_filesystem;
+
+	} else {
+		/* don&#039;t have direct write access. Prompt user with our notice */
+		//add_action(&#039;admin_notice&#039;, &#039;geodir_filesystem_notice&#039;);
+		return false;
+	}
+
+}
+
+/**
+ * Get the posts counts for the current post type.
+ *
+ * @since 1.4.6
+ * @since 1.6.4 Updated to filter posts.
+ * @package GeoDirectory
+ *
+ * @global object $wpdb WordPress Database object.
+ * @global string $plugin_prefix Geodirectory plugin table prefix.
+ *
+ * @param string $post_type Post type.
+ *
+ * @return int Posts count.
+ */
+function geodir_get_posts_count( $post_type ) {
+	global $wpdb, $plugin_prefix;
+
+	if ( ! post_type_exists( $post_type ) ) {
+		return 0;
+	}
+
+	$table = $plugin_prefix . $post_type . &#039;_detail&#039;;
+
+	// Skip listing with statuses trash, auto-draft etc...
+	$skip_statuses  = geodir_imex_export_skip_statuses();
+	$where_statuses = &#039;&#039;;
+	if ( ! empty( $skip_statuses ) &amp;&amp; is_array( $skip_statuses ) ) {
+		$where_statuses = &quot;AND `&quot; . $wpdb-&gt;posts . &quot;`.`post_status` NOT IN(&#039;&quot; . implode( &quot;&#039;,&#039;&quot;, $skip_statuses ) . &quot;&#039;)&quot;;
+	}
+
+	/**
+	 * Filter the SQL where clause part to filter posts count in import/export.
+	 *
+	 * @since 1.6.4
+	 * @package GeoDirectory
+	 *
+	 * @param string $where SQL where clause part.
+	 */
+	$where_statuses = apply_filters( &#039;geodir_get_posts_count&#039;, $where_statuses, $post_type );
+
+	$query = $wpdb-&gt;prepare( &quot;SELECT COUNT({$wpdb-&gt;posts}.ID) FROM {$wpdb-&gt;posts} INNER JOIN {$table} ON {$table}.post_id = {$wpdb-&gt;posts}.ID WHERE {$wpdb-&gt;posts}.post_type = %s &quot; . $where_statuses, $post_type );
+
+	$posts_count = (int) $wpdb-&gt;get_var( $query );
+
+	/**
+	 * Modify returned post counts for the current post type.
+	 *
+	 * @since 1.4.6
+	 * @package GeoDirectory
+	 *
+	 * @param int $posts_count Post counts.
+	 * @param string $post_type Post type.
+	 */
+	$posts_count = apply_filters( &#039;geodir_imex_count_posts&#039;, $posts_count, $post_type );
+
+	return $posts_count;
+}
+
+/**
+ * Retrieve terms count for given post type.
+ *
+ * @since 1.4.6
+ * @package GeoDirectory
+ *
+ * @param  string $post_type Post type.
+ *
+ * @return int Total terms count.
+ */
+/**
+ * Retrieve terms count for given post type.
+ *
+ * @since 1.4.6
+ * @package GeoDirectory
+ *
+ * @param  string $post_type Post type.
+ *
+ * @return int Total terms count.
+ */
+function geodir_get_terms_count( $post_type ) {
+	$args = array( &#039;hide_empty&#039; =&gt; 0 );
+
+	remove_all_filters( &#039;get_terms&#039; );
+
+	$post_type = sanitize_text_field( $post_type );
+
+	$taxonomy = $post_type . &#039;category&#039;;
+
+	do_action( &#039;geodir_before_count_terms&#039;, $post_type, $taxonomy, $args );
+
+	$count_terms = wp_count_terms( $taxonomy, $args );
+
+	do_action( &#039;geodir_after_count_terms&#039;, $post_type, $taxonomy, $args );
+
+	$count_terms = ! is_wp_error( $count_terms ) ? $count_terms : 0;
+
+	return $count_terms;
+}
+
+/**
+ * Create a page.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ * @global object $current_user Current user object.
+ *
+ * @param string $slug The page slug.
+ * @param string $option The option meta key.
+ * @param string $page_title The page title.
+ * @param string $page_content The page description.
+ * @param int $post_parent Parent page ID.
+ * @param string $status Post status.
+ */
+function geodir_create_page( $slug, $option, $page_title = &#039;&#039;, $page_content = &#039;&#039;, $post_parent = 0, $status = &#039;publish&#039; ) {
+	global $wpdb, $current_user;
+
+	$option_value = geodir_get_option( $option );
+
+	if ( $option_value &gt; 0 ) :
+		if ( get_post( $option_value ) ) :
+			// Page exists
+			return;
+		endif;
+	endif;
+
+	$page_found = $wpdb-&gt;get_var(
+		$wpdb-&gt;prepare(
+			&quot;SELECT ID FROM &quot; . $wpdb-&gt;posts . &quot; WHERE post_name = %s AND post_type = &#039;page&#039; LIMIT 1;&quot;,
+			array( $slug )
+		)
+	);
+
+	if ( $page_found ) :
+		// Page exists
+		if ( ! $option_value ) {
+			geodir_update_option( $option, $page_found );
+		}
+
+		return;
+	endif;
+
+	$page_data = array(
+		&#039;post_status&#039;    =&gt; $status,
+		&#039;post_type&#039;      =&gt; &#039;page&#039;,
+		&#039;post_author&#039;    =&gt; $current_user-&gt;ID,
+		&#039;post_name&#039;      =&gt; $slug,
+		&#039;post_title&#039;     =&gt; $page_title,
+		&#039;post_content&#039;   =&gt; $page_content,
+		&#039;post_parent&#039;    =&gt; $post_parent,
+		&#039;comment_status&#039; =&gt; &#039;closed&#039;
+	);
+	$page_id   = wp_insert_post( $page_data );
+
+	geodir_update_option( $option, $page_id );
+}
+
+/**
+ * Displays an update message for plugin list screens.
+ * Shows only the version updates from the current until the newest version
+ *
+ * @param (array) $plugin_data
+ * @param (object) $r
+ *
+ * @return (string) $output
+ */
+function geodir_admin_upgrade_notice() {
+	$result = get_transient( &#039;geodir_admin_upgrade_notice&#039; );
+	if ( ! empty( $result ) ) {
+		geodir_in_plugin_upgrade_message( $result );
+	}else{
+		// readme contents
+		$args = array(
+			&#039;timeout&#039;     =&gt; 15,
+			&#039;redirection&#039; =&gt; 5
+		);
+		$url  = &quot;http://plugins.svn.wordpress.org/geodirectory/trunk/readme.txt&quot;;
+		$data = wp_remote_get( $url, $args );
+
+		if ( ! is_wp_error( $data ) &amp;&amp; $data[&#039;response&#039;][&#039;code&#039;] == 200 ) {
+			$result = $data[&#039;body&#039;];
+			set_transient( &#039;geodir_admin_upgrade_notice&#039;, $result, HOUR_IN_SECONDS );
+			geodir_in_plugin_upgrade_message( $result );
+		}
+	}
+}
+
+/**
+ * Format the update message.
+ *
+ * @param $content
+ */
+function geodir_in_plugin_upgrade_message( $content ) {
+	// Output Upgrade Notice
+	$matches        = null;
+	$regexp         = &#039;~==\s*Upgrade Notice\s*==\s*=\s*(.*)\s*=(.*)(=\s*&#039; . preg_quote( GEODIRECTORY_VERSION ) . &#039;\s*=|$)~Uis&#039;;
+	$upgrade_notice = &#039;&#039;;
+	if ( preg_match( $regexp, $content, $matches ) ) {
+		if ( empty( $matches ) ) {
+			return;
+		}
+
+		$version = trim( $matches[1] );
+		if ( $version &amp;&amp; $version &gt; GEODIRECTORY_VERSION ) {
+
+
+			$notices = (array) preg_split( &#039;~[\r\n]+~&#039;, trim( $matches[2] ) );
+			if ( version_compare( GEODIRECTORY_VERSION, $version, &#039;&lt;&#039; ) ) {
+				$upgrade_notice .= &#039;&lt;div class=&quot;gd_plugin_upgrade_notice&quot;&gt;&#039;;
+				foreach ( $notices as $index =&gt; $line ) {
+					$upgrade_notice .= wp_kses_post( preg_replace( &#039;~\[([^\]]*)\]\(([^\)]*)\)~&#039;, &#039;&lt;a href=&quot;${2}&quot;&gt;${1}&lt;/a&gt;&#039;, $line ) );
+				}
+				$upgrade_notice .= &#039;&lt;/div&gt; &#039;;
+			}
+		}
+	}
+	echo $upgrade_notice;
+}
+
+/**
+ * Get the statuses to skip during GD export listings.
+ *
+ * @package GeoDirectory
+ * @since 1.6.0
+ *
+ * @return array Listing statuses to be skipped.
+ */
+function geodir_imex_export_skip_statuses() {
+	$statuses = array( &#039;trash&#039;, &#039;auto-draft&#039; );
+
+	/**
+	 * Filter the statuses to skip during GD export listings.
+	 *
+	 * @since 1.6.0
+	 * @package GeoDirectory
+	 *
+	 * @param array $statuses Listing statuses to be skipped.
+	 */
+	$statuses = apply_filters( &#039;geodir_imex_export_skip_statuses&#039;, $statuses );
+
+	return $statuses;
+}
+
+/**
+ * Get the current post type in the WordPress admin
+ *
+ * @since 1.4.2
+ * @package GeoDirectory
+ *
+ * @global null|WP_Post $post Post object.
+ * @global string $typenow Post type.
+ * @global object|WP_Screen $current_screen Current screen object
+ *
+ * @return string Post type ex: gd_place
+ */
+function geodir_admin_current_post_type() {
+	global $post, $typenow, $current_screen;
+
+	$post_type = null;
+	if ( isset( $_REQUEST[&#039;post_type&#039;] ) ) {
+		$post_type = sanitize_key( $_REQUEST[&#039;post_type&#039;] );
+	} elseif ( isset( $_REQUEST[&#039;post&#039;] ) &amp;&amp; get_post_type( $_REQUEST[&#039;post&#039;] ) ) {
+		$post_type = get_post_type( $_REQUEST[&#039;post&#039;] );
+	} elseif ( $post &amp;&amp; isset( $post-&gt;post_type ) ) {
+		$post_type = $post-&gt;post_type;
+	} elseif ( $typenow ) {
+		$post_type = $typenow;
+	} elseif ( $current_screen &amp;&amp; isset( $current_screen-&gt;post_type ) ) {
+		$post_type = $current_screen-&gt;post_type;
+	}
+
+	return $post_type;
+}
+
+
+
+
+
+/**
+ * Add column if table column not exist.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ * @param string $db The table name.
+ * @param string $column The column name.
+ * @param string $column_attr The column attributes.
+ */
+function geodir_add_column_if_not_exist( $db, $column, $column_attr = &quot;VARCHAR( 255 ) NOT NULL&quot; ) {
+	global $wpdb;
+
+	$result = 0; // No rows affected
+
+	if ( ! empty( $db ) &amp;&amp; ! empty( $column ) &amp;&amp; ! geodir_column_exist( $db, $column ) ) {
+		$result = $wpdb-&gt;query( &quot;ALTER TABLE `$db` ADD `$column` $column_attr&quot; );
+	}
+
+	return $result;
+}
+
+/**
+ * GeoDirectory Core Supported Themes.
+ *
+ * @since 2.0.0
+ * @return string[]
+ */
+function geodir_get_core_supported_themes() {
+	return array( &#039;whoop&#039;,&#039;supreme-directory&#039;,&#039;directory-starter&#039;, &#039;twentyseventeen&#039;, &#039;twentysixteen&#039;, &#039;twentyfifteen&#039;, &#039;twentyfourteen&#039;, &#039;twentythirteen&#039;, &#039;twentyeleven&#039;, &#039;twentytwelve&#039;, &#039;twentyten&#039;, &#039;twentytwentytwo&#039; );
+}
+
+function geodir_setup_timezone_api( $prefix ) {
+	?&gt;
+	if (jQuery(&#039;[name=&quot;&lt;?php echo $prefix; ?&gt;region&quot;]&#039;).length &amp;&amp; jQuery(&#039;[name=&quot;&lt;?php echo $prefix; ?&gt;timezone_string&quot;]&#039;).length) {
+		if (getState &amp;&amp; getState != jQuery(&#039;[name=&quot;&lt;?php echo $prefix; ?&gt;region&quot;]&#039;).data(&#039;prev-value&#039;)) {
+			geodir_fill_timezone(&#039;&lt;?php echo $prefix; ?&gt;&#039;);
+		}
+		jQuery(&#039;[name=&quot;&lt;?php echo $prefix; ?&gt;region&quot;]&#039;).attr(&#039;data-prev-value&#039;, getState);
+	}
+	&lt;?php
+}
+add_action( &#039;geodir_update_marker_address&#039;, &#039;geodir_setup_timezone_api&#039;, 1, 1 );
+
+/**
+ * Add body class for current active map.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @param string $class The class of the HTML element.
+ * @return string Modified class string.
+ */
+function geodir_admin_body_class_active_map($class = &#039;&#039;) {
+	$class .= &#039; gd-map-&#039; . GeoDir_Maps::active_map();
+
+	// Add original geodirectory page class when geodirectory screen is translated.
+	if ( ! empty( $_GET[&#039;page&#039;] ) &amp;&amp; in_array( $_GET[&#039;page&#039;], array( &#039;gd-settings&#039;, &#039;gd-status&#039;, &#039;gd-addons&#039; ) ) ) {
+		$geodir_screen_id = sanitize_title( __( &#039;GeoDirectory&#039;, &#039;geodirectory&#039; ) );
+
+		if ( $geodir_screen_id != &#039;geodirectory&#039; ) {
+			$class .= &#039; geodirectory_page_&#039; . esc_attr( sanitize_text_field( $_GET[&#039;page&#039;] ) );
+		}
+	}
+
+	// Add body class for admin pages.
+	$screen = get_current_screen();
+	$screen_id = $screen ? $screen-&gt;id : &#039;&#039;;
+
+	if ( $screen_id &amp;&amp; in_array( $screen_id, geodir_get_screen_ids() ) ) {
+		$class .= &#039; geodir-admin-page geodir-admin-page-&#039; . sanitize_key( $screen_id );
+	}
+
+	return $class;
+}
+add_filter(&#039;admin_body_class&#039;, &#039;geodir_admin_body_class_active_map&#039;, 100);
+
+function geodir_dashicon_options() {
+	$dashicons = array(
+		&#039;dashicons-admin-appearance&#039; =&gt; &#039;f100&#039;,
+		&#039;dashicons-admin-collapse&#039; =&gt; &#039;f148&#039;,
+		&#039;dashicons-admin-comments&#039; =&gt; &#039;f101&#039;,
+		&#039;dashicons-admin-customizer&#039; =&gt; &#039;f540&#039;,
+		&#039;dashicons-admin-generic&#039; =&gt; &#039;f111&#039;,
+		&#039;dashicons-admin-home&#039; =&gt; &#039;f102&#039;,
+		&#039;dashicons-admin-links&#039; =&gt; &#039;f103&#039;,
+		&#039;dashicons-admin-media&#039; =&gt; &#039;f104&#039;,
+		&#039;dashicons-admin-multisite&#039; =&gt; &#039;f541&#039;,
+		&#039;dashicons-admin-network&#039; =&gt; &#039;f112&#039;,
+		&#039;dashicons-admin-page&#039; =&gt; &#039;f105&#039;,
+		&#039;dashicons-admin-plugins&#039; =&gt; &#039;f106&#039;,
+		&#039;dashicons-admin-post&#039; =&gt; &#039;f109&#039;,
+		&#039;dashicons-admin-settings&#039; =&gt; &#039;f108&#039;,
+		&#039;dashicons-admin-site&#039; =&gt; &#039;f319&#039;,
+		&#039;dashicons-admin-tools&#039; =&gt; &#039;f107&#039;,
+		&#039;dashicons-admin-users&#039; =&gt; &#039;f110&#039;,
+		&#039;dashicons-album&#039; =&gt; &#039;f514&#039;,
+		&#039;dashicons-align-center&#039; =&gt; &#039;f134&#039;,
+		&#039;dashicons-align-left&#039; =&gt; &#039;f135&#039;,
+		&#039;dashicons-align-none&#039; =&gt; &#039;f138&#039;,
+		&#039;dashicons-align-right&#039; =&gt; &#039;f136&#039;,
+		&#039;dashicons-analytics&#039; =&gt; &#039;f183&#039;,
+		&#039;dashicons-archive&#039; =&gt; &#039;f480&#039;,
+		&#039;dashicons-arrow-down&#039; =&gt; &#039;f140&#039;,
+		&#039;dashicons-arrow-down-alt&#039; =&gt; &#039;f346&#039;,
+		&#039;dashicons-arrow-down-alt2&#039; =&gt; &#039;f347&#039;,
+		&#039;dashicons-arrow-left&#039; =&gt; &#039;f141&#039;,
+		&#039;dashicons-arrow-left-alt&#039; =&gt; &#039;f340&#039;,
+		&#039;dashicons-arrow-left-alt2&#039; =&gt; &#039;f341&#039;,
+		&#039;dashicons-arrow-right&#039; =&gt; &#039;f139&#039;,
+		&#039;dashicons-arrow-right-alt&#039; =&gt; &#039;f344&#039;,
+		&#039;dashicons-arrow-right-alt2&#039; =&gt; &#039;f345&#039;,
+		&#039;dashicons-arrow-up&#039; =&gt; &#039;f142&#039;,
+		&#039;dashicons-arrow-up-alt&#039; =&gt; &#039;f342&#039;,
+		&#039;dashicons-arrow-up-alt2&#039; =&gt; &#039;f343&#039;,
+		&#039;dashicons-art&#039; =&gt; &#039;f309&#039;,
+		&#039;dashicons-awards&#039; =&gt; &#039;f313&#039;,
+		&#039;dashicons-backup&#039; =&gt; &#039;f321&#039;,
+		&#039;dashicons-book&#039; =&gt; &#039;f330&#039;,
+		&#039;dashicons-book-alt&#039; =&gt; &#039;f331&#039;,
+		&#039;dashicons-building&#039; =&gt; &#039;f512&#039;,
+		&#039;dashicons-businessman&#039; =&gt; &#039;f338&#039;,
+		&#039;dashicons-calendar&#039; =&gt; &#039;f145&#039;,
+		&#039;dashicons-calendar-alt&#039; =&gt; &#039;f508&#039;,
+		&#039;dashicons-camera&#039; =&gt; &#039;f306&#039;,
+		&#039;dashicons-carrot&#039; =&gt; &#039;f511&#039;,
+		&#039;dashicons-cart&#039; =&gt; &#039;f174&#039;,
+		&#039;dashicons-category&#039; =&gt; &#039;f318&#039;,
+		&#039;dashicons-chart-area&#039; =&gt; &#039;f239&#039;,
+		&#039;dashicons-chart-bar&#039; =&gt; &#039;f185&#039;,
+		&#039;dashicons-chart-line&#039; =&gt; &#039;f238&#039;,
+		&#039;dashicons-chart-pie&#039; =&gt; &#039;f184&#039;,
+		&#039;dashicons-clipboard&#039; =&gt; &#039;f481&#039;,
+		&#039;dashicons-clock&#039; =&gt; &#039;f469&#039;,
+		&#039;dashicons-cloud&#039; =&gt; &#039;f176&#039;,
+		&#039;dashicons-controls-back&#039; =&gt; &#039;f518&#039;,
+		&#039;dashicons-controls-forward&#039; =&gt; &#039;f519&#039;,
+		&#039;dashicons-controls-pause&#039; =&gt; &#039;f523&#039;,
+		&#039;dashicons-controls-play&#039; =&gt; &#039;f522&#039;,
+		&#039;dashicons-controls-repeat&#039; =&gt; &#039;f515&#039;,
+		&#039;dashicons-controls-skipback&#039; =&gt; &#039;f516&#039;,
+		&#039;dashicons-controls-skipforward&#039; =&gt; &#039;f517&#039;,
+		&#039;dashicons-controls-volumeoff&#039; =&gt; &#039;f520&#039;,
+		&#039;dashicons-controls-volumeon&#039; =&gt; &#039;f521&#039;,
+		&#039;dashicons-dashboard&#039; =&gt; &#039;f226&#039;,
+		&#039;dashicons-desktop&#039; =&gt; &#039;f472&#039;,
+		&#039;dashicons-dismiss&#039; =&gt; &#039;f153&#039;,
+		&#039;dashicons-download&#039; =&gt; &#039;f316&#039;,
+		&#039;dashicons-edit&#039; =&gt; &#039;f464&#039;,
+		&#039;dashicons-editor-aligncenter&#039; =&gt; &#039;f207&#039;,
+		&#039;dashicons-editor-alignleft&#039; =&gt; &#039;f206&#039;,
+		&#039;dashicons-editor-alignright&#039; =&gt; &#039;f208&#039;,
+		&#039;dashicons-editor-bold&#039; =&gt; &#039;f200&#039;,
+		&#039;dashicons-editor-break&#039; =&gt; &#039;f474&#039;,
+		&#039;dashicons-editor-code&#039; =&gt; &#039;f475&#039;,
+		&#039;dashicons-editor-contract&#039; =&gt; &#039;f506&#039;,
+		&#039;dashicons-editor-customchar&#039; =&gt; &#039;f220&#039;,
+		&#039;dashicons-editor-expand&#039; =&gt; &#039;f211&#039;,
+		&#039;dashicons-editor-help&#039; =&gt; &#039;f223&#039;,
+		&#039;dashicons-editor-indent&#039; =&gt; &#039;f222&#039;,
+		&#039;dashicons-editor-insertmore&#039; =&gt; &#039;f209&#039;,
+		&#039;dashicons-editor-italic&#039; =&gt; &#039;f201&#039;,
+		&#039;dashicons-editor-justify&#039; =&gt; &#039;f214&#039;,
+		&#039;dashicons-editor-kitchensink&#039; =&gt; &#039;f212&#039;,
+		&#039;dashicons-editor-ol&#039; =&gt; &#039;f204&#039;,
+		&#039;dashicons-editor-outdent&#039; =&gt; &#039;f221&#039;,
+		&#039;dashicons-editor-paragraph&#039; =&gt; &#039;f476&#039;,
+		&#039;dashicons-editor-paste-text&#039; =&gt; &#039;f217&#039;,
+		&#039;dashicons-editor-paste-word&#039; =&gt; &#039;f216&#039;,
+		&#039;dashicons-editor-quote&#039; =&gt; &#039;f205&#039;,
+		&#039;dashicons-editor-removeformatting&#039; =&gt; &#039;f218&#039;,
+		&#039;dashicons-editor-rtl&#039; =&gt; &#039;f320&#039;,
+		&#039;dashicons-editor-spellcheck&#039; =&gt; &#039;f210&#039;,
+		&#039;dashicons-editor-strikethrough&#039; =&gt; &#039;f224&#039;,
+		&#039;dashicons-editor-table&#039; =&gt; &#039;f535&#039;,
+		&#039;dashicons-editor-textcolor&#039; =&gt; &#039;f215&#039;,
+		&#039;dashicons-editor-ul&#039; =&gt; &#039;f203&#039;,
+		&#039;dashicons-editor-underline&#039; =&gt; &#039;f213&#039;,
+		&#039;dashicons-editor-unlink&#039; =&gt; &#039;f225&#039;,
+		&#039;dashicons-editor-video&#039; =&gt; &#039;f219&#039;,
+		&#039;dashicons-email&#039; =&gt; &#039;f465&#039;,
+		&#039;dashicons-email-alt&#039; =&gt; &#039;f466&#039;,
+		&#039;dashicons-exerpt-view&#039; =&gt; &#039;f164&#039;,
+		&#039;dashicons-external&#039; =&gt; &#039;f504&#039;,
+		&#039;dashicons-facebook&#039; =&gt; &#039;f304&#039;,
+		&#039;dashicons-facebook-alt&#039; =&gt; &#039;f305&#039;,
+		&#039;dashicons-feedback&#039; =&gt; &#039;f175&#039;,
+		&#039;dashicons-filter&#039; =&gt; &#039;f536&#039;,
+		&#039;dashicons-flag&#039; =&gt; &#039;f227&#039;,
+		&#039;dashicons-format-aside&#039; =&gt; &#039;f123&#039;,
+		&#039;dashicons-format-audio&#039; =&gt; &#039;f127&#039;,
+		&#039;dashicons-format-chat&#039; =&gt; &#039;f125&#039;,
+		&#039;dashicons-format-gallery&#039; =&gt; &#039;f161&#039;,
+		&#039;dashicons-format-image&#039; =&gt; &#039;f128&#039;,
+		&#039;dashicons-format-quote&#039; =&gt; &#039;f122&#039;,
+		&#039;dashicons-format-status&#039; =&gt; &#039;f130&#039;,
+		&#039;dashicons-format-video&#039; =&gt; &#039;f126&#039;,
+		&#039;dashicons-forms&#039; =&gt; &#039;f314&#039;,
+		&#039;dashicons-googleplus&#039; =&gt; &#039;f462&#039;,
+		&#039;dashicons-grid-view&#039; =&gt; &#039;f509&#039;,
+		&#039;dashicons-groups&#039; =&gt; &#039;f307&#039;,
+		&#039;dashicons-hammer&#039; =&gt; &#039;f308&#039;,
+		&#039;dashicons-heart&#039; =&gt; &#039;f487&#039;,
+		&#039;dashicons-hidden&#039; =&gt; &#039;f530&#039;,
+		&#039;dashicons-id&#039; =&gt; &#039;f336&#039;,
+		&#039;dashicons-id-alt&#039; =&gt; &#039;f337&#039;,
+		&#039;dashicons-image-crop&#039; =&gt; &#039;f165&#039;,
+		&#039;dashicons-image-filter&#039; =&gt; &#039;f533&#039;,
+		&#039;dashicons-image-flip-horizontal&#039; =&gt; &#039;f169&#039;,
+		&#039;dashicons-image-flip-vertical&#039; =&gt; &#039;f168&#039;,
+		&#039;dashicons-image-rotate&#039; =&gt; &#039;f531&#039;,
+		&#039;dashicons-image-rotate-left&#039; =&gt; &#039;f166&#039;,
+		&#039;dashicons-image-rotate-right&#039; =&gt; &#039;f167&#039;,
+		&#039;dashicons-images-alt&#039; =&gt; &#039;f232&#039;,
+		&#039;dashicons-images-alt2&#039; =&gt; &#039;f233&#039;,
+		&#039;dashicons-index-card&#039; =&gt; &#039;f510&#039;,
+		&#039;dashicons-info&#039; =&gt; &#039;f348&#039;,
+		&#039;dashicons-laptop&#039; =&gt; &#039;f547&#039;,
+		&#039;dashicons-layout&#039; =&gt; &#039;f538&#039;,
+		&#039;dashicons-leftright&#039; =&gt; &#039;f229&#039;,
+		&#039;dashicons-lightbulb&#039; =&gt; &#039;f339&#039;,
+		&#039;dashicons-list-view&#039; =&gt; &#039;f163&#039;,
+		&#039;dashicons-location&#039; =&gt; &#039;f230&#039;,
+		&#039;dashicons-location-alt&#039; =&gt; &#039;f231&#039;,
+		&#039;dashicons-lock&#039; =&gt; &#039;f160&#039;,
+		&#039;dashicons-marker&#039; =&gt; &#039;f159&#039;,
+		&#039;dashicons-media-archive&#039; =&gt; &#039;f501&#039;,
+		&#039;dashicons-media-audio&#039; =&gt; &#039;f500&#039;,
+		&#039;dashicons-media-code&#039; =&gt; &#039;f499&#039;,
+		&#039;dashicons-media-default&#039; =&gt; &#039;f498&#039;,
+		&#039;dashicons-media-document&#039; =&gt; &#039;f497&#039;,
+		&#039;dashicons-media-interactive&#039; =&gt; &#039;f496&#039;,
+		&#039;dashicons-media-spreadsheet&#039; =&gt; &#039;f495&#039;,
+		&#039;dashicons-media-text&#039; =&gt; &#039;f491&#039;,
+		&#039;dashicons-media-video&#039; =&gt; &#039;f490&#039;,
+		&#039;dashicons-megaphone&#039; =&gt; &#039;f488&#039;,
+		&#039;dashicons-menu&#039; =&gt; &#039;f333&#039;,
+		&#039;dashicons-microphone&#039; =&gt; &#039;f482&#039;,
+		&#039;dashicons-migrate&#039; =&gt; &#039;f310&#039;,
+		&#039;dashicons-minus&#039; =&gt; &#039;f460&#039;,
+		&#039;dashicons-money&#039; =&gt; &#039;f526&#039;,
+		&#039;dashicons-move&#039; =&gt; &#039;f545&#039;,
+		&#039;dashicons-nametag&#039; =&gt; &#039;f484&#039;,
+		&#039;dashicons-networking&#039; =&gt; &#039;f325&#039;,
+		&#039;dashicons-no&#039; =&gt; &#039;f158&#039;,
+		&#039;dashicons-no-alt&#039; =&gt; &#039;f335&#039;,
+		&#039;dashicons-palmtree&#039; =&gt; &#039;f527&#039;,
+		&#039;dashicons-paperclip&#039; =&gt; &#039;f546&#039;,
+		&#039;dashicons-performance&#039; =&gt; &#039;f311&#039;,
+		&#039;dashicons-phone&#039; =&gt; &#039;f525&#039;,
+		&#039;dashicons-playlist-audio&#039; =&gt; &#039;f492&#039;,
+		&#039;dashicons-playlist-video&#039; =&gt; &#039;f493&#039;,
+		&#039;dashicons-plus&#039; =&gt; &#039;f132&#039;,
+		&#039;dashicons-plus-alt&#039; =&gt; &#039;f502&#039;,
+		&#039;dashicons-portfolio&#039; =&gt; &#039;f322&#039;,
+		&#039;dashicons-post-status&#039; =&gt; &#039;f173&#039;,
+		&#039;dashicons-pressthis&#039; =&gt; &#039;f157&#039;,
+		&#039;dashicons-products&#039; =&gt; &#039;f312&#039;,
+		&#039;dashicons-randomize&#039; =&gt; &#039;f503&#039;,
+		&#039;dashicons-redo&#039; =&gt; &#039;f172&#039;,
+		&#039;dashicons-rss&#039; =&gt; &#039;f303&#039;,
+		&#039;dashicons-schedule&#039; =&gt; &#039;f489&#039;,
+		&#039;dashicons-screenoptions&#039; =&gt; &#039;f180&#039;,
+		&#039;dashicons-search&#039; =&gt; &#039;f179&#039;,
+		&#039;dashicons-share&#039; =&gt; &#039;f237&#039;,
+		&#039;dashicons-share-alt&#039; =&gt; &#039;f240&#039;,
+		&#039;dashicons-share-alt2&#039; =&gt; &#039;f242&#039;,
+		&#039;dashicons-shield&#039; =&gt; &#039;f332&#039;,
+		&#039;dashicons-shield-alt&#039; =&gt; &#039;f334&#039;,
+		&#039;dashicons-slides&#039; =&gt; &#039;f181&#039;,
+		&#039;dashicons-smartphone&#039; =&gt; &#039;f470&#039;,
+		&#039;dashicons-smiley&#039; =&gt; &#039;f328&#039;,
+		&#039;dashicons-sort&#039; =&gt; &#039;f156&#039;,
+		&#039;dashicons-sos&#039; =&gt; &#039;f468&#039;,
+		&#039;dashicons-star-empty&#039; =&gt; &#039;f154&#039;,
+		&#039;dashicons-star-filled&#039; =&gt; &#039;f155&#039;,
+		&#039;dashicons-star-half&#039; =&gt; &#039;f459&#039;,
+		&#039;dashicons-sticky&#039; =&gt; &#039;f537&#039;,
+		&#039;dashicons-store&#039; =&gt; &#039;f513&#039;,
+		&#039;dashicons-tablet&#039; =&gt; &#039;f471&#039;,
+		&#039;dashicons-tag&#039; =&gt; &#039;f323&#039;,
+		&#039;dashicons-tagcloud&#039; =&gt; &#039;f479&#039;,
+		&#039;dashicons-testimonial&#039; =&gt; &#039;f473&#039;,
+		&#039;dashicons-text&#039; =&gt; &#039;f478&#039;,
+		&#039;dashicons-thumbs-down&#039; =&gt; &#039;f542&#039;,
+		&#039;dashicons-thumbs-up&#039; =&gt; &#039;f529&#039;,
+		&#039;dashicons-tickets&#039; =&gt; &#039;f486&#039;,
+		&#039;dashicons-tickets-alt&#039; =&gt; &#039;f524&#039;,
+		&#039;dashicons-translation&#039; =&gt; &#039;f326&#039;,
+		&#039;dashicons-trash&#039; =&gt; &#039;f182&#039;,
+		&#039;dashicons-twitter&#039; =&gt; &#039;f301&#039;,
+		&#039;dashicons-undo&#039; =&gt; &#039;f171&#039;,
+		&#039;dashicons-universal-access&#039; =&gt; &#039;f483&#039;,
+		&#039;dashicons-universal-access-alt&#039; =&gt; &#039;f507&#039;,
+		&#039;dashicons-unlock&#039; =&gt; &#039;f528&#039;,
+		&#039;dashicons-update&#039; =&gt; &#039;f463&#039;,
+		&#039;dashicons-upload&#039; =&gt; &#039;f317&#039;,
+		&#039;dashicons-vault&#039; =&gt; &#039;f178&#039;,
+		&#039;dashicons-video-alt&#039; =&gt; &#039;f234&#039;,
+		&#039;dashicons-video-alt2&#039; =&gt; &#039;f235&#039;,
+		&#039;dashicons-video-alt3&#039; =&gt; &#039;f236&#039;,
+		&#039;dashicons-visibility&#039; =&gt; &#039;f177&#039;,
+		&#039;dashicons-warning&#039; =&gt; &#039;f534&#039;,
+		&#039;dashicons-welcome-add-page&#039; =&gt; &#039;f133&#039;,
+		&#039;dashicons-welcome-comments&#039; =&gt; &#039;f117&#039;,
+		&#039;dashicons-welcome-learn-more&#039; =&gt; &#039;f118&#039;,
+		&#039;dashicons-welcome-view-site&#039; =&gt; &#039;f115&#039;,
+		&#039;dashicons-welcome-widgets-menus&#039; =&gt; &#039;f116&#039;,
+		&#039;dashicons-welcome-write-blog&#039; =&gt; &#039;f119&#039;,
+		&#039;dashicons-wordpress&#039; =&gt; &#039;f120&#039;,
+		&#039;dashicons-wordpress-alt&#039; =&gt; &#039;f324&#039;,
+		&#039;dashicons-yes&#039; =&gt; &#039;f147&#039;,
+	);
+
+	return apply_filters( &#039;geodir_dashicon_options&#039;, $dashicons );
+}
+
+/**
+ * A helper function for margin inputs.
+ *
+ * @param string $type
+ * @param array $overwrite
+ *
+ * @return array
+ */
+function geodir_get_sd_margin_input($type = &#039;mt&#039;, $overwrite = array(), $include_negatives = true ){
+	$options = array(
+		&quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+		&quot;0&quot; =&gt; &quot;0&quot;,
+		&quot;1&quot; =&gt; &quot;1&quot;,
+		&quot;2&quot; =&gt; &quot;2&quot;,
+		&quot;3&quot; =&gt; &quot;3&quot;,
+		&quot;4&quot; =&gt; &quot;4&quot;,
+		&quot;5&quot; =&gt; &quot;5&quot;,
+	);
+
+	if ( $include_negatives ) {
+		$options[&#039;n1&#039;] = &#039;-1&#039;;
+		$options[&#039;n2&#039;] = &#039;-2&#039;;
+		$options[&#039;n3&#039;] = &#039;-3&#039;;
+		$options[&#039;n4&#039;] = &#039;-4&#039;;
+		$options[&#039;n5&#039;] = &#039;-5&#039;;
+	}
+
+	$defaults = array(
+		&#039;type&#039; =&gt; &#039;select&#039;,
+		&#039;title&#039; =&gt; __(&#039;Margin top&#039;, &#039;geodirectory&#039;),
+		&#039;options&#039; =&gt;  $options,
+		&#039;default&#039; =&gt; &#039;&#039;,
+		&#039;desc_tip&#039; =&gt; true,
+		&#039;group&#039;     =&gt; __(&quot;Wrapper Styles&quot;,&quot;geodirectory&quot;)
+	);
+
+	// title
+	if( $type == &#039;mt&#039; ){
+		$defaults[&#039;title&#039;] = __(&#039;Margin top&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;icon&#039;]  = &#039;box-top&#039;;
+		$defaults[&#039;row&#039;] = array(
+			&#039;title&#039; =&gt; __(&#039;Margins&#039;, &#039;geodirectory&#039;),
+			&#039;key&#039;   =&gt; &#039;wrapper-margins&#039;,
+			&#039;open&#039; =&gt; true,
+			&#039;class&#039; =&gt; &#039;text-center&#039;,
+		);
+	}elseif( $type == &#039;mr&#039; ){
+		$defaults[&#039;title&#039;] = __(&#039;Margin right&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;icon&#039;]  = &#039;box-right&#039;;
+		$defaults[&#039;row&#039;] = array(
+			&#039;key&#039;   =&gt; &#039;wrapper-margins&#039;,
+		);
+	}elseif( $type == &#039;mb&#039; ){
+		$defaults[&#039;title&#039;] = __(&#039;Margin bottom&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;icon&#039;]  = &#039;box-bottom&#039;;
+		$defaults[&#039;row&#039;] = array(
+			&#039;key&#039;   =&gt; &#039;wrapper-margins&#039;,
+		);
+	}elseif( $type == &#039;ml&#039; ){
+		$defaults[&#039;title&#039;] = __(&#039;Margin left&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;icon&#039;]  = &#039;box-left&#039;;
+		$defaults[&#039;row&#039;] = array(
+			&#039;key&#039;   =&gt; &#039;wrapper-margins&#039;,
+			&#039;close&#039;   =&gt; true,
+		);
+	}
+
+	$input = wp_parse_args( $overwrite, $defaults );
+
+
+	return $input;
+}
+
+/**
+ * A helper function for padding inputs.
+ *
+ * @param string $type
+ * @param array $overwrite
+ *
+ * @return array
+ */
+function geodir_get_sd_padding_input($type = &#039;pt&#039;, $overwrite = array() ){
+	$options = array(
+		&quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+		&quot;0&quot; =&gt; &quot;0&quot;,
+		&quot;1&quot; =&gt; &quot;1&quot;,
+		&quot;2&quot; =&gt; &quot;2&quot;,
+		&quot;3&quot; =&gt; &quot;3&quot;,
+		&quot;4&quot; =&gt; &quot;4&quot;,
+		&quot;5&quot; =&gt; &quot;5&quot;,
+	);
+
+	$defaults = array(
+		&#039;type&#039; =&gt; &#039;select&#039;,
+		&#039;title&#039; =&gt; __(&#039;Padding top&#039;, &#039;geodirectory&#039;),
+		&#039;options&#039; =&gt;  $options,
+		&#039;default&#039; =&gt; &#039;&#039;,
+		&#039;desc_tip&#039; =&gt; true,
+		&#039;group&#039;     =&gt; __(&quot;Wrapper Styles&quot;,&quot;geodirectory&quot;)
+	);
+
+	// title
+	if( $type == &#039;pt&#039; ){
+		$defaults[&#039;title&#039;] = __(&#039;Padding top&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;icon&#039;]  = &#039;box-top&#039;;
+		$defaults[&#039;row&#039;] = array(
+			&#039;title&#039; =&gt; __(&#039;Padding&#039;, &#039;geodirectory&#039;),
+			&#039;key&#039;   =&gt; &#039;wrapper-padding&#039;,
+			&#039;open&#039; =&gt; true,
+			&#039;class&#039; =&gt; &#039;text-center&#039;,
+		);
+	}elseif( $type == &#039;pr&#039; ){
+		$defaults[&#039;title&#039;] = __(&#039;Padding right&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;icon&#039;]  = &#039;box-right&#039;;
+		$defaults[&#039;row&#039;] = array(
+			&#039;key&#039;   =&gt; &#039;wrapper-padding&#039;,
+		);
+	}elseif( $type == &#039;pb&#039; ){
+		$defaults[&#039;title&#039;] = __(&#039;Padding bottom&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;icon&#039;]  = &#039;box-bottom&#039;;
+		$defaults[&#039;row&#039;] = array(
+			&#039;key&#039;   =&gt; &#039;wrapper-padding&#039;,
+		);
+	}elseif( $type == &#039;pl&#039; ){
+		$defaults[&#039;title&#039;] = __(&#039;Padding left&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;icon&#039;]  = &#039;box-left&#039;;
+		$defaults[&#039;row&#039;] = array(
+			&#039;key&#039;   =&gt; &#039;wrapper-padding&#039;,
+			&#039;close&#039;   =&gt; true,
+
+		);
+	}
+
+	$input = wp_parse_args( $overwrite, $defaults );
+
+
+	return $input;
+}
+
+/**
+ * A helper function for border inputs.
+ *
+ * @param string $type
+ * @param array $overwrite
+ *
+ * @return array
+ */
+function geodir_get_sd_border_input($type = &#039;border&#039;, $overwrite = array() ){
+
+	$defaults = array(
+		&#039;type&#039; =&gt; &#039;select&#039;,
+		&#039;title&#039; =&gt; __(&#039;Border&#039;, &#039;geodirectory&#039;),
+		&#039;options&#039; =&gt;  array(),
+		&#039;default&#039; =&gt; &#039;&#039;,
+		&#039;desc_tip&#039; =&gt; true,
+		&#039;group&#039;     =&gt; __(&quot;Wrapper Styles&quot;,&quot;geodirectory&quot;)
+	);
+
+	// title
+	if( $type == &#039;rounded&#039; ){
+		$defaults[&#039;title&#039;] = __(&#039;Border radius type&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;options&#039;] = array(
+			&#039;&#039;  =&gt;  __(&quot;Default&quot;,&quot;geodirectory&quot;),
+			&#039;rounded&#039;  =&gt;  &#039;rounded&#039;,
+			&#039;rounded-top&#039;  =&gt;  &#039;rounded-top&#039;,
+			&#039;rounded-right&#039;  =&gt;  &#039;rounded-right&#039;,
+			&#039;rounded-bottom&#039;  =&gt;  &#039;rounded-bottom&#039;,
+			&#039;rounded-left&#039;  =&gt;  &#039;rounded-left&#039;,
+			&#039;rounded-circle&#039;  =&gt;  &#039;rounded-circle&#039;,
+			&#039;rounded-pill&#039;  =&gt;  &#039;rounded-pill&#039;,
+			&#039;rounded-0&#039;  =&gt;  &#039;rounded-0&#039;,
+		);
+	}elseif( $type == &#039;rounded_size&#039; ){
+		$defaults[&#039;title&#039;] = __(&#039;Border radius size&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;options&#039;] = array(
+			&#039;&#039;  =&gt;  __(&quot;Default&quot;,&quot;geodirectory&quot;),
+			&#039;sm&#039;  =&gt;  __(&quot;Small&quot;,&quot;geodirectory&quot;),
+			&#039;lg&#039;  =&gt;  __(&quot;Large&quot;,&quot;geodirectory&quot;),
+		);
+	}elseif( $type == &#039;type&#039; ){
+		$defaults[&#039;title&#039;] = __(&#039;Border type&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;options&#039;] = array(
+			&#039;&#039;  =&gt;  __(&quot;None&quot;,&quot;geodirectory&quot;),
+			&#039;border&#039;  =&gt;  __(&quot;Full&quot;,&quot;geodirectory&quot;),
+			&#039;border-top&#039;  =&gt;  __(&quot;Top&quot;,&quot;geodirectory&quot;),
+			&#039;border-bottom&#039;  =&gt;  __(&quot;Bottom&quot;,&quot;geodirectory&quot;),
+			&#039;border-left&#039;  =&gt;  __(&quot;Left&quot;,&quot;geodirectory&quot;),
+			&#039;border-right&#039;  =&gt;  __(&quot;Right&quot;,&quot;geodirectory&quot;),
+		);
+	}else{
+		$defaults[&#039;title&#039;] = __(&#039;Border color&#039;, &#039;geodirectory&#039;);
+		$defaults[&#039;options&#039;] = array(
+           &#039;&#039;  =&gt;  __(&quot;Default&quot;,&quot;geodirectory&quot;),
+           &#039;0&#039;  =&gt;  __(&quot;None&quot;,&quot;geodirectory&quot;),
+       ) + geodir_aui_colors();
+	}
+
+	$input = wp_parse_args( $overwrite, $defaults );
+
+
+	return $input;
+}
+
+/**
+ * A helper function for padding inputs.
+ *
+ * @param string $type
+ * @param array $overwrite
+ *
+ * @return array
+ */
+function geodir_get_sd_shadow_input($type = &#039;shadow&#039;, $overwrite = array() ){
+	$options = array(
+		&quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+		&quot;shadow-sm&quot; =&gt; __(&#039;Small&#039;, &#039;geodirectory&#039;),
+		&quot;shadow&quot; =&gt; __(&#039;Regular&#039;, &#039;geodirectory&#039;),
+		&quot;shadow-lg&quot; =&gt; __(&#039;Large&#039;, &#039;geodirectory&#039;),
+	);
+
+	$defaults = array(
+		&#039;type&#039; =&gt; &#039;select&#039;,
+		&#039;title&#039; =&gt; __(&#039;Shadow&#039;, &#039;geodirectory&#039;),
+		&#039;options&#039; =&gt;  $options,
+		&#039;default&#039; =&gt; &#039;&#039;,
+		&#039;desc_tip&#039; =&gt; true,
+		&#039;group&#039;     =&gt; __(&quot;Wrapper Styles&quot;,&quot;geodirectory&quot;)
+	);
+
+
+	$input = wp_parse_args( $overwrite, $defaults );
+
+
+	return $input;
+}
+
+/**
+ * A helper function for padding inputs.
+ *
+ * @param string $type
+ * @param array $overwrite
+ *
+ * @return array
+ */
+function geodir_get_sd_background_input($type = &#039;bg&#039;, $overwrite = array() ){
+	$options = array(
+		           &#039;&#039;  =&gt;  __(&quot;None&quot;,&quot;geodirectory&quot;),
+	           ) + geodir_aui_colors();
+
+	$defaults = array(
+		&#039;type&#039; =&gt; &#039;select&#039;,
+		&#039;title&#039; =&gt; __(&#039;Background color&#039;, &#039;geodirectory&#039;),
+		&#039;options&#039; =&gt;  $options,
+		&#039;default&#039; =&gt; &#039;&#039;,
+		&#039;desc_tip&#039; =&gt; true,
+		&#039;group&#039;     =&gt; __(&quot;Wrapper Styles&quot;,&quot;geodirectory&quot;)
+	);
+
+
+	$input = wp_parse_args( $overwrite, $defaults );
+
+
+	return $input;
+}
+
+/**
+ * A helper function for title tag inputs.
+ *
+ * @param string $type
+ * @param array $overwrite
+ *
+ * @return array
+ */
+function geodir_get_sd_title_tag_input( $overwrite = array() ){
+
+	$defaults = array(
+		&#039;title&#039; =&gt; __(&#039;Title HTML tag&#039;, &#039;geodirectory&#039;),
+		&#039;desc&#039; =&gt; __(&#039;Set the HTML tag for the title.&#039;, &#039;geodirectory&#039;),
+		&#039;type&#039; =&gt; &#039;select&#039;,
+		&#039;options&#039;   =&gt;  array(
+			&quot;&quot; =&gt; __(&quot;Default (theme widget default)&quot;,&quot;geodirectory&quot;),
+			&quot;h1&quot; =&gt; &quot;h1&quot;,
+			&quot;h2&quot; =&gt; &quot;h2&quot;,
+			&quot;h3&quot; =&gt; &quot;h3&quot;,
+			&quot;h4&quot; =&gt; &quot;h4&quot;,
+			&quot;h5&quot; =&gt; &quot;h5&quot;,
+			&quot;h6&quot; =&gt; &quot;h6&quot;,
+		),
+		&#039;default&#039;  =&gt; &#039;&#039;,
+		&#039;desc_tip&#039; =&gt; true,
+		&#039;advanced&#039; =&gt; false,
+		&#039;group&#039;     =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;)
+	);
+
+
+	$input = wp_parse_args( $overwrite, $defaults );
+
+
+	return $input;
+}
+
+/**
+ * A helper function for font size inputs.
+ *
+ * @param string $type
+ * @param array $overwrite
+ *
+ * @return array
+ */
+function geodir_get_sd_font_size_input( $overwrite = array() ){
+
+	$defaults = array(
+		&#039;title&#039; =&gt; __(&#039;Font size&#039;, &#039;geodirectory&#039;),
+		&#039;type&#039; =&gt; &#039;select&#039;,
+		&#039;options&#039;   =&gt;  array(
+			&quot;&quot; =&gt; __(&quot;Default (title tag size)&quot;,&quot;geodirectory&quot;),
+			&quot;h1&quot; =&gt; &#039;XXL&#039;,
+			&quot;h2&quot; =&gt; &#039;XL&#039;,
+			&quot;h3&quot; =&gt; &#039;L&#039;,
+			&quot;h4&quot; =&gt; &#039;M&#039;,
+			&quot;h5&quot; =&gt; &#039;S&#039;,
+			&quot;h6&quot; =&gt; &#039;XS&#039;,
+			&quot;display-1&quot; =&gt; &quot;display-1&quot;,
+			&quot;display-2&quot; =&gt; &quot;display-2&quot;,
+			&quot;display-3&quot; =&gt; &quot;display-3&quot;,
+			&quot;display-4&quot; =&gt; &quot;display-4&quot;,
+		),
+		&#039;default&#039;  =&gt; &#039;&#039;,
+		&#039;desc_tip&#039; =&gt; true,
+		&#039;advanced&#039; =&gt; false,
+		&#039;group&#039;     =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;)
+	);
+
+
+	$input = wp_parse_args( $overwrite, $defaults );
+
+
+	return $input;
+}
+
+
+/**
+ * A helper function for title tag inputs.
+ *
+ * @param string $type
+ * @param array $overwrite
+ *
+ * @return array
+ */
+function geodir_get_sd_text_align_input( $overwrite = array() ){
+
+	$defaults = array(
+		&#039;title&#039; =&gt; __(&#039;Text align&#039;, &#039;geodirectory&#039;),
+		&#039;type&#039; =&gt; &#039;select&#039;,
+		&#039;options&#039;   =&gt;  array(
+			&quot;&quot; =&gt; __(&quot;Default (left)&quot;,&quot;geodirectory&quot;),
+			&quot;text-left&quot; =&gt; __(&quot;Left&quot;,&quot;geodirectory&quot;),
+			&quot;text-center&quot; =&gt; __(&quot;Center&quot;,&quot;geodirectory&quot;),
+			&quot;text-right&quot; =&gt; __(&quot;Right&quot;,&quot;geodirectory&quot;),
+			&quot;text-justify&quot; =&gt; __(&quot;Justify&quot;,&quot;geodirectory&quot;),
+		),
+		&#039;default&#039;  =&gt; &#039;&#039;,
+		&#039;desc_tip&#039; =&gt; true,
+		&#039;advanced&#039; =&gt; false,
+		&#039;group&#039;     =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;)
+	);
+
+
+	$input = wp_parse_args( $overwrite, $defaults );
+
+
+	return $input;
+}
+
+/**
+ * A helper function for padding inputs.
+ *
+ * @param string $type
+ * @param array $overwrite
+ *
+ * @return array
+ */
+function geodir_get_sd_text_color_input( $overwrite = array() ){
+	$options = array(
+		           &#039;&#039;  =&gt;  __(&quot;Default (theme color)&quot;,&quot;geodirectory&quot;),
+	           ) + geodir_aui_colors();
+
+	$defaults = array(
+		&#039;type&#039; =&gt; &#039;select&#039;,
+		&#039;title&#039; =&gt; __(&#039;Text color&#039;, &#039;geodirectory&#039;),
+		&#039;options&#039; =&gt;  $options,
+		&#039;default&#039; =&gt; &#039;&#039;,
+		&#039;desc_tip&#039; =&gt; true,
+		&#039;advanced&#039; =&gt; false,
+		&#039;group&#039;     =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;)
+	);
+
+
+	$input = wp_parse_args( $overwrite, $defaults );
+
+
+	return $input;
+}
+
+
+function geodir_get_sd_title_inputs(){
+
+	$arguments = array();
+
+	$arguments[&#039;widget_title_tag&#039;]  = geodir_get_sd_title_tag_input();
+	$arguments[&#039;widget_title_size_class&#039;]  = geodir_get_sd_font_size_input(
+		array(
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;key&#039;   =&gt; &#039;title-attr&#039;,
+				&#039;open&#039; =&gt; true,
+			)
+		)
+	);
+	$arguments[&#039;widget_title_align_class&#039;] = geodir_get_sd_text_align_input(
+		array(
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;key&#039;   =&gt; &#039;title-attr&#039;,
+			)
+		)
+	);
+	$arguments[&#039;widget_title_color_class&#039;] = geodir_get_sd_text_color_input(
+		array(
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;key&#039;   =&gt; &#039;title-attr&#039;,
+				&#039;close&#039; =&gt; true,
+			)
+		)
+	);
+
+	// Border
+	$arguments[&#039;widget_title_border_class&#039;] = geodir_get_sd_border_input(&#039;type&#039;,
+		array(
+			&#039;group&#039; =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;key&#039;   =&gt; &#039;title-border&#039;,
+				&#039;open&#039; =&gt; true,
+			)
+		)
+	);
+	$arguments[&#039;widget_title_border_color_class&#039;] = geodir_get_sd_border_input(&#039;border&#039;,
+		array(
+			&#039;group&#039; =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;key&#039;   =&gt; &#039;title-border&#039;,
+				&#039;close&#039; =&gt; true,
+			)
+		)
+	);
+
+	// margins
+	$arguments[&#039;widget_title_mt_class&#039;]  = geodir_get_sd_margin_input(&#039;mt&#039;,
+		array(
+			&#039;group&#039; =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;icon&#039;  =&gt; &#039;box-top&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;title&#039; =&gt; __(&#039;Margins&#039;, &#039;geodirectory&#039;),
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;key&#039;   =&gt; &#039;title-margins&#039;,
+				&#039;open&#039; =&gt; true,
+				&#039;class&#039; =&gt; &#039;text-center&#039;,
+				&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			)
+		) );
+	$arguments[&#039;widget_title_mr_class&#039;]  = geodir_get_sd_margin_input(&#039;mr&#039;,
+		array(
+			&#039;group&#039; =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;icon&#039;  =&gt; &#039;box-right&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;key&#039;   =&gt; &#039;title-margins&#039;,
+			)
+		));
+	$arguments[&#039;widget_title_mb_class&#039;]  = geodir_get_sd_margin_input(&#039;mb&#039;,
+		array(
+			&#039;group&#039; =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;icon&#039;  =&gt; &#039;box-bottom&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;key&#039;   =&gt; &#039;title-margins&#039;,
+			)
+		));
+	$arguments[&#039;widget_title_ml_class&#039;]  = geodir_get_sd_margin_input(&#039;ml&#039;,
+		array(
+			&#039;group&#039; =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;icon&#039;  =&gt; &#039;box-left&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;key&#039;   =&gt; &#039;title-margins&#039;,
+				&#039;close&#039; =&gt; true,
+			)
+		));
+
+	// padding
+	$arguments[&#039;widget_title_pt_class&#039;]  = geodir_get_sd_padding_input(&#039;pt&#039;,
+		array(
+			&#039;group&#039; =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;icon&#039;  =&gt; &#039;box-top&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;title&#039; =&gt; __(&#039;Padding&#039;, &#039;geodirectory&#039;),
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;key&#039;   =&gt; &#039;title-padding&#039;,
+				&#039;open&#039; =&gt; true,
+				&#039;class&#039; =&gt; &#039;text-center&#039;,
+				&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			)
+		));
+	$arguments[&#039;widget_title_pr_class&#039;]  = geodir_get_sd_padding_input(&#039;pr&#039;,
+		array(
+			&#039;group&#039; =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;icon&#039;  =&gt; &#039;box-right&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;key&#039;   =&gt; &#039;title-padding&#039;,
+			)
+		));
+	$arguments[&#039;widget_title_pb_class&#039;]  = geodir_get_sd_padding_input(&#039;pb&#039;,
+		array(
+			&#039;group&#039; =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;icon&#039;  =&gt; &#039;box-bottom&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;key&#039;   =&gt; &#039;title-padding&#039;,
+			)
+		));
+	$arguments[&#039;widget_title_pl_class&#039;]  = geodir_get_sd_padding_input(&#039;pl&#039;,
+		array(
+			&#039;group&#039; =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%widget_title_tag%]!=&quot;&quot;&#039;,
+			&#039;icon&#039;  =&gt; &#039;box-left&#039;,
+			&#039;row&#039;       =&gt; array(
+				&#039;key&#039;   =&gt; &#039;title-padding&#039;,
+				&#039;close&#039; =&gt; true,
+			)
+		));
+
+	return $arguments;
+
+}
+
+/**
+ * Build AUI classes from settings.
+ *
+ * @todo find best way to use px- py- or general p-
+ * @param $args
+ *
+ * @return string
+ */
+function geodir_build_aui_class($args){
+	$design_style = geodir_design_style();
+	if( !$design_style ){ return &#039;&#039;; }
+	$classes = array();
+
+	// margins
+	if ( !empty( $args[&#039;mt&#039;] ) || ( isset( $args[&#039;mt&#039;] ) &amp;&amp; $args[&#039;mt&#039;] == &#039;0&#039; ) ) { $classes[] = &quot;mt-&quot;.sanitize_html_class($args[&#039;mt&#039;]); }
+	if ( !empty( $args[&#039;mr&#039;] ) || ( isset( $args[&#039;mr&#039;] ) &amp;&amp; $args[&#039;mr&#039;] == &#039;0&#039; ) ) { $classes[] = &quot;mr-&quot;.sanitize_html_class($args[&#039;mr&#039;]); }
+	if ( !empty( $args[&#039;mb&#039;] ) || ( isset( $args[&#039;mb&#039;] ) &amp;&amp; $args[&#039;mb&#039;] == &#039;0&#039; ) ) { $classes[] = &quot;mb-&quot;.sanitize_html_class($args[&#039;mb&#039;]); }
+	if ( !empty( $args[&#039;ml&#039;] ) || ( isset( $args[&#039;ml&#039;] ) &amp;&amp; $args[&#039;ml&#039;] == &#039;0&#039; ) ) { $classes[] = &quot;ml-&quot;.sanitize_html_class($args[&#039;ml&#039;]); }
+
+	// padding
+	if ( !empty( $args[&#039;pt&#039;] ) || ( isset( $args[&#039;pt&#039;] ) &amp;&amp; $args[&#039;pt&#039;] == &#039;0&#039; ) ) { $classes[] = &quot;pt-&quot;.sanitize_html_class($args[&#039;pt&#039;]); }
+	if ( !empty( $args[&#039;pr&#039;] ) || ( isset( $args[&#039;pr&#039;] ) &amp;&amp; $args[&#039;pr&#039;] == &#039;0&#039; ) ) { $classes[] = &quot;pr-&quot;.sanitize_html_class($args[&#039;pr&#039;]); }
+	if ( !empty( $args[&#039;pb&#039;] ) || ( isset( $args[&#039;pb&#039;] ) &amp;&amp; $args[&#039;pb&#039;] == &#039;0&#039; ) ) { $classes[] = &quot;pb-&quot;.sanitize_html_class($args[&#039;pb&#039;]); }
+	if ( !empty( $args[&#039;pl&#039;] ) || ( isset( $args[&#039;pl&#039;] ) &amp;&amp; $args[&#039;pl&#039;] == &#039;0&#039; ) ) { $classes[] = &quot;pl-&quot;.sanitize_html_class($args[&#039;pl&#039;]); }
+
+	// border
+	if ( !empty( $args[&#039;border&#039;] ) &amp;&amp; ( $args[&#039;border&#039;]==&#039;none&#039; || $args[&#039;border&#039;]===&#039;0&#039;) ) { $classes[] = &quot;border-0&quot;; }
+	elseif ( !empty( $args[&#039;border&#039;] ) ) { $classes[] = &quot;border border-&quot;.sanitize_html_class($args[&#039;border&#039;]); }
+
+	// border radius type
+	if ( !empty( $args[&#039;rounded&#039;] ) ) { $classes[] = sanitize_html_class($args[&#039;rounded&#039;]); }
+
+	// border radius size
+	if ( !empty( $args[&#039;rounded_size&#039;] ) ) {
+		$classes[] = &quot;rounded-&quot;.sanitize_html_class($args[&#039;rounded_size&#039;]);
+		// if we set a size then we need to remove &quot;rounded&quot; if set
+		if (($key = array_search(&quot;rounded&quot;, $classes)) !== false) {
+			unset($classes[$key]);
+		}
+	}
+
+	// shadow
+	if ( !empty( $args[&#039;shadow&#039;] ) ) { $classes[] = sanitize_html_class($args[&#039;shadow&#039;]); }
+
+	// background
+	if ( !empty( $args[&#039;bg&#039;] ) ) { $classes[] = &quot;bg-&quot;.sanitize_html_class($args[&#039;bg&#039;]); }
+
+	// text_color
+	if ( !empty( $args[&#039;text_color&#039;] ) ) { $classes[] = &quot;text-&quot;.sanitize_html_class($args[&#039;text_color&#039;]); }
+
+	// text_align
+	if ( !empty( $args[&#039;text_align&#039;] ) ) { $classes[] = sanitize_html_class($args[&#039;text_align&#039;]); }
+
+	return implode(&quot; &quot;,$classes);
+}
+
+
+/**
+ * Check if we are on the archive item edit page.
+ *
+ * @return bool
+ */
+function geodir_is_archive_item_template_page(){
+	global $geodirectory;
+
+	$result = false;
+
+	$post_id = is_admin() &amp;&amp; !empty($_REQUEST[&#039;post_id&#039;]) ? absint($_REQUEST[&#039;post_id&#039;]) : 0;
+
+	if ( $post_id ) {
+		// main post check
+		if( !empty( $geodirectory-&gt;settings[&#039;page_archive_item&#039;] ) &amp;&amp; $geodirectory-&gt;settings[&#039;page_archive_item&#039;] == $post_id ){
+			$result = true;
+		}
+
+		// check all CPTs
+		if( !$result &amp;&amp; !empty($geodirectory-&gt;settings[&#039;post_types&#039;])){
+
+			foreach($geodirectory-&gt;settings[&#039;post_types&#039;] as $post_type){
+				if ( ! empty( $post_type[&#039;page_archive_item&#039;] ) &amp;&amp; $post_type[&#039;page_archive_item&#039;] == $post_id ) {
+					$result = true;
+					break;
+				}
+			}
+		}
+	}
+
+	return $result;
+}
+
+/**
+ * Tell AyeCode UI to load on certain admin pages.
+ *
+ * @param $screen_ids
+ *
+ * @return array
+ */
+function geodir_add_aui_screens( $screen_ids ) {
+	// Load on these pages if set
+	if ( geodir_design_style() || ( is_admin() &amp;&amp; ! wp_doing_ajax() ) ) {
+		$screen_ids = array_merge( $screen_ids, geodir_get_screen_ids() );
+	}
+
+	// AUI is also needed for setup wizard
+	$screen_ids[] = &#039;gd-setup&#039;;
+
+	return $screen_ids;
+}
+add_filter( &#039;aui_screen_ids&#039;, &#039;geodir_add_aui_screens&#039; );
+
+/**
+ * Create a template.
+ *
+ * @since 2.2.4
+ *
+ * @global object $wpdb WordPress Database object.
+ * @global object $current_user Current user object.
+ *
+ * @param string $option The option meta key.
+ * @param array  $args Template arguments.
+ * @param bool   $update_option True to update option.
+ * @return int|WP_Error Post ID on success and WP Error on fail.
+ */
+function geodir_create_wp_template( $option, $args = array(), $update_option = true ) {
+	global $wpdb, $current_user;
+
+	$defaults = array(
+		&#039;post_status&#039;    =&gt; &#039;publish&#039;,
+		&#039;post_type&#039;      =&gt; &#039;wp_template&#039;,
+		&#039;post_author&#039;    =&gt; $current_user-&gt;ID,
+		&#039;post_name&#039;      =&gt; &#039;&#039;,
+		&#039;post_title&#039;     =&gt; &#039;&#039;,
+		&#039;post_content&#039;   =&gt; &#039;&#039;,
+		&#039;post_parent&#039;    =&gt; 0,
+		&#039;comment_status&#039; =&gt; &#039;closed&#039;,
+		&#039;tax_input&#039;      =&gt; array(),
+	);
+
+	$page_data = wp_parse_args( $args, $defaults );
+
+	$post_id = wp_insert_post( $page_data, true );
+
+	if ( is_wp_error( $post_id ) ) {
+		return $post_id;
+	}
+
+	if ( absint( $post_id ) &gt; 0 &amp;&amp; $update_option ) {
+		geodir_update_option( $option, absint( $post_id ) );
+	}
+
+	return $post_id;
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

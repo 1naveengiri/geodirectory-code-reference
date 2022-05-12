@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-settings-cpt.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory CPT Settings
+ *
+ * @author      AyeCode
+ * @category    Admin
+ * @package     GeoDirectory/Admin
+ * @version     2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit; // Exit if accessed directly
+}
+
+if ( ! class_exists( &#039;GeoDir_Settings_Cpt&#039;, false ) ) :
+
+	/**
+	 * GeoDir_Admin_Settings_General.
+	 */
+	class GeoDir_Settings_Cpt extends GeoDir_Settings_Page {
+
+		/**
+		 * Post type.
+		 *
+		 * @var string
+		 */
+		private static $post_type = &#039;&#039;;
+
+		/**
+		 * Sub tab.
+		 *
+		 * @var string
+		 */
+		private static $sub_tab = &#039;&#039;;
+
+
+		/**
+		 * Constructor.
+		 */
+		public function __construct() {
+
+			self::$post_type = ( ! empty( $_REQUEST[&#039;post_type&#039;] ) &amp;&amp; is_scalar( $_REQUEST[&#039;post_type&#039;] ) ) ? sanitize_title( $_REQUEST[&#039;post_type&#039;] ) : &#039;gd_place&#039;;
+			self::$sub_tab   = ! empty( $_REQUEST[&#039;tab&#039;] ) ? sanitize_title( $_REQUEST[&#039;tab&#039;] ) : &#039;general&#039;;
+
+			$this-&gt;id    = &#039;cpt&#039;;
+			$this-&gt;label = __( &#039;General&#039;, &#039;geodirectory&#039; );
+
+			add_filter( &#039;geodir_settings_tabs_array&#039;, array( $this, &#039;add_settings_page&#039; ), 20 );
+			add_action( &#039;geodir_settings_&#039; . $this-&gt;id, array( $this, &#039;output&#039; ) );
+//			add_action( &#039;geodir_sections_&#039; . $this-&gt;id, array( $this, &#039;output_toggle_advanced&#039; ) );
+
+			add_action( &#039;geodir_settings_save_&#039; . $this-&gt;id, array( $this, &#039;save&#039; ) );
+			add_action( &#039;geodir_sections_&#039; . $this-&gt;id, array( $this, &#039;output_sections&#039; ) );
+
+			add_filter( &#039;geodir_get_settings_&#039;.$this-&gt;id , array( $this, &#039;set_current_values&#039; ) );
+		}
+
+		/**
+		 * Get sections.
+		 *
+		 * @return array
+		 */
+		public function get_sections() {
+			$sections = array();
+			return apply_filters( &#039;geodir_get_sections_&#039; . $this-&gt;id, $sections );
+		}
+
+		/**
+		 * Output the settings.
+		 */
+		public function output() {
+			global $current_section;
+
+			$settings = $this-&gt;get_settings( $current_section );
+
+			//print_r($settings);echo &#039;######&#039;;
+
+			GeoDir_Admin_Settings::output_fields( $settings );
+		}
+
+		/**
+		 * Save settings.
+		 */
+		public function save() {
+			global $current_section;
+
+			//echo &#039;###&#039;;
+			
+			$cpt = self::sanatize_post_type( $_POST );
+			//print_r( $_POST );
+			//echo $current_section;
+			$settings = $this-&gt;get_settings( $current_section );
+//			print_r($cpt );
+//			exit;
+			if(is_wp_error( $cpt) ){
+				$cpt-&gt;get_error_message(); exit;
+			}
+
+			/**
+			 * Bypass the normal GD post save action.
+			 *
+			 * This is used when we are using the settings screens for a non GD listing CPT.
+			 */
+			if(apply_filters(&#039;geodir_post_type_save_bypass&#039;, false,$cpt,$current_section)){
+				return;
+			}
+			
+			$post_types = geodir_get_option(&#039;post_types&#039;, array());
+			if ( empty( $post_types ) ) {
+				$post_types = $cpt;
+			} else {
+				$post_types = array_merge($post_types,$cpt);
+			}
+
+			//Update custom post types
+			geodir_update_option( &#039;post_types&#039;, $post_types );
+
+			foreach ( $cpt as $post_type =&gt; $args ) {
+				do_action( &#039;geodir_post_type_saved&#039;, $post_type, $args );
+			}
+
+			//$settings = $this-&gt;get_settings( $current_section );
+			//GeoDir_Admin_Settings::save_fields( $settings );
+
+			// run the create tables function to add our new columns.
+			GeoDir_Admin_Install::create_tables();
+		}
+
+		/**
+		 * Get settings array.
+		 *
+		 * @return array
+		 */
+		public function get_settings( $current_section = &#039;&#039; ) {
+
+			$post_type = self::$post_type;
+
+			$post_types = geodir_get_option(&#039;post_types&#039;, array());
+			$post_type_option = ! empty( $post_types[ $post_type ] ) &amp;&amp; is_array( $post_types[ $post_type ] ) ? $post_types[ $post_type ] : array();
+
+			$post_type_option = apply_filters(&#039;geodir_cpt_settings_cpt_options&#039;,$post_type_option,$post_type);
+
+			$post_type_labels = ! empty( $post_type_option[&#039;labels&#039;] ) &amp;&amp; is_array( $post_type_option[&#039;labels&#039;] ) ? $post_type_option[&#039;labels&#039;] : array();
+
+			$post_type_values = $post_type_option;
+			if ( ! empty( $post_type_labels ) ) {
+				$post_type_values = array_merge( $post_type_labels, $post_type_values );
+			}
+
+			$post_type_values = wp_parse_args( $post_type_values, array(
+				&#039;post_type&#039; =&gt; $post_type,
+				&#039;slug&#039; =&gt; ( ! empty( $post_type_option[&#039;has_archive&#039;] ) ? $post_type_option[&#039;has_archive&#039;] : &#039;&#039; ),
+				&#039;menu_icon&#039; =&gt; &#039;&#039;,
+				&#039;description&#039; =&gt; &#039;&#039;,
+
+				// Labels
+				&#039;name&#039; =&gt; &#039;&#039;,
+				&#039;singular_name&#039; =&gt; &#039;&#039;,
+				&#039;add_new&#039; =&gt; &#039;&#039;,
+				&#039;add_new_item&#039; =&gt; &#039;&#039;,
+				&#039;edit_item&#039; =&gt; &#039;&#039;,
+				&#039;new_item&#039; =&gt; &#039;&#039;,
+				&#039;view_item&#039; =&gt; &#039;&#039;,
+				&#039;view_items&#039; =&gt; &#039;&#039;,
+				&#039;search_items&#039; =&gt; &#039;&#039;,
+				&#039;not_found&#039; =&gt; &#039;&#039;,
+				&#039;not_found_in_trash&#039; =&gt; &#039;&#039;,
+				&#039;parent_item_colon&#039; =&gt; &#039;&#039;,
+				&#039;all_items&#039; =&gt; &#039;&#039;,
+				&#039;archives&#039; =&gt; &#039;&#039;,
+				&#039;attributes&#039; =&gt; &#039;&#039;,
+				&#039;insert_into_item&#039; =&gt; &#039;&#039;,
+				&#039;uploaded_to_this_item&#039; =&gt; &#039;&#039;,
+				&#039;featured_image&#039; =&gt; &#039;&#039;,
+				&#039;set_featured_image&#039; =&gt; &#039;&#039;,
+				&#039;remove_featured_image&#039; =&gt; &#039;&#039;,
+				&#039;use_featured_image&#039; =&gt; &#039;&#039;,
+				&#039;filter_items_list&#039; =&gt; &#039;&#039;,
+				&#039;items_list_navigation&#039; =&gt; &#039;&#039;,
+				&#039;items_list&#039; =&gt; &#039;&#039;,
+
+				&#039;default_image&#039; =&gt; &#039;&#039;,
+				&#039;disable_reviews&#039; =&gt; &#039;0&#039;,
+				&#039;disable_favorites&#039; =&gt; &#039;0&#039;,
+				&#039;disable_frontend_add&#039; =&gt; &#039;0&#039;,
+				// author
+				&#039;author_posts_private&#039; =&gt; &#039;0&#039;,
+				&#039;author_favorites_private&#039; =&gt; &#039;0&#039;,
+				&#039;limit_posts&#039; =&gt; &#039;&#039;,
+				// Page template
+				&#039;page_add&#039; =&gt; &#039;0&#039;,
+				&#039;page_details&#039; =&gt; &#039;0&#039;,
+				&#039;page_archive&#039; =&gt; &#039;0&#039;,
+				&#039;page_archive_item&#039; =&gt; &#039;0&#039;,
+				&#039;template_add&#039; =&gt; &#039;0&#039;,
+				&#039;template_details&#039; =&gt; &#039;0&#039;,
+				&#039;template_archive&#039; =&gt; &#039;0&#039;
+			) );
+
+			$post_type_values[&#039;order&#039;] = ( isset( $post_type_option[&#039;listing_order&#039;] ) ? $post_type_option[&#039;listing_order&#039;] : &#039;&#039; );
+
+			// SEO
+			$post_type_values[&#039;title&#039;] = ( ! empty( $post_type_option[&#039;seo&#039;][&#039;title&#039;] ) ? $post_type_option[&#039;seo&#039;][&#039;title&#039;] : &#039;&#039; );
+			$post_type_values[&#039;meta_title&#039;] = ( ! empty( $post_type_option[&#039;seo&#039;][&#039;meta_title&#039;] ) ? $post_type_option[&#039;seo&#039;][&#039;meta_title&#039;] : &#039;&#039; );
+			$post_type_values[&#039;meta_description&#039;] = ( ! empty( $post_type_option[&#039;seo&#039;][&#039;meta_description&#039;] ) ? $post_type_option[&#039;seo&#039;][&#039;meta_description&#039;] : &#039;&#039; );
+
+			$cpt_page_settings = array(
+				array(
+					&#039;title&#039;    =&gt; __( &#039;Template Page Settings&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;     =&gt; &#039;title&#039;,
+					&#039;desc&#039;     =&gt; __( &#039;Template pages are used to design the respective pages and should never be linked to directly.&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;cpt_settings_page&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true,
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Add listing page&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select the page to use as the GD add listing page template&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;page_add&#039;,
+					&#039;type&#039;     =&gt; &#039;single_select_page&#039;,
+					&#039;class&#039;    =&gt; &#039;geodir-select&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true,
+					&#039;value&#039;	   =&gt; $post_type_values[&#039;page_add&#039;],
+					&#039;view_page_args&#039; =&gt; array( 
+						&#039;listing_type&#039; =&gt; $post_type
+					),
+					&#039;args&#039;     =&gt; array(
+						&#039;show_option_none&#039; =&gt; wp_sprintf( __( &#039;Default (%s)&#039;, &#039;geodirectory&#039; ), get_the_title( geodir_get_option( &#039;page_add&#039; ) ) ),
+						&#039;option_none_value&#039; =&gt; &#039;0&#039;,
+						&#039;sort_column&#039; =&gt; &#039;post_title&#039;,
+					)
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Details Page&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select the page to use as the GD details page template&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;page_details&#039;,
+					&#039;type&#039;     =&gt; &#039;single_select_page&#039;,
+					&#039;is_template_page&#039; =&gt; true,
+					&#039;class&#039;    =&gt; &#039;geodir-select&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true,
+					&#039;value&#039;	   =&gt; $post_type_values[&#039;page_details&#039;],
+					&#039;args&#039;     =&gt; array(
+						&#039;show_option_none&#039; =&gt; wp_sprintf( __( &#039;Default (%s)&#039;, &#039;geodirectory&#039; ), get_the_title( geodir_get_option( &#039;page_details&#039; ) ) ),
+						&#039;option_none_value&#039; =&gt; &#039;0&#039;,
+						&#039;sort_column&#039; =&gt; &#039;post_title&#039;,
+					)
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Archive page&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select the page to use for GD archives such as taxonomy and CPT pages&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;page_archive&#039;,
+					&#039;type&#039;     =&gt; &#039;single_select_page&#039;,
+					&#039;is_template_page&#039; =&gt; true,
+					&#039;class&#039;    =&gt; &#039;geodir-select&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true,
+					&#039;value&#039;	   =&gt; $post_type_values[&#039;page_archive&#039;],
+					&#039;args&#039;     =&gt; array(
+						&#039;show_option_none&#039; =&gt; wp_sprintf( __( &#039;Default (%s)&#039;, &#039;geodirectory&#039; ), get_the_title( geodir_get_option( &#039;page_archive&#039; ) ) ),
+						&#039;option_none_value&#039; =&gt; &#039;0&#039;,
+						&#039;sort_column&#039; =&gt; &#039;post_title&#039;,
+					)
+				),
+				array(
+					&#039;name&#039;     =&gt; __( &#039;Archive item page&#039;, &#039;geodirectory&#039; ),
+					&#039;desc&#039;     =&gt; __( &#039;Select the page to use for GD archive items, this is the item template used on taxonomy and CPT pages&#039;, &#039;geodirectory&#039; ),
+					&#039;id&#039;       =&gt; &#039;page_archive_item&#039;,
+					&#039;type&#039;     =&gt; &#039;single_select_page&#039;,
+					&#039;is_template_page&#039; =&gt; true,
+					&#039;class&#039;    =&gt; &#039;geodir-select&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; true,
+					&#039;value&#039;	   =&gt; $post_type_values[&#039;page_archive_item&#039;],
+					&#039;args&#039;     =&gt; array(
+						&#039;show_option_none&#039; =&gt; wp_sprintf( __( &#039;Default (%s)&#039;, &#039;geodirectory&#039; ), get_the_title( geodir_get_option( &#039;page_archive_item&#039; ) ) ),
+						&#039;option_none_value&#039; =&gt; &#039;0&#039;,
+						&#039;sort_column&#039; =&gt; &#039;post_title&#039;,
+					)
+				),
+				array(
+					&#039;type&#039; =&gt; &#039;sectionend&#039;,
+					&#039;id&#039; =&gt; &#039;cpt_settings_page&#039;
+				)
+			);
+			$cpt_page_settings = apply_filters( &#039;geodir_cpt_page_options&#039;, $cpt_page_settings, $post_type_values, $post_type );
+
+			// we need to trick the settings to show the current values
+			$settings  = apply_filters( &quot;geodir_cpt_settings_{$post_type}&quot;, array_merge(
+				array(
+					array(
+						&#039;name&#039; =&gt; __( &#039;Post Type Settings&#039;, &#039;geodirectory&#039; ),
+						&#039;type&#039; =&gt; &#039;sectionstart&#039;,
+						&#039;id&#039;   =&gt; &#039;cpt_settings&#039;
+					),
+
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Post type&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The new post type system name ( max. 17 characters ). Lower-case characters and underscores only. Min 2 letters. Once added the post type system name cannot be changed. &lt;b&gt;Usually Singular.&lt;/b&gt;&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;post_type&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; false,
+						&#039;custom_attributes&#039; =&gt; array(
+							&#039;required&#039; =&gt; &#039;required&#039;,
+							&#039;maxlength&#039; =&gt; 17
+						),
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;post_type&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Slug&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The listing slug name ( max. 20 characters ). Alphanumeric lower-case characters and underscores and hyphen(-) only. Min 2 letters. &lt;b&gt;Usually Plural.&lt;/b&gt;&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;slug&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; false,
+						&#039;custom_attributes&#039; =&gt; array(
+							&#039;required&#039; =&gt; &#039;required&#039;,
+							&#039;maxlength&#039; =&gt; 20
+						),
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;slug&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Order in post type list&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;Position at which this post type will appear in post type list everywhere on the website.
+	&lt;b&gt;Note: If the entered value is already an order of other post type then this will not make any effect.&lt;/b&gt;&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;order&#039;,
+						&#039;type&#039;     =&gt; &#039;number&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;order&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Default image&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;Upload default post type image.  This will be used in some areas if the listing has no image and the category has no default image.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;default_image&#039;,
+						&#039;type&#039;     =&gt; &#039;image&#039;,
+						&#039;default&#039;  =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;default_image&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Menu icon&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The icon to be used in the admin menu from the post type.&#039;, &#039;geodirectory&#039; ),
+						&#039;class&#039;    =&gt; &#039;geodir-select&#039;,
+						&#039;id&#039;       =&gt; &#039;menu_icon&#039;,
+						&#039;type&#039;     =&gt; &#039;dashicon&#039;,
+						&#039;default&#039;  =&gt; &#039;admin-site&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;menu_icon&#039;],
+						&#039;custom_attributes&#039; =&gt; array(
+							&#039;data-dashicons&#039; =&gt; true
+						)
+					),
+
+					array(
+						&#039;name&#039; =&gt; __( &#039;Disable comments&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039; =&gt; __( &#039;Disable comments for all posts for this post type.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039; =&gt; &#039;disable_comments&#039;,
+						&#039;type&#039; =&gt; &#039;checkbox&#039;,
+						&#039;std&#039; =&gt; &#039;0&#039;,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039; =&gt; ( isset( $post_type_values[&#039;disable_comments&#039;] ) ? $post_type_values[&#039;disable_comments&#039;] : 0 )
+					),
+
+					array(
+						&#039;name&#039; =&gt; __( &#039;Disable ratings&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039; =&gt; __( &#039;Disable review stars without disabling comments.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;   =&gt; &#039;disable_reviews&#039;,
+						&#039;type&#039; =&gt; &#039;checkbox&#039;,
+						&#039;std&#039;  =&gt; &#039;0&#039;,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;disable_reviews&#039;]
+					),
+
+					array(
+						&#039;name&#039; =&gt; __( &#039;Single review&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039; =&gt; __( &#039;Restrict user to leave more than one review per post.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039; =&gt; &#039;single_review&#039;,
+						&#039;type&#039; =&gt; &#039;checkbox&#039;,
+						&#039;std&#039; =&gt; &#039;0&#039;,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039; =&gt; ( isset( $post_type_values[&#039;single_review&#039;] ) &amp;&amp; $post_type_values[&#039;single_review&#039;] ? absint( $post_type_values[&#039;single_review&#039;] ) : 0 )
+					),
+
+					array(
+						&#039;name&#039; =&gt; __( &#039;Disable favorites&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039; =&gt; __( &#039;Disable favorites for this post type?&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;   =&gt; &#039;disable_favorites&#039;,
+						&#039;type&#039; =&gt; &#039;checkbox&#039;,
+						&#039;std&#039;  =&gt; &#039;0&#039;,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;disable_favorites&#039;]
+					),
+
+					array(
+						&#039;name&#039; =&gt; __( &#039;Disable frontend add&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039; =&gt; __( &#039;Prevent this post type from being added from the frontend?&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;   =&gt; &#039;disable_frontend_add&#039;,
+						&#039;type&#039; =&gt; &#039;checkbox&#039;,
+						&#039;std&#039;  =&gt; &#039;0&#039;,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;disable_frontend_add&#039;]
+					),
+
+					array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;cpt_settings&#039; ),
+
+					// author settings
+					array(
+						&#039;title&#039;    =&gt; __( &#039;Author page&#039;, &#039;geodirectory&#039; ),
+						&#039;type&#039;     =&gt; &#039;title&#039;,
+						&#039;desc&#039;     =&gt; &#039;Settings for the author page url.&#039;,
+						&#039;id&#039;       =&gt; &#039;cpt_settings_author&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+					),
+					array(
+						&#039;name&#039; =&gt; __( &#039;Authors posts&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039; =&gt; __( &#039;Select the visibility of the authors posts on the authors posts url.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;   =&gt; &#039;author_posts_private&#039;,
+						&#039;type&#039; =&gt; &#039;select&#039;,
+						&#039;options&#039;  =&gt; array(
+							&quot;0&quot;   =&gt; __( &#039;Public&#039;, &#039;geodirectory&#039; ),
+							&quot;1&quot; =&gt; __( &#039;Private&#039;, &#039;geodirectory&#039; ),
+						),
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;author_posts_private&#039;]
+					),
+					array(
+						&#039;name&#039; =&gt; __( &#039;Authors favorites&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039; =&gt; __( &#039;Select the visibility of the authors favorites posts on the authors favorites url.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;   =&gt; &#039;author_favorites_private&#039;,
+						&#039;type&#039; =&gt; &#039;select&#039;,
+						&#039;options&#039;  =&gt; array(
+							&quot;0&quot;   =&gt; __( &#039;Public&#039;, &#039;geodirectory&#039; ),
+							&quot;1&quot; =&gt; __( &#039;Private&#039;, &#039;geodirectory&#039; ),
+						),
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;author_favorites_private&#039;]
+					),
+					array(
+						&#039;type&#039; =&gt; &#039;number&#039;,
+						&#039;id&#039; =&gt; &#039;limit_posts&#039;,
+						&#039;name&#039; =&gt; __( &#039;Limit Posts Per User&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039; =&gt; __( &#039;Limit total posts allowed per user. Leave blank or enter 0 to allow unlimited posts.&#039;, &#039;geodirectory&#039; ),
+						&#039;std&#039; =&gt; &#039;&#039;,
+						&#039;placeholder&#039; =&gt; __( &#039;Unlimited&#039;, &#039;geodirectory&#039; ),
+						&#039;value&#039; =&gt; ( (int) $post_type_values[&#039;limit_posts&#039;] === 0 ? &#039;&#039; : ( (int) $post_type_values[&#039;limit_posts&#039;] &lt; 0 ? -1 : (int) $post_type_values[&#039;limit_posts&#039;] ) ),
+						&#039;custom_attributes&#039; =&gt; array(
+							&#039;min&#039; =&gt; &#039;-1&#039;,
+							&#039;step&#039; =&gt; &#039;1&#039;
+						),
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true
+					),
+					array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;cpt_settings_author&#039; ),
+
+
+					array(
+						&#039;title&#039;    =&gt; __( &#039;Labels&#039;, &#039;geodirectory&#039; ),
+						&#039;type&#039;     =&gt; &#039;title&#039;,
+						&#039;desc&#039;     =&gt; &#039;Labels are used around WordPress to describe the post type and its actions.&#039;,
+						&#039;id&#039;       =&gt; &#039;cpt_settings_labels&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+					),
+
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Name&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;General name for the post type, &lt;b&gt;Usually Plural.&lt;/b&gt;&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;name&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; false,
+						&#039;custom_attributes&#039; =&gt; array(
+							&#039;required&#039; =&gt; &#039;required&#039;
+						),
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;name&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Singular name&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;Name for one object of this post type. Defaults to value of name.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;singular_name&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; false,
+						&#039;custom_attributes&#039; =&gt; array(
+							&#039;required&#039; =&gt; &#039;required&#039;
+						),
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;singular_name&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Add new&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The add new text. The default is Add New for both hierarchical and non-hierarchical types.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;add_new&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;add_new&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Add new item&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The add new item text. Default is Add New Post/Add New Page.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;add_new_item&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;add_new_item&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Edit item&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The edit item text. Default is Edit Post/Edit Page.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;edit_item&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;edit_item&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;New item&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The new item text. Default is New Post/New Page.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;new_item&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;new_item&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;View item&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The view item text. Default is View Post/View Page.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;view_item&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;view_item&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Search items&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The search items text. Default is Search Posts/Search Pages.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;search_items&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;search_items&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Not found&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The not found text. Default is No posts found/No pages found.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;not_found&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;not_found&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Not found in trash&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The not found in trash text. Default is No posts found in Trash/No pages found in Trash.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;not_found_in_trash&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;std&#039;      =&gt; &#039;&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;not_found_in_trash&#039;]
+					),
+					
+
+
+					array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;cpt_settings_labels&#039; ),
+
+					array(
+						&#039;title&#039;    =&gt; __( &#039;Description&#039;, &#039;geodirectory&#039; ),
+						&#039;type&#039;     =&gt; &#039;title&#039;,
+						&#039;desc&#039;     =&gt; &#039;&#039;,
+						&#039;id&#039;       =&gt; &#039;cpt_settings_description&#039;,
+						&#039;desc_tip&#039; =&gt; false,
+						&#039;advanced&#039; =&gt; true,
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Description&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;A short descriptive summary of what the post type is.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;description&#039;,
+						&#039;type&#039;     =&gt; &#039;textarea&#039;,
+						&#039;class&#039;    =&gt; &#039;active-placeholder&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;description&#039;]
+					),
+					array( &#039;type&#039; =&gt; &#039;sectionend&#039;, &#039;id&#039; =&gt; &#039;cpt_settings_description&#039; ),
+
+					array(
+						&#039;title&#039;    =&gt; __( &#039;SEO Overrides&#039;, &#039;geodirectory&#039; ),
+						&#039;type&#039;     =&gt; &#039;title&#039;,
+						&#039;desc&#039;     =&gt; __( &#039;Main settings are set from the General&gt;Titles &amp; Meta settings, here you can override those per CPT.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;cpt_settings_seo&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Title&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;The page title will appear on the post type archive page.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;title&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;class&#039;    =&gt; &#039;active-placeholder&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;title&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Meta Title&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;Meta title will appear in head tag of this post type archive page.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;meta_title&#039;,
+						&#039;type&#039;     =&gt; &#039;text&#039;,
+						&#039;class&#039;    =&gt; &#039;active-placeholder&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;meta_title&#039;]
+					),
+					array(
+						&#039;name&#039;     =&gt; __( &#039;Meta Description&#039;, &#039;geodirectory&#039; ),
+						&#039;desc&#039;     =&gt; __( &#039;Meta description will appear in head tag of this post type archive page.&#039;, &#039;geodirectory&#039; ),
+						&#039;id&#039;       =&gt; &#039;meta_description&#039;,
+						&#039;type&#039;     =&gt; &#039;textarea&#039;,
+						&#039;class&#039;    =&gt; &#039;active-placeholder&#039;,
+						&#039;desc_tip&#039; =&gt; true,
+						&#039;advanced&#039; =&gt; true,
+						&#039;value&#039;	   =&gt; $post_type_values[&#039;meta_description&#039;]
+					),
+
+					// Page template
+					array(
+						&#039;type&#039; =&gt; &#039;sectionend&#039;,
+						&#039;id&#039; =&gt; &#039;cpt_settings_seo&#039;
+					)
+				),
+				$cpt_page_settings
+				) 
+			);
+
+			//set_current_values()
+
+			return apply_filters( &#039;geodir_get_settings_&#039; . $this-&gt;id, $settings, $current_section, $post_type_values );
+		}
+
+        /**
+         * Set GeoDir current values.
+         *
+         * @since 2.0.0
+         *
+         * @param array $settings {
+         *      An array of settings.
+         *
+         *      @type string $id Settings id.
+         *      @type string $default Settings default id.
+         *      @type string $custom_attributes Settings custom attributes.
+         * }
+         * @return array $settings.
+         */
+		public static function set_current_values($settings){
+
+			if(self::$post_type){
+				$post_types = geodir_get_option(&#039;post_types&#039;, array());
+
+				if(isset($post_types[self::$post_type])){
+					$cpt = $post_types[self::$post_type];
+					foreach($settings as $key =&gt; $setting){
+						if(isset($setting[&#039;id&#039;]) &amp;&amp; !isset($setting[&#039;default&#039;])){
+
+							// check standard fields
+							if(array_key_exists($setting[&#039;id&#039;],$cpt)){
+								$settings[$key][&#039;default&#039;] =  $cpt[$setting[&#039;id&#039;]];
+							}else{ // might be in an array value
+								foreach($cpt as $cpt_val){
+									if(is_array($cpt_val)){
+										if(array_key_exists($setting[&#039;id&#039;],$cpt_val)){
+											$settings[$key][&#039;default&#039;] =  $cpt_val[$setting[&#039;id&#039;]];
+										}
+									}
+								}
+
+							}
+
+							// set the post type
+							if($setting[&#039;id&#039;]==&#039;post_type&#039; &amp;&amp; !isset($setting[&#039;default&#039;])){
+								$settings[$key][&#039;default&#039;] = self::$post_type;
+								$settings[$key][&#039;custom_attributes&#039;] = array(&#039;disabled&#039;=&gt;&#039;disabled&#039;);
+
+							}
+
+						}
+					}
+				}
+			}
+
+			return $settings;
+		}
+
+        /**
+         * Sanatize post type.
+         *
+         * @since 2.0.0
+         *
+         * @param array $raw {
+         *      An array sanatize post type.
+         *
+         * @type string $new_post_type New sanatize post type.
+         * @type string $name New post type name.
+         * @type string $singular_name New Post type singular name.
+         * @type string $slug New post type slug.
+         * }
+         *
+         * @return array $output.
+         */
+		public static function sanatize_post_type( $raw ) {
+			$output = array();
+
+			$post_types = geodir_get_option( &#039;post_types&#039;, array() );
+			$raw = stripslashes_deep( $raw );
+			$post_type = isset($raw[&#039;new_post_type&#039;]) &amp;&amp; $raw[&#039;new_post_type&#039;] ? str_replace(&quot;-&quot;,&quot;_&quot;,sanitize_key($raw[&#039;new_post_type&#039;])) : self::$post_type;
+			$name = isset($raw[&#039;name&#039;]) &amp;&amp; $raw[&#039;name&#039;] ? sanitize_text_field($raw[&#039;name&#039;]) : null;
+			$singular_name = isset($raw[&#039;singular_name&#039;]) &amp;&amp; $raw[&#039;singular_name&#039;] ? sanitize_text_field($raw[&#039;singular_name&#039;]) : null;
+			//$slug = isset($raw[&#039;slug&#039;]) &amp;&amp; $raw[&#039;slug&#039;] ? str_replace(&quot;-&quot;,&quot;_&quot;,sanitize_key($raw[&#039;slug&#039;])) : $post_type;
+			$slug = isset($raw[&#039;slug&#039;]) &amp;&amp; $raw[&#039;slug&#039;] ? sanitize_key($raw[&#039;slug&#039;]) : $post_type;
+
+			if ( ! $post_type || !$name || !$slug || ! $singular_name ) {
+				return new WP_Error( &#039;invalid_post_type&#039;, __( &#039;Invalid or missing post type&#039;, &#039;geodirectory&#039; ) );
+			}
+
+			// check the CPT is &quot;gd_&quot;prepended
+			if ( strpos( $post_type, &#039;gd_&#039; ) === 0 ) {
+				// all good
+			} else {
+				$post_type = &quot;gd_&quot; . $post_type;
+			}
+
+			if ( ! empty( $raw[&#039;new_post_type&#039;] ) &amp;&amp; ! empty( $post_types[ $raw[&#039;new_post_type&#039;] ] ) ) {
+				return new WP_Error( &#039;invalid_post_type&#039;, __( &#039;Post type already exists.&#039;, &#039;geodirectory&#039; ) );
+			}
+
+			if ( ! empty( $post_types ) ) {
+				foreach ( $post_types as $key =&gt; $data ) {
+					if ( ! empty( $data[&#039;has_archive&#039;] ) &amp;&amp; $data[&#039;has_archive&#039;] == $slug &amp;&amp; $post_type != $key ) {
+						return new WP_Error( &#039;invalid_post_type&#039;, __( &#039;Post type slug already exists.&#039;, &#039;geodirectory&#039; ) );
+					}
+				}
+			}
+
+			// Set the labels
+			$output[$post_type][&#039;labels&#039;] = array(
+				&#039;name&#039; =&gt; $name,
+				&#039;singular_name&#039; =&gt; $singular_name,
+				&#039;add_new&#039; =&gt; isset($raw[&#039;add_new&#039;]) &amp;&amp; $raw[&#039;add_new&#039;] ? sanitize_text_field($raw[&#039;add_new&#039;]) : _x( &#039;Add New&#039;, $post_type, &#039;geodirectory&#039; ),
+				&#039;add_new_item&#039; =&gt; isset($raw[&#039;add_new_item&#039;]) &amp;&amp; $raw[&#039;add_new_item&#039;] ? sanitize_text_field($raw[&#039;add_new_item&#039;]) : __( &#039;Add New &#039; . $singular_name, &#039;geodirectory&#039; ),
+				&#039;edit_item&#039; =&gt; isset($raw[&#039;edit_item&#039;]) &amp;&amp; $raw[&#039;edit_item&#039;] ? sanitize_text_field($raw[&#039;edit_item&#039;]) : __( &#039;Edit &#039; . $singular_name, &#039;geodirectory&#039; ),
+				&#039;new_item&#039; =&gt; isset($raw[&#039;new_item&#039;]) &amp;&amp; $raw[&#039;new_item&#039;] ? sanitize_text_field($raw[&#039;new_item&#039;]) : __( &#039;New &#039; . $singular_name, &#039;geodirectory&#039; ),
+				&#039;view_item&#039; =&gt; isset($raw[&#039;view_item&#039;]) &amp;&amp; $raw[&#039;view_item&#039;] ? sanitize_text_field($raw[&#039;view_item&#039;]) : __( &#039;View &#039; . $singular_name, &#039;geodirectory&#039; ),
+				&#039;search_items&#039; =&gt; isset($raw[&#039;search_items&#039;]) &amp;&amp; $raw[&#039;search_items&#039;] ? sanitize_text_field($raw[&#039;search_items&#039;]) : __( &#039;Search &#039; . $name, &#039;geodirectory&#039; ),
+				&#039;not_found&#039; =&gt; isset($raw[&#039;not_found&#039;]) &amp;&amp; $raw[&#039;not_found&#039;] ? sanitize_text_field($raw[&#039;not_found&#039;]) : __( &#039;No &#039; . $name . &#039; found.&#039;, &#039;geodirectory&#039; ),
+				&#039;not_found_in_trash&#039; =&gt; isset($raw[&#039;not_found_in_trash&#039;]) &amp;&amp; $raw[&#039;not_found_in_trash&#039;] ? sanitize_text_field($raw[&#039;not_found_in_trash&#039;]) : __( &#039;No &#039; . $name . &#039; found in trash.&#039;, &#039;geodirectory&#039; )
+			);
+			// Post type description
+			$output[$post_type][&#039;description&#039;] = ! empty( $raw[&#039;description&#039;] ) ? trim( $raw[&#039;description&#039;] ) : &#039;&#039;;
+
+			// defaults that likely wont change
+			$output[$post_type][&#039;can_export&#039;] = true;
+			$output[$post_type][&#039;capability_type&#039;] = &#039;post&#039;;
+			$output[$post_type][&#039;has_archive&#039;] = $slug;
+			$output[$post_type][&#039;hierarchical&#039;] = false;
+			$output[$post_type][&#039;map_meta_cap&#039;] = true;
+			$output[$post_type][&#039;public&#039;] = true;
+			$output[$post_type][&#039;query_var&#039;] = true;
+			$output[$post_type][&#039;show_in_nav_menus&#039;] = true;
+			$output[$post_type][&#039;rewrite&#039;] = array(
+				&#039;slug&#039; =&gt; $slug,
+				&#039;with_front&#039; =&gt; false,
+				&#039;hierarchical&#039; =&gt; true,
+				&#039;feeds&#039; =&gt; true
+			);
+			$output[$post_type][&#039;supports&#039;] = array(
+				&#039;title&#039;,
+				&#039;editor&#039;,
+				&#039;author&#039;,
+				&#039;thumbnail&#039;,
+				&#039;excerpt&#039;,
+				&#039;custom-fields&#039;,
+				&#039;comments&#039;,
+				&#039;revisions&#039;
+			);
+			$output[$post_type][&#039;taxonomies&#039;] = array( 
+				$post_type . &quot;category&quot;,
+				$post_type . &quot;_tags&quot;
+			);
+
+			// list order
+			$output[$post_type][&#039;listing_order&#039;] = isset($raw[&#039;order&#039;]) &amp;&amp; $raw[&#039;order&#039;] ? absint($raw[&#039;order&#039;]) : 0;
+
+			// disable features
+			$output[$post_type][&#039;disable_comments&#039;] = isset($raw[&#039;disable_comments&#039;]) &amp;&amp; $raw[&#039;disable_comments&#039;] ? absint($raw[&#039;disable_comments&#039;]) : 0;
+			$output[$post_type][&#039;disable_reviews&#039;] = isset($raw[&#039;disable_reviews&#039;]) &amp;&amp; $raw[&#039;disable_reviews&#039;] ? absint($raw[&#039;disable_reviews&#039;]) : 0;
+			$output[$post_type][&#039;single_review&#039;] = isset( $raw[&#039;single_review&#039;] ) &amp;&amp; $raw[&#039;single_review&#039;] ? absint( $raw[&#039;single_review&#039;] ) : 0;
+			$output[$post_type][&#039;disable_favorites&#039;] = isset($raw[&#039;disable_favorites&#039;]) &amp;&amp; $raw[&#039;disable_favorites&#039;] ? absint($raw[&#039;disable_favorites&#039;]) : 0;
+			$output[$post_type][&#039;disable_frontend_add&#039;] = isset($raw[&#039;disable_frontend_add&#039;]) &amp;&amp; $raw[&#039;disable_frontend_add&#039;] ? absint($raw[&#039;disable_frontend_add&#039;]) : 0;
+
+			// author
+			$output[$post_type][&#039;author_posts_private&#039;] = isset($raw[&#039;author_posts_private&#039;]) &amp;&amp; $raw[&#039;author_posts_private&#039;] ? absint($raw[&#039;author_posts_private&#039;]) : 0;
+			$output[$post_type][&#039;author_favorites_private&#039;] = isset($raw[&#039;author_favorites_private&#039;]) &amp;&amp; $raw[&#039;author_favorites_private&#039;] ? absint($raw[&#039;author_favorites_private&#039;]) : 0;
+			$output[$post_type][&#039;limit_posts&#039;] = isset( $raw[&#039;limit_posts&#039;] ) &amp;&amp; $raw[&#039;limit_posts&#039;] ? (int) $raw[&#039;limit_posts&#039;] : 0;
+
+			// seo content
+			$output[$post_type][&#039;seo&#039;][&#039;title&#039;] = isset($raw[&#039;title&#039;]) &amp;&amp; $raw[&#039;title&#039;] ? sanitize_text_field($raw[&#039;title&#039;]) : &#039;&#039;;
+			$output[$post_type][&#039;seo&#039;][&#039;meta_title&#039;] = isset($raw[&#039;meta_title&#039;]) &amp;&amp; $raw[&#039;meta_title&#039;] ? sanitize_text_field($raw[&#039;meta_title&#039;]) : &#039;&#039;;
+			$output[$post_type][&#039;seo&#039;][&#039;meta_description&#039;] = isset($raw[&#039;meta_description&#039;]) &amp;&amp; $raw[&#039;meta_description&#039;] ? sanitize_text_field($raw[&#039;meta_description&#039;]) : &#039;&#039;;
+
+			$output[$post_type][&#039;menu_icon&#039;] = !empty( $raw[&#039;menu_icon&#039;] ) ? GeoDir_Post_types::sanitize_menu_icon( $raw[&#039;menu_icon&#039;] ) : &#039;dashicons-admin-post&#039;;
+			$output[$post_type][&#039;default_image&#039;] = !empty( $raw[&#039;default_image&#039;] ) ? $raw[&#039;default_image&#039;] : &#039;&#039;;
+
+			// Page template
+			$output[$post_type][&#039;page_add&#039;] = isset( $raw[&#039;page_add&#039;] ) ? (int)$raw[&#039;page_add&#039;] : 0;
+			$output[$post_type][&#039;page_details&#039;] = isset( $raw[&#039;page_details&#039;] ) ? (int)$raw[&#039;page_details&#039;] : 0;
+			$output[$post_type][&#039;page_archive&#039;] = isset( $raw[&#039;page_archive&#039;] ) ? (int)$raw[&#039;page_archive&#039;] : 0;
+			$output[$post_type][&#039;page_archive_item&#039;] = isset( $raw[&#039;page_archive_item&#039;] ) ? (int)$raw[&#039;page_archive_item&#039;] : 0;
+			$output[$post_type][&#039;template_add&#039;] = isset( $raw[&#039;template_add&#039;] ) ? (int)$raw[&#039;template_add&#039;] : 0;
+			$output[$post_type][&#039;template_details&#039;] = isset( $raw[&#039;template_details&#039;] ) ? (int)$raw[&#039;template_details&#039;] : 0;
+			$output[$post_type][&#039;template_archive&#039;] = isset( $raw[&#039;template_archive&#039;] ) ? (int)$raw[&#039;template_archive&#039;] : 0;
+
+			return apply_filters(&#039;geodir_save_post_type&#039;, $output, $post_type, $raw);
+
+		}
+	}
+
+
+endif;
+
+return new GeoDir_Settings_Cpt();
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>
