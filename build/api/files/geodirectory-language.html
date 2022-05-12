@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">language.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Language constants used in the plugin
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ */
+
+/*
+ * NOTE: when editing text in this file, a single apostrophe ( &#039; ) can cause the site to break
+ * Use an escaped apostrophe ( \&#039; ) inside text in ALL cases
+ * Good Example: define(&#039;EXAMPLE_TEXT&#039;,__(&#039;It\&#039;s a nice day.&#039;,&#039;geodirectory&#039;));
+ * Bad Example define(&#039;EXAMPLE_TEXT&#039;,__(&#039;It&#039;s a nice day.&#039;,&#039;geodirectory&#039;));
+ */
+
+/**
+ * deprecated @since 2.0.0.68 (no longer in use)
+ */
+define(&#039;NEAR_TEXT&#039;, __(&#039;Near&#039;, &#039;geodirectory&#039;));
+define(&#039;SEARCH_FOR_TEXT&#039;, __(&#039;Search for&#039;, &#039;geodirectory&#039;));
+define(&#039;SEARCH_FOR_MSG&#039;, __(&#039;food, products or place&#039;, &#039;geodirectory&#039;));
+define(&#039;SEARCH_NEAR_MSG&#039;, __(&#039;Zip code or address&#039;, &#039;geodirectory&#039;));
+define(&#039;SEARCH&#039;, __(&#039;Search&#039;, &#039;geodirectory&#039;));
+define(&#039;ADD_LISTING_TEXT&#039;, __(&#039;Add Listing&#039;, &#039;geodirectory&#039;));
+define(&#039;MY_LISTINGS_TEXT&#039;, __(&#039;My Listings&#039;, &#039;geodirectory&#039;));
+define(&#039;LOGINORREGISTER&#039;, __(&quot;Login or Register&quot;, &#039;geodirectory&#039;));
+define(&#039;IAM_TEXT&#039;, __(&quot;I am&quot;, &#039;geodirectory&#039;));
+define(&#039;EXISTING_USER_TEXT&#039;, __(&quot;Existing User&quot;, &#039;geodirectory&#039;));
+define(&#039;NEW_USER_TEXT&#039;, __(&quot;New User? Register Now&quot;, &#039;geodirectory&#039;));
+define(&#039;LOGIN_TEXT&#039;, __(&#039;Login&#039;, &#039;geodirectory&#039;));
+define(&#039;SUBMIT_BUTTON&#039;, __(&#039;Submit&#039;, &#039;geodirectory&#039;));
+define(&#039;CONTACT_DETAIL_TITLE&#039;, __(&#039;Publisher Information&#039;, &#039;geodirectory&#039;));
+define(&#039;CONTACT_NAME_TEXT&#039;, __(&#039;Name&#039;, &#039;geodirectory&#039;));
+define(&#039;CONTACT_TEXT&#039;, __(&#039;Contact Number&#039;, &#039;geodirectory&#039;));
+define(&#039;EMAIL_TEXT&#039;, __(&#039;Email&#039;, &#039;geodirectory&#039;));
+define(&#039;LISTING_DETAILS_TEXT&#039;, __(&#039;Enter Listing Details&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_TITLE_TEXT&#039;, __(&#039;Listing Title&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_DESC_TEXT&#039;, __(&#039;Listing Description&#039;, &#039;geodirectory&#039;));
+define(&#039;LISTING_ADDRESS_TEXT&#039;, __(&#039;Listing Address:&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_ADDRESS&#039;, __(&#039;Address:&#039;, &#039;geodirectory&#039;));
+define(&#039;ADDRESS_MSG&#039;, __(&#039;Please enter the listing street address. eg. : 230 Vine Street&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_CITY_TEXT&#039;, __(&#039;City:&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_REGION_TEXT&#039;, __(&#039;Region:&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_COUNTRY_TEXT&#039;, __(&#039;Country:&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_ZIP_TEXT&#039;, __(&#039;Zip/PostCode:&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_ADDRESS_LAT&#039;, __(&#039;Address Latitude&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_ADDRESS_LNG&#039;, __(&#039;Address Longitude&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_MAP_VIEW&#039;, __(&#039;Google Map View&#039;, &#039;geodirectory&#039;));
+define(&#039;NOT_WITH_PACKAGE&#039;, __(&#039;Not available with the selected package.&#039;, &#039;geodirectory&#039;));
+define(&#039;NO_CATEGORY_LISTINGS&#039;, __(&#039;&lt;b&gt;No Listings here&lt;/b&gt;&#039;, &#039;geodirectory&#039;));
+define(&#039;PRO_DESCRIPTION_TEXT&#039;, __(&#039;Listing Description&#039;, &#039;geodirectory&#039;));
+define(&#039;PRO_FEATURE_TEXT&#039;, __(&#039;Special Offers&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_TIMING&#039;, __(&#039;Time&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_CONTACT_INFO&#039;, __(&#039;Phone&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_CONTACT_EMAIL&#039;, __(&#039;Email&#039;, &#039;geodirectory&#039;));
+define(&#039;WEBSITE_TEXT&#039;, __(&#039;Website&#039;, &#039;geodirectory&#039;));
+define(&#039;TWITTER_TEXT&#039;, __(&#039;Twitter&#039;, &#039;geodirectory&#039;));
+define(&#039;FACEBOOK_TEXT&#039;, __(&#039;Facebook&#039;, &#039;geodirectory&#039;));
+define(&#039;PLACE_CATEGORY_TEXT&#039;, __(&#039;Category&#039;, &#039;geodirectory&#039;));
+define(&#039;PRO_PHOTO_TEXT&#039;, __(&#039;Add Images : &lt;small&gt;(You can upload more than one images to create image gallery on detail page)&lt;/small&gt;&#039;, &#039;geodirectory&#039;));
+define(&#039;PHOTOES_BUTTON&#039;, __(&#039;Select Images&#039;, &#039;geodirectory&#039;));
+define(&#039;PRO_VIDEO_TEXT&#039;, __(&#039;Video code&#039;, &#039;geodirectory&#039;));
+define(&#039;HTML_VIDEO_TEXT&#039;, __(&#039;Add video code here, YouTube etc&#039;, &#039;geodirectory&#039;));
+define(&#039;PRO_ADDFEATURE_TEXT&#039;, __(&#039;Add custom feature&#039;, &#039;geodirectory&#039;));
+define(&#039;MAP_NO_RESULTS&#039;, __(&#039;&lt;h3&gt;No Records Found&lt;/h3&gt;&lt;p&gt;Sorry, no records were found. Please adjust your search criteria and try again.&lt;/p&gt;&#039;, &#039;geodirectory&#039;));
+define(&#039;LISTINGMAP_PAGE_VALIDATION_TEXT&#039;, __(&#039;&lt;h3&gt;No Record Found&lt;/h3&gt;&lt;p&gt;Sorry, This widget can only be used on listing page.&lt;/p&gt;&#039;, &#039;geodirectory&#039;));
+define(&#039;SINGLEMAP_PAGE_VALIDATION_TEXT&#039;, __(&#039;&lt;h3&gt;No Record Found&lt;/h3&gt;&lt;p&gt;Sorry, This widget can only be used on place page.&lt;/p&gt;&#039;, &#039;geodirectory&#039;));
+define(&#039;CAPTCHA_TITLE_TEXT&#039;, __(&#039;Captcha Verification&#039;, &#039;geodirectory&#039;));
+define(&#039;CAPTCHA&#039;, __(&#039;Word Verification&#039;, &#039;geodirectory&#039;));
+define(&#039;GOING_TO_PAY_MSG&#039;, __(&#039;This is a preview of your listing and its not published yet. &lt;br /&gt;If there is something wrong then &quot;Go back and edit&quot; or if you want to add listing then click on &quot;Publish&quot;.&lt;br&gt; You are going to pay &lt;b&gt;%s&lt;/b&gt; &amp;  alive days are &lt;b&gt;%s&lt;/b&gt; as %s listing&#039;, &#039;geodirectory&#039;));
+define(&#039;GOING_TO_UPDATE_MSG&#039;, __(&#039;This is a preview of your listing and its not updated yet. &lt;br /&gt;If there is something wrong then &quot;Go back and edit&quot; or if you want to update listing then click on &quot;Update now&quot;&#039;, &#039;geodirectory&#039;));
+define(&#039;GOING_TO_FREE_MSG&#039;, __(&#039;This is a preview of your listing and its not published yet. &lt;br /&gt;If there is something wrong then &quot;Go back and edit&quot; or if you want to add listing then click on &quot;Publish&quot;.&lt;br&gt; Your %s listing will published for &lt;b&gt;%s&lt;/b&gt; days&#039;, &#039;geodirectory&#039;));
+define(&#039;UNLIMITED&#039;, __(&#039;Unlimited&#039;, &#039;geodirectory&#039;));
+define(&#039;BASIC_INFO_TEXT&#039;, __(&#039;Home Information&#039;, &#039;geodirectory&#039;));
+define(&#039;PRO_BACK_AND_EDIT_TEXT&#039;, __(&#039;&amp;laquo; Go Back and Edit&#039;, &#039;geodirectory&#039;));
+define(&#039;PRO_UPDATE_BUTTON&#039;, __(&#039;Update Now&#039;, &#039;geodirectory&#039;));
+define(&#039;PRO_SUBMIT_BUTTON&#039;, __(&#039;Publish&#039;, &#039;geodirectory&#039;));
+define(&#039;PRO_CANCEL_BUTTON&#039;, __(&#039;Cancel&#039;, &#039;geodirectory&#039;));
+define(&#039;PUBLISH_DAYS_TEXT&#039;, __(&#039;%s : number of publish days are %s (&lt;span id=&quot;%s&quot;&gt;%s %s&lt;/span&gt;)&#039;, &#039;geodirectory&#039;));
+define(&#039;SELECT_PAY_MEHTOD_TEXT&#039;, __(&#039;Select Payment Method&#039;, &#039;geodirectory&#039;));
+define(&#039;FAVOURITE_TEXT&#039;, __(&#039;Favorite&#039;, &#039;geodirectory&#039;));
+define(&#039;UNFAVOURITE_TEXT&#039;, __(&#039;Unfavorite&#039;, &#039;geodirectory&#039;));
+define(&#039;MY_FAVOURITE_TEXT&#039;, __(&#039;My Favorites&#039;, &#039;geodirectory&#039;));
+define(&#039;ADD_FAVOURITE_TEXT&#039;, __(&#039;Add to Favorites&#039;, &#039;geodirectory&#039;));
+define(&#039;REMOVE_FAVOURITE_TEXT&#039;, __(&#039;Remove from Favorites&#039;, &#039;geodirectory&#039;));
+define(&#039;FAVOURITE_NOT_AVAIL_MSG&#039;, __(&#039;You have not added any favorites yet.&#039;, &#039;geodirectory&#039;));
+define(&#039;REGISTRATION_DESABLED_MSG&#039;, __(&#039;New user registration disabled.&#039;, &#039;geodirectory&#039;));
+define(&#039;TIMING_MSG&#039;, __(&#039;Enter Business or Listing Timing Information. &lt;br /&gt; eg. : &lt;b&gt;10.00 am to 6 pm every day&lt;/b&gt;&#039;, &#039;geodirectory&#039;));
+define(&#039;EMAIL_TEXT_MSG&#039;, __(&#039;Enter valid Email otherwise you will face an error.&#039;, &#039;geodirectory&#039;));
+define(&#039;GET_MAP_MSG&#039;, __(&#039;Click on &quot;Set Address on Map&quot; and then you can also drag pinpoint to locate the correct address&#039;, &#039;geodirectory&#039;));
+define(&#039;GET_LATITUDE_MSG&#039;, __(&#039;Please enter latitude for google map perfection. eg. : &lt;b&gt;39.955823048131286&lt;/b&gt;&#039;, &#039;geodirectory&#039;));
+define(&#039;GET_LOGNGITUDE_MSG&#039;, __(&#039;Please enter longitude for google map perfection. eg. : &lt;b&gt;-75.14408111572266&lt;/b&gt;&#039;, &#039;geodirectory&#039;));
+define(&#039;GEODIR_LATITUDE_ERROR_MSG&#039;, __(&#039;A numeric value is required. Please make sure you have either dragged the marker or clicked the button: Set Address On Map&#039;, &#039;geodirectory&#039;));
+define(&#039;GEODIR_LOGNGITUDE_ERROR_MSG&#039;, __(&#039;A numeric value is required. Please make sure you have either dragged the marker or clicked the button: Set Address On Map&#039;, &#039;geodirectory&#039;));
+define(&#039;CONTACT_MSG&#039;, __(&#039;You can enter phone number,cell phone number etc.&#039;, &#039;geodirectory&#039;));
+define(&#039;WEBSITE_MSG&#039;, __(&#039;Enter website URL. eg. : &lt;b&gt;http://myplace.com&lt;/b&gt;&#039;, &#039;geodirectory&#039;));
+define(&#039;TWITTER_MSG&#039;, __(&#039;Enter twitter URL. eg. : &lt;b&gt;http://twitter.com/myplace&lt;/b&gt;&#039;, &#039;geodirectory&#039;));
+define(&#039;FACEBOOK_MSG&#039;, __(&#039;Enter facebook URL. eg. : &lt;b&gt;http://facebook.com/myplace&lt;/b&gt;&#039;, &#039;geodirectory&#039;));
+define(&#039;CATEGORY_MSG&#039;, __(&#039;Select listing category from here. Select at least one category&#039;, &#039;geodirectory&#039;));
+define(&#039;HTML_TAGS_ALLOW_MSG&#039;, __(&#039;Note : Basic HTML tags are allowed&#039;, &#039;geodirectory&#039;));
+define(&#039;HTML_SPECIAL_TEXT&#039;, __(&#039;Note: List out any special offers (optional)&#039;, &#039;geodirectory&#039;));
+define(&#039;IMAGE_SAVE_ORDERING_MSG&#039;, __(&#039;Note : You can sort images once the post is saved by clicking on &quot;Edit&quot; on the listing&#039;, &#039;geodirectory&#039;));
+define(&#039;VERIFY_PAGE_TITLE&#039;, __(&#039;Verify Listing&#039;, &#039;geodirectory&#039;));
+define(&#039;WRONG_CAPTCH_MSG&#039;, __(&#039;Enter correct verification code.&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENTS_TITLE_PLACE&#039;, __(&#039;Place Your Review&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENTS_TITLE_BLOG&#039;, __(&#039;Your Comments&#039;, &#039;geodirectory&#039;));
+define(&#039;RATING_MSG&#039;, __(&#039;Rate this place by clicking a star below :&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_TEXT&#039;, __(&#039;Comment&#039;, &#039;geodirectory&#039;));
+define(&#039;REVIEW_TEXT&#039;, __(&#039;Review&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_TEXT2&#039;, __(&#039;Comments&#039;, &#039;geodirectory&#039;));
+define(&#039;REVIEW_TEXT2&#039;, __(&#039;Reviews&#039;, &#039;geodirectory&#039;));
+define(&#039;REVIEW_SUBMIT_BTN&#039;, __(&#039;Submit Review&#039;, &#039;geodirectory&#039;));
+define(&#039;OWNER_TEXT&#039;, __(&#039;Business Owner&#039;, &#039;geodirectory&#039;));
+define(&#039;SITE_ADMIN&#039;, __(&#039;Site Admin&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_TRACKBACKS&#039;, __(&#039;Trackbacks For This Post&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_MODERATION&#039;, __(&#039;Your review is awaiting moderation.&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENTS_CLOSED&#039;, __(&#039;Review are closed.&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_REPLY&#039;, __(&#039;Post Your Review&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_MUSTBE&#039;, __(&#039;You must be&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_LOGGED_IN&#039;, __(&#039;logged in&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_POST_REVIEW&#039;, __(&#039;to post a review.&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_LOGOUT&#039;, __(&#039;Logout&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_NAME&#039;, __(&#039;Name&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_EMAIL&#039;, __(&#039;Email&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_WEBSITE&#039;, __(&#039;Website&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_ADD_COMMENT&#039;, __(&#039;Add Comment&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_REPLY_NAME&#039;, __(&#039;Reply&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_EDIT_NAME&#039;, __(&#039;Edit&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_DELETE_NAME&#039;, __(&#039;Delete&#039;, &#039;geodirectory&#039;));
+define(&#039;COMMENT_SPAM_NAME&#039;, __(&#039;Spam&#039;, &#039;geodirectory&#039;));
+define(&#039;ENTER_LOCATION_TEXT&#039;, __(&#039;Enter Your Location&#039;, &#039;geodirectory&#039;));
+define(&#039;READMORE_TEXT&#039;, __(&#039;Read More...&#039;, &#039;geodirectory&#039;));
+define(&#039;DASHBOARD_TEXT&#039;, __(&#039;Dashboard&#039;, &#039;geodirectory&#039;));
+define(&#039;EDIT_PROFILE_PAGE_TITLE&#039;, __(&#039;Edit Profile&#039;, &#039;geodirectory&#039;));
+define(&#039;CHANGE_PW_TEXT&#039;, __(&#039;Change Password&#039;, &#039;geodirectory&#039;));
+define(&#039;LOGOUT_TEXT&#039;, __(&#039;Logout&#039;, &#039;geodirectory&#039;));
+define(&#039;WELCOME_TEXT&#039;, __(&#039;Welcome&#039;, &#039;geodirectory&#039;));
+define(&#039;FORGOT_PW_TEXT&#039;, __(&#039;Forgot Password?&#039;, &#039;geodirectory&#039;));
+define(&#039;USERNAME_EMAIL_TEXT&#039;, __(&#039;E-mail&#039;, &#039;geodirectory&#039;));
+define(&#039;USERNAME_TEXT&#039;, __(&#039;Email&#039;, &#039;geodirectory&#039;));
+define(&#039;PASSWORD_TEXT&#039;, __(&#039;Password&#039;, &#039;geodirectory&#039;));
+define(&#039;CONFIRM_PASSWORD_TEXT&#039;, __(&#039;Confirm Password&#039;, &#039;geodirectory&#039;));
+define(&#039;PASSWORD_LENGTH_MSG&#039;, __(&#039;Enter your user password, must be 7 characters or more&#039;, &#039;geodirectory&#039;));
+define(&#039;PASSWORD_LENGTH_TEXT&#039;, __(&#039;Password must be 7 characters or more&#039;, &#039;geodirectory&#039;));
+define(&#039;PASSWORD_MATCH_TEXT&#039;, __(&#039;Passwords do not match&#039;, &#039;geodirectory&#039;));
+define(&#039;REMEMBER_ON_COMPUTER_TEXT&#039;, __(&#039;Remember me on this computer&#039;, &#039;geodirectory&#039;));
+define(&#039;GET_NEW_PW_TEXT&#039;, __(&#039;Get New Password&#039;, &#039;geodirectory&#039;));
+define(&#039;REGISTRATION_NOW_TEXT&#039;, __(&#039;Sign Up Now&#039;, &#039;geodirectory&#039;));
+define(&#039;PERSONAL_INFO_TEXT&#039;, __(&#039;Personal Information&#039;, &#039;geodirectory&#039;));
+define(&#039;FIRST_NAME_TEXT&#039;, __(&#039;Full Name&#039;, &#039;geodirectory&#039;));
+define(&#039;REGISTRATION_MESSAGE&#039;, __(&#039;(Note: A password will be e-mailed to you for future usage)&#039;, &#039;geodirectory&#039;));
+define(&#039;REGISTER_NOW_TEXT&#039;, __(&#039;Register Now&#039;, &#039;geodirectory&#039;));
+define(&#039;SIGN_IN_BUTTON&#039;, __(&#039;Sign In&#039;, &#039;geodirectory&#039;));
+define(&#039;REGISTER_BUTTON&#039;, __(&#039;Register&#039;, &#039;geodirectory&#039;));
+define(&#039;SIGN_IN_PAGE_TITLE&#039;, __(&#039;Sign In&#039;, &#039;geodirectory&#039;));
+define(&#039;INVALID_USER_PW_MSG&#039;, __(&#039;Invalid Username/Password.&#039;, &#039;geodirectory&#039;));
+define(&#039;REG_COMPLETE_MSG&#039;, __(&#039;Registration complete. Please check your e-mail for login details.&#039;, &#039;geodirectory&#039;));
+define(&#039;NEW_PW_EMAIL_MSG&#039;, __(&#039;We just sent you a new password. Kindly check your e-mail now.&#039;, &#039;geodirectory&#039;));
+define(&#039;EMAIL_CONFIRM_LINK_MSG&#039;, __(&#039;A confirmation link has been sent to you via email. Kindly check your e-mail now.&#039;, &#039;geodirectory&#039;));
+define(&#039;USER_REG_NOT_ALLOW_MSG&#039;, __(&#039;User registration has been disabled by the admin.&#039;, &#039;geodirectory&#039;));
+define(&#039;YOU_ARE_LOGED_OUT_MSG&#039;, __(&#039;You are now logged out.&#039;, &#039;geodirectory&#039;));
+define(&#039;ENTER_USER_EMAIL_NEW_PW_MSG&#039;, __(&#039;Please enter your e-mail address as username. You will receive a new password via e-mail.&#039;, &#039;geodirectory&#039;));
+define(&#039;INVALID_USER_FPW_MSG&#039;, __(&#039;Invalid Email, Please check&#039;, &#039;geodirectory&#039;));
+define(&#039;PW_SEND_CONFIRM_MSG&#039;, __(&#039;Check your e-mail for your new password.&#039;, &#039;geodirectory&#039;));
+define(&#039;AUTO_INSATALL_MSG&#039;, __(&#039;How many sample data you would like to populate on your site?&#039;, &#039;geodirectory&#039;));
+define(&#039;INSERT_BTN_SAMPLE_MSG&#039;, __(&#039;Insert sample data please&#039;, &#039;geodirectory&#039;));
+define(&#039;DELETE_BTN_SAMPLE_MSG&#039;, __(&#039;Yes Delete Please!&#039;, &#039;geodirectory&#039;));
+define(&#039;SAMPLE_DATA_SHOW_MSG&#039;, __(&#039;GeoDirectory sample data has been populated on your site. Wish to delete sample data?&#039;, &#039;geodirectory&#039;));
+define(&#039;GEODIR_SAMPLE_DATA_IMPORT_MSG&#039;, __(&#039;Please Wait! We are importing dummy data.&#039;, &#039;geodirectory&#039;));
+define(&#039;GEODIR_SAMPLE_DATA_DELETE_MSG&#039;, __(&#039;Please Wait! We are deleting dummy data.&#039;, &#039;geodirectory&#039;));
+define(&#039;READ_MORE_TXT&#039;, __(&#039;read more&#039;, &#039;geodirectory&#039;));
+define(&#039;POST_TYPE_DESELECT_MSG&#039;, __(&#039;Are you sure you want to deselect this post type?&#039;, &#039;geodirectory&#039;));
+define(&#039;DESIGN_POST_TYPE_SNO&#039;, __(&#039;S.No.&#039;, &#039;geodirectory&#039;));
+define(&#039;DESIGN_POST_TYPE&#039;, __(&#039;Post Type&#039;, &#039;geodirectory&#039;));
+define(&#039;DESIGN_POST_TYPE_CAT&#039;, __(&#039;Category&#039;, &#039;geodirectory&#039;));
+define(&#039;CSV_INSERT_DATA&#039;, __(&#039;Data inserted successfully.&#039;, &#039;geodirectory&#039;));
+define(&#039;CSV_TOTAL_RECORD&#039;, __(&#039;%s record(s) inserted.&#039;, &#039;geodirectory&#039;));
+define(&#039;CSV_INVALID_TOTAL_RECORD&#039;, __(&#039;%s out of %s record(s) could not be inserted due to blank address. Address fields post_address, post_country, post_region, post_city, post_latitude and post_longitude are mandatory fields.&#039;, &#039;geodirectory&#039;));
+define(&#039;CSV_INVALID_DEFUALT_ADDRESS&#039;, __(&#039;%s out of %s record(s) could not be inserted due to invalid address. You can import data in default location only as you do not have multilocation ad-on enabled.&#039;, &#039;geodirectory&#039;));
+define(&#039;CSV_INVALID_POST_TYPE&#039;, __(&#039;%s out of %s record(s) could not be inserted due to invalid/blank post type. Only use geodirectory\&#039;s post type.&#039;, &#039;geodirectory&#039;));
+define(&#039;CSV_BLANK_POST_TITLE&#039;, __(&#039;%s out of %s record(s) could not be inserted due to blank post title.&#039;, &#039;geodirectory&#039;));
+define(&#039;CSV_TRANSFER_IMG_FOLDER&#039;, __(&quot;Please transfer all new images to &lt;b&gt;&#039;%s&#039;&lt;/b&gt; folder.&quot;, &#039;geodirectory&#039;));
+define(&#039;CSV_INVAILD_FILE&#039;, __(&#039;File you are uploading is not valid. First colum should be &quot;Post Title&quot;.&#039;, &#039;geodirectory&#039;));
+define(&#039;CSV_UPLOAD_ONLY&#039;, __(&#039;Please upload CSV file only.&#039;, &#039;geodirectory&#039;));
+define(&#039;SELECT_CSV_FILE&#039;, __(&#039;Select CSV file to upload&#039;, &#039;geodirectory&#039;));
+define(&#039;SELECT_UPLOAD_CSV&#039;, __(&#039;Select &amp; Upload CSV&#039;, &#039;geodirectory&#039;));
+define(&#039;CSV_IMPORT_DATA&#039;, __(&#039;Import data now&#039;, &#039;geodirectory&#039;));
+define(&#039;PLZ_SELECT_CSV_FILE&#039;, __(&#039;Please select csv file.&#039;, &#039;geodirectory&#039;));
+define(&#039;FEATURED_IMG_CLASS&#039;, __(&#039;featured_img_class&#039;, &#039;geodirectory&#039;));
+
+/*
+ * Here we declare every country name so that is can be read by PO editors and translated easily.
+ */
+__(&#039;Afghanistan&#039;, &#039;geodirectory&#039;);
+__(&#039;Albania&#039;, &#039;geodirectory&#039;);
+__(&#039;Algeria&#039;, &#039;geodirectory&#039;);
+__(&#039;American Samoa&#039;, &#039;geodirectory&#039;);
+__(&#039;Andorra&#039;, &#039;geodirectory&#039;);
+__(&#039;Angola&#039;, &#039;geodirectory&#039;);
+__(&#039;Anguilla&#039;, &#039;geodirectory&#039;);
+__(&#039;Antarctica&#039;, &#039;geodirectory&#039;);
+__(&#039;Antigua and Barbuda&#039;, &#039;geodirectory&#039;);
+__(&#039;Argentina&#039;, &#039;geodirectory&#039;);
+__(&#039;Armenia&#039;, &#039;geodirectory&#039;);
+__(&#039;Aruba&#039;, &#039;geodirectory&#039;);
+__(&#039;Ashmore and Cartier&#039;, &#039;geodirectory&#039;);
+__(&#039;Australia&#039;, &#039;geodirectory&#039;);
+__(&#039;Austria&#039;, &#039;geodirectory&#039;);
+__(&#039;Azerbaijan&#039;, &#039;geodirectory&#039;);
+__(&#039;Bahrain&#039;, &#039;geodirectory&#039;);
+__(&#039;Baker Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Bangladesh&#039;, &#039;geodirectory&#039;);
+__(&#039;Barbados&#039;, &#039;geodirectory&#039;);
+__(&#039;Bassas da India&#039;, &#039;geodirectory&#039;);
+__(&#039;Belarus&#039;, &#039;geodirectory&#039;);
+__(&#039;Belgium&#039;, &#039;geodirectory&#039;);
+__(&#039;Belize&#039;, &#039;geodirectory&#039;);
+__(&#039;Benin&#039;, &#039;geodirectory&#039;);
+__(&#039;Bermuda&#039;, &#039;geodirectory&#039;);
+__(&#039;Bhutan&#039;, &#039;geodirectory&#039;);
+__(&#039;Bolivia&#039;, &#039;geodirectory&#039;);
+__(&#039;Bosnia and Herzegovina&#039;, &#039;geodirectory&#039;);
+__(&#039;Botswana&#039;, &#039;geodirectory&#039;);
+__(&#039;Bouvet Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Brazil&#039;, &#039;geodirectory&#039;);
+__(&#039;British Indian Ocean Territory&#039;, &#039;geodirectory&#039;);
+__(&#039;British Virgin Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Brunei Darussalam&#039;, &#039;geodirectory&#039;);
+__(&#039;Bulgaria&#039;, &#039;geodirectory&#039;);
+__(&#039;Burkina Faso&#039;, &#039;geodirectory&#039;);
+__(&#039;Burma&#039;, &#039;geodirectory&#039;);
+__(&#039;Burundi&#039;, &#039;geodirectory&#039;);
+__(&#039;Cambodia&#039;, &#039;geodirectory&#039;);
+__(&#039;Cameroon&#039;, &#039;geodirectory&#039;);
+__(&#039;Canada&#039;, &#039;geodirectory&#039;);
+__(&#039;Cape Verde&#039;, &#039;geodirectory&#039;);
+__(&#039;Cayman Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Central African Republic&#039;, &#039;geodirectory&#039;);
+__(&#039;Chad&#039;, &#039;geodirectory&#039;);
+__(&#039;Chile&#039;, &#039;geodirectory&#039;);
+__(&#039;China&#039;, &#039;geodirectory&#039;);
+__(&#039;Christmas Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Clipperton Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Cocos (Keeling) Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Colombia&#039;, &#039;geodirectory&#039;);
+__(&#039;Comoros&#039;, &#039;geodirectory&#039;);
+__(&#039;Congo, Democratic Republic of the&#039;, &#039;geodirectory&#039;);
+__(&#039;Congo, Republic of the&#039;, &#039;geodirectory&#039;);
+__(&#039;Cook Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Coral Sea Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Costa Rica&#039;, &#039;geodirectory&#039;);
+__(&#039;Cote d\&#039;Ivoire&#039;, &#039;geodirectory&#039;);
+__(&#039;Croatia&#039;, &#039;geodirectory&#039;);
+__(&#039;Cuba&#039;, &#039;geodirectory&#039;);
+__(&#039;Cyprus&#039;, &#039;geodirectory&#039;);
+__(&#039;Czech Republic&#039;, &#039;geodirectory&#039;);
+__(&#039;Czechia&#039;, &#039;geodirectory&#039;);
+__(&#039;Denmark&#039;, &#039;geodirectory&#039;);
+__(&#039;Djibouti&#039;, &#039;geodirectory&#039;);
+__(&#039;Dominica&#039;, &#039;geodirectory&#039;);
+__(&#039;Dominican Republic&#039;, &#039;geodirectory&#039;);
+__(&#039;East Timor&#039;, &#039;geodirectory&#039;);
+__(&#039;Ecuador&#039;, &#039;geodirectory&#039;);
+__(&#039;Egypt&#039;, &#039;geodirectory&#039;);
+__(&#039;El Salvador&#039;, &#039;geodirectory&#039;);
+__(&#039;Equatorial Guinea&#039;, &#039;geodirectory&#039;);
+__(&#039;Eritrea&#039;, &#039;geodirectory&#039;);
+__(&#039;Estonia&#039;, &#039;geodirectory&#039;);
+__(&#039;Ethiopia&#039;, &#039;geodirectory&#039;);
+__(&#039;Europa Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Falkland Islands (Islas Malvinas)&#039;, &#039;geodirectory&#039;);
+__(&#039;Faroe Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Fiji&#039;, &#039;geodirectory&#039;);
+__(&#039;Finland&#039;, &#039;geodirectory&#039;);
+__(&#039;France&#039;, &#039;geodirectory&#039;);
+__(&#039;France, Metropolitan&#039;, &#039;geodirectory&#039;);
+__(&#039;French Guiana&#039;, &#039;geodirectory&#039;);
+__(&#039;French Polynesia&#039;, &#039;geodirectory&#039;);
+__(&#039;French Southern and Antarctic Lands&#039;, &#039;geodirectory&#039;);
+__(&#039;Gabon&#039;, &#039;geodirectory&#039;);
+__(&#039;Gaza Strip&#039;, &#039;geodirectory&#039;);
+__(&#039;Georgia&#039;, &#039;geodirectory&#039;);
+__(&#039;Germany&#039;, &#039;geodirectory&#039;);
+__(&#039;Ghana&#039;, &#039;geodirectory&#039;);
+__(&#039;Gibraltar&#039;, &#039;geodirectory&#039;);
+__(&#039;Glorioso Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Greece&#039;, &#039;geodirectory&#039;);
+__(&#039;Greenland&#039;, &#039;geodirectory&#039;);
+__(&#039;Grenada&#039;, &#039;geodirectory&#039;);
+__(&#039;Guadeloupe&#039;, &#039;geodirectory&#039;);
+__(&#039;Guam&#039;, &#039;geodirectory&#039;);
+__(&#039;Guatemala&#039;, &#039;geodirectory&#039;);
+__(&#039;Guernsey&#039;, &#039;geodirectory&#039;);
+__(&#039;Guinea&#039;, &#039;geodirectory&#039;);
+__(&#039;Guinea-Bissau&#039;, &#039;geodirectory&#039;);
+__(&#039;Guyana&#039;, &#039;geodirectory&#039;);
+__(&#039;Haiti&#039;, &#039;geodirectory&#039;);
+__(&#039;Heard Island and McDonald Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Holy See (Vatican City)&#039;, &#039;geodirectory&#039;);
+__(&#039;Honduras&#039;, &#039;geodirectory&#039;);
+__(&#039;Hong Kong (SAR)&#039;, &#039;geodirectory&#039;);
+__(&#039;Howland Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Hungary&#039;, &#039;geodirectory&#039;);
+__(&#039;Iceland&#039;, &#039;geodirectory&#039;);
+__(&#039;India&#039;, &#039;geodirectory&#039;);
+__(&#039;Indonesia&#039;, &#039;geodirectory&#039;);
+__(&#039;Iran&#039;, &#039;geodirectory&#039;);
+__(&#039;Iraq&#039;, &#039;geodirectory&#039;);
+__(&#039;Ireland&#039;, &#039;geodirectory&#039;);
+__(&#039;Israel&#039;, &#039;geodirectory&#039;);
+__(&#039;Italy&#039;, &#039;geodirectory&#039;);
+__(&#039;Jamaica&#039;, &#039;geodirectory&#039;);
+__(&#039;Jan Mayen&#039;, &#039;geodirectory&#039;);
+__(&#039;Japan&#039;, &#039;geodirectory&#039;);
+__(&#039;Jarvis Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Jersey&#039;, &#039;geodirectory&#039;);
+__(&#039;Johnston Atoll&#039;, &#039;geodirectory&#039;);
+__(&#039;Jordan&#039;, &#039;geodirectory&#039;);
+__(&#039;Juan de Nova Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Kazakhstan&#039;, &#039;geodirectory&#039;);
+__(&#039;Kenya&#039;, &#039;geodirectory&#039;);
+__(&#039;Kingman Reef&#039;, &#039;geodirectory&#039;);
+__(&#039;Kiribati&#039;, &#039;geodirectory&#039;);
+__(&#039;Korea, North&#039;, &#039;geodirectory&#039;);
+__(&#039;Korea, South&#039;, &#039;geodirectory&#039;);
+__(&#039;Kuwait&#039;, &#039;geodirectory&#039;);
+__(&#039;Kyrgyzstan&#039;, &#039;geodirectory&#039;);
+__(&#039;Laos&#039;, &#039;geodirectory&#039;);
+__(&#039;Latvia&#039;, &#039;geodirectory&#039;);
+__(&#039;Lebanon&#039;, &#039;geodirectory&#039;);
+__(&#039;Lesotho&#039;, &#039;geodirectory&#039;);
+__(&#039;Liberia&#039;, &#039;geodirectory&#039;);
+__(&#039;Libya&#039;, &#039;geodirectory&#039;);
+__(&#039;Liechtenstein&#039;, &#039;geodirectory&#039;);
+__(&#039;Lithuania&#039;, &#039;geodirectory&#039;);
+__(&#039;Luxembourg&#039;, &#039;geodirectory&#039;);
+__(&#039;Macao&#039;, &#039;geodirectory&#039;);
+__(&#039;Macedonia, The Former Yugoslav Republic of&#039;, &#039;geodirectory&#039;);
+__(&#039;Madagascar&#039;, &#039;geodirectory&#039;);
+__(&#039;Malawi&#039;, &#039;geodirectory&#039;);
+__(&#039;Malaysia&#039;, &#039;geodirectory&#039;);
+__(&#039;Maldives&#039;, &#039;geodirectory&#039;);
+__(&#039;Mali&#039;, &#039;geodirectory&#039;);
+__(&#039;Malta&#039;, &#039;geodirectory&#039;);
+__(&#039;Man, Isle of&#039;, &#039;geodirectory&#039;);
+__(&#039;Marshall Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Martinique&#039;, &#039;geodirectory&#039;);
+__(&#039;Mauritania&#039;, &#039;geodirectory&#039;);
+__(&#039;Mauritius&#039;, &#039;geodirectory&#039;);
+__(&#039;Mayotte&#039;, &#039;geodirectory&#039;);
+__(&#039;Mexico&#039;, &#039;geodirectory&#039;);
+__(&#039;Micronesia, Federated States of&#039;, &#039;geodirectory&#039;);
+__(&#039;Midway Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Miscellaneous (French)&#039;, &#039;geodirectory&#039;);
+__(&#039;Moldova&#039;, &#039;geodirectory&#039;);
+__(&#039;Monaco&#039;, &#039;geodirectory&#039;);
+__(&#039;Mongolia&#039;, &#039;geodirectory&#039;);
+__(&#039;Montenegro&#039;, &#039;geodirectory&#039;);
+__(&#039;Montserrat&#039;, &#039;geodirectory&#039;);
+__(&#039;Morocco&#039;, &#039;geodirectory&#039;);
+__(&#039;Mozambique&#039;, &#039;geodirectory&#039;);
+__(&#039;Myanmar&#039;, &#039;geodirectory&#039;);
+__(&#039;Namibia&#039;, &#039;geodirectory&#039;);
+__(&#039;Nauru&#039;, &#039;geodirectory&#039;);
+__(&#039;Navassa Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Nepal&#039;, &#039;geodirectory&#039;);
+__(&#039;Netherlands&#039;, &#039;geodirectory&#039;);
+__(&#039;Netherlands Antilles&#039;, &#039;geodirectory&#039;);
+__(&#039;New Caledonia&#039;, &#039;geodirectory&#039;);
+__(&#039;New Zealand&#039;, &#039;geodirectory&#039;);
+__(&#039;Nicaragua&#039;, &#039;geodirectory&#039;);
+__(&#039;Niger&#039;, &#039;geodirectory&#039;);
+__(&#039;Nigeria&#039;, &#039;geodirectory&#039;);
+__(&#039;Niue&#039;, &#039;geodirectory&#039;);
+__(&#039;Norfolk Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Northern Mariana Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Norway&#039;, &#039;geodirectory&#039;);
+__(&#039;Oman&#039;, &#039;geodirectory&#039;);
+__(&#039;Pakistan&#039;, &#039;geodirectory&#039;);
+__(&#039;Palau&#039;, &#039;geodirectory&#039;);
+__(&#039;Palestinian Territory, Occupied&#039;, &#039;geodirectory&#039;);
+__(&#039;Palmyra Atoll&#039;, &#039;geodirectory&#039;);
+__(&#039;Panama&#039;, &#039;geodirectory&#039;);
+__(&#039;Papua New Guinea&#039;, &#039;geodirectory&#039;);
+__(&#039;Paracel Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Paraguay&#039;, &#039;geodirectory&#039;);
+__(&#039;Peru&#039;, &#039;geodirectory&#039;);
+__(&#039;Philippines&#039;, &#039;geodirectory&#039;);
+__(&#039;Pitcairn Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Poland&#039;, &#039;geodirectory&#039;);
+__(&#039;Portugal&#039;, &#039;geodirectory&#039;);
+__(&#039;Puerto Rico&#039;, &#039;geodirectory&#039;);
+__(&#039;Qatar&#039;, &#039;geodirectory&#039;);
+__(&#039;Romania&#039;, &#039;geodirectory&#039;);
+__(&#039;Russia&#039;, &#039;geodirectory&#039;);
+__(&#039;Rwanda&#039;, &#039;geodirectory&#039;);
+__(&#039;Saint Helena&#039;, &#039;geodirectory&#039;);
+__(&#039;Saint Kitts and Nevis&#039;, &#039;geodirectory&#039;);
+__(&#039;Saint Lucia&#039;, &#039;geodirectory&#039;);
+__(&#039;Saint Pierre and Miquelon&#039;, &#039;geodirectory&#039;);
+__(&#039;Saint Vincent and the Grenadines&#039;, &#039;geodirectory&#039;);
+__(&#039;Samoa&#039;, &#039;geodirectory&#039;);
+__(&#039;San Marino&#039;, &#039;geodirectory&#039;);
+__(&#039;Saudi Arabia&#039;, &#039;geodirectory&#039;);
+__(&#039;Senegal&#039;, &#039;geodirectory&#039;);
+__(&#039;Serbia&#039;, &#039;geodirectory&#039;);
+__(&#039;Serbia and Montenegro&#039;, &#039;geodirectory&#039;);
+__(&#039;Seychelles&#039;, &#039;geodirectory&#039;);
+__(&#039;Sierra Leone&#039;, &#039;geodirectory&#039;);
+__(&#039;Singapore&#039;, &#039;geodirectory&#039;);
+__(&#039;Slovakia&#039;, &#039;geodirectory&#039;);
+__(&#039;Slovenia&#039;, &#039;geodirectory&#039;);
+__(&#039;Solomon Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Somalia&#039;, &#039;geodirectory&#039;);
+__(&#039;South Africa&#039;, &#039;geodirectory&#039;);
+__(&#039;South Georgia and the South Sandwich Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Spain&#039;, &#039;geodirectory&#039;);
+__(&#039;Spratly Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Sri Lanka&#039;, &#039;geodirectory&#039;);
+__(&#039;Sudan&#039;, &#039;geodirectory&#039;);
+__(&#039;Suriname&#039;, &#039;geodirectory&#039;);
+__(&#039;Svalbard&#039;, &#039;geodirectory&#039;);
+__(&#039;Swaziland&#039;, &#039;geodirectory&#039;);
+__(&#039;Sweden&#039;, &#039;geodirectory&#039;);
+__(&#039;Switzerland&#039;, &#039;geodirectory&#039;);
+__(&#039;Syria&#039;, &#039;geodirectory&#039;);
+__(&#039;Taiwan&#039;, &#039;geodirectory&#039;);
+__(&#039;Tajikistan&#039;, &#039;geodirectory&#039;);
+__(&#039;Tanzania&#039;, &#039;geodirectory&#039;);
+__(&#039;Thailand&#039;, &#039;geodirectory&#039;);
+__(&#039;The Bahamas&#039;, &#039;geodirectory&#039;);
+__(&#039;The Gambia&#039;, &#039;geodirectory&#039;);
+__(&#039;Togo&#039;, &#039;geodirectory&#039;);
+__(&#039;Tokelau&#039;, &#039;geodirectory&#039;);
+__(&#039;Tonga&#039;, &#039;geodirectory&#039;);
+__(&#039;Trinidad and Tobago&#039;, &#039;geodirectory&#039;);
+__(&#039;Tromelin Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Tunisia&#039;, &#039;geodirectory&#039;);
+__(&#039;Turkey&#039;, &#039;geodirectory&#039;);
+__(&#039;Turkmenistan&#039;, &#039;geodirectory&#039;);
+__(&#039;Turks and Caicos Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Tuvalu&#039;, &#039;geodirectory&#039;);
+__(&#039;Uganda&#039;, &#039;geodirectory&#039;);
+__(&#039;Ukraine&#039;, &#039;geodirectory&#039;);
+__(&#039;United Arab Emirates&#039;, &#039;geodirectory&#039;);
+__(&#039;United Kingdom&#039;, &#039;geodirectory&#039;);
+__(&#039;United States&#039;, &#039;geodirectory&#039;);
+__(&#039;United States Minor Outlying Islands&#039;, &#039;geodirectory&#039;);
+__(&#039;Uruguay&#039;, &#039;geodirectory&#039;);
+__(&#039;Uzbekistan&#039;, &#039;geodirectory&#039;);
+__(&#039;Vanuatu&#039;, &#039;geodirectory&#039;);
+__(&#039;Venezuela&#039;, &#039;geodirectory&#039;);
+__(&#039;Vietnam&#039;, &#039;geodirectory&#039;);
+__(&#039;Virgin Islands&#039;, &#039;geodirectory&#039;);
+//__(&#039;Virgin Islands (UK)&#039;,&#039;geodirectory&#039;); // duplicate removed
+//__(&#039;Virgin Islands (US)&#039;,&#039;geodirectory&#039;); // duplicate removed
+__(&#039;Wake Island&#039;, &#039;geodirectory&#039;);
+__(&#039;Wallis and Futuna&#039;, &#039;geodirectory&#039;);
+__(&#039;West Bank&#039;, &#039;geodirectory&#039;);
+__(&#039;Western Sahara&#039;, &#039;geodirectory&#039;);
+__(&#039;Western Samoa&#039;, &#039;geodirectory&#039;);
+__(&#039;Yemen&#039;, &#039;geodirectory&#039;);
+__(&#039;Yugoslavia&#039;, &#039;geodirectory&#039;);
+__(&#039;Zaire&#039;, &#039;geodirectory&#039;);
+__(&#039;Zambia&#039;, &#039;geodirectory&#039;);
+__(&#039;Zimbabwe&#039;, &#039;geodirectory&#039;);
+__(&#039;Curaçao&#039;, &#039;geodirectory&#039;);
+__(&#039;Caribbean Netherlands&#039;, &#039;geodirectory&#039;);
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

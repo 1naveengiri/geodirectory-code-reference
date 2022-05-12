@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-media.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit; // Exit if accessed directly
+}
+
+/**
+ * Media Class
+ *
+ * @version 2.0.0
+ */
+class GeoDir_Media {
+
+
+	/**
+	 * Get the post type fields that are for file uploads and return the allowed file types.
+     *
+     * @since 2.0.0
+	 *
+	 * @param $post_type
+	 *
+	 * @return array
+	 */
+	public static function get_file_fields($post_type){
+		global $wpdb;
+		$fields = array();
+
+		$result = $wpdb-&gt;get_results($wpdb-&gt;prepare(&quot;SELECT htmlvar_name,extra_fields FROM &quot;.GEODIR_CUSTOM_FIELDS_TABLE.&quot; WHERE post_type=%s AND field_type=&#039;file&#039; &quot;,$post_type),ARRAY_A);
+		if(!empty($result)){
+			foreach($result as $field){
+				$extra_fields = isset($field[&#039;extra_fields&#039;]) ? maybe_unserialize($field[&#039;extra_fields&#039;]) : array();
+				$fields[$field[&#039;htmlvar_name&#039;]] = isset($extra_fields[&#039;gd_file_types&#039;]) ? maybe_unserialize($extra_fields[&#039;gd_file_types&#039;]) : array();
+			}
+		}
+
+		return $fields;
+	}
+
+	/**
+	 * Check if the file type is an image.
+     *
+     * @since 2.0.0
+	 *
+	 * @param string $mime_type Image mime type.
+	 *
+	 * @return bool $image
+	 */
+	public static function is_image($mime_type){
+
+		switch ( $mime_type ) {
+			case &#039;image/jpeg&#039;:
+				$image = true;
+				break;
+			case &#039;image/png&#039;:
+				$image = true;
+				break;
+			case &#039;image/gif&#039;:
+				$image = true;
+				break;
+			case &#039;image/webp&#039;:
+				$image = true;
+				break;
+			default:
+				$image = false;
+				break;
+		}
+
+		return $image;
+	}
+
+	/**
+	 * Handles post image upload.
+	 *
+	 * @since 1.0.0
+	 * @package GeoDirectory
+	 */
+	public static function post_attachment_upload() {
+
+		// the post id
+		$field_id = isset($_POST[&quot;imgid&quot;]) ? esc_attr($_POST[&quot;imgid&quot;]) : &#039;&#039;;
+		$post_id = isset($_POST[&quot;post_id&quot;]) ? absint($_POST[&quot;post_id&quot;]) : &#039;&#039;;
+
+		// set GD temp upload dir
+		add_filter( &#039;upload_dir&#039;, array( __CLASS__, &#039;temp_upload_dir&#039; ) );
+
+		// change file orientation if needed
+		//$fixed_file = geodir_exif($_FILES[$imgid . &#039;async-upload&#039;]);
+
+		$fixed_file = $_FILES[ $field_id . &#039;async-upload&#039; ];
+
+		// handle file upload
+		$status = wp_handle_upload( $fixed_file, array(
+			&#039;test_form&#039; =&gt; true,
+			&#039;action&#039;    =&gt; &#039;geodir_post_attachment_upload&#039;
+		) );
+		// unset GD temp upload dir
+		remove_filter( &#039;upload_dir&#039;, array( __CLASS__, &#039;temp_upload_dir&#039; ) );
+
+		if ( ! isset( $status[&#039;url&#039;] ) &amp;&amp; isset( $status[&#039;error&#039;] ) ) {
+			print_r( $status );
+		}
+		//print_r( $status );exit;
+
+
+		// send the uploaded file url in response
+		if ( isset( $status[&#039;url&#039;] ) &amp;&amp; $post_id) {
+
+			// insert to DB
+			$file_info = self::insert_attachment($post_id,$field_id,$status[&#039;url&#039;],&#039;&#039;, &#039;&#039;, -1,0);
+
+			if ( is_wp_error( $file_info ) ) {
+				//geodir_error_log( $file_info-&gt;get_error_message(), &#039;post_attachment_upload&#039;, __FILE__, __LINE__ );
+			} else {
+				$wp_upload_dir = wp_upload_dir();
+				echo $wp_upload_dir[&#039;baseurl&#039;] . $file_info[&#039;file&#039;] .&quot;|&quot;.$file_info[&#039;ID&#039;].&quot;||&quot;;
+			}
+
+		} elseif( isset( $status[&#039;url&#039;] )) {
+			echo $status[&#039;url&#039;];
+		}
+		else
+		{
+			echo &#039;x&#039;;
+		}
+
+		// if file exists it should have been moved if uploaded correctly so now we can remove it
+		if(!empty($status[&#039;file&#039;]) &amp;&amp; $post_id){
+			wp_delete_file( $status[&#039;file&#039;] );
+		}
+
+
+		exit;
+	}
+
+	/**
+	 * Get the attachment id from the file path.
+     *
+     * @since 2.0.0
+	 *
+	 * @param string $path File path.
+	 * @param string $post_id Optional. Post id. Default null.
+	 *
+	 * @return null|string $result.
+	 */
+	public static function get_id_from_file_path($path,$post_id = &#039;&#039;){
+		global $wpdb;
+
+		if($post_id){
+			$result = $wpdb-&gt;get_var($wpdb-&gt;prepare(&quot;SELECT ID FROM &quot;.GEODIR_ATTACHMENT_TABLE.&quot; WHERE post_id=%d AND file=%s&quot;,$post_id,$path));
+
+		}else{
+			$result = $wpdb-&gt;get_var($wpdb-&gt;prepare(&quot;SELECT ID FROM &quot;.GEODIR_ATTACHMENT_TABLE.&quot; WHERE file=%s&quot;,$path));
+
+		}
+
+		return $result;
+
+	}
+
+	/**
+	 * Create the image sizes and return the image metadata.
+     *
+     * @since 2.0.0
+	 *
+	 * @param array $file File array.
+	 *
+	 * @return array $metadata.
+	 */
+	public static function create_image_sizes( $file ){
+		if ( ! function_exists( &#039;wp_read_image_metadata&#039; ) ) {
+			include_once( ABSPATH . &#039;wp-admin/includes/image.php&#039; );
+		}
+
+		$metadata = array();
+		$imagesize = getimagesize( $file );
+		$metadata[&#039;width&#039;] = $imagesize[0];
+		$metadata[&#039;height&#039;] = $imagesize[1];
+
+		// Make the file path relative to the upload dir.
+		$metadata[&#039;file&#039;] = _wp_relative_upload_path($file);
+
+		// Make thumbnails and other intermediate sizes.
+		$_wp_additional_image_sizes = wp_get_additional_image_sizes();
+
+		$sizes = array();
+		foreach ( get_intermediate_image_sizes() as $s ) {
+			$sizes[$s] = array( &#039;width&#039; =&gt; &#039;&#039;, &#039;height&#039; =&gt; &#039;&#039;, &#039;crop&#039; =&gt; false );
+			if ( isset( $_wp_additional_image_sizes[$s][&#039;width&#039;] ) ) {
+				// For theme-added sizes
+				$sizes[$s][&#039;width&#039;] = intval( $_wp_additional_image_sizes[$s][&#039;width&#039;] );
+			} else {
+				// For default sizes set in options
+				$sizes[$s][&#039;width&#039;] = get_option( &quot;{$s}_size_w&quot; );
+			}
+
+			if ( isset( $_wp_additional_image_sizes[$s][&#039;height&#039;] ) ) {
+				// For theme-added sizes
+				$sizes[$s][&#039;height&#039;] = intval( $_wp_additional_image_sizes[$s][&#039;height&#039;] );
+			} else {
+				// For default sizes set in options
+				$sizes[$s][&#039;height&#039;] = get_option( &quot;{$s}_size_h&quot; );
+			}
+
+			if ( isset( $_wp_additional_image_sizes[$s][&#039;crop&#039;] ) ) {
+				// For theme-added sizes
+				$sizes[$s][&#039;crop&#039;] = $_wp_additional_image_sizes[$s][&#039;crop&#039;];
+			} else {
+				// For default sizes set in options
+				$sizes[$s][&#039;crop&#039;] = get_option( &quot;{$s}_crop&quot; );
+			}
+		}
+
+		/**
+		 * Filters the image sizes automatically generated when uploading an image.
+		 *
+		 * @since 2.9.0
+		 * @since 4.4.0 Added the `$metadata` argument.
+		 *
+		 * @param array $sizes    An associative array of image sizes.
+		 * @param array $metadata An associative array of image metadata: width, height, file.
+		 */
+		$sizes = apply_filters( &#039;intermediate_image_sizes_advanced&#039;, $sizes, $metadata );
+
+		// Fetch additional metadata from EXIF/IPTC.
+		$image_meta = wp_read_image_metadata( $file );
+
+		if ( $sizes ) {
+			$editor = wp_get_image_editor( $file );
+
+			if ( ! is_wp_error( $editor ) ){
+				// If stored EXIF data exists, rotate the source image before creating sub-sizes.
+				if ( ! empty( $image_meta ) ) {
+					$rotated = $editor-&gt;maybe_exif_rotate();
+				}
+
+				// create sizes
+				$metadata[&#039;sizes&#039;] = $editor-&gt;multi_resize( $sizes );
+			}
+
+		} else {
+			$metadata[&#039;sizes&#039;] = array();
+		}
+
+
+		if ( $image_meta )
+			$metadata[&#039;image_meta&#039;] = $image_meta;
+
+		return $metadata;
+	}
+
+	/**
+	 * Insert the file info to the DB and return the attachment ID.
+     *
+     * @since 2.0.0
+	 *
+	 * @param int $post_id Post ID.
+     * @param string $type Optional. Type. Default file.
+	 * @param string $url URl.
+	 * @param string $title Optional. Title. Default null.
+	 * @param string $caption Optional. Caption. Default null.
+	 * @param string $order Optional. Order. Default null.
+	 * @param int $is_approved Optional. Is approved. Default 1.
+	 * @param bool $is_placeholder Optional. If the images is a placeholder url and should not be auto imported. Default false.
+	 *
+	 * @return array|WP_Error
+	 */
+	public static function insert_attachment( $post_id, $type = &#039;file&#039;, $url = &#039;&#039;, $title = &#039;&#039;, $caption = &#039;&#039;, $order = &#039;&#039;, $is_approved = 1, $is_placeholder = false, $other_id = &#039;&#039;,$raw_metadata = array() ) {
+		global $wpdb;
+
+		// Load media functions
+		if ( ! function_exists( &#039;wp_handle_upload&#039; ) ) {
+			require_once ABSPATH . &#039;wp-admin/includes/file.php&#039;;
+		}
+		if ( ! function_exists( &#039;media_sideload_image&#039; ) ) {
+			require_once ABSPATH . &#039;wp-admin/includes/media.php&#039;;
+		}
+		if ( ! function_exists( &#039;wp_generate_attachment_metadata&#039; ) ) {
+			require_once ABSPATH . &#039;wp-admin/includes/image.php&#039;;
+		}
+
+		// Check we have what we need
+		if ( ! $post_id || ! $url ) {
+			return new WP_Error( &#039;file_insert&#039;, __( &quot;No post_id or file url, file insert failed.&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		$metadata = !empty($raw_metadata) ? $raw_metadata : &#039;&#039;;
+		if ( $is_placeholder ) { // If a placeholder image, such as a image name that will be uploaded manually to the upload dir
+			$upload_dir = wp_upload_dir();
+
+			if ( geodir_is_full_url( $url ) ) {
+				$file = esc_url_raw( $url );
+			} else if ( strpos( $url, &#039;#&#039; ) === 0 ) {
+				$file = esc_url_raw( ltrim( $url, &#039;#&#039; ) );
+			} else {
+				$file = trailingslashit( $upload_dir[&#039;subdir&#039;] ) . basename( $url );
+			}
+
+			$file_type_arr = wp_check_filetype( basename( $url ) );
+			$file_type = $file_type_arr[&#039;type&#039;];
+		} else {
+			$post_type = get_post_type( $post_id );
+			// Check for revisions
+			if ( $post_type == &#039;revision&#039; ) {
+				$post_type = get_post_type( wp_get_post_parent_id( $post_id ) );
+			}
+			$allowed_file_types = self::get_file_fields( $post_type );
+			$allowed_file_types = isset( $allowed_file_types[ $type ] ) ? $allowed_file_types[ $type ] : array( &#039;jpg&#039;, &#039;jpe&#039;, &#039;jpeg&#039;, &#039;gif&#039;, &#039;png&#039;, &#039;bmp&#039;, &#039;ico&#039;, &#039;webp&#039; );
+
+			if ( $order === 0 &amp;&amp; $type == &#039;post_images&#039; ) {
+				$attachment_id = media_sideload_image( $url, $post_id, $title, &#039;id&#039; ); // Uses the post date for the upload time /2009/12/image.jpg
+
+				// Return error object if its an error
+				if ( ! $attachment_id || is_wp_error( $attachment_id ) ) {
+					return $attachment_id;
+				}
+
+				$metadata = wp_get_attachment_metadata( $attachment_id );
+				$file_type = wp_check_filetype( basename( $url ) );
+				$upload_dir = wp_upload_dir();
+				$file = array(
+					&#039;file&#039;  =&gt; trailingslashit( $upload_dir[&#039;basedir&#039;] ) . $metadata[&#039;file&#039;],
+					&#039;type&#039;  =&gt; $file_type[&#039;type&#039;]
+				);
+
+				// Only set the featured image if its approved
+				if ( $is_approved &amp;&amp; ! wp_is_post_revision( absint( $post_id ) ) ) {
+					set_post_thumbnail( $post_id, $attachment_id );
+				}
+			} else {
+				// Move the temp image to the uploads directory
+				$file = self::get_external_media( $url, $title, $allowed_file_types );
+			}
+
+			// Return error object if its an error
+			if ( is_wp_error( $file ) ) {
+				return $file;
+			}
+
+			if ( isset( $file[&#039;type&#039;] ) &amp;&amp; $file[&#039;type&#039;] ) {
+				if ( self::is_image( $file[&#039;type&#039;] ) ) {
+					$metadata = self::create_image_sizes( $file[&#039;file&#039;] ); // Image
+				} elseif ( in_array( $file[&#039;type&#039;], wp_get_audio_extensions() ) ) {
+					$metadata =  wp_read_audio_metadata( $file[&#039;file&#039;] ); // Audio
+				} elseif ( in_array( $file[&#039;type&#039;], wp_get_video_extensions() ) ) {
+					$metadata =  wp_read_video_metadata( $file[&#039;file&#039;] ); // Video
+				}
+			}
+
+			// If image meta fail then return error object
+			if ( is_wp_error( $metadata ) ) {
+				return $metadata;
+			}
+
+			/**
+			 * Filter the raw file info before save to database.
+			 *
+			 * This allows us to pass the raw path to things like image optimize plugins.
+			 *
+			 * @since 2.0.0
+			 */
+			$file = apply_filters( &#039;geodir_insert_attachment_file&#039;, $file, $post_id );
+
+			// Pre slash the file path
+			if ( ! empty( $file[&#039;file&#039;] ) ) {
+				$file[&#039;file&#039;] =  strrev( trailingslashit( strrev ( _wp_relative_upload_path( $file[&#039;file&#039;] ) ) ) );
+			}
+
+			$file_type = $file[&#039;type&#039;];
+			$file = $file[&#039;file&#039;];
+		}
+
+		// Throws exception if file is null.
+		if ( is_null( $file ) ) {
+			return new WP_Error( &#039;file_insert&#039;, __( &quot;Failed to insert file info to DB.&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		$file_info = array(
+			&#039;post_id&#039; =&gt; $post_id,
+			&#039;date_gmt&#039; =&gt; gmdate( &#039;Y-m-d H:i:s&#039; ),
+			&#039;user_id&#039; =&gt; get_current_user_id(),
+			&#039;title&#039; =&gt; stripslashes_deep( $title ),
+			&#039;caption&#039; =&gt; stripslashes_deep( $caption ),
+			&#039;file&#039; =&gt; $file,
+			&#039;mime_type&#039; =&gt; $file_type,
+			&#039;menu_order&#039; =&gt; $order,
+			&#039;featured&#039; =&gt; $order === 0 ? 1 : 0,
+			&#039;is_approved&#039; =&gt; $is_approved,
+			&#039;metadata&#039; =&gt; maybe_serialize( $metadata ),
+			&#039;type&#039; =&gt; $type,
+			&#039;other_id&#039; =&gt; $other_id
+		);
+
+		// Insert into the DB
+		$result = $wpdb-&gt;insert(
+			GEODIR_ATTACHMENT_TABLE,
+			$file_info,
+			array(
+				&#039;%d&#039;,
+				&#039;%s&#039;,
+				&#039;%d&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%d&#039;,
+				&#039;%d&#039;,
+				&#039;%d&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%d&#039;
+			)
+		);
+
+		// If DB save failed then return error object
+		if ( $result === false ) {
+			return new WP_Error( &#039;file_insert&#039;, __( &quot;Failed to insert file info to DB.&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		// Clear the post attachment cache
+		wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $type . &#039;:::&#039; . $other_id . &#039;:&#039;, &#039;gd_attachments_by_type&#039; );
+		wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $type . &#039;:::&#039; . $other_id . &#039;:1&#039;, &#039;gd_attachments_by_type&#039; );
+		if ( ! $other_id ) {
+			wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $type . &#039;:1:::&#039;, &#039;gd_attachments_by_type&#039; );
+			wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $type . &#039;:1:::1&#039;, &#039;gd_attachments_by_type&#039; );
+		}
+
+		$file_info[&#039;ID&#039;] = $wpdb-&gt;insert_id;
+
+		/**
+		 * @since 2.0.0.75
+		 */
+		do_action( &#039;geodir_insert_attachment&#039;, $wpdb-&gt;insert_id, $file_info, $order );
+
+		// Return the file info
+		return $file_info;
+	}
+
+    /**
+     * Insert the image info to the DB and return the attachment ID.
+     *
+     * @since 2.0.0
+     *
+     * @param int $post_id Post ID.
+     * @param string $type Type.
+     * @param string $file_string Optional. File string. Default null.
+     * @return int|string
+     */
+	public static function update_texts($post_id,$type,$file_string=&#039;&#039;) {
+		global $wpdb;
+
+		$return = &#039;&#039;;
+		if(!empty($file_string)){
+
+			if ( strpos( $file_string, &#039;|&#039; ) !== false ) {
+				$image_info = explode( &quot;|&quot;, $file_string );
+			}else {
+				$image_info[0] = $file_string;
+			}
+
+			//print_r($image_info);//exit;
+			/*
+			 * $image_info[0] = image_url;
+			 * $image_info[1] = image_id;
+			 * $image_info[2] = image_title;
+			 * $image_info[3] = image_caption;
+			 */
+			$image_id      = ! empty( $image_info[1] ) ? absint( $image_info[1] ) : &#039;&#039;;
+			$image_title   = ! empty( $image_info[2] ) ? sanitize_text_field( $image_info[2] ) : &#039;&#039;;
+			$image_caption = ! empty( $image_info[3] ) ? sanitize_text_field( $image_info[3] ) : &#039;&#039;;
+			// insert into the DB
+			$result = $wpdb-&gt;update(
+				GEODIR_ATTACHMENT_TABLE,
+				array(
+					&#039;title&#039; =&gt; stripslashes_deep( $image_title ),
+					&#039;caption&#039; =&gt; stripslashes_deep( $image_caption ),
+				),
+				array(&#039;ID&#039; =&gt; $image_id,&#039;type&#039;=&gt;$type,&#039;post_id&#039;=&gt;$post_id),
+				array(
+					&#039;%s&#039;,
+					&#039;%s&#039;,
+				)
+			);
+
+			$return = $image_id;
+		}else{// delete
+			//delete_attachment($id, $post_id){
+		}
+
+		return $return;
+	}
+
+    /**
+     * Insert the image info to the DB and return the attachment ID.
+     *
+     * @since 2.0.0
+     *
+     * @param int $file_id File id.
+     * @param int $post_id Post id.
+     * @param string $field Field value.
+     * @param string $file_url File url.
+     * @param string $file_title Optional. File title. Default null.
+     * @param string $file_caption Optional. File caption. Default null.
+     * @param string $order Optional. Order. Default null.
+     * @param string $is_approved Optional. Is approved. Default 1.
+     *
+     * @return array|null|object|void|WP_Error
+     */
+	public static function update_attachment( $file_id, $post_id, $field, $file_url, $file_title = &#039;&#039;, $file_caption = &#039;&#039;, $order = &#039;&#039;, $is_approved = &#039;1&#039;, $other_id = &#039;&#039; ) {
+		global $wpdb;
+
+		// Check we have what we need
+		if ( ! $file_id || ! $post_id || ! $file_url ) {
+			return new WP_Error( &#039;image_insert&#039;, __( &quot;No image_id, post_id or image url, image update failed.&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		// Check the post has not already been deleted
+		if ( get_post_status ( $post_id ) === false ) {
+			return &#039;&#039;;
+		}
+
+		// If menu order is 0 then its featured and we need to set the post thumbnail
+		if ( $order === 0 &amp;&amp; $field == &#039;post_images&#039; &amp;&amp; ! wp_is_post_revision( absint( $post_id ) ) ) {
+			// Get the path to the upload directory.
+			$wp_upload_dir = wp_upload_dir();
+			$file = $wpdb-&gt;get_var( $wpdb-&gt;prepare( &quot;SELECT file FROM &quot; . GEODIR_ATTACHMENT_TABLE . &quot; WHERE ID = %d&quot;, $file_id ) );
+			$filename = $wp_upload_dir[&#039;basedir&#039;] . $file;
+			$featured_img_url = get_the_post_thumbnail_url( $post_id, &#039;full&#039; );
+
+			if ( $featured_img_url != $file_url &amp;&amp; ! geodir_is_full_url( $file ) ) {
+				$file = wp_check_filetype( basename( $file_url ) );
+				$attachment = array(
+					&#039;guid&#039;           =&gt; $file_url,
+					&#039;post_mime_type&#039; =&gt; $file[&#039;type&#039;],
+					&#039;post_title&#039;     =&gt; stripslashes_deep( $file_title ),
+					&#039;post_content&#039;   =&gt; stripslashes_deep( $file_caption ),
+					&#039;post_status&#039;    =&gt; &#039;inherit&#039;
+				);
+				$attachment_id = wp_insert_attachment( $attachment, $filename, $post_id );
+
+				// Make sure that this file is included, as wp_generate_attachment_metadata() depends on it.
+				require_once( ABSPATH . &#039;wp-admin/includes/image.php&#039; );
+
+				// Generate the metadata for the attachment, and update the database record.
+				$attach_data = wp_generate_attachment_metadata( $attachment_id, $filename );
+				wp_update_attachment_metadata( $attachment_id , $attach_data );
+				set_post_thumbnail( $post_id, $attachment_id );
+			} else {
+				// Update post thumbnail title for existing attachment.
+				$post_thumbnail_id = get_post_thumbnail_id( $post_id );
+
+				if ( $post_thumbnail_id ) {
+					$wpdb-&gt;update(
+						$wpdb-&gt;posts,
+						array( &#039;post_title&#039; =&gt; stripslashes( $file_title ), &#039;post_excerpt&#039; =&gt; stripslashes( $file_caption ), &#039;post_content&#039; =&gt; stripslashes( $file_caption ) ),
+						array( &#039;ID&#039; =&gt; $post_thumbnail_id ),
+						array( &#039;%s&#039;, &#039;%s&#039;, &#039;%s&#039; )
+					);
+				}
+			}
+		}
+
+		$data = array(
+			&#039;title&#039; =&gt; stripslashes_deep( $file_title ),
+			&#039;caption&#039; =&gt; stripslashes_deep( $file_caption ),
+			&#039;menu_order&#039; =&gt; $order,
+			&#039;featured&#039; =&gt; $order === 0 &amp;&amp; $field == &#039;post_images&#039; ? 1 : 0,
+			&#039;is_approved&#039; =&gt; $is_approved,
+		);
+
+		$format = array(
+			&#039;%s&#039;,
+			&#039;%s&#039;,
+			&#039;%d&#039;,
+			&#039;%d&#039;,
+			&#039;%d&#039;
+		);
+
+		if ( $other_id ) {
+			$data[&#039;other_id&#039;] = $other_id;
+			$format[] = &#039;%d&#039;;
+		}
+
+		// insert into the DB
+		$result = $wpdb-&gt;update(
+			GEODIR_ATTACHMENT_TABLE,
+			$data,
+			array( &#039;ID&#039; =&gt; $file_id ),
+			$format
+		);
+
+		// If DB save failed then return error object
+		if ( $result === false ) {
+			return new WP_Error( &#039;image_insert&#039;, __( &quot;Failed to update image info to DB.&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		// Clear the post attachment cache
+		wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $field . &#039;:::&#039; . $other_id . &#039;:&#039;, &#039;gd_attachments_by_type&#039; );
+		wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $field . &#039;:::&#039; . $other_id . &#039;:1&#039;, &#039;gd_attachments_by_type&#039; );
+		if ( ! $other_id ) {
+			wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $field . &#039;:1:::&#039;, &#039;gd_attachments_by_type&#039; );
+			wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $field . &#039;:1:::1&#039;, &#039;gd_attachments_by_type&#039; );
+		}
+
+		// Attachment info.
+		$attachment = $wpdb-&gt;get_row( $wpdb-&gt;prepare( &quot;SELECT * FROM &quot; . GEODIR_ATTACHMENT_TABLE . &quot; WHERE ID = %d&quot;, $file_id ), ARRAY_A );
+
+		/**
+		 * @since 2.0.0.75
+		 */
+		do_action( &#039;geodir_update_attachment&#039;, $file_id, $attachment, $order );
+
+		if ( $result ) {
+			/**
+			 * @since 2.0.0.75
+			 */
+			do_action( &#039;geodir_updated_attachment&#039;, $file_id, $attachment, $order );
+		}
+
+		return $attachment;
+	}
+
+	/**
+	 * Get files via url.
+	 *
+	 * @param $url
+	 * @param string $file_name
+	 * @param array $allowed_file_types
+	 *
+	 * @return array|bool|mixed
+	 */
+	public static function get_external_media( $url, $file_name = &#039;&#039;, $allowed_file_types = array(&#039;image/jpg&#039;, &#039;image/jpeg&#039;, &#039;image/gif&#039;, &#039;image/png&#039;, &#039;image/webp&#039;),$dangerously_set_filetype = array() ) {
+		// Gives us access to the download_url() and wp_handle_sideload() functions
+		require_once( ABSPATH . &#039;wp-admin/includes/file.php&#039; );
+
+		$upload_dir = wp_upload_dir();
+
+		// Prevent SSL certificate related issues.
+		$temp_file = &#039;&#039;;
+		if ( ! empty( $upload_dir ) &amp;&amp; strpos( $url, $upload_dir[&#039;baseurl&#039;] . &#039;/geodir_temp/&#039; ) === 0 ) {
+			$temp_url = str_replace( $upload_dir[&#039;baseurl&#039;] . &#039;/geodir_temp/&#039;, $upload_dir[&#039;basedir&#039;] . &#039;/geodir_temp/&#039;, $url );
+
+			if ( file_exists( $temp_url ) ) {
+				$temp_file = $temp_url;
+			}
+		}
+
+		// Download file to temp dir
+		if ( ! $temp_file ) {
+			// URL to the external image.
+			$timeout_seconds = 5;
+
+			$temp_file = self::download_url( $url, $timeout_seconds );
+		}
+
+		if ( ! is_wp_error( $temp_file ) ) {
+
+			// make sure its an image
+			$file_type = !empty($dangerously_set_filetype) ? $dangerously_set_filetype : wp_check_filetype(basename( parse_url( $url, PHP_URL_PATH ) ));
+			
+			// Set an array containing a list of acceptable formats
+			if ( ! empty( $file_type[&#039;ext&#039;] ) &amp;&amp; ! empty( $file_type[&#039;type&#039;] ) &amp;&amp; ( in_array( &#039;*&#039;, $allowed_file_types ) || in_array( $file_type[&#039;type&#039;], $allowed_file_types ) || in_array( strtolower ( $file_type[&#039;ext&#039;] ), $allowed_file_types ) ) ) {
+			} else {
+				return false;
+			}
+
+			// Set the file name to the title if it exists
+			$_file_name = !empty($file_name) ? $file_name.&quot;.&quot;.$file_type[&#039;ext&#039;] : basename( $url );
+
+			// Array based on $_FILE as seen in PHP file uploads
+			$file = array(
+				&#039;name&#039;     =&gt; $_file_name, // ex: wp-header-logo.png
+				&#039;type&#039;     =&gt; $file_type,
+				&#039;tmp_name&#039; =&gt; $temp_file,
+				&#039;error&#039;    =&gt; 0,
+				&#039;size&#039;     =&gt; filesize( $temp_file ),
+			);
+
+			//print_r($file);
+
+			$overrides = array(
+				// Tells WordPress to not look for the POST form
+				// fields that would normally be present as
+				// we downloaded the file from a remote server, so there
+				// will be no form fields
+				// Default is true
+				&#039;test_form&#039; =&gt; false,
+
+				// Setting this to false lets WordPress allow empty files, not recommended
+				// Default is true
+				&#039;test_size&#039; =&gt; true,
+			);
+
+			// Move the temporary file into the uploads directory
+			$results = wp_handle_sideload( $file, $overrides );
+
+			// unlink the temp file
+			/** @scrutinizer ignore-unhandled */ @unlink($temp_file);
+
+			if ( ! empty( $results[&#039;error&#039;] ) ) {
+				// Insert any error handling here
+				return $results;
+			} else {
+
+//				$filename  = $results[&#039;file&#039;]; // Full path to the file
+//				$local_url = $results[&#039;url&#039;];  // URL to the file in the uploads dir
+//				$type      = $results[&#039;type&#039;]; // MIME type of the file
+
+				// Perform any actions here based in the above results
+
+				return $results;
+			}
+
+		}else{
+			return $temp_file; // WP-error
+		}
+	}
+
+	/**
+	 * Duplicate of the WP function but we allow urls with query args.
+	 *
+	 * @param $url
+	 * @param int $timeout
+	 *
+	 * @return array|bool|string|WP_Error
+	 */
+	public static function download_url($url, $timeout = 300){
+		//WARNING: The file is not automatically deleted, The script must unlink() the file.
+		if ( ! $url )
+			return new WP_Error(&#039;http_no_url&#039;, __(&#039;Invalid URL Provided.&#039;));
+
+		$url_filename = basename( parse_url( $url, PHP_URL_PATH ) );
+
+		$tmpfname = wp_tempnam( $url_filename );
+		if ( ! $tmpfname )
+			return new WP_Error(&#039;http_no_file&#039;, __(&#039;Could not create Temporary file.&#039;));
+
+		// WE CHANGE THIS TO LET US DOWNLOAD URLS WITH QUERY ARGS
+		$response = wp_remote_get( $url, array( &#039;timeout&#039; =&gt; $timeout, &#039;stream&#039; =&gt; true, &#039;filename&#039; =&gt; $tmpfname ) );
+
+		if ( is_wp_error( $response ) ) {
+			if( $tmpfname &amp;&amp; file_exists( $tmpfname ) ){
+				unlink( $tmpfname );
+			}
+
+			return $response;
+		}
+
+		if ( 200 != wp_remote_retrieve_response_code( $response ) ){
+			unlink( $tmpfname );
+			return new WP_Error( &#039;http_404&#039;, trim( wp_remote_retrieve_response_message( $response ) ) );
+		}
+
+		$content_md5 = wp_remote_retrieve_header( $response, &#039;content-md5&#039; );
+		if ( $content_md5 ) {
+			$md5_check = verify_file_md5( $tmpfname, $content_md5 );
+			if ( is_wp_error( $md5_check ) ) {
+				unlink( $tmpfname );
+				return $md5_check;
+			}
+		}
+
+		return $tmpfname;
+	}
+
+
+	/**
+	 * Delete an attachment by id.
+	 *
+	 * @param $id
+	 * @param $post_id
+	 *
+	 * @return bool|false|int
+	 */
+	public static function delete_attachment( $id, $post_id = &#039;&#039;, $attachment = &#039;&#039; ) {
+		global $wpdb;
+
+		if ( empty( $attachment ) ) {
+			$attachment = $wpdb-&gt;get_row( $wpdb-&gt;prepare( &quot;SELECT * FROM &quot; . GEODIR_ATTACHMENT_TABLE . &quot; WHERE id = %d AND post_id = %d&quot;, $id, $post_id ) );
+		}
+
+		// check we have an attachment
+		if ( empty( $attachment ) ) {
+			return false;
+		}
+
+		// unlink the image
+		if ( isset( $attachment-&gt;file ) &amp;&amp; ! empty( $attachment-&gt;file ) ) {
+			/**
+			 * Filters whether a post attachment file deletion should take place.
+			 *
+			 * @since 2.0.0.71
+			 *
+			 * @param bool $delete Whether to go forward with deletion.
+			 * @param int $id The attachment id.
+			 * @param int $post_id Post ID.
+			 * @param object $attachment Post attachment.
+			 */
+			$check = apply_filters( &#039;geodir_pre_delete_attachment_file&#039;, null, $id, $post_id, $attachment );
+
+			if ( null === $check ) {
+				$wp_upload_dir = wp_upload_dir();
+				$file_path = $wp_upload_dir[&#039;basedir&#039;] . $attachment-&gt;file;
+				wp_delete_file( $file_path ); // delete main image
+
+				if ( ! empty( $attachment-&gt;metadata ) ) {
+					$metadata = maybe_unserialize( $attachment-&gt;metadata );
+					// delete other sizes
+					if ( ! empty( $metadata[&#039;sizes&#039;] ) ) {
+						$img_url_basename = wp_basename( $file_path );
+
+						foreach ( $metadata[&#039;sizes&#039;] as $size ) {
+							if ( ! empty( $size[&#039;file&#039;] ) ) {
+								$file_path = str_replace( $img_url_basename, wp_basename( $size[&#039;file&#039;] ), $wp_upload_dir[&#039;basedir&#039;] . $attachment-&gt;file );
+								wp_delete_file( $file_path ); // delete image size
+							}
+						}
+					}
+				}
+
+				// Clear post attachment cache.
+				wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $attachment-&gt;type . &#039;::::&#039;, &#039;gd_attachments_by_type&#039; );
+				wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $attachment-&gt;type . &#039;:1:::&#039;, &#039;gd_attachments_by_type&#039; );
+				wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $attachment-&gt;type . &#039;::::1&#039;, &#039;gd_attachments_by_type&#039; );
+				wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $attachment-&gt;type . &#039;:1:::1&#039;, &#039;gd_attachments_by_type&#039; );
+			}
+		}
+
+		$result = false;
+
+		// Remove from DB
+		/**
+		 * Filters whether a post attachment deletion from DB should take place.
+		 *
+		 * @since 2.0.0.71
+		 *
+		 * @param bool $delete Whether to go forward with deletion.
+		 * @param int $id The attachment id.
+		 * @param int $post_id Post ID.
+		 * @param object $attachment Post attachment.
+		 */
+		$check = apply_filters( &#039;geodir_pre_delete_attachment_record&#039;, null, $id, $post_id, $attachment );
+		if ( null === $check ) {
+			/**
+			 * @since 2.0.0.75
+			 */
+			do_action( &#039;geodir_delete_attachment&#039;, $id, $attachment );
+
+			$result = $wpdb-&gt;query( $wpdb-&gt;prepare( &quot;DELETE FROM &quot; . GEODIR_ATTACHMENT_TABLE . &quot; WHERE id = %d AND post_id = %d&quot;, $id, $post_id ) );
+
+			if ( $result ) {
+				/**
+				 * @since 2.0.0.75
+				 */
+				do_action( &#039;geodir_deleted_attachment&#039;, $id, $attachment );
+			}
+		}
+		return $result;
+	}
+
+	/**
+	 * Get attachments by type.
+	 * 
+	 * @param $post_id
+	 * @param mixed $type
+	 * @param string $limit
+	 * @param int $revision_id
+	 * @param int $other_id
+	 * @param int $status
+	 *
+	 * @return array|null|object
+	 */
+	public static function get_attachments_by_type( $post_id, $type = &#039;post_images&#039;, $limit = &#039;&#039;, $revision_id =&#039;&#039;, $other_id = &#039;&#039;, $status = &#039;&#039; ) {
+		global $wpdb;
+
+		$cache_type_key = $type;
+		if ( is_array( $type ) ) {
+			$cache_type_key = implode( &quot;:&quot;, $type );
+			if ( count( $type ) == 1 ) {
+				$type = reset( $type );
+			}
+		}
+
+		// Check for cache
+		$cache_key = &#039;gd_attachments_by_type:&#039; . $post_id . &#039;:&#039; . $cache_type_key. &#039;:&#039; . $limit . &#039;:&#039; . $revision_id . &#039;:&#039; . $other_id . &#039;:&#039; . $status;
+		$cache = wp_cache_get( $cache_key, &#039;gd_attachments_by_type&#039; );
+		if ( $cache !== false ) {
+			return $cache;
+		}
+
+		$limit_sql = &#039;&#039;;
+		$sql_args = array();
+		$default_orderby = &quot; `menu_order` ASC, `ID` DESC &quot;;
+
+		// types
+		if ( is_array( $type ) ) {
+			$prepare_types = implode( &quot;,&quot;, array_fill( 0, count( $type ), &#039;%s&#039; ) );
+			foreach ( $type as $key ) {
+				$sql_args[] = $key;
+				if ( $key == &#039;comment_images&#039; ) {
+					$default_orderby = &quot; `ID` DESC, `menu_order` ASC &quot;;
+				}
+			}
+		} else {
+			if ( $type == &#039;comment_images&#039; ) {
+				$default_orderby = &quot; `ID` DESC, `menu_order` ASC &quot;;
+			}
+			$prepare_types = &quot;%s&quot;;
+			$sql_args[] = $type;
+		}
+
+		// ids
+		$prepare_ids = &quot;%d&quot;;
+		$sql_args[] = $post_id;
+
+		// revision id
+		if($revision_id ){
+			$prepare_ids .= &quot;,%d&quot;;
+			$sql_args[] = $revision_id;
+		}
+
+		// other ids (things like comments)
+		$where = &#039;&#039;;
+		if ( $other_id ) {
+			$where .= &quot; AND other_id = %d&quot;;
+			$other_id  = absint( $other_id );
+			$sql_args[] = $other_id;
+		}
+
+		// Status
+		if ( $status !== &#039;&#039; ) {
+			$where .= absint( $status ) == 0 ? &quot; AND is_approved = 0&quot; : &quot; AND is_approved != 0&quot;;
+		}
+
+		// order by fields
+		$field_orderby = &#039;&#039;;
+		if(is_array($type)){
+			$field_orderby = $wpdb-&gt;prepare(&quot; FIELD(type,$prepare_types) ,&quot;,$type);
+		}
+
+		// limit
+		if($limit){
+			$limit_sql = &#039; LIMIT %d &#039;;
+			$limit = absint($limit);
+			$sql_args[] = $limit;
+		}
+
+
+		// get the results
+		$sql = $wpdb-&gt;prepare( &quot;SELECT * FROM &quot; . GEODIR_ATTACHMENT_TABLE . &quot; WHERE type IN ( $prepare_types ) AND post_id IN( $prepare_ids ) {$where} ORDER BY $field_orderby $default_orderby $limit_sql&quot;, $sql_args );
+
+		$results = $wpdb-&gt;get_results($sql);
+
+		// maybe set external meta
+		$results = self::set_external_src_meta( $results );
+
+		// set cache
+		wp_cache_set( $cache_key, $results, &#039;gd_attachments_by_type&#039; );
+		return $results;
+
+	}
+
+	/**
+	 * If the file src is eternal then set the meta src as external.
+	 *
+	 * @param $images
+	 *
+	 * @return mixed
+	 */
+	public static function set_external_src_meta( $images ) {
+		if ( ! empty( $images ) ) {
+			foreach ( $images as $key =&gt; $image ) {
+				if ( isset( $image-&gt;file ) &amp;&amp; ! empty( $image-&gt;metadata ) &amp;&amp; geodir_is_full_url( $image-&gt;file ) ) {
+					$image_meta = maybe_unserialize( $image-&gt;metadata );
+
+					if ( ! empty( $image_meta[&#039;file&#039;] ) ) {
+						$image_meta[&#039;file&#039;] = $image-&gt;file;
+						$images[$key]-&gt;metadata = maybe_serialize( $image_meta );
+					}
+				}
+			}
+		}
+
+		return $images;
+	}
+
+	/**
+	 * Get the post_images of the post.
+	 *
+	 * @param $post_id
+	 * @param string $limit
+	 * @param string $revision_id
+	 * @param int|string $status Optional. Retrieve images with status passed.
+	 *
+	 * @return array|null|object
+	 */
+	public static function get_post_images( $post_id, $limit = &#039;&#039;, $revision_id = &#039;&#039;, $status = &#039;&#039; ) {
+		return self::get_attachments_by_type( $post_id, &#039;post_images&#039;, $limit, $revision_id, &#039;&#039;, $status );
+	}
+
+
+	/**
+	 * Get the edit string for files per field.
+	 *
+	 * @param $post_id
+	 * @param $field
+	 * @param string $revision_id
+	 *
+	 * @return string
+	 */
+	public static function get_field_edit_string( $post_id, $field, $revision_id = &#039;&#039;, $other_id = &#039;&#039;, $is_export = false ) {
+		$files = self::get_attachments_by_type( $post_id, $field, &#039;&#039;, $revision_id, $other_id );
+
+		if ( ! empty( $files ) ) {
+			$wp_upload_dir = wp_upload_dir();
+			$files_arr = array();
+
+			foreach( $files as $file ) {
+				$is_approved = isset( $file-&gt;is_approved ) &amp;&amp; $file-&gt;is_approved ? &#039;&#039; : &#039;|0&#039;;
+
+				if ( $file-&gt;menu_order == &quot;-1&quot; ) {
+					$is_approved = &quot;|-1&quot;;
+				}
+
+				if ( geodir_is_full_url( $file-&gt;file ) ) {
+					$img_src = esc_url_raw( $file-&gt;file );
+
+					// Add &#039;#&#039; at start of the url when exporting the images.
+					if ( $is_export ) {
+						$img_src = &#039;#&#039; . $img_src;
+					}
+				} else {
+					$img_src = $wp_upload_dir[&#039;baseurl&#039;] . $file-&gt;file;
+				}
+
+				$files_arr[] = $img_src . &quot;|&quot; . $file-&gt;ID . &quot;|&quot; . $file-&gt;title . &quot;|&quot; . $file-&gt;caption . $is_approved;
+			}
+			return implode( &quot;::&quot;, $files_arr );
+		} else {
+			return &#039;&#039;;
+		}
+	}
+
+	/**
+	 * @param $post_id
+	 *
+	 * @return false|int
+	 */
+	public static function delete_files($post_id,$field=&#039;&#039;){
+		global $wpdb;
+		$result = &#039;&#039;;
+		if($field==&#039;all&#039;){
+			$files = $wpdb-&gt;get_results($wpdb-&gt;prepare(&quot;SELECT * FROM &quot; . GEODIR_ATTACHMENT_TABLE . &quot; WHERE post_id = %d&quot;, $post_id));
+			if(!empty($files)){
+				self::delete_file($files);
+			}
+			$result = $wpdb-&gt;query($wpdb-&gt;prepare(&quot;DELETE FROM &quot; . GEODIR_ATTACHMENT_TABLE . &quot; WHERE post_id = %d&quot;, $post_id));
+		}elseif($field){
+			$files = $wpdb-&gt;get_results($wpdb-&gt;prepare(&quot;SELECT * FROM &quot; . GEODIR_ATTACHMENT_TABLE . &quot; WHERE post_id = %d AND type = %s&quot;, $post_id,$field));
+			if(!empty($files)){
+				self::delete_file($files);
+			}
+			$result = $wpdb-&gt;query($wpdb-&gt;prepare(&quot;DELETE FROM &quot; . GEODIR_ATTACHMENT_TABLE . &quot; WHERE post_id = %d AND type = %s&quot;, $post_id,$field));
+		}
+
+		return $result;
+	}
+
+	/**
+	 * Delete files from the attachment table.
+	 * 
+	 * @param $files
+	 */
+	public static function delete_file($files){
+
+		if(!empty($files)){
+			foreach($files as $file){
+				if(isset($file-&gt;file) &amp;&amp; $file-&gt;file){
+					// check if its a post thumbnail also
+					if(isset($file-&gt;featured) &amp;&amp; $file-&gt;featured){
+						$post_thumbnail_id = get_post_thumbnail_id( $file-&gt;post_id );
+						wp_delete_attachment( $post_thumbnail_id, true);
+
+						if ( ! empty( $file-&gt;type ) ) {
+							// Clear post attachment cache.
+							wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $file-&gt;post_id . &#039;:&#039; . $file-&gt;type . &#039;::::&#039;, &#039;gd_attachments_by_type&#039; );
+							wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $file-&gt;post_id . &#039;:&#039; . $file-&gt;type . &#039;:1:::&#039;, &#039;gd_attachments_by_type&#039; );
+							wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $file-&gt;post_id . &#039;:&#039; . $file-&gt;type . &#039;::::1&#039;, &#039;gd_attachments_by_type&#039; );
+							wp_cache_delete( &#039;gd_attachments_by_type:&#039; . $file-&gt;post_id . &#039;:&#039; . $file-&gt;type . &#039;:1:::&#039;, &#039;gd_attachments_by_type&#039; );
+						}
+					}else{
+						self::delete_attachment($file-&gt;ID,$file-&gt;post_id, $file);
+					}
+				}
+			}
+		}
+
+	}
+
+	/**
+	 * Set a temp upload directory for post attachments before they are saved.
+	 *
+	 * @since 2.0.0
+	 * @param array $upload Array of upload directory data with keys of &#039;path&#039;,&#039;url&#039;, &#039;subdir, &#039;basedir&#039;, and &#039;error&#039;.
+	 *
+	 * @return array Returns upload directory details as an array.
+	 */
+	public static function temp_upload_dir( $upload ) {
+		$upload[&#039;subdir&#039;] = &quot;/geodir_temp&quot;;
+		$upload[&#039;path&#039;]   = $upload[&#039;basedir&#039;] . $upload[&#039;subdir&#039;];
+		$upload[&#039;url&#039;]    = $upload[&#039;baseurl&#039;] . $upload[&#039;subdir&#039;];
+
+		return $upload;
+	}
+
+	/**
+	 * Update the revision images IDs to the parent post on save.
+	 * 
+	 * @param $post_id
+	 * @param $revision_id
+	 */
+	public static function revision_to_parent($post_id,$revision_id){
+		if(!empty($post_id) &amp;&amp; !empty($revision_id)){
+			global $wpdb;
+			$result = $wpdb-&gt;update(
+				GEODIR_ATTACHMENT_TABLE,
+				array(
+					&#039;post_id&#039; =&gt; $post_id
+				),
+				array(&#039;post_id&#039; =&gt; $revision_id),
+				array(
+					&#039;%d&#039;
+				)
+			);
+		}
+	}
+
+	/**
+	 * Upload image from URL.
+	 *
+	 * @since 2.0.0
+	 * @param string $image_url
+	 * @return array|WP_Error Attachment data or error message.
+	 */
+	public static function upload_image_from_url( $image_url ) {
+		$file_name  = basename( current( explode( &#039;?&#039;, $image_url ) ) );
+		$parsed_url = @parse_url( $image_url );
+
+		// Check parsed URL.
+		if ( ! $parsed_url || ! is_array( $parsed_url ) ) {
+			return new WP_Error( &#039;geodir_invalid_image_url&#039;, sprintf( __( &#039;Invalid URL %s.&#039;, &#039;geodirectory&#039; ), $image_url ), array( &#039;status&#039; =&gt; 400 ) );
+		}
+
+		// Ensure url is valid.
+		$image_url = esc_url_raw( $image_url );
+
+		// Get the file.
+		$response = wp_safe_remote_get( $image_url, array(
+			&#039;timeout&#039; =&gt; 10,
+		) );
+
+		if ( is_wp_error( $response ) ) {
+			return new WP_Error( &#039;geodir_invalid_remote_image_url&#039;, sprintf( __( &#039;Error getting remote image %s.&#039;, &#039;geodirectory&#039; ), $image_url ) . &#039; &#039; . sprintf( __( &#039;Error: %s.&#039;, &#039;geodirectory&#039; ), $response-&gt;get_error_message() ), array( &#039;status&#039; =&gt; 400 ) );
+		} elseif ( 200 !== wp_remote_retrieve_response_code( $response ) ) {
+			return new WP_Error( &#039;geodir_invalid_remote_image_url&#039;, sprintf( __( &#039;Error getting remote image %s.&#039;, &#039;geodirectory&#039; ), $image_url ), array( &#039;status&#039; =&gt; 400 ) );
+		}
+
+		// Ensure we have a file name and type.
+		$wp_filetype = wp_check_filetype( $file_name );
+
+		if ( ! $wp_filetype[&#039;type&#039;] ) {
+			$headers = wp_remote_retrieve_headers( $response );
+			if ( isset( $headers[&#039;content-disposition&#039;] ) &amp;&amp; strstr( $headers[&#039;content-disposition&#039;], &#039;filename=&#039; ) ) {
+				$disposition = end( explode( &#039;filename=&#039;, $headers[&#039;content-disposition&#039;] ) );
+				$disposition = sanitize_file_name( $disposition );
+				$file_name   = $disposition;
+			} elseif ( isset( $headers[&#039;content-type&#039;] ) &amp;&amp; strstr( $headers[&#039;content-type&#039;], &#039;image/&#039; ) ) {
+				$file_name = &#039;image.&#039; . str_replace( &#039;image/&#039;, &#039;&#039;, $headers[&#039;content-type&#039;] );
+			}
+			unset( $headers );
+
+			// Recheck filetype
+			$wp_filetype = wp_check_filetype( $file_name );
+
+			if ( ! $wp_filetype[&#039;type&#039;] ) {
+				return new WP_Error( &#039;geodir_invalid_image_type&#039;, __( &#039;Invalid image type.&#039;, &#039;geodirectory&#039; ), array( &#039;status&#039; =&gt; 400 ) );
+			}
+		}
+
+		// Upload the file.
+		$upload = wp_upload_bits( $file_name, &#039;&#039;, wp_remote_retrieve_body( $response ) );
+
+		if ( $upload[&#039;error&#039;] ) {
+			return new WP_Error( &#039;geodir_image_upload_error&#039;, $upload[&#039;error&#039;], array( &#039;status&#039; =&gt; 400 ) );
+		}
+
+		// Get filesize.
+		$filesize = filesize( $upload[&#039;file&#039;] );
+
+		if ( 0 == $filesize ) {
+			/** @scrutinizer ignore-unhandled */ @unlink( $upload[&#039;file&#039;] );
+			unset( $upload );
+
+			return new WP_Error( &#039;geodir_image_upload_file_error&#039;, __( &#039;Zero size file downloaded.&#039;, &#039;geodirectory&#039; ), array( &#039;status&#039; =&gt; 400 ) );
+		}
+
+		do_action( &#039;geodir_uploaded_image_from_url&#039;, $upload, $image_url );
+
+		return $upload;
+	}
+
+	/**
+	 * Set uploaded image as attachment.
+	 *
+	 * @since 2.0.0
+	 * @param array $upload Upload information from wp_upload_bits.
+	 * @param int $id Post ID. Default to 0.
+	 * @return int Attachment ID
+	 */
+	public static function set_uploaded_image_as_attachment( $upload, $id = 0 ) {
+		if ( empty( $upload[&#039;file&#039;] ) ) {
+			return false;
+		}
+
+		$info    = wp_check_filetype( $upload[&#039;file&#039;] );
+		if ( empty( $info[&#039;type&#039;] ) ) {
+			return false;
+		}
+
+		$title   = &#039;&#039;;
+		$content = &#039;&#039;;
+
+		if ( ! function_exists( &#039;wp_generate_attachment_metadata&#039; ) ) {
+			include_once( ABSPATH . &#039;wp-admin/includes/image.php&#039; );
+		}
+
+		if ( $image_meta = wp_read_image_metadata( $upload[&#039;file&#039;] ) ) {
+			if ( trim( $image_meta[&#039;title&#039;] ) &amp;&amp; ! is_numeric( sanitize_title( $image_meta[&#039;title&#039;] ) ) ) {
+				$title = geodir_clean( $image_meta[&#039;title&#039;] );
+			}
+			if ( trim( $image_meta[&#039;caption&#039;] ) ) {
+				$content = geodir_clean( $image_meta[&#039;caption&#039;] );
+			}
+		}
+
+		$attachment = array(
+			&#039;post_mime_type&#039; =&gt; $info[&#039;type&#039;],
+			&#039;guid&#039;           =&gt; $upload[&#039;url&#039;],
+			&#039;post_parent&#039;    =&gt; $id,
+			&#039;post_title&#039;     =&gt; $title ? stripslashes_deep( $title ) : stripslashes_deep( basename( $upload[&#039;file&#039;] ) ),
+			&#039;post_content&#039;   =&gt; stripslashes_deep( $content ),
+		);
+
+		$attachment_id = wp_insert_attachment( $attachment, $upload[&#039;file&#039;], $id );
+		if ( ! is_wp_error( $attachment_id ) ) {
+			wp_update_attachment_metadata( $attachment_id, wp_generate_attachment_metadata( $attachment_id, $upload[&#039;file&#039;] ) );
+		}
+
+		return $attachment_id;
+	}
+
+	/**
+	 * Count total image attachments.
+	 *
+	 * @since 2.1.0.10
+	 *
+	 * @global object $wpdb WordPress Database object.
+	 *
+	 * @return int Total image attachments.
+	 */
+	public static function count_image_attachments() {
+		global $wpdb;
+
+		return (int) $wpdb-&gt;get_var( $wpdb-&gt;prepare( &quot;SELECT COUNT(*) FROM `&quot; . GEODIR_ATTACHMENT_TABLE . &quot;` WHERE `mime_type` LIKE &#039;image/%&#039; OR `type` = %s&quot;, array( &#039;post_images&#039; ) ) );
+	}
+
+	/**
+	 * Regenerate thumbnails for bulk attachments.
+	 *
+	 * @since 2.1.0.10
+	 *
+	 * @global object $wpdb WordPress Database object.
+	 *
+	 * @param  int $page_no Page number.
+	 * @param  int $per_page Per page.
+	 * @return mixed
+	 */
+	public static function generate_bulk_attachment_metadata( $page_no, $per_page ) {
+		global $wpdb;
+
+		if ( $page_no &lt; 1 ) {
+			$page_no = 1;
+		}
+
+		if ( $per_page &lt; 1 ) {
+			$per_page = 10;
+		}
+
+		$data = array(
+			&#039;success&#039; =&gt; array(),
+			&#039;error&#039; =&gt; array(),
+			&#039;processed&#039; =&gt; 0
+		);
+
+		$offset = ( $page_no - 1 ) * $per_page;
+
+		if ( $offset &gt; 0 ) {
+			$limit = &quot;LIMIT &quot; . $offset . &quot;,&quot; . $per_page;
+		} else {
+			$limit = &quot;LIMIT &quot; . $per_page;
+		}
+
+		$attachments = $wpdb-&gt;get_results( $wpdb-&gt;prepare( &quot;SELECT * FROM `&quot; . GEODIR_ATTACHMENT_TABLE . &quot;` WHERE `mime_type` LIKE &#039;image/%&#039; OR `type` = %s ORDER BY ID ASC {$limit}&quot;, array( &#039;post_images&#039; ) ) );
+
+		if ( ! empty( $attachments ) ) {
+			foreach ( $attachments as $attachment ) {
+				$result = self::generate_attachment_metadata( $attachment );
+
+				$data[&#039;processed&#039;] = $data[&#039;processed&#039;] + 1;
+				if ( is_wp_error( $result ) ) {
+					geodir_error_log( $result-&gt;get_error_message(), __( &#039;Generate attachment metadata&#039;, &#039;geodirectory&#039; ) );
+
+					$data[&#039;error&#039;][ $attachment-&gt;ID ] = $result;
+				} else {
+					$data[&#039;success&#039;][ $attachment-&gt;ID ] = $result;
+				}
+			}
+		} else {
+		}
+
+		return $data;
+	}
+
+	/**
+	 * Regenerate post thumbnails.
+	 *
+	 * @since 2.1.0.10
+	 *
+	 * @global object $wpdb WordPress Database object.
+	 *
+	 * @param  int $post_id The post ID.
+	 * @return mixed
+	 */
+	public static function generate_post_attachment_metadata( $post_id ) {
+		global $wpdb;
+
+		if ( empty( $post_id ) ) {
+			return new WP_Error( &#039;gd-invalid-post-id&#039;, __( &#039;Invalid post id!&#039;, &#039;geodirectory&#039; ) );
+		}
+
+		$data = array(
+			&#039;success&#039; =&gt; array(),
+			&#039;error&#039; =&gt; array()
+		);
+
+		$attachments = $wpdb-&gt;get_results( $wpdb-&gt;prepare( &quot;SELECT * FROM `&quot; . GEODIR_ATTACHMENT_TABLE . &quot;` WHERE `post_id` = %d AND ( `mime_type` LIKE &#039;image/%&#039; OR `type` = %s ) ORDER BY ID ASC&quot;, array( $post_id, &#039;post_images&#039; ) ) );
+
+		if ( ! empty( $attachments ) ) {
+			foreach ( $attachments as $attachment ) {
+				$result = self::generate_attachment_metadata( $attachment );
+
+				if ( is_wp_error( $result ) ) {
+					geodir_error_log( $result-&gt;get_error_message(), __( &#039;Generate attachment metadata&#039;, &#039;geodirectory&#039; ) );
+
+					$data[&#039;error&#039;][ $attachment-&gt;ID ] = $result;
+				} else {
+					$data[&#039;success&#039;][ $attachment-&gt;ID ] = $result;
+				}
+			}
+		}
+
+		return $data;
+	}
+
+	/**
+	 * Regenerate attachment metadata.
+	 *
+	 * @since 2.1.0.10
+	 *
+	 * @global object $wpdb WordPress Database object.
+	 *
+	 * @param object $attachment Post attachment object.
+	 * @return mixed
+	 */
+	public static function generate_attachment_metadata( $attachment = array() ) {
+		global $wpdb;
+
+		if ( ! ( ! empty( $attachment ) &amp;&amp; ! empty( $attachment-&gt;ID ) &amp;&amp; ! empty( $attachment-&gt;file ) ) ) {
+			return new WP_Error( &#039;gd-invalid-attachment&#039;, __( &#039;Invalid attachment!&#039;, &#039;geodirectory&#039; ) );
+		}
+
+		// Full or external image url
+		if ( geodir_is_full_url( $attachment-&gt;file ) || strpos( $attachment-&gt;file, &#039;#&#039; ) === 0 ) {
+			return new WP_Error( &#039;gd-external-image&#039;, __( &#039;Attachment metadata not generated for external image!&#039;, &#039;geodirectory&#039; ) );
+		}
+
+		$wp_upload_dir = wp_upload_dir();
+
+		$file_path = $wp_upload_dir[&#039;basedir&#039;] . $attachment-&gt;file;
+
+		if ( is_file( $file_path ) &amp;&amp; file_exists( $file_path ) ) {
+			$metadata = self::create_image_sizes( $file_path );
+
+			if ( is_wp_error( $metadata ) ) {
+				return $metadata;
+			}
+
+			if ( ! empty( $metadata ) &amp;&amp; is_array( $metadata ) ) {
+				$wpdb-&gt;update( GEODIR_ATTACHMENT_TABLE, array( &#039;metadata&#039; =&gt; maybe_serialize( $metadata ) ), array( &#039;ID&#039; =&gt; $attachment-&gt;ID ) );
+			}
+		} else {
+			$metadata = new WP_Error( &#039;gd-image-notfound&#039;, wp_sprintf( __( &#039;%s not exists!&#039;, &#039;geodirectory&#039; ), $wp_upload_dir[&#039;baseurl&#039;] . $attachment-&gt;file ) );
+		}
+
+		return $metadata;
+	}
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

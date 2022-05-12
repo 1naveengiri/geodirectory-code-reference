@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334994">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334994">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        </head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/elementorpro.html">ElementorPro</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/elementorpro-modules.html">Modules</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/elementorpro-modules-posts.html">Posts</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/elementorpro-modules-posts-skins.html">Skins</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    GeoDir_Elementor_Skin_Archive
+
+        <span class="phpdocumentor-element__extends">
+        extends <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html"><abbr title="\ElementorPro\Modules\Posts\Skins\GeoDir_Elementor_Skin_Posts">GeoDir_Elementor_Skin_Posts</abbr></a>
+    </span>
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="../packages/Geodirectory.html">Geodirectory</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.424">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">424</span>
+</aside>
+
+            <p class="phpdocumentor-summary">It seems the same skin brakes if set to 2 widgets in the same time.</p>
+
+    <section class="phpdocumentor-description"></section>
+
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+                <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#property_settings">$settings</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Archive.html#property_pid">$pid</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Archive.html#property_template_cache">$template_cache</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Archive.html#method_get_id">get_id()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_get_settings_for_display">get_settings_for_display()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_get_skin_template">get_skin_template()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Archive.html#method_get_title">get_title()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_register_controls">register_controls()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_register_navigation_controls">register_navigation_controls()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_register_navigation_design_controls">register_navigation_design_controls()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_render">render()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_render_amp">render_amp()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Archive.html#method__register_controls_actions">_register_controls_actions()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_get_template">get_template()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Archive.html#method_register_post_count_control">register_post_count_control()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_render_loop_footer">render_loop_footer()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_render_loop_header">render_loop_header()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_render_post">render_post()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_render_post_footer">render_post_footer()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_render_post_header">render_post_header()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_set_used_template">set_used_template()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>This is for terms we don&#039;t need passid so we can actually add them in cache.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_get_current_ID">get_current_ID()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>This is for multilang porpouses. Ex: WPML.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_get_post_id">get_post_id()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_nothing_found">nothing_found()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/ElementorPro-Modules-Posts-Skins-GeoDir-Elementor-Skin-Posts.html#method_slider_elements">slider_elements()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+        </dl>
+
+
+
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_settings">
+        $settings
+        <a href="#property_settings" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.24">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$settings</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_pid">
+        $pid
+        <a href="#property_pid" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.426">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">426</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$pid</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_template_cache">
+        $template_cache
+        <a href="#property_template_cache" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.425">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">425</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$template_cache</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="#methods" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_id">
+        get_id()
+        <a href="#method_get_id" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.436">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">436</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">get_id</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_settings_for_display">
+        get_settings_for_display()
+        <a href="#method_get_settings_for_display" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.400">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">400</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">get_settings_for_display</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$setting_key</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$setting_key</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_skin_template">
+        get_skin_template()
+        <a href="#method_get_skin_template" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.103">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">103</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">get_skin_template</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_title">
+        get_title()
+        <a href="#method_get_title" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.440">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">440</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">get_title</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_register_controls">
+        register_controls()
+        <a href="#method_register_controls" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.49">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">49</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">register_controls</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Elementor\Widget_Base">Widget_Base</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$widget</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$widget</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Elementor\Widget_Base">Widget_Base</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_register_navigation_controls">
+        register_navigation_controls()
+        <a href="#method_register_navigation_controls" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.41">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">41</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">register_navigation_controls</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_register_navigation_design_controls">
+        register_navigation_design_controls()
+        <a href="#method_register_navigation_design_controls" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.45">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">45</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">register_navigation_design_controls</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_render">
+        render()
+        <a href="#method_render" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.365">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">365</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">render</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_render_amp">
+        render_amp()
+        <a href="#method_render_amp" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.132">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">132</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">render_amp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__register_controls_actions">
+        _register_controls_actions()
+        <a href="#method__register_controls_actions" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.428">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">428</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">_register_controls_actions</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_template">
+        get_template()
+        <a href="#method_get_template" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.147">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">147</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">get_template</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_register_post_count_control">
+        register_post_count_control()
+        <a href="#method_register_post_count_control" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.445">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">445</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">register_post_count_control</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_render_loop_footer">
+        render_loop_footer()
+        <a href="#method_render_loop_footer" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.274">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">274</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">render_loop_footer</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_render_loop_header">
+        render_loop_header()
+        <a href="#method_render_loop_header" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.253">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">253</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">render_loop_header</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_render_post">
+        render_post()
+        <a href="#method_render_post" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.217">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">217</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">render_post</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_render_post_footer">
+        render_post_footer()
+        <a href="#method_render_post_footer" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.213">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">213</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">render_post_footer</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_render_post_header">
+        render_post_header()
+        <a href="#method_render_post_header" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.200">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">200</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">render_post_header</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_set_used_template">
+        set_used_template()
+        <a href="#method_set_used_template" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.139">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">139</span>
+</aside>
+
+        <p class="phpdocumentor-summary">This is for terms we don&#039;t need passid so we can actually add them in cache.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">set_used_template</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$skin</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$skin</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_current_ID">
+        get_current_ID()
+        <a href="#method_get_current_ID" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.194">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">194</span>
+</aside>
+
+        <p class="phpdocumentor-summary">This is for multilang porpouses. Ex: WPML.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">get_current_ID</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_post_id">
+        get_post_id()
+        <a href="#method_get_post_id" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.99">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">99</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">get_post_id</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_nothing_found">
+        nothing_found()
+        <a href="#method_nothing_found" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.349">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">349</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">nothing_found</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_slider_elements">
+        slider_elements()
+        <a href="#method_slider_elements" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php"><a href="../files/geodirectory-includes-elementor-class-geodir-elementor-skin-custom.html#source-view.343">geodirectory/includes/elementor/class-geodir-elementor-skin-custom.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">343</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">slider_elements</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+            </section>
+
+    </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334994"></script>
+    <script src="../js/search.js?updated=1652334994"></script>
+</body>
+</html>

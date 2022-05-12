@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">freelancer.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_extra_custom_fields_freelancer">
+        geodir_extra_custom_fields_freelancer()
+        <a href="#function_geodir_extra_custom_fields_freelancer" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dummy-data/freelancer.php"><a href="../files/geodirectory-includes-admin-dummy-data-freelancer.html#source-view.740">geodirectory/includes/admin/dummy-data/freelancer.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">740</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_extra_custom_fields_freelancer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fields</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_type</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$package_id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$fields</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$package_id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GD Freelancers dummy data.
+ *
+ * @since 2.0.0
+ * @package GeoDirectory
+ */
+
+// Set the dummy image url
+//$dummy_image_url = &#039;https://wpgd-jzgngzymm1v50s3e3fqotwtenpjxuqsmvkua.netdna-ssl.com/dummy/&#039;; // CDN URL will be faster
+
+$dummy_image_url = &#039;https://wpgd-jzgngzymm1v50s3e3fqotwtenpjxuqsmvkua.netdna-ssl.com/dummy/freelancers/images&#039;;
+$dummy_caticon_url = &#039;https://wpgd-jzgngzymm1v50s3e3fqotwtenpjxuqsmvkua.netdna-ssl.com/dummy/freelancers/icons&#039;;
+
+
+// Set the dummy categories
+$dummy_categories  = array();
+
+$dummy_categories[&#039;back-end&#039;] = array(
+	&#039;name&#039;        =&gt; &#039;Back End&#039;,
+	&#039;icon&#039;        =&gt; $dummy_caticon_url . &#039;/back-end.png&#039;,
+	&#039;font_icon&#039;   =&gt; &#039;fas fa-database&#039;,
+	&#039;color&#039;       =&gt; &#039;#254e4e&#039;,
+);
+$dummy_categories[&#039;front-end&#039;] = array(
+	&#039;name&#039;        =&gt; &#039;Front End&#039;,
+	&#039;icon&#039;        =&gt; $dummy_caticon_url . &#039;/front-end.png&#039;,
+	&#039;font_icon&#039;   =&gt; &#039;fas fa-file-code&#039;,
+	&#039;color&#039;       =&gt; &#039;#5551b9&#039;,
+);
+$dummy_categories[&#039;full-stack&#039;] = array(
+	&#039;name&#039;        =&gt; &#039;Full Stack&#039;,
+	&#039;icon&#039;        =&gt; $dummy_caticon_url . &#039;/full-stack.png&#039;,
+	&#039;font_icon&#039;   =&gt; &#039;fas fa-cubes&#039;,
+	&#039;color&#039;       =&gt; &#039;#852d2d&#039;,
+);
+$dummy_categories[&#039;implementer&#039;] = array(
+	&#039;name&#039;        =&gt; &#039;Implementer&#039;,
+	&#039;icon&#039;        =&gt; $dummy_caticon_url . &#039;/implementer.png&#039;,
+	&#039;font_icon&#039;   =&gt; &#039;fas fa-star&#039;,
+	&#039;color&#039;       =&gt; &#039;#84612d&#039;,
+);
+$dummy_categories[&#039;seo&#039;] = array(
+	&#039;name&#039;        =&gt; &#039;SEO&#039;,
+	&#039;icon&#039;        =&gt; $dummy_caticon_url . &#039;/seo.png&#039;,
+	&#039;font_icon&#039;   =&gt; &#039;fas fa-search-plus&#039;,
+	&#039;color&#039;       =&gt; &#039;#84612d&#039;,
+);
+
+// Set any custom fields
+$dummy_custom_fields = array();
+$dummy_custom_fields = GeoDir_Admin_Dummy_Data::extra_custom_fields($post_type); // set extra default fields
+
+// Set any sort fields
+$dummy_sort_fields = array();
+
+// date added
+$dummy_sort_fields[] = array(
+	&#039;post_type&#039; =&gt; $post_type,
+	&#039;data_type&#039; =&gt; &#039;&#039;,
+	&#039;field_type&#039; =&gt; &#039;datetime&#039;,
+	&#039;frontend_title&#039; =&gt; __(&#039;Newest&#039;,&#039;geodirectory&#039;),
+	&#039;htmlvar_name&#039; =&gt; &#039;post_date&#039;,
+	&#039;sort&#039; =&gt; &#039;desc&#039;,
+	&#039;is_active&#039; =&gt; &#039;1&#039;,
+	&#039;is_default&#039; =&gt; &#039;1&#039;,
+);
+
+// rating
+$dummy_sort_fields[] = array(
+	&#039;post_type&#039; =&gt; $post_type,
+	&#039;data_type&#039; =&gt; &#039;VARCHAR&#039;,
+	&#039;field_type&#039; =&gt; &#039;float&#039;,
+	&#039;frontend_title&#039; =&gt; __(&#039;Best Rated&#039;,&#039;geodirectory&#039;),
+	&#039;htmlvar_name&#039; =&gt; &#039;overall_rating&#039;,
+	&#039;sort&#039; =&gt; &#039;desc&#039;,
+	&#039;is_active&#039; =&gt; &#039;1&#039;,
+	&#039;is_default&#039; =&gt; &#039;0&#039;,
+);
+
+// Hourly Price (least)
+$dummy_sort_fields[] = array(
+	&#039;post_type&#039; =&gt; $post_type,
+	&#039;data_type&#039; =&gt; &#039;VARCHAR&#039;,
+	&#039;field_type&#039; =&gt; &#039;float&#039;,
+	&#039;frontend_title&#039; =&gt; __(&#039;Hourly Price (Least)&#039;,&#039;geodirectory&#039;),
+	&#039;htmlvar_name&#039; =&gt; &#039;hourly_price&#039;,
+	&#039;sort&#039; =&gt; &#039;asc&#039;,
+	&#039;is_active&#039; =&gt; &#039;1&#039;,
+	&#039;is_default&#039; =&gt; &#039;0&#039;,
+);
+
+// Hourly Price (most)
+$dummy_sort_fields[] = array(
+	&#039;post_type&#039; =&gt; $post_type,
+	&#039;data_type&#039; =&gt; &#039;VARCHAR&#039;,
+	&#039;field_type&#039; =&gt; &#039;float&#039;,
+	&#039;frontend_title&#039; =&gt; __(&#039;Hourly Price (Most)&#039;,&#039;geodirectory&#039;),
+	&#039;htmlvar_name&#039; =&gt; &#039;hourly_price&#039;,
+	&#039;sort&#039; =&gt; &#039;desc&#039;,
+	&#039;is_active&#039; =&gt; &#039;1&#039;,
+	&#039;is_default&#039; =&gt; &#039;0&#039;,
+);
+
+
+// Set dummy posts
+$dummy_posts = array();
+// dummy post 1
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Paddy O\&#039;Furniture&#039;,
+	&quot;post_content&quot; =&gt; &#039;We have worked with GeoTheme in the past and GeoDirectory since it’s initial release. We also contributed code to both GeoDirectory and some of its addons.
+
+We can help you design, implement and customize every aspect of your directory. We can develop both GeoDirectory Themes and Add-ons.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Full Stack&#039;, &#039;Front End&#039;, &#039;Back End&#039;, &#039;SEO&#039;, &#039;Implementer&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;PHP&#039;, &#039;JS&#039;, &#039;SQL&#039;, &#039;CSS&#039;, &#039;HTML&#039; ),
+	&quot;email&quot; =&gt; &#039;paddy@paddy.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;20&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;PHP,JS,SQL,CSS,HTML&#039;,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 2
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Mario Speedwagon&#039;,
+	&quot;post_content&quot; =&gt; &#039;Contact me if you want to upgrade to GDV2, develop a custom feature, or get a native mobile app for your GDV2 site.
+
+I also provide amazing custom template layouts for GDV2 with builders to really set your site apart, as well as quick setup for new sites..&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Back End&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;CSS&#039;, &#039;SCSS&#039;, &#039;NODEJS&#039; ),
+	&quot;email&quot; =&gt; &#039;mario@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;30&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt;  &#039;Graphic Design&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 3
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Anna Sthesia&#039;,
+	&quot;post_content&quot; =&gt; &#039;Allow me to introduce myself, my name is Anna Sthesia, I am a fulltime pro-active WordPress GeoDirectory developer having 6+ years of experience on designing and developing WordPress Geodirectory websites.
+
+I’m friendly, professional, and very passionate about what I do. My promise to you is to deliver the best quality work, in the shortest amount of time, for a price that will fit your budget.
+
+&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;SEO&#039;, &#039;Implementer&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;SEO&#039;, &#039;Page Index&#039; ),
+	&quot;email&quot; =&gt; &#039;se0@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;20&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;PHP,NodeJS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 4
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Bob Frapples&#039;,
+	&quot;post_content&quot; =&gt; &#039;I have been a WordPress tragic for a long time now. I also am part of the GeoDirectory team since the beginning of that plugin and its add-ons, and my role there is to provide customer support, not only for the GeoDirectory plugins and plugins, but also the WP Invoicing and UsersWP plugins.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Full Stack&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;mySQL&#039;, &#039;Linux Server&#039; ),
+	&quot;email&quot; =&gt; &#039;bob@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;20&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;PHP,NodeJS&#039;,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-4.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 5
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Gail Forcewind&#039;,
+	&quot;post_content&quot; =&gt; &#039;I can help you with design, implementation and customization aspects of your directory. I can develop both GeoDirectory custom hemes and Add-ons.
+
+Importantly, I Enjoy my job. Just give me a chance to work with you and I will achieve complex functionality and help you to grow your business in the best possible way.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Implementer&#039;, &#039;Back End&#039;, &#039;Front End&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;mySQL&#039;, &#039;Linux Server&#039;, &#039;implementer&#039; ),
+	&quot;email&quot; =&gt; &#039;gail@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;14&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;SEO,SQL&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-5.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 6
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Minnie Van Ryder&#039;,
+	&quot;post_content&quot; =&gt; &#039;Hello Minnie Van Ryder, web designer, theme developer and founder of example.com, with over 8 years of experience in : UI/UX design, Front-End development, WordPress, I have the creative flair, originality and strong visual sense needed to satisfy the requirements of the most demanding of clients.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Front End&#039;, &#039;SEO&#039;, &#039;Back End&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;CSS&#039;, &#039;saas&#039;, &#039;scss&#039; ),
+	&quot;email&quot; =&gt; &#039;van@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;50&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;PHP,CSS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-6.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 7
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Eileen Sideways&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in SQL development and CSS, have more than 5+ years of experience.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Implementer&#039;, &#039;SEO&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;SQL&#039;, &#039;saas&#039;, &#039;CSS&#039; ),
+	&quot;email&quot; =&gt; &#039;eileen@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;30&#039;,
+	&quot;for_hire&quot; =&gt; 0,
+	&quot;areas_of_expertise&quot; =&gt; &#039;SQL,CSS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-7.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 8
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Paige Turner&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in SEO development and CSS, have more than 5+ years of experience.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;SEO&#039;, &#039;Back End&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;SQL&#039;, &#039;SEO&#039; ),
+	&quot;email&quot; =&gt; &#039;paige@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;20&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;SQL,CSS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-8.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 9
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Wes Yabinlatelee&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in Full stack development, have more than 15+ years of experience.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Full Stack&#039;, &#039;Implementer&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;css&#039;, &#039;SEO&#039;, &#039;sass&#039;, &#039;html&#039; ),
+	&quot;email&quot; =&gt; &#039;paige@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;90&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;SEO,CSS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-9.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 10
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Karen Onnabit&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in GD Ecosystem development, have more than 3+ years of experience of GD themes and plugins.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Implementer&#039;, &#039;Front End&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;css&#039;, &#039;SEO&#039;, &#039;sass&#039;, &#039;html&#039; ),
+	&quot;email&quot; =&gt; &#039;karen@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;65&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;GD,CSS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-10.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 11
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Percy Vere&#039;,
+	&quot;post_content&quot; =&gt; &#039;We have worked with GeoTheme in the past and GeoDirectory since it’s initial release. We also contributed code to both GeoDirectory and some of its addons.
+
+We can help you design, implement and customize every aspect of your directory. We can develop both GeoDirectory Themes and Add-ons.	&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Back End&#039;, &#039;SEO&#039;, &#039;Front End&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;mySQL&#039;, &#039;Linux Server&#039; ),
+	&quot;email&quot; =&gt; &#039;info@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;78&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt;  &#039;PHP&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-11.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 12
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Percy Kewshun&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in Frontend development, have more than 15+ years of experience.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Back End&#039;, &#039;Implementer&#039;, &#039;Front End&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;CSS&#039;, &#039;SCSS&#039;, &#039;NODEJS&#039; ),
+	&quot;email&quot; =&gt; &#039;hello@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;48&#039;,
+	&quot;for_hire&quot; =&gt; 0,
+	&quot;areas_of_expertise&quot; =&gt; &#039;CSS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-12.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 13
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Fay Daway&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in SEO, have more than 20+ years of experience.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;SEO&#039;, &#039;Implementer&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;SEO&#039;, &#039;Page Index&#039; ),
+	&quot;email&quot; =&gt; &#039;se0@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;76&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;PHP,NodeJS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-13.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 14
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Toi Story&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in GeoDirectory themes and Plugins, have more than 10+ years of experience in Web Development.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Full Stack&#039;, &#039;Back End&#039;, &#039;Front End&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;mySQL&#039;, &#039;Linux Server&#039; ),
+	&quot;email&quot; =&gt; &#039;bob@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;110&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;PHP,NodeJS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-14.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 15
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Gene Eva Convenshun&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in Backend development and SEO, have more than 10+ years of experience.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Implementer&#039;, &#039;Front End&#039;, &#039;Full Stack&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;mySQL&#039;, &#039;Linux Server&#039;, &#039;implementer&#039; ),
+	&quot;email&quot; =&gt; &#039;gail@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;150&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt;  &#039;SEO,SQL&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-15.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 16
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Polly Ester Undawair&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in Frontend development and Sass, have more than 5+ years of experience.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Front End&#039;, &#039;Implementer&#039;, &#039;SEO&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;CSS&#039;, &#039;saas&#039;, &#039;scss&#039; ),
+	&quot;email&quot; =&gt; &#039;van@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;50&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;PHP,CSS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-16.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 17
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Mike Rowe-Soft&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in SQL development and CSS, have more than 5+ years of experience.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Implementer&#039;, &#039;Front End&#039;, &#039;Back End&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;SQL&#039;, &#039;saas&#039;, &#039;CSS&#039; ),
+	&quot;email&quot; =&gt; &#039;eileen@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;30&#039;,
+	&quot;for_hire&quot; =&gt; 0,
+	&quot;areas_of_expertise&quot; =&gt; &#039;SQL,CSS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-17.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 18
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Stanley Knife&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in SEO development and CSS, have more than 5+ years of experience.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;SEO&#039;, &#039;Implementer&#039;, &#039;Full Stack&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;SQL&#039;, &#039;SEO&#039; ),
+	&quot;email&quot; =&gt; &#039;paige@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;20&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;SQL,CSS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-18.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 19
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Clyde Stale&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in Full stack development, have more than 15+ years of experience.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Full Stack&#039;, &#039;Front End&#039;, &#039;Back End&#039;, &#039;SEO&#039;, &#039;Implementer&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;css&#039;, &#039;SEO&#039;, &#039;sass&#039;, &#039;html&#039; ),
+	&quot;email&quot; =&gt; &#039;paige@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;90&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt; &#039;SEO,CSS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-19.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+// dummy post 20
+$dummy_posts[] = array(
+	&quot;post_type&quot; =&gt; $post_type,
+	&quot;post_status&quot; =&gt; &#039;publish&#039;,
+	&quot;post_title&quot; =&gt; &#039;Al Annon&#039;,
+	&quot;post_content&quot; =&gt; &#039;Expert in GD Ecosystem development, have more than 3+ years of experience of GD themes and plugins.&#039;,
+	&quot;post_category&quot; =&gt; array( &#039;Full Stack&#039;, &#039;Front End&#039;, &#039;Back End&#039;, &#039;SEO&#039;, &#039;Implementer&#039; ),
+	&quot;post_tags&quot; =&gt; array( &#039;css&#039;, &#039;SEO&#039;, &#039;sass&#039;, &#039;html&#039; ),
+	&quot;email&quot; =&gt; &#039;karen@example.com&#039;,
+	&quot;website&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;hourly_price&quot; =&gt; &#039;65&#039;,
+	&quot;for_hire&quot; =&gt; 1,
+	&quot;areas_of_expertise&quot; =&gt;  &#039;JS,CSS&#039; ,
+	&quot;post_images&quot;   =&gt; array(
+		&quot;$dummy_image_url/fr-20.jpg&quot;,
+		&quot;$dummy_image_url/frp-1.jpg&quot;,
+		&quot;$dummy_image_url/frp-2.jpg&quot;,
+		&quot;$dummy_image_url/frp-3.jpg&quot;,
+		&quot;$dummy_image_url/frp-4.jpg&quot;
+	),
+	&quot;portfolio_link_1&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_2&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_3&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_4&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_5&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_6&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_7&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;portfolio_link_8&quot; =&gt; &#039;http://example.com/&#039;,
+	&quot;post_dummy&quot; =&gt; &#039;1&#039;
+);
+
+function geodir_extra_custom_fields_freelancer( $fields, $post_type, $package_id ) {
+	$package = $package_id != &#039;&#039; ? array( $package_id ) : &#039;&#039;;
+
+	// EMail
+	$fields[] = array(
+		&#039;post_type&#039; =&gt; $post_type,
+		&#039;data_type&#039; =&gt; &#039;VARCHAR&#039;,
+		&#039;field_type&#039; =&gt; &#039;text&#039;,
+		&#039;admin_title&#039; =&gt; __(&#039;Email&#039;, &#039;geodirectory&#039;),
+		&#039;frontend_desc&#039; =&gt; __(&#039;Please enter your contact email address.&#039;, &#039;geodirectory&#039;),
+		&#039;frontend_title&#039; =&gt; __(&#039;Email&#039;, &#039;geodirectory&#039;),
+		&#039;htmlvar_name&#039; =&gt; &#039;email&#039;,
+		&#039;default_value&#039; =&gt; &#039;&#039;,
+		&#039;is_active&#039; =&gt; &#039;1&#039;,
+		&#039;option_values&#039; =&gt; &#039;&#039;,
+		&#039;is_default&#039; =&gt; &#039;0&#039;,
+		&#039;clabels&#039; =&gt; __(&#039;Email&#039;, &#039;geodirectory&#039;),
+		&#039;is_required&#039; =&gt; true,
+		&#039;required_msg&#039; =&gt; __(&#039;Enter email to get leads!&#039;, &#039;geodirectory&#039;),
+	);
+	
+	// website
+    $fields[] = array(
+		&#039;post_type&#039; 			=&gt; $post_type,
+		&#039;field_type&#039;			=&gt; &#039;text&#039;,
+		&#039;data_type&#039;				=&gt; &#039;VARCHAR&#039;,
+		&#039;admin_title&#039;			=&gt; __(&#039;Website&#039;, &#039;geodirectory&#039;),
+		&#039;frontend_title&#039;		=&gt; __(&#039;Website&#039;, &#039;geodirectory&#039;),
+		&#039;frontend_desc&#039;			=&gt; __(&#039;You can enter your business website.&#039;, &#039;geodirectory&#039; ),
+		&#039;htmlvar_name&#039;			=&gt; &#039;website&#039;,
+		&#039;is_active&#039;				=&gt; true,
+		&#039;for_admin_use&#039;			=&gt; false,
+		&#039;default_value&#039;			=&gt; &#039;&#039;,
+		&#039;option_values&#039; 		=&gt; &#039;&#039;,
+		&#039;clabels&#039; 				=&gt; &#039;Website&#039;
+    );
+
+    // Hourly rate
+    $fields[] = array(
+		&#039;post_type&#039; 			=&gt; $post_type,
+		&#039;field_type&#039;			=&gt; &#039;text&#039;,
+		&#039;data_type&#039;				=&gt; &#039;FLOAT&#039;,
+		&#039;decimal_point&#039;			=&gt; &#039;2&#039;,
+		&#039;admin_title&#039;			=&gt; __(&#039;Hourly Price&#039;, &#039;geodirectory&#039;),
+		&#039;frontend_title&#039;		=&gt; __(&#039;Hourly Price&#039;, &#039;geodirectory&#039;),
+		&#039;frontend_desc&#039;			=&gt; __(&#039;Enter the hourly price in $ (no currency symbol). Example : 40
+&#039;, &#039;geodirectory&#039;),
+		&#039;htmlvar_name&#039;			=&gt; &#039;hourly_price&#039;,
+		&#039;is_active&#039;				=&gt; true,
+		&#039;for_admin_use&#039;			=&gt; false,
+		&#039;default_value&#039;			=&gt; &#039;&#039;,
+		&#039;option_values&#039; 		=&gt; &#039;&#039;,
+		&#039;is_required&#039;			=&gt; true,
+		&#039;required_msg&#039;          =&gt; __(&#039;Please enter your hourly rate&#039;, &#039;geodirectory&#039;),
+		&#039;validation_pattern&#039;	=&gt; addslashes_gpc( &#039;\d+(\.\d{2})?&#039; ), // add slashes required
+		&#039;validation_msg&#039;		=&gt; &#039;Please enter number and decimal only ie: 100.50&#039;,
+		&#039;field_icon&#039;			=&gt; &#039;fas fa-dollar-sign&#039;,
+		&#039;css_class&#039;				=&gt; &#039;&#039;,
+		&#039;cat_sort&#039;				=&gt; true,
+		&#039;cat_filter&#039;			=&gt; true,
+		&#039;extra&#039;					=&gt; array(
+			&#039;is_price&#039;                  =&gt; 1,
+			&#039;thousand_separator&#039;        =&gt; &#039;comma&#039;,
+			&#039;decimal_separator&#039;         =&gt; &#039;period&#039;,
+			&#039;decimal_display&#039;           =&gt; &#039;if&#039;,
+			&#039;currency_symbol&#039;           =&gt; &#039;$&#039;,
+			&#039;currency_symbol_placement&#039; =&gt; &#039;left&#039;
+		),
+		&#039;show_on_pkg&#039; 			=&gt; $package,
+		&#039;clabels&#039; 				=&gt; &#039;hourly_price&#039;
+    );
+
+    // For Hire
+    $fields[] = array(
+		&#039;post_type&#039; =&gt; $post_type,
+		&#039;data_type&#039; =&gt; &#039;TINYINT&#039;, 
+		&#039;field_type&#039; =&gt; &#039;radio&#039;, 
+		&#039;admin_title&#039; =&gt; __(&#039;For Hire?&#039;, &#039;geodirectory&#039;),
+		&#039;frontend_desc&#039; =&gt; __(&#039;Tick &quot;Yes&quot; if you are available for Hire.&#039;, &#039;geodirectory&#039;),
+		&#039;frontend_title&#039; =&gt; __(&#039;For Hire?&#039;, &#039;geodirectory&#039;), 
+		&#039;htmlvar_name&#039; =&gt; &#039;for_hire&#039;, 
+		&#039;sort_order&#039; =&gt; &#039;0&#039;,
+		&#039;option_values&#039; =&gt; &#039;Yes/1,No/0&#039;,
+		&#039;clabels&#039; =&gt; __(&#039;For Hire?&#039;, &#039;geodirectory&#039;), 
+		&#039;is_active&#039; =&gt; &#039;1&#039;,
+		&#039;field_icon&#039; =&gt; &#039;fas fa-sitemap&#039;
+	);
+
+	
+	// Areas of Expertise
+	$fields[] = array(
+		&#039;post_type&#039; =&gt; $post_type,
+		&#039;data_type&#039; =&gt; &#039;VARCHAR&#039;,
+		&#039;field_type&#039; =&gt; &#039;multiselect&#039;,
+		&#039;is_active&#039; =&gt; 1,
+		&#039;for_admin_use&#039; =&gt; 0,
+		&#039;is_default&#039; =&gt; 0,
+		&#039;admin_title&#039; =&gt; __(&#039;Areas of Expertise&#039;, &#039;geodirectory&#039;),
+		&#039;frontend_desc&#039; =&gt; __(&#039;Areas of Expertise.&#039;, &#039;geodirectory&#039;),
+		&#039;frontend_title&#039; =&gt; __(&#039;Areas of Expertise&#039;, &#039;geodirectory&#039;),
+		&#039;htmlvar_name&#039; =&gt; &#039;areas_of_expertise&#039;,
+		&#039;default_value&#039; =&gt; &#039;&#039;,
+		&#039;is_required&#039; =&gt; &#039;1&#039;,
+		&#039;required_msg&#039; =&gt; __(&#039;Select your areas of expertise&#039;, &#039;geodirectory&#039;),
+		&#039;show_on_pkg&#039; =&gt; $package,
+		&#039;option_values&#039; =&gt; &#039;PHP,JS,HTML,CSS,SQL,UX,UI,NodeJS,Graphic Design,SEO,Data Entry&#039;,
+		&#039;field_icon&#039; =&gt; &#039;fas fa-home&#039;,
+		&#039;css_class&#039; =&gt; &#039;&#039;,
+		&#039;cat_sort&#039; =&gt; 1,
+		&#039;cat_filter&#039; =&gt; 1,
+		&#039;show_in&#039; =&gt; &#039;[detail]&#039;,
+		&#039;clabels&#039; =&gt; __(&#039;Areas of Expertise&#039;, &#039;geodirectory&#039;),
+	);
+
+	$fields[] = array(
+				&#039;post_type&#039; =&gt; $post_type,
+				&#039;data_type&#039; =&gt; &#039;TEXT&#039;,
+				&#039;field_type&#039; =&gt; &#039;url&#039;,
+				&#039;admin_title&#039; =&gt; __(&#039;Portfolio link 1&#039;, &#039;geodirectory&#039;),
+				&#039;frontend_desc&#039; =&gt; __(&#039;Please add a link to a website you have created.&#039;, &#039;geodirectory&#039;),
+				&#039;frontend_title&#039; =&gt; __(&#039;Portfolio link 1&#039;, &#039;geodirectory&#039;),
+				&#039;htmlvar_name&#039; =&gt; &#039;portfolio_link_1&#039;,
+				&#039;default_value&#039; =&gt; &#039;&#039;,
+				&#039;is_active&#039; =&gt; &#039;1&#039;,
+				&#039;option_values&#039; =&gt; &#039;&#039;,
+				&#039;is_default&#039; =&gt; &#039;0&#039;,
+				&#039;show_in&#039; =&gt; &#039;&#039;,
+				&#039;show_on_pkg&#039; =&gt; $package,
+				&#039;clabels&#039; =&gt; __(&#039;Portfolio link 1&#039;, &#039;geodirectory&#039;)
+			);
+
+	$fields[] = array(
+			&#039;post_type&#039; =&gt; $post_type,
+			&#039;data_type&#039; =&gt; &#039;TEXT&#039;,
+			&#039;field_type&#039; =&gt; &#039;url&#039;,
+			&#039;admin_title&#039; =&gt; __(&#039;Portfolio link 2&#039;, &#039;geodirectory&#039;),
+			&#039;frontend_desc&#039; =&gt; __(&#039;Please add a link to a website you have created.&#039;, &#039;geodirectory&#039;),
+			&#039;frontend_title&#039; =&gt; __(&#039;Portfolio link 2&#039;, &#039;geodirectory&#039;),
+			&#039;htmlvar_name&#039; =&gt; &#039;portfolio_link_2&#039;,
+			&#039;default_value&#039; =&gt; &#039;&#039;,
+			&#039;is_active&#039; =&gt; &#039;1&#039;,
+			&#039;option_values&#039; =&gt; &#039;&#039;,
+			&#039;is_default&#039; =&gt; &#039;0&#039;,
+			&#039;show_in&#039; =&gt; &#039;&#039;,
+			&#039;show_on_pkg&#039; =&gt; $package,
+			&#039;clabels&#039; =&gt; __(&#039;Portfolio link 2&#039;, &#039;geodirectory&#039;)
+		);
+	
+		$fields[] = array(
+					&#039;post_type&#039; =&gt; $post_type,
+					&#039;data_type&#039; =&gt; &#039;TEXT&#039;,
+					&#039;field_type&#039; =&gt; &#039;url&#039;,
+					&#039;admin_title&#039; =&gt; __(&#039;Portfolio link 3&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_desc&#039; =&gt; __(&#039;Please add a link to a website you have created.&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_title&#039; =&gt; __(&#039;Portfolio link 3&#039;, &#039;geodirectory&#039;),
+					&#039;htmlvar_name&#039; =&gt; &#039;portfolio_link_3&#039;,
+					&#039;default_value&#039; =&gt; &#039;&#039;,
+					&#039;is_active&#039; =&gt; &#039;1&#039;,
+					&#039;option_values&#039; =&gt; &#039;&#039;,
+					&#039;is_default&#039; =&gt; &#039;0&#039;,
+					&#039;show_in&#039; =&gt; &#039;&#039;,
+					&#039;show_on_pkg&#039; =&gt; $package,
+					&#039;clabels&#039; =&gt; __(&#039;Portfolio link 3&#039;, &#039;geodirectory&#039;)
+				);
+		$fields[] = array(
+					&#039;post_type&#039; =&gt; $post_type,
+					&#039;data_type&#039; =&gt; &#039;TEXT&#039;,
+					&#039;field_type&#039; =&gt; &#039;url&#039;,
+					&#039;admin_title&#039; =&gt; __(&#039;Portfolio link 4&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_desc&#039; =&gt; __(&#039;Please add a link to a website you have created.&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_title&#039; =&gt; __(&#039;Portfolio link 4&#039;, &#039;geodirectory&#039;),
+					&#039;htmlvar_name&#039; =&gt; &#039;portfolio_link_4&#039;,
+					&#039;default_value&#039; =&gt; &#039;&#039;,
+					&#039;is_active&#039; =&gt; &#039;1&#039;,
+					&#039;option_values&#039; =&gt; &#039;&#039;,
+					&#039;is_default&#039; =&gt; &#039;0&#039;,
+					&#039;show_in&#039; =&gt; &#039;&#039;,
+					&#039;show_on_pkg&#039; =&gt; $package,
+					&#039;clabels&#039; =&gt; __(&#039;Portfolio link 4&#039;, &#039;geodirectory&#039;)
+				);
+		$fields[] = array(
+					&#039;post_type&#039; =&gt; $post_type,
+					&#039;data_type&#039; =&gt; &#039;TEXT&#039;,
+					&#039;field_type&#039; =&gt; &#039;url&#039;,
+					&#039;admin_title&#039; =&gt; __(&#039;Portfolio link 5&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_desc&#039; =&gt; __(&#039;Please add a link to a website you have created.&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_title&#039; =&gt; __(&#039;Portfolio link 5&#039;, &#039;geodirectory&#039;),
+					&#039;htmlvar_name&#039; =&gt; &#039;portfolio_link_5&#039;,
+					&#039;default_value&#039; =&gt; &#039;&#039;,
+					&#039;is_active&#039; =&gt; &#039;1&#039;,
+					&#039;option_values&#039; =&gt; &#039;&#039;,
+					&#039;is_default&#039; =&gt; &#039;0&#039;,
+					&#039;show_in&#039; =&gt; &#039;&#039;,
+					&#039;show_on_pkg&#039; =&gt; $package,
+					&#039;clabels&#039; =&gt; __(&#039;Portfolio link 5&#039;, &#039;geodirectory&#039;)
+				);
+		$fields[] = array(
+					&#039;post_type&#039; =&gt; $post_type,
+					&#039;data_type&#039; =&gt; &#039;TEXT&#039;,
+					&#039;field_type&#039; =&gt; &#039;url&#039;,
+					&#039;admin_title&#039; =&gt; __(&#039;Portfolio link 6&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_desc&#039; =&gt; __(&#039;Please add a link to a website you have created.&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_title&#039; =&gt; __(&#039;Portfolio link 6&#039;, &#039;geodirectory&#039;),
+					&#039;htmlvar_name&#039; =&gt; &#039;portfolio_link_6&#039;,
+					&#039;default_value&#039; =&gt; &#039;&#039;,
+					&#039;is_active&#039; =&gt; &#039;1&#039;,
+					&#039;option_values&#039; =&gt; &#039;&#039;,
+					&#039;is_default&#039; =&gt; &#039;0&#039;,
+					&#039;show_in&#039; =&gt; &#039;&#039;,
+					&#039;show_on_pkg&#039; =&gt; $package,
+					&#039;clabels&#039; =&gt; __(&#039;Portfolio link 6&#039;, &#039;geodirectory&#039;)
+				);
+		$fields[] = array(
+					&#039;post_type&#039; =&gt; $post_type,
+					&#039;data_type&#039; =&gt; &#039;TEXT&#039;,
+					&#039;field_type&#039; =&gt; &#039;url&#039;,
+					&#039;admin_title&#039; =&gt; __(&#039;Portfolio link 7&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_desc&#039; =&gt; __(&#039;Please add a link to a website you have created.&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_title&#039; =&gt; __(&#039;Portfolio link 7&#039;, &#039;geodirectory&#039;),
+					&#039;htmlvar_name&#039; =&gt; &#039;portfolio_link_7&#039;,
+					&#039;default_value&#039; =&gt; &#039;&#039;,
+					&#039;is_active&#039; =&gt; &#039;1&#039;,
+					&#039;option_values&#039; =&gt; &#039;&#039;,
+					&#039;is_default&#039; =&gt; &#039;0&#039;,
+					&#039;show_in&#039; =&gt; &#039;&#039;,
+					&#039;show_on_pkg&#039; =&gt; $package,
+					&#039;clabels&#039; =&gt; __(&#039;Portfolio link 7&#039;, &#039;geodirectory&#039;)
+				);
+		$fields[] = array(
+					&#039;post_type&#039; =&gt; $post_type,
+					&#039;data_type&#039; =&gt; &#039;TEXT&#039;,
+					&#039;field_type&#039; =&gt; &#039;url&#039;,
+					&#039;admin_title&#039; =&gt; __(&#039;Portfolio link 8&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_desc&#039; =&gt; __(&#039;Please add a link to a website you have created.&#039;, &#039;geodirectory&#039;),
+					&#039;frontend_title&#039; =&gt; __(&#039;Portfolio link 8&#039;, &#039;geodirectory&#039;),
+					&#039;htmlvar_name&#039; =&gt; &#039;portfolio_link_8&#039;,
+					&#039;default_value&#039; =&gt; &#039;&#039;,
+					&#039;is_active&#039; =&gt; &#039;1&#039;,
+					&#039;option_values&#039; =&gt; &#039;&#039;,
+					&#039;is_default&#039; =&gt; &#039;0&#039;,
+					&#039;show_in&#039; =&gt; &#039;&#039;,
+					&#039;show_on_pkg&#039; =&gt; $package,
+					&#039;clabels&#039; =&gt; __(&#039;Portfolio link 8&#039;, &#039;geodirectory&#039;)
+				);
+						  
+	return $fields;
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

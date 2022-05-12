@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-template-loader.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+    exit; // Exit if accessed directly
+}
+
+/**
+ * Template Loader
+ *
+ * @version 2.0.0
+ */
+class GeoDir_Template_Loader {
+
+    /**
+     * Hook in methods.
+     *
+     * @since 2.0.0
+     */
+    public static function init() {
+
+//        global $wp_filter;
+//        print_r($wp_filter[&#039;the_content&#039;]);exit;
+
+
+        // filter the templates
+        add_filter( &#039;template_include&#039;, array( __CLASS__, &#039;template_loader&#039; ) );
+
+        // remove the theme featured output
+        add_action( &quot;wp&quot;, array(__CLASS__,&#039;disable_theme_featured_output&#039;) );
+
+        // disable GD page templates on frontend
+        add_action( &quot;wp&quot;, array(__CLASS__,&#039;disable_page_templates_frontend&#039;) );
+
+
+        add_action( &#039;post_updated&#039;, array(__CLASS__,&#039;set_clear_list_view_storage&#039;), 10, 3 );
+
+        // set search as post_type archive
+//        add_action( &quot;pre_handle_404&quot;, array(__CLASS__,&#039;set_search_as_archive&#039;),0);
+
+
+    }
+
+    // @todo we might need to adjust some query vars for beaver themer search page if the add our hooks.
+//    public static function set_search_as_archive(){//echo &#039;xxx&#039;;exit;
+//        global $wp_query;
+//        if(!empty($wp_query)){
+//
+////            print_r( $wp_query-&gt;query_vars );
+//
+////            $wp_query-&gt;is_search = 0;
+//            $wp_query-&gt;post_type = &#039;gd_place&#039;;
+//            $wp_query-&gt;set(&#039;post_type&#039;, &#039;gd_place&#039;);
+//            $wp_query-&gt;is_post_type_archive = 1;//echo &#039;###x&#039;;exit;
+//        }
+//    }
+
+    /**
+     * If saving a page that contains the [gd_loop] shortcode then we set a flag to blank the localStorage for the admin so they see the change instantly.
+     * 
+     * @param $post_ID
+     * @param $post_after
+     * @param $post_before
+     */
+    public static function set_clear_list_view_storage($post_ID, $post_after, $post_before){
+        if($post_after-&gt;post_type==&#039;page&#039; &amp;&amp; has_shortcode( $post_after-&gt;post_content, &#039;gd_loop&#039; ) ){
+            geodir_update_option(&#039;clear_list_view_storage&#039;,true);
+        }
+    }
+
+
+    /**
+     * Load a template.
+     *
+     * Handles template usage so that we can use our own templates instead of the themes.
+     *
+     * Templates are in the &#039;templates&#039; folder. geodirectory looks for theme.
+     * overrides in /theme/geodirectory/ by default.
+     *
+     * For beginners, it also looks for a geodirectory.php template first. If the user adds.
+     * this to the theme (containing a geodirectory() inside) this will be used for all.
+     * geodirectory templates.
+     *
+     * @since 2.0.0
+	 * @since 2.0.60 Customizr Pro theme does not locates the GD templates so use default template.
+     *
+     * @param mixed $template
+     * @return string
+     */
+    public static function template_loader( $template ) { //return $template;
+        if ( is_attachment() || is_embed() || ( is_404() &amp;&amp; ! isset( $_REQUEST[&#039;geodir_search&#039;] ) ) ) {
+            return $template;
+        }
+
+        if ( $default_file = self::get_template_loader_default_file() ) {//echo &#039;###&#039;. $default_file;
+            /**
+             * Filter hook to choose which files to find before GeoDirectory does it&#039;s own logic.
+             *
+             * @since 2.0.0
+             * @var array
+             */
+            $search_files = self::get_template_loader_files( $default_file );
+            $gd_template = locate_template( $search_files );
+
+            if ( !$gd_template &amp;&amp; $default_file &amp;&amp; $default_file !== &#039; &#039; ) {
+                $gd_template = geodir_get_templates_dir() . &#039;/&#039; . $default_file;
+            }
+
+			if ( $gd_template ) {
+				$template = $gd_template;
+			}
+        }
+
+        return $template;
+    }
+
+    /**
+     * Get the default filename for a template.
+     *
+     * @since  3.0.0
+     * @return string
+     */
+    private static function get_template_loader_default_file() {
+        global $wp_query;
+        $default_file = &#039;&#039;;
+
+        if(geodir_is_geodir_page()){
+            $default_file = &#039; &#039;; // fake a return to trigger the defaults
+        }else{
+            return &#039;&#039;;
+        }
+
+        if ( geodir_is_singular() ) {
+            $single_template = geodir_get_option(&#039;details_page_template&#039;);
+
+            if($single_template &amp;&amp; locate_template( $single_template )){
+                $default_file = $single_template;
+            }else{
+				$post_type = geodir_get_current_posttype();
+                $page_id = geodir_details_page_id($post_type);
+                if($page_id &amp;&amp;  $template = get_page_template_slug( $page_id )){
+                    // make sure the template exists before loading it, it might be from a old theme
+                    if(locate_template( $template )){
+                        $wp_query-&gt;is_page = 1;
+                        $default_file = $template;
+                    }
+
+                }else{
+                    // check if we have a theme compat setting.
+                    if($theme_template = GeoDir_Compatibility::theme_single_template()){
+                        $default_file = $theme_template;
+                    }
+                }
+            }
+
+
+            // setup the page content
+            add_filter( &#039;the_content&#039;, array( __CLASS__, &#039;setup_singular_page&#039; ) );
+        } elseif(geodir_is_page( &#039;location&#039; )){
+            $page_id = geodir_location_page_id();
+            if($page_id &amp;&amp;  $template = get_page_template_slug( $page_id )){
+                // make sure the template exists before loading it, it might be from a old theme
+                if(locate_template( $template )){
+                    //$wp_query-&gt;is_page = 1; //@todo, is this needed? (depends on theme?)
+                    $default_file = $template;
+                }
+            }
+        } elseif ( geodir_is_page( &#039;add-listing&#039; ) ) {
+            // The add listing page should never be cached
+            geodir_nocache_headers();
+
+            $post_type = geodir_get_current_posttype();
+            $page_id = geodir_add_listing_page_id( $post_type );
+
+            if ( $page_id &amp;&amp; ( $template = get_page_template_slug( $page_id ) ) ) {
+                // Make sure the template exists before loading it, it might be from a old theme
+                if ( locate_template( $template ) ) {
+                    //$wp_query-&gt;is_page = 1; // @todo, is this needed? (depends on theme?)
+                    $default_file = $template;
+                }
+            }
+        } else {
+            $archive_template = geodir_get_option(&#039;archive_page_template&#039;);
+
+            if($archive_template &amp;&amp; locate_template( $archive_template )){
+                $default_file = $archive_template;
+            }else{
+                $post_type = geodir_get_current_posttype();
+                //$wp_query-&gt;is_page = 1; //@todo, is this needed? (depends on theme?)
+
+                if(geodir_is_page( &#039;search&#039; ) ){
+                    $page_id = geodir_search_page_id();
+                   // $wp_query-&gt;is_page = 1; //@todo, is this needed? (depends on theme?)
+                }
+
+                if(!isset($page_id)){
+                    $page_id = geodir_archive_page_id($post_type);
+                }
+
+                if($page_id &amp;&amp;  $template = get_page_template_slug( $page_id )){
+                    // make sure the template exists before loading it, it might be from a old theme
+                    if(locate_template( $template )){
+                        //$wp_query-&gt;is_page = 1; //@todo, is this needed? (depends on theme?)
+                        $default_file = $template;
+                    }
+                }
+            }
+
+            if(
+                geodir_is_taxonomy()
+                || geodir_is_post_type_archive()
+                ||( geodir_is_page( &#039;author&#039; ) &amp;&amp; !empty($wp_query-&gt;query[&#039;gd_favs&#039;]) )
+                || geodir_is_page( &#039;search&#039; )
+            ){
+                self::setup_archive_loop_as_page();
+            }
+
+
+            // fake some stuff for search page
+            if ( geodir_is_page( &#039;search&#039; ) ) {
+                // If no posts found on search it goes to 404 so we fake it.
+                //$wp_query-&gt;found_posts = 1;
+                $wp_query-&gt;is_404 = &#039;&#039;;
+                $wp_query-&gt;is_page = 1;
+                $wp_query-&gt;is_archive = 1;
+                $wp_query-&gt;is_search = 1;
+            }
+        }
+
+       // echo &#039;###&#039;.$default_file.&#039;###&#039;;
+
+        return $default_file;
+    }
+
+    /**
+     * Get an array of filenames to search for a given template.
+     *
+     * @since  2.0.0
+     * @param  string $default_file The default file name.
+     * @return array $search_files.
+     */
+    private static function get_template_loader_files( $default_file ) {
+        $search_files = apply_filters( &#039;geodir_template_loader_files&#039;, array(), $default_file );
+
+        if ( geodir_is_taxonomy() ) {
+            $term = get_queried_object();
+
+            $search_files[] = &#039;taxonomy-&#039; . $term-&gt;taxonomy . &#039;-&#039; . $term-&gt;slug . &#039;.php&#039;;
+            $search_files[] = geodir_get_theme_template_dir_name() . &#039;/taxonomy-&#039; . $term-&gt;taxonomy . &#039;-&#039; . $term-&gt;slug . &#039;.php&#039;;
+            $search_files[] = &#039;taxonomy-&#039; . $term-&gt;taxonomy . &#039;.php&#039;;
+            $search_files[] = geodir_get_theme_template_dir_name() . &#039;/taxonomy-&#039; . $term-&gt;taxonomy . &#039;.php&#039;;
+        }
+
+	    if ( !empty($default_file) &amp;&amp; $default_file !== &#039; &#039; ) {
+		    $search_files[] = $default_file;
+		    $search_files[] = geodir_get_theme_template_dir_name() . &#039;/&#039; . $default_file;
+	    }
+
+        // check for archive template
+        if(geodir_is_page(&#039;archive&#039;) || geodir_is_page(&#039;search&#039;)){
+            $search_files[] = &#039;geodirectory-archive.php&#039;;
+        }
+
+        // check for single template
+        if(geodir_is_page(&#039;single&#039;)){
+            $search_files[] = &#039;geodirectory-single.php&#039;;
+        }
+
+        $search_files[] = &#039;geodirectory.php&#039;;
+        $search_files[] = &#039;page.php&#039;;
+
+        // Some themes like Twenty Twenty does not contain optional file page.php.
+        if ( ( empty( $default_file ) || $default_file === &#039; &#039; ) &amp;&amp; isset( $_REQUEST[&#039;geodir_search&#039;] ) &amp;&amp; is_search() &amp;&amp; ! get_query_template( &#039;page&#039; ) &amp;&amp; get_index_template() ) {
+            $search_files[] = &#039;index.php&#039;;
+        }
+
+        return array_unique( $search_files );
+    }
+
+    public static function is_archive_page_id( $id ) {
+        global $geodirectory;
+        $page_archive_id = isset( $geodirectory-&gt;settings[&#039;page_archive&#039;] ) ? $geodirectory-&gt;settings[&#039;page_archive&#039;] : 0;
+
+		$result = false;
+        if ( $id == $page_archive_id ) { // default page check
+            $result = true;
+        } elseif( geodir_is_cpt_template_page( $id ) ) { // could be a CPT specific page
+            $result = true;
+        }
+
+        return apply_filters( &#039;geodir_is_archive_page_id&#039;, $result, $id );
+    }
+
+    /**
+     * Check if we are dealing with archive page onctent.
+     * 
+     * @return bool
+     */
+    public static function is_archive_page_content(){
+        global $post,$wp_query,$geodirectory;
+        $result = false;
+        $queried_object = get_queried_object();
+
+        if( ( (!empty($post) &amp;&amp; $post-&gt;post_type==&#039;page&#039;) || isset($_REQUEST[&#039;geodir_search&#039;]) ) &amp;&amp; ! empty( $wp_query ) &amp;&amp; !empty($queried_object)){
+            if(!empty($queried_object-&gt;term_id)){// term
+                $result = self::is_archive_page_id($post-&gt;ID);
+            }elseif(!empty($queried_object-&gt;has_archive)){// CPT
+                $result = self::is_archive_page_id($post-&gt;ID);
+            }elseif(!empty($queried_object-&gt;ID) &amp;&amp; $queried_object-&gt;ID==geodir_search_page_id()){ // search
+                $result = true;
+            }
+        }
+
+        return $result;
+    }
+
+    /**
+     * Setup the GD Archive page content.
+     *
+     * @since 2.0.0
+     *
+     * @global bool $gd_skip_the_content Prevent looping for the_content from listing post_content.
+     *
+     * @return string The filtered content.
+     */
+    public static function setup_archive_page_content($content){
+        global $wp_query, $post, $gd_done_archive_loop, $gd_skip_the_content;
+
+        // if we are not filtering the archive page content then bail.
+        if ( $gd_skip_the_content || ! self::is_archive_page_content() ) {
+            return $content;
+        }
+
+        // if its outside the loop then bail so we don&#039;t set the current_post number and cause have_posts() to return false.
+        if ( ! in_the_loop() ) {
+            if ( current_filter() == &#039;the_excerpt&#039; &amp;&amp; $gd_done_archive_loop ) {
+                // we might be inside a &quot;the_excerpt&quot; filter which might be outside the loop so we don&#039;t return.
+            } else {
+                return;;
+            }
+        }
+
+		// Backpup post.
+		$gd_backup_post = $post;
+
+        // remove our filter so we don&#039;t get stuck in a loop
+        remove_filter( &#039;the_content&#039;, array( __CLASS__, &#039;setup_archive_page_content&#039; ) );
+        remove_filter( &#039;the_excerpt&#039;, array( __CLASS__, &#039;setup_archive_page_content&#039; ) );
+
+        // reset the query count so the correct number of listings are output.
+        if ( ! empty( $wp_query-&gt;posts ) ) {
+			rewind_posts();
+		}
+
+        // reset the proper loop content
+        global $wp_query,$gd_temp_wp_query;
+        $wp_query-&gt;posts = $gd_temp_wp_query;
+
+        // stop any GD archive pages outputing the comments section
+        global $gd_is_comment_template_set;
+        $gd_is_comment_template_set = true;
+
+        // get the archive template page content
+        if(geodir_is_page(&#039;search&#039;)){
+            $archive_page_id = geodir_search_page_id();
+        }else{
+            $post_type = geodir_get_current_posttype();
+			$archive_page_id = geodir_archive_page_id($post_type);
+        }
+        $content = get_post_field(&#039;post_content&#039;, $archive_page_id  );
+
+        // if the content is blank then just add the main loop
+        if($content==&#039;&#039;){
+            $content = GeoDir_Defaults::page_archive_content();
+        }
+
+        //$content = wpautop($content);// add double line breaks
+        // run the shortcodes on the content
+        $content = do_shortcode($content);
+
+        // run block content if its available
+        if(function_exists(&#039;do_blocks&#039;)){
+            $content = do_blocks( $content );
+        }
+
+        // add our filter back, not sure we even need to add it back if we are only running it once.
+        add_filter( &#039;the_content&#039;, array( __CLASS__, &#039;setup_archive_page_content&#039; ) );
+        add_filter( &#039;the_excerpt&#039;, array( __CLASS__, &#039;setup_archive_page_content&#039; ) );
+
+        // fake the has_posts() to false so it will not loop any more.
+        $wp_query-&gt;current_post  = $wp_query-&gt;post_count;
+
+		// Set original post.
+		if ( ! empty( $gd_backup_post ) ) {
+			$post = $gd_backup_post;
+		}
+
+
+        // set that the gd archive loop has run.
+        $gd_done_archive_loop = true;
+
+        return $content;
+    }
+
+    /**
+     * Setup the GD archive loop content.
+     *
+     * @since 2.0.0
+     */
+    public static function setup_archive_loop_as_page(){
+
+        /*
+         * Some page builders need to be able to take control here so we add a filter to bypass it on the fly
+         */
+        if(apply_filters(&#039;geodir_bypass_setup_archive_loop_as_page&#039;,false)){
+            return;
+        }
+
+        // get the main query
+        global $wp_query;
+
+        // declare our global var so we can store the main query temporarily.
+        global $gd_temp_wp_query;
+
+        // Set our temp var with the main query posts.
+        $gd_temp_wp_query = $wp_query-&gt;posts;
+
+
+        //print_r($gd_temp_wp_query ); echo &#039;@@@&#039;;
+        // Set the main query to our archive page template
+        if(geodir_is_page(&#039;search&#039;)){
+            $archive_page_id = geodir_search_page_id();
+        }else{
+			$post_type = geodir_get_current_posttype();
+            $archive_page_id = geodir_archive_page_id($post_type);
+        }
+        $archive_page = get_post($archive_page_id);
+        $wp_query-&gt;posts = array($archive_page);
+        //$wp_query-&gt;posts = array();
+        $wp_query-&gt;post = $archive_page;
+
+
+        // if no posts are found then the page will not display so we fake it
+        if(empty($gd_temp_wp_query)){
+            $wp_query-&gt;post_count = 1;
+        }
+
+        // we set a global so we can check if the gd archive loop has run
+        global $gd_done_archive_loop;
+        $gd_done_archive_loop = false;
+
+        // add the filter to call our own loop for the archive page content.
+        add_filter( &#039;the_content&#039;, array( __CLASS__, &#039;setup_archive_page_content&#039; ) );
+
+        // if the template is only using the excerpt then bypass it.
+        add_filter( &#039;the_excerpt&#039;, array( __CLASS__, &#039;setup_archive_page_content&#039; ) );
+
+    }
+
+    /**
+     * Setup the GD archive loop content.
+     *
+     * @since 2.0.0
+     */
+    public static function setup_singular_page($content){
+        
+
+        // @todo this is Kiran&#039;s solution, lets keep an eye out and report any situations where this does not work out.
+        global $post,$wp_query;
+
+        if ( ! ( ! empty( $wp_query ) &amp;&amp; ! empty( $post ) &amp;&amp; ( $post-&gt;ID == get_queried_object_id() ) ) ) {
+            return $content;
+        }
+
+        if(post_password_required()){
+            return $content;
+        }
+        /*
+         * Some page builders need to be able to take control here so we add a filter to bypass it on the fly
+         */
+        if(apply_filters(&#039;geodir_bypass_setup_singular_page&#039;,false)){
+            return $content;
+        }
+        
+        // remove our filter so we don&#039;t get stuck in a loop
+        remove_filter( &#039;the_content&#039;, array( __CLASS__, &#039;setup_singular_page&#039; ) );
+
+        if(in_the_loop()) {
+
+            // get the archive template page content
+            $post_type = geodir_get_current_posttype();
+			$page_id = geodir_details_page_id($post_type);
+            $content = get_post_field( &#039;post_content&#039;, $page_id );
+
+            // if the content is blank then just add the main loop
+            if ( $content == &#039;&#039; ) {
+                $content = GeoDir_Defaults::page_details_content();
+            }
+
+            // run the shortcodes on the content
+            $content = do_shortcode( $content );
+
+            // run block content if its available
+            if(function_exists(&#039;do_blocks&#039;)){
+                $content = do_blocks( $content );
+            }
+        }
+
+        // add our filter back
+        add_filter( &#039;the_content&#039;, array( __CLASS__, &#039;setup_singular_page&#039; ) );
+
+
+        return $content;
+
+    }
+
+
+
+
+    /**
+     * Setup the GD Archive item page content.
+     *
+     * @since 2.0.0
+	 * @param string $post_type Post type.
+     * @return string $content The filtered content.
+     */
+    public static function archive_item_template_content($post_type = &#039;&#039;){
+
+        // get the archive template page content
+        $archive_page_id = geodir_archive_item_page_id($post_type);
+        $content = get_post_field(&#039;post_content&#039;, $archive_page_id  );
+
+        // maybe bypass content
+        $bypass_content = apply_filters(&#039;geodir_bypass_archive_item_template_content&#039;,&#039;&#039;,$content,$archive_page_id);
+        if($bypass_content){
+            return $bypass_content;
+        }
+
+        // if the content is blank then we grab the page defaults
+        if($content==&#039;&#039;){
+            $content = GeoDir_Defaults::page_archive_item_content();
+        }
+
+        // run the shortcodes on the content
+        $content = do_shortcode($content);
+
+        // run block content if its available
+        if(function_exists(&#039;do_blocks&#039;)){
+            $content = do_blocks( $content );
+        }
+
+
+        return $content;
+    }
+
+
+    /**
+     * Attempt to remove the theme featured image output if set to do so.
+     *
+     * @since 2.0.0
+     */
+    public static function disable_theme_featured_output(){
+        if(geodir_is_singular() &amp;&amp; geodir_get_option(&#039;details_disable_featured&#039;,false) ){
+            add_filter( &quot;get_post_metadata&quot;, array(__CLASS__,&#039;filter_thumbnail_id&#039;), 10, 4 );
+        }
+    }
+
+    /**
+     * Filter the post_meta _thumbnail_id
+     *
+     * @since 2.0.0
+     * 
+     * @param bool $metadata metadata.
+     * @param int $object_id object id.
+     * @param string $meta_key meta key.
+     * @param string $single single.
+     *
+     * @return bool $metadata.
+     */
+    public static function filter_thumbnail_id($metadata, $object_id, $meta_key, $single){
+        global $wp_query;
+
+        // try to fire only for the current post.
+        if($meta_key==&#039;_thumbnail_id&#039; &amp;&amp;  ! empty( $wp_query ) &amp;&amp; $object_id == get_queried_object_id() ){
+            $metadata = false;
+        }
+
+        // should only need to fire once:
+        remove_action( &quot;wp&quot;, array(__CLASS__,&#039;disable_theme_featured_output&#039;) );
+
+        return $metadata;
+    }
+
+    /**
+     * Setup the map popup content.
+     *
+     * @since 2.0.0
+     * @since 2.0.0.90 Added a post type as template part name.
+     *
+     * @global object $gd_post GeoDirectory post object.
+     *
+     * @return string The filtered content.
+     */
+    public static function map_popup_template_content() {
+        global $gd_post;
+        
+        $design_style = geodir_design_style();
+
+        $template = $design_style ? $design_style.&quot;/map/map-popup.php&quot; : &quot;map-popup.php&quot;;
+
+        $content = geodir_get_template_html( $template  );
+        
+        if ( ! empty( $content ) ) {
+            // Run the shortcodes on the content
+            $content = do_shortcode( $content );
+
+            // Run block content if its available
+            if ( function_exists( &#039;do_blocks&#039; ) ) {
+                $content = do_blocks( $content );
+            }
+        }
+
+        return $content;
+    }
+
+    /**
+     * Disable our page templates from frontend viewing.
+     *
+     * @global object $post WordPress Post object.
+     *
+     * @since 2.0.0
+     */
+    public static function disable_page_templates_frontend() {
+        global $post;
+
+        if ( isset( $post-&gt;ID ) &amp;&amp; ! current_user_can( &#039;administrator&#039; ) ) {
+            if ( geodir_is_cpt_template_page( $post-&gt;ID, &#039;add&#039; ) ) {
+                return; // Bail for add listing page.
+            }
+
+            if ( $post-&gt;ID == geodir_get_option( &#039;page_details&#039; ) 
+                || $post-&gt;ID == geodir_get_option( &#039;page_archive&#039; ) 
+                || $post-&gt;ID == geodir_get_option( &#039;page_archive_item&#039; ) 
+                || geodir_is_cpt_template_page( $post-&gt;ID ) 
+            ) {
+                wp_redirect( home_url(), 301 );
+                exit;
+            }
+        }
+    }
+}
+
+GeoDir_Template_Loader::init();
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

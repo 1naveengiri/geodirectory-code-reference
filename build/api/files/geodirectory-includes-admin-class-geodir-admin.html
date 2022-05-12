@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-admin.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory Admin
+ *
+ * @class    GeoDir_Admin
+ * @author   AyeCode
+ * @category Admin
+ * @package  GeoDirectory/Admin
+ * @version  2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit; // Exit if accessed directly
+}
+
+/**
+ * GeoDir_Admin class.
+ */
+class GeoDir_Admin {
+
+	/**
+	 * Constructor.
+	 */
+	public function __construct() {
+		add_action( &#039;init&#039;, array( $this, &#039;includes&#039; ) );
+		add_action( &#039;current_screen&#039;, array( $this, &#039;conditional_includes&#039; ) );
+		add_action( &#039;admin_init&#039;, array( $this, &#039;buffer&#039; ), 1 );
+		add_action( &#039;admin_init&#039;, array( $this, &#039;preview_emails&#039; ) );
+		add_action( &#039;admin_init&#039;, array( $this, &#039;prevent_admin_access&#039; ) );
+		add_action( &#039;admin_init&#039;, array( $this, &#039;admin_redirects&#039; ) );
+		add_filter( &#039;admin_footer_text&#039;, array( $this, &#039;admin_footer_text&#039; ), 1 );
+		add_action( &#039;wp_ajax_geodirectory_rated&#039;, array( $this,&#039;geodirectory_rated&#039;) );
+
+		// Add labels to the GD pages.
+		add_filter(&#039;display_post_states&#039;,array( $this, &#039;set_page_labels&#039; ),10,2);
+
+		global $pagenow;
+//		echo $pagenow.&#039;###&#039;;exit;
+		if ( ! empty( $_POST[&#039;action&#039;] ) &amp;&amp; ($_POST[&#039;action&#039;] == &#039;save-widget&#039; || $_POST[&#039;action&#039;] == &#039;update-widget&#039;) || $pagenow == &#039;widgets.php&#039; || $pagenow == &#039;customize.php&#039; ) { // handle save widget
+			GeoDir_Admin_Widgets::init();
+		}
+
+		// hide the plugin install button on setup wizard plugin more info iframe
+		add_action(&quot;admin_print_footer_scripts-plugin-install.php&quot;,array($this,&#039;hide_plugin_install&#039;));
+		
+
+		// clear extrnsion transients if activating/deactivating
+		if(isset($_REQUEST[&#039;exup_action&#039;]) &amp;&amp; ($_REQUEST[&#039;exup_action&#039;]==&#039;activate_membership_key&#039;|| $_REQUEST[&#039;exup_action&#039;]==&#039;deactivate_membership_key&#039; )){
+			delete_transient( &#039;gd_addons_section_addons&#039; );
+			delete_transient( &#039;gd_addons_section_themes&#039; );
+		}
+
+		if ( ! empty( $_REQUEST[&#039;action&#039;] ) &amp;&amp; in_array( $_REQUEST[&#039;action&#039;], array( &#039;geodir_post_attachment_upload&#039;, &#039;geodir_import_export&#039; ) ) ) {
+			add_filter( &#039;wp_check_filetype_and_ext&#039;, array( $this, &#039;wp_check_filetype_and_ext&#039; ), 10, 5 );
+		}
+
+		// disable GD pages from being able to be selected for some settings
+		add_filter( &#039;wp_dropdown_pages&#039;,array( $this, &#039;dropdown_pages_disable&#039; ), 10,3 );
+
+		// Deactivate legacy plugins
+		$this-&gt;deactivate_plugin();
+
+		// Register with the deactivation survey class.
+		AyeCode_Deactivation_Survey::instance(array(
+			&#039;slug&#039;		=&gt; &#039;geodirectory&#039;,
+			&#039;version&#039;	=&gt; GEODIRECTORY_VERSION,
+			&#039;support_url&#039;=&gt; &#039;https://wpgeodirectory.com/support/&#039;,
+			&#039;documentation_url&#039;=&gt; &#039;https://docs.wpgeodirectory.com/&#039;,
+			&#039;activated&#039; =&gt; 0 // a timestamp of when original activated @todo implement
+		));
+	}
+	
+	/**
+	 * Disable some GD pages for some WP page settings.
+	 *
+	 * @param $output
+	 * @param $r
+	 * @param $pages
+	 *
+	 * @return mixed
+	 */
+	public function dropdown_pages_disable($output, $r, $pages){
+
+		$disable_for = array(&#039;page_on_front&#039;,&#039;page_for_posts&#039;);
+		$name = isset($r[&#039;name&#039;]) ? $r[&#039;name&#039;] : &#039;&#039;;
+		if($output &amp;&amp; $name &amp;&amp; in_array($name,$disable_for)){
+
+			$pages = array();
+			$pages[] = geodir_location_page_id(); // location
+			$pages[] = geodir_search_page_id(); // search
+			$pages[] = geodir_archive_page_id(); // archive
+			$pages[] = geodir_archive_item_page_id(); // archive item
+			$pages[] = geodir_details_page_id(); // details
+			$pages[] = geodir_add_listing_page_id(); // add listing
+
+			$pages = array_filter($pages); // remove any empty ids
+
+			if(!empty($pages)){
+				foreach($pages as $id){
+					if($id){
+						$output = str_replace(&#039; value=&quot;&#039;.$id.&#039;&quot;&gt;&#039;, &#039; value=&quot;&#039;.$id.&#039;&quot; disabled &gt;&#039;,$output);
+					}
+				}
+			}
+		}
+
+		return $output;
+	}
+
+
+	/**
+	 * This hides the install plugin from more info iframe on the setup wizard.
+	 */
+	public function hide_plugin_install(){
+		if(
+			isset($_REQUEST[&#039;tab&#039;]) &amp;&amp; $_REQUEST[&#039;tab&#039;]==&#039;plugin-information&#039;
+			&amp;&amp; isset($_REQUEST[&#039;gd_wizard_recommend&#039;]) &amp;&amp; $_REQUEST[&#039;gd_wizard_recommend&#039;]==&#039;true&#039;
+		){
+			echo &quot;&lt;style&gt;#plugin-information-footer{display: none;}&lt;/style&gt;&quot;;
+		}
+	}
+
+	/**
+	 * Set the rating flag so we don&#039;t ask the user for rating anymore
+	 *
+	 * @since 2.0.0
+	 */
+	public function geodirectory_rated(){
+		update_option( &#039;geodirectory_admin_footer_text_rated&#039;, true );
+		wp_die();
+	}
+
+	/**
+	 * Add labels to the GD pages to help identify them.
+	 *
+	 * @param $post_states
+	 * @param $post
+	 * @since 2.0.0
+	 *
+	 * @return mixed
+	 */
+	public function set_page_labels( $post_states, $post ) {
+		if ( $post-&gt;ID == geodir_add_listing_page_id() ) {
+			$post_states[&#039;geodir_add_listing_page&#039;] = __( &#039;GD Add listing page&#039;, &#039;geodirectory&#039; ) .
+			                                          geodir_help_tip( __( &#039;This is where users will add listings via the frontend if enabled.&#039;, &#039;geodirectory&#039; ) );
+		} elseif ( $post-&gt;ID == geodir_location_page_id() ) {
+			$post_states[&#039;geodir_location_page&#039;] = __( &#039;GD Location page&#039;, &#039;geodirectory&#039; ) .
+			                                       geodir_help_tip( __( &#039;This page can be used as the main directory page and is also used by some addons.&#039;, &#039;geodirectory&#039; ) );
+		} elseif ( $post-&gt;ID == geodir_search_page_id() ) {
+			$post_states[&#039;geodir_search_page&#039;] = __( &#039;GD Search page&#039;, &#039;geodirectory&#039; ) .
+			                                     geodir_help_tip( __( &#039;This is the GD search results page.&#039;, &#039;geodirectory&#039; ) );
+		} elseif ( $post-&gt;ID == geodir_archive_page_id() ) {
+			$post_states[&#039;geodir_archive_page&#039;] = __( &#039;GD Archive template&#039;, &#039;geodirectory&#039; ) .
+			                                      geodir_help_tip( __( &#039;Used to design the archive pages but should never be linked to directly.&#039;, &#039;geodirectory&#039; ) );
+		} elseif ( $post-&gt;ID == geodir_archive_item_page_id() ) {
+			$post_states[&#039;geodir_archive_item_page&#039;] = __( &#039;GD Archive Item template&#039;, &#039;geodirectory&#039; ) .
+			                                      geodir_help_tip( __( &#039;Used to design the archive items but should never be linked to directly.&#039;, &#039;geodirectory&#039; ) );
+		} elseif ( $post-&gt;ID == geodir_details_page_id() ) {
+			$post_states[&#039;geodir_details_page&#039;] = __( &#039;GD Details template&#039;, &#039;geodirectory&#039; ) .
+			                                      geodir_help_tip( __( &#039;Used to design the details page but should never be linked to directly.&#039;, &#039;geodirectory&#039; ) );
+		} elseif ( $post-&gt;ID == geodir_terms_and_conditions_page_id() ) {
+			$post_states[&#039;geodir_terms_and_conditions_page&#039;] = __( &#039;GD T&amp;Cs&#039;, &#039;geodirectory&#039; ) .
+			                                                   geodir_help_tip( __( &#039;This is the page that will be used for your terms and conditions.&#039;, &#039;geodirectory&#039; ) );
+		}
+
+		$post_types = geodir_get_posttypes( &#039;array&#039; );
+		foreach ( $post_types as $post_type =&gt; $post_type_arr ) {
+			$name = $post_type_arr[&#039;labels&#039;][&#039;singular_name&#039;];
+
+			if ( ! empty( $post_type_arr[ &#039;page_archive&#039; ] ) &amp;&amp; $post-&gt;ID == $post_type_arr[ &#039;page_archive&#039; ] ) {
+				$post_states[&#039;geodir_archive_page_&#039; . $post_type] = wp_sprintf( __( &#039;GD Archive template (%s)&#039;, &#039;geodirectory&#039; ), $name ) .
+													  geodir_help_tip( wp_sprintf( __( &#039;Used to design the %s archive pages but should never be linked to directly.&#039;, &#039;geodirectory&#039; ), $name ) );
+			} else if ( ! empty( $post_type_arr[ &#039;page_archive_item&#039; ] ) &amp;&amp; $post-&gt;ID == $post_type_arr[ &#039;page_archive_item&#039; ] ) {
+				$post_states[&#039;geodir_archive_item_page_&#039; . $post_type] = wp_sprintf( __( &#039;GD Archive Item template (%s)&#039;, &#039;geodirectory&#039; ), $name ) .
+													  geodir_help_tip( wp_sprintf( __( &#039;Used to design the %s archive items but should never be linked to directly.&#039;, &#039;geodirectory&#039; ), $name ) );
+			} else if ( ! empty( $post_type_arr[ &#039;page_details&#039; ] ) &amp;&amp; $post-&gt;ID == $post_type_arr[ &#039;page_details&#039; ] ) {
+				$post_states[&#039;geodir_details_page_&#039; . $post_type] = wp_sprintf( __( &#039;GD Details template (%s)&#039;, &#039;geodirectory&#039; ), $name ) .
+													  geodir_help_tip( wp_sprintf( __( &#039;Used to design the %s details page but should never be linked to directly.&#039;, &#039;geodirectory&#039; ), $name ) );
+			} else if ( ! empty( $post_type_arr[ &#039;page_add&#039; ] ) &amp;&amp; $post-&gt;ID == $post_type_arr[ &#039;page_add&#039; ] ) {
+				$post_states[&#039;geodir_add_listing_page_&#039; . $post_type] = wp_sprintf( __( &#039;GD Add listing page (%s)&#039;, &#039;geodirectory&#039; ), $name ) .
+													  geodir_help_tip( wp_sprintf( __( &#039;Used to design the add %s page for the frontend.&#039;, &#039;geodirectory&#039; ), $name ) );
+			}
+		}
+
+		return $post_states;
+	}
+
+	/**
+	 * Output buffering allows admin screens to make redirects later on.
+	 */
+	public function buffer() {
+		// Prevent plugin activation redirect on plugin install during setup wizard.
+		if ( isset( $_REQUEST[&#039;page&#039;] ) &amp;&amp; $_REQUEST[&#039;page&#039;] == &#039;gd-setup&#039; &amp;&amp; ! empty( $_REQUEST[&#039;step&#039;] ) ) {
+			if ( $_REQUEST[&#039;step&#039;] == &#039;features&#039; || $_REQUEST[&#039;step&#039;] == &#039;content&#039; ) {
+				if ( get_option( &#039;uwp_activation_redirect&#039;, false ) ) {
+					delete_option( &#039;uwp_activation_redirect&#039; );
+					update_option( &quot;uwp_setup_wizard_notice&quot;, 1 );
+				}
+			}
+		}
+
+		ob_start();
+	}
+
+	/**
+	 * Include any classes we need within admin.
+	 */
+	public function includes() {
+		include_once( dirname( __FILE__ ) . &#039;/admin-functions.php&#039; );
+		include_once( dirname( __FILE__ ) . &#039;/class-geodir-admin-settings.php&#039; );
+		include_once( dirname( __FILE__ ) . &#039;/class-geodir-admin-comments.php&#039; );
+		include_once( dirname( __FILE__ ) . &#039;/class-geodir-admin-menus.php&#039; );
+		include_once( dirname( __FILE__ ) . &#039;/class-geodir-admin-notices.php&#039; );
+		include_once( dirname( __FILE__ ) . &#039;/class-geodir-admin-assets.php&#039; );
+		include_once( dirname( __FILE__ ) . &#039;/class-geodir-admin-api-keys.php&#039; );
+		include_once( dirname( __FILE__ ) . &#039;/class-geodir-admin-blocks.php&#039; );
+		if ( geodir_design_style() ) {
+			include_once( dirname( __FILE__ ) . &#039;/class-geodir-admin-conditional-fields.php&#039; );
+		}
+
+		// Help Tabs
+		if ( apply_filters( &#039;geodir_enable_admin_help_tab&#039;, true ) ) {
+			include_once( dirname( __FILE__ ) . &#039;/class-geodir-admin-help.php&#039; );
+		}
+
+		// Setup/welcome
+		if ( ! empty( $_GET[&#039;page&#039;] ) ) {
+			switch ( $_GET[&#039;page&#039;] ) {
+				case &#039;gd-setup&#039; :
+					include_once( dirname( __FILE__ ) . &#039;/class-geodir-admin-setup-wizard.php&#039; );
+				break;
+			}
+		}
+
+		// Importers
+		if ( defined( &#039;WP_LOAD_IMPORTERS&#039; ) ) {
+			//include_once( dirname( __FILE__ ) . &#039;/class-wc-admin-importers.php&#039; );
+		}
+
+		// load the user class only on the users.php page
+		global $pagenow;
+		if($pagenow==&#039;users.php&#039;){
+			new GeoDir_Admin_Users();
+		}
+
+		// AyeCode Connect notice
+		if ( is_admin() ){
+			// set the strings so they can be translated
+			$strings = array(
+				&#039;connect_title&#039; =&gt; __(&quot;GeoDirectory - an AyeCode product!&quot;,&quot;geodirectory&quot;),
+				&#039;connect_external&#039;  =&gt; __( &quot;Please confirm you wish to connect your site?&quot;,&quot;geodirectory&quot; ),
+				&#039;connect&#039;           =&gt; sprintf( __( &quot;&lt;strong&gt;Have a license?&lt;/strong&gt; Forget about entering license keys or downloading zip files, connect your site for instant access. %slearn more%s&quot;,&quot;geodirectory&quot; ),&quot;&lt;a href=&#039;https://ayecode.io/introducing-ayecode-connect/&#039; target=&#039;_blank&#039;&gt;&quot;,&quot;&lt;/a&gt;&quot; ),
+				&#039;connect_button&#039;    =&gt; __(&quot;Connect Site&quot;,&quot;geodirectory&quot;),
+				&#039;connecting_button&#039;    =&gt; __(&quot;Connecting...&quot;,&quot;geodirectory&quot;),
+				&#039;error_localhost&#039;   =&gt; __( &quot;This service will only work with a live domain, not a localhost.&quot;,&quot;geodirectory&quot; ),
+				&#039;error&#039;             =&gt; __( &quot;Something went wrong, please refresh and try again.&quot;,&quot;geodirectory&quot; ),
+			);
+			new AyeCode_Connect_Helper($strings,array(&#039;gd-addons&#039;));
+		}
+	}
+
+	/**
+	 * Include admin files conditionally.
+	 */
+	public function conditional_includes() {
+		if ( ! $screen = get_current_screen() ) {
+			return;
+		}
+
+		switch ( $screen-&gt;id ) {
+			case &#039;dashboard&#039; :
+				include( &#039;class-geodir-wp-dashboard.php&#039; );
+			break;
+			case &#039;options-permalink&#039; :
+				include( &#039;class-geodir-admin-permalink-settings.php&#039; );
+			break;
+			case &#039;users&#039; :
+			case &#039;user&#039; :
+			case &#039;profile&#039; :
+			case &#039;user-edit&#039; :
+				//include( &#039;class-wc-admin-profile.php&#039; );
+			break;
+			case &#039;customize&#039;:
+			case &#039;widgets&#039; :
+				GeoDir_Admin_Widgets::init();
+			break;
+		}
+	}
+
+	/**
+	 * Handle redirects to setup/welcome page after install and updates.
+	 *
+	 * For setup wizard, transient must be present, the user must have access rights, and we must ignore the network/bulk plugin updaters.
+	 */
+	public function admin_redirects() {
+		// Nonced plugin install redirects (whitelisted)
+		if ( ! empty( $_GET[&#039;gd-install-plugin-redirect&#039;] ) ) {
+			$plugin_slug = geodir_clean( $_GET[&#039;gd-install-plugin-redirect&#039;] );
+
+			$url = admin_url( &#039;plugin-install.php?tab=search&amp;type=term&amp;s=&#039; . $plugin_slug );
+
+			wp_safe_redirect( $url );
+			exit;
+		}
+
+		// Setup wizard redirect
+		if ( get_transient( &#039;_gd_activation_redirect&#039; ) ) {
+			delete_transient( &#039;_gd_activation_redirect&#039; );
+
+			if ( ( ! empty( $_GET[&#039;page&#039;] ) &amp;&amp; in_array( $_GET[&#039;page&#039;], array( &#039;gd-setup&#039; ) ) ) || is_network_admin() || isset( $_GET[&#039;activate-multi&#039;] ) || ! current_user_can( &#039;manage_options&#039; ) || apply_filters( &#039;geodir_prevent_automatic_wizard_redirect&#039;, false ) ) {
+				return;
+			}
+
+			// If the user needs to install, send them to the setup wizard
+			if ( GeoDir_Admin_Notices::has_notice( &#039;install&#039; ) ) {
+				wp_safe_redirect( admin_url( &#039;index.php?page=gd-setup&#039; ) );
+				exit;
+			}
+		}
+	}
+
+	/**
+	 * Restrict the wp-admin area from specific user roles if set to do so.
+	 */
+	public function prevent_admin_access() {
+		$restricted_roles = geodir_get_option( &#039;admin_blocked_roles&#039;, array() );
+
+		// Checking action in request to allow ajax request go through
+		if ( ! empty ( $restricted_roles ) &amp;&amp; is_user_logged_in() &amp;&amp; ! wp_doing_ajax() &amp;&amp; ! wp_doing_cron() ) {
+			$roles = wp_get_current_user()-&gt;roles;
+
+			$prevent = false;
+
+			// Always allow administrator role.
+			if ( ! ( ! empty( $roles ) &amp;&amp; in_array( &#039;administrator&#039;, $roles ) ) ) {
+				foreach( $restricted_roles as $role ) {
+					if ( in_array( $role, $roles ) ) {
+						$prevent = true;
+						break;
+					}
+				}
+			}
+
+			/*
+			 * Check and prevent admin access based on user role.
+			 *
+			 * @since 2.1.0.16
+			 *
+			 * @param bool $prevent True to prevent admin access.
+			 */
+			$prevent = apply_filters( &#039;geodir_prevent_wp_admin_access&#039;, $prevent );
+
+			if ( $prevent ) {
+				wp_safe_redirect( home_url() );
+				exit;
+			}
+		}
+	}
+
+	/**
+	 * Preview email template.
+	 *
+	 * @return string
+	 */
+	public function preview_emails() {
+		if ( isset( $_GET[&#039;geodir_preview_mail&#039;] ) ) {
+			if ( ! wp_verify_nonce( $_REQUEST[&#039;_wpnonce&#039;], &#039;geodir-preview-mail&#039; ) ) {
+				die( &#039;Security check&#039; );
+			}
+
+			$email_name = &#039;preview_mail&#039;;
+			$email_vars = array();
+			$plain_text = GeoDir_Email::get_email_type() != &#039;html&#039; ? true : false;
+
+			// Get the preview email content.
+			ob_start();
+			include( &#039;views/html-email-template-preview.php&#039; );
+			$message = ob_get_clean();
+			
+			$message 	= GeoDir_Email::email_wrap_message( $message, $email_name, $email_vars, &#039;&#039;, $plain_text );
+			$message 	= GeoDir_Email::style_body( $message, $email_name, $email_vars );
+			$message 	= apply_filters( &#039;geodir_mail_content&#039;, $message, $email_name, $email_vars );
+
+			// Print the preview email content.
+			if ( $plain_text ) {
+				echo &#039;&lt;div style=&quot;white-space:pre-wrap;font-family:sans-serif&quot;&gt;&#039;;
+			}
+			echo $message;
+			if ( $plain_text ) {
+				echo &#039;&lt;/div&gt;&#039;;
+			}
+			exit;
+		}
+	}
+
+	/**
+	 * Change the admin footer text on GeoDirectory admin pages.
+	 *
+	 * @since  2.0.0
+	 * @param  string $footer_text
+	 * @return string
+	 */
+	public function admin_footer_text( $footer_text ) {
+		if ( ! current_user_can( &#039;manage_options&#039; ) || ! function_exists( &#039;geodir_get_screen_ids&#039; ) ) {
+			return $footer_text;
+		}
+		$current_screen = get_current_screen();
+		$gd_pages       = geodir_get_screen_ids();
+
+
+		// Set only GD pages.
+		$gd_pages = array_diff( $gd_pages, array( &#039;profile&#039;, &#039;user-edit&#039; ) );
+
+		// Check to make sure we&#039;re on a GeoDirectory admin page.
+		if ( isset( $current_screen-&gt;id ) &amp;&amp; apply_filters( &#039;geodirectory_display_admin_footer_text&#039;, in_array( $current_screen-&gt;id, $gd_pages ) ) ) {
+			// Change the footer text
+			if ( ! get_option( &#039;geodirectory_admin_footer_text_rated&#039; ) ) {
+				/* translators: %s: five stars */
+				$footer_text = sprintf( __( &#039;If you like &lt;strong&gt;GeoDirectory&lt;/strong&gt; please leave us a %s rating. A huge thanks in advance!&#039;, &#039;geodirectory&#039; ), &#039;&lt;a href=&quot;https://wordpress.org/support/plugin/geodirectory/reviews?rate=5#new-post&quot; target=&quot;_blank&quot; class=&quot;gd-rating-link&quot; data-rated=&quot;&#039; . esc_attr__( &#039;Thanks :)&#039;, &#039;geodirectory&#039; ) . &#039;&quot;&gt;&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;&lt;/a&gt;&#039; );
+
+			} else {
+				$footer_text = __( &#039;Thank you for using GeoDirectory!&#039;, &#039;geodirectory&#039; );
+			}
+		}
+
+		return $footer_text;
+	}
+
+	/**
+	 * Attempt to deactivate the legacy plugins.
+	 *
+	 * @since  2.0.0.62
+	 */
+	public function deactivate_plugin() {
+		include_once ABSPATH . &#039;wp-admin/includes/plugin.php&#039;;
+
+		if ( ! function_exists( &#039;deactivate_plugins&#039; ) ) {
+			return;
+		}
+
+		// Deactivate GD Dashboard plugin.
+		if ( function_exists( &#039;GD_Dashboard_init&#039; ) &amp;&amp; is_plugin_active( &#039;geodir_dashboard/geodir_dashboard.php&#039; ) ) {
+			deactivate_plugins( &#039;geodir_dashboard/geodir_dashboard.php&#039; );
+		}
+	}
+
+	/**
+	 * Filter the &quot;real&quot; file type of the CSV file during import.
+	 *
+	 * @since 2.1.0.5
+	 *
+	 * @param array       $data Values for the extension, mime type, and corrected filename.
+	 * @param string      $file Full path to the file.
+	 * @param string      $filename The name of the file (may differ from $file due to $file being in a tmp directory).
+	 * @param string[]    $mimes Array of mime types keyed by their file extension regex.
+	 * @param string|bool $real_mime The actual mime type or false if the type cannot be determined.
+	 */
+	public function wp_check_filetype_and_ext( $data, $file, $filename, $mimes, $real_mime = &#039;&#039; ) {
+		if ( ( ( ! empty( $_REQUEST[&#039;imgid&#039;] ) &amp;&amp; strpos( $_REQUEST[&#039;imgid&#039;], &#039;gd_im_&#039; ) === 0 &amp;&amp; ! empty( $_REQUEST[&#039;name&#039;] ) ) || defined( &#039;GEODIR_DOING_IMPORT&#039; ) ) &amp;&amp; current_user_can( &#039;manage_options&#039; ) &amp;&amp; strtolower( substr( strrchr( $filename, &#039;.&#039; ), 1 ) ) == &#039;csv&#039; ) {
+			$wp_filetype = wp_check_filetype( $filename, $mimes );
+
+			$ext = $wp_filetype[&#039;ext&#039;];
+			$type = $wp_filetype[&#039;type&#039;];
+			$proper_filename = $data[&#039;proper_filename&#039;];
+
+			$data = compact( &#039;ext&#039;, &#039;type&#039;, &#039;proper_filename&#039; );
+		}
+
+		return $data;
+	}
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

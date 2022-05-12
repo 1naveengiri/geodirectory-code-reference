@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-admin-menus.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Setup menus in WP admin.
+ *
+ * @author   AyeCode
+ * @category Admin
+ * @package  GeoDirectory/Admin
+ * @version  2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+
+/**
+ * GeoDir_Admin_Menus Class.
+ */
+class GeoDir_Admin_Menus {
+
+	/**
+	 * Hook in tabs.
+	 */
+	public function __construct() {
+		// Add menus
+		add_action( &#039;admin_menu&#039;, array( $this, &#039;admin_menu&#039; ), 9 );
+		add_action( &#039;admin_menu&#039;, array( $this, &#039;settings_menu&#039; ), 50 );
+		add_action( &#039;admin_menu&#039;, array( $this, &#039;status_menu&#039; ), 60 );
+		add_action( &#039;admin_menu&#039;, array( $this, &#039;cpt_settings_menu&#039; ), 10 );
+
+		if ( apply_filters( &#039;geodirectory_show_addons_page&#039;, true ) ) {
+			add_action( &#039;admin_menu&#039;, array( $this, &#039;addons_menu&#039; ), 70 );
+		}
+
+		// Add endpoints custom URLs in Appearance &gt; Menus &gt; Pages.
+		add_action( &#039;admin_head-nav-menus.php&#039;, array( $this, &#039;add_nav_menu_meta_boxes&#039; ) );
+
+		// Filters
+		add_filter( &#039;add_menu_classes&#039;, array($this, &#039;bubble_count_number&#039;));
+	}
+
+
+	/**
+	 * Show the pending posst counts on the CPT admin menu item.
+	 *
+	 * @since 2.0.0.49
+	 * @param $menu
+	 *
+	 * @return mixed
+	 */
+	public function bubble_count_number( $menu )
+	{
+
+		$cpts = geodir_get_posttypes();
+		$counts = array();
+
+		// check cache
+		$cache = wp_cache_get(&quot;geodir_post_counts&quot;);
+		if($cache !== false){
+			// we have cache so no need to count again
+		}else{
+			if(!empty($cpts )){
+				foreach($cpts as $cpt){
+					$post_counts = wp_count_posts($cpt, &#039;readable&#039;); // let WP handel the caching
+					$counts[$cpt] = isset($post_counts-&gt;pending) ? absint($post_counts-&gt;pending) : 0;
+				}
+			}
+
+			// set cache
+			wp_cache_set(&quot;geodir_post_counts&quot; ,$counts);
+		}
+
+
+
+		if(!empty($counts) &amp;&amp; !empty($menu)){
+			foreach($menu as $menu_key =&gt; $menu_data){
+				// check its probably a GD post type
+				if(substr( $menu_data[2], 0, 22 ) === &quot;edit.php?post_type=gd_&quot;){
+					$parts = explode(&quot;=&quot;,$menu_data[2]);
+					if(!empty($parts[1]) &amp;&amp; !empty($counts[$parts[1]])){
+						$count = $counts[$parts[1]];
+						if(in_array($parts[1],$cpts)){
+							$menu[$menu_key][0] .= &quot; &lt;span class=&#039;awaiting-mod  count-$count&#039; title=&#039;&quot;.__(&quot;Posts pending review&quot;,&quot;geodirectory&quot;).&quot;&#039;&gt;&lt;span class=&#039;pending-count&#039;&gt;&quot; . number_format_i18n($count) . &#039;&lt;/span&gt;&lt;/span&gt;&#039;;
+						}
+					}
+				}
+			}
+		}
+
+		return $menu;
+	}
+
+	/**
+	 * Add menu items.
+	 */
+	public function admin_menu() {
+		global $menu;
+
+		$capability = $this-&gt;admin_menu_capability( &#039;geodirectory&#039; );
+
+		// @todo we should change this to manage_geodirectory capability on install
+		if ( current_user_can( $capability ) ) {
+			$menu[] = array( &#039;&#039;, &#039;read&#039;, &#039;separator-geodirectory&#039;, &#039;&#039;, &#039;wp-menu-separator geodirectory&#039; ); // WPCS: override ok.
+		}
+
+		$menu_count = apply_filters( &#039;geodir_admin_menu_count&#039;, &#039;&#039; ); //@todo this seems to make some things not work like the claim listing view link, fix before using
+
+		add_menu_page( __( &#039;Geodirectory Dashboard&#039;, &#039;geodirectory&#039; ), __( &#039;GeoDirectory&#039;, &#039;geodirectory&#039; ) . $menu_count, $capability, &#039;geodirectory&#039;, array( $this, &#039;dashboard_page&#039; ), &#039;dashicons-admin-site&#039;, &#039;55.1984&#039; );
+		add_submenu_page( &#039;geodirectory&#039;, __( &#039;Geodirectory Dashboard&#039;, &#039;geodirectory&#039; ), __( &#039;Dashboard&#039;, &#039;geodirectory&#039; ), $capability, &#039;geodirectory&#039;, array( $this, &#039;dashboard_page&#039; ) );
+	}
+
+	/**
+	 * Dashboard page.
+	 */
+	public function dashboard_page(){
+		$dashboard = GeoDir_Admin_Dashboard::instance();
+		
+		$dashboard-&gt;output();
+	}
+
+	/**
+	 * Add CPT Settings menu.
+	 */
+	public function cpt_settings_menu(){
+		// Add CPT setting to each GD CPT
+		$post_types = geodir_get_option( &#039;post_types&#039; );
+		if(!empty($post_types)){
+			foreach($post_types as $name =&gt; $cpt){
+				add_submenu_page(&#039;edit.php?post_type=&#039;.$name, __(&#039;Settings&#039;, &#039;geodirectory&#039;), __(&#039;Settings&#039;, &#039;geodirectory&#039;), $this-&gt;admin_menu_capability( $name . &#039;-settings&#039; ), $name.&#039;-settings&#039;, array( $this, &#039;settings_page&#039; ) );
+			}
+		}
+	}
+
+	/**
+	 * Add menu item.
+	 */
+	public function settings_menu() {
+		$settings_page = add_submenu_page( &#039;geodirectory&#039;, __( &#039;GeoDirectory settings&#039;, &#039;geodirectory&#039; ),  __( &#039;Settings&#039;, &#039;geodirectory&#039; ) , $this-&gt;admin_menu_capability( &#039;gd-settings&#039; ), &#039;gd-settings&#039;, array( $this, &#039;settings_page&#039; ) );
+	}
+
+
+	/**
+	 * Add menu item.
+	 */
+	public function status_menu() {
+		add_submenu_page( &#039;geodirectory&#039;, __( &#039;GeoDirectory status&#039;, &#039;geodirectory&#039; ),  __( &#039;Status&#039;, &#039;geodirectory&#039; ) , $this-&gt;admin_menu_capability( &#039;gd-status&#039; ), &#039;gd-status&#039;, array( $this, &#039;status_page&#039; ) );
+	}
+
+	/**
+	 * Addons menu item.
+	 */
+	public function addons_menu() {
+		add_submenu_page( &#039;geodirectory&#039;, __( &#039;GeoDirectory extensions&#039;, &#039;geodirectory&#039; ),  __( &#039;Extensions&#039;, &#039;geodirectory&#039; ) , $this-&gt;admin_menu_capability( &#039;gd-addons&#039; ), &#039;gd-addons&#039;, array( $this, &#039;addons_page&#039; ) );
+	}
+
+
+
+
+	/**
+	 * Init the reports page.
+	 */
+	public function reports_page() {
+		GeoDir_Admin_Reports::output();
+	}
+
+	/**
+	 * Init the settings page.
+	 */
+	public function settings_page() {
+		GeoDir_Admin_Settings::output();
+	}
+
+
+
+	/**
+	 * Init the status page.
+	 */
+	public function status_page() {
+		GeoDir_Admin_Status::output();
+	}
+
+	/**
+	 * Init the addons page.
+	 */
+	public function addons_page() {
+		//echo &#039;### addons page&#039;;
+		GeoDir_Admin_Addons::output();
+	}
+
+	/**
+	 * Add custom nav meta box.
+	 *
+	 * Adapted from http://www.johnmorrisonline.com/how-to-add-a-fully-functional-custom-meta-box-to-wordpress-navigation-menus/.
+	 */
+	public function add_nav_menu_meta_boxes() {
+		add_meta_box( &#039;geodirectory_endpoints_nav_link&#039;, __( &#039;GeoDirectory endpoints&#039;, &#039;geodirectory&#039; ), array( $this, &#039;nav_menu_links&#039; ), &#039;nav-menus&#039;, &#039;side&#039;, &#039;low&#039; );
+	}
+
+	/**
+	 * Output menu links.
+	 */
+	public function nav_menu_links() {
+		// Get items from account menu.
+		$endpoints = $this-&gt;get_endpoints();
+
+		$endpoints = apply_filters( &#039;geodirectory_custom_nav_menu_items&#039;, $endpoints );
+		?&gt;
+		&lt;div id=&quot;geodirectory-endpoints&quot; class=&quot;posttypediv&quot;&gt;
+
+			&lt;?php
+
+			if(!empty($endpoints[&#039;cpt_archives&#039;])){
+			?&gt;
+			&lt;h4&gt;&lt;?php _e(&#039;CPT Archives&#039;,&#039;geodirectory&#039;);?&gt;&lt;/h4&gt;
+			&lt;div id=&quot;tabs-panel-geodirectory-endpoints&quot; class=&quot;tabs-panel tabs-panel-active&quot;&gt;
+				&lt;ul id=&quot;geodirectory-endpoints-checklist&quot; class=&quot;categorychecklist form-no-clear&quot;&gt;
+					&lt;?php
+					$walker = new Walker_Nav_Menu_Checklist(array());
+					echo walk_nav_menu_tree(array_map(&#039;wp_setup_nav_menu_item&#039;, $endpoints[&#039;cpt_archives&#039;]), 0, (object) array(&#039;walker&#039; =&gt; $walker));
+					?&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;?php }
+
+
+			if(!empty($endpoints[&#039;cpt_add_listing&#039;])){
+				?&gt;
+				&lt;h4&gt;&lt;?php _e(&#039;CPT Add Listing&#039;,&#039;geodirectory&#039;);?&gt;&lt;/h4&gt;
+				&lt;div id=&quot;tabs-panel-geodirectory-endpoints&quot; class=&quot;tabs-panel tabs-panel-active&quot;&gt;
+					&lt;ul id=&quot;geodirectory-endpoints-checklist&quot; class=&quot;categorychecklist form-no-clear&quot;&gt;
+						&lt;?php
+						$walker = new Walker_Nav_Menu_Checklist(array());
+						echo walk_nav_menu_tree(array_map(&#039;wp_setup_nav_menu_item&#039;, $endpoints[&#039;cpt_add_listing&#039;]), 0, (object) array(&#039;walker&#039; =&gt; $walker));
+						?&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+			&lt;?php }
+
+			if(!empty($endpoints[&#039;pages&#039;])){
+				?&gt;
+				&lt;h4&gt;&lt;?php _e(&#039;GD Pages&#039;,&#039;geodirectory&#039;);?&gt;&lt;/h4&gt;
+				&lt;div id=&quot;tabs-panel-geodirectory-endpoints&quot; class=&quot;tabs-panel tabs-panel-active&quot;&gt;
+					&lt;ul id=&quot;geodirectory-endpoints-checklist&quot; class=&quot;categorychecklist form-no-clear&quot;&gt;
+						&lt;?php
+						$walker = new Walker_Nav_Menu_Checklist(array());
+						echo walk_nav_menu_tree(array_map(&#039;wp_setup_nav_menu_item&#039;, $endpoints[&#039;pages&#039;]), 0, (object) array(&#039;walker&#039; =&gt; $walker));
+						?&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+			&lt;?php }
+
+			// custom additional
+			foreach ($endpoints as $key =&gt; $endpoint){
+				if($key != &#039;cpt_archives&#039; &amp;&amp; $key != &#039;cpt_add_listing&#039; &amp;&amp; $key != &#039;pages&#039;){
+					$title = ucwords( str_replace(&quot;_&quot;,&quot; &quot;,$key));
+					?&gt;
+					&lt;h4&gt;&lt;?php esc_attr_e($title ,&#039;geodirectory&#039;);?&gt;&lt;/h4&gt;
+					&lt;div id=&quot;tabs-panel-geodirectory-endpoints&quot; class=&quot;tabs-panel tabs-panel-active&quot;&gt;
+						&lt;ul id=&quot;geodirectory-endpoints-checklist&quot; class=&quot;categorychecklist form-no-clear&quot;&gt;
+							&lt;?php
+							$walker = new Walker_Nav_Menu_Checklist(array());
+							echo walk_nav_menu_tree(array_map(&#039;wp_setup_nav_menu_item&#039;, $endpoints[$key]), 0, (object) array(&#039;walker&#039; =&gt; $walker));
+							?&gt;
+						&lt;/ul&gt;
+					&lt;/div&gt;
+				&lt;?php }
+
+			}
+
+
+
+				?&gt;
+			&lt;p class=&quot;button-controls&quot;&gt;
+				&lt;span class=&quot;list-controls&quot;&gt;
+					&lt;a href=&quot;&lt;?php echo admin_url( &#039;nav-menus.php?page-tab=all&amp;selectall=1#geodirectory-endpoints&#039; ); ?&gt;&quot; class=&quot;select-all&quot;&gt;&lt;?php _e( &#039;Select all&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/a&gt;
+				&lt;/span&gt;
+				&lt;span class=&quot;add-to-menu&quot;&gt;
+					&lt;input type=&quot;submit&quot; class=&quot;button-secondary submit-add-to-menu right&quot; value=&quot;&lt;?php esc_attr_e( &#039;Add to menu&#039;, &#039;geodirectory&#039; ); ?&gt;&quot; name=&quot;add-post-type-menu-item&quot; id=&quot;submit-geodirectory-endpoints&quot;&gt;
+					&lt;span class=&quot;spinner&quot;&gt;&lt;/span&gt;
+				&lt;/span&gt;
+			&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;?php
+	}
+
+	/**
+	 * Get GD menu items.
+	 *
+	 * @since 2.0.0
+	 * @return array
+	 */
+	public function get_endpoints() {
+		$items = array();
+		$items[&#039;cpt_archives&#039;] = array();
+		$items[&#039;cpt_add_listing&#039;] = array();
+		$items[&#039;pages&#039;] = array();
+		$loop_index = 999;
+
+		// Add the Location menu item
+		$gd_location_page_id = geodir_location_page_id();
+		if($gd_location_page_id){
+			$item = new stdClass();
+			$item-&gt;ID = $gd_location_page_id;
+			$item-&gt;object_id = $gd_location_page_id;
+			$item-&gt;db_id = 0;
+			$item-&gt;object =  &#039;page&#039;;
+			$item-&gt;menu_item_parent = 0;
+			$item-&gt;type = &#039;post_type&#039;;
+			$item-&gt;title = __(&#039;Location page&#039;,&#039;geodirectory&#039;);
+			$item-&gt;url = get_page_link($gd_location_page_id);
+			$item-&gt;target = &#039;&#039;;
+			$item-&gt;attr_title = &#039;&#039;;
+			$item-&gt;classes = array(&#039;gd-menu-item&#039;);
+			$item-&gt;xfn = &#039;&#039;;
+
+			$items[&#039;pages&#039;][] = $item;
+		}
+
+		// Add the Search menu item
+		$gd_search_page_id = geodir_search_page_id();
+		if($gd_search_page_id){
+			$item = new stdClass();
+			$item-&gt;ID = $gd_search_page_id;
+			$item-&gt;object_id = $gd_search_page_id;
+			$item-&gt;db_id = 0;
+			$item-&gt;object =  &#039;page&#039;;
+			$item-&gt;menu_item_parent = 0;
+			$item-&gt;type = &#039;post_type&#039;;
+			$item-&gt;title = __(&#039;Search page&#039;,&#039;geodirectory&#039;);
+			$item-&gt;url = get_page_link($gd_search_page_id);
+			$item-&gt;target = &#039;&#039;;
+			$item-&gt;attr_title = &#039;&#039;;
+			$item-&gt;classes = array(&#039;gd-menu-item&#039;);
+			$item-&gt;xfn = &#039;&#039;;
+
+			$items[&#039;pages&#039;][] = $item;
+		}
+
+		// Add the Search menu item
+		$gd_tc_page_id = geodir_terms_and_conditions_page_id();
+		if($gd_tc_page_id){
+			$item = new stdClass();
+			$item-&gt;ID = $gd_tc_page_id;
+			$item-&gt;object_id = $gd_tc_page_id;
+			$item-&gt;db_id = 0;
+			$item-&gt;object =  &#039;page&#039;;
+			$item-&gt;menu_item_parent = 0;
+			$item-&gt;type = &#039;post_type&#039;;
+			$item-&gt;title = __(&#039;Terms and Conditions page&#039;,&#039;geodirectory&#039;);
+			$item-&gt;url = get_page_link($gd_tc_page_id);
+			$item-&gt;target = &#039;&#039;;
+			$item-&gt;attr_title = &#039;&#039;;
+			$item-&gt;classes = array(&#039;gd-menu-item&#039;);
+			$item-&gt;xfn = &#039;&#039;;
+
+			$items[&#039;pages&#039;][] = $item;
+		}
+
+		// Add CPT setting to each GD CPT
+		$post_types = geodir_get_option( &#039;post_types&#039; );
+		if(!empty($post_types)){
+			foreach($post_types as $name =&gt; $cpt){
+
+				// item for archives
+				$item = new stdClass();
+				$loop_index++;
+
+				$item-&gt;ID = $loop_index;
+				$item-&gt;object_id = $loop_index;
+				$item-&gt;db_id = 0;
+				$item-&gt;object =  $name;
+				$item-&gt;menu_item_parent = 0;
+				$item-&gt;type = &#039;post_type_archive&#039;;
+				$item-&gt;title = __($cpt[&#039;labels&#039;][&#039;name&#039;],&#039;geodirectory&#039;);
+				$item-&gt;url = get_post_type_archive_link($name);
+				$item-&gt;target = &#039;&#039;;
+				$item-&gt;attr_title = &#039;&#039;;
+				$item-&gt;classes = array(&#039;gd-menu-item&#039;);
+				$item-&gt;xfn = &#039;&#039;;
+
+				$items[&#039;cpt_archives&#039;][$name] = $item;
+
+				// Item for add listing
+				$add_item = new stdClass();
+				$loop_index++;
+				$add_item-&gt;ID = $loop_index;
+				$add_item-&gt;object_id = $loop_index;
+				$add_item-&gt;db_id = 0;
+				$add_item-&gt;object = &#039;page&#039;;
+				$add_item-&gt;menu_item_parent = 0;
+				$add_item-&gt;type = &#039;custom&#039;;
+				$add_item-&gt;title = sprintf( __(&#039;Add %s&#039;, &#039;geodirectory&#039;), __($cpt[&#039;labels&#039;][&#039;singular_name&#039;],&#039;geodirectory&#039;) );
+				$add_item-&gt;url = geodir_add_listing_page_url( $name );
+				$add_item-&gt;target = &#039;&#039;;
+				$add_item-&gt;attr_title = &#039;&#039;;
+				$add_item-&gt;classes = array(&#039;gd-menu-item&#039;,&#039;geodir-location-switcher&#039;);
+				$add_item-&gt;xfn = &#039;&#039;;
+
+				$items[&#039;cpt_add_listing&#039;][$name] = $add_item;
+			}
+		}
+		
+
+		return apply_filters( &#039;geodirectory_menu_items&#039;, $items,$loop_index );
+	}
+
+	/*
+	 * Get the capability required for GeoDirectory menu to be displayed to the user.
+	 *
+	 * @since 2.1.0.16
+	 *
+	 * @param  string $menu_slug The menu slug.
+	 * @return string The capability.
+	 */
+	public function admin_menu_capability( $menu_slug = &#039;&#039; ) {
+		$capability = &#039;manage_options&#039;;
+
+		/*
+		 * Filter the capability required for GeoDirectory menu to be displayed to the user.
+		 *
+		 * @since 2.1.0.16
+		 *
+		 * @param string $capability The capability required for GeoDirectory menu to be displayed to the user.
+		 * @param string $menu_slug The menu slug.
+		 */
+		return apply_filters( &#039;geodirectory_admin_menu_capability&#039;, $capability, $menu_slug );
+	}
+}
+
+return new GeoDir_Admin_Menus();
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

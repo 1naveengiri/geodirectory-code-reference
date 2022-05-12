@@ -1,0 +1,1801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-query.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Contains the query functions for GeoDirectory which alter the front-end post queries and loops
+ *
+ * @class 		GeoDir_Query
+ * @version		2.0.0
+ * @package		GeoDirectory/Classes
+ * @category	Class
+ * @author 		AyeCode
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+/**
+ * GeoDir_Query Class.
+ */
+class GeoDir_Query {
+
+	/** @public array Query vars to add to wp */
+	public $query_vars = array();
+
+	/**
+	 * Stores chosen attributes
+	 * @var array
+	 */
+	private static $_chosen_attributes;
+
+	/**
+	 * Constructor for the query class. Hooks in methods.
+	 *
+	 * @access public
+	 */
+	public function __construct() {
+
+		if ( ! is_admin() ) {
+			add_action( &#039;wp_loaded&#039;, array( $this, &#039;get_errors&#039; ), 20 );
+			add_filter( &#039;query_vars&#039;, array( $this, &#039;add_query_vars&#039; ), 0 );
+			add_action( &#039;parse_request&#039;, array( $this, &#039;parse_request&#039; ), 0 );
+
+
+			//add_action( &#039;wp&#039;, array( $this, &#039;add_page_id_in_query_var&#039; )  );
+			add_action( &#039;pre_get_posts&#039;, array( $this, &#039;set_globals&#039; ) );
+			add_action( &#039;pre_get_posts&#039;, array( $this, &#039;pre_get_posts&#039; ) );
+
+			//add_action( &#039;wp&#039;, array( $this, &#039;remove_product_query&#039; ) );
+			//add_action( &#039;wp&#039;, array( $this, &#039;remove_ordering_args&#039; ) );
+			add_filter( &#039;pre_handle_404&#039;, array( __CLASS__, &#039;pre_handle_404&#039; ), 20, 2 );
+		}
+
+		$this-&gt;init_query_vars();
+	}
+
+	/**
+	 * Get a seed value for the RAND() sort order that is set for 24 hours .
+	 *
+	 * This is used to seed the mySQL RAND($seed) function so paging can be used.
+	 *
+	 * @return int|mixed
+	 */
+	public static function get_rand_seed(){
+
+		$rand_seed = get_transient( &#039;geodir_rand_seed&#039; );
+
+		// if we don&#039;t have a transient then set a new one
+		if(!$rand_seed){
+			$rand_seed = time(); // well thats never gona be the same
+			set_transient( &#039;geodir_rand_seed&#039;, $rand_seed, 24 * HOUR_IN_SECONDS );
+		}
+
+		// validate
+		$rand_seed = absint($rand_seed);
+
+		return apply_filters(&#039;geodir_rand_seed&#039;,$rand_seed);
+	}
+
+	/**
+	 * Check if this is the main query and we should add our filters.
+	 *
+	 * @param $query
+	 *
+	 * @return bool
+	 */
+	public static function is_gd_main_query($query){
+		$is_main_query = false;
+
+		if((isset($query-&gt;query-&gt;gd_is_geodir_page) || isset($query-&gt;query[&#039;gd_is_geodir_page&#039;]) ) &amp;&amp; geodir_is_page(&#039;search&#039;) &amp;&amp; !isset($_REQUEST[&#039;geodir_search&#039;])){
+			// if its a search page with no queries then we don&#039;t add our filters
+			$is_main_query = false;
+		}elseif(isset($query-&gt;query-&gt;gd_is_geodir_page) &amp;&amp; $query-&gt;query-&gt;gd_is_geodir_page) {
+			$is_main_query = true;
+		}elseif(isset($query-&gt;query[&#039;gd_is_geodir_page&#039;]) &amp;&amp; $query-&gt;query[&#039;gd_is_geodir_page&#039;]) {
+			$is_main_query = true;
+		}
+
+		return $is_main_query;
+	}
+
+    /**
+     * Set globals.
+     *
+     * @since 2.0.0
+	 *
+	 * @param mixed $q query object
+	 */
+	public function set_globals( $q ){
+		global $wp_query, $geodir_post_type;
+
+		if ( empty( $wp_query ) ) {
+			$wp_query = $q;
+		}
+
+		$geodir_post_type = geodir_get_current_posttype();
+	}
+
+	/**
+	 * Hook into pre_get_posts to do the main product query.
+     *
+     * @since 2.0.0
+	 *
+	 * @param mixed $q query object
+	 */
+	public function pre_get_posts( $q ) {
+
+		// We only want to affect the main query
+		if ( ! $q-&gt;is_main_query() ) {
+			return;
+		}
+
+		// We only want to affect GD pages.
+		if (!geodir_is_geodir_page()) {
+			return;
+		}
+
+		/* remove all pre filters, controversial but should only affect our own queries. */
+		remove_all_filters(&#039;query&#039;);
+		remove_all_filters(&#039;posts_search&#039;);
+		remove_all_filters(&#039;posts_fields&#039;);
+		remove_all_filters(&#039;posts_join&#039;);
+		remove_all_filters(&#039;posts_groupby&#039;);
+		remove_all_filters(&#039;posts_orderby&#039;);
+		remove_all_filters(&#039;posts_where&#039;);
+
+
+		// @todo for testing only
+//		if(geodir_is_page(&#039;add-listing&#039;)){echo &quot;is page:add-listing &quot;;}
+//		if(geodir_is_page(&#039;preview&#039;)){echo &quot;is page:preview &quot;;}
+//		if(geodir_is_page(&#039;single&#039;)){echo &quot;is page:single &quot;;}
+//		if(geodir_is_page(&#039;post_type&#039;)){echo &quot;is page:post_type &quot;;}
+//		if(geodir_is_page(&#039;archive&#039;)){echo &quot;is page:archive &quot;;}
+//		if(geodir_is_page(&#039;home&#039;)){echo &quot;is page:home &quot;;}
+//		if(geodir_is_page(&#039;location&#039;)){echo &quot;is page:location &quot;;}
+//		if(geodir_is_page(&#039;author&#039;)){echo &quot;is page:author &quot;;}
+//		//if(geodir_is_page(&#039;search&#039;)){echo &quot;is page:search &quot;;}
+//		if(geodir_is_page(&#039;info&#039;)){echo &quot;is page:info &quot;;}
+//		if(geodir_is_page(&#039;login&#039;)){echo &quot;is page:login &quot;;}
+//		if(geodir_is_page(&#039;checkout&#039;)){echo &quot;is page:checkout &quot;;}
+//		if(geodir_is_page(&#039;invoices&#039;)){echo &quot;is page:invoices &quot;;}
+
+
+		/*
+		 * If post_type or archive then add query filters
+		 */
+		if(geodir_is_page(&#039;post_type&#039;) || geodir_is_page(&#039;archive&#039;) ){
+
+			add_filter( &#039;posts_fields&#039;, array( $this, &#039;posts_fields&#039; ),10,2 );
+			add_filter( &#039;posts_join&#039;, array( $this, &#039;posts_join&#039; ),10,2 );
+			add_filter( &#039;posts_where&#039;, array( $this, &#039;posts_where&#039; ),10,2);
+			add_filter( &#039;posts_where&#039;, array( $this, &#039;author_where&#039; ),10,2 );
+			//add_filter( &#039;posts_where&#039;, array( $this, &#039;posts_having&#039; ), 10000, 2 ); // make sure its the last WHERE param
+			add_filter( &#039;posts_groupby&#039;, array( $this, &#039;posts_groupby&#039; ),10,2 );
+			add_filter( &#039;posts_orderby&#039;, array( $this, &#039;posts_orderby&#039; ),10,2 );
+
+		} elseif ( geodir_is_page( &#039;search&#039; ) ) {
+			// Some page builders breaks editor.
+			if ( 
+				( ( function_exists( &#039;et_divi_load_scripts_styles&#039; ) || function_exists( &#039;dbp_filter_bfb_enabled&#039; ) ) &amp;&amp; ! empty( $_REQUEST[&#039;et_fb&#039;] ) &amp;&amp; ! empty( $_REQUEST[&#039;et_bfb&#039;] ) ) // Divi
+				|| (
+					class_exists( &#039;Brizy_Editor&#039; ) &amp;&amp;
+					(
+						( isset( $_GET[ Brizy_Editor::prefix( &#039;-edit&#039; ) ] ) || isset( $_GET[ Brizy_Editor::prefix( &#039;-edit-iframe&#039; ) ] ) ) ||
+						Brizy_Editor_Entity::isBrizyEnabled( geodir_search_page_id() )
+					)
+				) // Brizy
+			) {
+			} else {
+				$q-&gt;is_page = false;
+				$q-&gt;is_singular = false;
+			}
+			$q-&gt;is_search = true;
+			$q-&gt;is_archive = true;
+			//$q-&gt;is_post_type_archive = true;
+			$q-&gt;is_paged = true;
+//			$q-&gt;in_the_loop = true; // this breaks elementor template 
+
+			//$q-&gt;set(&#039;is_page&#039;,false);
+			//$q-&gt;set(&#039;is_search&#039;,true);
+			//$q-&gt;set(&#039;post_type&#039;,&#039;gd_place&#039;);
+			add_filter( &#039;posts_join&#039;, array( $this, &#039;posts_join&#039; ), 1, 2 );
+			add_filter( &#039;posts_fields&#039;, array( $this, &#039;posts_fields&#039; ), 1, 2 );
+			add_filter( &#039;posts_where&#039;, array( $this, &#039;posts_where&#039; ), 1, 2 );
+
+			//add_filter( &#039;posts_limits&#039;, array( $this, &#039;posts_limits&#039; ),10,2 );
+			add_filter( &#039;posts_groupby&#039;, array( $this, &#039;posts_groupby&#039; ), 1, 2 );
+			add_filter( &#039;posts_orderby&#039;, array( $this, &#039;posts_orderby&#039; ), 1, 2 );
+
+			add_filter( &#039;posts_clauses&#039;, array( $this, &#039;posts_having&#039; ), 99999, 2 ); // make sure its the last WHERE param and after GROUP BY if there
+
+			// setup search globals
+			global $wp_query, $wpdb, $geodir_post_type, $table, $dist, $s, $snear, $s, $s_A, $s_SA, $gd_exact_search;
+
+			if (isset($_REQUEST[&#039;scat&#039;]) &amp;&amp; $_REQUEST[&#039;scat&#039;] == &#039;all&#039;) $_REQUEST[&#039;scat&#039;] = &#039;&#039;;
+			//if(isset($_REQUEST[&#039;s&#039;]) &amp;&amp; $_REQUEST[&#039;s&#039;] == &#039;+&#039;) $_REQUEST[&#039;s&#039;] = &#039;&#039;;
+
+			if (isset($_REQUEST[&#039;dist&#039;])) {
+				($_REQUEST[&#039;dist&#039;] != &#039;0&#039; &amp;&amp; $_REQUEST[&#039;dist&#039;] != &#039;&#039;) ? $dist = esc_attr($_REQUEST[&#039;dist&#039;]) : $dist = 25000;
+			} elseif (geodir_get_option(&#039;search_radius&#039;) != &#039;&#039;) {
+				$dist = geodir_get_option(&#039;search_radius&#039;);//search_radius
+
+			} else {
+				$dist = 25000;
+			} //  Distance
+			
+
+			if (isset($_REQUEST[&#039;snear&#039;])) {
+				$snear = trim(esc_attr($_REQUEST[&#039;snear&#039;]));
+			}
+
+			if ( isset( $_REQUEST[&#039;s&#039;] ) ) {
+				$s = get_search_query();
+				if ( $s != &#039;&#039; ) {
+					$s = str_replace( array( &quot;%E2%80%99&quot;, &quot;’&quot; ), array( &quot;%27&quot;, &quot;&#039;&quot; ), $s ); // apple suck
+				}
+				$s = trim( esc_attr( wp_strip_all_tags( $s ) ) );
+			}
+
+			// Exact search with quotes
+			$gd_exact_search = false;
+			if ( $s != &#039;&#039; ) {
+				$search_keyword = trim( wp_specialchars_decode( stripslashes( $s ), ENT_QUOTES ), &#039;&quot;&#039; );
+				$match_keyword = wp_specialchars_decode( stripslashes( $s ), ENT_QUOTES );
+
+				if ( strpos( $match_keyword, &#039;&quot;&#039; ) !== false &amp;&amp; ( &#039;&quot;&#039; . $search_keyword . &#039;&quot;&#039; == $match_keyword ) ) {
+					$gd_exact_search = true;
+				}
+			}
+
+			if (strstr($s, &#039;,&#039;)) {
+				$s_AA = str_replace(&quot; &quot;, &quot;&quot;, $s);
+				$s_A = explode(&quot;,&quot;, $s_AA);
+				$s_A = implode(&#039;&quot;,&quot;&#039;, $s_A);
+				$s_A = &#039;&quot;&#039; . $s_A . &#039;&quot;&#039;;
+			} else {
+				$s_A = &#039;&quot;&#039; . $s . &#039;&quot;&#039;;
+			}
+
+			if (strstr($s, &#039; &#039;)) {
+				$s_SA = explode(&quot; &quot;, $s);
+			} else {
+				$s_SA = &#039;&#039;;
+			}
+		}elseif(is_author()){
+			add_filter( &#039;posts_where&#039;, array( $this, &#039;author_where&#039; ), 10, 2 );
+			//$q-&gt;is_archive = true;
+			//$q-&gt;is_post_type_archive = true;
+		}
+
+		//print_r($q);
+
+
+		if ( is_search() ) {
+			//add_filter( &#039;posts_where&#039;, array( $this, &#039;search_post_excerpt&#039; ) );
+			//add_filter( &#039;wp&#039;, array( $this, &#039;remove_posts_where&#039; ) );
+		}
+
+		// And remove the pre_get_posts hook
+		$this-&gt;remove_product_query();
+
+	}
+
+	/**
+	 * Add the HAVING query part if required.
+	 *
+	 * @param $where
+	 * @param array $query
+	 *
+	 * @return string
+	 */
+	public function posts_having( $clauses, $query = array() ) {
+		if ( self::is_gd_main_query( $query ) &amp;&amp; ! defined( &#039;GEODIR_MAP_SEARCH&#039; ) ) {
+			global $wp_query, $wpdb, $geodir_post_type, $table, $plugin_prefix, $dist, $snear, $geodirectory;
+
+			$support_location = $geodir_post_type &amp;&amp; GeoDir_Post_types::supports( $geodir_post_type, &#039;location&#039; );
+
+			if ( $support_location &amp;&amp; ( $latlon = $geodirectory-&gt;location-&gt;get_latlon() ) ) {
+				/* 
+				 * The HAVING clause is often used with the GROUP BY clause to filter groups based on a specified condition. 
+				 * If the GROUP BY clause is omitted, the HAVING clause behaves like the WHERE clause.
+				 */
+				if ( strpos( $clauses[&#039;where&#039;], &#039; HAVING &#039;) === false &amp;&amp; strpos( $clauses[&#039;groupby&#039;], &#039; HAVING &#039;) === false ) {
+					if ( GeoDir_Post_types::supports( $geodir_post_type, &#039;service_distance&#039; ) ) {
+						$_table = geodir_db_cpt_table( $geodir_post_type );
+						$having = &quot; HAVING distance &lt;= `{$_table}`.`service_distance` &quot;;
+					} else {
+						$dist = get_query_var( &#039;dist&#039; ) ? geodir_sanitize_float( get_query_var( &#039;dist&#039; ) ) : geodir_get_option( &#039;search_radius&#039;, 5 );
+						$having = $wpdb-&gt;prepare( &quot; HAVING distance &lt;= %f &quot;, $dist );
+					}
+
+					if ( trim( $clauses[&#039;groupby&#039;] ) != &#039;&#039; ) {
+						$clauses[&#039;groupby&#039;] .= $having;
+					} else {
+						$clauses[&#039;where&#039;] .= $having;
+					}
+				}
+			}
+		}
+
+		return $clauses;
+	}
+
+
+	/**
+	 * Filter the posts fields string.
+     *
+     * @since 2.0.0
+	 *
+	 * @param string $fields fields.
+     * @param array $query Optional. fields query. Default array.
+	 *
+	 * @return string
+	 */
+	public function posts_fields( $fields, $query = array() ) {
+		if ( self::is_gd_main_query( $query ) ) {
+			if ( ! ( geodir_is_page( &#039;post_type&#039; ) || geodir_is_page( &#039;archive&#039; ) ) ) {
+				global $wp_query, $wpdb, $geodir_post_type, $table, $plugin_prefix, $dist, $snear, $gd_exact_search,$geodirectory;
+				$support_location = $geodir_post_type &amp;&amp; GeoDir_Post_types::supports( $geodir_post_type, &#039;location&#039; );
+
+				$table = geodir_db_cpt_table( $geodir_post_type );
+
+				$fields .= &quot;, &quot; . $table . &quot;.* &quot;;
+
+				if ( $support_location &amp;&amp; ( $latlon = $geodirectory-&gt;location-&gt;get_latlon() ) ) {
+					$DistanceRadius = geodir_getDistanceRadius( geodir_get_option( &#039;search_distance_long&#039; ) );
+					$lat = $latlon[&#039;lat&#039;];
+					$lon = $latlon[&#039;lon&#039;];
+
+					$fields .= &quot; , (&quot; . $DistanceRadius . &quot; * 2 * ASIN(SQRT( POWER(SIN((ABS($lat) - ABS(&quot; . $table . &quot;.latitude)) * pi()/180 / 2), 2) +COS(ABS($lat) * pi()/180) * COS( ABS(&quot; . $table . &quot;.latitude) * pi()/180) *POWER(SIN(($lon - &quot; . $table . &quot;.longitude) * pi()/180 / 2), 2) ))) AS distance &quot;;
+				}
+
+				global $s;// = get_search_query();
+				if ( geodir_is_page( &#039;search&#039; ) &amp;&amp; $s &amp;&amp; trim( $s ) != &#039;&#039; ) {
+					$gd_titlematch_part = &quot;&quot;;
+
+					if ( ! $gd_exact_search ) {
+						$keywords = explode( &quot; &quot;, $s );
+
+						if ( is_array( $keywords ) &amp;&amp; ( $klimit = (int) geodir_get_option( &#039;search_word_limit&#039; ) ) ) {
+							foreach ( $keywords as $kkey =&gt; $kword ) {
+								if ( geodir_utf8_strlen( $kword ) &lt;= $klimit ) {
+									unset( $keywords[ $kkey ] );
+								}
+							}
+						}
+
+
+						if ( count( $keywords ) &gt; 1 ) {
+							$parts = array(
+								&#039;AND&#039; =&gt; &#039;gd_alltitlematch_part&#039;,
+								&#039;OR&#039;  =&gt; &#039;gd_titlematch_part&#039;
+							);
+							$gd_titlematch_part = &quot;&quot;;
+							foreach ( $parts as $key =&gt; $part ) {
+								$gd_titlematch_part .= &quot; CASE WHEN &quot;;
+								$count = 0;
+								foreach ( $keywords as $keyword ) {
+									$keyword = trim( $keyword );
+									$keyword = wp_specialchars_decode( $keyword, ENT_QUOTES );
+									$count ++;
+
+									$gd_titlematch_part .= $wpdb-&gt;prepare( &quot;( &quot; . $wpdb-&gt;posts . &quot;.post_title LIKE %s OR &quot; . $wpdb-&gt;posts . &quot;.post_title LIKE %s ) &quot;, array( $keyword . &#039;%&#039;, &#039;% &#039; . $keyword . &#039;%&#039; ) );
+
+									if ( $count &lt; count( $keywords ) ) {
+										$gd_titlematch_part .= $key . &quot; &quot;;
+									}
+								}
+								$gd_titlematch_part .= &quot;THEN 1 ELSE 0 END AS &quot; . $part . &quot;,&quot;;
+							}
+						}
+					}
+
+					$s = stripslashes_deep( $s );
+					$s = wp_specialchars_decode( $s, ENT_QUOTES );
+
+					if ( geodir_column_exist( $table, &#039;featured&#039; ) ) {
+						$fields .= $wpdb-&gt;prepare( &quot;, CASE WHEN &quot; . $table . &quot;.featured=%d THEN 1 ELSE 0 END AS gd_featured &quot;, 1 );
+					}
+					$fields .= $wpdb-&gt;prepare( &quot;, CASE WHEN &quot; . $wpdb-&gt;posts . &quot;.post_title LIKE %s THEN 1 ELSE 0 END AS gd_exacttitle, GD_TITLEMATCH_PART CASE WHEN ( &quot; . $wpdb-&gt;posts . &quot;.post_title LIKE %s OR &quot; . $wpdb-&gt;posts . &quot;.post_title LIKE %s OR &quot; . $wpdb-&gt;posts . &quot;.post_title LIKE %s ) THEN 1 ELSE 0 END AS gd_titlematch, CASE WHEN ( &quot; . $wpdb-&gt;posts . &quot;.post_content LIKE %s OR &quot; . $wpdb-&gt;posts . &quot;.post_content LIKE %s OR &quot; . $wpdb-&gt;posts . &quot;.post_content LIKE %s OR &quot; . $wpdb-&gt;posts . &quot;.post_content LIKE %s OR &quot; . $wpdb-&gt;posts . &quot;.post_content LIKE %s OR &quot; . $wpdb-&gt;posts . &quot;.post_content LIKE %s ) THEN 1 ELSE 0 END AS gd_content&quot;, array(
+						$s,
+						$s,
+						$s . &#039;%&#039;,
+						&#039;% &#039; . $s . &#039;%&#039;,
+						$s,
+						$s . &#039; %&#039;,
+						&#039;% &#039; . $s . &#039; %&#039;,
+						&#039;%&gt;&#039; . $s . &#039;%&#039;,
+						&#039;% &#039; . $s,
+						&#039;% &#039; . $s .&#039;,&#039;
+					) );
+					$fields = str_replace( &quot;gd_exacttitle, GD_TITLEMATCH_PART&quot;, &quot;gd_exacttitle, {$gd_titlematch_part}&quot;, $fields );
+				}
+			}
+
+			//echo &#039;###fields:&#039;.$fields;
+		}
+
+		return apply_filters( &#039;geodir_posts_fields&#039;, $fields, $query );
+	}
+
+    /**
+     * Posts limits.
+     *
+     * @since 2.0.0
+     *
+     * @param string $limits Limits.
+     * @param string $query Query.
+     * @return string $limits.
+     */
+	public function posts_limits($limits,$query){
+		echo &#039;###limit###&#039;.$limits;
+
+		$limits = &quot; LIMIT 0,10 &quot;;
+
+		return $limits;
+	}
+
+	/**
+     * Posts where.
+     *
+	 * @param string $where Where.
+     * @param  array $query Optional. Query. Default array.
+	 *
+	 * @return mixed
+	 */
+	public function posts_where($where, $query = array()){
+		if(self::is_gd_main_query($query)) {
+			global $wpdb, $geodir_post_type, $wp_query,$geodirectory;
+
+			$support_location = $geodir_post_type &amp;&amp; GeoDir_Post_types::supports( $geodir_post_type, &#039;location&#039; );
+			$table            = geodir_db_cpt_table( $geodir_post_type );
+
+			$where .= $wpdb-&gt;prepare( &quot; AND $wpdb-&gt;posts.post_type = %s &quot;, $geodir_post_type );
+
+			if ( geodir_is_page( &#039;search&#039; ) ) {
+				global $wpdb, $geodir_post_type, $plugin_prefix, $dist, $snear, $s, $s_A, $s_SA, $search_term;
+
+
+				$search_term           = &#039;OR&#039;;
+				$search_term           = &#039;AND&#039;;
+				$geodir_custom_search  = &#039;&#039;;
+				$category_search_range = &#039;&#039;;
+
+				if ( is_single() &amp;&amp; get_query_var( &#039;post_type&#039; ) ) {
+					return $where;
+				}
+
+				if ( is_tax() ) {
+					return $where;
+				}
+
+				$s   = trim( $s );
+				$s   = wp_specialchars_decode( $s, ENT_QUOTES );
+				$s_A = wp_specialchars_decode( $s_A, ENT_QUOTES );
+
+				// Exact search with quotes
+				$gd_exact_search = false;
+				if ( $s != &#039;&#039; ) {
+					$search_keyword = trim( wp_specialchars_decode( stripslashes( $s ), ENT_QUOTES ), &#039;&quot;&#039; );
+					$match_keyword = wp_specialchars_decode( stripslashes( $s ), ENT_QUOTES );
+
+					if ( strpos( $match_keyword, &#039;&quot;&#039; ) !== false &amp;&amp; ( &#039;&quot;&#039; . $search_keyword . &#039;&quot;&#039; == $match_keyword ) ) {
+						$gd_exact_search = true;
+					}
+
+					// remove quotes after checking if its an exact search, this is VERY IMPORTANT
+					$s = $search_keyword;
+				}
+
+				$where               = &#039;&#039;;
+				$better_search_terms = &#039;&#039;;
+				$terms_sql           = &#039;&#039;;
+				if ( isset( $_REQUEST[&#039;stype&#039;] ) ) {
+					$post_types = esc_attr( wp_strip_all_tags( $_REQUEST[&#039;stype&#039;] ) );
+				} else {
+					$post_types = &#039;gd_place&#039;;
+				}
+
+				if ( $s != &#039;&#039; ) {
+					if ( $gd_exact_search ) {
+						$keywords = array( $s );
+					} else {
+						$keywords = array_unique( explode( &quot; &quot;, $s ) );
+						if ( is_array( $keywords ) &amp;&amp; ( $klimit = (int) geodir_get_option( &#039;search_word_limit&#039; ) ) ) {
+							foreach ( $keywords as $kkey =&gt; $kword ) {
+								if ( geodir_utf8_strlen( $kword ) &lt;= $klimit ) {
+									unset( $keywords[ $kkey ] );
+								}
+							}
+						}
+					}
+
+					if ( ! empty( $keywords ) ) {
+						foreach ( $keywords as $keyword ) {
+							$keyword = trim( $keyword );
+							$keyword = stripslashes( wp_specialchars_decode( $keyword, ENT_QUOTES ) );
+							if ( $keyword != &#039;&#039; ) {
+								$better_search_term = $wpdb-&gt;prepare( &quot; OR {$wpdb-&gt;posts}.post_title LIKE %s OR {$wpdb-&gt;posts}.post_title LIKE %s &quot;, array( $keyword . &#039;%&#039;, &#039;% &#039; . $keyword . &#039;%&#039; ) );
+
+								/**
+								 * Filter the search query keywords SQL.
+								 *
+								 * @since 1.5.9
+								 * @package GeoDirectory
+								 *
+								 * @param string $better_search_terms The query values.
+								 * @param array $keywords The array of keywords for the query.
+								 * @param string $keyword The single keyword being searched.
+								 */
+								$better_search_terms .= apply_filters( &quot;geodir_search_better_search_terms&quot;, $better_search_term, $keywords, $keyword );
+							}
+						}
+					}
+
+					// Search in _search_title
+					$_search = geodir_sanitize_keyword( $s, $post_types );
+
+					// If original search &amp; keyword are not same.
+					if ( $gd_exact_search ) {
+						$_keywords = array( $_search );
+					} else {
+						$_keywords = array_unique( explode( &quot; &quot;, $_search ) );
+
+						if ( is_array( $_keywords ) &amp;&amp; ( $klimit = (int) geodir_get_option( &#039;search_word_limit&#039; ) ) ) {
+							foreach ( $_keywords as $kkey =&gt; $kword ) {
+								if ( geodir_utf8_strlen( $kword ) &lt;= $klimit ) {
+									unset( $_keywords[ $kkey ] );
+								}
+							}
+						}
+					}
+
+					if ( ! empty( $_keywords ) ) {
+						$_search_title_where = array();
+
+						foreach ( $_keywords as $_keyword ) {
+							if ( empty( $_keyword ) ) {
+								continue;
+							}
+
+							$_search_title_part = &quot;`{$table}`.`_search_title` LIKE &#039;{$_keyword}%&#039; OR `{$table}`.`_search_title` LIKE &#039;% {$_keyword}%&#039;&quot;;
+
+							/**
+							 * Filter the search query titles SQL.
+							 *
+							 * @since 2.0.0.82
+							 *
+							 * @param string $_search_title_part The query values.
+							 * @param string $_keyword The single keyword being searched.
+							 * @param array $_keywords The array of keywords for the query.
+							 */
+							$_search_title_part = apply_filters( &quot;geodir_search_title_keyword_part&quot;, $_search_title_part, $_keyword, $_keywords );
+
+							if ( ! empty( $_search_title_part ) ) {
+								$_search_title_where[] = $_search_title_part;
+							}
+						}
+
+						if ( ! empty( $_search_title_where ) ) {
+							$_search_title_parts = &quot; OR &quot; . implode( &quot; OR &quot;, $_search_title_where );
+							$better_search_terms .= apply_filters( &quot;geodir_search_title_keyword_parts&quot;, $_search_title_parts, $keywords );
+						}
+					}
+
+					/**
+					 * Filter the search query keywords SQL.
+					 *
+					 * @since 2.0.0.82
+					 *
+					 * @param string $better_search_terms The query values.
+					 * @param string $s The searched keyword.
+					 */
+					$better_search_terms = apply_filters( &quot;geodir_search_better_search_terms_parts&quot;, $better_search_terms, $s );
+				}
+
+				/* get taxonomy */
+				$taxonomies = geodir_get_taxonomies( $post_types, true );
+				if ( $taxonomies ) {
+					$taxonomies = implode( &quot;&#039;,&#039;&quot;, $taxonomies );
+					$taxonomies = &quot;&#039;&quot; . $taxonomies . &quot;&#039;&quot;;
+				} else {
+					$taxonomies = &#039;&#039;;
+				}
+
+				$content_where = $terms_where = &#039;&#039;;
+				if ( $s != &#039;&#039; ) {
+					$content_where = $wpdb-&gt;prepare( &quot; OR ($wpdb-&gt;posts.post_content LIKE %s OR $wpdb-&gt;posts.post_content LIKE %s OR $wpdb-&gt;posts.post_content LIKE %s OR $wpdb-&gt;posts.post_content LIKE %s) &quot;, array( $s . &#039;%&#039;, &#039;% &#039; . $s . &#039;%&#039;, &#039;%&gt;&#039; . $s . &#039;%&#039;, &#039;%\n&#039; . $s . &#039;%&#039; ) );
+					$content_where = str_replace( &quot;\\n&quot;, &quot;\n&quot;, $content_where ); // $wpdb-&gt;prepare() adds slash that unable to match in search.
+
+					/**
+					 * Filter the search query content where values.
+					 *
+					 * @since 1.5.0
+					 * @package GeoDirectory
+					 *
+					 * @param string $content_where The query values.
+					 */
+					$content_where = apply_filters( &quot;geodir_search_content_where&quot;, $content_where );
+
+					if ( $gd_exact_search ) {
+						$terms_where = $wpdb-&gt;prepare( &quot; AND ($wpdb-&gt;terms.name LIKE %s ) &quot;, array( $s ) );
+					} else {
+						$terms_where = $wpdb-&gt;prepare( &quot; AND ($wpdb-&gt;terms.name LIKE %s OR $wpdb-&gt;terms.name LIKE %s OR $wpdb-&gt;terms.name IN ($s_A)) &quot;, array( $s . &#039;%&#039;, &#039;% &#039;. $s . &#039;%&#039; ) );
+					}
+
+					/**
+					 * Filter the search query term values.
+					 *
+					 * @since 1.5.0
+					 * @package GeoDirectory
+					 *
+					 * @param string $terms_where The SQL where.
+					 */
+					$terms_where = apply_filters( &quot;geodir_search_terms_where&quot;, $terms_where );
+				}
+
+				$_post_category = array();
+				if ( geodir_is_page( &#039;search&#039; ) &amp;&amp; isset( $_REQUEST[&#039;spost_category&#039;] ) &amp;&amp; ( ( is_array( $_REQUEST[&#039;spost_category&#039;] ) &amp;&amp; ! empty( $_REQUEST[&#039;spost_category&#039;][0] ) ) || ( ! is_array( $_REQUEST[&#039;spost_category&#039;] ) &amp;&amp; ! empty( $_REQUEST[&#039;spost_category&#039;] ) ) ) ) {
+					if ( is_array( $_REQUEST[&#039;spost_category&#039;] ) ) {
+						$_post_category = array_map( &#039;absint&#039;, $_REQUEST[&#039;spost_category&#039;] );
+					} else {
+						$_post_category = array( absint( $_REQUEST[&#039;spost_category&#039;] ) );
+					}
+				}
+
+				if ( $s != &#039;&#039; ) {
+					// get term sql
+					$term_sql = &quot;SELECT $wpdb-&gt;term_taxonomy.term_id,$wpdb-&gt;terms.name,$wpdb-&gt;term_taxonomy.taxonomy
+					FROM $wpdb-&gt;term_taxonomy,  $wpdb-&gt;terms, $wpdb-&gt;term_relationships 
+					WHERE $wpdb-&gt;term_taxonomy.term_id =  $wpdb-&gt;terms.term_id 
+					AND $wpdb-&gt;term_relationships.term_taxonomy_id =  $wpdb-&gt;term_taxonomy.term_taxonomy_id 
+					AND $wpdb-&gt;term_taxonomy.taxonomy in ( {$taxonomies} ) 
+					$terms_where 
+					GROUP BY $wpdb-&gt;term_taxonomy.term_id&quot;;
+
+					$term_results = $wpdb-&gt;get_results( $term_sql );
+
+					if ( ! empty( $term_results ) ) {
+						foreach ( $term_results as $term ) {
+							if ( ! empty( $_post_category ) &amp;&amp; in_array( $term-&gt;term_id, $_post_category ) ) {
+								continue;
+							}
+
+							if ( $term-&gt;taxonomy == $post_types . &quot;category&quot; ) {
+								$terms_sql .= $wpdb-&gt;prepare(&quot; OR FIND_IN_SET( %d , &quot; . $table . &quot;.post_category ) &quot;, $term-&gt;term_id );
+							} else {
+								$terms_sql .= $wpdb-&gt;prepare(&quot; OR FIND_IN_SET( %s, &quot; . $table . &quot;.post_tags ) &quot;, $term-&gt;name );
+							}
+						}
+					}
+				}
+
+				$latlon = $geodirectory-&gt;location-&gt;get_latlon();
+				// fake near if we have GPS
+				if ( $snear == &#039;&#039; &amp;&amp; $latlon) {
+					$snear = &#039; &#039;;
+				}
+
+				// post_status
+				$status = geodir_get_post_stati( &#039;search&#039;, array( &#039;post_type&#039; =&gt; $post_types ) );
+				if ( empty( $status ) ) {
+					$status = array( &#039;publish&#039; );
+				} elseif ( is_scalar( $status ) ) {
+					$status = array( $status );
+				}
+
+				if ( count( $status ) &gt; 1 ) {
+					$status_where = &quot;AND {$wpdb-&gt;posts}.post_status IN( &#039;&quot; . implode( &quot;&#039;, &#039;&quot;, $status ) . &quot;&#039; )&quot;;
+				} else {
+					$status_where = &quot;AND {$wpdb-&gt;posts}.post_status = &#039;{$status[0]}&#039;&quot;;
+				}
+
+				/**
+				 * Filter post_status where condition.
+				 *
+				 * @soince 2.1.1.5
+				 *
+				 * @param string $status_where Status where condition.
+				 * @param array  $status Post status array.
+				 * $param string $post_types Post type.
+				 */
+				$status_where = apply_filters( &#039;geodir_posts_where_post_status&#039;, $status_where, $status, $post_types );
+
+				if ( $support_location &amp;&amp; $snear != &#039;&#039; &amp;&amp; $latlon &amp;&amp; ! defined( &#039;GEODIR_MAP_SEARCH&#039; ) ) {
+					$lat = $latlon[&#039;lat&#039;];
+					$lon = $latlon[&#039;lon&#039;];
+					$between          = geodir_get_between_latlon( $lat, $lon, $dist );
+					$post_title_where = $s != &quot;&quot; ? $wpdb-&gt;prepare( &quot;{$wpdb-&gt;posts}.post_title LIKE %s&quot;, array( $s ) ) : &quot;1=1&quot;;
+					$where .= &quot; AND ( ( $post_title_where $better_search_terms ) $content_where $terms_sql ) AND $wpdb-&gt;posts.post_type = &#039;{$post_types}&#039; {$status_where}&quot;;
+
+					if ( ! empty( $between ) ) {
+						$where .= $wpdb-&gt;prepare( &quot; AND ( latitude BETWEEN %f AND %f ) AND ( longitude BETWEEN %f AND %f ) &quot;, $between[&#039;lat1&#039;], $between[&#039;lat2&#039;], $between[&#039;lon1&#039;], $between[&#039;lon2&#039;] );
+					}
+
+					if ( isset( $_REQUEST[&#039;sdistance&#039;] ) &amp;&amp; $_REQUEST[&#039;sdistance&#039;] != &#039;all&#039; ) {
+						$DistanceRadius = geodir_getDistanceRadius( geodir_get_option( &#039;search_distance_long&#039; ) );
+						$where .= &quot; AND CONVERT((&quot; . $DistanceRadius . &quot; * 2 * ASIN(SQRT( POWER(SIN((ABS($lat) - ABS(&quot; . $table . &quot;.latitude)) * pi()/180 / 2), 2) +COS(ABS($lat) * pi()/180) * COS( ABS(&quot; . $table . &quot;.latitude) * pi()/180) *POWER(SIN(($lon - &quot; . $table . &quot;.longitude) * pi()/180 / 2), 2) ))),DECIMAL(64,4)) &lt;= &quot; . $dist;
+					}
+
+					// Private address
+					if ( GeoDir_Post_types::supports( $post_types, &#039;private_address&#039; ) ) {
+						$where .= &quot; AND ( `{$table}`.`private_address` IS NULL OR `{$table}`.`private_address` &lt;&gt; 1 ) &quot;;
+					}
+				} else {
+					$post_title_where = $s != &quot;&quot; ? $wpdb-&gt;prepare( &quot;{$wpdb-&gt;posts}.post_title LIKE %s&quot;, array( $s ) ) : &quot;1=1&quot;;
+					$where .= &quot; AND ( ( $post_title_where $better_search_terms ) $content_where $terms_sql ) AND $wpdb-&gt;posts.post_type = &#039;{$post_types}&#039; {$status_where}&quot;;
+				}
+
+				// Replace unwanted 1=1 clause.
+				$where = str_replace( &quot; AND ( ( 1=1  )   ) AND&quot;, &quot;AND&quot;, $where );
+			}
+
+			/**
+			 * @since 2.0.0.67
+			 */
+			$where = apply_filters( &#039;geodir_main_query_posts_where&#039;, $where, $query, $geodir_post_type );
+		}
+
+		return apply_filters( &#039;geodir_posts_where&#039;, $where, $query );
+	}
+
+    /**
+     * Author where.
+     *
+     * @since 2.0.0
+     *
+     * @param string $where where.
+     *
+     * @global object $wp_query WordPress query object.
+     * @global object $wpdb WordPress Database object.
+     *
+     * @return mixed|string
+     */
+	public function author_where( $where, $query = array() ) {
+		global $wp_query, $wpdb;
+
+		if ( ! self::is_gd_main_query( $query ) ) {
+			return $where;
+		}
+
+		$cpts = geodir_get_posttypes( &#039;array&#039; );
+
+		// author saves/favs filter
+		if ( is_author() &amp;&amp; ! empty( $wp_query-&gt;query[&#039;gd_favs&#039;] ) ) {
+			$post_types = array_keys( $cpts );
+
+			$author_id = isset($wp_query-&gt;query_vars[&#039;author&#039;]) ? $wp_query-&gt;query_vars[&#039;author&#039;] : 0;
+
+			if ( $author_id ) {
+				$where = str_replace( &quot;AND ($wpdb-&gt;posts.post_author = $author_id)&quot;, &quot;&quot;, $where ); // Remove the author restriction
+
+				$user_favs = geodir_get_user_favourites( $author_id );
+
+				if ( empty( $user_favs ) ) {
+					$fav_in = &quot;&#039;&#039;&quot;; // blank it so we get no results
+				} else {
+					$fav_in = $user_favs;
+					$prepare_ids = implode( &quot;,&quot;, array_fill( 0, count( $user_favs ), &#039;%d&#039; ) );
+				}
+
+				$where .= $wpdb-&gt;prepare( &quot; AND $wpdb-&gt;posts.ID IN ($prepare_ids)&quot;, $fav_in );
+
+				// Replace &#039;post&#039; with GD post types
+				if ( ! isset( $wp_query-&gt;query[&#039;post_type&#039;] ) ) {
+					$prepare_cpts = implode( &quot;,&quot;, array_fill( 0, count( $post_types ), &#039;%s&#039; ) );
+					$gd_cpt_replace = $wpdb-&gt;prepare( &quot;$wpdb-&gt;posts.post_type IN ($prepare_cpts)&quot;, $post_types );
+					$where = str_replace( &quot;$wpdb-&gt;posts.post_type = &#039;post&#039;&quot;, $gd_cpt_replace, $where );
+				}
+
+				$user_id = get_current_user_id();
+				$author_id = isset($wp_query-&gt;query_vars[&#039;author&#039;]) ? $wp_query-&gt;query_vars[&#039;author&#039;] : 0;
+
+				// Check if restricted
+				$post_type = isset($wp_query-&gt;query[&#039;post_type&#039;]) ? $wp_query-&gt;query[&#039;post_type&#039;] : $post_types[0];
+				$author_favorites_private = isset( $cpts[$post_type][&#039;author_favorites_private&#039;] ) &amp;&amp; $cpts[$post_type][&#039;author_favorites_private&#039;] ? true : false;
+
+				if ( $author_favorites_private &amp;&amp; $author_id != $user_id ) {
+					$where .= &quot; AND 1=2&quot;;
+				}
+
+			}
+		} elseif ( is_author() ) {
+			$post_type = isset( $wp_query-&gt;query[&#039;post_type&#039;] ) ? $wp_query-&gt;query[&#039;post_type&#039;] : $post_types[0];
+			$user_id = get_current_user_id();
+			$author_id = isset( $wp_query-&gt;query_vars[&#039;author&#039;] ) ? $wp_query-&gt;query_vars[&#039;author&#039;] : 0;
+
+			if ( $author_id &amp;&amp; $author_id == $user_id ) {
+				$statuses = geodir_get_post_stati( &#039;author-archive&#039;, array( &#039;post_type&#039; =&gt; $post_type ) );
+
+				$_statuses = &quot;{$wpdb-&gt;posts}.post_status = &#039;publish&#039;&quot;;
+
+				foreach ( $statuses as $status ) {
+					if ( strpos( $where, &quot;{$wpdb-&gt;posts}.post_status = &#039;&quot; . $status . &quot;&#039;&quot; ) === false ) {
+						$_statuses .= &quot; OR {$wpdb-&gt;posts}.post_status = &#039;&quot; . $status . &quot;&#039;&quot;;
+					}
+				}
+
+				$where = str_replace( &quot;{$wpdb-&gt;posts}.post_status = &#039;publish&#039;&quot;, $_statuses, $where );
+			}
+
+			// check if restricted
+			$author_posts_private = isset( $cpts[ $post_type ][&#039;author_posts_private&#039;] ) &amp;&amp; $cpts[$post_type][&#039;author_posts_private&#039;] ? true : false;
+
+			if ( $author_posts_private &amp;&amp; $author_id != $user_id ) {
+				$where .= &quot; AND 1=2&quot;;
+			}
+		}
+
+		return $where;
+	}
+
+    /**
+     * Posts join.
+     *
+     * @since 2.0.0
+     *
+     * @param string $join join.
+     * @param array $query Optional. Query. Default array.
+     *
+     * @global object $wpdb WordPress Database object.
+     * @global object $table_prefix WordPress Database object.
+     * @global object $geodir_post_type WordPress Database object.
+     *
+     * @return mixed|void
+     */
+	public function posts_join($join, $query = array()){
+
+		global $wpdb, $table_prefix, $geodir_post_type;
+		if(self::is_gd_main_query($query)){
+			$table = geodir_db_cpt_table($geodir_post_type);
+
+			$join .= &quot; INNER JOIN &quot; . $table . &quot; ON (&quot; . $table . &quot;.post_id = $wpdb-&gt;posts.ID)  &quot;; // @todo inner join seems faster but we should so tests with large datasets
+
+		}
+
+		return apply_filters( &#039;geodir_posts_join&#039;, $join, $query );
+	}
+
+    /**
+     * Posts group by.
+     *
+     * @since 2.0.0
+     *
+     * @param string $groupby Group by.
+     * @param array $query Optional. Query. Default array.
+     * @return mixed|void
+     */
+	public function posts_groupby( $groupby, $query = array() ) {
+		return apply_filters( &#039;geodir_posts_groupby&#039;, $groupby, $query );
+	}
+
+	/**
+     * Posts Order by.
+     *
+     * @since 2.0.0
+     *
+	 * @param string $orderby Order by.
+	 * @param array $query Optional. Query. Default array.
+	 * @return mixed
+	 */
+	public function posts_orderby( $orderby, $query = array() ) {
+		global $wpdb, $geodirectory, $geodir_post_type, $s;
+
+		if ( self::is_gd_main_query( $query ) ) {
+			$support_location = $geodir_post_type &amp;&amp; GeoDir_Post_types::supports( $geodir_post_type, &#039;location&#039; );
+			$sort_by          = &#039;&#039;;
+			$orderby          = &#039; &#039;;
+			$default_sort     = &#039;&#039;;
+
+			if ( get_query_var( &#039;order_by&#039; ) ) {
+				$sort_by = get_query_var( &#039;order_by&#039; );
+			}
+
+			if ( isset( $_REQUEST[&#039;sort_by&#039;] ) &amp;&amp; $_REQUEST[&#039;sort_by&#039;] != &#039;&#039; &amp;&amp; is_main_query() ) {
+				$sort_by = esc_attr( $_REQUEST[&#039;sort_by&#039;] );
+			}
+
+			if ( $sort_by == &#039;&#039; ) {
+				if ( $support_location &amp;&amp; ( $latlon = $geodirectory-&gt;location-&gt;get_latlon() ) ) {
+					$sort_by = &#039;distance_asc&#039;;
+				} elseif ( is_search() &amp;&amp; isset( $_REQUEST[&#039;geodir_search&#039;] ) &amp;&amp; $s &amp;&amp; trim( $s ) != &#039;&#039; ) {
+					$sort_by = &#039;search_best&#039;;
+				} else {
+					$default_sort = geodir_get_posts_default_sort( $geodir_post_type );
+
+					if ( ! empty( $default_sort ) ) {
+						$sort_by = $default_sort;
+					}
+				}
+			}
+
+			$table = geodir_db_cpt_table( $geodir_post_type );
+
+			$orderby = self::sort_by_sql( $sort_by, $geodir_post_type, $query );
+
+			$orderby = self::sort_by_children( $orderby, $sort_by, $geodir_post_type, $query );
+
+			/**
+			 * Filter order by SQL.
+			 *
+			 * @since 1.0.0
+			 *
+			 * @param string $orderby The orderby query string.
+			 * @param string $sort_by Sortby query string.
+			 * @param string $table Listing table name.
+			 * @param WP_Query $query The WP_Query.
+			 */
+			$orderby = apply_filters( &#039;geodir_posts_order_by_sort&#039;, $orderby, $sort_by, $table, $query );
+		}
+
+		return $orderby;
+	}
+
+	public static function sort_by_children( $orderby, $sort_by, $post_type, $wp_query = array(), $parent = 0 ) {
+		global $wpdb;
+
+		if ( substr( strtolower( $sort_by ) , -5 ) == &#039;_desc&#039; ) {
+			$order = &#039;desc&#039;;
+			$htmlvar_name = substr( $sort_by , 0, strlen( $sort_by ) - 5 );
+		} else if ( substr( strtolower( $sort_by ) , -4 ) == &#039;_asc&#039; ) {
+			$order = &#039;asc&#039;;
+			$htmlvar_name = substr( $sort_by , 0, strlen( $sort_by ) - 4 );
+		} else {
+			$htmlvar_name = &#039;&#039;;
+		}
+
+		if ( ! empty( $orderby ) &amp;&amp; $htmlvar_name ) {
+			$parent_id = $wpdb-&gt;get_var( $wpdb-&gt;prepare( &quot;SELECT id FROM &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; WHERE htmlvar_name = %s AND sort = %s AND post_type = %s AND tab_parent = %d&quot;, $htmlvar_name, $order, $post_type, $parent ) );
+
+			if ( $parent_id ) {
+				$children = $wpdb-&gt;get_results( $wpdb-&gt;prepare( &quot;SELECT * FROM &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; WHERE post_type = %s AND tab_parent = %d ORDER BY sort_order ASC&quot;, $post_type, $parent_id ) );
+
+				if ( $children ) {
+					$orderby_parts = array();
+
+					foreach ( $children as $child ) {
+						if ( $child-&gt;field_type == &#039;random&#039; ) {
+							$child_sort_by = &#039;random&#039;;
+						} else {
+							$child_sort_by = $child-&gt;htmlvar_name . &quot;_&quot; . $child-&gt;sort;
+						}
+						$child_sort = self::sort_by_sql( $child_sort_by, $post_type, $wp_query );
+
+						if ( ! empty( $child_sort ) ) {
+							$orderby_parts[] = $child_sort;
+						}
+					}
+
+					if ( ! empty( $orderby_parts ) ) {
+						if ( ! empty( $orderby ) ) {
+							$orderby .= &quot;, &quot;;
+						}
+
+						$orderby .= implode( &quot;, &quot;, array_filter( $orderby_parts ) );
+					}
+				}
+			}
+		}
+
+		return $orderby;
+	}
+
+    /**
+     * Sort by sql.
+     *
+     * @since 2.0.0
+     *
+     * @param string $sort_by Optional. Sort by. Default title_asc.
+     * @param string $post_type Optional. Post type. Default gd_place.
+     * @global object $wp_query WordPress query object.
+     *
+     * @global object $wpdb WordPress Database object.
+     *
+     * @return string
+     */
+	public static function sort_by_sql( $sort_by = &#039;post_title_asc&#039;, $post_type = &quot;gd_place&quot;, $wp_query = array() ) {
+		global $wpdb;
+
+		$orderby = &#039;&#039;;
+		$table = geodir_db_cpt_table( $post_type );
+		$order_by_parts = array();
+
+		switch ( $sort_by ) {
+			case &#039;distance&#039;:
+			case &#039;distance_asc&#039;:
+				$order_by_parts[] = &quot;distance ASC&quot;;
+				$order_by_parts[] = self::search_sort( &#039;&#039;, $sort_by, $wp_query );
+				break;
+			case &#039;distance_desc&#039;:
+				$order_by_parts[] = &quot;distance DESC&quot;;
+				$order_by_parts[] = self::search_sort( &#039;&#039;, $sort_by, $wp_query );
+				break;
+			case &#039;search_best&#039;:
+				$order_by_parts[] = self::search_sort( &#039;&#039;, $sort_by, $wp_query );
+				break;
+			case &#039;post_status_desc&#039;:
+			case &#039;random&#039;:
+				$rand_seed = self::get_rand_seed();
+				$order_by_parts[] = &quot;rand($rand_seed)&quot;;
+				break;
+			case &#039;az&#039;:
+			case &#039;post_title_asc&#039;:
+			case &#039;title_asc&#039;:
+				$order_by_parts[] = &quot;$wpdb-&gt;posts.post_title asc&quot;;
+				break;
+			case &#039;za&#039;:
+			case &#039;post_title_desc&#039;:
+			case &#039;title_desc&#039;:
+				$order_by_parts[] = &quot;$wpdb-&gt;posts.post_title desc&quot;;
+				break;
+			case &#039;add_date_asc&#039;:
+				$order_by_parts[] = &quot;$wpdb-&gt;posts.post_date asc&quot;;
+				break;
+			case &#039;latest&#039;:
+			case &#039;add_date_desc&#039;:
+				$order_by_parts[] = &quot;$wpdb-&gt;posts.post_date desc&quot;;
+				break;
+			case &#039;review_asc&#039;:
+				$order_by_parts[] = $table . &quot;.rating_count ASC&quot;;
+				$order_by_parts[] = $table . &quot;.overall_rating ASC&quot;;
+				break;
+			case &#039;high_review&#039;:
+			case &#039;review_desc&#039;:
+				$order_by_parts[] = $table . &quot;.rating_count DESC&quot;;
+				$order_by_parts[] = $table . &quot;.overall_rating DESC&quot;;
+				break;
+			case &#039;rating_asc&#039;:
+			case &#039;rating_desc&#039;:
+			case &#039;high_rating&#039;:
+				if ( $sort_by == &#039;high_rating&#039; ) {
+					$sort_by = &#039;rating_desc&#039;;
+				}
+
+				$rating_order = $sort_by == &#039;rating_asc&#039; ? &quot;ASC&quot; : &quot;DESC&quot;;
+				$use_bayesian = apply_filters( &#039;geodir_use_bayesian&#039;, true, $table );
+				$avg_rating = 0;
+
+				if ( $use_bayesian ) {
+					$avg_num_votes = get_transient( &#039;gd_avg_num_votes_&#039;.$table );
+
+					if ( ! $avg_num_votes ) {
+						$avg_num_votes = $wpdb-&gt;get_var( &quot;SELECT SUM( rating_count ) FROM {$table}&quot; );
+
+						if ( $avg_num_votes ) {
+							$avg_rating = get_transient( &#039;gd_avg_rating_&#039; . $table );
+
+							if ( ! $avg_rating ) {
+								$avg_rating = $wpdb-&gt;get_var( &quot;SELECT SUM( overall_rating ) FROM {$table}&quot;) / $avg_num_votes;
+							}
+
+							set_transient( &#039;gd_avg_num_votes_&#039;.$table, $avg_num_votes, 12 * HOUR_IN_SECONDS );
+							set_transient( &#039;gd_avg_rating_&#039;.$table, $avg_rating , 12 * HOUR_IN_SECONDS );
+						}
+					}
+
+					if ( ! $avg_num_votes ) {
+						$avg_num_votes = 0;
+					}
+
+					$order_by_parts[] = &quot; ( ( $avg_num_votes * $avg_rating ) + ( &quot; . $table . &quot;.rating_count * &quot; . $table . &quot;.overall_rating ) )  / ( $avg_num_votes + &quot; . $table . &quot;.rating_count ) $rating_order&quot;;
+				}else{
+					$order_by_parts[] = $table . &quot;.overall_rating $rating_order&quot;;
+					$order_by_parts[] = $table . &quot;.rating_count $rating_order&quot;;
+				}
+				break;
+			default:
+				$default_sort = geodir_get_posts_default_sort( $post_type );
+
+				if ( $default_sort == &#039;&#039; &amp;&amp; $sort_by == $default_sort ) {
+					$order_by_parts[] = &quot;{$wpdb-&gt;posts}.post_date desc&quot;;
+				 }else {
+					$order_by_parts[] = self::custom_sort( $orderby, $sort_by, $table, $post_type, $wp_query );
+				}
+				break;
+		}
+
+		if ( ! empty( $order_by_parts ) ) {
+			$orderby = implode( &quot;, &quot;, array_filter( $order_by_parts ) );
+		}
+
+		return $orderby;
+	}
+
+	public static function search_sort( $orderby = &#039;&#039;, $sort_by = &#039;&#039;, $wp_query = array() ) {
+		global $s, $gd_exact_search;
+
+		if ( is_search() &amp;&amp; isset( $_REQUEST[&#039;geodir_search&#039;] ) &amp;&amp; $s &amp;&amp; trim( $s ) != &#039;&#039; &amp;&amp; ( ! empty( $wp_query ) &amp;&amp; self::is_gd_main_query( $wp_query ) ) ) {
+			if ( $gd_exact_search ) {
+				$keywords = array( $s );
+			} else {
+				$keywords = explode( &quot; &quot;, $s );
+
+				if ( is_array( $keywords ) &amp;&amp; ( $klimit = (int) geodir_get_option( &#039;search_word_limit&#039; ) ) ) {
+					foreach ( $keywords as $kkey =&gt; $kword ){
+						if ( geodir_utf8_strlen( $kword ) &lt;= $klimit ) {
+							unset( $keywords[ $kkey ] );
+						}
+					}
+				}
+			}
+
+			if ( count( $keywords ) &gt; 1 ) {
+				$orderby = &quot;( gd_titlematch * 2  + gd_exacttitle * 10 + gd_alltitlematch_part * 100 + gd_titlematch_part * 50 + gd_content * 1.5) DESC&quot;;
+			} else {
+				$orderby = &quot;( gd_titlematch * 2  + gd_exacttitle * 10 + gd_content * 1.5) DESC&quot;;
+			}
+		}
+
+		return $orderby;
+	}
+
+	/**
+	 * Listing orderby custom sort.
+     *
+     * @since 2.0.0
+	 *
+	 * @global object $wpdb WordPress Database object.
+	 * @param string $orderby The orderby query string.
+	 * @param string $sort_by Sortby query string.
+	 * @param string $table Listing table name.
+	 * @param string $post_type Post type.
+	 * @param object $wp_query WP_Query object.
+	 * @return string Modified orderby query.
+	 */
+	public static function  custom_sort( $orderby, $sort_by, $table, $post_type = &#039;&#039;, $wp_query = array() ) {
+		global $wpdb;
+
+		if ( $sort_by != &#039;&#039; &amp;&amp; ( ! is_search() || ( isset( $_REQUEST[&#039;s&#039;] ) &amp;&amp; isset( $_REQUEST[&#039;snear&#039;] ) &amp;&amp; $_REQUEST[&#039;snear&#039;] == &#039;&#039; &amp;&amp; ( $_REQUEST[&#039;s&#039;] == &#039;&#039; ||  $_REQUEST[&#039;s&#039;] == &#039; &#039;) ) ) ) {
+			if ( substr( strtolower( $sort_by ) , -5 ) == &#039;_desc&#039; ) {
+				$order = &#039;desc&#039;;
+				$sort_key = substr( $sort_by , 0, strlen( $sort_by ) - 5 );
+			} else if ( substr( strtolower( $sort_by ) , -4 ) == &#039;_asc&#039; ) {
+				$order = &#039;asc&#039;;
+				$sort_key = substr( $sort_by , 0, strlen( $sort_by ) - 4 );
+			} else {
+				$sort_key = &#039;&#039;;
+			}
+
+			if ( $sort_key ) {
+				$sort_by = $sort_key;
+
+				switch ( $sort_by ) {
+					case &#039;post_date&#039;:
+					case &#039;comment_count&#039;:
+						$orderby = &quot;{$wpdb-&gt;posts}.&quot; . $sort_by . &quot; &quot; . $order . &quot;, &quot;.$table . &quot;.overall_rating &quot; . $order;
+						break;
+					case &#039;post_images&#039;:
+						$orderby = $table . &quot;.featured_image &quot; . $order;
+						break;
+					case &#039;distance&#039;:
+						$orderby = $sort_by . &quot; &quot; . $order;
+						break;
+					case &#039;overall_rating&#039;:
+						$use_bayesian = apply_filters( &#039;geodir_use_bayesian&#039;, true, $table );
+						$avg_rating = 0;
+
+						if ( $use_bayesian ) {
+							$avg_num_votes = get_transient( &#039;gd_avg_num_votes_&#039; . $table );
+
+							if ( ! $avg_num_votes ) {
+								$avg_num_votes = $wpdb-&gt;get_var( &quot;SELECT SUM( rating_count ) FROM {$table}&quot; );
+
+								if ( $avg_num_votes ) {
+									$avg_rating = get_transient( &#039;gd_avg_rating_&#039; . $table );
+
+									if ( ! $avg_rating ) {
+										$avg_rating = $wpdb-&gt;get_var( &quot;SELECT SUM( overall_rating ) FROM {$table}&quot; ) / $avg_num_votes;
+									}
+
+									set_transient( &#039;gd_avg_num_votes_&#039; . $table, $avg_num_votes, 12 * HOUR_IN_SECONDS );
+									set_transient( &#039;gd_avg_rating_&#039; . $table, $avg_rating , 12 * HOUR_IN_SECONDS );
+								}
+							}
+
+							if ( ! $avg_num_votes ) {
+								$avg_num_votes = 0;
+							}
+
+							$orderby = &quot; ( ( $avg_num_votes * $avg_rating ) + ( &quot; . $table . &quot;.rating_count * &quot; . $table . &quot;.overall_rating ) )  / ( $avg_num_votes + &quot; . $table . &quot;.rating_count ) $order&quot;;
+						} else {
+							$orderby = &quot; &quot; . $table . &quot;.&quot; . $sort_by . &quot;  &quot; . $order . &quot;, &quot; . $table . &quot;.rating_count &quot; . $order;
+						}
+						break;
+					default:
+						/**
+						 * Filters custom key sort.
+						 *
+						 * @since 2.0.0.74
+						 *
+						 * @param string $_orderby Custom key default orderby query string. Default NULL.
+						 * @param string $sort_by Sortby query string.
+						 * @param string $order Sortby order.
+						 * @param string $orderby The orderby query string.
+						 * @param string $table Listing table name.
+						 * @param string $post_type Post type.
+						 * @param object $wp_query WP_Query object.
+						 */
+						$orderby = apply_filters( &#039;geodir_custom_key_orderby&#039;, &#039;&#039;, $sort_by, $order, $orderby, $table, $post_type, $wp_query );
+
+						if ( empty( $orderby ) ) {
+							if ( self::column_exist( $table, $sort_by ) ) {
+								$orderby = $table . &quot;.&quot; . $sort_by . &quot; &quot; . $order;
+							} else {
+								$orderby = &quot;{$wpdb-&gt;posts}.post_date desc&quot;;
+							}
+						}
+						break;
+				}
+			}
+		}
+
+		/**
+		 * Filters custom orderby.
+		 *
+		 * @since 2.0.0.74
+		 *
+		 * @param string $orderby The orderby query string.
+		 * @param string $sort_by Sortby query string.
+		 * @param string $table Listing table name.
+		 * @param string $post_type Post type.
+		 * @param object $wp_query WP_Query object.
+		 */
+		return apply_filters( &#039;geodir_orderby_custom_sort&#039;, $orderby, $sort_by, $table, $post_type, $wp_query );
+	}
+
+	/**
+	 * Check table column exist or not.
+     *
+     * @since 2.0.0
+	 *
+	 * @global object $wpdb WordPress Database object.
+     *
+	 * @param string $db The table name.
+	 * @param string $column The column name.
+	 * @return bool If column exists returns true. Otherwise false.
+	 */
+	public static function column_exist( $db, $column ) {
+		global $wpdb;
+
+		$exists = false;
+		$columns = $wpdb-&gt;get_col( &quot;SHOW COLUMNS FROM {$db}&quot; );
+
+		foreach ( $columns as $c ) {
+			if ( $c == $column ) {
+				$exists = true;
+				break;
+			}
+		}
+
+		return $exists;
+	}
+
+	/**
+	 * Remove the query.
+     *
+     * @since 2.0.0
+	 */
+	public function remove_product_query() {
+		remove_action( &#039;pre_get_posts&#039;, array( $this, &#039;pre_get_posts&#039; ) );
+	}
+
+	/**
+	 * Sets a key and value in $wp object if the current page is a geodir page.
+	 *
+	 * @since   1.0.0
+	 * @since   1.5.4 Added check for new style GD homepage.
+	 * @since   1.5.6 Added check for GD invoices and GD checkout page.
+	 * @package GeoDirectory
+	 *
+	 * @param object $wp WordPress object.
+	 */
+	public static function set_is_geodir_page( $wp ) {
+		if ( ! is_admin() ) {
+			// Post attachment
+			if ( ! empty( $wp-&gt;query_vars[&#039;attachment&#039;] ) &amp;&amp; ! empty( $wp-&gt;query_vars[&#039;post_type&#039;] ) &amp;&amp; geodir_is_gd_post_type( $wp-&gt;query_vars[&#039;post_type&#039;] ) ) {
+				if ( isset( $wp-&gt;query_vars[ $wp-&gt;query_vars[&#039;post_type&#039;] ] ) ) {
+					unset( $wp-&gt;query_vars[ $wp-&gt;query_vars[&#039;post_type&#039;] ] );
+				}
+				unset( $wp-&gt;query_vars[ &#039;post_type&#039; ] );
+				if ( isset( $wp-&gt;query_vars[ &#039;name&#039; ] ) ) {
+					unset( $wp-&gt;query_vars[ &#039;name&#039; ] );
+				}
+				return;
+			}
+
+			if ( empty( $wp-&gt;query_vars ) || ! array_diff( array_keys( $wp-&gt;query_vars ), array(
+					&#039;preview&#039;,
+					&#039;page&#039;,
+					&#039;paged&#039;,
+					&#039;cpage&#039;
+				) )
+			) {
+				if ( geodir_is_page( &#039;home&#039; ) ) {
+					$wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] = true;
+				}
+			}
+
+			if ( ! isset( $wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] ) &amp;&amp; isset( $wp-&gt;query_vars[&#039;page_id&#039;] ) ) {
+				if (
+					geodir_is_page_id( $wp-&gt;query_vars[&#039;page_id&#039;], &#039;add&#039; )
+					|| $wp-&gt;query_vars[&#039;page_id&#039;] == geodir_preview_page_id()
+					|| $wp-&gt;query_vars[&#039;page_id&#039;] == geodir_success_page_id()
+					|| $wp-&gt;query_vars[&#039;page_id&#039;] == geodir_location_page_id()
+//					|| $wp-&gt;query_vars[&#039;page_id&#039;] == geodir_search_page_id()
+				) {
+					$wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] = true;
+				}
+			}
+
+			if ( ! isset( $wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] ) &amp;&amp; isset( $wp-&gt;query_vars[&#039;pagename&#039;] ) ) {
+				$page = get_page_by_path( $wp-&gt;query_vars[&#039;pagename&#039;] );
+
+				if ( ! empty( $page ) &amp;&amp; (
+						geodir_is_page_id( $page-&gt;ID, &#039;add&#039; )
+						|| $page-&gt;ID == geodir_preview_page_id()
+						|| $page-&gt;ID == geodir_success_page_id()
+						|| $page-&gt;ID == geodir_location_page_id()
+						|| $page-&gt;ID == geodir_search_page_id()
+					)
+				) {
+					$wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] = true;
+				}
+			}
+
+
+			if ( ! isset( $wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] ) &amp;&amp; isset( $wp-&gt;query_vars[&#039;post_type&#039;] ) &amp;&amp; $wp-&gt;query_vars[&#039;post_type&#039;] != &#039;&#039; ) {
+				$requested_post_type = $wp-&gt;query_vars[&#039;post_type&#039;];
+				// check if this post type is geodirectory post types
+				$post_type_array = geodir_get_posttypes();
+				if ( in_array( $requested_post_type, $post_type_array ) ) {
+					$wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] = true;
+
+					// Set embed
+					if ( empty( $wp-&gt;query_vars[ &#039;embed&#039; ] ) &amp;&amp; ! empty( $wp-&gt;query_vars[ $requested_post_type ] ) &amp;&amp; ! empty( $wp-&gt;request ) &amp;&amp; strpos( $wp-&gt;request, &#039;/&#039; . $wp-&gt;query_vars[ $requested_post_type ] . &#039;/embed&#039; ) &gt; 0 ) {
+						$wp-&gt;query_vars[ &#039;embed&#039; ] = true;
+					}
+				}
+			}
+
+			if ( ! isset( $wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] ) ) {
+				$geodir_taxonomis = geodir_get_taxonomies( &#039;&#039;, true );
+				if ( ! empty( $geodir_taxonomis ) ) {
+					foreach ( $geodir_taxonomis as $taxonomy ) {
+						if ( array_key_exists( $taxonomy, $wp-&gt;query_vars ) ) {
+							$wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] = true;
+							break;
+						}
+					}
+				}
+
+			}
+
+			// author pages
+			if ( ! isset( $wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] ) &amp;&amp; isset( $wp-&gt;query_vars[&#039;author_name&#039;] ) &amp;&amp; isset( $_REQUEST[&#039;geodir_dashbord&#039;] ) ) {
+				$wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] = true;
+			}
+			if ( ! isset( $wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] ) &amp;&amp; isset( $wp-&gt;query_vars[&#039;gd_favs&#039;] )) {
+				$wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] = true;
+			}
+
+			if ( ! isset( $wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] ) &amp;&amp; isset( $_REQUEST[&#039;geodir_search&#039;] ) ) {
+				$wp-&gt;query_vars[&#039;gd_is_geodir_page&#039;] = true;
+			}
+
+		} // end of is admin
+	}
+
+	/**
+	 * Parse the request and look for query vars - endpoints may not be supported.
+     *
+     * @global object $wp WordPress object.
+     *
+     * @since 2.0.0
+	 */
+	public function parse_request() {
+		global $wp;
+
+		if(isset( $_REQUEST[&#039;fl_builder&#039;] )){return;} // fix for BB not working on search page
+
+		self::set_is_geodir_page( $wp );
+
+		// Map query vars to their keys, or get them if endpoints are not supported
+		foreach ( $this-&gt;get_query_vars() as $key =&gt; $var ) {
+			if ( isset( $_GET[ $var ] ) ) {
+				$wp-&gt;query_vars[ $key ] = $_GET[ $var ];
+			} elseif ( isset( $wp-&gt;query_vars[ $var ] ) ) {
+				$wp-&gt;query_vars[ $key ] = $wp-&gt;query_vars[ $var ];
+			}
+		}
+	}
+
+
+	/**
+	 * Add the page id to the query variables.
+	 *
+	 * @since 1.0.0
+	 * @global object $wp_query WordPress Query object.
+	 * @return array WordPress Query object.
+	 */
+	public function add_page_id_in_query_var()
+	{
+		global $wp_query;
+
+		$page_id = $wp_query-&gt;get_queried_object_id();
+
+		if (!get_query_var(&#039;page_id&#039;) &amp;&amp; !is_archive()) {
+			// fix for WP tags conflict with enfold theme
+			$theme_name = geodir_strtolower(wp_get_theme());
+			if (!geodir_is_geodir_page() &amp;&amp; strpos($theme_name, &#039;enfold&#039;) !== false) {
+				return $wp_query;
+			}
+			if($page_id){
+				$wp_query-&gt;set(&#039;page_id&#039;, $page_id);
+			}
+
+		}
+
+		return $wp_query;
+	}
+
+
+	###############################################################################################################################
+	######################################################### OLD FUNCTION ########################################################
+	###############################################################################################################################
+
+	/**
+	 * Get any errors from querystring.
+     *
+     * @since 2.0.0
+	 */
+	public function get_errors() {
+		if ( ! empty( $_GET[&#039;gd_error&#039;] ) &amp;&amp; ( $error = sanitize_text_field( $_GET[&#039;gd_error&#039;] ) ) ) {
+			//@todo add some error notice
+		}
+	}
+
+	/**
+	 * Init query vars by loading options.
+     *
+     * @since 2.0.0
+	 */
+	public function init_query_vars() {
+		// Query vars to add to WP.
+		$this-&gt;query_vars = array(
+			// Location vars.
+//			&#039;country&#039;           =&gt; &#039;country&#039;,
+//			&#039;region&#039;            =&gt; &#039;region&#039;,
+//			&#039;city&#039;              =&gt; &#039;city&#039;,
+			&#039;gd_is_geodir_page&#039; =&gt; &#039;gd_is_geodir_page&#039;,
+		);
+	}
+
+
+
+	/**
+	 * Add query vars.
+     *
+     * @since 2.0.0
+	 *
+	 * @access public
+	 *
+	 * @param array $vars
+	 *
+	 * @return array
+	 */
+	public function add_query_vars( $vars ) {
+		foreach ( $this-&gt;get_query_vars() as $key =&gt; $var ) {
+			$vars[] = $key;
+		}
+
+		return $vars;
+	}
+
+	/**
+	 * Get query vars.
+     *
+     * @since 2.0.0
+	 *
+	 * @return array
+	 */
+	public function get_query_vars() {
+		return apply_filters( &#039;geodirectory_get_query_vars&#039;, $this-&gt;query_vars );
+	}
+
+	/**
+	 * Get query current active query var.
+     *
+     * @since 2.0.0
+	 *
+	 * @return string
+	 */
+	public function get_current_endpoint() {
+		global $wp;
+		foreach ( $this-&gt;get_query_vars() as $key =&gt; $value ) {
+			if ( isset( $wp-&gt;query_vars[ $key ] ) ) {
+				return $key;
+			}
+		}
+
+		return &#039;&#039;;
+	}
+
+
+    /**
+     * Are we currently on the front page?
+     *
+     * @since 2.0.0
+     *
+     * @param object $q page object.
+     * @return bool
+     */
+	private function is_showing_page_on_front( $q ) {
+		return $q-&gt;is_home() &amp;&amp; &#039;page&#039; === get_option( &#039;show_on_front&#039; );
+	}
+
+    /**
+     * Is the front page a page we define?
+     *
+     * @since 2.0.0
+     *
+     * @param int $page_id Page id.
+     * @return bool
+     */
+	private function page_on_front_is( $page_id ) {
+		return absint( get_option( &#039;page_on_front&#039; ) ) === absint( $page_id );
+	}
+
+
+
+
+	/**
+	 * Make custom field order by clause for custom sorting.
+	 *
+	 * @since 1.6.18
+	 * @package GeoDirectory
+	 *
+	 * @param string $sorting Listing sort option.
+	 * @param string $table Listing table name.
+	 * @return string|null If field exists in table returns order by clause else returns empty.
+	 */
+	public static function prepare_sort_order( $sorting, $table ) {
+		$orderby = &#039;&#039;;
+
+		if ( empty( $sorting ) || empty( $table ) ) {
+			return $orderby;
+		}
+
+		if ( strpos( strtoupper( $sorting ), &#039;_ASC&#039; ) !== false || strpos( strtoupper( $sorting ), &#039;_DESC&#039;) !== false ) {
+			$sorting_array = explode( &#039;_&#039;, $sorting );
+
+			if ( ( $count = count( $sorting_array ) ) &gt; 1 ) {
+				$order = !empty( $sorting_array[$count - 1] ) ? strtoupper( $sorting_array[$count - 1] ) : &#039;&#039;;
+				array_pop( $sorting_array );
+
+				if ( !empty( $sorting_array ) &amp;&amp; ( $order == &#039;ASC&#039; || $order == &#039;DESC&#039; ) ) {
+					$sort_by = implode( &#039;_&#039;, $sorting_array );
+
+					if ( geodir_column_exist( $table, $sort_by ) ) {
+						$orderby = $table . &quot;.&quot; . $sort_by . &quot; &quot; . $order;
+					}
+				}
+			}
+		}
+
+		return $orderby;
+	}
+
+	/**
+	 * Filters whether to short-circuit default header status to fix 404 status
+	 * header when no results found on GD search page.
+	 *
+	 * Returning a non-false value from the filter will short-circuit the handling
+	 * and return early.
+	 *
+	 * @since 2.0.0.90
+	 *
+	 * @param bool     $preempt  Whether to short-circuit default header status handling. Default false.
+	 * @param WP_Query $wp_query WordPress Query object.
+	 * @return bool
+	 */
+	public static function pre_handle_404( $preempt, $wp_query ) {
+		if ( ! is_admin() &amp;&amp; ! empty( $wp_query ) &amp;&amp; is_object( $wp_query ) &amp;&amp; $wp_query-&gt;is_main_query() &amp;&amp; geodir_is_page( &#039;search&#039; ) ) {
+			// Don&#039;t 404 for search queries.
+			status_header( 200 );
+			return;
+		}
+
+		return $preempt;
+	}
+
+	/**
+	 * Retrieve the variable from query or request.
+	 *
+	 * @since 2.0.0.96
+	 *
+	 * @global object $wp WordPress object.
+	 *
+	 * @param string $var       The variable key to retrieve.
+	 * @param mixed  $default   Optional. Value to return if the query variable is not set. Default empty.
+	 * @return mixed Contents of the query variable.
+	 */
+	public static function get_query_var( $var, $default = &#039;&#039; ) {
+		global $wp;
+
+		if ( ! empty( $wp ) &amp;&amp; ! empty( $wp-&gt;query_vars ) &amp;&amp; isset( $wp-&gt;query_vars[ $var ] ) ) {
+			$value = $wp-&gt;query_vars[ $var ];
+		} elseif ( isset( $_REQUEST[ $var ] ) ) {
+			$value = geodir_clean( $_REQUEST[ $var ] );
+		} else {
+			$value = $default;
+		}
+
+		return $value;
+	}
+}
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

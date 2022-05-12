@@ -1,0 +1,2331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-admin-import-export.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Handle import and exports.
+ *
+ * @author   AyeCode
+ * @category Admin
+ * @package  GeoDirectory/Admin
+ * @version  2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+
+/**
+ * GeoDir_Admin_Import_Export Class.
+ */
+class GeoDir_Admin_Import_Export {
+
+    /**
+     * Start import export.
+     *
+     * @since 2.0.0
+     *
+     * @global object $wp_filesystem Wordpress file system object.
+     *
+     * @return bool|WP_Error
+     */
+	public static function start_import_export() {
+		global $wp_filesystem;
+
+
+		// Set doing import constant.
+		if ( ! defined( &#039;GEODIR_DOING_IMPORT&#039; ) ) {
+			define( &#039;GEODIR_DOING_IMPORT&#039;, true );
+		}
+
+		//extra security check
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			return new WP_Error( &#039;gd-no-auth&#039;, __( &quot;You don&#039;t have permission to do this.&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		// add filter for dates
+		add_filter(&#039;geodir_get_posts_count&#039;, array( __CLASS__ , &#039;filter_where_query&#039; ), 10, 2);
+		add_filter(&#039;geodir_get_export_posts&#039;, array( __CLASS__ , &#039;filter_where_query&#039; ), 10, 2);
+		add_filter(&#039;geodir_ajax_prepare_export_reviews&#039;, array( __CLASS__ , &#039;prepare_export_reviews&#039; ));
+		add_filter(&#039;geodir_ajax_export_reviews&#039;, array( __CLASS__ , &#039;export_reviews&#039; ));
+
+		// set the task
+		//$task = isset( $_POST[&#039;task&#039;] ) ? esc_attr( $_POST[&#039;task&#039;] ) : &#039;&#039;;
+		$task = isset( $_REQUEST[&#039;task&#039;] ) ? esc_attr( $_REQUEST[&#039;task&#039;] ) : &#039;&#039;;
+
+		// If we dont have a task then bail
+		if ( ! $task ) {
+			return new WP_Error( &#039;gd-no-task&#039;, __( &quot;No task is set&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		// defer term counting
+		wp_defer_term_counting( true );
+
+		// set higher PHP limits
+		self::set_php_limits();
+
+		// check if we have access to the file system
+		$wp_filesystem = geodir_init_filesystem();
+		if ( ! empty( $wp_filesystem ) &amp;&amp; isset( $wp_filesystem-&gt;errors ) &amp;&amp; is_wp_error( $wp_filesystem-&gt;errors ) &amp;&amp; $wp_filesystem-&gt;errors-&gt;get_error_code() ) {
+			return new WP_Error( &#039;gd-no-filesystem&#039;, __( &quot;Filesystem ERROR: &quot; . $wp_filesystem-&gt;errors-&gt;get_error_message(), &quot;geodirectory&quot; ) );
+		} elseif ( ! $wp_filesystem ) {
+			return new WP_Error( &#039;gd-no-filesystem&#039;, __( &quot;There was a problem accessing the filesystem.&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		// create the cache directory if it does not already exist.
+		$csv_file_dir = self::import_export_cache_path( false );
+		if ( ! $wp_filesystem-&gt;is_dir( $csv_file_dir ) ) {
+			if ( ! $wp_filesystem-&gt;mkdir( $csv_file_dir, FS_CHMOD_DIR ) ) {
+				return new WP_Error( &#039;gd-no-filesystem&#039;, __( &quot;ERROR: Could not create cache directory. This is usually due to inconsistent file permissions.&quot;, &quot;geodirectory&quot; ) );
+			}
+		}
+
+		if ( $wp_filesystem-&gt;is_dir( $csv_file_dir ) &amp;&amp; ! $wp_filesystem-&gt;exists( $csv_file_dir . &#039;/index.php&#039; ) ) {
+			$wp_filesystem-&gt;copy( GEODIRECTORY_PLUGIN_DIR . &#039;assets/index.php&#039;, $csv_file_dir . &#039;/index.php&#039; );
+		}
+
+		switch ( $task ) {
+			case &quot;prepare_import&quot;:
+				return self::validate_csv();// validate CSV
+				break;
+			case &quot;import_post&quot;:
+				return self::import_posts();
+				break;
+			case &quot;export_posts&quot;:
+				return self::export_posts();
+				break;
+			case &quot;export_cats&quot;:
+				return self::export_categories();
+				break;
+			case &quot;import_cat&quot;:
+				return self::import_categories();
+				break;
+			case &quot;export_settings&quot;:
+				self::export_settings();
+				break;
+			case &quot;import_settings&quot;:
+				return self::import_settings();
+				break;
+			case &quot;prepare_export&quot;:
+				if ( ! empty( $_POST[&#039;_export&#039;] ) &amp;&amp; has_filter( &#039;geodir_ajax_prepare_export_&#039; . sanitize_key( $_POST[&#039;_export&#039;] ) ) ) {
+					return apply_filters( &#039;geodir_ajax_prepare_export_&#039; . sanitize_key( $_POST[&#039;_export&#039;] ), array() );
+				} else {
+					return new WP_Error( &#039;gd-error&#039;, __( &quot;Your favorite color is neither red, blue, nor green!&quot;, &quot;geodirectory&quot; ) );
+				}
+				break;
+			case &quot;import&quot;:
+				if ( ! empty( $_POST[&#039;_import&#039;] ) &amp;&amp; has_filter( &#039;geodir_ajax_import_&#039; . sanitize_key( $_POST[&#039;_import&#039;] ) ) ) {
+					return apply_filters( &#039;geodir_ajax_import_&#039; . sanitize_key( $_POST[&#039;_import&#039;] ), array() );
+				} else {
+					return new WP_Error( &#039;gd-error&#039;, __( &quot;Your favorite color is neither red, blue, nor green!&quot;, &quot;geodirectory&quot; ) );
+				}
+				break;
+			case &quot;export&quot;:
+				if ( ! empty( $_POST[&#039;_export&#039;] ) &amp;&amp; has_filter( &#039;geodir_ajax_export_&#039; . sanitize_key( $_POST[&#039;_export&#039;] ) ) ) {
+					return apply_filters( &#039;geodir_ajax_export_&#039; . sanitize_key( $_POST[&#039;_export&#039;] ), array() );
+				} else {
+					return new WP_Error( &#039;gd-error&#039;, __( &quot;Your favorite color is neither red, blue, nor green!&quot;, &quot;geodirectory&quot; ) );
+				}
+				break;
+			case &quot;import_review&quot;:
+				return self::import_reviews();
+				break;
+			case &#039;import_finish&#039;: {
+				/**
+				 * Run an action when an import finishes.
+				 *
+				 * This action can be used to fire functions after an import ends.
+				 *
+				 * @since 1.5.3
+				 * @package GeoDirectory
+				 */
+				do_action( &#039;geodir_import_finished&#039; );
+			}
+				break;
+			default:
+				if ( has_filter( &#039;geodir_ajax_imex_&#039; . sanitize_key( $task ) ) ) {
+					return apply_filters( &#039;geodir_ajax_imex_&#039; . sanitize_key( $task ), array() );
+				} else {
+					return new WP_Error( &#039;gd-error&#039;, __( &quot;Your favorite color is neither red, blue, nor green!&quot;, &quot;geodirectory&quot; ) );
+				}
+				break;
+		}
+
+		wp_defer_term_counting( false );
+
+		return false;
+	}
+
+	/**
+	 * Try to set higher limits on the fly
+	 */
+	public static function set_php_limits() {
+		if ( ! ( defined( &#039;WP_DEBUG&#039; ) &amp;&amp; WP_DEBUG ) ) {
+			error_reporting( 0 );
+		}
+		/** @scrutinizer ignore-unhandled */ @ini_set( &#039;display_errors&#039;, 0 );
+
+		// try to set higher limits for import
+		$max_input_time     = ini_get( &#039;max_input_time&#039; );
+		$max_execution_time = ini_get( &#039;max_execution_time&#039; );
+		$memory_limit       = ini_get( &#039;memory_limit&#039; );
+
+		if ( $max_input_time !== 0 &amp;&amp; $max_input_time != -1 &amp;&amp; ( ! $max_input_time || $max_input_time &lt; 3000 ) ) {
+			ini_set( &#039;max_input_time&#039;, 3000 ); // @codingStandardsIgnoreLine
+		}
+
+		if ( $max_execution_time !== 0 &amp;&amp; ( ! $max_execution_time || $max_execution_time &lt; 3000 ) ) {
+			ini_set( &#039;max_execution_time&#039;, 3000 ); // @codingStandardsIgnoreLine
+		}
+
+		if ( $memory_limit &amp;&amp; str_replace( &#039;M&#039;, &#039;&#039;, $memory_limit ) ) {
+			if ( str_replace( &#039;M&#039;, &#039;&#039;, $memory_limit ) &lt; 256 ) {
+				ini_set( &#039;memory_limit&#039;, &#039;256M&#039; ); // @codingStandardsIgnoreLine
+			}
+		}
+
+		ini_set( &#039;auto_detect_line_endings&#039;, true ); // @codingStandardsIgnoreLine
+	}
+
+	/**
+	 * Check the CSV is valid.
+	 *
+	 * @return bool|WP_Error
+	 */
+	public static function validate_csv() {
+		global $wp_filesystem;
+
+		$json        = array();
+		$uploads     = wp_upload_dir();
+		$uploads_dir = $uploads[&#039;basedir&#039;];
+
+		$csv_file = isset( $_POST[&#039;_file&#039;] ) ? $_POST[&#039;_file&#039;] : null;
+
+		$csv_file_arr = explode( &#039;/&#039;, $csv_file );
+		$csv_filename = end( $csv_file_arr );
+		$target_path  = $uploads_dir . &#039;/geodir_temp/&#039; . $csv_filename;
+
+
+		$json[&#039;file&#039;]  = $csv_file;
+		$json[&#039;error&#039;] = __( &#039;The uploaded file is not a valid csv file. Please try again.&#039;, &#039;geodirectory&#039; );
+		$file          = array();
+
+		if ( $csv_file &amp;&amp; $wp_filesystem-&gt;is_file( $target_path ) &amp;&amp; $wp_filesystem-&gt;exists( $target_path ) ) {
+			$wp_filetype = wp_check_filetype_and_ext( $target_path, $csv_filename );
+
+			if ( ! empty( $wp_filetype ) &amp;&amp; isset( $wp_filetype[&#039;ext&#039;] ) &amp;&amp; geodir_strtolower( $wp_filetype[&#039;ext&#039;] ) == &#039;csv&#039; ) {
+				$json[&#039;error&#039;] = null;
+
+				$lc_all = setlocale( LC_ALL, 0 ); // Fix issue of fgetcsv ignores special characters when they are at the beginning of line
+				setlocale( LC_ALL, &#039;en_US.UTF-8&#039; );
+				if ( ( $handle = fopen( $target_path, &quot;r&quot; ) ) !== false ) {
+					while ( ( $data = fgetcsv( $handle, 100000, &quot;,&quot; ) ) !== false ) {
+						if ( ! empty( $data ) ) {
+							$file[] = $data;
+						}
+					}
+					fclose( $handle );
+				}
+				setlocale( LC_ALL, $lc_all );
+
+				$json[&#039;rows&#039;] = ( ! empty( $file ) &amp;&amp; count( $file ) &gt; 1 ) ? count( $file ) - 1 : 0;
+
+				if ( ! $json[&#039;rows&#039;] &gt; 0 ) {
+					$json[&#039;error&#039;] = __( &quot;No data found in csv file.&quot;, &quot;geodirectory&quot; );
+				}
+			}
+		}
+
+		return $json;
+	}
+
+	/**
+	 * Insert or Update the post info.
+	 *
+	 * @return array|string
+	 */
+	public static function import_posts() {
+
+		$limit     = isset( $_POST[&#039;limit&#039;] ) &amp;&amp; $_POST[&#039;limit&#039;] ? (int) $_POST[&#039;limit&#039;] : 1;
+		$processed = isset( $_POST[&#039;processed&#039;] ) ? (int) $_POST[&#039;processed&#039;] : 0;
+
+		$processed ++; // add 1 to account for the csv header row
+
+		$csv_row = $processed;
+
+
+		$rows = self::get_csv_rows( $processed, $limit );
+
+		if ( ! empty( $rows ) ) {
+			$created         = 0;
+			$updated         = 0;
+			$skipped         = 0;
+			$invalid         = 0;
+			$invalid_address = 0;
+			$images          = 0;
+			$errors          = array();
+
+			$update_or_skip = isset( $_POST[&#039;_ch&#039;] ) &amp;&amp; $_POST[&#039;_ch&#039;] == &#039;update&#039; ? &#039;update&#039; : &#039;skip&#039;;
+
+			foreach ( $rows as $post_info ) {
+				$csv_row++;
+				if ( $update_or_skip == &#039;skip&#039; &amp;&amp; isset( $post_info[&#039;ID&#039;] ) &amp;&amp; $post_info[&#039;ID&#039;] ) {
+					$skipped ++;
+					continue;
+				}
+
+				$temp_title = isset($post_info[&#039;post_title&#039;]) ? esc_attr($post_info[&#039;post_title&#039;]) :&#039;&#039; ;
+
+				$post_info = self::validate_post( $post_info );
+
+				// set if there are images to upload
+				if ( isset( $post_info[&#039;_post_images_to_upload&#039;] ) &amp;&amp; $post_info[&#039;_post_images_to_upload&#039;] ) {
+					$images = $images + $post_info[&#039;_post_images_to_upload&#039;];
+				}
+
+
+				if ( is_array($post_info) ) {
+					/**
+					 * @since 2.0.0.68
+					 */
+					do_action( &#039;geodir_import_post_before&#039;, $post_info );
+
+					$result = false;
+
+					// Update
+					if ( ! empty( $post_info[&#039;ID&#039;] ) ) {
+						$result = wp_update_post( $post_info, true ); // we hook into the save_post hook
+						if ( $result ) {
+							$updated ++;
+						} else {
+							$invalid ++;
+							$errors[$csv_row] = sprintf( esc_attr__(&#039;Row %d Error: %s&#039;, &#039;geodirectory&#039;), $csv_row, esc_attr($result-&gt;get_error_message()) );
+						}
+
+						// insert
+					} else {
+						$result = wp_insert_post( $post_info, true ); // we hook into the save_post hook
+						if ( $result ) {
+							$created ++;
+						} else {
+							$invalid ++;
+							$errors[$csv_row] = sprintf( esc_attr__(&#039;Row %d Error: %s&#039;, &#039;geodirectory&#039;), $csv_row, esc_attr($result-&gt;get_error_message()) );
+						}
+					}
+					
+					/**
+					 * @since 2.0.0.68
+					 */
+					do_action( &#039;geodir_import_post_after&#039;, $post_info, $result );
+
+				} else {
+					$invalid ++;
+					$errors[$csv_row] = sprintf( esc_attr__(&#039;Row %d Error: %s&#039;, &#039;geodirectory&#039;), $csv_row, esc_attr($post_info) );
+				}
+
+				//$errors[$csv_row] = sprintf( esc_attr__(&#039;Row %d Error: %s&#039;, &#039;geodirectory&#039;), $csv_row, esc_attr(&quot;invalid title&quot;) );
+
+			}
+
+		} else {
+			return new WP_Error( &#039;gd-csv-empty&#039;, __( &quot;No data found in csv file.&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		return array(
+			&quot;processed&quot; =&gt; $processed,
+			&quot;created&quot;   =&gt; $created,
+			&quot;updated&quot;   =&gt; $updated,
+			&quot;skipped&quot;   =&gt; $skipped,
+			&quot;invalid&quot;   =&gt; $invalid,
+			&quot;images&quot;    =&gt; $images,
+			//&quot;ID&quot;        =&gt; $post_info[&#039;ID&#039;],
+			&quot;errors&quot;    =&gt; $errors
+		);
+	}
+
+	/**
+	 * Get specific rows from a CSV file.
+	 *
+	 * @param int $row Optional. The row to start on.
+	 * @param int $count Optional. The number of rows to get.
+	 *
+	 * @return array
+	 */
+	public static function get_csv_rows( $row = 0, $count = 0 ) {
+
+		$csv_file = isset( $_POST[&#039;_file&#039;] ) ? $_POST[&#039;_file&#039;] : null;
+
+		$uploads      = wp_upload_dir();
+		$uploads_dir  = $uploads[&#039;basedir&#039;];
+		$csv_file_arr = explode( &#039;/&#039;, $csv_file );
+		$csv_filename = end( $csv_file_arr );
+		$target_path  = $uploads_dir . &#039;/geodir_temp/&#039; . $csv_filename;
+
+		//echo &#039;###&#039;.$target_path;
+
+		$file   = array();
+		$lc_all = setlocale( LC_ALL, 0 ); // Fix issue of fgetcsv ignores special characters when they are at the beginning of line
+		setlocale( LC_ALL, &#039;en_US.UTF-8&#039; );
+		$l       = 0; // loop count
+		$f       = 0; // file count
+		$headers = array();
+		if ( ( $handle = fopen( $target_path, &quot;r&quot; ) ) !== false ) {
+			while ( ( $data = fgetcsv( $handle, 100000, &quot;,&quot; ) ) !== false ) {
+
+				// get headers
+				if ( $l === 0 ) {
+					$headers = $data;
+					$l ++;
+					continue;
+				}
+				// only get the rows needed
+				if ( $row &amp;&amp; $count ) {
+
+					// if we have everything we need then break;
+					if ( $l == $row + $count ) {
+						break;
+
+						// if its less than the start row then continue;
+					} elseif ( $l &amp;&amp; $l &lt; $row ) {
+						$l ++;
+						continue;
+
+						// if we have the count we need then break;
+					} elseif ( $f &gt; $count ) {
+						break;
+					}
+				}
+
+				if ( ! empty( $data ) ) {
+					//$file[] = $data;
+					$file[] = array_combine( $headers, $data ); // replace the keys with the CSV headers.
+					$f ++;
+					$l ++;
+				}
+			}
+			fclose( $handle );
+		}
+		setlocale( LC_ALL, $lc_all );
+
+		return $file;
+
+	}
+
+	/**
+	 * Validate the post info.
+	 *
+	 * @todo make this validate more of the post info.
+	 *
+	 * @param $post_info
+	 *
+	 * @return array
+	 */
+	public static function validate_post( $row ) {
+		$post_info = $row;
+
+		// Validate post_type
+		if ( ! empty( $post_info[&#039;post_type&#039;] ) ) {
+			$post_type = esc_attr( $post_info[&#039;post_type&#039;] );
+
+			if ( ! geodir_is_gd_post_type( $post_type ) ) {
+				return esc_attr( wp_sprintf( __( &#039;Invalid post type - %s&#039;, &#039;geodirectory&#039; ), $post_type ) );
+			}
+		} else {
+			return esc_attr__( &#039;Post type missing&#039;, &#039;geodirectory&#039; );
+		}
+
+		// validate title
+		if ( isset( $post_info[&#039;post_title&#039;] ) &amp;&amp; empty($post_info[&#039;post_title&#039;]) ) {
+			return esc_attr__(&#039;Title missing&#039;,&#039;geodirectory&#039;);
+		}
+
+		// Connvert date in mysql format
+		if ( ! empty( $post_info[&#039;post_date&#039;] ) &amp;&amp; strpos( $post_info[&#039;post_date&#039;], &#039;/&#039; ) !== false ) {
+			$post_info[&#039;post_date&#039;] = geodir_date( $post_info[&#039;post_date&#039;], &#039;Y-m-d H:i:s&#039; );
+		}
+
+		if ( ! empty( $post_info[&#039;post_modified&#039;] ) &amp;&amp; strpos( $post_info[&#039;post_modified&#039;], &#039;/&#039; ) !== false ) {
+			$post_info[&#039;post_modified&#039;] = geodir_date( $post_info[&#039;post_modified&#039;], &#039;Y-m-d H:i:s&#039; );
+		}
+
+		// change post_category to an array()
+		if ( isset( $post_info[&#039;post_category&#039;] ) ) {
+			if ( empty( $post_info[&#039;post_category&#039;] ) ) {
+				$post_info[&#039;tax_input&#039;][$post_type.&#039;category&#039;] = array();
+			} else {
+				$post_info[&#039;tax_input&#039;][$post_type.&#039;category&#039;] = array_map( &#039;trim&#039;, explode( &#039;,&#039;, $post_info[&#039;post_category&#039;] ) );
+			}
+			unset($post_info[&#039;post_category&#039;]);
+		}
+
+		// change post_tags to an array()
+		if ( isset( $post_info[&#039;post_tags&#039;] ) ) {
+			if ( empty( $post_info[&#039;post_tags&#039;] ) ) {
+				$post_info[&#039;tax_input&#039;][$post_type.&#039;_tags&#039;] = array();
+			} else {
+				$post_info[&#039;tax_input&#039;][$post_type.&#039;_tags&#039;] = array_map( &#039;trim&#039;, explode( &#039;,&#039;, $post_info[&#039;post_tags&#039;] ) );
+			}
+			unset($post_info[&#039;post_tags&#039;]);
+		}
+
+		// check if we have post images to upload
+		if ( isset( $post_info[&#039;post_images&#039;] ) &amp;&amp; $post_info[&#039;post_images&#039;] ) {
+			$images = explode( &quot;::&quot;, $post_info[&#039;post_images&#039;] );
+			$i      = 0;
+			if ( ! empty( $images ) ) {
+				foreach ( $images as $image ) {
+					if ( geodir_is_full_url( $image ) || strpos( $image, &#039;#&#039; ) === 0 ) {
+						// It starts with &#039;http&#039;
+					} else {
+						$i ++;
+					}
+				}
+				if ( $i ) {
+					$post_info[&#039;_post_images_to_upload&#039;] = $i;
+				}
+			}
+		}
+
+		if ( GeoDir_Post_types::supports( $post_type, &#039;location&#039; ) ) {
+			// Fill in the GPS info from address if missing
+			if ( ( isset( $post_info[&#039;latitude&#039;] ) &amp;&amp; empty( $post_info[&#039;latitude&#039;] ) ) || ( isset( $post_info[&#039;longitude&#039;] ) &amp;&amp; empty( $post_info[&#039;longitude&#039;] ) ) ) {
+				$post_info = self::get_post_gps_from_address( $post_info );
+				// Fill in the address if ONLY the GPS is provided
+			} elseif (
+				( isset( $post_info[&#039;city&#039;] ) &amp;&amp; empty( $post_info[&#039;city&#039;] ) ) ||
+				( isset( $post_info[&#039;region&#039;] ) &amp;&amp; empty( $post_info[&#039;region&#039;] ) ) ||
+				( isset( $post_info[&#039;country&#039;] ) &amp;&amp; empty( $post_info[&#039;country&#039;] ) )
+			) {
+				//$post_info = self::get_post_address_from_gps($post_info);
+				$post_info = esc_attr__( &#039;Address city, region or country missing&#039;, &#039;geodirectory&#039; );
+			}
+		}
+
+		if ( isset( $post_info[&#039;post_status&#039;] ) ) {
+			// Set post status publish for published status
+			if ( $post_info[&#039;post_status&#039;] == &#039;published&#039; ) {
+				$post_info[&#039;post_status&#039;] = &#039;publish&#039;;
+			}
+
+			$statuses = geodir_get_post_stati( &#039;import&#039;, $post_info );
+
+			// Set post status pending for non-standard status
+			if ( ! in_array( $post_info[&#039;post_status&#039;], $statuses ) ) {
+				$post_info[&#039;post_status&#039;] = &#039;pending&#039;;
+			}
+		}
+
+		return apply_filters( &#039;geodir_import_validate_post&#039;, $post_info, $row );
+	}
+
+	/**
+	 * Get the GPS from a post address.
+	 *
+	 * @param $post_info
+	 *
+	 * @return array|bool
+	 */
+	public static function get_post_gps_from_address( $post_info ) {
+		$gps = geodir_get_gps_from_address( $post_info, true );
+
+		if ( is_array( $gps ) &amp;&amp; ! empty( $gps[&#039;latitude&#039;] ) &amp;&amp; ! empty( $gps[&#039;longitude&#039;] ) ) {
+			$post_info[&#039;latitude&#039;] = $gps[&#039;latitude&#039;];
+			$post_info[&#039;longitude&#039;] = $gps[&#039;longitude&#039;];
+		} else {
+			if ( is_wp_error( $gps ) ) {
+				return $gps-&gt;get_error_message();
+			} else {
+				return esc_attr__( &#039;Failed to retrieve GPS data from a address using API.&#039;, &#039;geodirectory&#039; );
+			}
+		}
+
+		return apply_filters( &#039;geodir_get_post_gps_from_address&#039;, $post_info, $gps );
+	}
+
+	/**
+	 * Get the post address from the GPS info.
+	 *
+	 * @param $post_info
+	 *
+	 * @return array|bool
+	 */
+	public static function get_post_address_from_gps( $post_info ) {
+
+		// @todo if users require a higher limit we should look at https://locationiq.org/
+
+		$api_url = &quot;https://maps.googleapis.com/maps/api/geocode/json?address=&quot;;
+		$api_key = GeoDir_Maps::google_geocode_api_key();
+
+
+		// if we don&#039;t have either the street or zip then we can&#039;t get an accurate address
+		if( ( isset( $post_info[&#039;latitude&#039;] ) &amp;&amp; $post_info[&#039;latitude&#039;] ) &amp;&amp; ( isset( $post_info[&#039;longitude&#039;] ) &amp;&amp; $post_info[&#039;longitude&#039;] ) ){}
+		else{return esc_attr__(&#039;Not enough GPS info for address.&#039;,&#039;geodirectory&#039;);}
+
+		$request_url = $api_url.$post_info[&#039;latitude&#039;].&quot;,&quot;.$post_info[&#039;longitude&#039;];
+
+		// add the api key if we have it, it helps with limits
+		if($api_key){
+			$request_url .= &quot;&amp;key=&quot;.$api_key;
+		}
+
+		global $wp_version;
+		$args = array(
+			&#039;timeout&#039;     =&gt; 5,
+			&#039;redirection&#039; =&gt; 5,
+			&#039;httpversion&#039; =&gt; &#039;1.0&#039;,
+			&#039;user-agent&#039;  =&gt; &#039;WordPress/&#039; . $wp_version . &#039;; &#039; . home_url(),
+			&#039;blocking&#039;    =&gt; true,
+			&#039;decompress&#039;  =&gt; true,
+			&#039;sslverify&#039;   =&gt; false,
+		);
+		$response = wp_remote_get( $request_url , $args );
+
+		// Check for errors
+		if ( is_wp_error( $response ) ) {
+			return esc_attr__(&#039;Failed to reach Google geocode server.&#039;,&#039;geodirectory&#039;);
+		}
+
+		$body = wp_remote_retrieve_body( $response );
+		$json = json_decode( $body, true );
+
+		//print_r($json);exit;
+
+		if(isset($json[&#039;status&#039;]) &amp;&amp; $json[&#039;status&#039;]==&#039;OK&#039;){
+
+			$post_info = self::get_address_from_geocode($post_info,$json[&#039;results&#039;]);
+
+
+		}else{
+			if(isset($json[&#039;status&#039;])){
+				return sprintf( esc_attr__(&#039;Google geocode failed: %s&#039;, &#039;geodirectory&#039;),  esc_attr($json[&#039;status&#039;]) );
+
+			}else{
+				return esc_attr__(&#039;Failed to reach Google geocode server.&#039;,&#039;geodirectory&#039;);
+			}
+
+		}
+
+		return $post_info;
+	}
+
+
+	//@todo maybe make this work in future after v2 release.
+	public static function get_address_from_geocode($post_info,$geocodes){
+
+//
+//
+//		// @todo, lets just do the first one for now, its most accurate.
+//		$geocodes = $geocodes[0][&#039;address_components&#039;];
+//
+//		$address_components = array();
+//		foreach($geocodes as $geocode){
+//			$type = $geocode[&#039;types&#039;][0];
+//			$address_components[$type] = $geocode[&#039;long_name&#039;];
+//			if($type==&#039;country&#039;){
+//				$address_components[&#039;country_code&#039;] = $geocode[&#039;short_name&#039;];
+//			}
+//
+//		}
+//
+//		print_r($address_components );exit;
+//
+//		// check we have an address
+//		if( isset( $post_info[&#039;street&#039;] ) &amp;&amp; $post_info[&#039;street&#039;] ){ $address[] = $post_info[&#039;street&#039;];  }
+//		if( isset( $post_info[&#039;city&#039;] ) &amp;&amp; $post_info[&#039;city&#039;] ){ $address[] = $post_info[&#039;city&#039;];  }
+//		if( isset( $post_info[&#039;region&#039;] ) &amp;&amp; $post_info[&#039;region&#039;] ){ $address[] = $post_info[&#039;region&#039;];  }
+//		if( isset( $post_info[&#039;country&#039;] ) &amp;&amp; $post_info[&#039;country&#039;] ){ $address[] = $post_info[&#039;country&#039;];  }
+//		if( isset( $post_info[&#039;zip&#039;] ) &amp;&amp; $post_info[&#039;zip&#039;] ){ $address[] = $post_info[&#039;zip&#039;];  }
+//
+//
+//
+//		return $post_info;
+	}
+
+	/**
+	 * Export posts to CSV.
+	 */
+	public static function export_posts() {
+
+		global $wp_filesystem;
+
+		$nonce = isset( $_REQUEST[&#039;_nonce&#039;] ) ? $_REQUEST[&#039;_nonce&#039;] : null;
+
+		$post_type      = isset( $_REQUEST[&#039;_pt&#039;] ) ? $_REQUEST[&#039;_pt&#039;] : null;
+		$csv_file_dir   = self::import_export_cache_path( false );
+		$chunk_per_page = isset( $_REQUEST[&#039;_n&#039;] ) ? absint( $_REQUEST[&#039;_n&#039;] ) : null;
+		$chunk_per_page = $chunk_per_page &lt; 50 || $chunk_per_page &gt; 100000 ? 5000 : $chunk_per_page;
+		$chunk_page_no  = isset( $_REQUEST[&#039;_p&#039;] ) ? absint( $_REQUEST[&#039;_p&#039;] ) : 1;
+
+		do_action( &#039;geodir_export_posts_set_globals&#039;, $post_type );
+
+		if ( $post_type == &#039;gd_event&#039; ) {
+			//add_filter( &#039;geodir_imex_export_posts_query&#039;, &#039;geodir_imex_get_events_query&#039;, 10, 2 ); // @todo this shoudl be done from events plugin
+		}
+		$filters = ! empty( $_REQUEST[&#039;gd_imex&#039;] ) &amp;&amp; is_array( $_REQUEST[&#039;gd_imex&#039;] ) ? $_REQUEST[&#039;gd_imex&#039;] : null;
+
+		$file_name = $post_type . &#039;_&#039; . date( &#039;dmyHi&#039; );
+		if ( $filters &amp;&amp; isset( $filters[&#039;start_date&#039;] ) &amp;&amp; isset( $filters[&#039;end_date&#039;] ) ) {
+			$file_name = $post_type . &#039;_&#039; . date_i18n( &#039;dmy&#039;, strtotime( $filters[&#039;start_date&#039;] ) ) . &#039;_&#039; . date_i18n( &#039;dmy&#039;, strtotime( $filters[&#039;end_date&#039;] ) );
+		}
+		$posts_count    = geodir_get_posts_count( $post_type );
+		$file_url_base  = self::import_export_cache_path() . &#039;/&#039;;
+		$file_url       = $file_url_base . $file_name . &#039;.csv&#039;;
+		$file_path      = $csv_file_dir . &#039;/&#039; . $file_name . &#039;.csv&#039;;
+		$file_path_temp = $csv_file_dir . &#039;/&#039; . $post_type . &#039;_&#039; . $nonce . &#039;.csv&#039;;
+
+		$chunk_file_paths = array();
+
+		if ( isset( $_REQUEST[&#039;_c&#039;] ) ) {
+			$json[&#039;total&#039;] = $posts_count;
+
+			do_action( &#039;geodir_export_posts_reset_globals&#039;, $post_type );
+
+			wp_send_json( $json );
+			geodir_die();
+		} else if ( isset( $_REQUEST[&#039;_st&#039;] ) ) {
+			$line_count = (int) self::file_line_count( $file_path_temp );
+			$percentage = count( $posts_count ) &gt; 0 &amp;&amp; $line_count &gt; 0 ? ceil( $line_count / $posts_count ) * 100 : 0;
+			$percentage = min( $percentage, 100 );
+
+			$json[&#039;percentage&#039;] = $percentage;
+
+			do_action( &#039;geodir_export_posts_reset_globals&#039;, $post_type );
+
+			wp_send_json( $json );
+			geodir_die();
+		} else {
+			if ( ! $posts_count &gt; 0 ) {
+				$json[&#039;error&#039;] = __( &#039;No records to export.&#039;, &#039;geodirectory&#039; );
+			} else {
+				$total_posts = $posts_count;
+				if ( $chunk_per_page &gt; $total_posts ) {
+					$chunk_per_page = $total_posts;
+				}
+				$chunk_total_pages = ceil( $total_posts / $chunk_per_page );
+
+				$j                = $chunk_page_no;
+				$chunk_save_posts = self::get_posts_csv( $post_type, $chunk_per_page, $j );
+
+				$per_page = 500;
+				if ( $per_page &gt; $chunk_per_page ) {
+					$per_page = $chunk_per_page;
+				}
+				$total_pages = ceil( $chunk_per_page / $per_page );
+
+				for ( $i = 0; $i &lt;= $total_pages; $i ++ ) {
+					$save_posts = array_slice( $chunk_save_posts, ( $i * $per_page ), $per_page );
+
+					$clear = $i == 0 ? true : false;
+					self::save_csv_data( $file_path_temp, $save_posts, $clear );
+				}
+
+				if ( $wp_filesystem-&gt;exists( $file_path_temp ) ) {
+					$chunk_page_no   = $chunk_total_pages &gt; 1 ? &#039;_&#039; . $j : &#039;&#039;;
+					$chunk_file_name = $file_name . $chunk_page_no . &#039;_&#039; . substr( geodir_rand_hash(), 0, 8 ) . &#039;.csv&#039;;
+					$file_path       = $csv_file_dir . &#039;/&#039; . $chunk_file_name;
+					$wp_filesystem-&gt;move( $file_path_temp, $file_path, true );
+
+					$file_url           = $file_url_base . $chunk_file_name;
+					$chunk_file_paths[] = array(
+						&#039;i&#039; =&gt; $j . &#039;.&#039;,
+						&#039;u&#039; =&gt; $file_url,
+						&#039;s&#039; =&gt; size_format( filesize( $file_path ), 2 )
+					);
+				}
+
+				if ( ! empty( $chunk_file_paths ) ) {
+					$json[&#039;total&#039;] = $posts_count;
+					$json[&#039;files&#039;] = $chunk_file_paths;
+				} else {
+					if ( $j &gt; 1 ) {
+						$json[&#039;total&#039;] = $posts_count;
+						$json[&#039;files&#039;] = array();
+					} else {
+						$json[&#039;error&#039;] = __( &#039;ERROR: Could not create csv file. This is usually due to inconsistent file permissions.&#039;, &#039;geodirectory&#039; );
+					}
+				}
+			}
+
+			do_action( &#039;geodir_export_posts_reset_globals&#039;, $post_type );
+		}
+
+		return $json;
+	}
+
+	/**
+	 * Retrieves the posts for the current post type.
+	 *
+	 * @since 1.4.6
+	 * @since 1.5.1 Updated to import &amp; export recurring events.
+	 * @since 1.5.3 Fixed to get wpml original post id.
+	 * @since 1.5.7 $per_page &amp; $page_no parameters added.
+	 * @since 1.6.11 alive_days column added in exported csv.
+	 * @package GeoDirectory
+	 *
+	 * @global object $wp_filesystem WordPress FileSystem object.
+	 *
+	 * @param string $post_type Post type.
+	 * @param int $per_page Per page limit. Default 0.
+	 * @param int $page_no Page number. Default 0.
+	 *
+	 * @return array Array of posts data.
+	 */
+	public static function get_posts_csv( $post_type, $per_page = 0, $page_no = 0 ) {
+		global $wp_filesystem;
+
+		$posts = self::get_export_posts( $post_type, $per_page, $page_no );
+
+		$csv_rows = array();
+
+		if ( ! empty( $posts ) ) {
+			$i = 0; // posts processes
+
+			foreach ( $posts as $post_info ) {
+				// add the post_images column
+				$post_info[&#039;post_images&#039;] = GeoDir_Media::get_field_edit_string( $post_info[&#039;ID&#039;], &#039;post_images&#039;, &#039;&#039;, &#039;&#039;, true );
+
+				// fill in the CSV header
+				if ( $i === 0 ) {
+					$columns = array_keys( $post_info );
+					$csv_rows[] = apply_filters( &#039;geodir_export_posts_csv_columns&#039;, $columns, $post_type );
+				}
+
+				// Business Hours Timezone
+				if ( ! empty( $post_info[&#039;business_hours&#039;] ) ) {
+					$post_info[&#039;business_hours&#039;] = geodir_sanitize_business_hours( $post_info[&#039;business_hours&#039;], ( ! empty( $post_info[&#039;country&#039;] ) ? $post_info[&#039;country&#039;] : &#039;&#039; ) );
+				}
+
+				$csv_rows[] = apply_filters( &#039;geodir_export_posts_csv_row&#039;, $post_info, $post_info[&#039;ID&#039;], $post_type );
+				$i ++;
+			}
+		}
+
+		return $csv_rows;
+
+	}
+
+	/**
+	 * Retrieves the posts for the current post type.
+	 *
+	 * @since 1.4.6
+	 * @since 1.5.7 $per_page &amp; $page_no parameters added.
+	 * @package GeoDirectory
+	 *
+	 * @global object $wpdb WordPress Database object.
+	 * @global string $plugin_prefix Geodirectory plugin table prefix.
+	 *
+	 * @param string $post_type Post type.
+	 * @param int $per_page Per page limit. Default 0.
+	 * @param int $page_no Page number. Default 0.
+	 *
+	 * @return array Array of posts data.
+	 */
+	public static function get_export_posts( $post_type, $per_page = 0, $page_no = 0 ) {
+		global $wpdb, $plugin_prefix;
+
+		if ( ! post_type_exists( $post_type ) ) {
+			return new stdClass;
+		}
+
+		$table = $plugin_prefix . $post_type . &#039;_detail&#039;;
+
+		$limit = &#039;&#039;;
+		if ( $per_page &gt; 0 &amp;&amp; $page_no &gt; 0 ) {
+			$offset = ( $page_no - 1 ) * $per_page;
+
+			if ( $offset &gt; 0 ) {
+				$limit = &quot; LIMIT &quot; . $offset . &quot;,&quot; . $per_page;
+			} else {
+				$limit = &quot; LIMIT &quot; . $per_page;
+			}
+		}
+
+		// Skip listing with statuses trash, auto-draft etc...
+		$skip_statuses  = geodir_imex_export_skip_statuses();
+		$where_statuses = &#039;&#039;;
+		if ( ! empty( $skip_statuses ) &amp;&amp; is_array( $skip_statuses ) ) {
+			$where_statuses = &quot;AND `&quot; . $wpdb-&gt;posts . &quot;`.`post_status` NOT IN(&#039;&quot; . implode( &quot;&#039;,&#039;&quot;, $skip_statuses ) . &quot;&#039;)&quot;;
+		}
+
+		/**
+		 * Filter the SQL where clause part to filter posts in import/export.
+		 *
+		 * @since 1.6.4
+		 * @package GeoDirectory
+		 *
+		 * @param string $where SQL where clause part.
+		 */
+		$where_statuses = apply_filters( &#039;geodir_get_export_posts&#039;, $where_statuses, $post_type );
+
+		$columns = array();
+
+		$columns[] = &quot;{$wpdb-&gt;posts}.ID&quot;;
+		$columns[] = &quot;{$wpdb-&gt;posts}.post_title&quot;;
+		$columns[] = &quot;{$wpdb-&gt;posts}.post_content&quot;;
+		$columns[] = &quot;{$wpdb-&gt;posts}.post_status&quot;;
+		$columns[] = &quot;{$wpdb-&gt;posts}.post_author&quot;;
+		$columns[] = &quot;{$wpdb-&gt;posts}.post_type&quot;;
+		$columns[] = &quot;{$wpdb-&gt;posts}.post_date&quot;;
+		$columns[] = &quot;{$wpdb-&gt;posts}.post_modified&quot;;
+
+		// set the table fields
+		$cpt_exclude_columns = array(
+			&#039;post_id&#039;,
+			&#039;post_title&#039;,
+			&#039;_search_title&#039;,
+			&#039;post_status&#039;,
+			&#039;submit_ip&#039;,
+			&#039;overall_rating&#039;,
+			&#039;rating_count&#039;,
+			&#039;mapview&#039;,
+			&#039;mapzoom&#039;,
+			&#039;post_dummy&#039;,
+			&#039;featured_image&#039;,
+		);
+		$cols_sql            = &quot;DESCRIBE $table&quot;;
+		$all_objects         = $wpdb-&gt;get_results( $cols_sql );
+		if ( ! empty( $all_objects ) ) {
+			foreach ( $all_objects as $column_schema ) {
+				if ( ! in_array( $column_schema-&gt;Field, $cpt_exclude_columns ) ) {
+					$columns[] = &quot;`&quot; . $column_schema-&gt;Field . &quot;`&quot;;
+				}
+			}
+		}
+
+
+		/**
+		 * Filter the SQL SELECT columns clause part to filter posts in import/export.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 *
+		 * @param array $select SQL where clause part.
+		 */
+		$columns = apply_filters( &#039;geodir_get_export_posts_columns&#039;, $columns, $post_type );
+
+		$columns = implode( &quot;,&quot;, $columns );
+
+		$query = $wpdb-&gt;prepare( &quot;SELECT {$columns} FROM {$wpdb-&gt;posts} INNER JOIN {$table} ON {$table}.post_id = {$wpdb-&gt;posts}.ID WHERE {$wpdb-&gt;posts}.post_type = %s &quot; . $where_statuses . &quot; ORDER BY {$wpdb-&gt;posts}.ID ASC&quot; . $limit, $post_type );
+
+		/**
+		 * Modify returned posts SQL query for the current post type.
+		 *
+		 * @since 1.4.6
+		 * @package GeoDirectory
+		 *
+		 * @param int $query The SQL query.
+		 * @param string $post_type Post type.
+		 */
+		$query   = apply_filters( &#039;geodir_imex_export_posts_query&#039;, $query, $post_type );
+		$results = (array) $wpdb-&gt;get_results( $query, ARRAY_A );
+
+		/**
+		 * Modify returned post results for the current post type.
+		 *
+		 * @since 1.4.6
+		 * @package GeoDirectory
+		 *
+		 * @param object $results An object containing all post ids.
+		 * @param string $post_type Post type.
+		 */
+		return apply_filters( &#039;geodir_export_posts&#039;, $results, $post_type );
+	}
+
+	/**
+	 * Save the data in CSV file to export.
+	 *
+	 * @since 1.4.6
+	 * @package GeoDirectory
+	 *
+	 * @global null|object $wp_filesystem WP_Filesystem object.
+	 *
+	 * @param  string $file_path Full path to file.
+	 * @param  array $csv_data Array of csv data.
+	 * @param  bool $clear If true then it overwrite data otherwise add rows at the end of file.
+	 *
+	 * @return bool true if success otherwise false.
+	 */
+	public static function save_csv_data( $file_path, $csv_data = array(), $clear = true ) {
+		if ( empty( $csv_data ) ) {
+			return false;
+		}
+
+		global $wp_filesystem;
+
+		$mode = $clear ? &#039;w+&#039; : &#039;a+&#039;;
+
+		if ( function_exists( &#039;fputcsv&#039; ) ) {
+			$file = fopen( $file_path, $mode );
+			foreach ( $csv_data as $csv_row ) {
+				//$csv_row = array_map( &#039;utf8_decode&#039;, $csv_row );
+				$write_successful = fputcsv( $file, $csv_row, &quot;,&quot;, $enclosure = &#039;&quot;&#039; );
+			}
+			fclose( $file );
+		} else {
+			foreach ( $csv_data as $csv_row ) {
+				//$csv_row = array_map( &#039;utf8_decode&#039;, $csv_row );
+				$wp_filesystem-&gt;put_contents( $file_path, $csv_row );
+			}
+		}
+
+		return true;
+	}
+
+	/**
+	 * Export categories.
+	 */
+	public static function export_categories() {
+		global $wp_filesystem;
+
+		$nonce          = isset( $_REQUEST[&#039;_nonce&#039;] ) ? sanitize_text_field( $_REQUEST[&#039;_nonce&#039;] ) : null;
+		$post_type      = isset( $_REQUEST[&#039;_pt&#039;] ) ? sanitize_text_field( $_REQUEST[&#039;_pt&#039;] ) : null;
+		$chunk_per_page = isset( $_REQUEST[&#039;_n&#039;] ) ? absint( $_REQUEST[&#039;_n&#039;] ) : null;
+		$chunk_per_page = $chunk_per_page &lt; 50 || $chunk_per_page &gt; 100000 ? 5000 : $chunk_per_page;
+		$chunk_page_no  = isset( $_REQUEST[&#039;_p&#039;] ) ? absint( $_REQUEST[&#039;_p&#039;] ) : 1;
+		$csv_file_dir   = self::import_export_cache_path( false );
+
+		do_action( &#039;geodir_export_categories_set_globals&#039;, $post_type );
+
+		$file_name = $post_type . &#039;category_&#039; . date( &#039;dmyHi&#039; );
+
+		$terms_count    = geodir_get_terms_count( $post_type );
+		$file_url_base  = self::import_export_cache_path() . &#039;/&#039;;
+		$file_url       = $file_url_base . $file_name . &#039;.csv&#039;;
+		$file_path      = $csv_file_dir . &#039;/&#039; . $file_name . &#039;.csv&#039;;
+		$file_path_temp = $csv_file_dir . &#039;/&#039; . $post_type . &#039;category_&#039; . $nonce . &#039;.csv&#039;;
+
+		$chunk_file_paths = array();
+
+		if ( isset( $_REQUEST[&#039;_st&#039;] ) ) {
+			$line_count = (int) self::file_line_count( $file_path_temp );
+			$percentage = count( $terms_count ) &gt; 0 &amp;&amp; $line_count &gt; 0 ? ceil( $line_count / $terms_count ) * 100 : 0;
+			$percentage = min( $percentage, 100 );
+
+			$json[&#039;percentage&#039;] = $percentage;
+
+			do_action( &#039;geodir_export_categories_reset_globals&#039;, $post_type );
+
+			wp_send_json( $json );
+		} else {
+			if ( ! $terms_count &gt; 0 ) {
+				$json[&#039;error&#039;] = __( &#039;No records to export.&#039;, &#039;geodirectory&#039; );
+			} else {
+				$total_terms = $terms_count;
+				if ( $chunk_per_page &gt; $terms_count ) {
+					$chunk_per_page = $terms_count;
+				}
+				$chunk_total_pages = ceil( $total_terms / $chunk_per_page );
+
+				$j                = $chunk_page_no;
+				$chunk_save_terms = self::get_categories( $post_type, $chunk_per_page, $j );
+
+				$per_page = 500;
+				if ( $per_page &gt; $chunk_per_page ) {
+					$per_page = $chunk_per_page;
+				}
+				$total_pages = ceil( $chunk_per_page / $per_page );
+
+				for ( $i = 0; $i &lt;= $total_pages; $i ++ ) {
+					$save_terms = array_slice( $chunk_save_terms, ( $i * $per_page ), $per_page );
+
+					$clear = $i == 0 ? true : false;
+					self::save_csv_data( $file_path_temp, $save_terms, $clear );
+				}
+
+				if ( $wp_filesystem-&gt;exists( $file_path_temp ) ) {
+					$chunk_page_no   = $chunk_total_pages &gt; 1 ? &#039;_&#039; . $j : &#039;&#039;;
+					$chunk_file_name = $file_name . $chunk_page_no . &#039;_&#039; . substr( geodir_rand_hash(), 0, 8 ) . &#039;.csv&#039;;
+					$file_path       = $csv_file_dir . &#039;/&#039; . $chunk_file_name;
+					$wp_filesystem-&gt;move( $file_path_temp, $file_path, true );
+
+					$file_url           = $file_url_base . $chunk_file_name;
+					$chunk_file_paths[] = array(
+						&#039;i&#039; =&gt; $j . &#039;.&#039;,
+						&#039;u&#039; =&gt; $file_url,
+						&#039;s&#039; =&gt; size_format( filesize( $file_path ), 2 )
+					);
+				}
+
+				if ( ! empty( $chunk_file_paths ) ) {
+					$json[&#039;total&#039;] = $terms_count;
+					$json[&#039;files&#039;] = $chunk_file_paths;
+				} else {
+					$json[&#039;error&#039;] = __( &#039;ERROR: Could not create csv file. This is usually due to inconsistent file permissions.&#039;, &#039;geodirectory&#039; );
+				}
+			}
+
+			do_action( &#039;geodir_export_categories_reset_globals&#039;, $post_type );
+		}
+
+		return $json;
+	}
+
+	/**
+	 * Retrieve terms for given post type.
+	 *
+	 * @since 1.4.6
+	 * @since 1.5.7 $per_page &amp; $page_no parameters added.
+	 * @package GeoDirectory
+	 *
+	 * @param  string $post_type The post type.
+	 * @param int $per_page Per page limit. Default 0.
+	 * @param int $page_no Page number. Default 0.
+	 *
+	 * @return array Array of terms data.
+	 */
+	public static function get_categories( $post_type, $per_page = 0, $page_no = 0 ) {
+		$args = array( &#039;hide_empty&#039; =&gt; 0, &#039;orderby&#039; =&gt; &#039;id&#039; );
+
+		remove_all_filters( &#039;get_terms&#039; );
+
+		$post_type = sanitize_text_field( $post_type );
+		$taxonomy = $post_type . &#039;category&#039;;
+
+		if ( $per_page &gt; 0 &amp;&amp; $page_no &gt; 0 ) {
+			$args[&#039;offset&#039;] = ( $page_no - 1 ) * $per_page;
+			$args[&#039;number&#039;] = $per_page;
+		}
+
+		$terms = get_terms( $taxonomy, $args );
+
+		$csv_rows = array();
+
+		if ( ! empty( $terms ) ) {
+			$csv_row   = array();
+			$csv_row[] = &#039;cat_id&#039;;
+			$csv_row[] = &#039;cat_name&#039;;
+			$csv_row[] = &#039;cat_slug&#039;;
+			$csv_row[] = &#039;cat_posttype&#039;;
+			$csv_row[] = &#039;cat_parent&#039;;
+			$csv_row[] = &#039;cat_schema&#039;;
+			$csv_row[] = &#039;cat_font_icon&#039;;
+			$csv_row[] = &#039;cat_color&#039;;
+			$csv_row[] = &#039;cat_description&#039;;
+			$csv_row[] = &#039;cat_top_description&#039;;
+			$csv_row[] = &#039;cat_image&#039;;
+			$csv_row[] = &#039;cat_icon&#039;;
+
+			$csv_rows[] = apply_filters( &#039;geodir_export_categories_csv_columns&#039;, $csv_row, $post_type );
+
+			foreach ( $terms as $term ) {
+				$cat_icon  = geodir_get_cat_icon( $term-&gt;term_id, true );
+				$cat_image = geodir_get_cat_image( $term-&gt;term_id, true );
+
+				$cat_parent = &#039;&#039;;
+				if ( isset( $term-&gt;parent ) &amp;&amp; (int) $term-&gt;parent &gt; 0 &amp;&amp; term_exists( (int) $term-&gt;parent, $taxonomy ) ) {
+					$parent_term = (array) get_term_by( &#039;id&#039;, (int) $term-&gt;parent, $taxonomy );
+					$cat_parent  = ! empty( $parent_term ) &amp;&amp; isset( $parent_term[&#039;name&#039;] ) ? $parent_term[&#039;name&#039;] : &#039;&#039;;
+				}
+
+				$csv_row   = array();
+				$csv_row[] = $term-&gt;term_id;
+				$csv_row[] = $term-&gt;name;
+				$csv_row[] = $term-&gt;slug;
+				$csv_row[] = $post_type;
+				$csv_row[] = $cat_parent;
+				$csv_row[] = get_term_meta( $term-&gt;term_id, &#039;ct_cat_schema&#039;, true );
+				$csv_row[] = get_term_meta( $term-&gt;term_id, &#039;ct_cat_font_icon&#039;, true );
+				$csv_row[] = get_term_meta( $term-&gt;term_id, &#039;ct_cat_color&#039;, true );
+				$csv_row[] = $term-&gt;description;
+				$csv_row[] = get_term_meta( $term-&gt;term_id, &#039;ct_cat_top_desc&#039;, true );
+				$csv_row[] = $cat_image;
+				$csv_row[] = $cat_icon;
+
+				$csv_rows[] = apply_filters( &#039;geodir_export_categories_csv_row&#039;, $csv_row, $term-&gt;term_id, $post_type );
+			}
+		}
+
+		return $csv_rows;
+	}
+
+	/**
+	 * Import categories.
+	 *
+	 * @return array|string
+	 */
+	public static function import_categories() {
+
+		$limit     = isset( $_POST[&#039;limit&#039;] ) &amp;&amp; $_POST[&#039;limit&#039;] ? (int) $_POST[&#039;limit&#039;] : 1;
+		$processed = isset( $_POST[&#039;processed&#039;] ) ? (int) $_POST[&#039;processed&#039;] : 0;
+
+		$processed ++;
+		$rows = self::get_csv_rows( $processed, $limit );
+
+		if ( ! empty( $rows ) ) {
+			$created = 0;
+			$updated = 0;
+			$skipped = 0;
+			$invalid = 0;
+			$images  = 0;
+
+			$update_or_skip = isset( $_POST[&#039;_ch&#039;] ) &amp;&amp; $_POST[&#039;_ch&#039;] == &#039;update&#039; ? &#039;update&#039; : &#039;skip&#039;;
+
+			foreach ( $rows as $cat_info ) {
+
+				$cat_info = self::validate_cat( $cat_info );
+
+				if ( $update_or_skip == &#039;skip&#039; &amp;&amp; isset( $cat_info[&#039;term_id&#039;] ) &amp;&amp; $cat_info[&#039;term_id&#039;] ) {
+					$skipped ++;
+					continue;
+				}
+
+
+				//print_r($cat_info );exit;
+
+				if ( $cat_info ) {
+					do_action( &#039;geodir_import_category_set_globals&#039;, $cat_info );
+
+					// Update
+					if ( isset( $cat_info[&#039;term_id&#039;] ) &amp;&amp; $cat_info[&#039;term_id&#039;] ) {
+
+						$result = self::update_term( $cat_info[&#039;taxonomy&#039;], $cat_info );
+
+						if ( $result ) {
+							$updated ++;
+						} else {
+							$invalid ++;
+						}
+
+						// insert
+					} else {
+						$result = self::insert_term( $cat_info[&#039;taxonomy&#039;], $cat_info );
+						if ( $result ) {
+							$created ++;
+						} else {
+							$invalid ++;
+						}
+					}
+
+
+					////////////////////////////////////////////////////////// update term meta
+					if ( $result ) {
+						$term_data       = $cat_info;
+						$term_id         = $result;
+						$taxonomy        = $cat_info[&#039;taxonomy&#039;];
+						$uploads         = wp_upload_dir();
+
+						do_action( &#039;geodir_category_imported&#039;, $term_id, $term_data );
+
+						if ( isset( $term_data[&#039;cat_top_description&#039;] ) ) {
+							update_term_meta( $term_id, &#039;ct_cat_top_desc&#039;, $term_data[&#039;cat_top_description&#039;] );
+						}
+
+						if ( isset( $term_data[&#039;cat_schema&#039;] ) ) {
+							update_term_meta( $term_id, &#039;ct_cat_schema&#039;, $term_data[&#039;cat_schema&#039;] );
+						}
+
+						// Category font awesome icon
+						if ( isset( $term_data[&#039;cat_font_icon&#039;] ) ) {
+							update_term_meta( $term_id, &#039;ct_cat_font_icon&#039;, $term_data[&#039;cat_font_icon&#039;] );
+						}
+
+						// Category color
+						if ( isset( $term_data[&#039;cat_color&#039;] ) ) {
+							update_term_meta( $term_id, &#039;ct_cat_color&#039;, $term_data[&#039;cat_color&#039;] );
+						}
+
+						$attachment = false;
+						if ( isset( $term_data[&#039;image&#039;] ) &amp;&amp; $term_data[&#039;image&#039;] != &#039;&#039; ) {
+							$cat_image = geodir_get_cat_image( $term_id );
+
+							if ( empty( $cat_image ) || ( ! empty( $cat_image ) &amp;&amp; basename( $cat_image ) != $term_data[&#039;image&#039;] ) ) {
+								$attachment = true;
+								$image_id = &#039;image&#039;;
+								$image_url = trim( $uploads[&#039;subdir&#039;] . &#039;/&#039; . $term_data[&#039;image&#039;], &#039;/\\&#039; );
+
+								if ( geodir_is_full_url( $term_data[&#039;cat_image&#039;] ) ) {
+									$attachment_id = self::generate_attachment_id( $term_data[&#039;cat_image&#039;] );
+									if ( $attachment_id &amp;&amp; ( $attachment_url = wp_get_attachment_url( $attachment_id ) ) ) {
+										$image_id = $attachment_id;
+										$image_url = geodir_file_relative_url( $attachment_url );
+									}
+								}
+
+								update_term_meta( $term_id, &#039;ct_cat_default_img&#039;, array(
+									&#039;id&#039;  =&gt; $image_id,
+									&#039;src&#039; =&gt; $image_url
+								) );
+							}
+						}
+
+						if ( isset( $term_data[&#039;icon&#039;] ) &amp;&amp; $term_data[&#039;icon&#039;] != &#039;&#039; ) {
+							$cat_icon = geodir_get_cat_icon( $term_id );
+
+							if ( empty( $cat_icon ) || ( ! empty( $cat_icon ) &amp;&amp; basename( $cat_icon ) != $term_data[&#039;icon&#039;] ) ) {
+								$attachment = true;
+								$image_id = &#039;icon&#039;;
+								$image_url = trim( $uploads[&#039;subdir&#039;] . &#039;/&#039; . $term_data[&#039;icon&#039;], &#039;/\\&#039; );
+
+								if ( geodir_is_full_url( $term_data[&#039;cat_icon&#039;] ) ) {
+									$attachment_id = self::generate_attachment_id( $term_data[&#039;cat_icon&#039;] );
+									if ( $attachment_id &amp;&amp; ( $attachment_url = wp_get_attachment_url( $attachment_id ) ) ) {
+										$image_id = $attachment_id;
+										$image_url = geodir_file_relative_url( $attachment_url );
+									}
+								}
+
+								update_term_meta( $term_id, &#039;ct_cat_icon&#039;, array(
+									&#039;id&#039;  =&gt; $image_id,
+									&#039;src&#039; =&gt; $image_url
+								) );
+							}
+						}
+
+						if ( $attachment ) {
+							$images ++;
+						}
+					}
+					///////////////////////////////////////////////////////////////////// update term meta end
+
+					do_action( &#039;geodir_import_category_reset_globals&#039;, $cat_info );
+
+				} else {
+					$invalid ++;
+				}
+
+			}
+
+		} else {
+			return new WP_Error( &#039;gd-csv-empty&#039;, __( &quot;No data found in csv file.&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		return array(
+			&quot;processed&quot; =&gt; $processed,
+			&quot;created&quot;   =&gt; $created,
+			&quot;updated&quot;   =&gt; $updated,
+			&quot;skipped&quot;   =&gt; $skipped,
+			&quot;invalid&quot;   =&gt; $invalid,
+			&quot;images&quot;    =&gt; $images,
+			&quot;ID&quot;        =&gt; isset($cat_info[&#039;cat_id&#039;]) ? $cat_info[&#039;cat_id&#039;] : 0,
+		);
+	}
+
+	/**
+	 * Validate the cat info.
+	 *
+	 * @todo make this actually validate the cat info.
+	 *
+	 * @param $cat_info
+	 *
+	 * @return array
+	 */
+	public static function validate_cat( $cat_info ) {
+
+		$cat_info_fixed = array();
+
+		// fix column names
+		$cat_info_fixed[&#039;taxonomy&#039;]            = isset( $cat_info[&#039;cat_posttype&#039;] ) &amp;&amp; $cat_info[&#039;cat_posttype&#039;] ? esc_attr( $cat_info[&#039;cat_posttype&#039;] . &quot;category&quot; ) : &#039;&#039;;
+		$cat_info_fixed[&#039;term_id&#039;]             = isset( $cat_info[&#039;cat_id&#039;] ) &amp;&amp; $cat_info[&#039;cat_id&#039;] ? absint( $cat_info[&#039;cat_id&#039;] ) : &#039;&#039;;
+		$cat_info_fixed[&#039;name&#039;]                = isset( $cat_info[&#039;cat_name&#039;] ) &amp;&amp; $cat_info[&#039;cat_name&#039;] ? esc_attr( $cat_info[&#039;cat_name&#039;] ) : &#039;&#039;;
+		$cat_info_fixed[&#039;slug&#039;]                = isset( $cat_info[&#039;cat_slug&#039;] ) &amp;&amp; $cat_info[&#039;cat_slug&#039;] ? esc_attr( $cat_info[&#039;cat_slug&#039;] ) : &#039;&#039;;
+		$cat_info_fixed[&#039;parent&#039;]              = isset( $cat_info[&#039;cat_parent&#039;] ) &amp;&amp; $cat_info[&#039;cat_parent&#039;] ? $cat_info[&#039;cat_parent&#039;] : &#039;&#039;;
+		$cat_info_fixed[&#039;description&#039;]         = isset( $cat_info[&#039;cat_description&#039;] ) &amp;&amp; $cat_info[&#039;cat_description&#039;] ? esc_attr( $cat_info[&#039;cat_description&#039;] ) : &#039;&#039;;
+		$cat_info_fixed[&#039;cat_schema&#039;]          = isset( $cat_info[&#039;cat_schema&#039;] ) &amp;&amp; $cat_info[&#039;cat_schema&#039;] ? esc_attr( $cat_info[&#039;cat_schema&#039;] ) : &#039;&#039;;
+		$cat_info_fixed[&#039;cat_font_icon&#039;]       = isset( $cat_info[&#039;cat_font_icon&#039;] ) &amp;&amp; $cat_info[&#039;cat_font_icon&#039;] ? esc_attr( $cat_info[&#039;cat_font_icon&#039;] ) : &#039;&#039;;
+		$cat_info_fixed[&#039;cat_color&#039;]           = isset( $cat_info[&#039;cat_color&#039;] ) &amp;&amp; $cat_info[&#039;cat_color&#039;] ? esc_attr( $cat_info[&#039;cat_color&#039;] ) : &#039;&#039;;
+		$cat_info_fixed[&#039;cat_top_description&#039;] = isset( $cat_info[&#039;cat_top_description&#039;] ) &amp;&amp; $cat_info[&#039;cat_top_description&#039;] ? esc_attr( $cat_info[&#039;cat_top_description&#039;] ) : &#039;&#039;;
+		$cat_info_fixed[&#039;cat_image&#039;]           = isset( $cat_info[&#039;cat_image&#039;] ) &amp;&amp; $cat_info[&#039;cat_image&#039;] ? $cat_info[&#039;cat_image&#039;] : &#039;&#039;;
+		$cat_info_fixed[&#039;cat_icon&#039;]            = isset( $cat_info[&#039;cat_icon&#039;] ) &amp;&amp; $cat_info[&#039;cat_icon&#039;] ? $cat_info[&#039;cat_icon&#039;] : &#039;&#039;;
+
+		// validate @todo validate the info
+
+		// temp image fix
+		$cat_info_fixed[&#039;image&#039;] 				= $cat_info_fixed[&#039;cat_image&#039;] != &#039;&#039; ? basename( $cat_info_fixed[&#039;cat_image&#039;] ) : &#039;&#039;;
+		$cat_info_fixed[&#039;icon&#039;]  				= $cat_info_fixed[&#039;cat_icon&#039;] != &#039;&#039; ? basename( $cat_info_fixed[&#039;cat_icon&#039;] ) : &#039;&#039;;
+
+		if ( ! empty( $cat_info_fixed[&#039;parent&#039;] ) ) {
+			$parent = 0;
+			if ( $term = get_term_by( &#039;id&#039;, $cat_info_fixed[&#039;parent&#039;], $cat_info_fixed[&#039;taxonomy&#039;] ) ) {
+				$parent = $term-&gt;term_id;
+			} else if ( $term = get_term_by( &#039;slug&#039;, $cat_info_fixed[&#039;parent&#039;], $cat_info_fixed[&#039;taxonomy&#039;] ) ) {
+				$parent = $term-&gt;term_id;
+			} else if ( $term = get_term_by( &#039;name&#039;, $cat_info_fixed[&#039;parent&#039;], $cat_info_fixed[&#039;taxonomy&#039;] ) ) {
+				$parent = $term-&gt;term_id;
+			}
+			$cat_info_fixed[&#039;parent&#039;] = $parent;
+		}
+
+		return apply_filters( &#039;geodir_import_category_validate_item&#039;, $cat_info_fixed, $cat_info );
+	}
+	
+	/**
+	 * Validate the review info.
+	 *
+	 * @todo make this actually validate the review info.
+	 *
+	 * @param $review_info
+	 *
+	 * @return array
+	 */
+	public static function validate_review( $data ) {
+		global $gd_cache_user;
+
+		$data = array_map( &#039;trim&#039;, $data );
+
+		$review_data 							= array();
+		$review_data[&#039;comment_ID&#039;] 				= isset( $data[&#039;comment_ID&#039;] ) ? absint( $data[&#039;comment_ID&#039;] ) : &#039;&#039;;
+		$review_data[&#039;comment_post_ID&#039;] 		= isset( $data[&#039;comment_post_ID&#039;] ) ? absint( $data[&#039;comment_post_ID&#039;] ) : &#039;&#039;;
+		$review_data[&#039;rating&#039;] 					= isset( $data[&#039;rating&#039;] ) ? absint( $data[&#039;rating&#039;] ) : &#039;&#039;;
+		$review_data[&#039;comment_content&#039;] 		= isset( $data[&#039;comment_content&#039;] ) ? $data[&#039;comment_content&#039;] : &#039;&#039;;
+		$review_data[&#039;comment_date&#039;] 			= isset( $data[&#039;comment_date&#039;] ) ? $data[&#039;comment_date&#039;] : &#039;&#039;;
+		$review_data[&#039;comment_date_gmt&#039;] 		= isset( $data[&#039;comment_date_gmt&#039;] ) ? $data[&#039;comment_date_gmt&#039;] : &#039;&#039;;
+		$review_data[&#039;comment_approved&#039;] 		= isset( $data[&#039;comment_approved&#039;] ) ? $data[&#039;comment_approved&#039;] : 0;
+		$review_data[&#039;user_id&#039;] 				= isset( $data[&#039;user_id&#039;] ) ? absint( $data[&#039;user_id&#039;] ) : 0;
+		$review_data[&#039;comment_author&#039;] 			= isset( $data[&#039;comment_author&#039;] ) ? $data[&#039;comment_author&#039;] : &#039;&#039;;
+		$review_data[&#039;comment_author_email&#039;]	= isset( $data[&#039;comment_author_email&#039;] ) &amp;&amp; is_email( $data[&#039;comment_author_email&#039;] ) ? $data[&#039;comment_author_email&#039;] : &#039;&#039;;
+		$review_data[&#039;comment_author_url&#039;] 		= isset( $data[&#039;comment_author_url&#039;] ) ? $data[&#039;comment_author_url&#039;] : &#039;&#039;;
+		$review_data[&#039;comment_author_IP&#039;] 		= isset( $data[&#039;comment_author_IP&#039;] ) ? $data[&#039;comment_author_IP&#039;] : &#039;&#039;;
+		
+		if ( empty( $gd_cache_user ) ) {
+			$gd_cache_user = array();
+		}
+
+		$user_ID = $review_data[&#039;user_id&#039;];
+		$user = NULL;
+		if ( ! empty( $user_ID ) ) {
+			if ( ! empty( $gd_cache_user[ $user_ID ] ) ) {
+				$user = $gd_cache_user[ $user_ID ];
+			} else {
+				$user = get_user_by( &#039;id&#039;, $user_ID );
+				if ( ! empty( $user ) ) {
+					if ( empty( $user-&gt;display_name ) ) {
+						$user-&gt;display_name = $user-&gt;user_login;
+					}
+					$gd_cache_user[ $user_ID ] = $user;
+				}
+			}
+		}
+
+		if ( ! empty( $user ) ) {
+			if ( empty( $review_data[&#039;comment_author&#039;] ) ) {
+				$review_data[&#039;comment_author&#039;] = $user-&gt;display_name;
+			}
+
+			if ( empty( $review_data[&#039;comment_author_email&#039;] ) ) {
+				$review_data[&#039;comment_author_email&#039;] = $user-&gt;user_email;
+			}
+
+			if ( empty( $review_data[&#039;comment_author_url&#039;] ) ) {
+				$review_data[&#039;comment_author_url&#039;] = $user-&gt;user_url;
+			}
+		}
+
+		if ( $review_data[&#039;comment_approved&#039;] == &#039;approve&#039; || $review_data[&#039;comment_approved&#039;] == &#039;approved&#039; ) {
+			$review_data[&#039;comment_approved&#039;] = 1;
+		}
+
+		if ( $review_data[&#039;comment_approved&#039;] == &#039;pending&#039; || $review_data[&#039;comment_approved&#039;] == &#039;unapproved&#039; || $review_data[&#039;comment_approved&#039;] == &#039;hold&#039; ) {
+			$review_data[&#039;comment_approved&#039;] = 0;
+		}
+
+		if ( ! empty( $review_data[&#039;comment_date&#039;] ) ) {
+			$review_data[&#039;comment_date&#039;] = geodir_date( $review_data[&#039;comment_date&#039;], &#039;Y-m-d H:i:s&#039; );
+		}
+
+		if ( ! empty( $review_data[&#039;comment_date_gmt&#039;] ) ) {
+			$review_data[&#039;comment_date_gmt&#039;] = geodir_date( $review_data[&#039;comment_date_gmt&#039;], &#039;Y-m-d H:i:s&#039; );
+		}
+
+		if ( empty( $review_data[&#039;comment_date&#039;] ) ) {
+			$review_data[&#039;comment_date&#039;] = current_time( &#039;mysql&#039; );
+		}
+
+		if ( empty( $review_data[&#039;comment_date_gmt&#039;] ) ) {
+			$review_data[&#039;comment_date_gmt&#039;] = get_gmt_from_date( $review_data[&#039;comment_date&#039;] );
+		}
+
+		$review_data = wp_filter_comment( $review_data );
+
+		if ( ! empty( $review_data[&#039;comment_ID&#039;] ) ) {
+			$unsets = array( &#039;comment_date&#039;, &#039;comment_date_gmt&#039;, &#039;comment_agent&#039;, &#039;comment_author_IP&#039; );
+
+			foreach ( $unsets as $unset ) {
+				if ( empty( $review_data[ $unset ] ) &amp;&amp; isset( $review_data[ $unset ] ) ) {
+					unset( $review_data[ $unset ] );
+				}
+			}
+		}
+
+		return apply_filters( &#039;validate_review&#039;, $review_data, $data );
+	}
+
+	/**
+	 * Update the post term.
+	 *
+	 * @since 1.4.6
+	 * @package GeoDirectory
+	 *
+	 * @param string $taxonomy Post taxonomy.
+	 * @param array $term_data {
+	 *    Attributes of term data.
+	 *
+	 * @type string $term_id Term ID.
+	 * @type string $name Term name.
+	 * @type string $slug Term slug.
+	 * @type string $description Term description.
+	 * @type string $top_description Term top description.
+	 * @type string $image Default Term image.
+	 * @type string $icon Default Term icon.
+	 * @type string $taxonomy Term taxonomy.
+	 * @type int $parent Term parent ID.
+	 *
+	 * }
+	 * @return int|bool Term id when success, false when fail.
+	 */
+	public static function update_term( $taxonomy, $term_data ) {
+		if ( empty( $taxonomy ) || empty( $term_data ) ) {
+			return false;
+		}
+
+		$term_id = isset( $term_data[&#039;term_id&#039;] ) &amp;&amp; ! empty( $term_data[&#039;term_id&#039;] ) ? $term_data[&#039;term_id&#039;] : 0;
+
+		if ( $term_id &gt; 0 &amp;&amp; $term_info = (array) get_term( $term_id, $taxonomy ) ) {
+			$term_data[&#039;term_id&#039;] = $term_info[&#039;term_id&#039;];
+
+			$result = wp_update_term( $term_data[&#039;term_id&#039;], $taxonomy, $term_data );
+
+			if ( ! is_wp_error( $result ) ) {
+				return isset( $result[&#039;term_id&#039;] ) ? $result[&#039;term_id&#039;] : 0;
+			}
+		} else if ( $term_data[&#039;slug&#039;] != &#039;&#039; &amp;&amp; $term_info = (array) term_exists( $term_data[&#039;slug&#039;], $taxonomy ) ) {
+			$term_data[&#039;term_id&#039;] = $term_info[&#039;term_id&#039;];
+
+			$result = wp_update_term( $term_data[&#039;term_id&#039;], $taxonomy, $term_data );
+
+			if ( ! is_wp_error( $result ) ) {
+				return isset( $result[&#039;term_id&#039;] ) ? $result[&#039;term_id&#039;] : 0;
+			}
+		} else {
+			return self::insert_term( $taxonomy, $term_data );
+		}
+
+		return false;
+	}
+
+	/**
+	 * Create new the post term.
+	 *
+	 * @since 1.4.6
+	 * @package GeoDirectory
+	 *
+	 * @param string $taxonomy Post taxonomy.
+	 * @param array $term_data {
+	 *    Attributes of term data.
+	 *
+	 * @type string $name Term name.
+	 * @type string $slug Term slug.
+	 * @type string $description Term description.
+	 * @type string $top_description Term top description.
+	 * @type string $image Default Term image.
+	 * @type string $icon Default Term icon.
+	 * @type string $taxonomy Term taxonomy.
+	 * @type int $parent Term parent ID.
+	 *
+	 * }
+	 * @return int|bool Term id when success, false when fail.
+	 */
+	public static function insert_term( $taxonomy, $term_data ) {
+		if ( empty( $taxonomy ) || empty( $term_data ) ) {
+			return false;
+		}
+
+
+		$term                = isset( $term_data[&#039;name&#039;] ) &amp;&amp; ! empty( $term_data[&#039;name&#039;] ) ? $term_data[&#039;name&#039;] : &#039;&#039;;
+		$args                = array();
+		$args[&#039;description&#039;] = isset( $term_data[&#039;description&#039;] ) ? $term_data[&#039;description&#039;] : &#039;&#039;;
+		$args[&#039;slug&#039;]        = isset( $term_data[&#039;slug&#039;] ) ? $term_data[&#039;slug&#039;] : &#039;&#039;;
+		$args[&#039;parent&#039;]      = isset( $term_data[&#039;parent&#039;] ) ? (int) $term_data[&#039;parent&#039;] : &#039;&#039;;
+
+		if ( ( ! empty( $args[&#039;slug&#039;] ) &amp;&amp; term_exists( $args[&#039;slug&#039;], $taxonomy ) ) || empty( $args[&#039;slug&#039;] ) ) {
+			$term_args    = array_merge( $term_data, $args );
+			$defaults     = array( &#039;alias_of&#039; =&gt; &#039;&#039;, &#039;description&#039; =&gt; &#039;&#039;, &#039;parent&#039; =&gt; 0, &#039;slug&#039; =&gt; &#039;&#039; );
+			$term_args    = wp_parse_args( $term_args, $defaults );
+			$term_args    = sanitize_term( $term_args, $taxonomy, &#039;db&#039; );
+			$args[&#039;slug&#039;] = wp_unique_term_slug( $args[&#039;slug&#039;], (object) $term_args );
+		}
+
+		if ( ! empty( $term ) ) {
+			$result = wp_insert_term( $term, $taxonomy, $args );
+			if ( ! is_wp_error( $result ) ) {
+				return isset( $result[&#039;term_id&#039;] ) ? $result[&#039;term_id&#039;] : 0;
+			}
+		}
+
+		return false;
+	}
+
+	/**
+	 * Export the GD settings to a time stamped .json file.
+	 */
+	public static function export_settings() {
+		$settings = geodir_get_settings();
+
+		// unset taxonomies and post_types, maybe we will allow this at a later stage
+		unset( $settings[&#039;taxonomies&#039;] );
+		unset( $settings[&#039;post_types&#039;] );
+
+		//print_r($settings );exit; // for testing
+
+		$filename = &quot;geodirectory-settings-&quot; . time();
+		header( &#039;Content-disposition: attachment; filename=&#039; . $filename . &#039;.json&#039; );
+		header( &#039;Content-type: application/json&#039; );
+		echo json_encode( $settings );
+		exit;
+	}
+
+	/**
+	 * Import GD settings.
+	 *
+	 * @return array|WP_Error
+	 */
+	public static function import_settings() {
+		$json_file = isset( $_POST[&#039;_file&#039;] ) ? $_POST[&#039;_file&#039;] : null;
+		$settings  = self::validate_json( $json_file );
+
+		//print_r($settings);exit;
+
+		if ( $settings === false ) {
+			return new WP_Error( &#039;gd-invalid-json&#039;, __( &quot;json file is not valid.&quot;, &quot;geodirectory&quot; ) );
+		} elseif ( empty( $settings ) ) {
+			return new WP_Error( &#039;gd-empty-json&#039;, __( &quot;json file is empty.&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		$i = 0;
+		foreach ( $settings as $key =&gt; $setting ) {
+			geodir_update_option( $key, $setting );
+			$i ++;
+		}
+
+		return array(
+			&#039;success&#039; =&gt; true,
+			&#039;updated&#039; =&gt; $i,
+			&#039;data&#039;    =&gt; __( &#039;Settings updated.&#039;, &#039;geodirectory&#039; )
+		);
+
+	}
+
+	/**
+	 * Check the CSV is valid.
+	 *
+	 * @return bool|WP_Error
+	 */
+	public static function validate_json( $json_file ) {
+		global $wp_filesystem;
+
+		$json        = array();
+		$uploads     = wp_upload_dir();
+		$uploads_dir = $uploads[&#039;basedir&#039;];
+
+
+		$json_file_arr = explode( &#039;/&#039;, $json_file );
+		$json_filename = end( $json_file_arr );
+		$target_path   = $uploads_dir . &#039;/geodir_temp/&#039; . $json_filename;
+
+		if ( $json_file &amp;&amp; $wp_filesystem-&gt;is_file( $target_path ) &amp;&amp; $wp_filesystem-&gt;exists( $target_path ) ) {
+			add_filter( &#039;upload_mimes&#039;, array(
+				&#039;GeoDir_Admin_Import_Export&#039;,
+				&#039;allow_json_mime&#039;
+			) ); // make it recognise json files
+			add_filter( &#039;wp_check_filetype_and_ext&#039;, array(
+				&#039;GeoDir_Admin_Import_Export&#039;,
+				&#039;set_filetype_and_ext&#039;
+			), 10, 4 ); // set file type &amp; extension, it may returns any of from text/plain &amp; application/json.
+			$wp_filetype = wp_check_filetype_and_ext( $target_path, $json_filename );
+
+			if ( ! empty( $wp_filetype ) &amp;&amp; isset( $wp_filetype[&#039;ext&#039;] ) &amp;&amp; geodir_strtolower( $wp_filetype[&#039;ext&#039;] ) == &#039;json&#039; ) {
+				$json[&#039;error&#039;] = null;
+
+				$file_contents = $wp_filesystem-&gt;get_contents( $target_path );
+
+				if ( $json = json_decode( $file_contents, true ) ) {
+					if ( is_array( $json ) ) {
+						return $json;
+					}
+				}
+
+			}
+		}
+
+		return false;
+	}
+
+	/**
+	 * Adds the .json fiel extension to the WP allowed file types on the fly.
+	 *
+	 * @param array $mimes The currently allowed file mime types.
+	 *
+	 * @return array The new array of allowed file types with json added.
+	 */
+	public static function allow_json_mime( $mimes ) {
+		$mimes[&#039;json&#039;] = &#039;application/json&#039;;
+
+		return $mimes;
+	}
+
+	/**
+	 * Get the SQL where clause part to filter posts in import/export.
+	 *
+	 * @global object $wpdb WordPress Database object.
+	 *
+	 * @param string $where The SQL where clause part. Default empty.
+	 * @param string $post_type The post type.
+	 * @return string SQL where clause part.
+	 */
+	public static function filter_where_query($where = &#039;&#039;, $post_type = &#039;&#039;) {
+		global $wpdb;
+
+		$filters = !empty( $_REQUEST[&#039;gd_imex&#039;] ) &amp;&amp; is_array( $_REQUEST[&#039;gd_imex&#039;] ) ? $_REQUEST[&#039;gd_imex&#039;] : NULL;
+
+		if ( !empty( $filters ) ) {
+			foreach ( $filters as $field =&gt; $value ) {
+				switch ($field) {
+					case &#039;start_date&#039;:
+						$where .= &quot; AND `&quot; . $wpdb-&gt;posts . &quot;`.`post_date` &gt;= &#039;&quot; . sanitize_text_field( $value ) . &quot; 00:00:00&#039;&quot;;
+						break;
+					case &#039;end_date&#039;:
+						$where .= &quot; AND `&quot; . $wpdb-&gt;posts . &quot;`.`post_date` &lt;= &#039;&quot; . sanitize_text_field( $value ) . &quot; 23:59:59&#039;&quot;;
+						break;
+				}
+			}
+		}
+
+		return $where;
+	}
+
+	/**
+	 * Get the path of cache directory.
+	 *
+	 * @param  bool $relative True for relative path &amp; False for absolute path.
+	 * @return string Path to the cache directory.
+	 */
+	public static function import_export_cache_path( $relative = true ) {
+		$upload_dir = wp_upload_dir();
+
+		return $relative ? $upload_dir[&#039;baseurl&#039;] . &#039;/cache&#039; : $upload_dir[&#039;basedir&#039;] . &#039;/cache&#039;;
+	}
+
+	/**
+	 * Count the number of line from file.
+	 *
+	 * @since 1.4.6
+	 * @package GeoDirectory
+	 *
+	 * @global null|object $wp_filesystem WP_Filesystem object.
+	 *
+	 * @param  string $file Full path to file.
+	 * @return int No of file rows.
+	 */
+	public static function file_line_count( $file ) {
+		global $wp_filesystem;
+
+		if ( $wp_filesystem-&gt;is_file( $file ) &amp;&amp; $wp_filesystem-&gt;exists( $file ) ) {
+			$contents = $wp_filesystem-&gt;get_contents_array( $file );
+
+			if ( !empty( $contents ) &amp;&amp; is_array( $contents ) ) {
+				return count( $contents ) - 1;
+			}
+		}
+
+		return NULL;
+	}
+
+    /**
+     * Switch locale.
+     *
+     * @since 2.0.0
+     *
+     * @param string $locale Switch Locale value.
+     * @return string $active_lang.
+     */
+	public static function switch_locale( $locale ) {
+		return apply_filters( &#039;geodir_switch_locale&#039;, $locale );
+	}
+
+    /**
+     * Restore locale.
+     *
+     * @since 2.0.0
+     *
+     * @param string $locale Restore locale value.
+     * @return bool
+     */
+	public static function restore_locale( $locale ) {
+		return apply_filters( &#039;geodir_restore_locale&#039;, $locale );
+	}
+	
+	/**
+	 * Prepare export reviews.
+	 */
+	public static function get_comment_args( $count = false ) {
+		global $wpdb;
+
+		$post_types = geodir_get_posttypes();
+
+		$comment_args = array(
+			&#039;fields&#039;     =&gt; &#039;ids&#039;,
+			&#039;count&#039;      =&gt; $count,
+			&#039;parent&#039;     =&gt; 0,
+			&#039;status&#039;	 =&gt; &#039;any&#039;
+		);
+
+		// post type
+		if ( ! empty( $_REQUEST[&#039;gd_imex&#039;][&#039;post_type&#039;] ) &amp;&amp; in_array( $_REQUEST[&#039;gd_imex&#039;][&#039;post_type&#039;], $post_types ) ) {
+			$comment_args[&#039;post_type&#039;] = sanitize_text_field( $_REQUEST[&#039;gd_imex&#039;][&#039;post_type&#039;] );
+		} else {
+			$comment_args[&#039;post_type&#039;] = $post_types;
+		}
+
+		// date
+		if ( ! empty( $_REQUEST[&#039;gd_imex&#039;][&#039;start_date&#039;] ) || ! empty( $_REQUEST[&#039;gd_imex&#039;][&#039;end_date&#039;] ) ) {
+			$date_query = array(
+				&#039;inclusive&#039; =&gt; true
+			);
+			if ( ! empty( $_REQUEST[&#039;gd_imex&#039;][&#039;start_date&#039;] ) ) {
+				$date_query[&#039;after&#039;] = $_REQUEST[&#039;gd_imex&#039;][&#039;start_date&#039;];
+			}
+			if ( ! empty( $_REQUEST[&#039;gd_imex&#039;][&#039;end_date&#039;] ) ) {
+				$date_query[&#039;before&#039;] = $_REQUEST[&#039;gd_imex&#039;][&#039;end_date&#039;];
+			}
+			$comment_args[&#039;date_query&#039;] = array( $date_query );
+		}
+
+		// status
+		if ( ! empty( $_REQUEST[&#039;gd_imex&#039;][&#039;status&#039;] ) ) {
+			$comment_args[&#039;status&#039;] = sanitize_text_field( $_REQUEST[&#039;gd_imex&#039;][&#039;status&#039;] );
+		}
+
+		return apply_filters( &#039;geodir_export_reviews_comment_args&#039;, $comment_args );
+	}
+	
+	/**
+	 * Prepare export reviews.
+	 */
+	public static function filter_reviews( $clauses, $comment_query ) {
+		global $wpdb;
+
+		if ( empty( $comment_query-&gt;query_vars[&#039;count&#039;] ) ) {
+			$clauses[&#039;fields&#039;] = &quot;{$wpdb-&gt;comments}.*, r.*&quot;;
+		}
+
+		$clauses[&#039;join&#039;] .= &quot; INNER JOIN &quot; . GEODIR_REVIEW_TABLE . &quot; AS r ON r.comment_id = {$wpdb-&gt;comments}.comment_ID&quot;;
+
+		$where = array( &quot;r.rating &gt; 0&quot; );
+		if ( ! empty( $_REQUEST[&#039;gd_imex&#039;][&#039;min_rating&#039;] ) ) {
+			$where[] = &quot;r.rating &gt;= &quot; . absint( $_REQUEST[&#039;gd_imex&#039;][&#039;min_rating&#039;] );
+		}
+		if ( ! empty( $_REQUEST[&#039;gd_imex&#039;][&#039;max_rating&#039;] ) ) {
+			$where[] = &quot;r.rating &lt;= &quot; . absint( $_REQUEST[&#039;gd_imex&#039;][&#039;max_rating&#039;] );
+		}
+		$clauses[&#039;join&#039;] .= &quot; AND &quot; . implode( &quot; AND &quot;, $where );
+
+		return $clauses;
+	}
+	
+	/**
+	 * Retrieve reviews.
+	 *
+	 */
+	public static function get_reviews( $per_page = 0, $page_no = 0 ) {
+		global $wpdb;
+
+		$comment_args = self::get_comment_args();
+		if ( $per_page &gt; 0 &amp;&amp; $page_no &gt; 0 ) {
+			$comment_args[&#039;offset&#039;] = ( $page_no - 1 ) * $per_page;
+			$comment_args[&#039;number&#039;] = $per_page;
+		}
+
+		$comment_query = new WP_Comment_Query();
+		$comment_query-&gt;query( $comment_args );
+
+		$items = ! empty( $comment_query-&gt;request ) ? $wpdb-&gt;get_results( $comment_query-&gt;request ) : array();
+
+		$csv_rows = array();
+		if ( ! empty( $items ) ) {
+			$csv_row   = array();
+			$csv_row[] = &#039;comment_ID&#039;;
+			$csv_row[] = &#039;comment_post_ID&#039;;
+			$csv_row[] = &#039;rating&#039;;
+			$csv_row[] = &#039;comment_content&#039;;
+			$csv_row[] = &#039;comment_date&#039;;
+			$csv_row[] = &#039;comment_approved&#039;;
+			$csv_row[] = &#039;user_id&#039;;
+			$csv_row[] = &#039;comment_author&#039;;
+			$csv_row[] = &#039;comment_author_email&#039;;
+			$csv_row[] = &#039;comment_author_url&#039;;
+			$csv_row[] = &#039;comment_author_IP&#039;;
+			$csv_row[] = &#039;post_type&#039;;
+			$csv_row[] = &#039;city&#039;;
+			$csv_row[] = &#039;region&#039;;
+			$csv_row[] = &#039;country&#039;;
+			$csv_row[] = &#039;latitude&#039;;
+			$csv_row[] = &#039;longitude&#039;;
+
+			$csv_rows[] = $csv_row;
+
+			foreach ( $items as $item ) {
+				$csv_row   = array();
+				$csv_row[] = $item-&gt;comment_ID;
+				$csv_row[] = $item-&gt;comment_post_ID;
+				$csv_row[] = $item-&gt;rating;
+				$csv_row[] = $item-&gt;comment_content;
+				$csv_row[] = $item-&gt;comment_date;
+				$csv_row[] = $item-&gt;comment_approved;
+				$csv_row[] = $item-&gt;user_id;
+				$csv_row[] = $item-&gt;comment_author;
+				$csv_row[] = $item-&gt;comment_author_email;
+				$csv_row[] = $item-&gt;comment_author_url;
+				$csv_row[] = $item-&gt;comment_author_IP;
+				$csv_row[] = $item-&gt;post_type;
+				$csv_row[] = $item-&gt;city;
+				$csv_row[] = $item-&gt;region;
+				$csv_row[] = $item-&gt;country;
+				$csv_row[] = $item-&gt;latitude;
+				$csv_row[] = $item-&gt;longitude;
+
+				$csv_rows[] = $csv_row;
+			}
+		}
+
+		return $csv_rows;
+	}
+	
+	/**
+	 * Prepare export reviews.
+	 */
+	public static function prepare_export_reviews() {
+		$locale = self::switch_locale( &#039;all&#039; );
+
+		add_filter( &#039;comments_clauses&#039;, array( __CLASS__ , &#039;filter_reviews&#039; ), 10, 2);
+
+		$comment_args = self::get_comment_args( true );
+		$comment_query = new WP_Comment_Query();
+
+		$json = array();
+		$json[&#039;total&#039;] = (int)$comment_query-&gt;query( $comment_args );
+
+		self::restore_locale( $locale );
+
+		return $json;
+	}
+	
+	/**
+	 * Set filter reviews.
+	 */
+	public static function export_reviews() {
+		global $wp_filesystem;
+
+		$filters 		= ! empty( $_REQUEST[&#039;gd_imex&#039;] ) &amp;&amp; is_array( $_REQUEST[&#039;gd_imex&#039;] ) ? $_REQUEST[&#039;gd_imex&#039;] : null;
+		$nonce          = isset( $_REQUEST[&#039;_nonce&#039;] ) ? $_REQUEST[&#039;_nonce&#039;] : null;
+		$count 			= isset( $_REQUEST[&#039;_c&#039;] ) ? absint( $_REQUEST[&#039;_c&#039;] ) : 0;
+		$chunk_per_page = !empty( $_REQUEST[&#039;_n&#039;] ) ? absint( $_REQUEST[&#039;_n&#039;] ) : 5000;
+		$chunk_page_no  = isset( $_REQUEST[&#039;_p&#039;] ) ? absint( $_REQUEST[&#039;_p&#039;] ) : 1;
+		$csv_file_dir   = self::import_export_cache_path( false );
+
+		$locale = self::switch_locale( &#039;all&#039; );
+
+		$file_name = &#039;geodir_reviews_&#039; . date( &#039;dmyHi&#039; );
+
+		if ( ! empty( $filters ) &amp;&amp; ! empty( $filters[&#039;start_date&#039;] ) &amp;&amp; ! empty( $filters[&#039;end_date&#039;] ) ) {
+			$file_name = &#039;geodir_reviews_&#039; . date_i18n( &#039;dmy&#039;, strtotime( $filters[&#039;start_date&#039;] ) ) . &#039;_&#039; . date_i18n( &#039;dmy&#039;, strtotime( $filters[&#039;end_date&#039;] ) );
+		}
+
+		$file_url_base  = self::import_export_cache_path() . &#039;/&#039;;
+		$file_url       = $file_url_base . $file_name . &#039;.csv&#039;;
+		$file_path      = $csv_file_dir . &#039;/&#039; . $file_name . &#039;.csv&#039;;
+		$file_path_temp = $csv_file_dir . &#039;/geodir_reviews_&#039; . $nonce . &#039;.csv&#039;;
+
+		$chunk_file_paths = array();
+
+		if ( isset( $_REQUEST[&#039;_st&#039;] ) ) {
+			$line_count = (int) self::file_line_count( $file_path_temp );
+			$percentage = count( $count ) &gt; 0 &amp;&amp; $line_count &gt; 0 ? ceil( $line_count / $count ) * 100 : 0;
+			$percentage = min( $percentage, 100 );
+
+			$json[&#039;percentage&#039;] = $percentage;
+
+			self::restore_locale( $locale );
+
+			return $json;
+		} else {
+			if ( ! $count &gt; 0 ) {
+				$json[&#039;error&#039;] = __( &#039;No records to export.&#039;, &#039;geodirectory&#039; );
+			} else {
+				add_filter( &#039;comments_clauses&#039;, array( __CLASS__ , &#039;filter_reviews&#039; ), 10, 2);
+
+				$total = $count;
+				if ( $chunk_per_page &gt; $count ) {
+					$chunk_per_page = $count;
+				}
+				$chunk_total_pages = ceil( $total / $chunk_per_page );
+
+				$j      = $chunk_page_no;
+				$rows 	= self::get_reviews( $chunk_per_page, $j );
+
+				$per_page = 500;
+				if ( $per_page &gt; $chunk_per_page ) {
+					$per_page = $chunk_per_page;
+				}
+				$total_pages = ceil( $chunk_per_page / $per_page );
+
+				for ( $i = 0; $i &lt;= $total_pages; $i ++ ) {
+					$save_rows = array_slice( $rows, ( $i * $per_page ), $per_page );
+
+					$clear = $i == 0 ? true : false;
+					self::save_csv_data( $file_path_temp, $save_rows, $clear );
+				}
+
+				if ( $wp_filesystem-&gt;exists( $file_path_temp ) ) {
+					$chunk_page_no   = $chunk_total_pages &gt; 1 ? &#039;_&#039; . $j : &#039;&#039;;
+					$chunk_file_name = $file_name . $chunk_page_no . &#039;_&#039; . substr( geodir_rand_hash(), 0, 8 ) . &#039;.csv&#039;;
+					$file_path       = $csv_file_dir . &#039;/&#039; . $chunk_file_name;
+					$wp_filesystem-&gt;move( $file_path_temp, $file_path, true );
+
+					$file_url           = $file_url_base . $chunk_file_name;
+					$chunk_file_paths[] = array(
+						&#039;i&#039; =&gt; $j . &#039;.&#039;,
+						&#039;u&#039; =&gt; $file_url,
+						&#039;s&#039; =&gt; size_format( filesize( $file_path ), 2 )
+					);
+				}
+
+				if ( ! empty( $chunk_file_paths ) ) {
+					$json[&#039;total&#039;] = $count;
+					$json[&#039;files&#039;] = $chunk_file_paths;
+				} else {
+					$json[&#039;error&#039;] = __( &#039;ERROR: Could not create csv file. This is usually due to inconsistent file permissions.&#039;, &#039;geodirectory&#039; );
+				}
+			}
+		}
+
+		self::restore_locale( $locale );
+
+		return $json;
+	}
+	
+	/**
+	 * Import reviews.
+	 *
+	 * @return array|string
+	 */
+	public static function import_reviews() {
+		global $user_ID;
+		$limit     = isset( $_POST[&#039;limit&#039;] ) &amp;&amp; $_POST[&#039;limit&#039;] ? (int) $_POST[&#039;limit&#039;] : 1;
+		$processed = isset( $_POST[&#039;processed&#039;] ) ? (int) $_POST[&#039;processed&#039;] : 0;
+
+		$processed ++;
+		$rows = self::get_csv_rows( $processed, $limit );
+
+		if ( ! empty( $rows ) ) {
+			$created = 0;
+			$updated = 0;
+			$skipped = 0;
+			$invalid = 0;
+			$images  = 0;
+
+			$update_or_skip = isset( $_POST[&#039;_ch&#039;] ) &amp;&amp; $_POST[&#039;_ch&#039;] == &#039;update&#039; ? &#039;update&#039; : &#039;skip&#039;;
+			$log_error = __( &#039;GD IMPORT REVIEW [ROW %d]:&#039;, &#039;geodirectory&#039; );
+
+			foreach ( $rows as $i =&gt; $row ) {
+				$line_no = $processed + $i + 1;
+				$line_error = wp_sprintf( $log_error, $line_no );
+				$row = self::validate_review( $row );
+				
+				if ( empty( $row ) ) {
+					geodir_error_log( $line_error . &#039; &#039; . __( &#039;data is empty.&#039;, &#039;geodirectory&#039; ) );
+					$invalid++;
+					continue;
+				}
+
+				if ( $update_or_skip == &#039;skip&#039; &amp;&amp; isset( $row[&#039;comment_ID&#039;] ) &amp;&amp; $row[&#039;comment_ID&#039;] ) {
+					$skipped++;
+					continue;
+				}
+				
+				$valid = true;
+				if ( empty( $row[&#039;comment_content&#039;] ) ) {
+					$valid = false;
+					geodir_error_log( $line_error . &#039; &#039; . __( &#039;invalid comment content.&#039;, &#039;geodirectory&#039; ) );
+				}
+				if ( !( ! empty( $row[&#039;comment_post_ID&#039;] ) &amp;&amp; geodir_is_gd_post_type( get_post_type( $row[&#039;comment_post_ID&#039;] ) ) ) ) {
+					$valid = false;
+					geodir_error_log( $line_error . &#039; &#039; . __( &#039;invalid comment post ID.&#039;, &#039;geodirectory&#039; ) );
+				}
+				if ( empty( $row[&#039;user_id&#039;] ) &amp;&amp; ( empty( $row[&#039;comment_author&#039;] ) || empty( $row[&#039;comment_author_email&#039;] ) ) ) {
+					$valid = false;
+					geodir_error_log( $line_error . &#039; &#039; . __( &#039;invalid user details(user id or author name, author email).&#039;, &#039;geodirectory&#039; ) );
+				}
+				if ( empty( $row[&#039;rating&#039;] ) ) {
+					$valid = false;
+					geodir_error_log( $line_error . &#039; &#039; . __( &#039;invalid rating.&#039;, &#039;geodirectory&#039; ) );
+				}
+				
+				if ( ! $valid ) {
+					$invalid++;
+					continue;
+				}
+
+				$user_ID = $row[&#039;user_id&#039;];
+				$_REQUEST[&#039;geodir_overallrating&#039;] = $row[&#039;rating&#039;];
+
+				do_action( &#039;geodir_pre_import_review_data&#039;, $row );
+
+				$success = false;
+
+				// update
+				if ( ! empty( $row[&#039;comment_ID&#039;] ) ) {
+					$save_id = wp_update_comment( $row );
+
+					if ( $save_id !== false ) { // updated
+						$save_id = $row[&#039;comment_ID&#039;];
+						GeoDir_Comments::edit_comment( $save_id );
+
+						$updated++;
+					} else { // error
+						$invalid++;
+						geodir_error_log( $line_error . &#039; &#039; . __( &#039;invalid data.&#039;, &#039;geodirectory&#039; ) );
+					}
+
+				// insert
+				} else {
+					if ( isset( $row[&#039;comment_ID&#039;] ) ) {
+						unset( $row[&#039;comment_ID&#039;] );
+					}
+
+					$save_id = wp_insert_comment( $row );
+
+					if ( ! is_wp_error( $save_id ) &amp;&amp; $save_id &gt; 0 ) { // inserted
+						GeoDir_Comments::save_rating( $save_id );
+
+						$created++;
+					} else { // error
+						$invalid++;
+						geodir_error_log( $line_error . &#039; &#039; . __( &#039;invalid data.&#039;, &#039;geodirectory&#039; ) );
+					}
+				}
+			}
+
+		} else {
+			return new WP_Error( &#039;gd-csv-empty&#039;, __( &quot;No data found in csv file.&quot;, &quot;geodirectory&quot; ) );
+		}
+
+		return array(
+			&quot;processed&quot; =&gt; $processed,
+			&quot;created&quot;   =&gt; $created,
+			&quot;updated&quot;   =&gt; $updated,
+			&quot;skipped&quot;   =&gt; $skipped,
+			&quot;invalid&quot;   =&gt; $invalid,
+			&quot;images&quot;    =&gt; $images,
+			&quot;ID&quot;        =&gt; 0,
+		);
+	}
+
+	/**
+	 * Set the file type of the given file.
+	 *
+	 * @param array  $wp_check_filetype_and_ext File data array containing &#039;ext&#039;, &#039;type&#039;, and
+	 *                                          &#039;proper_filename&#039; keys.
+	 * @param string $file                      Full path to the file.
+	 * @param string $filename                  The name of the file (may differ from $file due to
+	 *                                          $file being in a tmp directory).
+	 * @param array  $mimes                     Key is the file extension with value as the mime type.
+	 * @return array Filtered file type data.
+	 */
+	public static function set_filetype_and_ext( $data, $file, $filename, $mimes ) {
+		$wp_filetype = wp_check_filetype( $filename, $mimes );
+
+		if ( empty( $wp_filetype[&#039;type&#039;] ) ) {
+			return $data;
+		}
+
+		$ext = $wp_filetype[&#039;ext&#039;];
+		$type = $wp_filetype[&#039;type&#039;];
+		$proper_filename = $data[&#039;proper_filename&#039;];
+
+		return compact( &#039;ext&#039;, &#039;type&#039;, &#039;proper_filename&#039; );
+	}
+	
+	public static function generate_attachment_id( $image_url ) {
+		if ( empty( $image_url ) ) {
+			return &#039;&#039;;
+		}
+
+		$image_url = str_replace( &#039;geodirectory-assets/&#039;, &#039;assets/&#039;, $image_url );
+		$image_url = str_replace( &#039;geodirectory-functions/map-functions/icons&#039;, &#039;assets/images&#039;, $image_url );
+
+		$upload = GeoDir_Media::upload_image_from_url( $image_url );
+
+		if ( ! empty( $upload ) &amp;&amp; ! is_wp_error( $upload ) &amp;&amp; ! empty( $upload[&#039;file&#039;] ) ) {
+			$attachment_id = GeoDir_Media::set_uploaded_image_as_attachment( $upload );
+
+			if ( ! empty( $attachment_id ) &amp;&amp; ! is_wp_error( $attachment_id ) ) {
+				return $attachment_id;
+			}
+		}
+
+		return false;
+	}
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

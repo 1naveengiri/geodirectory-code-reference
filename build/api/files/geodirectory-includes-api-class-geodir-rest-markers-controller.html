@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-rest-markers-controller.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+/**
+ * Core class to access map markers data via the REST API.
+ *
+ * @since 2.0.0
+ *
+ * @see WP_REST_Taxonomies_Controller
+ */
+class GeoDir_REST_Markers_Controller extends WP_REST_Controller {
+
+    /**
+     * Constructor.
+     *
+     * @access public
+     */
+    public function __construct() {
+        $this-&gt;namespace = GEODIR_REST_SLUG . &#039;/v&#039; . GEODIR_REST_API_VERSION;
+		$this-&gt;rest_base = &#039;markers&#039;;
+
+		add_filter( &#039;geodir_rest_markers_query_where&#039;, array( $this, &#039;set_query_where&#039; ), 10, 2 );
+    }
+
+    /**
+     * Registers the routes for the objects of the controller.
+     *
+     * @access public
+     *
+     * @see register_rest_route()
+     */
+    public function register_routes() {
+
+        register_rest_route( $this-&gt;namespace, &#039;/&#039; . $this-&gt;rest_base, array(
+			array(
+				&#039;methods&#039;             =&gt; WP_REST_Server::READABLE,
+				&#039;callback&#039;            =&gt; array( $this, &#039;get_item&#039; ),
+				&#039;permission_callback&#039; =&gt; array( $this, &#039;get_item_permissions_check&#039; ),
+				&#039;args&#039;            	  =&gt; $this-&gt;get_collection_params(),
+			)
+		) );
+
+		register_rest_route( $this-&gt;namespace, &#039;/&#039; . $this-&gt;rest_base . &#039;/(?P&lt;id&gt;[\d]+)&#039;, array(
+			&#039;args&#039; =&gt; array(
+				&#039;id&#039; =&gt; array(
+					&#039;description&#039; =&gt; __( &#039;Unique identifier for the object.&#039; ),
+					&#039;type&#039;        =&gt; &#039;integer&#039;,
+				),
+			),
+			array(
+				&#039;methods&#039;             =&gt; WP_REST_Server::READABLE,
+				&#039;callback&#039;            =&gt; array( $this, &#039;get_marker_item&#039; ),
+				&#039;permission_callback&#039; =&gt; array( $this, &#039;get_marker_item_permissions_check&#039; ),
+			)
+		) );
+    }
+
+	/**
+	 * Checks if a given request has access to read and manage markers.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return bool True if the request has read access for the item, otherwise false.
+	 */
+	public function get_item_permissions_check( $request ) {
+		return $this-&gt;show_in_rest();
+	}
+
+	/**
+	 * Retrieves the query params for markers collections.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @return array Markers collection parameters.
+	 */
+	public function get_collection_params() {
+		$query_params = array();
+
+		$query_params[&#039;post_type&#039;] = array(
+			&#039;type&#039;              =&gt; &#039;string&#039;,
+			&#039;description&#039;       =&gt; __( &#039;Limit results to specific post type.&#039; ),
+			&#039;sanitize_callback&#039; =&gt; &#039;sanitize_key&#039;,
+		);
+
+		$query_params[&#039;term&#039;]   = array(
+			&#039;type&#039;              =&gt; &#039;array&#039;,
+			&#039;default&#039;           =&gt; array(),
+			&#039;description&#039;       =&gt; __( &#039;Limit results to specific term IDs.&#039; ),
+			&#039;items&#039;             =&gt; array(
+				&#039;type&#039;          =&gt; &#039;integer&#039;,
+			),
+		);
+
+		$query_params[&#039;tag&#039;]   = array(
+			&#039;type&#039;              =&gt; &#039;array&#039;,
+			&#039;default&#039;           =&gt; array(),
+			&#039;description&#039;       =&gt; __( &#039;Limit results to specific tags.&#039; ),
+			&#039;items&#039;             =&gt; array(
+				&#039;type&#039;          =&gt; &#039;string&#039;,
+			),
+		);
+
+		$query_params[&#039;post&#039;]   = array(
+			&#039;type&#039;              =&gt; &#039;array&#039;,
+			&#039;default&#039;           =&gt; array(),
+			&#039;description&#039;       =&gt; __( &#039;Limit results to specific post IDs.&#039; ),
+			&#039;items&#039;             =&gt; array(
+				&#039;type&#039;          =&gt; &#039;integer&#039;,
+			),
+		);
+
+		$query_params[&#039;search&#039;]	= array(
+			&#039;type&#039;               =&gt; &#039;string&#039;,
+			&#039;description&#039;        =&gt; __( &#039;Limit results to those matching post title.&#039; ),
+			&#039;sanitize_callback&#039;  =&gt; &#039;sanitize_text_field&#039;,
+			&#039;validate_callback&#039;  =&gt; &#039;rest_validate_request_arg&#039;,
+		);
+
+		/**
+		 * Filter collection parameters for the markers controller.
+		 *
+		 * @since 2.0.0
+		 *
+		 * @param array $query_params JSON Schema-formatted collection parameters.
+		 */
+		return apply_filters( &#039;geodir_rest_markers_collection_params&#039;, $query_params );
+	}
+
+    /**
+     * Show in rest.
+     *
+     * @since 2.0.0
+     *
+     * @return bool
+     */
+    public function show_in_rest() {
+        return apply_filters( &#039;geodir_rest_markers_show_in_rest&#039;, true, $this );
+    }
+
+	/**
+	 * Retrieves the makers.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return array|WP_Error Array on success, or WP_Error object on failure.
+	 */
+	public function get_item( $request ) {
+		global $geodir_icon_basedir, $geodir_rest_cache_icons;
+		if ( empty( $geodir_rest_cache_icons ) ) {
+			$geodir_rest_cache_icons = array();
+		}
+
+		if ( ! $this-&gt;show_in_rest() ) {
+			return new WP_Error( &#039;rest_invalid_access&#039;, __( &#039;Cannot view markers.&#039; ) );
+		}
+
+		if ( ! ( ! empty( $request[&#039;post_type&#039;] ) &amp;&amp; geodir_is_gd_post_type( $request[&#039;post_type&#039;] ) ) ) {
+			return new WP_Error( &#039;rest_invalid_param&#039;, __( &#039;Enter a valid GD post type for post_type parameter.&#039; ) );
+		}
+
+		$wp_upload_dir = wp_upload_dir();
+		$geodir_icon_basedir = $wp_upload_dir[&#039;basedir&#039;];
+
+		$response = array();
+
+		if ( ! empty( $request[&#039;output&#039;] ) &amp;&amp; $request[&#039;output&#039;] == &#039;terms&#039; ) {
+			$response[ &#039;terms_filter&#039; ] = $this-&gt;get_map_terms_filter( $request );
+		} else {
+			$items = $this-&gt;get_markers( $request );
+
+			if ( is_wp_error( $items ) ) {
+				return $items;
+			}
+
+			if ( ! empty( $items ) ) {
+				$response[ &#039;total&#039; ] 		= count( $items );
+				$response[ &#039;baseurl&#039; ] 		= $wp_upload_dir[&#039;baseurl&#039;];
+				$response[ &#039;content_url&#039; ] 	= trailingslashit( WP_CONTENT_URL );
+				$response[ &#039;icons&#039; ] 		= $geodir_rest_cache_icons;
+				$response[ &#039;items&#039; ] 		= $items;
+			}
+		}
+
+		return rest_ensure_response( $response );
+	}
+
+    /**
+     * Get Markers.
+     *
+     * @since 2.0.0
+     *
+     * @param array $request {
+     *      An array request post details.
+     *
+     *      @type string $post_type Post type.
+     *      @type array $post Post array.
+     * }
+     * @return array $items.
+     */
+	public function get_markers( $request ) {
+		global $wpdb;
+
+		// Filter by latitude/longitude.
+		$latitude = &#039;&#039;;
+		$longitude = &#039;&#039;;
+		if ( ! empty( $request[&#039;lat&#039;] ) || ! empty( $request[&#039;lon&#039;] ) ) {
+			$latitude = ! empty( $request[&#039;lat&#039;] ) &amp;&amp; geodir_is_valid_lat( $request[&#039;lat&#039;] ) ? filter_var( $request[&#039;lat&#039;], FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION ) : &#039;&#039;;
+			$longitude = ! empty( $request[&#039;lon&#039;] ) &amp;&amp; geodir_is_valid_lon( $request[&#039;lon&#039;] ) ? filter_var( $request[&#039;lon&#039;], FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION ) : &#039;&#039;;
+
+			if ( empty( $latitude ) || empty( $longitude ) ) {
+				return new WP_Error( &#039;rest_invalid_param&#039;, __( &#039;Invalid latitude/longitude.&#039; ) );
+			}
+		}
+
+		$table = geodir_db_cpt_table( $request[&#039;post_type&#039;] );
+
+		$fields = &quot;p.ID, p.post_title, pd.default_category, pd.latitude, pd.longitude&quot;;
+
+		if ( $latitude &amp;&amp; $longitude ) {
+			$radius = geodir_getDistanceRadius( geodir_get_option( &#039;search_distance_long&#039; ) );
+			$fields .= &quot;, ( {$radius} * 2 * ASIN( SQRT( POWER( SIN( ( ABS( {$latitude} ) - ABS( pd.latitude ) ) * PI() / 180 / 2 ), 2 ) + COS( ABS( {$latitude} ) * PI() / 180 ) * COS( ABS( pd.latitude ) * PI() / 180 ) * POWER( SIN( ( {$longitude} - pd.longitude ) * PI() / 180 / 2 ), 2 ) ) ) ) AS distance &quot;;
+		}
+
+		$fields = apply_filters( &#039;geodir_rest_markers_query_fields&#039;, $fields, $request );
+
+		$join = &quot;LEFT JOIN {$table} AS pd ON pd.post_id = p.ID&quot;;
+		$join = apply_filters( &#039;geodir_rest_markers_query_join&#039;, $join, $request );
+
+		if ( ! empty( $request[&#039;post&#039;] ) &amp;&amp; is_array( $request[&#039;post&#039;] ) &amp;&amp; count( $request[&#039;post&#039;] ) == 1 ) {
+			$where = $wpdb-&gt;prepare( &quot;pd.post_id IS NOT NULL AND ( p.post_type = %s OR p.post_type = %s )&quot;, array( $request[&#039;post_type&#039;],&#039;revision&#039; ) );
+
+			$statuses = geodir_get_post_stati( &#039;single-map&#039;, $request );
+
+			if ( ! empty( $statuses ) ) {
+				$where .= &quot; AND p.post_status IN( &#039;&quot; . implode( &quot;&#039;, &#039;&quot;, $statuses ) . &quot;&#039; )&quot;;
+			}
+		} else {
+			$where = $wpdb-&gt;prepare( &quot;pd.post_id IS NOT NULL AND p.post_type = %s&quot;, array( $request[&#039;post_type&#039;] ) );
+
+			$status = geodir_get_post_stati( &#039;map&#039;, $request );
+
+			if ( count( $status ) &gt; 1 ) {
+				$where .= &quot; AND p.post_status IN( &#039;&quot; . implode( &quot;&#039;, &#039;&quot;, $status ) . &quot;&#039; )&quot;;
+			} else {
+				$where .= &quot; AND p.post_status = &#039;{$status[0]}&#039;&quot;;
+			}
+		}
+		$where = apply_filters( &#039;geodir_rest_markers_query_where&#039;, $where, $request );
+
+		if ( $where ) {
+			$where = &quot;WHERE {$where}&quot;;
+		}
+
+		$group_by = apply_filters( &#039;geodir_rest_markers_query_group_by&#039;, &quot;&quot;, $request );
+		if ( $group_by ) {
+			$group_by = &quot;GROUP BY {$group_by}&quot;;
+		}
+
+		$order_by = apply_filters( &#039;geodir_rest_markers_query_order_by&#039;, &quot;&quot;, $request );
+		if ( $order_by ) {
+			$order_by = &quot;ORDER BY {$order_by}&quot;;
+		}
+
+		$limit = apply_filters( &#039;geodir_rest_markers_query_limit&#039;, &quot;&quot;, $request );
+		if ( $limit ) {
+			$limit = &quot;LIMIT {$limit}&quot;;
+		}
+
+		// ADD THE HAVING TO LIMIT TO THE EXACT RADIUS
+		if ( $latitude &amp;&amp; $longitude ) {
+			/*
+			 * The HAVING clause is often used with the GROUP BY clause to filter groups based on a specified condition.
+			 * If the GROUP BY clause is omitted, the HAVING clause behaves like the WHERE clause.
+			 */
+			if ( strpos( $where, &#039; HAVING &#039; ) === false &amp;&amp; strpos( $group_by, &#039; HAVING &#039; ) === false &amp;&amp; strpos( $fields, &#039;AS distance&#039; ) ) {
+				if ( GeoDir_Post_types::supports( $request[&#039;post_type&#039;], &#039;service_distance&#039; ) ) {
+					$having = &quot; HAVING distance &lt;= `pd`.`service_distance` &quot;;
+				} else {
+					$distance = ! empty( $request[&#039;dist&#039;] ) ? geodir_sanitize_float( $request[&#039;dist&#039;] ) : geodir_get_option( &#039;search_radius&#039;, 5 );
+					$having = $wpdb-&gt;prepare( &quot; HAVING distance &lt;= %f &quot;, $distance );
+				}
+
+				if ( trim( $group_by ) != &#039;&#039; ) {
+					$group_by .= $having;
+				} else {
+					$where .= $having;
+				}
+			}
+		}
+		// ADD THE HAVING TO LIMIT TO THE EXACT RADIUS
+
+		$sql = &quot;SELECT {$fields} FROM {$wpdb-&gt;posts} AS p {$join} {$where} {$group_by} {$order_by} {$limit}&quot;;
+
+		$sql = apply_filters( &#039;geodir_rest_markers_query&#039;, trim( $sql ), $request );
+
+		$results = $wpdb-&gt;get_results( $sql );
+
+		$items = array();
+		if ( ! empty( $results ) ) {
+			foreach ( $results as $item ) {
+				if ( ! empty( $item-&gt;latitude ) &amp;&amp; ! empty( $item-&gt;longitude ) ) {
+					$items[] = $this-&gt;prepare_item_for_response( $item, $request );
+				}
+			}
+		}
+
+		return apply_filters( &#039;geodir_rest_get_markers&#039;, $items, $request );
+	}
+
+	/*
+	icons
+	array(
+		&#039;34&#039; =&gt; array(						icon id
+			&#039;i&#039; =&gt; &#039;/2014/08/Feature.png&#039;,	icon relative url
+			&#039;w&#039; =&gt; 36,						icon width
+			&#039;h&#039; =&gt; 45,						icon height
+		)
+	);
+	items
+	array(
+		&#039;p&#039; =&gt; 145,						post id
+		&#039;m&#039; =&gt; 145,						marker id / post id
+		&#039;lt&#039; =&gt; &#039;12.9773088&#039;,			latitude
+		&#039;ln&#039; =&gt; &#039;77.57075069999996&#039;,	longitude
+		&#039;t&#039; =&gt; &#039;Longwood Gardens&#039;,		post title
+		&#039;i&#039; =&gt; &#039;34&#039;						icon id
+	);
+	*/
+    /**
+     * Prepare item for response.
+     *
+     * @since 2.0.0
+     *
+     * @param object $item Request marker data.
+     * @param WP_REST_Request $request  Request used to generate the response.
+     * @return mixed|void|WP_Error|WP_REST_Response
+     */
+	public function prepare_item_for_response( $item, $request ) {
+		global $geodir_icon_basedir, $geodir_rest_cache_marker, $geodir_rest_cache_icons;
+		if ( empty( $geodir_rest_cache_marker ) ) {
+			$geodir_rest_cache_marker = array();
+		}
+
+		$default_category = ! empty( $item-&gt;default_category ) ? $item-&gt;default_category : &#039;&#039;;
+
+		$post_title = $item-&gt;post_title;
+		// @todo need to check for special chars
+		/*
+		if ( ! empty( $post_title ) ) {
+			$post_title = htmlentities( $post_title, ENT_QUOTES, get_option( &#039;blog_charset&#039; ) ); // Quotes in csv title import break maps
+			$post_title = wp_specialchars_decode( $post_title ); // Fixed #post-320722 on 2016-12-08
+		}
+		*/
+
+		$response = array();
+		$response[&#039;m&#039;] = (string) absint( $item-&gt;ID );
+		$response[&#039;lt&#039;] = $item-&gt;latitude;
+		$response[&#039;ln&#039;] = $item-&gt;longitude;
+		$response[&#039;t&#039;] 	= $post_title;
+
+		$icon_id = ! empty( $default_category ) ? absint( $default_category ) : &#039;d&#039;; // d = default
+
+		if ( empty( $geodir_rest_cache_icons[ $icon_id ] ) ) {
+			$icon_url 		= &#039;&#039;;
+			$icon_width 	= 36;
+			$icon_height 	= 45;
+
+			if ( ! empty( $geodir_rest_cache_marker ) &amp;&amp; ! empty( $geodir_rest_cache_marker[ $default_category ][&#039;i&#039;] ) ) {
+				$icon_url 	= $geodir_rest_cache_marker[ $default_category ][&#039;i&#039;];
+			} else {
+				$icon_url = geodir_get_cat_icon( $default_category, false, true );
+				if ( empty( $icon_url ) ) {
+					$icon_id = &#039;d&#039;;
+					$icon_url = GeoDir_Maps::default_marker_icon( false );
+				}
+
+				if ( $default_category ) {
+					$geodir_rest_cache_marker[ $default_category ][&#039;i&#039;] = $icon_url;
+				}
+			}
+
+			if ( ! empty( $icon_url ) ) {
+				if ( ! empty( $geodir_rest_cache_marker ) &amp;&amp; ! empty( $geodir_rest_cache_marker[ $icon_url ][&#039;w&#039;] ) ) {
+					$icon_width 	= $geodir_rest_cache_marker[ $icon_url ][&#039;w&#039;];
+					$icon_height 	= $geodir_rest_cache_marker[ $icon_url ][&#039;h&#039;];
+				} else {
+					$icon_size = GeoDir_Maps::get_marker_size( trailingslashit( $geodir_icon_basedir ) . trim( $icon_url, &#039;/\\&#039; ) );
+					if ( ! empty( $icon_size ) ) {
+						$icon_width 	= $icon_size[&#039;w&#039;];
+						$icon_height 	= $icon_size[&#039;h&#039;];
+					}
+
+					$geodir_rest_cache_marker[ $icon_url ][&#039;w&#039;] = $icon_width;
+					$geodir_rest_cache_marker[ $icon_url ][&#039;h&#039;] = $icon_height;
+				}
+			}
+
+			$geodir_rest_cache_icons[ $icon_id ] = array(
+				&#039;i&#039; =&gt; $icon_url,
+				&#039;w&#039; =&gt; $icon_width,
+				&#039;h&#039; =&gt; $icon_height
+			);
+		}
+		$response[&#039;i&#039;] 	= $icon_id;
+
+		/**
+		 * Filters a marker data returned from the API.
+		 *
+		 * @param WP_REST_Response $response The response object.
+		 * @param object           $item     The original marker data.
+		 * @param WP_REST_Request  $request  Request used to generate the response.
+		 */
+		return apply_filters( &#039;geodir_rest_prepare_marker&#039;, $response, $item, $request );
+	}
+
+    /**
+     * Set Where Query.
+     *
+     * @since 2.0.0
+     *
+     * @param string $where Where.
+     * @param array $request {
+     *      An array of query request.
+     *
+     *      @type string $search Search.
+     *      @type array $post Post array.
+     *      @type array $term Term array.
+     *      @type array $tag Tag array.
+     * }
+     * @return string $where
+     */
+	public function set_query_where( $where, $request ) {
+		global $wpdb;
+
+		if ( ! empty( $request[&#039;search&#039;] ) ) {
+			$where .= &quot; AND p.post_title LIKE &#039;%&quot; . addslashes( $request[&#039;search&#039;] ) . &quot;%&#039;&quot;;
+		}
+
+		if ( ! empty( $request[&#039;post&#039;] ) &amp;&amp; is_array( $request[&#039;post&#039;] ) ) {
+			$where .= &quot; AND p.ID IN( &#039;&quot; . implode( &quot;&#039;,&#039;&quot;, $request[&#039;post&#039;] ) . &quot;&#039; )&quot;;
+		}
+
+		if ( ! empty( $request[&#039;term&#039;] ) &amp;&amp; is_array( $request[&#039;term&#039;] ) ) {
+			$terms_where = array();
+			foreach ( $request[&#039;term&#039;] as $term_id ) {
+				if ( ! empty( $term_id ) ) {
+					$term = get_term( $term_id );
+					if ( is_wp_error( $term ) || empty( $term ) ) {
+						continue;
+					}
+					if ( $term-&gt;taxonomy == $request[&#039;post_type&#039;] . &#039;category&#039; &amp;&amp; (int) $term_id &gt; 0 ) {
+						$terms_where[] = $wpdb-&gt;prepare( &quot;FIND_IN_SET( %d, pd.post_category )&quot;, array( $term_id ) );
+
+						// Include child for parent term.
+						$children = geodir_get_term_children( $term_id, $term-&gt;taxonomy );
+						if ( ! empty( $children ) ) {
+							foreach ( $children as $id =&gt; $child_term ) {
+								if ( ! empty( $child_term-&gt;count ) ) {
+									$terms_where[] = $wpdb-&gt;prepare( &quot;FIND_IN_SET( %d, pd.post_category )&quot;, array( $child_term-&gt;term_id ) );
+								}
+							}
+						}
+					} else if ( $term-&gt;taxonomy == $request[&#039;post_type&#039;] . &#039;_tags&#039; ) {
+						$terms_where[] = $wpdb-&gt;prepare( &quot;FIND_IN_SET( %s, pd.post_tags )&quot;, array( $term-&gt;name ) );
+					}
+				}
+			}
+			if ( ! empty( $terms_where ) ) {
+				$terms_where = array_unique( $terms_where );
+				$where .= &quot; AND ( &quot; . implode( &quot; OR &quot;, $terms_where ) . &quot; )&quot;;
+			}
+		}
+
+		// Tags
+		if ( ! empty( $request[&#039;tag&#039;] ) &amp;&amp; is_array( $request[&#039;tag&#039;] ) ) {
+			$tags_where = array();
+			foreach ( $request[&#039;tag&#039;] as $tag ) {
+				if ( ! empty( $tag ) ) {
+					$tags_where[] = $wpdb-&gt;prepare( &quot;FIND_IN_SET( %s, pd.post_tags )&quot;, array( $tag ) );
+				}
+			}
+			if ( ! empty( $tags_where ) ) {
+				$where .= &quot; AND ( &quot; . implode( &quot; OR &quot;, $tags_where ) . &quot; )&quot;;
+			}
+		}
+
+		// locations
+		global $geodirectory;
+
+		// Private Address
+		if ( GeoDir_Post_types::supports( $request[&#039;post_type&#039;], &#039;private_address&#039; ) ) {
+			$single_post = 0;
+
+			if ( ! empty( $request[&#039;post&#039;] ) ) {
+				$_single_post = is_array( $request[&#039;post&#039;] ) ? $request[&#039;post&#039;] : array_filter( array_map( explode( &#039;,&#039;, $request[&#039;post&#039;] ) ) );
+
+				if ( is_array( $_single_post ) &amp;&amp; count( $_single_post ) == 1 &amp;&amp; (int) $_single_post[0] &gt; 0 ) {
+					$single_post = (int) $_single_post[0];
+				}
+			}
+
+			if ( ! ( ! empty( $single_post ) &amp;&amp; geodir_user_can( &#039;see_private_address&#039;, array( &#039;post&#039; =&gt; $single_post ) ) ) ) {
+				$where .= &quot; AND ( `pd`.`private_address` IS NULL OR `pd`.`private_address` &lt;&gt; 1 ) &quot;;
+			}
+		}
+
+		if ( ! empty( $request[&#039;country&#039;] ) ) {
+			$country = $geodirectory-&gt;location-&gt;get_country_name_from_slug( $request[&#039;country&#039;] );
+			$where .= $wpdb-&gt;prepare( &quot; AND pd.country = %s &quot;, $country );
+		}
+		if ( ! empty( $request[&#039;region&#039;] ) ) {
+			$region = $geodirectory-&gt;location-&gt;get_region_name_from_slug( $request[&#039;region&#039;] );
+			$where .= $wpdb-&gt;prepare( &quot; AND pd.region = %s &quot;, $region );
+		}
+		if ( ! empty( $request[&#039;city&#039;] ) ) {
+			$city = $geodirectory-&gt;location-&gt;get_city_name_from_slug( $request[&#039;city&#039;] );
+			$where .= $wpdb-&gt;prepare( &quot; AND pd.city = %s &quot;, $city );
+		}
+		if ( ! empty( $request[&#039;neighbourhood&#039;] ) ) {
+			$neighbourhood = sanitize_title( $request[&#039;neighbourhood&#039;] );
+			$where .= $wpdb-&gt;prepare( &quot; AND pd.neighbourhood = %s &quot;, $neighbourhood );
+		}
+
+		// Limited to area
+		if ( ! empty( $request[&#039;lat&#039;] ) &amp;&amp; ! empty( $request[&#039;lon&#039;] ) ) {
+			$latitude = filter_var( $request[&#039;lat&#039;], FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION );
+			$longitude = filter_var( $request[&#039;lon&#039;], FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION );
+
+			if ( ! empty( $request[&#039;dist&#039;] ) ) {
+				$between = geodir_get_between_latlon( $latitude, $longitude, $request[&#039;dist&#039;] );
+			} else {
+				$between = geodir_get_between_latlon( $latitude, $longitude );
+			}
+			$where .= $wpdb-&gt;prepare( &quot; AND pd.latitude BETWEEN %f AND %f&quot;, $between[&#039;lat1&#039;], $between[&#039;lat2&#039;] );
+			$where .= $wpdb-&gt;prepare( &quot; AND pd.longitude BETWEEN %f AND %f&quot;, $between[&#039;lon1&#039;], $between[&#039;lon2&#039;] );
+		}
+
+		return $where;
+	}
+
+	/**
+	 * Retrieves the makers.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return array|WP_Error Array on success, or WP_Error object on failure.
+	 */
+	public function get_marker_item( $request ) {
+		$id = ! empty( $request[&#039;id&#039;] ) ? (int)$request[&#039;id&#039;] : 0;
+
+		$response		  = array();
+		$response[&#039;html&#039;] = $id &gt; 0 ? $this-&gt;marker_content( $id ) : &#039;&#039;;
+
+		return $response;
+	}
+
+    /**
+     * Get marker content.
+     *
+     * @since 2.0.0
+     *
+     * @param int $id Id.
+     * @return string $content.
+     */
+	public function marker_content( $id ) {
+		$content = GeoDir_Maps::marker_popup_content( $id );
+
+		return $content;
+	}
+
+	/**
+	 * Checks if a given request has access to read and manage markers.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return bool True if the request has read access for the item, otherwise false.
+	 */
+	public function get_marker_item_permissions_check( $request ) {
+		return $this-&gt;show_in_rest();
+	}
+
+	public function get_map_terms_filter( $request ) {
+		$tick_terms = ! empty( $request[&#039;tick_terms&#039;] ) ? $request[&#039;tick_terms&#039;] : &#039;&#039;;
+		ob_start();
+		echo GeoDir_Maps::get_categories_filter( $request[&#039;post_type&#039;], 0, true, 0, $request[&#039;map_canvas&#039;], absint( $request[&#039;child_collapse&#039;] ), $request[&#039;terms&#039;], true, $tick_terms );
+		$output = ob_get_clean();
+
+		return $output;
+	}
+}
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

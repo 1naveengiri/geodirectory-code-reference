@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">data_schemas.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_data_schemas">
+        geodir_data_schemas()
+        <a href="#function_geodir_data_schemas" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/settings/data_schemas.php"><a href="../files/geodirectory-includes-admin-settings-data-schemas.html#source-view.7">geodirectory/includes/admin/settings/data_schemas.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">7</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Schema data types, sourced from https://schema.org/docs/tree.jsonld</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_data_schemas</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">info</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>Stiofan has a PHP script to build this in his localhost.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Schema data types, sourced from https://schema.org/docs/tree.jsonld
+ *
+ * @info Stiofan has a PHP script to build this in his localhost.
+ */
+function geodir_data_schemas() {
+	return array(
+		&#039;Brand&#039; =&gt; &#039;Brand&#039;,
+		&#039;BroadcastChannel&#039; =&gt; &#039;BroadcastChannel&#039;,
+		&#039;RadioChannel&#039; =&gt; &#039;- RadioChannel&#039;,
+		&#039;AMRadioChannel&#039; =&gt; &#039;- - AMRadioChannel&#039;,
+		&#039;FMRadioChannel&#039; =&gt; &#039;- - FMRadioChannel&#039;,
+		&#039;TelevisionChannel&#039; =&gt; &#039;- TelevisionChannel&#039;,
+		&#039;JobPosting&#039; =&gt; &#039;JobPosting&#039;,
+		&#039;Airline&#039; =&gt; &#039;Airline&#039;,
+		&#039;Consortium&#039; =&gt; &#039;Consortium&#039;,
+		&#039;Corporation&#039; =&gt; &#039;Corporation&#039;,
+		&#039;EducationalOrganization&#039; =&gt; &#039;EducationalOrganization&#039;,
+		&#039;CollegeOrUniversity&#039; =&gt; &#039;- CollegeOrUniversity&#039;,
+		&#039;ElementarySchool&#039; =&gt; &#039;- ElementarySchool&#039;,
+		&#039;HighSchool&#039; =&gt; &#039;- HighSchool&#039;,
+		&#039;MiddleSchool&#039; =&gt; &#039;- MiddleSchool&#039;,
+		&#039;Preschool&#039; =&gt; &#039;- Preschool&#039;,
+		&#039;School&#039; =&gt; &#039;- School&#039;,
+		&#039;FundingScheme&#039; =&gt; &#039;FundingScheme&#039;,
+		&#039;GovernmentOrganization&#039; =&gt; &#039;GovernmentOrganization&#039;,
+		&#039;LibrarySystem&#039; =&gt; &#039;LibrarySystem&#039;,
+		&#039;LocalBusiness&#039; =&gt; &#039;LocalBusiness&#039;,
+		&#039;AnimalShelter&#039; =&gt; &#039;- AnimalShelter&#039;,
+		&#039;ArchiveOrganization&#039; =&gt; &#039;- ArchiveOrganization&#039;,
+		&#039;AutomotiveBusiness&#039; =&gt; &#039;- AutomotiveBusiness&#039;,
+		&#039;AutoBodyShop&#039; =&gt; &#039;- - AutoBodyShop&#039;,
+		&#039;AutoDealer&#039; =&gt; &#039;- - AutoDealer&#039;,
+		&#039;AutoPartsStore&#039; =&gt; &#039;- - AutoPartsStore&#039;,
+		&#039;AutoRental&#039; =&gt; &#039;- - AutoRental&#039;,
+		&#039;AutoRepair&#039; =&gt; &#039;- - AutoRepair&#039;,
+		&#039;AutoWash&#039; =&gt; &#039;- - AutoWash&#039;,
+		&#039;GasStation&#039; =&gt; &#039;- - GasStation&#039;,
+		&#039;MotorcycleDealer&#039; =&gt; &#039;- - MotorcycleDealer&#039;,
+		&#039;MotorcycleRepair&#039; =&gt; &#039;- - MotorcycleRepair&#039;,
+		&#039;ChildCare&#039; =&gt; &#039;- ChildCare&#039;,
+		&#039;Dentist&#039; =&gt; &#039;- Dentist&#039;,
+		&#039;DryCleaningOrLaundry&#039; =&gt; &#039;- DryCleaningOrLaundry&#039;,
+		&#039;EmergencyService&#039; =&gt; &#039;- EmergencyService&#039;,
+		&#039;FireStation&#039; =&gt; &#039;- - FireStation&#039;,
+		&#039;Hospital&#039; =&gt; &#039;- - Hospital&#039;,
+		&#039;PoliceStation&#039; =&gt; &#039;- - PoliceStation&#039;,
+		&#039;EmploymentAgency&#039; =&gt; &#039;- EmploymentAgency&#039;,
+		&#039;EntertainmentBusiness&#039; =&gt; &#039;- EntertainmentBusiness&#039;,
+		&#039;AdultEntertainment&#039; =&gt; &#039;- - AdultEntertainment&#039;,
+		&#039;AmusementPark&#039; =&gt; &#039;- - AmusementPark&#039;,
+		&#039;ArtGallery&#039; =&gt; &#039;- - ArtGallery&#039;,
+		&#039;Casino&#039; =&gt; &#039;- - Casino&#039;,
+		&#039;ComedyClub&#039; =&gt; &#039;- - ComedyClub&#039;,
+		&#039;MovieTheater&#039; =&gt; &#039;- - MovieTheater&#039;,
+		&#039;NightClub&#039; =&gt; &#039;- - NightClub&#039;,
+		&#039;FinancialService&#039; =&gt; &#039;- FinancialService&#039;,
+		&#039;AccountingService&#039; =&gt; &#039;- - AccountingService&#039;,
+		&#039;AutomatedTeller&#039; =&gt; &#039;- - AutomatedTeller&#039;,
+		&#039;BankOrCreditUnion&#039; =&gt; &#039;- - BankOrCreditUnion&#039;,
+		&#039;InsuranceAgency&#039; =&gt; &#039;- - InsuranceAgency&#039;,
+		&#039;FoodEstablishment&#039; =&gt; &#039;- FoodEstablishment&#039;,
+		&#039;Bakery&#039; =&gt; &#039;- - Bakery&#039;,
+		&#039;BarOrPub&#039; =&gt; &#039;- - BarOrPub&#039;,
+		&#039;Brewery&#039; =&gt; &#039;- - Brewery&#039;,
+		&#039;CafeOrCoffeeShop&#039; =&gt; &#039;- - CafeOrCoffeeShop&#039;,
+		&#039;Distillery&#039; =&gt; &#039;- - Distillery&#039;,
+		&#039;FastFoodRestaurant&#039; =&gt; &#039;- - FastFoodRestaurant&#039;,
+		&#039;IceCreamShop&#039; =&gt; &#039;- - IceCreamShop&#039;,
+		&#039;Restaurant&#039; =&gt; &#039;- - Restaurant&#039;,
+		&#039;Winery&#039; =&gt; &#039;- - Winery&#039;,
+		&#039;GovernmentOffice&#039; =&gt; &#039;- GovernmentOffice&#039;,
+		&#039;PostOffice&#039; =&gt; &#039;- - PostOffice&#039;,
+		&#039;HealthAndBeautyBusiness&#039; =&gt; &#039;- HealthAndBeautyBusiness&#039;,
+		&#039;BeautySalon&#039; =&gt; &#039;- - BeautySalon&#039;,
+		&#039;DaySpa&#039; =&gt; &#039;- - DaySpa&#039;,
+		&#039;HairSalon&#039; =&gt; &#039;- - HairSalon&#039;,
+		&#039;HealthClub&#039; =&gt; &#039;- - HealthClub&#039;,
+		&#039;NailSalon&#039; =&gt; &#039;- - NailSalon&#039;,
+		&#039;TattooParlor&#039; =&gt; &#039;- - TattooParlor&#039;,
+		&#039;HomeAndConstructionBusiness&#039; =&gt; &#039;- HomeAndConstructionBusiness&#039;,
+		&#039;Electrician&#039; =&gt; &#039;- - Electrician&#039;,
+		&#039;GeneralContractor&#039; =&gt; &#039;- - GeneralContractor&#039;,
+		&#039;HVACBusiness&#039; =&gt; &#039;- - HVACBusiness&#039;,
+		&#039;HousePainter&#039; =&gt; &#039;- - HousePainter&#039;,
+		&#039;Locksmith&#039; =&gt; &#039;- - Locksmith&#039;,
+		&#039;MovingCompany&#039; =&gt; &#039;- - MovingCompany&#039;,
+		&#039;Plumber&#039; =&gt; &#039;- - Plumber&#039;,
+		&#039;RoofingContractor&#039; =&gt; &#039;- - RoofingContractor&#039;,
+		&#039;InternetCafe&#039; =&gt; &#039;- InternetCafe&#039;,
+		&#039;LegalService&#039; =&gt; &#039;- LegalService&#039;,
+		&#039;Attorney&#039; =&gt; &#039;- - Attorney&#039;,
+		&#039;Notary&#039; =&gt; &#039;- - Notary&#039;,
+		&#039;Library&#039; =&gt; &#039;- Library&#039;,
+		&#039;LodgingBusiness&#039; =&gt; &#039;- LodgingBusiness&#039;,
+		&#039;BedAndBreakfast&#039; =&gt; &#039;- - BedAndBreakfast&#039;,
+		&#039;Campground&#039; =&gt; &#039;- - Campground&#039;,
+		&#039;Hostel&#039; =&gt; &#039;- - Hostel&#039;,
+		&#039;Hotel&#039; =&gt; &#039;- - Hotel&#039;,
+		&#039;Motel&#039; =&gt; &#039;- - Motel&#039;,
+		&#039;Resort&#039; =&gt; &#039;- - Resort&#039;,
+		&#039;MedicalBusiness&#039; =&gt; &#039;- MedicalBusiness&#039;,
+		&#039;CommunityHealth&#039; =&gt; &#039;- - CommunityHealth&#039;,
+		&#039;Dermatology&#039; =&gt; &#039;- - Dermatology&#039;,
+		&#039;DietNutrition&#039; =&gt; &#039;- - DietNutrition&#039;,
+		&#039;Emergency&#039; =&gt; &#039;- - Emergency&#039;,
+		&#039;Geriatric&#039; =&gt; &#039;- - Geriatric&#039;,
+		&#039;Gynecologic&#039; =&gt; &#039;- - Gynecologic&#039;,
+		&#039;MedicalClinic&#039; =&gt; &#039;- - MedicalClinic&#039;,
+		&#039;CovidTestingFacility&#039; =&gt; &#039;- - - CovidTestingFacility&#039;,
+		&#039;Midwifery&#039; =&gt; &#039;- - Midwifery&#039;,
+		&#039;Nursing&#039; =&gt; &#039;- - Nursing&#039;,
+		&#039;Obstetric&#039; =&gt; &#039;- - Obstetric&#039;,
+		&#039;Oncologic&#039; =&gt; &#039;- - Oncologic&#039;,
+		&#039;Optician&#039; =&gt; &#039;- - Optician&#039;,
+		&#039;Optometric&#039; =&gt; &#039;- - Optometric&#039;,
+		&#039;Otolaryngologic&#039; =&gt; &#039;- - Otolaryngologic&#039;,
+		&#039;Pediatric&#039; =&gt; &#039;- - Pediatric&#039;,
+		&#039;Pharmacy&#039; =&gt; &#039;- - Pharmacy&#039;,
+		&#039;Physician&#039; =&gt; &#039;- - Physician&#039;,
+		&#039;Physiotherapy&#039; =&gt; &#039;- - Physiotherapy&#039;,
+		&#039;PlasticSurgery&#039; =&gt; &#039;- - PlasticSurgery&#039;,
+		&#039;Podiatric&#039; =&gt; &#039;- - Podiatric&#039;,
+		&#039;PrimaryCare&#039; =&gt; &#039;- - PrimaryCare&#039;,
+		&#039;Psychiatric&#039; =&gt; &#039;- - Psychiatric&#039;,
+		&#039;PublicHealth&#039; =&gt; &#039;- - PublicHealth&#039;,
+		&#039;ProfessionalService&#039; =&gt; &#039;- ProfessionalService&#039;,
+		&#039;RadioStation&#039; =&gt; &#039;- RadioStation&#039;,
+		&#039;RealEstateAgent&#039; =&gt; &#039;- RealEstateAgent&#039;,
+		&#039;RecyclingCenter&#039; =&gt; &#039;- RecyclingCenter&#039;,
+		&#039;SelfStorage&#039; =&gt; &#039;- SelfStorage&#039;,
+		&#039;ShoppingCenter&#039; =&gt; &#039;- ShoppingCenter&#039;,
+		&#039;SportsActivityLocation&#039; =&gt; &#039;- SportsActivityLocation&#039;,
+		&#039;BowlingAlley&#039; =&gt; &#039;- - BowlingAlley&#039;,
+		&#039;ExerciseGym&#039; =&gt; &#039;- - ExerciseGym&#039;,
+		&#039;GolfCourse&#039; =&gt; &#039;- - GolfCourse&#039;,
+		&#039;PublicSwimmingPool&#039; =&gt; &#039;- - PublicSwimmingPool&#039;,
+		&#039;SkiResort&#039; =&gt; &#039;- - SkiResort&#039;,
+		&#039;SportsClub&#039; =&gt; &#039;- - SportsClub&#039;,
+		&#039;StadiumOrArena&#039; =&gt; &#039;- - StadiumOrArena&#039;,
+		&#039;TennisComplex&#039; =&gt; &#039;- - TennisComplex&#039;,
+		&#039;Store&#039; =&gt; &#039;- Store&#039;,
+		&#039;BikeStore&#039; =&gt; &#039;- - BikeStore&#039;,
+		&#039;BookStore&#039; =&gt; &#039;- - BookStore&#039;,
+		&#039;ClothingStore&#039; =&gt; &#039;- - ClothingStore&#039;,
+		&#039;ComputerStore&#039; =&gt; &#039;- - ComputerStore&#039;,
+		&#039;ConvenienceStore&#039; =&gt; &#039;- - ConvenienceStore&#039;,
+		&#039;DepartmentStore&#039; =&gt; &#039;- - DepartmentStore&#039;,
+		&#039;ElectronicsStore&#039; =&gt; &#039;- - ElectronicsStore&#039;,
+		&#039;Florist&#039; =&gt; &#039;- - Florist&#039;,
+		&#039;FurnitureStore&#039; =&gt; &#039;- - FurnitureStore&#039;,
+		&#039;GardenStore&#039; =&gt; &#039;- - GardenStore&#039;,
+		&#039;GroceryStore&#039; =&gt; &#039;- - GroceryStore&#039;,
+		&#039;HardwareStore&#039; =&gt; &#039;- - HardwareStore&#039;,
+		&#039;HobbyShop&#039; =&gt; &#039;- - HobbyShop&#039;,
+		&#039;HomeGoodsStore&#039; =&gt; &#039;- - HomeGoodsStore&#039;,
+		&#039;JewelryStore&#039; =&gt; &#039;- - JewelryStore&#039;,
+		&#039;LiquorStore&#039; =&gt; &#039;- - LiquorStore&#039;,
+		&#039;MensClothingStore&#039; =&gt; &#039;- - MensClothingStore&#039;,
+		&#039;MobilePhoneStore&#039; =&gt; &#039;- - MobilePhoneStore&#039;,
+		&#039;MovieRentalStore&#039; =&gt; &#039;- - MovieRentalStore&#039;,
+		&#039;MusicStore&#039; =&gt; &#039;- - MusicStore&#039;,
+		&#039;OfficeEquipmentStore&#039; =&gt; &#039;- - OfficeEquipmentStore&#039;,
+		&#039;OutletStore&#039; =&gt; &#039;- - OutletStore&#039;,
+		&#039;PawnShop&#039; =&gt; &#039;- - PawnShop&#039;,
+		&#039;PetStore&#039; =&gt; &#039;- - PetStore&#039;,
+		&#039;ShoeStore&#039; =&gt; &#039;- - ShoeStore&#039;,
+		&#039;SportingGoodsStore&#039; =&gt; &#039;- - SportingGoodsStore&#039;,
+		&#039;TireShop&#039; =&gt; &#039;- - TireShop&#039;,
+		&#039;ToyStore&#039; =&gt; &#039;- - ToyStore&#039;,
+		&#039;WholesaleStore&#039; =&gt; &#039;- - WholesaleStore&#039;,
+		&#039;TelevisionStation&#039; =&gt; &#039;- TelevisionStation&#039;,
+		&#039;TouristInformationCenter&#039; =&gt; &#039;- TouristInformationCenter&#039;,
+		&#039;TravelAgency&#039; =&gt; &#039;- TravelAgency&#039;,
+		&#039;MedicalOrganization&#039; =&gt; &#039;MedicalOrganization&#039;,
+		&#039;DiagnosticLab&#039; =&gt; &#039;- DiagnosticLab&#039;,
+		&#039;VeterinaryCare&#039; =&gt; &#039;- VeterinaryCare&#039;,
+		&#039;NGO&#039; =&gt; &#039;NGO&#039;,
+		&#039;NewsMediaOrganization&#039; =&gt; &#039;NewsMediaOrganization&#039;,
+		&#039;PerformingGroup&#039; =&gt; &#039;PerformingGroup&#039;,
+		&#039;DanceGroup&#039; =&gt; &#039;- DanceGroup&#039;,
+		&#039;MusicGroup&#039; =&gt; &#039;- MusicGroup&#039;,
+		&#039;TheaterGroup&#039; =&gt; &#039;- TheaterGroup&#039;,
+		&#039;Project&#039; =&gt; &#039;Project&#039;,
+		&#039;FundingAgency&#039; =&gt; &#039;- FundingAgency&#039;,
+		&#039;ResearchProject&#039; =&gt; &#039;- ResearchProject&#039;,
+		&#039;SportsOrganization&#039; =&gt; &#039;SportsOrganization&#039;,
+		&#039;SportsTeam&#039; =&gt; &#039;- SportsTeam&#039;,
+		&#039;WorkersUnion&#039; =&gt; &#039;WorkersUnion&#039;,
+		&#039;Accommodation&#039; =&gt; &#039;Accommodation&#039;,
+		&#039;Apartment&#039; =&gt; &#039;- Apartment&#039;,
+		&#039;CampingPitch&#039; =&gt; &#039;- CampingPitch&#039;,
+		&#039;House&#039; =&gt; &#039;- House&#039;,
+		&#039;SingleFamilyResidence&#039; =&gt; &#039;- - SingleFamilyResidence&#039;,
+		&#039;Room&#039; =&gt; &#039;- Room&#039;,
+		&#039;HotelRoom&#039; =&gt; &#039;- - HotelRoom&#039;,
+		&#039;MeetingRoom&#039; =&gt; &#039;- - MeetingRoom&#039;,
+		&#039;Suite&#039; =&gt; &#039;- Suite&#039;,
+		&#039;AdministrativeArea&#039; =&gt; &#039;AdministrativeArea&#039;,
+		&#039;City&#039; =&gt; &#039;- City&#039;,
+		&#039;Country&#039; =&gt; &#039;- Country&#039;,
+		&#039;SchoolDistrict&#039; =&gt; &#039;- SchoolDistrict&#039;,
+		&#039;State&#039; =&gt; &#039;- State&#039;,
+		&#039;CivicStructure&#039; =&gt; &#039;CivicStructure&#039;,
+		&#039;Airport&#039; =&gt; &#039;- Airport&#039;,
+		&#039;Aquarium&#039; =&gt; &#039;- Aquarium&#039;,
+		&#039;Beach&#039; =&gt; &#039;- Beach&#039;,
+		&#039;Bridge&#039; =&gt; &#039;- Bridge&#039;,
+		&#039;BusStation&#039; =&gt; &#039;- BusStation&#039;,
+		&#039;BusStop&#039; =&gt; &#039;- BusStop&#039;,
+		&#039;Cemetery&#039; =&gt; &#039;- Cemetery&#039;,
+		&#039;Crematorium&#039; =&gt; &#039;- Crematorium&#039;,
+		&#039;EventVenue&#039; =&gt; &#039;- EventVenue&#039;,
+		&#039;GovernmentBuilding&#039; =&gt; &#039;- GovernmentBuilding&#039;,
+		&#039;CityHall&#039; =&gt; &#039;- - CityHall&#039;,
+		&#039;Courthouse&#039; =&gt; &#039;- - Courthouse&#039;,
+		&#039;DefenceEstablishment&#039; =&gt; &#039;- - DefenceEstablishment&#039;,
+		&#039;Embassy&#039; =&gt; &#039;- - Embassy&#039;,
+		&#039;LegislativeBuilding&#039; =&gt; &#039;- - LegislativeBuilding&#039;,
+		&#039;Museum&#039; =&gt; &#039;- Museum&#039;,
+		&#039;MusicVenue&#039; =&gt; &#039;- MusicVenue&#039;,
+		&#039;Park&#039; =&gt; &#039;- Park&#039;,
+		&#039;ParkingFacility&#039; =&gt; &#039;- ParkingFacility&#039;,
+		&#039;PerformingArtsTheater&#039; =&gt; &#039;- PerformingArtsTheater&#039;,
+		&#039;PlaceOfWorship&#039; =&gt; &#039;- PlaceOfWorship&#039;,
+		&#039;BuddhistTemple&#039; =&gt; &#039;- - BuddhistTemple&#039;,
+		&#039;Church&#039; =&gt; &#039;- - Church&#039;,
+		&#039;CatholicChurch&#039; =&gt; &#039;- - - CatholicChurch&#039;,
+		&#039;HinduTemple&#039; =&gt; &#039;- - HinduTemple&#039;,
+		&#039;Mosque&#039; =&gt; &#039;- - Mosque&#039;,
+		&#039;Synagogue&#039; =&gt; &#039;- - Synagogue&#039;,
+		&#039;Playground&#039; =&gt; &#039;- Playground&#039;,
+		&#039;PublicToilet&#039; =&gt; &#039;- PublicToilet&#039;,
+		&#039;RVPark&#039; =&gt; &#039;- RVPark&#039;,
+		&#039;SubwayStation&#039; =&gt; &#039;- SubwayStation&#039;,
+		&#039;TaxiStand&#039; =&gt; &#039;- TaxiStand&#039;,
+		&#039;TrainStation&#039; =&gt; &#039;- TrainStation&#039;,
+		&#039;Zoo&#039; =&gt; &#039;- Zoo&#039;,
+		&#039;Landform&#039; =&gt; &#039;Landform&#039;,
+		&#039;BodyOfWater&#039; =&gt; &#039;- BodyOfWater&#039;,
+		&#039;Canal&#039; =&gt; &#039;- - Canal&#039;,
+		&#039;LakeBodyOfWater&#039; =&gt; &#039;- - LakeBodyOfWater&#039;,
+		&#039;OceanBodyOfWater&#039; =&gt; &#039;- - OceanBodyOfWater&#039;,
+		&#039;Pond&#039; =&gt; &#039;- - Pond&#039;,
+		&#039;Reservoir&#039; =&gt; &#039;- - Reservoir&#039;,
+		&#039;RiverBodyOfWater&#039; =&gt; &#039;- - RiverBodyOfWater&#039;,
+		&#039;SeaBodyOfWater&#039; =&gt; &#039;- - SeaBodyOfWater&#039;,
+		&#039;Waterfall&#039; =&gt; &#039;- - Waterfall&#039;,
+		&#039;Continent&#039; =&gt; &#039;- Continent&#039;,
+		&#039;Mountain&#039; =&gt; &#039;- Mountain&#039;,
+		&#039;Volcano&#039; =&gt; &#039;- Volcano&#039;,
+		&#039;LandmarksOrHistoricalBuildings&#039; =&gt; &#039;LandmarksOrHistoricalBuildings&#039;,
+		&#039;Residence&#039; =&gt; &#039;Residence&#039;,
+		&#039;ApartmentComplex&#039; =&gt; &#039;- ApartmentComplex&#039;,
+		&#039;GatedResidenceCommunity&#039; =&gt; &#039;- GatedResidenceCommunity&#039;,
+		&#039;TouristAttraction&#039; =&gt; &#039;TouristAttraction&#039;,
+		&#039;TouristDestination&#039; =&gt; &#039;TouristDestination&#039;,
+		&#039;IndividualProduct&#039; =&gt; &#039;IndividualProduct&#039;,
+		&#039;ProductModel&#039; =&gt; &#039;ProductModel&#039;,
+		&#039;SomeProducts&#039; =&gt; &#039;SomeProducts&#039;,
+		&#039;Vehicle&#039; =&gt; &#039;Vehicle&#039;,
+		&#039;BusOrCoach&#039; =&gt; &#039;- BusOrCoach&#039;,
+		&#039;Car&#039; =&gt; &#039;- Car&#039;,
+		&#039;Motorcycle&#039; =&gt; &#039;- Motorcycle&#039;,
+		&#039;MotorizedBicycle&#039; =&gt; &#039;- MotorizedBicycle&#039;,
+		&#039;Person&#039; =&gt; &#039;Person&#039;,
+
+	);
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

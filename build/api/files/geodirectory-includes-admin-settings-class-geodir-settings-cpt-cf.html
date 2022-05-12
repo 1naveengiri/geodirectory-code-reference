@@ -1,0 +1,2659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-settings-cpt-cf.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory CPT Settings
+ *
+ * @author      AyeCode
+ * @category    Admin
+ * @package     GeoDirectory/Admin
+ * @version     2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit; // Exit if accessed directly
+}
+
+if ( ! class_exists( &#039;GeoDir_Settings_Cpt_Cf&#039;, false ) ) :
+
+	/**
+	 * GeoDir_Admin_Settings_General.
+	 */
+	class GeoDir_Settings_Cpt_Cf extends GeoDir_Settings_Page {
+
+		/**
+		 * Page.
+		 *
+		 * @var string
+		 */
+		private static $page = &#039;&#039;;
+		
+		/**
+		 * Post type.
+		 *
+		 * @var string
+		 */
+		private static $post_type = &#039;&#039;;
+
+		/**
+		 * Sub tab.
+		 *
+		 * @var string
+		 */
+		private static $sub_tab = &#039;&#039;;
+
+		/**
+		 * Constructor.
+		 */
+		public function __construct() {
+
+			self::$page = ! empty( $_REQUEST[&#039;page&#039;] ) ? sanitize_title( $_REQUEST[&#039;page&#039;] ) : &#039;&#039;;
+			self::$post_type = ( ! empty( $_REQUEST[&#039;post_type&#039;] ) &amp;&amp; is_scalar( $_REQUEST[&#039;post_type&#039;] ) ) ? sanitize_title( $_REQUEST[&#039;post_type&#039;] ) : &#039;gd_place&#039;;
+			self::$sub_tab   = ! empty( $_REQUEST[&#039;tab&#039;] ) ? sanitize_title( $_REQUEST[&#039;tab&#039;] ) : &#039;general&#039;;
+
+
+			$this-&gt;id    = &#039;general&#039;;
+			$this-&gt;label = __( &#039;Custom Fields&#039;, &#039;geodirectory&#039; );
+
+			// Init hooks
+			$this-&gt;init_hooks();
+		}
+
+		/**
+		 * Init custom fields hooks.
+		 *
+		 * @since 2.1.1.4
+		 *
+		 * @return mixed
+		 */
+		public function init_hooks() {
+			global $geodir_cpt_cf_init;
+
+			// Prevent executing hooks twice.
+			if ( $geodir_cpt_cf_init ) {
+				return;
+			}
+
+			$geodir_cpt_cf_init = true;
+
+			// Init the CF extra fields
+			GeoDir_Settings_Cpt_Cf_Extras::instance();
+
+			if ( self::$page == self::$post_type.&#039;-settings&#039; ) {
+				add_filter( &#039;geodir_settings_tabs_array&#039;, array( $this, &#039;add_settings_page&#039; ), 20 );
+				add_action( &#039;geodir_settings_&#039; . $this-&gt;id, array( $this, &#039;output&#039; ) );
+				//add_action( &#039;geodir_sections_&#039; . $this-&gt;id, array( $this, &#039;output_toggle_advanced&#039; ) );
+				//add_action( &#039;geodir_settings_save_&#039; . $this-&gt;id, array( $this, &#039;save&#039; ) );
+				//add_action( &#039;geodir_sections_&#039; . $this-&gt;id, array( $this, &#039;output_sections&#039; ) );
+				//add_action( &#039;geodir_manage_available_fields&#039;, array( $this, &#039;standard_fields&#039; ) );
+
+				add_action( &#039;geodir_manage_available_fields&#039;, array( $this, &#039;output_standard_fields&#039; ) );
+				add_action( &#039;geodir_manage_available_fields_predefined&#039;, array( $this, &#039;output_predefined_fields&#039; ) );
+				add_action( &#039;geodir_manage_available_fields_custom&#039;, array( $this, &#039;output_custom_fields&#039; ) );
+			}
+
+			add_action( &#039;admin_footer&#039;, array( $this, &#039;font_awesome_select&#039; ) );
+		}
+
+		/**
+		 * Get sections.
+		 *
+		 * @return array
+		 */
+		public function get_sections() {
+
+			$sections = array(
+				&#039;&#039; =&gt; __( &#039;Custom Fields&#039;, &#039;geodirectory&#039; ),
+				//	&#039;location&#039;       =&gt; __( &#039;Custom fields&#039;, &#039;geodirectory&#039; ),
+				//	&#039;pages&#039; 	=&gt; __( &#039;Sorting options&#039;, &#039;geodirectory&#039; ),
+				//&#039;dummy_data&#039; 	=&gt; __( &#039;Dummy Data&#039;, &#039;geodirectory&#039; ),
+				//&#039;uninstall&#039; 	=&gt; __( &#039;Uninstall&#039;, &#039;geodirectory&#039; ),
+			);
+
+			return apply_filters( &#039;geodir_get_sections_&#039; . $this-&gt;id, $sections );
+		}
+		
+
+		/**
+		 * Output the settings.
+		 */
+		public function output() {
+			global $hide_save_button;
+
+			$hide_save_button = true;
+
+			$listing_type = self::$post_type;
+
+			$sub_tab = self::$sub_tab;
+
+			include( dirname( __FILE__ ) . &#039;/../views/html-admin-settings-cpt-cf.php&#039; );
+		}
+
+		/**
+		 * Returns heading for the CPT settings left panel.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 * @return string The page heading.
+		 */
+		public static function left_panel_title() {
+			return sprintf( __( &#039;Fields&#039;, &#039;geodirectory&#039; ), geodir_get_post_type_singular_label( self::$post_type, false, true ) );
+		}
+
+
+		/**
+		 * Returns description for given sub tab - available fields box.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 * @return string The box description.
+		 */
+		public function left_panel_note() {
+			return sprintf( __( &#039;Click on any box below to add a field of that type to the add %s listing form. You can use a fieldset to group your fields.&#039;, &#039;geodirectory&#039; ), geodir_get_post_type_singular_label( self::$post_type, false, true ) );
+		}
+
+		/**
+		 * Output the admin cpt settings fields left panel content.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 */
+		public function left_panel_content() {
+
+			?&gt;
+			&lt;h3 class=&quot;h6 text-muted&quot;&gt;&lt;?php _e( &#039;Standard Fields&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/h3&gt;
+
+			&lt;div class=&quot;inside&quot;&gt;
+
+				&lt;div id=&quot;gd-form-builder-tab&quot; class=&quot;gd-form-builder-tab gd-tabs-panel&quot;&gt;
+
+					&lt;?php
+					/**
+					 * Adds the available fields to the custom fields settings page per post type.
+					 *
+					 * @since 1.0.0
+					 *
+					 * @param string $sub_tab The current settings tab name.
+					 */
+					do_action( &#039;geodir_manage_available_fields&#039;, self::$sub_tab ); ?&gt;
+
+					&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+
+			&lt;h3 class=&quot;h6  text-muted&quot;&gt;&lt;?php _e( &#039;Predefined Fields&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/h3&gt;
+			&lt;div class=&quot;inside&quot;&gt;
+
+				&lt;div id=&quot;gd-form-builder-tab-predefined&quot; class=&quot;gd-form-builder-tab gd-tabs-panel&quot;&gt;
+
+					&lt;?php
+					/**
+					 * Adds the available fields to the custom fields predefined settings page per post type.
+					 *
+					 * @since 1.6.9
+					 *
+					 * @param string $sub_tab The current settings tab name.
+					 */
+					do_action( &#039;geodir_manage_available_fields_predefined&#039;, self::$sub_tab ); ?&gt;
+
+					&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+
+			&lt;h3 class=&quot;h6  text-muted&quot;&gt;&lt;?php _e( &#039;Custom Fields&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/h3&gt;
+			&lt;div class=&quot;inside&quot;&gt;
+
+				&lt;div id=&quot;gd-form-builder-tab&quot; class=&quot;gd-tabs-panel&quot;&gt;
+
+					&lt;?php
+					/**
+					 * Adds the available fields to the custom fields custom added settings page per post type.
+					 *
+					 * @since 1.6.9
+					 *
+					 * @param string $sub_tab The current settings tab name.
+					 */
+					do_action( &#039;geodir_manage_available_fields_custom&#039;, self::$sub_tab ); ?&gt;
+
+					&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+			&lt;?php
+
+		}
+
+
+		/**
+		 * Adds admin html for custom fields available fields.
+		 *
+		 * @since 1.0.0
+		 * @since 1.6.9 Added
+		 *
+		 * @param string $type The custom field type, predefined, custom or blank for default
+		 *
+		 * @package GeoDirectory
+		 */
+		public function output_standard_fields() {
+			$listing_type = self::$post_type;
+
+			$cfs = self::fields_standard( self::$post_type );
+			?&gt;
+			&lt;ul class=&quot;row row-cols-1 px-2 mb-0&quot;&gt;
+				&lt;li class=&quot;gd-cf-tooltip-wrap col px-1&quot;&gt;
+					&lt;a id=&quot;gd-fieldset&quot;
+					   class=&quot;gd-draggable-form-items gd-fieldset btn btn-sm d-block m-0 btn-outline-gray text-dark text-left&quot;
+					   href=&quot;javascript:void(0);&quot;
+					   data-field-custom-type=&quot;&quot;
+					   data-field-type=&quot;fieldset&quot;
+					   data-field-type-key=&quot;fieldset&quot;&gt;
+
+						&lt;i class=&quot;fas fa-long-arrow-alt-left &quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+						&lt;i class=&quot;fas fa-long-arrow-alt-right &quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+						&lt;?php _e( &#039;Fieldset (section separator)&#039;, &#039;geodirectory&#039; ); ?&gt;
+
+						&lt;span class=&quot;gd-help-tip gd-help-tip-no-margin dashicons dashicons-editor-help text-muted float-right&quot; data-toggle=&quot;tooltip&quot; title=&quot;&lt;?php _e( &#039;This adds a section separator with a title.&#039;, &#039;geodirectory&#039; );?&gt;&quot;&gt;&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+
+			&lt;?php
+
+
+			if ( ! empty( $cfs ) ) {
+				echo &#039;&lt;ul class=&quot;row row-cols-2 px-2&quot;&gt;&#039;;
+				foreach ( $cfs as $id =&gt; $cf ) {
+					include( dirname( __FILE__ ) . &#039;/../views/html-admin-settings-cpt-cf-option-item.php&#039; );
+				}
+				echo &#039;&lt;/ul&gt;&#039;;
+			} else {
+				_e( &#039;There are no custom fields here yet.&#039;, &#039;geodirectory&#039; );
+			}
+
+		}
+
+		/**
+		 * Adds admin html for custom fields available fields.
+		 *
+		 * @since 1.0.0
+		 * @since 1.6.9 Added
+		 *
+		 * @param string $type The custom field type, predefined, custom or blank for default
+		 *
+		 * @package GeoDirectory
+		 */
+		public function output_predefined_fields() {
+			$listing_type = self::$post_type;
+
+			$cfs = self::fields_predefined( $listing_type );
+
+			if ( ! empty( $cfs ) ) {
+				echo &#039;&lt;ul class=&quot;row row-cols-2 px-2&quot;&gt;&#039;;
+				foreach ( $cfs as $id =&gt; $cf ) {
+					include( dirname( __FILE__ ) . &#039;/../views/html-admin-settings-cpt-cf-option-item.php&#039; );
+				}
+				echo &#039;&lt;/ul&gt;&#039;;
+			} else {
+				_e( &#039;There are no custom fields here yet.&#039;, &#039;geodirectory&#039; );
+			}
+
+		}
+
+		/**
+		 * Adds admin html for custom fields available fields.
+		 *
+		 * @since 1.0.0
+		 * @since 1.6.9 Added
+		 *
+		 * @param string $type The custom field type, predefined, custom or blank for default
+		 *
+		 * @package GeoDirectory
+		 */
+		public function output_custom_fields() {
+			$listing_type = self::$post_type;
+
+			$cfs = self::fields_custom( $listing_type );
+
+			if ( ! empty( $cfs ) ) {
+				echo &#039;&lt;ul class=&quot;row row-cols-2 px-2&quot;&gt;&#039;;
+				foreach ( $cfs as $id =&gt; $cf ) {
+					include( dirname( __FILE__ ) . &#039;/../views/html-admin-settings-cpt-cf-option-item.php&#039; );
+				}
+				echo &#039;&lt;/ul&gt;&#039;;
+			} else {
+				_e( &#039;There are no custom fields here yet.&#039;, &#039;geodirectory&#039; );
+			}
+
+		}
+
+		/**
+		 * Returns the array of custom fields that can be used.
+		 *
+		 * @since 1.6.9
+		 * @package GeoDirectory
+		 */
+		public static function fields_custom( $post_type = &#039;&#039; ) {
+
+			$custom_fields = array();
+
+			/**
+			 * @see `geodir_custom_fields`
+			 */
+			return apply_filters( &#039;geodir_custom_fields_custom&#039;, $custom_fields, $post_type );
+		}
+
+
+		/**
+		 * Returns the array of custom fields that can be used.
+		 *
+		 * @since 1.6.6
+		 * @package GeoDirectory
+		 */
+		public static function fields_standard( $post_type ) {
+
+			$custom_fields = array(
+				&#039;text&#039;        =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;text&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-text&#039;,
+					&#039;icon&#039;        =&gt; &#039;fas fa-minus&#039;,
+					&#039;name&#039;        =&gt; __( &#039;Text&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Add any sort of text field, text or numbers&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;datepicker&#039;  =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;datepicker&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-datepicker&#039;,
+					&#039;icon&#039;        =&gt; &#039;fas fa-calendar&#039;,
+					&#039;name&#039;        =&gt; __( &#039;Date&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a date picker.&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;textarea&#039;    =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;textarea&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-textarea&#039;,
+					&#039;icon&#039;        =&gt; &#039;fas fa-bars&#039;,
+					&#039;name&#039;        =&gt; __( &#039;Textarea&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a textarea&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;time&#039;        =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;time&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-time&#039;,
+					&#039;icon&#039;        =&gt; &#039;fas fa-clock&#039;,
+					&#039;name&#039;        =&gt; __( &#039;Time&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a time picker&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;checkbox&#039;    =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;checkbox&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-checkbox&#039;,
+					&#039;icon&#039;        =&gt; &#039;fas fa-check-square&#039;,
+					&#039;name&#039;        =&gt; __( &#039;Checkbox&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a checkbox&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;phone&#039;       =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;phone&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-phone&#039;,
+					&#039;icon&#039;        =&gt; &#039;fas fa-phone&#039;,
+					&#039;name&#039;        =&gt; __( &#039;Phone&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a phone input&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;radio&#039;       =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;radio&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-radio&#039;,
+					&#039;icon&#039;        =&gt; &#039;far fa-dot-circle&#039;,
+					&#039;name&#039;        =&gt; __( &#039;Radio&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a radio input&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;email&#039;       =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;email&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-email&#039;,
+					&#039;icon&#039;        =&gt; &#039;far fa-envelope&#039;,
+					&#039;name&#039;        =&gt; __( &#039;Email&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a email input&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;select&#039;      =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;select&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-select&#039;,
+					&#039;icon&#039;        =&gt; &#039;fas fa-caret-square-down&#039;,
+					&#039;name&#039;        =&gt; __( &#039;Select&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a select input&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;multiselect&#039; =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;multiselect&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-multiselect&#039;,
+					&#039;icon&#039;        =&gt; &#039;fas fa-caret-square-down&#039;,
+					&#039;name&#039;        =&gt; __( &#039;Multi Select&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a multiselect input&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;url&#039;         =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;url&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-url&#039;,
+					&#039;icon&#039;        =&gt; &#039;fas fa-link&#039;,
+					&#039;name&#039;        =&gt; __( &#039;URL&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a url input&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;html&#039;        =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;html&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-html&#039;,
+					&#039;icon&#039;        =&gt; &#039;fas fa-code&#039;,
+					&#039;name&#039;        =&gt; __( &#039;HTML&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a html input textarea&#039;, &#039;geodirectory&#039; )
+				),
+				&#039;file&#039;        =&gt; array(
+					&#039;field_type&#039;  =&gt; &#039;file&#039;,
+					&#039;class&#039;       =&gt; &#039;gd-file&#039;,
+					&#039;icon&#039;        =&gt; &#039;far fa-file&#039;,
+					&#039;name&#039;        =&gt; __( &#039;File Upload&#039;, &#039;geodirectory&#039; ),
+					&#039;description&#039; =&gt; __( &#039;Adds a file input&#039;, &#039;geodirectory&#039; )
+				)
+			);
+
+			/**
+			 * Filter the custom fields array to be able to add or remove items.
+			 *
+			 * @since 1.6.6
+			 *
+			 * @param array $custom_fields {
+			 *     The custom fields array to be filtered.
+			 *
+			 * @type string $field_type The type of field, eg: text, datepicker, textarea, time, checkbox, phone, radio, email, select, multiselect, url, html, file.
+			 * @type string $class The class for the field in backend.
+			 * @type string $icon Can be font-awesome class name or icon image url.
+			 * @type string $name The name of the field.
+			 * @type string $description A short description about the field.
+			 * @type array $defaults {
+			 *                    Optional. Used to set the default value of the field.
+			 *
+			 * @type string data_type The SQL data type for the field. VARCHAR, TEXT, TIME, TINYINT, INT, FLOAT, DATE
+			 * @type int decimal_point limit if using FLOAT data_type
+			 * @type string admin_title The admin title for the field.
+			 * @type string frontend_title This will be the title for the field on the frontend.
+			 * @type string frontend_desc This will be shown below the field on the add listing form.
+			 * @type string htmlvar_name This is a unique identifier used in the HTML, it MUST NOT contain spaces or special characters.
+			 * @type bool is_active If false the field will not be displayed anywhere.
+			 * @type bool for_admin_use If true then only site admin can see and edit this field.
+			 * @type string default_value The default value for the input on the add listing page.
+			 * @type string show_in The locations to show in. [detail],[moreinfo],[listing],[owntab],[mapbubble]
+			 * @type bool is_required If true the field will be required on the add listing page.
+			 * @type string option_values The option values for select and multiselect only
+			 * @type string validation_pattern HTML5 validation pattern (text input only by default).
+			 * @type string validation_msg HTML5 validation message (text input only by default).
+			 * @type string required_msg Required warning message.
+			 * @type string field_icon Icon url or font awesome class.
+			 * @type string css_class Field custom css class for field custom style.
+			 * @type bool cat_sort If true the field will appear in the category sort options, if false the field will be hidden, leave blank to show option.
+			 * @type bool cat_sort If true the field will appear in the advanced search sort options, if false the field will be hidden, leave blank to show option. (advanced search addon required)
+			 *     }
+			 * }
+			 *
+			 * @param string $post_type The post type requested.
+			 */
+			return apply_filters( &#039;geodir_custom_fields&#039;, $custom_fields, $post_type );
+		}
+
+
+		/**
+		 * Returns the array of custom fields that can be used.
+		 *
+		 * @param string $post_type The post type being added.
+		 *
+		 * @since 1.6.9
+		 * @package GeoDirectory
+		 * @see `geodir_custom_field_save` for array details.
+		 */
+		public static function fields_predefined( $post_type ) {
+
+			$custom_fields = array();
+
+
+			// Business Hours
+			$custom_fields[&#039;business_hours&#039;] = array(
+                &#039;field_type&#039;  =&gt; &#039;business_hours&#039;,
+                &#039;class&#039;       =&gt; &#039;gd-business-hours&#039;,
+                &#039;icon&#039;        =&gt; &#039;fas fa-clock&#039;,
+                &#039;name&#039;        =&gt; __( &#039;Business Hours&#039;, &#039;geodirectory&#039; ),
+                &#039;description&#039; =&gt; __( &#039;Adds a business hours input. This can display when the listing is open/closed/&#039;, &#039;geodirectory&#039; ),
+                &#039;single_use&#039;         =&gt; &#039;business_hours&#039;,
+                &#039;defaults&#039;    =&gt; array(
+	                &#039;data_type&#039;          =&gt; &#039;TEXT&#039;,
+	                &#039;admin_title&#039;        =&gt; &#039;Business Hours&#039;,
+	                &#039;frontend_title&#039;     =&gt; &#039;Business Hours&#039;,
+	                &#039;frontend_desc&#039;      =&gt; &#039;Select your business opening/operating hours.&#039;,
+	                &#039;htmlvar_name&#039;       =&gt; &#039;business_hours&#039;,
+	                &#039;is_active&#039;          =&gt; true,
+	                &#039;for_admin_use&#039;      =&gt; false,
+	                &#039;default_value&#039;      =&gt; &#039;&#039;,
+	                &#039;show_in&#039;            =&gt; &#039;[detail]&#039;,
+	                &#039;is_required&#039;        =&gt; false,
+	                &#039;option_values&#039;      =&gt; &#039;&#039;,
+	                &#039;validation_pattern&#039; =&gt; &#039;&#039;,
+	                &#039;validation_msg&#039;     =&gt; &#039;&#039;,
+	                &#039;required_msg&#039;       =&gt; &#039;&#039;,
+	                &#039;field_icon&#039;         =&gt; &#039;fas fa-clock&#039;,
+	                &#039;css_class&#039;          =&gt; &#039;&#039;,
+	                &#039;cat_sort&#039;           =&gt; false,
+	                &#039;cat_filter&#039;         =&gt; false,
+	                &#039;single_use&#039;         =&gt; true
+                )
+
+			);
+
+			// Email
+			$custom_fields[&#039;contact_email&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;email&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-email&#039;,
+				&#039;icon&#039;        =&gt; &#039;far fa-envelope&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Contact Email&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a email input. This can be used by other plugins if the field key remains `email`, for example by Ninja Forms.&#039;, &#039;geodirectory&#039; ),
+				&#039;single_use&#039;  =&gt; &#039;email&#039;,
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;TEXT&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Contact Email&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Email&#039;,
+					&#039;frontend_desc&#039;      =&gt; &#039;You can enter the contact email for your listing.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;email&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail]&#039;,
+					&#039;is_required&#039;        =&gt; true,
+					&#039;option_values&#039;      =&gt; &#039;&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;far fa-envelope&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false,
+			        &#039;single_use&#039;         =&gt; true
+
+				)
+			);
+
+			// Email
+			$custom_fields[&#039;logo&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;file&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-logo&#039;,
+				&#039;icon&#039;        =&gt; &#039;far fa-image&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Company Logo&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a logo input. This can be used in conjunction with the `GD &gt; Post Images` widget, there is a setting to allow it to use the logo if available. This can also be used by other plugins if the field key remains `logo`.&#039;, &#039;geodirectory&#039; ),
+				&#039;single_use&#039;  =&gt; &#039;logo&#039;,
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;TEXT&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Logo&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Logo&#039;,
+					&#039;frontend_desc&#039;      =&gt; &#039;You can upload your company logo.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;logo&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;option_values&#039;      =&gt; &#039;&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;far fa-image&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false,
+					&#039;extra_fields&#039;       =&gt; array(
+						&#039;gd_file_types&#039;     =&gt; array( &#039;jpg&#039;,&#039;jpe&#039;,&#039;jpeg&#039;,&#039;gif&#039;,&#039;png&#039;,&#039;bmp&#039;,&#039;ico&#039;,&#039;webp&#039;),
+						&#039;file_limit&#039;        =&gt; 1,
+					),
+					&#039;single_use&#039;         =&gt; true,
+				)
+			);
+
+			// Website
+			$custom_fields[&#039;website&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;url&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-website&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-external-link-alt&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Website&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a website input. This can be used by other plugins if the htmlvar remains `website`.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;TEXT&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Website&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Website&#039;,
+					&#039;frontend_desc&#039;      =&gt; &#039;You can enter your business or listing website.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;website&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;option_values&#039;      =&gt; &#039;&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-external-link-alt&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false
+				)
+			);
+
+
+			// Facebook
+			$custom_fields[&#039;facebook&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;url&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-facebook&#039;,
+				&#039;icon&#039;        =&gt; &#039;fab fa-facebook&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Facebook&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a facebook url input. This can be used by other plugins if the htmlvar remains `facebook`.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;TEXT&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Facebook&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Facebook&#039;,
+					&#039;frontend_desc&#039;      =&gt; &#039;You can enter your business or listing facebook url.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;facebook&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;option_values&#039;      =&gt; &#039;&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-external-link-alt&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false
+				)
+			);
+
+			// Twitter
+			$custom_fields[&#039;twitter&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;url&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-twitter&#039;,
+				&#039;icon&#039;        =&gt; &#039;fab fa-twitter&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Twitter&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a twitter url input. This can be used by other plugins if the htmlvar remains `twitter`.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;TEXT&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Twitter&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Twitter&#039;,
+					&#039;frontend_desc&#039;      =&gt; &#039;You can enter your business or listing twitter url.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;twitter&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;option_values&#039;      =&gt; &#039;&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fab fa-twitter&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false
+				)
+			);
+
+			// Instagram
+			$custom_fields[&#039;instagram&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;url&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-instagram&#039;,
+				&#039;icon&#039;        =&gt; &#039;fab fa-instagram&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Instagram&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a instagram url input. This can be used by other plugins if the htmlvar remains `instagram`.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;TEXT&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Instagram&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Instagram&#039;,
+					&#039;frontend_desc&#039;      =&gt; &#039;You can enter your business or listing instagram url.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;instagram&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;option_values&#039;      =&gt; &#039;&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fab fa-instagram&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false
+				)
+			);
+
+			// Terms &amp;amp; Conditions
+			$custom_fields[&#039;terms_conditions&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;checkbox&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-terms-conditions&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-file-alt&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Terms &amp;amp; Conditions&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a terms and conditions checkbox to your add listing page, the text links to your GD terms and conditions page set in the pages settings.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;TINYINT&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Terms &amp;amp; Conditions&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Terms &amp;amp; Conditions&#039;,
+					&#039;frontend_desc&#039;      =&gt; __(&#039;Please accept our terms and conditions&#039;,&#039;geodirectory&#039;),
+					&#039;htmlvar_name&#039;       =&gt; &#039;terms_conditions&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;&#039;,
+					&#039;is_required&#039;        =&gt; true,
+					&#039;option_values&#039;      =&gt; &#039;&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; __(&#039;You MUST accept our terms and conditions to continue.&#039;,&#039;geodirectory&#039;),
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-file-alt&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false
+				)
+			);
+
+			// Video
+			$custom_fields[&#039;video&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;textarea&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-video&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-video&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Video&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a video url/code input. This can be used by other plugins if the htmlvar remains `video`.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;TEXT&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Video&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Video&#039;,
+					&#039;frontend_desc&#039;      =&gt; &#039;Add video url or code here, YouTube, Vimeo etc.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;video&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[owntab]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;option_values&#039;      =&gt; &#039;&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fab fa-instagram&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false
+				)
+			);
+
+			// Special offers
+			$custom_fields[&#039;special_offers&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;textarea&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-special-offers&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-gift&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Special Offers&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a Special Offers textarea input. This can be used by other plugins if the htmlvar remains `special_offers`.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;TEXT&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Special Offers&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Special Offers&#039;,
+					&#039;frontend_desc&#039;      =&gt; &#039;Note: List any special offers (optional)&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;special_offers&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[owntab]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;option_values&#039;      =&gt; &#039;&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-gift&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false
+				)
+			);
+
+
+
+			// price
+			$custom_fields[&#039;price&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;text&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-price&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-dollar-sign&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Price&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a input for a price field. This will let you filter and sort by price.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;FLOAT&#039;,
+					&#039;decimal_point&#039;      =&gt; &#039;2&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Price&#039;,
+					&#039;frontend_title&#039;         =&gt; &#039;Price&#039;,
+					&#039;frontend_desc&#039;         =&gt; &#039;Enter the price in $ (no currency symbol)&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;price&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[listing]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;validation_pattern&#039; =&gt; &#039;\d+(\.\d{2})?&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;Please enter number and decimal only ie: 100.50&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-dollar-sign&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true,
+					&#039;extra_fields&#039;       =&gt; array(
+						&#039;is_price&#039;                  =&gt; 1,
+						&#039;thousand_separator&#039;        =&gt; &#039;comma&#039;,
+						&#039;decimal_separator&#039;         =&gt; &#039;period&#039;,
+						&#039;decimal_display&#039;           =&gt; &#039;if&#039;,
+						&#039;currency_symbol&#039;           =&gt; &#039;$&#039;,
+						&#039;currency_symbol_placement&#039; =&gt; &#039;left&#039;
+					)
+				)
+			);
+
+			// price rage (used as priceRange schema)
+			$custom_fields[&#039;price_range&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;select&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-price-range&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-dollar-sign&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Price Range&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a schema price range input.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Price Range&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Price Range&#039;,
+					&#039;frontend_desc&#039;      =&gt; &#039;Enter the price range for the business.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;price_range&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[listing]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;option_values&#039;      =&gt; __( &#039;Select Price Range/&#039;, &#039;geodirectory&#039; ).&#039;,$,$$,$$$,$$$$&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-dollar-sign&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true
+				)
+			);
+
+			// property status
+			$custom_fields[&#039;property_status&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;select&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-property-status&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-home&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Property Status&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a select input to be able to set the status of a property ie: For Sale, For Rent&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Property Status&#039;,
+					&#039;frontend_title&#039;         =&gt; &#039;Property Status&#039;,
+					&#039;frontend_desc&#039;         =&gt; &#039;Enter the status of the property.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;property_status&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[listing]&#039;,
+					&#039;is_required&#039;        =&gt; true,
+					&#039;option_values&#039;      =&gt; __( &#039;Select Status/,For Sale,For Rent,Sold,Let&#039;, &#039;geodirectory&#039; ),
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-home&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true
+				)
+			);
+
+			// property furnishing
+			$custom_fields[&#039;property_furnishing&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;select&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-property-furnishing&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-home&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Property Furnishing&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a select input to be able to set the furnishing status of a property ie: Unfurnished, Furnished&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Furnishing&#039;,
+					&#039;frontend_title&#039;         =&gt; &#039;Furnishing&#039;,
+					&#039;frontend_desc&#039;         =&gt; &#039;Enter the furnishing status of the property.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;property_furnishing&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[listing]&#039;,
+					&#039;is_required&#039;        =&gt; true,
+					&#039;option_values&#039;      =&gt; __( &#039;Select Status/,Unfurnished,Furnished,Partially furnished,Optional&#039;, &#039;geodirectory&#039; ),
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-th-large&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true
+				)
+			);
+
+			// property type
+			$custom_fields[&#039;property_type&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;select&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-property-type&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-home&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Property Type&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a select input for the property type ie: Detached house, Apartment&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Property Type&#039;,
+					&#039;frontend_title&#039;         =&gt; &#039;Property Type&#039;,
+					&#039;frontend_desc&#039;         =&gt; &#039;Select the property type.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;property_type&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[listing]&#039;,
+					&#039;is_required&#039;        =&gt; true,
+					&#039;option_values&#039;      =&gt; __( &#039;Select Type/,Detached house,Semi-detached house,Apartment,Bungalow,Semi-detached bungalow,Chalet,Town House,End-terrace house,Terrace house,Cottage&#039;, &#039;geodirectory&#039; ),
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-home&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true
+				)
+			);
+
+			// property bedrooms
+			$custom_fields[&#039;property_bedrooms&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;select&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-property-bedrooms&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-home&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Property Bedrooms&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a select input for the number of bedrooms.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Property Bedrooms&#039;,
+					&#039;frontend_title&#039;         =&gt; &#039;Bedrooms&#039;,
+					&#039;frontend_desc&#039;         =&gt; &#039;Select the number of bedrooms&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;property_bedrooms&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[listing]&#039;,
+					&#039;is_required&#039;        =&gt; true,
+					&#039;option_values&#039;      =&gt; __( &#039;Select Bedrooms/,1,2,3,4,5,6,7,8,9,10&#039;, &#039;geodirectory&#039; ),
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-bed&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true
+				)
+			);
+
+			// property bathrooms
+			$custom_fields[&#039;property_bathrooms&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;select&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-property-bathrooms&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-home&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Property Bathrooms&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a select input for the number of bathrooms.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Property Bathrooms&#039;,
+					&#039;frontend_title&#039;         =&gt; &#039;Bathrooms&#039;,
+					&#039;frontend_desc&#039;         =&gt; &#039;Select the number of bathrooms&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;property_bathrooms&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[listing]&#039;,
+					&#039;is_required&#039;        =&gt; true,
+					&#039;option_values&#039;      =&gt; __( &#039;Select Bathrooms/,1,2,3,4,5,6,7,8,9,10&#039;, &#039;geodirectory&#039; ),
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-bold&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true
+				)
+			);
+
+			// property area
+			$custom_fields[&#039;property_area&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;text&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-area&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-home&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Property Area&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a input for the property area.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;FLOAT&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Property Area&#039;,
+					&#039;frontend_title&#039;         =&gt; &#039;Area (Sq Ft)&#039;,
+					&#039;frontend_desc&#039;         =&gt; &#039;Enter the Sq Ft value for the property&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;property_area&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[listing]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;validation_pattern&#039; =&gt; &#039;\d+(\.\d{2})?&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;Please enter the property area in numbers only: 1500&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-chart-area&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true
+				)
+			);
+
+			// property features
+			$custom_fields[&#039;property_features&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;multiselect&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-property-features&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-home&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Property Features&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a select input for the property features.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Property Features&#039;,
+					&#039;frontend_title&#039;         =&gt; &#039;Features&#039;,
+					&#039;frontend_desc&#039;         =&gt; &#039;Select the property features.&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;property_features&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[listing]&#039;,
+					&#039;is_required&#039;        =&gt; true,
+					&#039;option_values&#039;      =&gt; __( &#039;Select Features/,Gas Central Heating,Oil Central Heating,Double Glazing,Triple Glazing,Front Garden,Garage,Private driveway,Off Road Parking,Fireplace&#039;, &#039;geodirectory&#039; ),
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-plus-square&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true
+				)
+			);
+
+			// Twitter feed
+			$custom_fields[&#039;twitter_feed&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;text&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-twitter&#039;,
+				&#039;icon&#039;        =&gt; &#039;fab fa-twitter&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Twitter feed&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a input for twitter username and outputs feed.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Twitter&#039;,
+					&#039;frontend_title&#039;         =&gt; &#039;Twitter&#039;,
+					&#039;frontend_desc&#039;         =&gt; &#039;Enter your Twitter username&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;twitterusername&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[owntab]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;validation_pattern&#039; =&gt; &#039;^[A-Za-z0-9_]{1,32}$&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;Please enter a valid twitter username.&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fab fa-twitter&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false
+				)
+			);
+
+
+			// JOB TYPE CF
+
+			// job type
+			$custom_fields[&#039;job_type&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;select&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-job-type&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-briefcase&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Job Type&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a select input to be able to set the type of a job ie: Full Time, Part Time&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; __( &#039;Job Type&#039;, &#039;geodirectory&#039; ),
+					&#039;frontend_title&#039;         =&gt; __( &#039;Job Type&#039;, &#039;geodirectory&#039; ),
+					&#039;frontend_desc&#039;         =&gt; __( &#039;Select the type of job.&#039;, &#039;geodirectory&#039; ),
+					&#039;htmlvar_name&#039;       =&gt; &#039;job_type&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[listing]&#039;,
+					&#039;is_required&#039;        =&gt; true,
+					&#039;option_values&#039;      =&gt; __( &#039;Select Type/,Freelance,Full Time,Internship,Part Time,Temporary,Other&#039;, &#039;geodirectory&#039; ),
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-briefcase&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true
+				)
+			);
+
+			// job sector
+			$custom_fields[&#039;job_sector&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;select&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-job-type&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-briefcase&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Job Sector&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a select input to be able to set the type of a job Sector ie: Private Sector,Public Sector&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; __( &#039;Job Sector&#039;, &#039;geodirectory&#039; ),
+					&#039;frontend_title&#039;         =&gt; __( &#039;Job Sector&#039;, &#039;geodirectory&#039; ),
+					&#039;frontend_desc&#039;         =&gt; __( &#039;Select the job sector.&#039;, &#039;geodirectory&#039; ),
+					&#039;htmlvar_name&#039;       =&gt; &#039;job_sector&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail]&#039;,
+					&#039;is_required&#039;        =&gt; true,
+					&#039;option_values&#039;      =&gt; __( &#039;Select Sector/,Private Sector,Public Sector,Agencies&#039;, &#039;geodirectory&#039; ),
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-briefcase&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true
+				)
+			);
+
+			$custom_fields[&#039;dob&#039;] = array( // The key value should be unique and not contain any spaces.
+				&#039;field_type&#039;  =&gt; &#039;datepicker&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-dob&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-birthday-cake&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Date of birth&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a date input for users to enter their date of birth.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;DATE&#039;,
+					&#039;admin_title&#039;        =&gt; __( &#039;Date of birth&#039;, &#039;geodirectory&#039; ),
+					&#039;frontend_title&#039;     =&gt; __( &#039;Date of birth&#039;, &#039;geodirectory&#039; ),
+					&#039;frontend_desc&#039;      =&gt; __( &#039;Enter your date of birth.&#039;, &#039;geodirectory&#039; ),
+					&#039;htmlvar_name&#039;       =&gt; &#039;dob&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-birthday-cake&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true,
+					&#039;extra_fields&#039;       =&gt; array(
+						&#039;date_range&#039;        =&gt; &#039;c-100:c+0&#039;
+					)
+				)
+			);
+
+			// Featured
+			$custom_fields[&#039;featured&#039;] = array(
+               &#039;field_type&#039;  =&gt; &#039;checkbox&#039;,
+               &#039;class&#039;       =&gt; &#039;gd-checkbox&#039;,
+               &#039;icon&#039;        =&gt; &#039;fas fa-certificate&#039;,
+               &#039;name&#039;        =&gt; __( &#039;Featured&#039;, &#039;geodirectory&#039; ),
+               &#039;description&#039; =&gt; __( &#039;Mark listing as a featured.&#039;, &#039;geodirectory&#039; ),
+               &#039;single_use&#039;         =&gt; &#039;featured&#039;,
+               &#039;defaults&#039;    =&gt; array(
+	                &#039;data_type&#039;          =&gt; &#039;TINYINT&#039;,
+	                &#039;admin_title&#039;        =&gt; &#039;Featured&#039;,
+	                &#039;frontend_title&#039;     =&gt; &#039;Is Featured?&#039;,
+	                &#039;frontend_desc&#039;      =&gt; __( &#039;Mark listing as a featured.&#039;, &#039;geodirectory&#039; ),
+	                &#039;htmlvar_name&#039;       =&gt; &#039;featured&#039;,
+	                &#039;is_active&#039;          =&gt; true,
+	                &#039;for_admin_use&#039;      =&gt; true,
+	                &#039;default_value&#039;      =&gt; &#039;0&#039;,
+	                &#039;show_in&#039;            =&gt; &#039;&#039;,
+	                &#039;is_required&#039;        =&gt; false,
+	                &#039;option_values&#039;      =&gt; &#039;&#039;,
+	                &#039;validation_pattern&#039; =&gt; &#039;&#039;,
+	                &#039;validation_msg&#039;     =&gt; &#039;&#039;,
+	                &#039;required_msg&#039;       =&gt; &#039;&#039;,
+	                &#039;field_icon&#039;         =&gt; &#039;&#039;,
+	                &#039;css_class&#039;          =&gt; &#039;&#039;,
+	                &#039;cat_sort&#039;           =&gt; true,
+	                &#039;cat_filter&#039;         =&gt; true,
+	                &#039;single_use&#039;         =&gt; true
+
+               )
+			);
+
+			// distanceto
+			$custom_fields[&#039;distanceto&#039;] = array(
+				&#039;field_type&#039;  =&gt; &#039;text&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-distance-to&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-road&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Distance To&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a input for GPS coordinates that will then output the place distance to that point.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Distance To&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Distance To&#039;,
+					&#039;frontend_desc&#039;      =&gt; &#039;Enter GPS coordinates like `53.347302,-6.258953`&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;distanceto&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;validation_pattern&#039; =&gt; &#039;(-?\d{1,3}\.\d+),(-?\d{1,3}\.\d+)&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;Please enter valid GPS coordinates.&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-road&#039;,
+					&#039;css_class&#039;          =&gt; &#039;gd-distance-to&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false,
+	                &#039;single_use&#039;         =&gt; true
+				)
+			);
+
+			$custom_fields[&#039;service_distance&#039;] = array(
+				&#039;field_type&#039;  =&gt; &#039;text&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-service-distance&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-arrows-alt-h&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Service Distance&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a input to set service area in distance.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;VARCHAR&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Service Distance&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Service Distance&#039;,
+					&#039;frontend_desc&#039;      =&gt; &#039;Enter your service area in distance. Ex: 10&#039;,
+					&#039;htmlvar_name&#039;       =&gt; &#039;service_distance&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;validation_pattern&#039; =&gt; &#039;\d+(\.\d{2})?&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;Please enter valid service area in distance.&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-arrows-alt-h&#039;,
+					&#039;css_class&#039;          =&gt; &#039;gd-service-distance&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false,
+					&#039;single_use&#039;         =&gt; true
+				)
+			);
+
+			// Private Address
+			$custom_fields[&#039;private_address&#039;] = array(
+				&#039;field_type&#039;  =&gt; &#039;checkbox&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-private-address&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-eye-slash&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Private Address&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Adds a checkbox in add listing page to allow users to mark their listings address as a private.&#039;, &#039;geodirectory&#039; ),
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;TINYINT&#039;,
+					&#039;admin_title&#039;        =&gt; &#039;Private Address&#039;,
+					&#039;frontend_title&#039;     =&gt; &#039;Private Address&#039;,
+					&#039;frontend_desc&#039;      =&gt; __( &#039;This will prevent address and location info from displaying to the users.&#039;, &#039;geodirectory&#039; ),
+					&#039;htmlvar_name&#039;       =&gt; &#039;private_address&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; false,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;default_value&#039;      =&gt; &#039;0&#039;,
+					&#039;show_in&#039;            =&gt; &#039;&#039;,
+					&#039;option_values&#039;      =&gt; &#039;&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-eye-slash&#039;,
+					&#039;css_class&#039;          =&gt; &#039;gd-private-address&#039;,
+					&#039;cat_sort&#039;           =&gt; false,
+					&#039;cat_filter&#039;         =&gt; false,
+					&#039;single_use&#039;         =&gt; true
+				)
+			);
+
+			// Temporarily Closed
+			$custom_fields[&#039;temp_closed&#039;] = array(
+				&#039;field_type&#039;  =&gt; &#039;checkbox&#039;,
+				&#039;class&#039;       =&gt; &#039;gd-checkbox&#039;,
+				&#039;icon&#039;        =&gt; &#039;fas fa-exclamation-circle&#039;,
+				&#039;name&#039;        =&gt; __( &#039;Temporarily Closed&#039;, &#039;geodirectory&#039; ),
+				&#039;description&#039; =&gt; __( &#039;Mark listing as temporarily closed, this will set business hours as closed and show a message in the notifications section.&#039;, &#039;geodirectory&#039; ),
+				&#039;single_use&#039;         =&gt; &#039;temp_closed&#039;,
+				&#039;defaults&#039;    =&gt; array(
+					&#039;data_type&#039;          =&gt; &#039;TINYINT&#039;,
+					&#039;admin_title&#039;        =&gt; __( &#039;Temporarily Closed&#039;, &#039;geodirectory&#039; ),
+					&#039;frontend_title&#039;     =&gt; __( &#039;Temporarily Closed&#039;, &#039;geodirectory&#039; ),
+					&#039;frontend_desc&#039;      =&gt; __( &#039;If your business is temporarily closed select this to let customers and search engines know.&#039;, &#039;geodirectory&#039; ),
+					&#039;htmlvar_name&#039;       =&gt; &#039;temp_closed&#039;,
+					&#039;is_active&#039;          =&gt; true,
+					&#039;for_admin_use&#039;      =&gt; true,
+					&#039;default_value&#039;      =&gt; &#039;0&#039;,
+					&#039;show_in&#039;            =&gt; &#039;[detail],[listing],[mapbubble]&#039;,
+					&#039;is_required&#039;        =&gt; false,
+					&#039;option_values&#039;      =&gt; &#039;&#039;,
+					&#039;validation_pattern&#039; =&gt; &#039;&#039;,
+					&#039;validation_msg&#039;     =&gt; &#039;&#039;,
+					&#039;required_msg&#039;       =&gt; &#039;&#039;,
+					&#039;field_icon&#039;         =&gt; &#039;fas fa-exclamation-circle&#039;,
+					&#039;css_class&#039;          =&gt; &#039;&#039;,
+					&#039;cat_sort&#039;           =&gt; true,
+					&#039;cat_filter&#039;         =&gt; true,
+					&#039;single_use&#039;         =&gt; true
+				)
+			);
+
+			/**
+			 * @see `geodir_custom_fields`
+			 */
+			return apply_filters( &#039;geodir_custom_fields_predefined&#039;, $custom_fields, $post_type );
+		}
+
+
+		/**
+		 * Returns heading for the CPT settings left panel.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 * @return string The page heading.
+		 */
+		public static function right_panel_title() {
+			return sprintf( __( &#039;Add listing form&#039;, &#039;geodirectory&#039; ), geodir_get_post_type_singular_label( self::$post_type, false, true ) );
+		}
+
+
+		/**
+		 * Returns description for given sub tab - available fields box.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 * @return string The box description.
+		 */
+		public function right_panel_note() {
+			return sprintf( __( &#039;Click to expand and view field related settings. You may drag and drop to arrange fields order on add %s listing form too.&#039;, &#039;geodirectory&#039; ), geodir_get_post_type_singular_label( self::$post_type, false, true ) );
+		}
+
+		/**
+		 * Output the admin cpt settings fields left panel content.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 */
+		public function right_panel_content() {
+			global $wpdb;
+			$post_type = self::$post_type;
+			$fields = $wpdb-&gt;get_results($wpdb-&gt;prepare(&quot;SELECT * FROM &quot; . GEODIR_CUSTOM_FIELDS_TABLE . &quot; WHERE post_type = %s ORDER BY sort_order ASC&quot;, array($post_type)));
+
+			//print_r($tabs);
+			?&gt;
+			&lt;div class=&quot;inside&quot;&gt;
+
+				&lt;div id=&quot;gd-form-builder-tab&quot; class=&quot;gd-form-builder-tab gd-tabs-panel&quot;&gt;
+					&lt;div class=&quot;field_row_main&quot;&gt;
+						&lt;div class=&quot;dd gd-tabs-layout&quot; &gt;
+
+							&lt;?php
+
+
+							echo &#039;&lt;ul class=&quot;dd-list gd-tabs-sortable gd-custom-fields-sortable geodir-cpt-cf-items&quot;&gt;&#039;;
+
+							if ( ! empty( $fields ) ) {
+
+								echo self::loop_fields_output($fields);
+
+							} else {
+								_e( &#039;No tab items have been added yet.&#039;, &#039;geodirectory&#039; );
+							}
+							echo &#039;&lt;/ul&gt;&#039;;
+
+							?&gt;
+
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;?php
+		}
+
+		/**
+		 * Loop through the base to output them with the different levels.
+		 * @param $tabs
+		 * @param string $tab_id
+		 *
+		 * @return string
+		 */
+		public static function loop_fields_output($tabs,$tab_id = &#039;&#039;){
+			ob_start();
+
+			if(!empty($tabs)){
+				foreach($tabs as $key =&gt; $tab){
+
+					if($tab_id &amp;&amp; $tab-&gt;id!=$tab_id){
+						continue;
+					}elseif($tab_id &amp;&amp; $tab-&gt;id==$tab_id &amp;&amp; $tab-&gt;tab_level &gt; 0){
+						echo self::output_custom_field_setting_item($tab-&gt;id,$tab); break;
+					}
+
+					if($tab-&gt;tab_level==&#039;1&#039; ){continue;}
+
+
+					$tab_rendered = self::output_custom_field_setting_item($tab-&gt;id,$tab);
+					$tab_rendered = str_replace(&quot;&lt;/li&gt;&quot;,&quot;&quot;,$tab_rendered);
+					$child_tabs = &#039;&#039;;
+					foreach($tabs as $child_tab){
+						if($child_tab-&gt;tab_parent==$tab-&gt;id){
+							$child_tabs .= self::output_custom_field_setting_item($child_tab-&gt;id,$child_tab);
+						}
+					}
+
+					if($child_tabs){
+						$tab_rendered .= &quot;&lt;ul&gt;&quot;;
+						$tab_rendered .= $child_tabs;
+						$tab_rendered .= &quot;&lt;/ul&gt;&quot;;
+					}
+
+					echo $tab_rendered;
+					echo &quot;&lt;/li&gt;&quot;;
+
+					unset($tabs[$key]);
+
+				}
+			}
+			return ob_get_clean();
+		}
+		
+
+        /**
+         * GeoDir get all fields by posttype.
+         *
+         * @since 2.0.0
+         *
+         * @param string $post_type Post type.
+         * @return string Return all fields.
+         */
+		public static function get_all_fields($post_type){
+			$cf_arr1 = self::fields_standard($post_type);
+			$cf_arr2 = self::fields_predefined($post_type);
+			$cf_arr3 = self::fields_custom($post_type);
+
+			return $cf_arr1 + $cf_arr2 + $cf_arr3; // this way defaults can&#039;t be overwritten
+		}
+
+
+		/**
+		 * Adds admin html for custom fields.
+		 *
+		 * @since 1.0.0
+		 * @package GeoDirectory
+		 * @global object $wpdb WordPress Database object.
+		 * @param string $field_type The form field type.
+		 * @param object|int $result_str The custom field results object or row id.
+		 * @param string $field_ins_upd When set to &quot;submit&quot; displays form.
+		 * @param string $field_type_key The key of the custom field.
+		 */
+		public static function output_custom_field_setting_item($field_id = &#039;&#039;,$field = &#039;&#039;,$cf = array())
+		{
+
+			ob_start();
+			// if field not provided get it
+			if (!is_object($field) &amp;&amp; $field_id) {
+				global $wpdb;
+				$field = $wpdb-&gt;get_row($wpdb-&gt;prepare(&quot;select * from &quot; . GEODIR_CUSTOM_FIELDS_TABLE . &quot; where id= %d&quot;, array($field_id)));
+			}
+
+			// if field template not provided get it
+			if(empty($cf)){
+				$cf_arr  = self::get_all_fields($field-&gt;post_type);
+				$cf = (isset($cf_arr[$field-&gt;field_type_key])) ? $cf_arr[$field-&gt;field_type_key] : &#039;&#039;; // the field type
+			}
+
+			//print_r($cf);
+
+			// set defaults
+			if(isset($cf[&#039;defaults&#039;])){
+				foreach($cf[&#039;defaults&#039;] as $key =&gt; $val ){
+					if(!isset($field-&gt;{$key})){
+						$field-&gt;{$key} = $val;
+					}
+				}
+			}
+
+			if(!isset( $field-&gt;is_default ))$field-&gt;is_default = 0;
+
+			// Setup some variables
+
+
+			// Strip slashes but not from json extra_fields
+			if ( isset( $field-&gt;extra_fields ) ) {
+				$extra_fields = $field-&gt;extra_fields;
+			}
+			$validation_pattern = isset($field-&gt;validation_pattern) ? $field-&gt;validation_pattern : &#039;&#039;;
+			$field = wp_unslash( $field ); // strip slashes from labels
+			$field-&gt;validation_pattern = str_replace(&#039;\\\\&#039;, &#039;\\&#039;, $validation_pattern);// we need the validation pattern without slashes stripped.
+			if ( isset( $field-&gt;extra_fields ) ) {
+				$field-&gt;extra_fields = $extra_fields;
+			}
+
+			//print_r($field);
+			// Set nonce
+			$nonce = wp_create_nonce( &#039;custom_fields_&#039; . $field-&gt;id );
+
+			// Set if this is a default field
+			$default = isset( $field-&gt;is_admin ) ? $field-&gt;is_admin : &#039;&#039;;
+
+			// Remove Send Enquiry from listings page
+			$display_on_listing = true;
+			$htmlvar_name = isset( $field-&gt;htmlvar_name ) &amp;&amp; $field-&gt;htmlvar_name != &#039;&#039; ? $field-&gt;htmlvar_name : &#039;&#039;;
+			if ( $htmlvar_name == &#039;geodir_email&#039; ) {
+				$display_on_listing  = false;
+			}
+
+			// Hide the field from custom fields (i.e. address field from location less CPT)
+			if ( has_filter( &quot;geodir_cfa_skip_item_output_{$field-&gt;field_type}&quot; ) ) {
+				if ( apply_filters( &quot;geodir_cfa_skip_item_output_{$field-&gt;field_type}&quot;, false, $field_id, $field, $cf ) === true ) {
+					return;
+				}
+			}
+			
+
+			// @todo do we need this?
+			$field_display = $field-&gt;field_type == &#039;address&#039; &amp;&amp; $field-&gt;htmlvar_name == &#039;post&#039; ? &#039;style=&quot;display:none&quot;&#039; : &#039;&#039;;
+
+			// set a unique id for radio fields
+			$radio_id = ( isset( $field-&gt;htmlvar_name ) &amp;&amp; $field-&gt;htmlvar_name ) ? $field-&gt;htmlvar_name : rand( 5, 500 );
+
+			// field icon
+			$icon = isset( $cf[&#039;icon&#039;] ) ? $cf[&#039;icon&#039;] : ( isset( $field-&gt;field_icon ) ? $field-&gt;field_icon : &#039;&#039; );
+
+			// Set the field icon
+			if ( geodir_is_fa_icon( $icon ) ) {
+				$field_icon = &#039;&lt;i class=&quot;&#039; . esc_attr( $icon ) . &#039;&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&#039;;
+			} elseif ( geodir_is_icon_url( $icon ) ) {
+				$field_icon = &#039;&lt;b style=&quot;background-image: url(&quot;&#039; . esc_attr( $icon ) . &#039;&quot;)&quot;&gt;&lt;/b&gt;&#039;;
+			} else {
+				$field_icon = &#039;&lt;i class=&quot;fas fa-cog&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&#039;;
+			}
+
+			// if field type name is missing set it from main settings
+			if ( isset( $cf[&#039;name&#039;] ) &amp;&amp; $cf[&#039;name&#039;] ) {
+				$field-&gt;field_type_name = $cf[&#039;name&#039;];
+			} else {
+				$field-&gt;field_type_name = $field-&gt;field_type;
+			}
+
+			// Make new field active status ticked by default.
+			if ( empty( $field-&gt;is_active ) &amp;&amp; isset( $field-&gt;id ) &amp;&amp; strpos( $field-&gt;id, &#039;new-&#039; ) !== false ) {
+				$field-&gt;is_active = 1;
+			}
+
+			/**
+			 * Contains custom field html.
+			 *
+			 * @since 2.0.0
+			 */
+			include( dirname( __FILE__ ) . &#039;/../views/html-admin-settings-cpt-cf-setting-item.php&#039; );
+			return ob_get_clean();
+
+		}
+
+		/**
+		 * Sanatize the custom field
+		 *
+		 * @param array/object $input {
+		 *    Attributes of the request field array.
+		 *
+		 *    @type string $action Ajax Action name. Default &quot;geodir_ajax_action&quot;.
+		 *    @type string $manage_field_type Field type Default &quot;custom_fields&quot;.
+		 *    @type string $create_field Create field Default &quot;true&quot;.
+		 *    @type string $field_ins_upd Field ins upd Default &quot;submit&quot;.
+		 *    @type string $_wpnonce WP nonce value.
+		 *    @type string $listing_type Listing type Example &quot;gd_place&quot;.
+		 *    @type string $field_type Field type Example &quot;radio&quot;.
+		 *    @type string $field_id Field id Example &quot;12&quot;.
+		 *    @type string $data_type Data type Example &quot;VARCHAR&quot;.
+		 *    @type string $is_active Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then the field will not be displayed anywhere.
+		 *    @type array $show_on_pkg Package list to display this field.
+		 *    @type string $admin_title Personal comment, it would not be displayed anywhere except in custom field settings.
+		 *    @type string $frontend_title Section title which you wish to display in frontend.
+		 *    @type string $frontend_desc Section description which will appear in frontend.
+		 *    @type string $htmlvar_name Html variable name. This should be a unique name.
+		 *    @type string $clabels Section Title which will appear in backend.
+		 *    @type string $default_value The default value (for &quot;link&quot; this will be used as the link text).
+		 *    @type string $placeholder_value The placeholder text to be displayed in the input before user input.
+		 *    @type string $sort_order The display order of this field in backend. e.g. 5.
+		 *    @type string $is_default Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then the field will be displayed as main form field or additional field.
+		 *    @type string $for_admin_use Either &quot;1&quot; or &quot;0&quot;. If &quot;0&quot; is used then only site admin can edit this field.
+		 *    @type string $is_required Use &quot;1&quot; to set field as required.
+		 *    @type string $required_msg Enter text for error message if field required and have not full fill requirement.
+		 *    @type string $show_in What locations to show the custom field in.
+		 *    @type string $show_as_tab Want to display this as a tab on detail page? If &quot;1&quot; then &quot;Show on detail page?&quot; must be Yes.
+		 *    @type string $option_values Option Values should be separated by comma.
+		 *    @type string $field_icon Upload icon using media and enter its url path, or enter font awesome class.
+		 *    @type string $css_class Enter custom css class for field custom style.
+		 *    @type array $extra_fields An array of extra fields to store.
+		 *
+		 * }
+		 */
+		private static function sanatize_custom_field($input){
+
+			// if object convert to array
+			if(is_object($input)){
+				$input = json_decode(json_encode($input), true);
+			}
+
+
+			$field = new stdClass();
+
+			// sanatize
+			$field-&gt;field_id = isset( $input[&#039;field_id&#039;] ) ? absint( $input[&#039;field_id&#039;] ) : &#039;&#039;;
+
+			$field_item = ! empty( $field-&gt;field_id ) ? self::get_item( $field-&gt;field_id ) : NULL;
+
+			$field-&gt;post_type = isset( $input[&#039;post_type&#039;] ) ? sanitize_text_field( $input[&#039;post_type&#039;] ) : null;
+			$field-&gt;admin_title = isset( $input[&#039;admin_title&#039;] ) ? sanitize_text_field( $input[&#039;admin_title&#039;] ) : null;
+			$field-&gt;frontend_title = isset( $input[&#039;frontend_title&#039;] ) ? sanitize_text_field( $input[&#039;frontend_title&#039;] ) : null;
+			$field-&gt;field_type = isset( $input[&#039;field_type&#039;] ) ? sanitize_text_field( $input[&#039;field_type&#039;] ) : null;
+			$field-&gt;field_type_key = isset( $input[&#039;field_type_key&#039;] ) ? sanitize_text_field( $input[&#039;field_type_key&#039;] ) : $field-&gt;field_type;
+			$field-&gt;htmlvar_name = isset( $input[&#039;htmlvar_name&#039;] ) ? str_replace(array(&#039;-&#039;,&#039; &#039;,&#039;&quot;&#039;,&quot;&#039;&quot;), array(&#039;_&#039;,&#039;&#039;,&#039;&#039;,&#039;&#039;), sanitize_title_with_dashes( $input[&#039;htmlvar_name&#039;] ) ) : null;
+			$field-&gt;frontend_desc = isset( $input[&#039;frontend_desc&#039;] ) ? stripslashes( wp_kses_post( esc_attr( $input[&#039;frontend_desc&#039;] ) ) ) : &#039;&#039;;
+
+			$field-&gt;clabels = isset( $input[&#039;clabels&#039;] ) ? sanitize_text_field( $input[&#039;clabels&#039;] ) : null;
+			// default_value
+			$default_value = isset( $input[&#039;default_value&#039;] ) ? $input[&#039;default_value&#039;] : &#039;&#039;;
+			if ( $default_value !== &#039;&#039; ) {
+				if ( $field-&gt;field_type == &#039;html&#039; ) {
+					$default_value = geodir_sanitize_html_field( $default_value );
+				} else if ( $field-&gt;field_type == &#039;textarea&#039; ) {
+					$default_value = geodir_sanitize_textarea_field( $default_value );
+				} else {
+					$default_value = sanitize_text_field( $default_value );
+				}
+			}
+			$field-&gt;default_value = $default_value;
+			$field-&gt;db_default = isset( $input[&#039;db_default&#039;] ) ? sanitize_text_field( esc_attr( $input[&#039;db_default&#039;] ) ) : &#039;&#039;;
+			$field-&gt;placeholder_value = isset( $input[&#039;placeholder_value&#039;] ) ? sanitize_text_field( esc_attr( $input[&#039;placeholder_value&#039;] ) ) : &#039;&#039;;
+			$field-&gt;sort_order = isset( $input[&#039;sort_order&#039;] ) ? intval( $input[&#039;sort_order&#039;] ) : self::default_sort_order();
+			$field-&gt;is_active = isset( $input[&#039;is_active&#039;] ) ? absint( $input[&#039;is_active&#039;] ) : 0;
+			$field-&gt;is_default  = isset( $input[&#039;is_default&#039;] ) ? absint( $input[&#039;is_default&#039;] ) : 0;
+			$field-&gt;is_required = isset( $input[&#039;is_required&#039;] ) ? absint( $input[&#039;is_required&#039;] ) : 0;
+			$field-&gt;required_msg = isset( $input[&#039;required_msg&#039;] ) ? sanitize_text_field( $input[&#039;required_msg&#039;] ) : &#039;&#039;;
+			$field-&gt;css_class = isset( $input[&#039;css_class&#039;] ) ? sanitize_text_field( $input[&#039;css_class&#039;] ) : &#039;&#039;;
+			$field-&gt;field_icon = isset( $input[&#039;field_icon&#039;] ) ? sanitize_text_field( $input[&#039;field_icon&#039;] ) : &#039;&#039;;
+			$field-&gt;show_in = isset( $input[&#039;show_in&#039;] ) ? self::sanatize_show_in( $input[&#039;show_in&#039;] ) : &#039;&#039;;
+			$field-&gt;option_values = isset( $input[&#039;option_values&#039;] ) ? self::sanitize_option_values( $input[&#039;option_values&#039;] ) : &#039;&#039;;
+			$field-&gt;packages = isset( $input[&#039;show_on_pkg&#039;] ) ? self::sanatize_show_on_pkg( $input[&#039;show_on_pkg&#039;] ) : &#039;&#039;; //@todo maybe have sanatize function
+			$field-&gt;cat_sort = isset( $input[&#039;cat_sort&#039;] ) ? absint( $input[&#039;cat_sort&#039;] ) : 0;
+			$field-&gt;cat_filter = isset( $input[&#039;cat_filter&#039;] ) ? absint( $input[&#039;cat_filter&#039;] ) : 0;
+			$field-&gt;data_type = isset( $input[&#039;data_type&#039;] ) ? sanitize_text_field( $input[&#039;data_type&#039;] ) : &#039;&#039;;
+			$field-&gt;extra_fields = isset( $input[&#039;extra&#039;] ) ? self::sanatize_extra( $input[&#039;extra&#039;] ) : &#039;&#039;;//@todo
+			$field-&gt;decimal_point = isset( $input[&#039;decimal_point&#039;] ) ? absint( $input[&#039;decimal_point&#039;] ) : 0;
+			$field-&gt;validation_pattern = isset( $input[&#039;validation_pattern&#039;] ) ? sanitize_text_field( $input[&#039;validation_pattern&#039;] ) : &#039;&#039;;//@todo
+			$field-&gt;validation_msg = isset( $input[&#039;validation_msg&#039;] ) ? sanitize_text_field( $input[&#039;validation_msg&#039;] ) : &#039;&#039;;
+			$field-&gt;for_admin_use = isset( $input[&#039;for_admin_use&#039;] ) ? absint( $input[&#039;for_admin_use&#039;] ) : 0;
+			$field-&gt;add_column = !empty( $input[&#039;add_column&#039;] ) ? 1 : 0;
+
+			// Set some default after sanitation
+			$field-&gt;data_type = self::sanitize_data_type($field);
+			if(!$field-&gt;admin_title){$field-&gt;admin_title = $field-&gt;frontend_title;}
+			//if(!$field-&gt;htmlvar_name){$field-&gt;htmlvar_name =str_replace(array(&#039;-&#039;,&#039; &#039;,&#039;&quot;&#039;,&quot;&#039;&quot;), array(&#039;_&#039;,&#039;&#039;,&#039;&#039;,&#039;&#039;), sanitize_title_with_dashes( $input[&#039;frontend_title&#039;] ) );} // Don&#039;t change fieldset htmlvar_name(key) on edit
+			if ( empty( $field-&gt;htmlvar_name ) &amp;&amp; $field-&gt;field_type == &#039;fieldset&#039; &amp;&amp; ! empty( $field_item ) ) {
+				$field-&gt;htmlvar_name = $field_item-&gt;htmlvar_name;
+			}
+
+			// we use original input so the special chars are no converted already
+			if ( empty( $field-&gt;htmlvar_name ) ) {
+				$htmlvar_name = sanitize_key( str_replace( array( &#039; - &#039;, &#039;-&#039;, &#039; &#039;, &#039;&quot;&#039;, &quot;&#039;&quot; ), array( &#039;_&#039;, &#039;_&#039;, &#039;_&#039;, &#039;&#039;, &#039;&#039; ), $input[&#039;frontend_title&#039;] ) );
+				if ( str_replace( &#039;_&#039;, &#039;&#039;, $htmlvar_name ) != &#039;&#039; ) {
+					$field-&gt;htmlvar_name = substr( $htmlvar_name, 0, 50 );
+				} else {
+					$field-&gt;htmlvar_name = &#039;cf&#039; . time();
+				}
+			}
+
+			if ( empty( $field-&gt;field_id ) &amp;&amp; is_numeric( substr( $field-&gt;htmlvar_name, 0, 1 ) ) ) {
+				$field-&gt;htmlvar_name = &#039;cf&#039; . $field-&gt;htmlvar_name; // Integer as column name is not accepted &amp; ID&#039;s should not start with a number.
+			}
+
+			// Check for reserved fields before assign generated htmlvar_name.
+			if ( ! empty( $field-&gt;post_type ) &amp;&amp; empty( $field-&gt;field_id ) &amp;&amp; ! empty( $field-&gt;htmlvar_name ) &amp;&amp; empty( $input[&#039;htmlvar_name&#039;] ) ) {
+				$reserved_fields = self::reserved_fields( $field-&gt;post_type );
+
+				if ( in_array( $field-&gt;htmlvar_name, $reserved_fields ) ) {
+					$table =  geodir_db_cpt_table( $field-&gt;post_type );
+					$exists = geodir_column_exist( $table, $field-&gt;htmlvar_name );
+
+					if ( $exists ) {
+						$suffix = 1;
+
+						do {
+							$_column = $field-&gt;htmlvar_name . &quot;_$suffix&quot;;
+							$exists = geodir_column_exist( $table, $_column );
+							$suffix++;
+						} while ( $exists );
+
+						$field-&gt;htmlvar_name = $_column;
+					}
+				}
+			}
+
+			return apply_filters( &#039;geodir_cpt_cf_sanatize_custom_field&#039;, $field, $input );
+
+		}
+
+		/**
+		 * Get the sort order if not set.
+		 *
+		 * @return int
+		 */
+		public static function default_sort_order(){
+			global $wpdb;
+			$last_order = $wpdb-&gt;get_var(&quot;SELECT MAX(sort_order) as last_order FROM &quot; . GEODIR_CUSTOM_FIELDS_TABLE);
+
+			return (int)$last_order + 1;
+		}
+
+        /**
+         * GeoDir sanitize extra values.
+         *
+         * @since 2.0.0
+         *
+         * @param string|array $value Extra values.
+         * @return array|string.
+         */
+		private static function sanatize_extra( $value ){
+			if( is_array($value) ){
+				if(empty($value)){$value = &#039;&#039;;}else{
+//					$value = maybe_serialize(array_map( &#039;sanitize_text_field&#039;, $value ));
+					foreach($value as $key =&gt; $val){
+						$value[$key] = self::sanatize_extra($val);
+					}
+					$value = maybe_serialize($value);
+
+				}
+			}else{
+				$value = sanitize_text_field($value );
+			}
+
+			return $value;
+		}
+
+        /**
+         * GeoDir sanitize show on pkg.
+         *
+         * @since 2.0.0
+         *
+         * @param array $value Show log values.
+         * @return string $value.
+         */
+		private static function sanatize_show_on_pkg( $value ){
+			if(is_array($value)  ){
+				if(empty($value)){$value = &#039;&#039;;}else{
+					$value = implode(&quot;,&quot;,array_map( &#039;absint&#039;, $value  ));
+				}
+			}
+
+			return $value;
+		}
+
+        /**
+         * GeoDir sanitize show in text fields values.
+         *
+         * @since 2.0.0
+         *
+         * @param array $value Array values.
+         * @return string $value.
+         */
+		private static function sanatize_show_in( $value ) {
+			if ( is_array( $value ) ) {
+				if ( empty( $value ) ) {
+					$value = &#039;&#039;;
+				} else {
+					$value = array_map( &#039;sanitize_text_field&#039;, $value );
+					$value = array_filter( $value );
+					$value = ! empty( $value ) ? implode( &quot;,&quot;, $value ) : &#039;&#039;;
+				}
+			}
+
+			return $value;
+		}
+
+		/**
+		 * Sanatize data type.
+		 *
+		 * Sanatize option values.
+		 * @param $value
+		 *
+		 * @return mixed
+		 */
+		private static function sanitize_data_type( $field ){
+
+			$value = &#039;VARCHAR&#039;;
+
+			if($field-&gt;data_type == &#039;&#039;){
+
+				switch ($field-&gt;field_type){
+					case &#039;badge&#039;:
+					case &#039;checkbox&#039;:
+						$value = &#039;TINYINT&#039;;
+						break;
+					case &#039;textarea&#039;:
+					case &#039;html&#039;:
+					case &#039;url&#039;:
+					case &#039;file&#039;:
+					$value = &#039;TEXT&#039;;
+						break;
+					case &#039;datepicker&#039;:
+						$value = &#039;DATE&#039;;
+						break;
+					default:
+						$value = &#039;VARCHAR&#039;;
+				}
+
+			}else{
+				// Strip X if first character, this is added as some servers will flag security rules if a data type is posted via form.
+				$value = ltrim($field-&gt;data_type, &#039;X&#039;);
+			}
+
+			return sanitize_text_field( $value);
+		}
+
+		/**
+		 * Sanatize option values.
+		 *
+		 * @param $value
+		 *
+		 * @return mixed
+		 */
+		private static function sanitize_option_values( $value ){
+
+			return sanitize_text_field( $value);
+		}
+
+		/**
+		 * Check if the field already exists.
+		 *
+		 * @param $field
+		 *
+		 * @return WP_Error
+		 */
+		public static function field_exists($field){
+			global $wpdb;
+
+			if( isset($field-&gt;htmlvar_name) &amp;&amp; isset($field-&gt;post_type)){
+				$result = $wpdb-&gt;get_var(
+					$wpdb-&gt;prepare(
+						&quot;select htmlvar_name from &quot; . GEODIR_CUSTOM_FIELDS_TABLE . &quot; where htmlvar_name = %s and post_type = %s &quot;,
+						array($field-&gt;htmlvar_name, $field-&gt;post_type )
+					)
+				);
+
+
+			}else{
+				$result = new WP_Error( &#039;invalid&#039;, __( &quot;Invalid field.&quot;, &quot;geodirectory&quot; ) );
+			}
+
+			return $result;
+
+		}
+
+        /**
+         * GeoDir save sort item.
+         *
+         * @since 2.0.0
+         *
+         * @global object $wpdb WordPress Database object.
+         *
+         * @param object $field Item field object.
+         */
+		private static function save_sort_item($field){
+			global $wpdb;
+
+			$exists = $wpdb-&gt;get_var(
+				$wpdb-&gt;prepare(
+					&quot;SELECT htmlvar_name from &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; where post_type = %s and htmlvar_name = %s&quot;,
+					array($field-&gt;post_type, $field-&gt;htmlvar_name)
+				)
+			);
+
+			if($exists){
+
+				if (!$field-&gt;cat_sort) {
+					$wpdb-&gt;query(
+						$wpdb-&gt;prepare(
+							&quot;delete from &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; where post_type = %s and htmlvar_name = %s&quot;,
+							array( $field-&gt;post_type, $field-&gt;htmlvar_name )
+						)
+					);
+				}else{
+					$wpdb-&gt;query(
+						$wpdb-&gt;prepare(
+							&quot;update &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; set 
+					 	frontend_title=%s
+					where post_type = %s and htmlvar_name = %s&quot;,
+							array($field-&gt;frontend_title, $field-&gt;post_type, $field-&gt;htmlvar_name)
+						)
+					);
+				}
+
+			}
+
+
+		}
+
+		/**
+		 * Save the custom field.
+		 *
+		 * @param array $field
+		 * @param bool $default
+		 *
+		 * @return int|string
+		 */
+		public static function delete_custom_field( $field_id ) {
+			global $wpdb;
+
+			$field_id = absint( $field_id );
+
+			if ( $field = $wpdb-&gt;get_row( $wpdb-&gt;prepare( &quot;SELECT htmlvar_name, post_type, field_type FROM &quot; . GEODIR_CUSTOM_FIELDS_TABLE . &quot; WHERE id = %d LIMIT 1&quot;, array( $field_id ) ) ) ) {
+				$wpdb-&gt;query( $wpdb-&gt;prepare( &quot;DELETE FROM &quot; . GEODIR_CUSTOM_FIELDS_TABLE . &quot; WHERE id = %d&quot;, array( $field_id ) ) );
+
+				$post_type = $field-&gt;post_type;
+				$htmlvar_name = $field-&gt;htmlvar_name;
+
+				if ( $post_type != &#039;&#039; &amp;&amp; $htmlvar_name != &#039;&#039; ) {
+					$wpdb-&gt;query( $wpdb-&gt;prepare( &quot;DELETE FROM &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; WHERE htmlvar_name = %s AND post_type = %s LIMIT 1&quot;, array( $htmlvar_name, $post_type ) ) );
+				}
+
+				/**
+				 * Called after a custom field is deleted.
+				 *
+				 * @since 1.0.0
+				 * @param string $field_id The fields ID.
+				 * @param string $field-&gt;htmlvar_name The html variable name for the field.
+				 * @param string $post_type The post type the field belongs to.
+				 */
+				do_action( &#039;geodir_after_custom_field_deleted&#039;, $field_id, $field-&gt;htmlvar_name, $post_type );
+
+				$table =  geodir_db_cpt_table( $post_type );
+
+				if ( $field-&gt;field_type == &#039;address&#039; ) {
+					$wpdb-&gt;query( &quot;ALTER TABLE {$table} DROP `street`&quot; );
+					$wpdb-&gt;query( &quot;ALTER TABLE {$table} DROP `city`&quot; );
+					$wpdb-&gt;query( &quot;ALTER TABLE {$table} DROP `region`&quot; );
+					$wpdb-&gt;query( &quot;ALTER TABLE {$table} DROP `country`&quot; );
+					$wpdb-&gt;query( &quot;ALTER TABLE {$table} DROP `zip`&quot; );
+					$wpdb-&gt;query( &quot;ALTER TABLE {$table} DROP `latitude`&quot; );
+					$wpdb-&gt;query( &quot;ALTER TABLE {$table} DROP `longitude`&quot; );
+					$wpdb-&gt;query( &quot;ALTER TABLE {$table} DROP `mapview`&quot; );
+					$wpdb-&gt;query( &quot;ALTER TABLE {$table} DROP `mapzoom`&quot; );
+				} else {
+					$is_system = in_array( $field-&gt;htmlvar_name, self::system_fields( $field-&gt;post_type ) ); // Prevent deleting system fields.
+					$is_reserved = in_array( $field-&gt;htmlvar_name, self::reserved_fields( $field-&gt;post_type ) ); // Prevent deleting reserved fields.
+
+					if ( $field-&gt;field_type != &#039;fieldset&#039; &amp;&amp; $field-&gt;field_type != &#039;link_posts&#039; &amp;&amp; ! $is_system &amp;&amp; ! $is_reserved ) {
+						$wpdb-&gt;query( &quot;ALTER TABLE {$table} DROP `&quot; . $field-&gt;htmlvar_name . &quot;`&quot; );
+					}
+				}
+
+				// clear cache
+				delete_transient( &#039;geodir_post_custom_fields&#039; );
+
+				return $field_id;
+			} else {
+				return new WP_Error( &#039;invalid&#039;, __( &quot;Invalid field.&quot;, &quot;geodirectory&quot; ) );
+			}
+		}
+
+		/**
+		 * Set custom field order
+		 *
+		 * @since 1.0.0
+		 * @package GeoDirectory
+		 * @global object $wpdb WordPress Database object.
+		 * @param array $field_ids List of field ids.
+		 * @return array|bool Returns field ids when success, else returns false.
+		 */
+		public static function set_field_orders($tabs = array()){
+			global $wpdb;
+
+			$count = 0;
+			if (!empty($tabs)) {
+				$result = false;
+				foreach ( $tabs as $index =&gt; $info ) {
+					$result = $wpdb-&gt;update(
+						GEODIR_CUSTOM_FIELDS_TABLE,
+						array(&#039;sort_order&#039; =&gt; $index,&#039;tab_level&#039; =&gt; $info[&#039;tab_level&#039;],&#039;tab_parent&#039; =&gt; $info[&#039;tab_parent&#039;]),
+						array(&#039;id&#039; =&gt; absint($info[&#039;id&#039;])),
+						array(&#039;%d&#039;,&#039;%d&#039;,&#039;%d&#039;)
+					);
+					$count ++;
+				}
+
+				// clear cache
+				delete_transient( &#039;geodir_post_custom_fields&#039; );
+
+				if($result !== false){
+					return true;
+				}else{
+					return new WP_Error( &#039;failed&#039;, __( &quot;Failed to sort tab items.&quot;, &quot;geodirectory&quot; ) );
+				}
+			}else{
+				return new WP_Error( &#039;failed&#039;, __( &quot;Failed to sort tab items.&quot;, &quot;geodirectory&quot; ) );
+			}
+		}
+
+		/**
+		 * An array of fields that dont need to add a new column
+		 * 
+		 * @return array
+		 */
+		public static function get_default_field_htmlvars(){
+			$htmlvars = array();
+			$custom_fields = GeoDir_Admin_Dummy_Data::default_custom_fields();
+			foreach($custom_fields as $custom_field){
+				$htmlvars[] = $custom_field[&#039;htmlvar_name&#039;];
+			}
+			return $htmlvars;
+		}
+
+		/**
+		 * Save the custom field.
+		 * 
+		 * @param array $field
+		 *
+		 * @return int|string
+		 */
+		public static function save_custom_field( $field = array() ) {
+			global $wpdb;
+
+			$field = self::sanatize_custom_field( $field );
+
+			//Ensure that field key/html var does not match standard wordpress columns
+			$wp_post_cols = array(
+				&#039;ID&#039;,
+				&#039;post_author&#039;,
+				&#039;post_date&#039;,
+				&#039;post_date_gmt&#039;,
+				&#039;post_excerpt&#039;,
+				&#039;post_status&#039;,
+				&#039;comment_status&#039;,
+				&#039;ping_status&#039;,
+				&#039;post_password&#039;,
+				&#039;post_name&#039;,
+				&#039;to_ping&#039;,
+				&#039;pinged&#039;,
+				&#039;post_modified&#039;,
+				&#039;post_modified_gmt&#039;,
+				&#039;post_content_filtered&#039;,
+				&#039;post_parent&#039;,
+				&#039;guid&#039;,
+				&#039;menu_order&#039;,
+				&#039;post_type&#039;,
+				&#039;post_mime_type&#039;,
+				&#039;comment_count&#039;,
+			);
+
+			if ( in_array( $field-&gt;htmlvar_name, $wp_post_cols ) ) {
+				return new WP_Error( &#039;failed&#039;, __( &quot;Field key name MUST NOT match a standard WordPress field, please use another key and re-save.&quot;, &quot;geodirectory&quot; ) );
+			}
+
+			// Check field exists.
+			$exists = self::field_exists( $field );
+
+			if ( is_wp_error( $exists ) ) {
+				return new WP_Error( &#039;failed&#039;, $exists-&gt;get_error_message() );
+			} else if ( $exists &amp;&amp; !$field-&gt;field_id ) {
+				if ( $field-&gt;htmlvar_name == &#039;featured&#039; ) {
+					return new WP_Error( &#039;failed&#039;, wp_sprintf( __( &quot;%s field already exists, it can not be used twice.&quot;, &quot;geodirectory&quot; ),  $field-&gt;htmlvar_name ) );
+				} else {
+					return new WP_Error( &#039;failed&#039;, __( &quot;Field key name MUST be unique, duplicate field detected, please fix and re-save.&quot;, &quot;geodirectory&quot; ) );
+				}
+			}
+
+			$table =  geodir_db_cpt_table( $field-&gt;post_type );
+			$old_field = geodir_get_field_infoby( &#039;htmlvar_name&#039;, $field-&gt;htmlvar_name, $field-&gt;post_type );
+			$column_attr = $field-&gt;data_type;
+
+			switch ($field-&gt;field_type){
+//				case &#039;address&#039;:
+//					echo $field-&gt;field_type; //@todo we need to do stuff here
+//					break;
+				case &#039;checkbox&#039;:
+					$column_attr .= &quot;( 1 ) NULL &quot;;
+					if (isset($field-&gt;db_default) &amp;&amp; (int)$field-&gt;db_default === 1) {
+						$column_attr .= &quot; DEFAULT &#039;1&#039;&quot;;
+					}
+					break;
+				case &#039;multiselect&#039;:
+				case &#039;select&#039;:
+					$op_size = &#039;500&#039;;
+
+					// only make the field as big as it needs to be.
+					if (isset($field-&gt;option_values) &amp;&amp; $field-&gt;option_values &amp;&amp; $field-&gt;field_type == &#039;select&#039;) {
+						$option_values_arr = explode(&#039;,&#039;, $field-&gt;option_values);
+
+						if (is_array($option_values_arr)) {
+							$op_max = 0;
+
+							foreach ($option_values_arr as $op_val) {
+								if (strlen($op_val) &amp;&amp; strlen($op_val) &gt; $op_max) {
+									$op_max = strlen($op_val);
+								}
+							}
+
+							if ($op_max) {
+								$op_size = $op_max;
+							}
+						}
+					} elseif (isset($field-&gt;option_values) &amp;&amp; $field-&gt;option_values &amp;&amp; $field-&gt;field_type == &#039;multiselect&#039;) {
+						if (strlen($field-&gt;option_values)) {
+							$op_size =  strlen($field-&gt;option_values);
+						}
+					}
+
+					if ( $field-&gt;data_type == &#039;TEXT&#039; ) {
+						$column_attr .= &quot; NULL &quot;;
+					} else {
+						$column_attr .= &quot;( $op_size ) NULL &quot;;
+					}
+
+					// Update the field size to new max
+					if ( $exists ) {
+						$meta_field_add = &quot;ALTER TABLE {$table} CHANGE `&quot; . $field-&gt;htmlvar_name . &quot;` `&quot; . $field-&gt;htmlvar_name . &quot;` {$column_attr}&quot;;
+						$alter_result   = $wpdb-&gt;query( $meta_field_add );
+
+						if ( $alter_result === false ) {
+							return new WP_Error( &#039;failed&#039;, __( &quot;Column change failed, you may have too many columns.&quot;, &quot;geodirectory&quot; ) );
+						}
+					}
+
+					if ( $field-&gt;db_default != &#039;&#039; ) {
+						$column_attr.= $wpdb-&gt;prepare(&quot; DEFAULT %s &quot;,$field-&gt;db_default);
+					}
+					break;
+				case &#039;textarea&#039;:
+				case &#039;html&#039;:
+				case &#039;url&#039;:
+				case &#039;file&#039;:
+					$column_attr .= &quot; NULL &quot;;
+					break;
+				case &#039;categories&#039;:
+					break;
+				case &#039;text&#039;:
+					$column_format = &#039;&#039;;
+
+					if ( isset( $field-&gt;data_type ) &amp;&amp; ( $field-&gt;data_type == &quot;FLOAT&quot; || $field-&gt;data_type == &quot;DECIMAL&quot; ) ) {
+						$decimal_place = isset( $field-&gt;decimal_point ) &amp;&amp; $field-&gt;decimal_point ? absint( $field-&gt;decimal_point ) : 2;
+						$column_attr = &quot;DECIMAL(&quot; . ( 14 + $decimal_place ) . &quot;,$decimal_place)&quot;;
+						$column_format = $column_attr;
+
+						if ( $field-&gt;db_default !== &#039;&#039; ) {
+							$db_default = $wpdb-&gt;prepare( &quot; DEFAULT %f &quot;, $field-&gt;db_default );
+						} else {
+							$db_default = &quot; DEFAULT NULL &quot;;
+						}
+					} else if ( isset( $field-&gt;data_type ) &amp;&amp; $field-&gt;data_type == &quot;INT&quot; ) {
+						$column_attr = &quot;BIGINT&quot;;
+						$column_format .= &quot;BIGINT (20) NULL&quot;;
+
+						if ( $field-&gt;db_default !== &#039;&#039; ) {
+							$db_default = $wpdb-&gt;prepare( &quot; DEFAULT %d &quot;, $field-&gt;db_default );
+						} else {
+							$db_default = &quot; DEFAULT NULL &quot;;
+						}
+					} else {
+						$column_attr .= &quot;( 254 ) NULL &quot;;
+						$column_format .= &quot;VARCHAR (254) NULL&quot;;
+
+						if ( $field-&gt;db_default !== &#039;&#039; ) {
+							$db_default = $wpdb-&gt;prepare( &quot; DEFAULT %s &quot;, $field-&gt;db_default );
+						} else {
+							$db_default = &quot; DEFAULT NULL &quot;;
+						}
+					}
+
+					$column_attr .= $db_default;
+					$column_format .= $db_default;
+
+					// Update field data type if changed
+					if ( $exists &amp;&amp; ! empty( $old_field ) &amp;&amp; ! empty( $field-&gt;data_type ) &amp;&amp; ( ( ! empty( $old_field-&gt;data_type ) &amp;&amp; $field-&gt;data_type != $old_field-&gt;data_type ) || ( $field-&gt;data_type == &quot;FLOAT&quot; || $field-&gt;data_type == &quot;DECIMAL&quot; || $field-&gt;data_type == &quot;INT&quot; ) ) ) {
+						$wpdb-&gt;query( &quot;ALTER TABLE {$table} CHANGE `&quot; . $field-&gt;htmlvar_name . &quot;` `&quot; . $field-&gt;htmlvar_name . &quot;` &quot; . trim( $column_format ) );
+					}
+				break;
+				case &#039;int&#039;:
+				case &#039;INT&#039;:
+					$column_attr = &quot;INT&quot;;
+					break;
+				case &#039;datepicker&#039;:
+					$column_attr = &quot;DATE&quot;;
+					break;
+				case &#039;fieldset&#039;:
+					// Nothing happenes for fieldset
+					break;
+				default:
+					$column_attr .= &quot;( 254 ) NULL &quot;;
+			}
+
+			$db_data = array(
+				&#039;post_type&#039; =&gt; $field-&gt;post_type,
+				&#039;admin_title&#039; =&gt; $field-&gt;admin_title,
+				&#039;frontend_title&#039; =&gt; $field-&gt;frontend_title,
+				&#039;field_type&#039; =&gt; $field-&gt;field_type,
+				&#039;field_type_key&#039; =&gt; $field-&gt;field_type_key,
+				&#039;htmlvar_name&#039; =&gt; $field-&gt;htmlvar_name,
+				&#039;frontend_desc&#039; =&gt; $field-&gt;frontend_desc,
+				&#039;clabels&#039; =&gt; $field-&gt;clabels,
+				&#039;default_value&#039; =&gt; $field-&gt;default_value,
+				&#039;placeholder_value&#039; =&gt; $field-&gt;placeholder_value,
+				&#039;sort_order&#039; =&gt; $field-&gt;sort_order,
+				&#039;is_active&#039; =&gt; $field-&gt;is_active,
+				&#039;is_default&#039; =&gt; $field-&gt;is_default,
+				&#039;is_required&#039; =&gt; $field-&gt;is_required,
+				&#039;required_msg&#039; =&gt; $field-&gt;required_msg,
+				&#039;css_class&#039; =&gt; $field-&gt;css_class,
+				&#039;field_icon&#039; =&gt; $field-&gt;field_icon,
+				&#039;show_in&#039; =&gt; $field-&gt;show_in,
+				&#039;option_values&#039; =&gt; $field-&gt;option_values,
+				&#039;packages&#039; =&gt; $field-&gt;packages,
+				&#039;cat_sort&#039; =&gt; $field-&gt;cat_sort,
+				&#039;cat_filter&#039; =&gt; $field-&gt;cat_filter,
+				&#039;data_type&#039; =&gt; $field-&gt;data_type,
+				&#039;extra_fields&#039; =&gt; $field-&gt;extra_fields,
+				&#039;decimal_point&#039; =&gt; $field-&gt;decimal_point,
+				&#039;validation_pattern&#039; =&gt; $field-&gt;validation_pattern,
+				&#039;validation_msg&#039; =&gt; $field-&gt;validation_msg,
+				&#039;for_admin_use&#039; =&gt; $field-&gt;for_admin_use
+			);
+
+			$db_format = array(
+				&#039;%s&#039;, // post_type
+				&#039;%s&#039;, // admin_title
+				&#039;%s&#039;, // frontend_title
+				&#039;%s&#039;, // field_type
+				&#039;%s&#039;, // field_type_key
+				&#039;%s&#039;, // htmlvar_name
+				&#039;%s&#039;, // frontend_desc
+				&#039;%s&#039;, // clabels
+				&#039;%s&#039;, // default_value
+				&#039;%s&#039;, // placeholder_value
+				&#039;%d&#039;, // sort_order
+				&#039;%d&#039;, // is_active
+				&#039;%d&#039;, // is_default
+				&#039;%d&#039;, // is_required
+				&#039;%s&#039;, // required_msg
+				&#039;%s&#039;, // css_class
+				&#039;%s&#039;, // field_icon
+				&#039;%s&#039;, // show_in
+				&#039;%s&#039;, // option_values
+				&#039;%s&#039;, // packages
+				&#039;%d&#039;, // cat_sort
+				&#039;%d&#039;, // cat_filter
+				&#039;%s&#039;, // data_type
+				&#039;%s&#039;, // extra_fields
+				&#039;%d&#039;, // decimal_point
+				&#039;%s&#039;, // validation_pattern
+				&#039;%s&#039;, // validation_msg
+				&#039;%d&#039;, // for_admin_use
+			);
+
+			if ( $exists ) {
+				// Update the field settings.
+				$result = $wpdb-&gt;update(
+					GEODIR_CUSTOM_FIELDS_TABLE,
+					$db_data,
+					array(&#039;id&#039; =&gt; $field-&gt;field_id),
+					$db_format
+				);
+				
+				if ( $result === false ) {
+					return new WP_Error( &#039;failed&#039;, __( &quot;Field update failed.x&quot;, &quot;geodirectory&quot; ) );
+				}
+				// @todo, should we ALTER the field type here to see if we can improve it, ie VARCHAR(123)
+			} else {
+				// Insert the field settings.
+				$result = $wpdb-&gt;insert(
+					GEODIR_CUSTOM_FIELDS_TABLE,
+					$db_data,
+					$db_format
+				);
+
+				if ( $result === false ) {
+					return new WP_Error( &#039;failed&#039;, __( &quot;Field create failed.&quot;, &quot;geodirectory&quot; ) );
+				} else {
+					$field-&gt;field_id = $wpdb-&gt;insert_id;
+				}
+
+				// Check if its a default field that does not need a column added
+				$default_fields = self::get_default_field_htmlvars();
+
+				if ( ( ! in_array( $field-&gt;htmlvar_name, $default_fields ) &amp;&amp; ! apply_filters( &#039;geodir_cfa_skip_column_add&#039;, $field-&gt;field_type == &#039;fieldset&#039;, $field ) ) || ! empty( $field-&gt;add_column ) ) {
+					// Add the new column to the details table.
+					$add_details_column = geodir_add_column_if_not_exist( $table, $field-&gt;htmlvar_name, $column_attr );
+
+					if ( $add_details_column === false ) {
+						// Delete CF if column creation fails.
+						if ( ! empty( $field-&gt;field_id ) ) {
+							$wpdb-&gt;query( $wpdb-&gt;prepare( &quot;DELETE FROM `&quot; . GEODIR_CUSTOM_FIELDS_TABLE . &quot;` WHERE id = %d&quot;, array( $field-&gt;field_id ) ) );
+						}
+
+						return new WP_Error( &#039;failed&#039;, __( &#039;Column creation failed, you may have too many columns or the default value does not match with field data type.&#039;, &#039;geodirectory&#039; ) );
+					}
+				}
+			}
+
+			// update or delete the sort order field.
+			self::save_sort_item($field);
+
+			/**
+			 * Called after all custom fields are saved for a post.
+			 *
+			 * @since 1.0.0
+			 * @param int $lastid The post ID.
+			 */
+			do_action(&#039;geodir_after_custom_fields_updated&#039;, $field-&gt;field_id);
+
+			// clear cache
+			delete_transient( &#039;geodir_post_custom_fields&#039; );
+
+			return $field-&gt;field_id;
+
+		}
+
+
+        /**
+         * GeoDir get custom post type custom fields values.
+         *
+         * @since 2.0.0
+         *
+         * @param string $post_type Optional. Post type values . Default gd_place.
+         *
+         * @global object $wpdb WordPress Database object.
+         *
+         * @return array|object Return results in array or object.
+         */
+		public static function get_cpt_custom_fields($post_type = &#039;gd_place&#039;){
+			global $wpdb;
+			return $wpdb-&gt;get_results($wpdb-&gt;prepare(&quot;SELECT * FROM &quot;.GEODIR_CUSTOM_FIELDS_TABLE.&quot; WHERE  post_type = %s&quot;,$post_type));
+		}
+
+		/**
+		 * @param object $field
+		 * @param string $field_type
+		 *
+		 * @return mixed|void
+		 */
+		public static function show_in_locations($field = &#039;&#039;, $field_type=&#039;&#039;){
+			return geodir_show_in_locations( $field, $field_type );
+		}
+
+		/**
+		 * Get the field object.
+		 *
+		 * @param int $id Field id. default 0.
+		 *
+		 * @return object Field object.
+		 */
+		public static function get_item( $id = 0 ) {
+			global $wpdb;
+
+			return $wpdb-&gt;get_row( $wpdb-&gt;prepare( &quot;SELECT * FROM &quot; . GEODIR_CUSTOM_FIELDS_TABLE . &quot; WHERE id = %d LIMIT 1&quot;, array( $id ) ) );
+		}
+
+		/**
+		 * Get the child fields.
+		 *
+		 * @param int $parent Parent field id. default 0.
+		 *
+		 * @return object Field object.
+		 */
+		public static function get_childs( $parent = 0 ) {
+			global $wpdb;
+
+			return $wpdb-&gt;get_results( $wpdb-&gt;prepare( &quot;SELECT * FROM &quot; . GEODIR_CUSTOM_FIELDS_TABLE . &quot; WHERE tab_parent = %d ORDER BY sort_order ASC, tab_level ASC&quot;, array( $parent ) ) );
+		}
+
+		/**
+		 * Get the list of GD system fields.
+		 *
+		 * @since 2.2.4
+		 *
+		 * @param string $post_type The post type.
+		 * @return array List of system fields.
+		 */
+		public static function system_fields( $post_type ) {
+			$fields = array(
+				&#039;post_title&#039;,
+				&#039;post_content&#039;,
+				&#039;post_category&#039;,
+				&#039;post_tags&#039;,
+				&#039;post_images&#039;
+			);
+
+			/**
+			 * Filter the list of GD system fields.
+			 *
+			 * @since 2.2.4
+			 *
+			 * @param array List of system fields.
+			 * @param string $post_type The post type.
+			 */
+			return apply_filters( &#039;geodir_cpt_cf_system_fields&#039;, $fields, $post_type );
+		}
+
+		/**
+		 * Get the list of GD reserved fields.
+		 *
+		 * @since 2.2.4
+		 *
+		 * @param string $post_type The post type.
+		 * @return array List of reserved fields.
+		 */
+		public static function reserved_fields( $post_type ) {
+			$fields = array(
+				&#039;post_id&#039;,
+				&#039;_search_title&#039;,
+				&#039;post_status&#039;,
+				&#039;default_category&#039;,
+				&#039;featured_image&#039;,
+				&#039;overall_rating&#039;,
+				&#039;rating_count&#039;,
+				&#039;ratings&#039;
+			);
+
+			if ( GeoDir_Post_types::supports( $post_type, &#039;location&#039; ) ) {
+				$fields = array_merge( $fields, array(
+					&#039;city&#039;,
+					&#039;region&#039;,
+					&#039;country&#039;,
+					&#039;neighbourhood&#039;,
+					&#039;zip&#039;,
+					&#039;latitude&#039;,
+					&#039;longitude&#039;,
+					&#039;mapview&#039;,
+					&#039;mapzoom&#039;
+				) );
+			}
+
+			/**
+			 * Filter the list of GD reserved fields.
+			 *
+			 * @since 2.2.4
+			 *
+			 * @param array List of reserved fields.
+			 * @param string $post_type The post type.
+			 */
+			return apply_filters( &#039;geodir_cpt_cf_reserved_fields&#039;, $fields, $post_type );
+		}
+	}
+
+endif;
+
+return new GeoDir_Settings_Cpt_Cf();</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

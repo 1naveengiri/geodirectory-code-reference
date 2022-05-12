@@ -1,0 +1,2367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">location-functions.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_create_location_slug">
+        geodir_create_location_slug()
+        <a href="#function_geodir_create_location_slug" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.12">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">12</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns location slug using location string.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_create_location_slug</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location_string</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location_string</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The location string.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_country_dl">
+        geodir_get_country_dl()
+        <a href="#function_geodir_get_country_dl" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.28">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">28</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns country selection dropdown box.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_country_dl</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_country</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$prefix</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return_array</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_country</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The dropdown default selected country.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$prefix</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Not yet implemented.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$return_array</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_countries">
+        geodir_get_countries()
+        <a href="#function_geodir_get_countries" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.86">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">86</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns an array of all countries by key val where the key is the country name untranslated and the val is the country name translated.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_countries</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_address_by_lat_lan">
+        geodir_get_address_by_lat_lan()
+        <a href="#function_geodir_get_address_by_lat_lan" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.107">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">107</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns address using latitude and longitude.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_address_by_lat_lan</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lat</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lng</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$lat</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Latitude string.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$lng</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Longitude string.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_current_location_terms">
+        geodir_get_current_location_terms()
+        <a href="#function_geodir_get_current_location_terms" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.136">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">136</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns current location terms.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_current_location_terms</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location_array_from</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gd_post_type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location_array_from</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Place to look for location array. Default: 'session'. @deprecated</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$gd_post_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The post type.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wp WordPress object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_location_name_from_slug">
+        geodir_location_name_from_slug()
+        <a href="#function_geodir_location_name_from_slug" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.182">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">182</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_location_name_from_slug</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$slug</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$slug</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_location_link">
+        geodir_get_location_link()
+        <a href="#function_geodir_get_location_link" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.194">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">194</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns location link based on location type.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_location_link</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$which_location</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;current&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$which_location</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;current&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Location link type. Default: 'current'.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_osm_address_by_lat_lan">
+        geodir_get_osm_address_by_lat_lan()
+        <a href="#function_geodir_get_osm_address_by_lat_lan" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.226">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">226</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns openstreetmap address using latitude and longitude.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_osm_address_by_lat_lan</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lat</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lng</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$lat</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Latitude string.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$lng</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Longitude string.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.6.5</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_replace_location_variables">
+        geodir_replace_location_variables()
+        <a href="#function_geodir_replace_location_variables" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.270">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">270</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Replace the location variables.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_replace_location_variables</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$content</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location_array</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sep</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">NULL</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gd_page</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$content</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The content with variables.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location_array</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The array of location variables.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sep</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">NULL</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The separator, Optional.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$gd_page</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The page being filtered. Optional.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.6.16</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wp WordPress object.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_location_replace_vars">
+        geodir_location_replace_vars()
+        <a href="#function_geodir_location_replace_vars" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.301">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">301</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for replace location values.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_location_replace_vars</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$location_array</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sep</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">NULL</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gd_page</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$location_array</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. The array of location variables. Default array().</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sep</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">NULL</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. The separator. Default null.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$gd_page</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional.The page being filtered. Default null.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_location_slug_check">
+        geodir_location_slug_check()
+        <a href="#function_geodir_location_slug_check" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.453">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">453</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Check location slug.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_location_slug_check</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$slug</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$slug</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Term slug.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>object $wpdb WordPress Database object.</p>
+</section>
+
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">global</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>string $table_prefix WordPress Database Table prefix.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_geo_by_ip">
+        geodir_geo_by_ip()
+        <a href="#function_geodir_geo_by_ip" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.487">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">487</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get location info via from IP.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_geo_by_ip</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ip</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed|void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$ip</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.60</span>
+                                                                                                        <section class="phpdocumentor-description"><p>Changed to new site for IP information.</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - -deprecated">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_geoplugin_data">
+        geodir_geoplugin_data()
+        <a href="#function_geodir_geoplugin_data" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.508">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">508</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get location data from ip via geoplugin.net</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature -deprecated">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_geoplugin_data</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ip</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|mixed|null|void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$ip</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">deprecated</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.60</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_ip_api_data">
+        geodir_ip_api_data()
+        <a href="#function_geodir_ip_api_data" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.550">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">550</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get location data from ip via geoplugin.net.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_ip_api_data</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ip</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|bool|mixed|null|object|void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$ip</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.60</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_timezone_by_lat_lon">
+        geodir_get_timezone_by_lat_lon()
+        <a href="#function_geodir_get_timezone_by_lat_lon" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.599">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">599</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get timezone data from via timezone api service.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_timezone_by_lat_lon</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$latitude</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$longitude</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$timestamp</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|<abbr title="\WP_Error">WP_Error</abbr></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$latitude</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Latitude</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$longitude</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Longitude</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$timestamp</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Timestamp</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.66</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_get_gps_from_address">
+        geodir_get_gps_from_address()
+        <a href="#function_geodir_get_gps_from_address" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.659">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">659</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the GPS from a post address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_get_gps_from_address</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$address</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$wp_error</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\WP_Error">WP_Error</abbr>|array&lt;string|int, mixed&gt;|bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$address</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$wp_error</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_google_get_gps_from_address">
+        geodir_google_get_gps_from_address()
+        <a href="#function_geodir_google_get_gps_from_address" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.701">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">701</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get GPS info for the address using Google Geocode API.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_google_get_gps_from_address</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$address</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$wp_error</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|<abbr title="\WP_Error">WP_Error</abbr></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$address</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Array of address element or full address.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$wp_error</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Whether to return a WP_Error on failure. Default false.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.66</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_osm_get_gps_from_address">
+        geodir_osm_get_gps_from_address()
+        <a href="#function_geodir_osm_get_gps_from_address" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.832">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">832</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get GPS info for the address using OpenStreetMap Nominatim API.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_osm_get_gps_from_address</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$address</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$wp_error</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|<abbr title="\WP_Error">WP_Error</abbr></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$address</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Array of address element or full address.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$wp_error</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Whether to return a WP_Error on failure. Default false.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0.66</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_core_multi_city">
+        geodir_core_multi_city()
+        <a href="#function_geodir_core_multi_city" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.964">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">964</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Check multi city active or not.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_core_multi_city</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|<abbr title="\WP_Error">WP_Error</abbr></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.1.0.7</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_post_address">
+        geodir_post_address()
+        <a href="#function_geodir_post_address" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/location-functions.php"><a href="../files/geodirectory-includes-location-functions.html#source-view.979">geodirectory/includes/location-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">979</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Render the post address field value.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_post_address</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int|object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$default</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">NULL</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Field value.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$key</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Field key.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The post.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$default</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">NULL</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Whether to use default value.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.1.1.9</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+
+/**
+ * Returns location slug using location string.
+ *
+ * @since 2.0.0
+ * @package GeoDirectory
+ * @param string $location_string The location string.
+ * @return string The location slug.
+ */
+function geodir_create_location_slug( $location_string ) {
+	global $geodirectory;
+
+    return $geodirectory-&gt;location-&gt;create_location_slug( $location_string );
+}
+
+
+/**
+ * Returns country selection dropdown box.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ * @param string $post_country The dropdown default selected country.
+ * @param string $prefix Not yet implemented.
+ */
+function geodir_get_country_dl($post_country = &#039;&#039;, $prefix = &#039;&#039;, $return_array = false )
+{
+    global $wpdb,$wp_country_database;
+
+    $rows = $wp_country_database-&gt;get_countries();
+    
+    $ISO2 = array();
+    $countries = array();
+    
+    foreach ($rows as $row) {
+//        print_r($row);
+        $ISO2[$row-&gt;name] = $row-&gt;alpha2Code;
+        $countries[$row-&gt;name] = __($row-&gt;name, &#039;geodirectory&#039;);
+
+        $gps = explode(&quot;,&quot;,$row-&gt;latlng);
+        $latlng[$row-&gt;name][&#039;lat&#039;] = isset($gps[0]) ? $gps[0] : &#039;&#039;;
+        $latlng[$row-&gt;name][&#039;lon&#039;] = isset($gps[1]) ? $gps[1] : &#039;&#039;;
+
+    }
+    
+    asort($countries);
+	
+	$array_out = array();
+    
+    $out_put = &#039;&lt;option &#039; . selected(&#039;&#039;, $post_country, false) . &#039; value=&quot;&quot;&gt;&#039; . __(&#039;Select Country&#039;, &#039;geodirectory&#039;) . &#039;&lt;/option&gt;&#039;;
+    foreach ($countries as $country =&gt; $name) {
+        $ccode = $ISO2[$country];
+        $gps = $latlng[$country];
+	    $value = esc_attr($country);
+
+        $out_put .= &#039;&lt;option &#039; . selected($post_country, $country, false) . &#039; value=&quot;&#039; . $value . &#039;&quot; data-country_code=&quot;&#039; . $ccode . &#039;&quot; data-country_lat=&quot;&#039; . $gps[&#039;lat&#039;] . &#039;&quot; data-country_lon=&quot;&#039; . $gps[&#039;lon&#039;] . &#039;&quot; &gt;&#039; . $name . &#039;&lt;/option&gt;&#039;;
+
+	    $array_out[$value] = array(
+		    &#039;label&#039; =&gt; $name,
+		    &#039;value&#039; =&gt; $value,
+		    &#039;extra_attributes&#039; =&gt; array(
+			    &#039;data-country_code&#039; =&gt; $ccode,
+			    &#039;data-country_lat&#039;  =&gt; $gps[&#039;lat&#039;],
+			    &#039;data-country_lon&#039;  =&gt; $gps[&#039;lon&#039;]
+			    
+		    )
+	    );
+    }
+
+    return $return_array ? $array_out : $out_put;
+}
+
+/**
+ * Returns an array of all countries by key val where the key is the country name untranslated and the val is the country name translated.
+ *
+ * @since 2.0.0
+ *
+ * @package GeoDirectory
+ *
+ * @global object $wpdb WordPress Database object.
+ *
+ * @return array $countries
+ */
+function geodir_get_countries()
+{
+    $rows = wp_country_database()-&gt;get_countries();
+    $countries = array();
+    foreach ($rows as $row) {
+        $countries[$row-&gt;name] = __($row-&gt;name, &#039;geodirectory&#039;);
+    }
+    asort($countries);
+    return $countries;
+}
+
+
+/**
+ * Returns address using latitude and longitude.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @param string $lat Latitude string.
+ * @param string $lng Longitude string.
+ * @return string|bool Returns address on success.
+ */
+function geodir_get_address_by_lat_lan($lat, $lng)
+{
+    $url = &#039;https://maps.googleapis.com/maps/api/geocode/json?latlng=&#039; . trim($lat) . &#039;,&#039; . trim($lng). GeoDir_Maps::google_geocode_api_key(true) ;
+
+    $response = wp_remote_get($url);
+    if ( is_wp_error( $response ) ) {
+        return false;
+    }
+
+    $result = json_decode( wp_remote_retrieve_body( $response ) );
+
+    if(isset($result-&gt;results[0]-&gt;address_components)){
+        return $result-&gt;results[0]-&gt;address_components;
+    }else{
+        return false;
+    }
+}
+
+/**
+ * Returns current location terms.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wp WordPress object.
+ *
+ * @param string $location_array_from Place to look for location array. Default: &#039;session&#039;. @deprecated
+ * @param string $gd_post_type The post type.
+ * @return array The location term array.
+ */
+function geodir_get_current_location_terms( $location_array_from = null, $gd_post_type = &#039;&#039; ) {
+	global $wp, $geodirectory;
+
+	$location_array = array();
+
+	if ( ( isset( $wp-&gt;query_vars[&#039;country&#039;] ) &amp;&amp; $wp-&gt;query_vars[&#039;country&#039;] == &#039;me&#039; ) || ( isset($wp-&gt;query_vars[&#039;region&#039;] ) &amp;&amp; $wp-&gt;query_vars[&#039;region&#039;] == &#039;me&#039; ) || ( isset( $wp-&gt;query_vars[&#039;city&#039;] ) &amp;&amp; $wp-&gt;query_vars[&#039;city&#039;] == &#039;me&#039; ) ) {
+		return $location_array;
+	}
+
+	if ( ! ( ! empty( $geodirectory ) &amp;&amp; ! empty( $geodirectory-&gt;location ) ) ) {
+		return $location_array;
+	}
+
+	$location_terms = $geodirectory-&gt;location-&gt;allowed_query_variables();
+
+	foreach ( $location_terms as $location_term ) {
+		$location_array[ $location_term ] = isset( $geodirectory-&gt;location-&gt;{$location_term . &quot;_slug&quot;} ) ? $geodirectory-&gt;location-&gt;{$location_term . &quot;_slug&quot;} : &#039;&#039;;
+	}
+
+	// Set empty locations terms when outside default location active. 
+	if ( geodir_core_multi_city() &amp;&amp; ! geodir_is_page( &#039;single&#039; ) &amp;&amp; ! geodir_is_page( &#039;search&#039; ) ) {
+		$location_array = array();
+	}
+
+	/**
+	 * Filter the location terms.
+	 *
+	 * @since 1.4.6
+	 * @package GeoDirectory
+	 *
+	 * @param array $location_array {
+	 *    Attributes of the location_array.
+	 *
+	 *    @type string $gd_country The country slug.
+	 *    @type string $gd_region The region slug.
+	 *    @type string $gd_city The city slug.
+	 *
+	 * }
+	 * @param string $location_array_from Source type of location terms. Default session.
+	 * @param string $gd_post_type WP post type.
+	 */
+	$location_array = apply_filters( &#039;geodir_current_location_terms&#039;, $location_array, $location_array_from, $gd_post_type );
+
+	return $location_array;
+}
+
+function geodir_location_name_from_slug($slug,$type){
+
+}
+
+/**
+ * Returns location link based on location type.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @param string $which_location Location link type. Default: &#039;current&#039;.
+ * @return bool|string
+ */
+function geodir_get_location_link($which_location = &#039;current&#039;) {
+    $location_link = trailingslashit( get_permalink(geodir_location_page_id()) );
+
+    if ($which_location == &#039;base&#039;) {
+        return $location_link;
+    } else {
+        $location_terms = geodir_get_current_location_terms();
+
+        $location_terms = apply_filters(&#039;geodir_location_link_location_terms&#039;,$location_terms);
+
+        if (!empty($location_terms)) {
+            if (get_option(&#039;permalink_structure&#039;) != &#039;&#039;) {
+                $location_terms = implode(&quot;/&quot;, $location_terms);
+                $location_terms = rtrim($location_terms, &#039;/&#039;);
+                $location_link .= $location_terms;
+            } else {
+                $location_link = geodir_getlink($location_link, $location_terms);
+            }
+        }
+    }
+    return $location_link;
+}
+
+/**
+ * Returns openstreetmap address using latitude and longitude.
+ *
+ * @since 1.6.5
+ * @package GeoDirectory
+ * @param string $lat Latitude string.
+ * @param string $lng Longitude string.
+ * @return array|bool Returns address on success.
+ */
+function geodir_get_osm_address_by_lat_lan($lat, $lng) {
+
+    // we need the protocol to be &quot;//&quot; as a http site call to their https server fails. EDIT, it seems to require HTTPS now :/
+    $url = &#039;https://nominatim.openstreetmap.org/reverse?format=json&amp;lat=&#039; . trim($lat) . &#039;&amp;lon=&#039; . trim($lng) . &#039;&amp;zoom=16&amp;addressdetails=1&amp;email=&#039; . get_option(&#039;admin_email&#039;);
+
+
+    $response = wp_remote_get($url);
+    if ( is_wp_error( $response ) ) {
+        return false;
+    }
+
+    $result = json_decode( wp_remote_retrieve_body( $response ) );
+
+    if(!empty($result-&gt;address)){
+        $address_fields = array(&#039;public_building&#039;, &#039;house&#039;, &#039;house_number&#039;, &#039;bakery&#039;, &#039;footway&#039;, &#039;street&#039;, &#039;road&#039;, &#039;village&#039;, &#039;attraction&#039;, &#039;pedestrian&#039;, &#039;neighbourhood&#039;, &#039;suburb&#039;);
+        $formatted_address = (array)$result-&gt;address;
+
+        foreach ( $result-&gt;address as $key =&gt; $value ) {
+            if (!in_array($key, $address_fields)) {
+                unset($formatted_address[$key]);
+            }
+        }
+        $result-&gt;formatted_address = !empty($formatted_address) ? implode(&#039;, &#039;, $formatted_address) : &#039;&#039;;
+
+        return $result;
+    }else{
+        return false;
+    }
+}
+
+/**
+ * Replace the location variables.
+ *
+ * @since   1.6.16
+ * @package GeoDirectory
+ *
+ * @global object $wp WordPress object.
+ *
+ * @param string $content       The content with variables.
+ * @param array $location_array The array of location variables.
+ * @param string $sep           The separator, Optional.
+ * @param string $gd_page       The page being filtered. Optional.
+ * @return string Filtered content.
+ */
+function geodir_replace_location_variables($content, $location_array = array(), $sep = NULL, $gd_page = &#039;&#039;) {
+
+    if (empty($content)) {
+        return $content;
+    }
+
+
+    $location_replace_vars = geodir_location_replace_vars($location_array, $sep, $gd_page);
+
+    if (!empty($location_replace_vars)) {
+        foreach ($location_replace_vars as $search =&gt; $replace) {
+            if (!empty($search) &amp;&amp; strpos($content, $search) !== false) {
+                $content = str_replace($search, $replace, $content);
+            }
+        }
+    }
+
+    return $content;
+}
+add_filter(&#039;geodir_replace_location_variables&#039;, &#039;geodir_replace_location_variables&#039;);
+
+/**
+ * Function for replace location values.
+ *
+ * @since 2.0.0
+ *
+ * @param array $location_array Optional. The array of location variables. Default array().
+ * @param string $sep Optional. The separator. Default null.
+ * @param string $gd_page Optional.The page being filtered. Default null.
+ * @return array $location_replace_vars.
+ */
+function geodir_location_replace_vars( $location_array = array(), $sep = NULL, $gd_page = &#039;&#039; ) {
+    global $wp, $gd_post;
+
+    // Private address
+    $check_address = ( $gd_page == &#039;single&#039; || geodir_is_page( &#039;single&#039; ) ) &amp;&amp; ! empty( $gd_post ) &amp;&amp; GeoDir_Post_types::supports( $gd_post-&gt;post_type, &#039;private_address&#039; ) ? true : false;
+
+    if ( empty( $location_array ) ) {
+        $location_array = geodir_get_current_location_terms( &#039;query_vars&#039; );
+    }
+
+    $location_terms = array();
+    $location_terms[&#039;gd_neighbourhood&#039;] = !empty($wp-&gt;query_vars[&#039;neighbourhood&#039;]) ? $wp-&gt;query_vars[&#039;neighbourhood&#039;] : &#039;&#039;;
+    $location_terms[&#039;gd_city&#039;] = !empty($wp-&gt;query_vars[&#039;city&#039;]) ? $wp-&gt;query_vars[&#039;city&#039;] : &#039;&#039;;
+    $location_terms[&#039;gd_region&#039;] = !empty($wp-&gt;query_vars[&#039;region&#039;]) ? $wp-&gt;query_vars[&#039;region&#039;] : &#039;&#039;;
+    $location_terms[&#039;gd_country&#039;] = !empty($wp-&gt;query_vars[&#039;country&#039;]) ? $wp-&gt;query_vars[&#039;country&#039;] : &#039;&#039;;
+
+    // On single page set neighbourhood from post.
+    if ( ! empty( $location_terms[&#039;gd_city&#039;] ) &amp;&amp; empty( $location_terms[&#039;gd_neighbourhood&#039;] ) &amp;&amp; ( $gd_page == &#039;single&#039; || geodir_is_page( &#039;single&#039; ) ) &amp;&amp; ! empty( $gd_post-&gt;neighbourhood ) ) {
+        $location_terms[&#039;gd_neighbourhood&#039;] = $gd_post-&gt;neighbourhood;
+    }
+
+    $location_single = &#039;&#039;;
+    $location_names = array();
+    foreach ( $location_terms as $type =&gt; $location ) {
+        $location_type = strpos( $type, &#039;gd_&#039; ) === 0 ? substr( $type, 3 ) : $type;
+        if ( $location == &#039;&#039; &amp;&amp; isset( $location_array[ $location_type ] ) ) {
+            $location = $location_array[ $location_type ];
+        };
+
+        if ( ! empty( $location ) ) {
+            if ( function_exists( &#039;get_actual_location_name&#039; ) ) {
+                $location = get_actual_location_name( $location_type, $location, true );
+            } else {
+                $location = preg_replace( &#039;/-(\d+)$/&#039;, &#039;&#039;, $location);
+                $location = preg_replace( &#039;/[_-]/&#039;, &#039; &#039;, $location );
+                $location = __( geodir_ucwords( $location ), &#039;geodirectory&#039; );
+            }
+        }
+
+		if ( $check_address &amp;&amp; ! empty( $location ) ) {
+			$location = geodir_post_address( $location, $location_type, $gd_post, &#039;&#039; );
+		}
+
+        if ( empty( $location_single ) ) {
+            $location_single = $location;
+        }
+
+        $location_names[ $type ] = $location;
+    }
+
+    $full_location = array();
+    if ( ! empty( $location_array ) ) {
+        $location_array = array_reverse( $location_array );
+        foreach ( $location_array as $type =&gt; $location ) {
+            if ( ! empty( $location_names[ $type ] ) ) {
+                $location_name = $location_names[ $type ];
+            } else {
+                $location_type = strpos($type, &#039;gd_&#039;) === 0 ? substr($type, 3) : $type;
+
+                if ( function_exists( &#039;get_actual_location_name&#039; ) ) {
+                    $location_name = get_actual_location_name( $location_type, $location, true );
+                } else {
+                    $location_name = preg_replace( &#039;/-(\d+)$/&#039;, &#039;&#039;, $location );
+                    $location_name = preg_replace( &#039;/[_-]/&#039;, &#039; &#039;, $location_name );
+                    $location_name = __( geodir_ucwords( $location_name ), &#039;geodirectory&#039; );
+                }
+            }
+
+            $location_name = trim( $location_name );
+
+			// Private address
+			if ( $check_address &amp;&amp; ! empty( $location_name ) ) {
+				$location_name = geodir_post_address( $location_name, $location_type, $gd_post, &#039;&#039; );
+			}
+
+			if ( $location_name != &#039;&#039; ) {
+				$full_location[] = $location_name;
+			}
+        }
+
+        if (!empty($full_location)) {
+            $full_location = array_unique($full_location);
+        }
+    }
+    $full_location = !empty($full_location) ? implode(&#039;, &#039;, $full_location): &#039;&#039;;
+    
+    if ( empty( $full_location ) ) {
+        /**
+         * Filter the text in meta description in full location is empty.
+         *
+         * @since 1.6.22
+         * 
+         * @param string $full_location Default: Empty.
+         * @param array  $location_array The array of location variables.
+         * @param string $gd_page       The page being filtered.
+         * @param string $sep           The separator.
+         */
+         $full_location = apply_filters( &#039;geodir_meta_description_location_empty_text&#039;, &#039;&#039;, $location_array, $gd_page, $sep );
+    }
+    
+    if ( empty( $location_single ) ) {
+        /**
+         * Filter the text in meta description in single location is empty.
+         *
+         * @since 1.6.22
+         * 
+         * @param string $location_single Default: Empty.
+         * @param array $location_array The array of location variables.
+         * @param string $gd_page       The page being filtered.
+         * @param string $sep           The separator.
+         */
+         $location_single = apply_filters( &#039;geodir_meta_description_single_location_empty_text&#039;, &#039;&#039;, $location_array, $gd_page, $sep );
+    }
+
+    $location_replace_vars = array();
+    $location_replace_vars[&#039;%%location_sep%%&#039;] = $sep !== NULL ? $sep : &#039;|&#039;;
+    $location_replace_vars[&#039;%%location%%&#039;] = $full_location;
+    $location_replace_vars[&#039;%%in_location%%&#039;] = $full_location != &#039;&#039; ? sprintf( _x(&#039;in %s&#039;,&#039;in location&#039;, &#039;geodirectory&#039;), $full_location ) : &#039;&#039;;
+    $location_replace_vars[&#039;%%location_single%%&#039;] = $location_single;
+    $location_replace_vars[&#039;%%in_location_single%%&#039;] = $location_single != &#039;&#039; ? sprintf( _x(&#039;in %s&#039;,&#039;in location&#039;, &#039;geodirectory&#039;), $location_single ) : &#039;&#039;;
+
+    foreach ($location_names as $type =&gt; $name) {
+        $location_type = strpos($type, &#039;gd_&#039;) === 0 ? substr($type, 3) : $type;
+        $location_replace_vars[&#039;%%_&#039; . $location_type . &#039;%%&#039;] = $name;
+        $location_replace_vars[&#039;%%location_&#039; . $location_type . &#039;%%&#039;] = $name;
+        $location_replace_vars[&#039;%%in_location_&#039; . $location_type . &#039;%%&#039;] = !empty($name) ? sprintf( _x(&#039;in %s&#039;,&#039;in location&#039;, &#039;geodirectory&#039;), $name ) : &#039;&#039;;
+    }
+
+    /**
+     * Filter the location terms variables to search &amp; replace.
+     *
+     * @since   1.6.16
+     * @package GeoDirectory
+     *
+     * @param array $location_replace_vars The array of search &amp; replace variables.
+     * @param array $location_array The array of location variables.
+     * @param string $gd_page       The page being filtered.
+     * @param string $sep           The separator.
+     */
+    return apply_filters( &#039;geodir_filter_location_replace_variables&#039;, $location_replace_vars, $location_array, $gd_page, $sep );
+}
+
+/**
+ * Check location slug.
+ *
+ * @since 1.0.0
+ * @package GeoDirectory
+ * @global object $wpdb WordPress Database object.
+ * @global string $table_prefix WordPress Database Table prefix.
+ * @param string $slug Term slug.
+ * @return string Modified term slug.
+ */
+function geodir_location_slug_check($slug)
+{
+
+    global $wpdb, $table_prefix;
+
+    $slug_exists = $wpdb-&gt;get_var($wpdb-&gt;prepare(&quot;SELECT slug FROM &quot; . $table_prefix . &quot;terms WHERE slug=%s&quot;, array($slug)));
+
+    if ($slug_exists) {
+
+        $suffix = 1;
+        do {
+            $alt_location_name = _truncate_post_slug($slug, 200 - (strlen($suffix) + 1)) . &quot;-$suffix&quot;;
+            $location_slug_check = $wpdb-&gt;get_var($wpdb-&gt;prepare(&quot;SELECT slug FROM &quot; . $table_prefix . &quot;terms WHERE slug=%s&quot;, array($alt_location_name)));
+            $suffix++;
+        } while ($location_slug_check &amp;&amp; $suffix &lt; 100);
+
+        $slug = $alt_location_name;
+
+    }
+
+    return $slug;
+
+}
+add_filter(&#039;geodir_location_slug_check&#039;, &#039;geodir_location_slug_check&#039;);
+
+
+/**
+ * Get location info via from IP.
+ *
+ * @since 2.0.0.60 Changed to new site for IP information.
+ * @param string $ip
+ *
+ * @return mixed|void
+ */
+function geodir_geo_by_ip( $ip = &#039;&#039; ) {
+	$geo = array();
+
+    $data = geodir_ip_api_data( $ip );
+    if ( ! empty( $data ) &amp;&amp; ! empty( $data[&#039;lat&#039;] ) &amp;&amp; ! empty( $data[&#039;lon&#039;] ) ) {
+        $geo[&#039;latitude&#039;] = $data[&#039;lat&#039;];
+        $geo[&#039;longitude&#039;] = $data[&#039;lon&#039;];
+    }
+
+	return apply_filters( &#039;geodir_geo_by_ip&#039;, $geo, $ip );
+}
+
+
+/**
+ * Get location data from ip via geoplugin.net
+ *
+ * @deprecated 2.0.0.60
+ * @param string $ip
+ *
+ * @return array|mixed|null|void
+ */
+function geodir_geoplugin_data( $ip = &#039;&#039; ) {
+	global $wp_version;
+
+	if ( empty( $ip ) ) {
+		$ip = geodir_get_ip();
+	}
+
+	if ( empty( $ip ) ) {
+		return NULL;
+	}
+
+    $geoplugin_data = array();
+
+    // check transient cache
+    $cache = get_transient( &#039;geodir_ip_location_&#039;.$ip );
+    if($cache === false){
+
+        $url = &#039;http://www.geoplugin.net/php.gp?ip=&#039; . $ip;
+        if(ini_get(&#039;allow_url_fopen&#039;)){
+            $response = file_get_contents( $url );
+            if ( ! empty( $response ) ) {
+                $geoplugin_data = maybe_unserialize( $response );
+            }
+        }
+    }else{
+        $geoplugin_data = $cache;
+    }
+
+    $geoplugin_data  = apply_filters( &#039;geodir_geoplugin_data&#039;, $geoplugin_data, $ip );
+
+    set_transient( &#039;geodir_ip_location_&#039;.$ip, $geoplugin_data, 24 * HOUR_IN_SECONDS ); // cache ip location for 24 hours
+
+	return $geoplugin_data;
+}
+
+/**
+ * Get location data from ip via geoplugin.net.
+ *
+ * @param string $ip
+ * @since 2.0.0.60
+ * @return array|bool|mixed|null|object|void
+ */
+function geodir_ip_api_data( $ip = &#039;&#039; ) {
+    global $wp_version;
+
+    if ( empty( $ip ) ) {
+        $ip = geodir_get_ip();
+    }
+
+    if ( empty( $ip ) ) {
+        return NULL;
+    }
+
+    $data = array();
+
+    // check transient cache
+    $cache = get_transient( &#039;geodir_ip_location_&#039; . $ip );
+
+    if ( $cache === false ) {
+        $url = &#039;http://ip-api.com/json/&#039; . $ip;
+        $response = wp_remote_get($url);
+
+        if ( is_array( $response ) &amp;&amp; wp_remote_retrieve_response_code( $response ) == &#039;200&#039; ) {
+            $data = json_decode( wp_remote_retrieve_body( $response ), true );
+
+            if ( ! empty( $data ) &amp;&amp; ! empty( $data[&#039;lat&#039;] ) &amp;&amp; ! empty( $data[&#039;lon&#039;] ) ) {
+                $data[&#039;lat&#039;] = geodir_sanitize_float( $data[&#039;lat&#039;] );
+                $data[&#039;lon&#039;] = geodir_sanitize_float( $data[&#039;lon&#039;] );
+            }
+        }
+    } else {
+        $data = $cache;
+    }
+
+    $data  = apply_filters( &#039;geodir_ip_api_data&#039;, $data, $ip );
+
+    set_transient( &#039;geodir_ip_location_&#039; . $ip, $data, 24 * HOUR_IN_SECONDS ); // cache ip location for 24 hours
+
+    return $data;
+}
+
+/**
+ * Get timezone data from via timezone api service.
+ *
+ * @since 2.0.0.66
+ *
+ * @param string $latitude Latitude
+ * @param string $longitude Longitude
+ * @param int $timestamp Timestamp
+ * @return array|WP_Error
+ */
+function geodir_get_timezone_by_lat_lon( $latitude, $longitude, $timestamp = 0 ) {
+	global $wp_version;
+
+	$data = array();
+	$error = &#039;&#039;;
+
+	if ( ! empty( $latitude ) &amp;&amp; ! empty( $longitude ) ) {
+		$api_url = &#039;https://maps.googleapis.com/maps/api/timezone/json&#039;;
+		$api_url .= &#039;?key=&#039; . GeoDir_Maps::google_geocode_api_key();
+		$api_url .= &#039;&amp;timestamp=&#039; . ( absint( $timestamp ) &gt; 0 ? absint( $timestamp ) : current_time( &#039;timestamp&#039; ) );
+		$api_url .= &#039;&amp;location=&#039; . $latitude . &#039;,&#039; . $longitude;
+
+		$args = array(
+			&#039;timeout&#039;     =&gt; 5,
+			&#039;redirection&#039; =&gt; 5,
+			&#039;httpversion&#039; =&gt; &#039;1.0&#039;,
+			&#039;user-agent&#039;  =&gt; &#039;WordPress/&#039; . $wp_version . &#039;; &#039; . home_url(),
+			&#039;blocking&#039;    =&gt; true,
+			&#039;decompress&#039;  =&gt; true,
+			&#039;sslverify&#039;   =&gt; false,
+		);
+
+		$response = wp_remote_get( $api_url , $args );
+
+		if ( ! is_wp_error( $response ) ) {
+			$body = (array) json_decode( wp_remote_retrieve_body( $response ) );
+
+			if ( ! empty( $body ) &amp;&amp; $body[&#039;status&#039;] == &#039;OK&#039; ) {
+				if ( isset( $body[&#039;timeZoneId&#039;] ) &amp;&amp; $body[&#039;timeZoneId&#039;] == &#039;Asia/Calcutta&#039; ) {
+					$body[&#039;timeZoneId&#039;] = &#039;Asia/Kolkata&#039;;
+				}
+				$data = $body;
+			} elseif ( ! empty( $body ) &amp;&amp; ! empty( $body[&#039;errorMessage&#039;] ) ) {
+				$error = __( $body[&#039;errorMessage&#039;], &#039;geodirectory&#039; );
+			}
+		} else {
+			if ( current_user_can( &#039;manage_options&#039; ) ) {
+				$error = __( $response-&gt;get_error_message(), &#039;geodirectory&#039; );
+			}
+		}
+	}
+
+	if ( empty( $data ) ) {
+		if ( empty( $error ) ) {
+			$error = __( &#039;There is an error in timezone data request.&#039;, &#039;geodirectory&#039; );
+		}
+
+		$data = new WP_Error( &#039;gd-timezone-api&#039;, wp_sprintf( __( &#039;Google Timezone API: %s&#039; ), $error ) );
+	}
+
+	return apply_filters( &#039;geodir_get_timezone_by_lat_lon&#039;, $data, $latitude, $longitude, $timestamp );
+}
+
+/**
+ * Get the GPS from a post address.
+ *
+ * @param $address
+ *
+ * @return WP_Error|array|bool
+ */
+function geodir_get_gps_from_address( $address = array(), $wp_error = false ) {
+	$api = GeoDir_Maps::active_map();
+
+	$api = apply_filters( &#039;geodir_post_gps_from_address_api&#039;, $api );
+
+	if ( $api == &#039;google&#039; || $api == &#039;auto&#039; ) {
+		$_gps = geodir_google_get_gps_from_address( $address, $wp_error );
+	} elseif ( $api == &#039;osm&#039; ) {
+		$_gps = geodir_osm_get_gps_from_address( $address, $wp_error );
+	} else {
+		$_gps = apply_filters( &#039;geodir_gps_from_address_custom_api_gps&#039;, array(), $api );
+	}
+
+	$gps = array();
+
+	if ( is_array( $_gps ) &amp;&amp; ! empty( $_gps[&#039;latitude&#039;] ) &amp;&amp; ! empty( $_gps[&#039;longitude&#039;] ) ) {
+		$gps[&#039;latitude&#039;] = $_gps[&#039;latitude&#039;];
+		$gps[&#039;longitude&#039;] = $_gps[&#039;longitude&#039;];
+	} else {
+		if ( $wp_error ) {
+			if ( is_wp_error( $_gps ) ) {
+				return $_gps;
+			} else {
+				return new WP_Error( &#039;geodir-gps-from-address&#039;, esc_attr__( &#039;Failed to retrieve GPS data from a address using API.&#039;, &#039;geodirectory&#039; ) );
+			}
+		} else {
+			return NULL;
+		}
+	}
+
+	return apply_filters( &#039;geodir_get_gps_from_address&#039;, $gps, $address, $api );
+}
+
+/**
+ * Get GPS info for the address using Google Geocode API.
+ *
+ * @since 2.0.0.66
+ *
+ * @param array|string $address Array of address element or full address.
+ * @param bool $wp_error Optional. Whether to return a WP_Error on failure. Default false.
+ * @return bool|WP_Error GPS data or WP_Error on failure.
+ */
+function geodir_google_get_gps_from_address( $address, $wp_error = false ) {
+	global $wp_version;
+
+	if ( empty( $address ) ) {
+		if ( $wp_error ) {
+			return new WP_Error( &#039;geodir-gps-from-address&#039;, __( &#039;Address must be non-empty.&#039;, &#039;geodirectory&#039; ) );
+		} else {
+			return false;
+		}
+	}
+
+	if ( is_array( $address ) ) {
+		$address = wp_parse_args( $address, array(
+			&#039;street&#039; =&gt; &#039;&#039;,
+			&#039;city&#039; =&gt; &#039;&#039;,
+			&#039;region&#039; =&gt; &#039;&#039;,
+			&#039;country&#039; =&gt; &#039;&#039;,
+			&#039;zip&#039; =&gt; &#039;&#039;,
+		) );
+
+		$_address = array();
+		if ( trim( $address[&#039;street&#039;] ) != &#039;&#039; ) {
+			$_address[] = trim( $address[&#039;street&#039;] );
+		}
+		if ( trim( $address[&#039;city&#039;] ) != &#039;&#039; ) {
+			$_address[] = trim( $address[&#039;city&#039;] );
+		}
+		if ( trim( $address[&#039;region&#039;] ) != &#039;&#039; ) {
+			$_address[] = trim( $address[&#039;region&#039;] );
+		}
+		if ( trim( $address[&#039;country&#039;] ) != &#039;&#039; ) {
+			$_address[] = trim( $address[&#039;country&#039;] );
+		}
+		if ( trim( $address[&#039;zip&#039;] ) != &#039;&#039; ) {
+			$_address[] = trim( $address[&#039;zip&#039;] );
+		}
+
+		// We must have at least 4 address items.
+		if ( count( $_address ) &lt; 4 ) {
+			if ( $wp_error ) {
+				return new WP_Error( &#039;geodir-gps-from-address&#039;, __( &#039;Not enough location info for address.&#039;, &#039;geodirectory&#039; ) );
+			} else {
+				return false;
+			}
+		}
+
+		$search_address = implode( &#039;, &#039;, $_address );
+	} else {
+		if ( trim( $address ) == &#039;&#039; ) {
+			if ( $wp_error ) {
+				return new WP_Error( &#039;geodir-gps-from-address&#039;, __( &#039;Not enough location info for address.&#039;, &#039;geodirectory&#039; ) );
+			} else {
+				return false;
+			}
+		}
+
+		$search_address = trim( $address );
+	}
+
+	$request_url = &#039;https://maps.googleapis.com/maps/api/geocode/json&#039;;
+	$request_url .= &#039;?address=&#039; . $search_address;
+
+	// Api key if we have it, it helps with limits.
+	$google_api_key = GeoDir_Maps::google_geocode_api_key();
+	if ( $google_api_key ) {
+		$request_url .= &#039;&amp;key=&#039; . $google_api_key;
+	}
+
+	$request_url = apply_filters( &#039;geodir_google_gps_from_address_request_url&#039;, $request_url, $address );
+
+	$args = array(
+		&#039;timeout&#039;     =&gt; 5,
+		&#039;redirection&#039; =&gt; 5,
+		&#039;httpversion&#039; =&gt; &#039;1.0&#039;,
+		&#039;user-agent&#039;  =&gt; &#039;WordPress/&#039; . $wp_version . &#039;; &#039; . home_url(),
+		&#039;blocking&#039;    =&gt; true,
+		&#039;decompress&#039;  =&gt; true,
+		&#039;sslverify&#039;   =&gt; false,
+	);
+	$response = wp_remote_get( $request_url , $args );
+
+	// Check for errors
+	if ( is_wp_error( $response ) ) {
+		if ( $wp_error ) {
+			return new WP_Error( &#039;geodir-gps-from-address&#039;, __( &#039;Failed to reach Google geocode server.&#039;, &#039;geodirectory&#039; ) );
+		} else {
+			return false;
+		}
+	}
+
+	$body = wp_remote_retrieve_body( $response );
+	$data = json_decode( $body, true );
+
+	$gps = array();
+	if ( isset( $data[&#039;status&#039;] ) &amp;&amp; $data[&#039;status&#039;] == &#039;OK&#039; ) {
+		if ( isset( $data[&#039;results&#039;][0][&#039;geometry&#039;][&#039;location&#039;][&#039;lat&#039;] ) &amp;&amp; $data[&#039;results&#039;][0][&#039;geometry&#039;][&#039;location&#039;][&#039;lat&#039;] ) {
+			$gps[&#039;latitude&#039;] = $data[&#039;results&#039;][0][&#039;geometry&#039;][&#039;location&#039;][&#039;lat&#039;];
+			$gps[&#039;longitude&#039;] = $data[&#039;results&#039;][0][&#039;geometry&#039;][&#039;location&#039;][&#039;lng&#039;];
+		} else {
+			if ( $wp_error ) {
+				$gps = new WP_Error( &#039;geodir-gps-from-address&#039;, __( &#039;Listing has no GPS info, failed to geocode GPS info.&#039;, &#039;geodirectory&#039; ) );
+			} else {
+				$gps = false;
+			}
+		}
+	} else {
+		if ( isset( $data[&#039;status&#039;] ) ) {
+			$error = wp_sprintf( __( &#039;Google geocode failed: %s&#039;, &#039;geodirectory&#039; ),  $data[&#039;status&#039;] );
+		} else {
+			$error = __( &#039;Failed to reach Google geocode server.&#039;, &#039;geodirectory&#039; );
+		}
+
+		if ( $wp_error ) {
+			$gps = new WP_Error( &#039;geodir-gps-from-address&#039;, $error );
+		} else {
+			$gps = false;
+		}
+	}
+
+	return $gps;
+}
+
+/**
+ * Get GPS info for the address using OpenStreetMap Nominatim API.
+ *
+ * @since 2.0.0.66
+ *
+ * @param array|string $address Array of address element or full address.
+ * @param bool $wp_error Optional. Whether to return a WP_Error on failure. Default false.
+ * @return bool|WP_Error GPS data or WP_Error on failure.
+ */
+function geodir_osm_get_gps_from_address( $address, $wp_error = false ) {
+	global $wp_version;
+
+	if ( empty( $address ) ) {
+		if ( $wp_error ) {
+			return new WP_Error( &#039;geodir-gps-from-address&#039;, __( &#039;Address must be non-empty.&#039;, &#039;geodirectory&#039; ) );
+		} else {
+			return false;
+		}
+	}
+
+	$extra_params = &#039;&#039;;
+	if ( is_array( $address ) ) {
+		$address = wp_parse_args( $address, array(
+			&#039;street&#039; =&gt; &#039;&#039;,
+			&#039;city&#039; =&gt; &#039;&#039;,
+			&#039;region&#039; =&gt; &#039;&#039;,
+			&#039;country&#039; =&gt; &#039;&#039;,
+			&#039;zip&#039; =&gt; &#039;&#039;,
+			&#039;country_code&#039; =&gt; &#039;&#039;,
+		) );
+
+		$_address = array();
+		if ( trim( $address[&#039;street&#039;] ) != &#039;&#039; ) {
+			$_address[] = trim( $address[&#039;street&#039;] );
+		}
+		if ( trim( $address[&#039;city&#039;] ) != &#039;&#039; ) {
+			$_address[] = trim( $address[&#039;city&#039;] );
+		}
+		if ( trim( $address[&#039;region&#039;] ) != &#039;&#039; ) {
+			$_address[] = trim( $address[&#039;region&#039;] );
+		}
+		if ( trim( $address[&#039;zip&#039;] ) != &#039;&#039; ) {
+			$_address[] = trim( $address[&#039;zip&#039;] );
+		}
+		if ( trim( $address[&#039;country&#039;] ) != &#039;&#039; ) {
+			$_address[] = trim( $address[&#039;country&#039;] );
+		}
+
+		// We must have at least 2 address items.
+		if ( count( $_address ) &lt; 2 ) {
+			if ( $wp_error ) {
+				return new WP_Error( &#039;geodir-gps-from-address&#039;, __( &#039;Not enough location info for address.&#039;, &#039;geodirectory&#039; ) );
+			} else {
+				return false;
+			}
+		}
+
+		$search_address = implode( &#039;, &#039;, $_address );
+
+		// Search within specific country code(s).
+		if ( ! empty( $address[&#039;country_code&#039;] ) ) {
+			$extra_params .= &#039;&amp;countrycodes=&#039; . ( is_array( $address[&#039;country_code&#039;] ) ? implode( &#039;,&#039;, $address[&#039;country_code&#039;] ) : $address[&#039;country_code&#039;] );
+		}
+	} else {
+		if ( trim( $address ) == &#039;&#039; ) {
+			if ( $wp_error ) {
+				return new WP_Error( &#039;geodir-gps-from-address&#039;, __( &#039;Not enough location info for address.&#039;, &#039;geodirectory&#039; ) );
+			} else {
+				return false;
+			}
+		}
+
+		$search_address = trim( $address );
+	}
+
+	$request_url = &#039;https://nominatim.openstreetmap.org/search?format=json&amp;addressdetails=1&amp;limit=1&#039;;
+	$request_url .= &#039;&amp;q=&#039; . $search_address;
+	$request_url .= $extra_params;
+
+	// If making large numbers of request please include an appropriate email address to identify requests.
+	$request_url .= &#039;&amp;email=&#039; . get_option( &#039;admin_email&#039; );
+
+	$request_url = apply_filters( &#039;geodir_osm_gps_from_address_request_url&#039;, $request_url, $address );
+
+	$args = array(
+		&#039;timeout&#039;     =&gt; 5,
+		&#039;redirection&#039; =&gt; 5,
+		&#039;httpversion&#039; =&gt; &#039;1.0&#039;,
+		&#039;user-agent&#039;  =&gt; &#039;WordPress/&#039; . $wp_version . &#039;; &#039; . home_url(),
+		&#039;blocking&#039;    =&gt; true,
+		&#039;decompress&#039;  =&gt; true,
+		&#039;sslverify&#039;   =&gt; false,
+	);
+	$response = wp_remote_get( $request_url , $args );
+
+	// Check for errors
+	if ( is_wp_error( $response ) ) {
+		if ( $wp_error ) {
+			return new WP_Error( &#039;geodir-gps-from-address&#039;, __( &#039;Failed to reach OpenStreetMap Nominatim server.&#039;, &#039;geodirectory&#039; ) );
+		} else {
+			return false;
+		}
+	}
+
+	$body = wp_remote_retrieve_body( $response );
+	$data = json_decode( $body, true );
+
+	$gps = array();
+	if ( ! empty( $data ) &amp;&amp; is_array( $data ) ) {
+		if ( ! empty( $data[0][&#039;lat&#039;] ) &amp;&amp; ! empty( $data[0][&#039;lon&#039;] ) ) {
+			$details = $data[0];
+
+			$gps[&#039;latitude&#039;] = $details[&#039;lat&#039;];
+			$gps[&#039;longitude&#039;] = $details[&#039;lon&#039;];
+		} else {
+			if ( $wp_error ) {
+				$gps = new WP_Error( &#039;geodir-gps-from-address&#039;, __( &#039;Listing has no GPS info, failed to retrieve GPS info from OpenStreetMap Nominatim server.&#039;, &#039;geodirectory&#039; ) );
+			} else {
+				$gps = false;
+			}
+		}
+	} else {
+		if ( $wp_error ) {
+			$gps = new WP_Error( &#039;geodir-gps-from-address&#039;, __( &#039;Failed to retrieve GPS info from OpenStreetMap Nominatim server.&#039;, &#039;geodirectory&#039; ) );
+		} else {
+			$gps = false;
+		}
+	}
+
+	return $gps;
+}
+
+/**
+ * Check multi city active or not.
+ *
+ * @since 2.1.0.7
+ *
+ * @param array|string $address Array of address element or full address.
+ * @param bool $wp_error Optional. Whether to return a WP_Error on failure. Default false.
+ * @return bool|WP_Error GPS data or WP_Error on failure.
+ */
+function geodir_core_multi_city() {
+	return ( ! defined( &#039;GEODIRLOCATION_VERSION&#039; ) &amp;&amp; geodir_get_option( &#039;multi_city&#039; ) );
+}
+
+/**
+ * Render the post address field value.
+ *
+ * @since 2.1.1.9
+ *
+ * @param string $value Field value.
+ * @param string $key Field key.
+ * @param int|object $post The post.
+ * @param mixed $default Whether to use default value.
+ * @return string Filtered field value.
+ */
+function geodir_post_address( $value, $key, $post, $default = NULL ) {
+	if ( geodir_is_block_demo() ) {
+		return $value;
+	}
+
+	if ( ! empty( $post ) &amp;&amp; ! geodir_user_can( &#039;see_private_address&#039;, array( &#039;post&#039; =&gt; $post ) ) ) {
+		switch( $key ) {
+			case &#039;address&#039;:
+			case &#039;street&#039;:
+			case &#039;street2&#039;:
+			case &#039;city&#039;:
+			case &#039;region&#039;:
+			case &#039;country&#039;:
+			case &#039;neighbourhood&#039;:
+			case &#039;zip&#039;:
+			case &#039;latitude&#039;:
+			case &#039;longitude&#039;:
+			case &#039;post_badge_street&#039;:          /* GD &gt; Post Badge (address) widget/block */
+				if ( $default !== NULL ) {
+					$output = $default;
+				} else {
+					$output = __( &#039;Private Address&#039;, &#039;geodirectory&#039; );
+				}
+				break;
+			case &#039;gd_post_address&#039;:            /* GD &gt; Post Address widget/block */
+				if ( $default !== NULL ) {
+					$output = $default;
+				} else {
+					$output = $value;
+				}
+				break;
+			case &#039;gd_post_directions&#039;:         /* GD &gt; Directions widget/block */
+			case &#039;gd_post_distance&#039;:           /* GD &gt; Distance To Post widget/block */
+			case &#039;map_directions&#039;:             /* GD &gt; Post Meta (map_directions) */
+			case &#039;gd_location_description&#039;:    /* GD &gt; Location Description widget/block */
+			case &#039;gd_location_meta&#039;:           /* GD &gt; Location Meta widget/block */
+				if ( $default !== NULL ) {
+					$output = $default;
+				} else {
+					$output = &#039;&#039;;
+				}
+				break;
+			default:
+				$output = $value;
+				break;
+		}
+	} else {
+		$output = $value;
+	}
+
+	/**
+	 * Filters post address field value.
+	 *
+	 * @since 2.1.1.9
+	 *
+	 * @param string $output Field filtered value.
+	 * @param string $value Field original value.
+	 * @param string $key Field key.
+	 * @param int|object $post The post.
+	 * @param mixed $default Whether to use default value.
+	 */
+	return apply_filters( &#039;geodir_render_post_address&#039;, $output, $value, $key, $post, $default );
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

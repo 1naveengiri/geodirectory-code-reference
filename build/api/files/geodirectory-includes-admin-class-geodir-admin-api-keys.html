@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-admin-api-keys.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory Admin API Keys Class
+ *
+ * @author   AyeCode
+ * @category Admin
+ * @package  GeoDirectory/Admin
+ * @version  2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+/**
+ * GeoDir_Admin_API_Keys.
+ */
+class GeoDir_Admin_API_Keys {
+
+	/**
+	 * Initialize the API Keys admin actions.
+	 */
+	public function __construct() {
+		add_action( &#039;admin_init&#039;, array( $this, &#039;actions&#039; ) );
+	}
+
+	/**
+	 * Check if is API Keys settings page.
+	 * @return bool
+	 */
+	private function is_api_keys_settings_page() {
+		return isset( $_GET[&#039;page&#039;] )
+			&amp;&amp; &#039;gd-settings&#039; === $_GET[&#039;page&#039;]
+			&amp;&amp; isset( $_GET[&#039;tab&#039;] )
+			&amp;&amp; &#039;api&#039; === $_GET[&#039;tab&#039;]
+			&amp;&amp; isset( $_GET[&#039;section&#039;] )
+			&amp;&amp; &#039;keys&#039; === $_GET[&#039;section&#039;];
+	}
+
+	/**
+	 * Page output.
+	 */
+	public static function page_output() {
+		// Hide the save button
+		$GLOBALS[&#039;hide_save_button&#039;] = true;
+
+		if ( isset( $_GET[&#039;create-key&#039;] ) || isset( $_GET[&#039;edit-key&#039;] ) ) {
+			$key_id   = isset( $_GET[&#039;edit-key&#039;] ) ? absint( $_GET[&#039;edit-key&#039;] ) : 0;
+			$key_data = self::get_key_data( $key_id );
+
+			include( &#039;views/html-keys-edit.php&#039; );
+		} else {
+			self::table_list_output();
+		}
+	}
+
+	/**
+	 * Table list output.
+	 */
+	private static function table_list_output() {
+
+		global $wpdb;
+
+		echo &#039;&lt;h2&gt;&#039; . __( &#039;Keys/Apps&#039;, &#039;geodirectory&#039; ) . &#039; &lt;a href=&quot;&#039; . esc_url( admin_url( &#039;admin.php?page=gd-settings&amp;tab=api&amp;section=keys&amp;create-key=1&#039; ) ) . &#039;&quot; class=&quot;add-new-h2&quot;&gt;&#039; . __( &#039;Add key&#039;, &#039;geodirectory&#039; ) . &#039;&lt;/a&gt;&lt;/h2&gt;&#039;;
+
+		// Get the API keys count
+		$count = $wpdb-&gt;get_var( &quot;SELECT COUNT(key_id) FROM &quot; . GEODIR_API_KEYS_TABLE . &quot; WHERE 1 = 1;&quot; );
+
+		if ( absint( $count ) &amp;&amp; $count &gt; 0 ) {
+			$keys_table_list = new GeoDir_Admin_API_Keys_Table_List();
+			$keys_table_list-&gt;prepare_items();
+
+			echo &#039;&lt;input type=&quot;hidden&quot; name=&quot;page&quot; value=&quot;gd-settings&quot; /&gt;&#039;;
+			echo &#039;&lt;input type=&quot;hidden&quot; name=&quot;tab&quot; value=&quot;api&quot; /&gt;&#039;;
+			echo &#039;&lt;input type=&quot;hidden&quot; name=&quot;section&quot; value=&quot;keys&quot; /&gt;&#039;;
+
+			$keys_table_list-&gt;views();
+			$keys_table_list-&gt;search_box( __( &#039;Search key&#039;, &#039;geodirectory&#039; ), &#039;key&#039; );
+			$keys_table_list-&gt;display();
+		} else {
+			echo &#039;&lt;div class=&quot;geodir-BlankState geodir-BlankState--api&quot;&gt;&#039;;
+			?&gt;
+			&lt;h2 class=&quot;geodir-BlankState-message&quot;&gt;&lt;?php _e( &#039;The GeoDirectory REST API allows to view and manage GD data through API. Access is granted only to those with valid API keys.&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/h2&gt;
+			&lt;a class=&quot;geodir-BlankState-cta button-primary button&quot; href=&quot;&lt;?php echo esc_url( admin_url( &#039;admin.php?page=gd-settings&amp;tab=api&amp;section=keys&amp;create-key=1&#039; ) ); ?&gt;&quot;&gt;&lt;?php _e( &#039;Create an API key&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/a&gt;
+
+			&lt;?php echo &#039;&lt;style type=&quot;text/css&quot;&gt;#posts-filter .wp-list-table,#posts-filter .tablenav.top,.tablenav.bottom .actions{display:none}.geodir-BlankState{text-align: center;padding:5em 0 0}.geodir-BlankState .geodir-BlankState-message{color:#999;margin:0 auto 1.5em;line-height:1.5em;font-size:1.2em;max-width:500px}&lt;/style&gt;&lt;/div&gt;&#039;;
+		}
+	}
+
+	/**
+	 * Get key data.
+	 *
+	 * @param  int $key_id
+	 * @return array
+	 */
+	private static function get_key_data( $key_id ) {
+		global $wpdb;
+
+		$empty = array(
+			&#039;key_id&#039;        =&gt; 0,
+			&#039;user_id&#039;       =&gt; &#039;&#039;,
+			&#039;description&#039;   =&gt; &#039;&#039;,
+			&#039;permissions&#039;   =&gt; &#039;&#039;,
+			&#039;truncated_key&#039; =&gt; &#039;&#039;,
+			&#039;last_access&#039;   =&gt; &#039;&#039;,
+		);
+
+		if ( 0 == $key_id ) {
+			return $empty;
+		}
+
+		$key = $wpdb-&gt;get_row( $wpdb-&gt;prepare( &quot;
+			SELECT key_id, user_id, description, permissions, truncated_key, last_access
+			FROM &quot; . GEODIR_API_KEYS_TABLE . &quot;
+			WHERE key_id = %d
+		&quot;, $key_id ), ARRAY_A );
+
+		if ( is_null( $key ) ) {
+			return $empty;
+		}
+
+		return $key;
+	}
+
+	/**
+	 * API Keys admin actions.
+	 */
+	public function actions() {
+		if ( $this-&gt;is_api_keys_settings_page() ) {
+			// Revoke key
+			if ( isset( $_GET[&#039;revoke-key&#039;] ) ) {
+				$this-&gt;revoke_key();
+			}
+
+			// Bulk actions
+			if ( isset( $_GET[&#039;action&#039;] ) &amp;&amp; isset( $_GET[&#039;key&#039;] ) ) {
+				$this-&gt;bulk_actions();
+			}
+		}
+	}
+
+	/**
+	 * Notices.
+	 */
+	public static function notices() {
+		if ( isset( $_GET[&#039;revoked&#039;] ) &amp;&amp; 1 == $_GET[&#039;revoked&#039;] ) {
+			GeoDir_Admin_Settings::add_message( __( &#039;API key revoked successfully.&#039;, &#039;geodirectory&#039; ) );
+		}
+	}
+
+	/**
+	 * Revoke key.
+	 */
+	private function revoke_key() {
+		if ( empty( $_REQUEST[&#039;_wpnonce&#039;] ) || ! wp_verify_nonce( $_REQUEST[&#039;_wpnonce&#039;], &#039;revoke&#039; ) ) {
+			wp_die( __( &#039;Action failed. Please refresh the page and retry.&#039;, &#039;geodirectory&#039; ) );
+		}
+
+		$key_id = absint( $_GET[&#039;revoke-key&#039;] );
+		$this-&gt;remove_key( $key_id );
+
+		wp_redirect( esc_url_raw( add_query_arg( array( &#039;revoked&#039; =&gt; 1 ), admin_url( &#039;admin.php?page=gd-settings&amp;tab=api&amp;section=keys&#039; ) ) ) );
+		exit();
+	}
+
+	/**
+	 * Bulk actions.
+	 */
+	private function bulk_actions() {
+		if ( empty( $_REQUEST[&#039;_wpnonce&#039;] ) || ! wp_verify_nonce( $_REQUEST[&#039;_wpnonce&#039;], &#039;geodirectory-settings&#039; ) ) {
+			wp_die( __( &#039;Action failed. Please refresh the page and retry.&#039;, &#039;geodirectory&#039; ) );
+		}
+
+		$keys = array_map( &#039;absint&#039;, (array) $_GET[&#039;key&#039;] );
+
+		if ( &#039;revoke&#039; == $_GET[&#039;action&#039;] || ( isset( $_GET[&#039;action2&#039;] ) &amp;&amp; &#039;revoke&#039; == $_GET[&#039;action2&#039;] ) ) {
+			$this-&gt;bulk_revoke_key( array_values( $keys ) );
+		}
+	}
+
+	/**
+	 * Bulk revoke key.
+	 *
+	 * @param array $keys
+	 */
+	private function bulk_revoke_key( $keys ) {
+		foreach ( $keys as $key_id ) {
+			$this-&gt;remove_key( $key_id );
+		}
+	}
+
+	/**
+	 * Remove key.
+	 *
+	 * @param  int $key_id
+	 * @return bool
+	 */
+	private function remove_key( $key_id ) {
+		global $wpdb;
+
+		$delete = $wpdb-&gt;delete( GEODIR_API_KEYS_TABLE, array( &#039;key_id&#039; =&gt; $key_id ), array( &#039;%d&#039; ) );
+
+		return $delete;
+	}
+}
+
+new GeoDir_Admin_API_Keys();</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

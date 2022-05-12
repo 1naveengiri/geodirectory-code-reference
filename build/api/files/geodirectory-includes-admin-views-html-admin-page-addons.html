@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">html-admin-page-addons.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Admin View: Page - Addons
+ *
+ * @var string $view
+ * @var object $addons
+ */
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+?&gt;
+&lt;div class=&quot;wrap gd_addons_wrap&quot;&gt;
+	&lt;h1&gt;&lt;?php echo get_admin_page_title(); ?&gt;&lt;/h1&gt;
+
+	&lt;?php if ( $tabs ){ ?&gt;
+		&lt;nav class=&quot;nav-tab-wrapper gd-nav-tab-wrapper&quot;&gt;
+			&lt;?php
+			foreach ( $tabs as $name =&gt; $label ) {
+				echo &#039;&lt;a href=&quot;&#039; . admin_url( &#039;admin.php?page=gd-addons&amp;tab=&#039; . $name ) . &#039;&quot; class=&quot;nav-tab &#039; . ( $current_tab == $name ? &#039;nav-tab-active&#039; : &#039;&#039; ) . &#039;&quot;&gt;&#039; . $label . &#039;&lt;/a&gt;&#039;;
+			}
+			do_action( &#039;geodir_addons_tabs&#039; );
+			?&gt;
+		&lt;/nav&gt;
+
+		&lt;?php
+
+		if($current_tab == &#039;membership&#039;){
+			?&gt;
+
+			&lt;div class=&quot;gd-membership-tab-conatiner&quot;&gt;
+				&lt;div class=&quot;membership-content&quot;&gt;
+				&lt;!--
+				&lt;h2&gt;With our GeoDirectory Membership you get access to all our products!&lt;/h2&gt;
+				&lt;p&gt;&lt;a class=&quot;button button-primary&quot; href=&quot;https://wpgeodirectory.com/downloads/membership/&quot;&gt;View Memberships&lt;/a&gt;&lt;/p&gt; --&gt;
+				&lt;?php if(defined(&#039;WP_EASY_UPDATES_ACTIVE&#039;)){?&gt;
+
+
+					&lt;h2&gt;&lt;?php echo _e( &#039;Have a membership key?&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/h2&gt;
+
+					&lt;p&gt;
+						&lt;?php
+						$wpeu_admin = new External_Updates_Admin(&#039;wpgeodirectory.com&#039;,&#039;2&#039;);
+						echo $wpeu_admin-&gt;render_licence_actions(&#039;wpgeodirectory.com&#039;, &#039;membership&#039;,array(66235,111330,111327));
+						?&gt;
+						&lt;a href=&quot;https://wpgeodirectory.com/downloads/membership/&quot;&gt;&lt;?php echo _e( &#039;Don\&#039;t have a membership key?&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/a&gt;
+					&lt;/p&gt;
+				&lt;?php }else{ ?&gt;
+				&lt;p class=&quot;easy-update&quot;&gt;&lt;?php echo wp_sprintf( __( &#039;If you already have a membership key please install &lt;a href=&quot;%s&quot; target=&quot;_blank&quot;&gt;WP Easy Updates&lt;/a&gt;&#039;, &#039;geodirectory&#039; ) , &#039;https://wpgeodirectory.com/wp-easy-updates/&#039; ); ?&gt;&lt;/p&gt;
+			&lt;?php	}?&gt;
+
+				&lt;div class=&quot;membership-cta-contet&quot;&gt;
+					&lt;div class=&quot;main-cta&quot;&gt;
+							&lt;h2&gt;&lt;?php echo __(&quot;Membership benefits Includes:&quot;,&quot;geodirectory&quot;); ?&gt;&lt;/h2&gt;
+							&lt;div class=&quot;feature-list&quot;&gt;
+								&lt;ul&gt;
+
+									&lt;?php
+									$addon_obj = new GeoDir_Admin_Addons();
+									if ($addons = $addon_obj-&gt;get_section_data( &#039;addons&#039; ) ) {
+										foreach ( $addons as $addon ) {
+											echo &#039;&lt;li&gt;&lt;i class=&quot;far fa-check-circle fa-sm&quot;&gt;&lt;/i&gt; &#039;.esc_html( $addon-&gt;info-&gt;title ).&#039;&lt;/li&gt;&#039;;
+										}
+									}
+									?&gt;
+								&lt;/ul&gt;
+							&lt;/div&gt;
+							&lt;div class=&quot;feature-cta&quot;&gt;
+								&lt;h3&gt;&lt;?php echo __(&quot;Membership &quot;,&quot;geodirectory&quot;); ?&gt; &lt;br&gt;&lt;?php echo __(&quot;Starts from&quot;,&quot;geodirectory&quot;); ?&gt;&lt;/h3&gt;
+								&lt;h4&gt;&lt;?php echo __(&quot;$99&quot;,&quot;geodirectory&quot;); ?&gt;&lt;/h4&gt;
+								&lt;a href=&quot;https://wpgeodirectory.com/downloads/membership/&quot; target=&quot;_blank&quot;&gt;&lt;?php echo __(&quot;Buy Membership&quot;,&quot;geodirectory&quot;); ?&gt;&lt;/a&gt;
+							&lt;/div&gt;
+
+					&lt;/div&gt;
+
+
+					&lt;div class=&quot;member-testimonials&quot;&gt;
+						&lt;h3&gt;&lt;?php echo __(&quot;Testimonials&quot;,&quot;geodirectory&quot;); ?&gt;&lt;/h3&gt;
+						&lt;div class=&quot;testimonial-content&quot;&gt;
+							&lt;div class=&quot;t-image&quot;&gt;
+								&lt;?php
+									echo &#039;&lt;img src=&quot;&#039; . plugins_url( &#039;images/t-image2.png&#039;, dirname(__FILE__) ) . &#039;&quot; &gt; &#039;;
+								?&gt;
+							&lt;/div&gt;
+							&lt;div class=&quot;t-content&quot;&gt;
+								&lt;p&gt;&lt;?php echo __(&quot;I&#039;m becoming more impressed with  @wpGeoDirectory
+as v2 evolves. It&#039;s a pretty awesome WordPress directory plugin.&quot;,&quot;geodirectory&quot;); ?&gt;
+
+								&lt;/p&gt;
+								&lt;p&gt;&lt;strong&gt;&lt;?php echo __(&quot;Vanessa Harris&quot;,&quot;geodirectory&quot;); ?&gt;&lt;/strong&gt; &lt;?php echo __(&quot;Product  @Google, formerly at  @Microsoft&quot;,&quot;geodirectory&quot;); ?&gt;&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;testimonial-content&quot;&gt;
+							&lt;div class=&quot;t-image&quot;&gt;
+								&lt;?php
+									echo &#039;&lt;img src=&quot;&#039; . plugins_url( &#039;images/t-image1.png&#039;, dirname(__FILE__) ) . &#039;&quot; &gt; &#039;;
+								?&gt;
+							&lt;/div&gt;
+							&lt;div class=&quot;t-content&quot;&gt;
+								&lt;p&gt;&lt;?php echo __(&quot;Switched from Joomla to WordPress and installed Geodirectory V2 to create a multi location directory and events site. Support has been absolutely brilliant with very quick response times, solving almost every issue I ran into (most of the time just me getting used to the new environment) in a matter of minutes but also a few other, more serious issues, in less than a day. I would definitely recommend Geodirectory to anyone who plans on creating a directory. It&#039;s easy to use as it uses the new Gutenberg blocks and custom fields to create and layout your pages and comes with lots of great add-ons for a very reasonable price. Keep up the good work! I&#039;m hooked on WordPress and Geodirectory V2. That&#039;s a fact.&quot;,&quot;geodirectory&quot;); ?&gt;
+
+								&lt;/p&gt;
+								&lt;p&gt;&lt;strong&gt;&lt;?php echo __(&quot;gdweb (@gdweb)&quot;,&quot;geodirectory&quot;); ?&gt;&lt;/strong&gt; &lt;?php echo __(&quot;Graphic Design and Web Design Studio in Phuket&quot;,&quot;geodirectory&quot;); ?&gt;&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;member-footer&quot;&gt;
+						&lt;a class=&quot;footer-btn&quot; href=&quot;https://wpgeodirectory.com/downloads/membership/&quot; target=&quot;_blank&quot;&gt;&lt;?php echo __(&quot;Buy Membership&quot;,&quot;geodirectory&quot;); ?&gt;&lt;/a&gt;
+						&lt;a class=&quot;footer-link&quot; href=&quot;post-new.php?post_type=gd_place&quot;&gt;&lt;?php echo __(&quot;Create your First Listing&quot;,&quot;geodirectory&quot;); ?&gt;&lt;/a&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;?php
+
+
+		}else{
+			$installed_plugins = get_plugins();
+			if ($addons = GeoDir_Admin_Addons::get_section_data( $current_tab ) ) :
+
+//				print_r($addons);
+
+//			echo &#039;###&#039;.geodir_file_relative_url( &#039;http://localhost/wp-content/uploads/2018/12/restaurants19-2-150x150.jpg&#039; );exit;
+				?&gt;
+				&lt;ul class=&quot;gd-products&quot;&gt;&lt;?php foreach ( $addons as $addon ) :
+						if(388371==$addon-&gt;info-&gt;id || 65079==$addon-&gt;info-&gt;id){continue;}// don&#039;t show GD Dashboard
+						?&gt;&lt;li class=&quot;gd-product&quot;&gt;
+								&lt;div class=&quot;gd-product-title&quot;&gt;
+									&lt;h3&gt;&lt;?php
+										if ( ! empty( $addon-&gt;info-&gt;excerpt) ){
+											echo geodir_help_tip( $addon-&gt;info-&gt;excerpt );
+										}
+										echo esc_html( $addon-&gt;info-&gt;title ); ?&gt;&lt;/h3&gt;
+								&lt;/div&gt;
+
+								&lt;span class=&quot;gd-product-image&quot;&gt;
+									&lt;?php if ( ! empty( $addon-&gt;info-&gt;thumbnail) ) : ?&gt;
+										&lt;img src=&quot;&lt;?php echo esc_attr( $addon-&gt;info-&gt;thumbnail ); ?&gt;&quot;/&gt;
+									&lt;?php endif;
+
+									if(isset($addon-&gt;info-&gt;link) &amp;&amp; substr( $addon-&gt;info-&gt;link, 0, 21 ) === &quot;https://wordpress.org&quot;){
+										echo &#039;&lt;a href=&quot;&#039;.admin_url(&#039;/plugin-install.php?gd_wizard_recommend=true&amp;amp;tab=plugin-information&amp;amp;plugin=&#039;.$addon-&gt;info-&gt;slug).&#039;&quot; data-lity=&quot;&quot;&gt;&#039;;
+										echo &#039;&lt;span class=&quot;gd-product-info&quot;&gt;&#039;.__(&#039;More info&#039;,&#039;geodirectory&#039;).&#039;&lt;/span&gt;&#039;;
+										echo &#039;&lt;/a&gt;&#039;;
+									}elseif(isset($addon-&gt;info-&gt;link) &amp;&amp; substr( $addon-&gt;info-&gt;link, 0, 26 ) === &quot;https://wpgeodirectory.com&quot;){
+										if(defined(&#039;WP_EASY_UPDATES_ACTIVE&#039;)){
+											$url = admin_url(&#039;/plugin-install.php?gd_wizard_recommend=true&amp;amp;tab=plugin-information&amp;amp;plugin=&#039;.$addon-&gt;info-&gt;slug.&#039;&amp;item_id=&#039;.$addon-&gt;info-&gt;id.&#039;&amp;update_url=https://wpgeodirectory.com&#039;);
+										}else{
+											// if installed show activation link
+											if(isset($installed_plugins[&#039;wp-easy-updates/external-updates.php&#039;])){
+												$url = &#039;#gd-wpeu-required-activation&#039;;
+											}else{
+												$url = &#039;#gd-wpeu-required-for-external&#039;;
+											}
+										}
+										echo &#039;&lt;a href=&quot;&#039;.$url.&#039;&quot; data-lity=&quot;&quot;&gt;&#039;;
+										echo &#039;&lt;span class=&quot;gd-product-info&quot;&gt;&#039;.__(&#039;More info&#039;,&#039;geodirectory&#039;).&#039;&lt;/span&gt;&#039;;
+										echo &#039;&lt;/a&gt;&#039;;
+									}
+
+									?&gt;
+
+								&lt;/span&gt;
+
+
+								&lt;span class=&quot;gd-product-button&quot;&gt;
+									&lt;?php
+									echo GeoDir_Admin_Addons::output_button( $addon );
+									?&gt;
+								&lt;/span&gt;
+
+
+								&lt;span class=&quot;gd-price&quot;&gt;&lt;?php //print_r($addon); //echo wp_kses_post( $addon-&gt;price ); ?&gt;&lt;/span&gt;&lt;/li&gt;&lt;?php endforeach; ?&gt;&lt;/ul&gt;
+			&lt;?php endif;
+		}
+
+	}
+	?&gt;
+
+
+	&lt;div class=&quot;clearfix&quot; &gt;&lt;/div&gt;
+
+	&lt;?php if($current_tab ==&#039;addons&#039;){?&gt;
+	&lt;p&gt;&lt;?php printf( __( &#039;All of our GeoDirectory Addons can be found on WPGeoDirectory.com here: &lt;a href=&quot;%s&quot;&gt;GeoDirectory Addons&lt;/a&gt;&#039;, &#039;geodirectory&#039; ), &#039;https://wpgeodirectory.com/downloads/category/addons/&#039; ); ?&gt;&lt;/p&gt;
+	&lt;?php }elseif($current_tab ==&#039;themes&#039;){?&gt;
+		&lt;p&gt;&lt;?php printf( __( &#039;All of our GeoDirectory Themes can be found on WPGeoDirectory.com here: &lt;a href=&quot;%s&quot;&gt;GeoDirectory Themes&lt;/a&gt;&#039;, &#039;geodirectory&#039; ), &#039;https://wpgeodirectory.com/downloads/category/themes/&#039; ); ?&gt;&lt;/p&gt;
+	&lt;?php }?&gt;
+
+	&lt;div id=&quot;gd-wpeu-required-activation&quot; class=&quot;lity-hide &quot;&gt;&lt;span class=&quot;gd-notification &quot;&gt;&lt;?php printf( __(&quot;The plugin &lt;a href=&#039;https://wpeasyupdates.com/&#039; target=&#039;_blank&#039;&gt;WP Easy Updates&lt;/a&gt; is required to check for and update some installed plugins/themes, please &lt;a href=&#039;%s&#039;&gt;activate&lt;/a&gt; it now.&quot;,&quot;geodirectory&quot;),wp_nonce_url(admin_url(&#039;plugins.php?action=activate&amp;plugin=wp-easy-updates/external-updates.php&#039;), &#039;activate-plugin_wp-easy-updates/external-updates.php&#039;));?&gt;&lt;/span&gt;&lt;/div&gt;
+	&lt;div id=&quot;gd-wpeu-required-for-external&quot; class=&quot;lity-hide &quot;&gt;&lt;span class=&quot;gd-notification &quot;&gt;&lt;?php printf(  __(&quot;The plugin &lt;a href=&#039;https://wpeasyupdates.com/&#039; target=&#039;_blank&#039;&gt;WP Easy Updates&lt;/a&gt; is required to check for and update some installed plugins/themes, please &lt;a href=&#039;%s&#039; onclick=&#039;window.open(\&quot;https://wpeasyupdates.com/wp-easy-updates.zip\&quot;, \&quot;_blank\&quot;);&#039; &gt;download&lt;/a&gt; and install it now.&quot;,&quot;geodirectory&quot;),admin_url(&quot;plugin-install.php?tab=upload&amp;wpeu-install=true&quot;));?&gt;&lt;/span&gt;&lt;/div&gt;
+	&lt;div id=&quot;wpeu-licence-popup&quot; class=&quot;lity-hide &quot;&gt;
+		&lt;span class=&quot;gd-notification noti-white&quot;&gt;
+			&lt;h3 class=&quot;wpeu-licence-title&quot;&gt;&lt;?php _e(&quot;Licence key&quot;,&quot;geodirectory&quot;);?&gt;&lt;/h3&gt;
+			&lt;input class=&quot;wpeu-licence-key&quot; type=&quot;text&quot; placeholder=&quot;&lt;?php _e(&quot;Enter your licence key&quot;,&quot;geodirectory&quot;);?&gt;&quot;&gt; &lt;button class=&quot;button-primary wpeu-licence-popup-button&quot; &gt;&lt;?php _e(&quot;Install&quot;,&quot;geodirectory&quot;);?&gt;&lt;/button&gt;
+			&lt;br&gt;
+			&lt;?php
+			echo sprintf( __(&#039;%sFind your licence key here%s OR %sBuy one here%s&#039;, &#039;geodirectory&#039;), &#039;&lt;a href=&quot;https://wpgeodirectory.com/your-account/&quot; target=&quot;_blank&quot;&gt;&#039;,&#039;&lt;/a&gt;&#039;,&#039;&lt;a class=&quot;wpeu-licence-link&quot; href=&quot;https://wpgeodirectory.com/downloads/category/addons/&quot; target=&quot;_blank&quot;&gt;&#039;,&#039;&lt;/a&gt;&#039; );
+			?&gt;
+		&lt;/span&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

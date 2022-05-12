@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-widget-simple-archive-item.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory GeoDirectory Popular Post View Widget
+ *
+ * @since 1.0.0
+ *
+ * @package GeoDirectory
+ */
+
+/**
+ * GeoDirectory listings widget class.
+ *
+ * @since 1.0.0
+ */
+class GeoDir_Widget_Simple_Archive_Item extends WP_Super_Duper {
+
+	public $post_title_tag;
+
+	/**
+	 * Register the popular posts widget.
+	 *
+	 * @since 1.0.0
+	 * @since 1.5.1 Changed from PHP4 style constructors to PHP5 __construct.
+	 */
+	public function __construct() {
+
+		$options = array(
+			&#039;textdomain&#039;     =&gt; GEODIRECTORY_TEXTDOMAIN,
+			&#039;block-icon&#039;     =&gt; &#039;fas fa-th-list&#039;,
+			&#039;block-category&#039; =&gt; &#039;geodirectory&#039;,
+			&#039;block-supports&#039; =&gt; array(//  &#039;customClassName&#039;   =&gt; false
+			),
+			&#039;block-wrap&#039;    =&gt; &#039;&#039;, // the element to wrap the block output in. , ie: div, span or empty for no wrap
+			&#039;no_wrap&#039;       =&gt; true,
+			&#039;block-keywords&#039; =&gt; &quot;[&#039;archive&#039;,&#039;item&#039;,&#039;geo&#039;]&quot;,
+			&#039;class_name&#039;     =&gt; __CLASS__,
+			&#039;base_id&#039;        =&gt; &#039;gd_simple_archive_item&#039;, // this us used as the widget id and the shortcode id.
+			&#039;name&#039;           =&gt; __( &#039;GD &gt; Simple Archive Item &#039;, &#039;geodirectory&#039; ), // the name of the widget.
+			&#039;widget_ops&#039;     =&gt; array(
+				&#039;classname&#039;                   =&gt; &#039;geodir-simple-archive-item &#039; . geodir_bsui_class(),
+				// widget class
+				&#039;description&#039;                 =&gt; esc_html__( &#039;Easily build an archive item design.&#039;, &#039;geodirectory&#039; ),
+				// widget description
+				&#039;customize_selective_refresh&#039; =&gt; true,
+				&#039;geodirectory&#039;                =&gt; true,
+			),
+		);
+
+		parent::__construct( $options );
+	}
+
+	/**
+	 * Set the arguments later.
+	 *
+	 * @return array
+	 */
+	public function set_arguments() {
+
+		$design_style = geodir_design_style();
+
+//		$post_types = geodir_get_posttypes( &#039;options-plural&#039; );
+
+		$show_options = array(
+			&quot;&quot; =&gt; __(&#039;icon + label + value&#039;, &#039;geodirectory&#039;),
+			&quot;icon-value&quot; =&gt; __(&#039;icon + value&#039;, &#039;geodirectory&#039;),
+			&quot;label-value&quot; =&gt; __(&#039;label + value&#039;, &#039;geodirectory&#039;),
+			&quot;icon&quot; =&gt; __(&#039;icon&#039;, &#039;geodirectory&#039;),
+			&quot;label&quot; =&gt; __(&#039;label&#039;, &#039;geodirectory&#039;),
+			&quot;value&quot; =&gt; __(&#039;value&#039;, &#039;geodirectory&#039;),
+			&quot;value-strip&quot; =&gt; __(&#039;value (strip_tags)&#039;, &#039;geodirectory&#039;),
+			&quot;value-raw&quot; =&gt; __(&#039;value (saved in database)&#039;, &#039;geodirectory&#039;),
+//			&quot;badge&quot; =&gt; __(&#039;Badge (may not work with all)&#039;, &#039;geodirectory&#039;),
+		);
+
+		$badge_options = $this-&gt;get_badge_options();
+
+		$arguments = array(
+
+			&#039;preview_type&#039;         =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Preview Type&#039;, &#039;geodirectory&#039; ),
+				&#039;desc&#039;     =&gt; __( &#039;Select the preview layout&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; array(
+					&#039;grid&#039;  =&gt; __( &#039;Grid&#039;, &#039;geodirectory&#039; ),
+					&#039;list&#039; =&gt; __( &#039;List&#039;, &#039;geodirectory&#039; ),
+				),
+				&#039;default&#039;  =&gt; &#039;grid&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Preview&quot;, &quot;geodirectory&quot; )
+			),
+
+			&#039;image_type&#039;         =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Image Type&#039;, &#039;geodirectory&#039; ),
+				&#039;desc&#039;     =&gt; __( &#039;Set the image type&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; array(
+					&#039;image&#039;  =&gt; __( &#039;Single&#039;, &#039;geodirectory&#039; ),
+					&#039;slider&#039; =&gt; __( &#039;Slider&#039;, &#039;geodirectory&#039; ),
+					&#039;none&#039;   =&gt; __( &#039;No image&#039;, &#039;geodirectory&#039; ),
+				),
+				&#039;default&#039;  =&gt; &#039;image&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Image&quot;, &quot;geodirectory&quot; )
+			),
+			&#039;image_link&#039;         =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Image Link&#039;, &#039;geodirectory&#039; ),
+				&#039;desc&#039;     =&gt; __( &#039;Image link action&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; array(
+					&#039;post&#039;     =&gt; __( &#039;Post&#039;, &#039;geodirectory&#039; ),
+					&#039;lightbox&#039; =&gt; __( &#039;Open Image Lightbox&#039;, &#039;geodirectory&#039; ),
+					&#039;none&#039;     =&gt; __( &#039;No link&#039;, &#039;geodirectory&#039; ),
+				),
+				&#039;default&#039;  =&gt; &#039;post&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Image&quot;, &quot;geodirectory&quot; ),
+				&#039;element_require&#039; =&gt; &#039;[%image_type%]!=&quot;none&quot;&#039;,
+			)
+		);
+
+		$arguments = $arguments + $this-&gt;image_badge(&#039;top_left&#039;);
+		$arguments = $arguments + $this-&gt;image_badge(&#039;top_right&#039;);
+		$arguments = $arguments + $this-&gt;image_badge(&#039;bottom_left&#039;);
+		$arguments = $arguments + $this-&gt;image_badge(&#039;bottom_right&#039;);
+			// Image Badges
+//			&#039;top_left_badge&#039;     =&gt; array(
+//				&#039;title&#039;    =&gt; __( &#039;Top Left Badge&#039;, &#039;geodirectory&#039; ),
+//				&#039;desc&#039;     =&gt; __( &#039;Select the badge to show&#039;, &#039;geodirectory&#039; ),
+//				&#039;type&#039;     =&gt; &#039;select&#039;,
+//				&#039;options&#039;  =&gt; $this-&gt;get_badge_options(true),
+//				&#039;default&#039;  =&gt; &#039;featured&#039;,
+//				&#039;desc_tip&#039; =&gt; true,
+//				&#039;advanced&#039; =&gt; false,
+//				&#039;group&#039;    =&gt; __( &quot;Image Badge (top left)&quot;, &quot;geodirectory&quot; ),
+//				&#039;element_require&#039; =&gt; &#039;[%image_type%]!=&quot;none&quot;&#039;,
+//			),
+
+		$arguments = $arguments + array(
+//			&#039;top_right_badge&#039;    =&gt; array(
+//				&#039;title&#039;    =&gt; __( &#039;Top Right Badge&#039;, &#039;geodirectory&#039; ),
+//				&#039;desc&#039;     =&gt; __( &#039;Select the badge to show&#039;, &#039;geodirectory&#039; ),
+//				&#039;type&#039;     =&gt; &#039;select&#039;,
+//				&#039;options&#039;  =&gt; $this-&gt;get_badge_options(true),
+//				&#039;default&#039;  =&gt; &#039;new&#039;,
+//				&#039;desc_tip&#039; =&gt; true,
+//				&#039;advanced&#039; =&gt; false,
+//				&#039;group&#039;    =&gt; __( &quot;Image&quot;, &quot;geodirectory&quot; ),
+//				&#039;element_require&#039; =&gt; &#039;[%image_type%]!=&quot;none&quot;&#039;,
+//			),
+//			&#039;bottom_left_badge&#039;  =&gt; array(
+//				&#039;title&#039;    =&gt; __( &#039;Bottom Left Badge&#039;, &#039;geodirectory&#039; ),
+//				&#039;desc&#039;     =&gt; __( &#039;Select the badge to show&#039;, &#039;geodirectory&#039; ),
+//				&#039;type&#039;     =&gt; &#039;select&#039;,
+//				&#039;options&#039;  =&gt; $this-&gt;get_badge_options(true),
+//				&#039;default&#039;  =&gt; &#039;category&#039;,
+//				&#039;desc_tip&#039; =&gt; true,
+//				&#039;advanced&#039; =&gt; false,
+//				&#039;group&#039;    =&gt; __( &quot;Image&quot;, &quot;geodirectory&quot; ),
+//				&#039;element_require&#039; =&gt; &#039;[%image_type%]!=&quot;none&quot;&#039;,
+//			),
+//			&#039;bottom_right_badge&#039; =&gt; array(
+//				&#039;title&#039;    =&gt; __( &#039;Bottom Right Badge&#039;, &#039;geodirectory&#039; ),
+//				&#039;desc&#039;     =&gt; __( &#039;Select the badge to show&#039;, &#039;geodirectory&#039; ),
+//				&#039;type&#039;     =&gt; &#039;select&#039;,
+//				&#039;options&#039;  =&gt; $this-&gt;get_badge_options(true),
+//				&#039;default&#039;  =&gt; &#039;favorite&#039;,
+//				&#039;desc_tip&#039; =&gt; true,
+//				&#039;advanced&#039; =&gt; false,
+//				&#039;group&#039;    =&gt; __( &quot;Image&quot;, &quot;geodirectory&quot; ),
+//				&#039;element_require&#039; =&gt; &#039;[%image_type%]!=&quot;none&quot;&#039;,
+//			),
+
+			// Body Design
+			&#039;body_bg_color&#039; =&gt; array(
+				&#039;title&#039; =&gt; __(&#039;Background color&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Select the the background color.&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039;   =&gt;  array(
+					                &quot;&quot; =&gt; __(&#039;Default&#039;, &#039;geodirectory&#039;),
+				                )+geodir_aui_colors(false),
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Body Design&quot;,&quot;geodirectory&quot;),
+			),
+			&#039;body_pt&#039;  =&gt; geodir_get_sd_padding_input(&#039;pt&#039;, array( &#039;group&#039;     =&gt; __(&quot;Body Design&quot;,&quot;geodirectory&quot;) ) ),
+			&#039;body_pr&#039;  =&gt; geodir_get_sd_padding_input(&#039;pr&#039;, array( &#039;group&#039;     =&gt; __(&quot;Body Design&quot;,&quot;geodirectory&quot;) ) ),
+			&#039;body_pb&#039;  =&gt; geodir_get_sd_padding_input(&#039;pb&#039;, array( &#039;group&#039;     =&gt; __(&quot;Body Design&quot;,&quot;geodirectory&quot;) ) ),
+			&#039;body_pl&#039;  =&gt; geodir_get_sd_padding_input(&#039;pl&#039;, array( &#039;group&#039;     =&gt; __(&quot;Body Design&quot;,&quot;geodirectory&quot;) ) ),
+
+			// Circle image
+			&#039;circle_image_type&#039; =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Circle image type&#039;, &#039;geodirectory&#039; ),
+				&#039;desc&#039;     =&gt; __( &#039;Select the type of image&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; array(
+					&#039;author&#039;    =&gt; __( &quot;Author&quot;, &quot;geodirectory&quot; ),
+					&#039;author_claimed&#039;    =&gt; __( &quot;Author (claimed only)&quot;, &quot;geodirectory&quot; ),
+					&#039;logo&#039;    =&gt; __( &quot;Logo&quot;, &quot;geodirectory&quot; ),
+					&#039;hide&#039;    =&gt; __( &quot;Hide&quot;, &quot;geodirectory&quot; ),
+				),
+				&#039;default&#039;  =&gt; &#039;author&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Circle Image&quot;, &quot;geodirectory&quot; )
+			),
+			&#039;circle_image_align&#039; =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Align&#039;, &#039;geodirectory&#039; ),
+				&#039;desc&#039;     =&gt; __( &#039;How to align the image.&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; array(
+					&#039;center&#039;    =&gt; __( &quot;Center&quot;, &quot;geodirectory&quot; ),
+					&#039;left&#039;    =&gt; __( &quot;Left&quot;, &quot;geodirectory&quot; ),
+					&#039;right&#039;    =&gt; __( &quot;Right&quot;, &quot;geodirectory&quot; ),
+				),
+				&#039;default&#039;  =&gt; &#039;center&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Circle Image&quot;, &quot;geodirectory&quot; )
+			),
+			// Title
+			&#039;title_font_size&#039; =&gt; geodir_get_sd_font_size_input(array( &#039;group&#039;     =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;) ) ),
+			&#039;title_text_align&#039; =&gt;  geodir_get_sd_text_align_input(array( &#039;group&#039;     =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;) ) ),
+			&#039;title_text_color&#039; =&gt; array(
+				&#039;title&#039; =&gt; __(&#039;Font Color&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Set the font color&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039;   =&gt;  array(
+					                &#039;&#039;  =&gt;  __(&quot;Default (inherit)&quot;,&quot;geodirectory&quot;),
+				                ) + geodir_aui_colors(),
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;)
+			),
+			&#039;title_pt&#039;  =&gt; geodir_get_sd_padding_input(&#039;pt&#039;, array(
+				&#039;group&#039;     =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+				&#039;row&#039;   =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Padding&#039;, &#039;geodirectory&#039;),
+					&#039;key&#039;   =&gt; &#039;title-padding&#039;,
+					&#039;open&#039; =&gt; true,
+					&#039;class&#039; =&gt; &#039;text-center&#039;,
+				)
+			)),
+			&#039;title_pb&#039;  =&gt; geodir_get_sd_padding_input(&#039;pb&#039;, array(
+				&#039;group&#039;     =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;),
+				&#039;row&#039;   =&gt; array(
+					&#039;key&#039;   =&gt; &#039;title-padding&#039;,
+					&#039;close&#039;   =&gt; true,
+
+				)
+			)),
+
+			// Description
+			&#039;limit&#039;  =&gt; array(
+				&#039;title&#039; =&gt; __(&#039;Word limit:&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;How many words to limit the text to. (will auto strip tags)&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;number&#039;,
+				&#039;placeholder&#039;  =&gt; &#039;20&#039;,
+				&#039;default&#039;  =&gt; &#039;20&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Description&quot;, &quot;geodirectory&quot; )
+			),
+			&#039;read_more&#039;  =&gt; array(
+				&#039;title&#039; =&gt; __(&quot;Read more link:&quot;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Show the read more link at the end of the text. enter `0` to not show link.&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;text&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;default&#039;  =&gt; &#039;0&#039;,
+				&#039;placeholder&#039; =&gt; __(&quot;Read more...&quot;, &#039;geodirectory&#039;),
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Description&quot;, &quot;geodirectory&quot; )
+			),
+			&#039;desc_text_color&#039; =&gt; geodir_get_sd_text_color_input(array(&#039;group&#039;     =&gt; __( &quot;Description&quot;, &quot;geodirectory&quot; ))),
+			&#039;desc_text_align&#039; =&gt;  array(
+				&#039;title&#039; =&gt; __(&#039;Text Align&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039;   =&gt;  array(
+					&quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+					&quot;left&quot; =&gt; __(&#039;Left&#039;, &#039;geodirectory&#039;),
+					&quot;center&quot; =&gt; __(&#039;Center&#039;, &#039;geodirectory&#039;),
+					&quot;right&quot; =&gt; __(&#039;Right&#039;, &#039;geodirectory&#039;),
+					&quot;justify&quot; =&gt; __(&quot;Justify&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;default&#039;  =&gt; &#039;justify&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Description&quot;, &quot;geodirectory&quot; )
+			),
+			&#039;desc_pt&#039;  =&gt; geodir_get_sd_padding_input(&#039;pt&#039;, array(
+				&#039;group&#039;     =&gt; __(&quot;Description&quot;,&quot;geodirectory&quot;),
+				&#039;row&#039;   =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Padding&#039;, &#039;geodirectory&#039;),
+					&#039;key&#039;   =&gt; &#039;desc-padding&#039;,
+					&#039;open&#039; =&gt; true,
+					&#039;class&#039; =&gt; &#039;text-center&#039;,
+				)
+			)),
+			&#039;desc_pb&#039;  =&gt; geodir_get_sd_padding_input(&#039;pb&#039;, array(
+				&#039;group&#039;     =&gt; __(&quot;Description&quot;,&quot;geodirectory&quot;),
+				&#039;default&#039;  =&gt; &#039;1&#039;,
+				&#039;row&#039;   =&gt; array(
+					&#039;key&#039;   =&gt; &#039;desc-padding&#039;,
+					&#039;close&#039;   =&gt; true,
+
+				)
+			)),
+
+			// Output location
+			&#039;list_style&#039; =&gt; array(
+				&#039;title&#039; =&gt; __(&#039;List style&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Select the list style&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039;   =&gt;  array(
+					&quot;wrap&quot; =&gt; __(&#039;Wrap with lines&#039;, &#039;geodirectory&#039;),
+					&quot;line&quot; =&gt; __(&#039;Line separators&#039;, &#039;geodirectory&#039;),
+					&quot;none&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+				),
+				&#039;default&#039;  =&gt; &#039;none&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Output Location&quot;,&quot;geodirectory&quot;)
+			),
+			&#039;item_py&#039; =&gt; array(
+				&#039;title&#039; =&gt; __(&#039;Item vertical padding&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;The padding between items&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039;   =&gt;  array(
+					&quot;&quot; =&gt; __(&#039;Default&#039;, &#039;geodirectory&#039;),
+					&quot;0&quot; =&gt; &quot;0&quot;,
+					&quot;1&quot; =&gt; &quot;1&quot;,
+					&quot;2&quot; =&gt; &quot;2&quot;,
+					&quot;3&quot; =&gt; &quot;3&quot;,
+					&quot;4&quot; =&gt; &quot;4&quot;,
+					&quot;5&quot; =&gt; &quot;5&quot;,
+				),
+				&#039;default&#039;  =&gt; &#039;1&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Output Location&quot;,&quot;geodirectory&quot;)
+			),
+			&#039;list_text_align&#039; =&gt;  geodir_get_sd_text_align_input(array( &#039;group&#039;     =&gt; __(&quot;Output Location&quot;,&quot;geodirectory&quot;) ) ),
+			&#039;list_pt&#039;  =&gt; geodir_get_sd_padding_input(&#039;pt&#039;, array(
+				&#039;group&#039;     =&gt; __(&quot;Output Location&quot;,&quot;geodirectory&quot;),
+				&#039;row&#039;   =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Padding&#039;, &#039;geodirectory&#039;),
+					&#039;key&#039;   =&gt; &#039;list-padding&#039;,
+					&#039;open&#039; =&gt; true,
+					&#039;class&#039; =&gt; &#039;text-center&#039;,
+				)
+			)),
+			&#039;list_pb&#039;  =&gt; geodir_get_sd_padding_input(&#039;pb&#039;, array(
+				&#039;group&#039;     =&gt; __(&quot;Output Location&quot;,&quot;geodirectory&quot;),
+				&#039;row&#039;   =&gt; array(
+					&#039;key&#039;   =&gt; &#039;list-padding&#039;,
+					&#039;close&#039;   =&gt; true,
+
+				)
+			)),
+			// footer
+			&#039;footer_items&#039;  =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Footer Items&#039;, &#039;geodirectory&#039; ),
+				&#039;desc&#039;     =&gt; __( &#039;Select how many footer items to show&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; array(
+					&#039;0&#039; =&gt; __(&quot;None&quot;,&quot;geodirectory&quot;),
+					&#039;1&#039; =&gt; __(&quot;One&quot;,&quot;geodirectory&quot;),
+					&#039;2&#039; =&gt; __(&quot;Two&quot;,&quot;geodirectory&quot;),
+					&#039;3&#039; =&gt; __(&quot;Three&quot;,&quot;geodirectory&quot;),
+					&#039;4&#039; =&gt; __(&quot;Four&quot;,&quot;geodirectory&quot;),
+					&#039;5&#039; =&gt; __(&quot;Five&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;default&#039;  =&gt; &#039;2&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Footer&quot;, &quot;geodirectory&quot; )
+			),
+			&#039;footer_item_1&#039;  =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Type&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; $badge_options,
+				&#039;default&#039;  =&gt; &#039;rating&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Footer&quot;, &quot;geodirectory&quot; ),
+				&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 0&#039;,
+				&#039;row&#039;   =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Item 1&#039;, &#039;geodirectory&#039;),
+					&#039;key&#039;   =&gt; &#039;footer-item-1&#039;,
+					&#039;open&#039; =&gt; true,
+					&#039;class&#039; =&gt; &#039;text-center&#039;,
+				)
+			),
+			&#039;footer_item_1_show&#039;  =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Output&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; $show_options,
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Footer&quot;, &quot;geodirectory&quot; ),
+				&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 0&#039;,
+				&#039;row&#039;   =&gt; array(
+					&#039;key&#039;   =&gt; &#039;footer-item-1&#039;,
+					&#039;close&#039;   =&gt; true,
+
+				)
+			),
+			&#039;footer_item_2&#039;  =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Type&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; $badge_options,
+				&#039;default&#039;  =&gt; &#039;business_hours&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Footer&quot;, &quot;geodirectory&quot; ),
+				&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 1&#039;,
+				&#039;row&#039;   =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Item 2&#039;, &#039;geodirectory&#039;),
+					&#039;key&#039;   =&gt; &#039;footer-item-2&#039;,
+					&#039;open&#039; =&gt; true,
+					&#039;class&#039; =&gt; &#039;text-center&#039;,
+				)
+			),
+			&#039;footer_item_2_show&#039;  =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Output&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; $show_options,
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Footer&quot;, &quot;geodirectory&quot; ),
+				&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 1&#039;,
+				&#039;row&#039;   =&gt; array(
+					&#039;key&#039;   =&gt; &#039;footer-item-2&#039;,
+					&#039;close&#039;   =&gt; true,
+
+				)
+			),
+			&#039;footer_item_3&#039;  =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Type&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; $badge_options,
+				&#039;default&#039;  =&gt; &#039;business_hours&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Footer&quot;, &quot;geodirectory&quot; ),
+				&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 2&#039;,
+				&#039;row&#039;   =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Item 3&#039;, &#039;geodirectory&#039;),
+					&#039;key&#039;   =&gt; &#039;footer-item-3&#039;,
+					&#039;open&#039; =&gt; true,
+					&#039;class&#039; =&gt; &#039;text-center&#039;,
+				)
+			),
+			&#039;footer_item_3_show&#039;  =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Output&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; $show_options,
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Footer&quot;, &quot;geodirectory&quot; ),
+				&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 2&#039;,
+				&#039;row&#039;   =&gt; array(
+					&#039;key&#039;   =&gt; &#039;footer-item-3&#039;,
+					&#039;close&#039;   =&gt; true,
+
+				)
+			),
+			&#039;footer_item_4&#039;  =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Type&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; $badge_options,
+				&#039;default&#039;  =&gt; &#039;business_hours&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Footer&quot;, &quot;geodirectory&quot; ),
+				&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 3&#039;,
+				&#039;row&#039;   =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Item 4&#039;, &#039;geodirectory&#039;),
+					&#039;key&#039;   =&gt; &#039;footer-item-4&#039;,
+					&#039;open&#039; =&gt; true,
+					&#039;class&#039; =&gt; &#039;text-center&#039;,
+				)
+			),
+			&#039;footer_item_4_show&#039;  =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Output&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; $show_options,
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Footer&quot;, &quot;geodirectory&quot; ),
+				&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 3&#039;,
+				&#039;row&#039;   =&gt; array(
+					&#039;key&#039;   =&gt; &#039;footer-item-4&#039;,
+					&#039;close&#039;   =&gt; true,
+
+				)
+			),
+			&#039;footer_item_5&#039;  =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Type&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; $badge_options,
+				&#039;default&#039;  =&gt; &#039;business_hours&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Footer&quot;, &quot;geodirectory&quot; ),
+				&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 4&#039;,
+				&#039;row&#039;   =&gt; array(
+					&#039;title&#039; =&gt; __(&#039;Item 5&#039;, &#039;geodirectory&#039;),
+					&#039;key&#039;   =&gt; &#039;footer-item-5&#039;,
+					&#039;open&#039; =&gt; true,
+					&#039;class&#039; =&gt; &#039;text-center&#039;,
+				)
+			),
+			&#039;footer_item_5_show&#039;  =&gt; array(
+				&#039;title&#039;    =&gt; __( &#039;Output&#039;, &#039;geodirectory&#039; ),
+				&#039;type&#039;     =&gt; &#039;select&#039;,
+				&#039;options&#039;  =&gt; $show_options,
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;    =&gt; __( &quot;Footer&quot;, &quot;geodirectory&quot; ),
+				&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 4&#039;,
+				&#039;row&#039;   =&gt; array(
+					&#039;key&#039;   =&gt; &#039;footer-item-5&#039;,
+					&#039;close&#039;   =&gt; true,
+
+				)
+			),
+
+		);
+
+
+		$arguments[&#039;footer_bg_color&#039;]  = array(
+			&#039;title&#039; =&gt; __(&#039;Background color&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;Select the the background color.&#039;, &#039;geodirectory&#039;),
+			&#039;type&#039; =&gt; &#039;select&#039;,
+			&#039;options&#039;   =&gt;  array(
+				                &quot;&quot; =&gt; __(&#039;Default&#039;, &#039;geodirectory&#039;),
+			                )+geodir_aui_colors(false),
+			&#039;default&#039;  =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; false,
+			&#039;group&#039;     =&gt; __(&quot;Footer&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 0&#039;,
+		);
+
+		$arguments[&#039;footer_border&#039;]  = array(
+			&#039;title&#039; =&gt; __(&#039;Border top&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;Select the border color.&#039;, &#039;geodirectory&#039;),
+			&#039;type&#039; =&gt; &#039;select&#039;,
+			&#039;options&#039;   =&gt;  array(
+				                &quot;&quot; =&gt; __(&#039;Default&#039;, &#039;geodirectory&#039;),
+				                &quot;none&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+			                )+geodir_aui_colors(false),
+			&#039;default&#039;  =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; false,
+			&#039;group&#039;     =&gt; __(&quot;Footer&quot;,&quot;geodirectory&quot;),
+		);
+
+		$arguments[&#039;footer_font_size&#039;]  = array(
+			&#039;title&#039; =&gt; __(&#039;Font size&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;Select the font size&#039;, &#039;geodirectory&#039;),
+			&#039;type&#039; =&gt; &#039;select&#039;,
+			&#039;options&#039;   =&gt;  array(
+				                &quot;&quot; =&gt; __(&#039;Default&#039;, &#039;geodirectory&#039;),
+				                &quot;small&quot; =&gt; __(&#039;Small&#039;, &#039;geodirectory&#039;),
+			                ),
+			&#039;default&#039;  =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; false,
+			&#039;group&#039;     =&gt; __(&quot;Footer&quot;,&quot;geodirectory&quot;),
+		);
+
+		// footer padding
+		$overwrite = array(
+			&#039;group&#039;     =&gt; __(&quot;Footer&quot;,&quot;geodirectory&quot;),
+			&#039;element_require&#039; =&gt; &#039;[%footer_items%] &gt; 0&#039;,
+		);
+		$arguments[&#039;footer_pt&#039;]  = geodir_get_sd_padding_input(&#039;pt&#039;, $overwrite );
+		$arguments[&#039;footer_pr&#039;]  = geodir_get_sd_padding_input(&#039;pr&#039;, $overwrite );
+		$arguments[&#039;footer_pb&#039;]  = geodir_get_sd_padding_input(&#039;pb&#039;, $overwrite );
+		$arguments[&#039;footer_pl&#039;]  = geodir_get_sd_padding_input(&#039;pl&#039;, $overwrite );
+
+
+		return $arguments;
+	}
+
+
+	/**
+	 * The Super block output function.
+	 *
+	 * @param array $instance Settings for the current widget instance.
+	 * @param array $widget_args
+	 * @param string $content
+	 *
+	 * @return mixed|string|void
+	 */
+	public function output( $instance = array(), $widget_args = array(), $content = &#039;&#039; ) {
+		global $gd_post, $post;
+		$instance = wp_parse_args(
+			(array) $instance,
+			array(
+				&#039;title&#039; =&gt; &#039;&#039;,
+
+			)
+		);
+
+
+		$is_preview = self::is_preview();
+
+		if ( $is_preview ) {
+			$is_archive_template = false;
+			// Is archive item admin view
+			if( $post-&gt;ID == geodir_archive_item_page_id() ){
+				$is_archive_template = true;
+			}else{
+				$post_types = geodir_get_posttypes( &#039;array&#039; );
+				foreach ( $post_types as $post_type =&gt; $post_type_arr ) {
+					if ( ! empty( $post_type_arr[ &#039;page_archive_item&#039; ] ) &amp;&amp; $post-&gt;ID == $post_type_arr[ &#039;page_archive_item&#039; ] ) {
+						$is_archive_template = true;
+					}
+				}
+			}
+
+			if ( ! $is_archive_template ) {
+				$is_preview = false;
+			}
+		}
+
+		$content = &#039;&#039;;
+
+		$preview_type = isset($instance[&#039;preview_type&#039;]) ? esc_attr($instance[&#039;preview_type&#039;]) : &#039;grid&#039;;
+		$preview_type_class = $preview_type == &#039;list&#039; ? &#039;row-cols-md-0&#039; : &#039;row-cols-md-1&#039;;
+		$preview_type_style = $preview_type == &#039;grid&#039; ?  &#039;style=&quot;max-width: 350px;&quot;&#039; : &#039;&#039;;
+		// preview wrapper open
+		$content .= $is_preview ? &#039;&lt;div class=&quot;bsui&quot;&gt;&lt;div class=&quot;row row-cols-1 row-cols-sm-2 &#039;.$preview_type_class.&#039; &quot; &gt;&lt;div class=&quot;col mx-auto &quot; &#039;.$preview_type_style.&#039;&gt;&lt;div class=&quot;card p-0 mw-100&quot;&gt;&#039; : &#039;&#039;;
+
+
+
+		// image
+		if ( $instance[&#039;image_type&#039;] != &#039;none&#039; ) {
+
+			// Open header
+			$content .= $is_preview ? &#039;&lt;div class=&quot;card-img-top overflow-hidden position-relative &quot; &gt;&#039; : &quot;[gd_archive_item_section type=&#039;open&#039; position=&#039;left&#039;]&quot;;
+
+			// top left badge
+			$content .= $instance[&#039;top_left_badge_preset&#039;]==&#039;custom&#039; ? $this-&gt;get_custom_badge(&#039;top_left&#039;, $instance ) : self::get_badge_type( $instance[&#039;top_left_badge_preset&#039;], array(&#039;position&#039; =&gt; &#039;top-left&#039; ) );
+
+			// top right badge
+			$content .= self::get_badge_type( $instance[&#039;top_right_badge_preset&#039;], array(&#039;position&#039; =&gt; &#039;top-right&#039; )  );
+
+			// bottom left badge
+			$content .= self::get_badge_type( $instance[&#039;bottom_left_badge_preset&#039;], array(&#039;position&#039; =&gt; &#039;bottom-left&#039; )  );
+
+			// bottom right badge
+			$content .= self::get_badge_type( $instance[&#039;bottom_right_badge_preset&#039;], array(&#039;position&#039; =&gt; &#039;bottom-right&#039; )  );
+
+			$image_type     = esc_attr( $instance[&#039;image_type&#039;] );
+			$image_link     = $instance[&#039;image_link&#039;] == &#039;none&#039; ? &#039;&#039; : esc_attr( $instance[&#039;image_link&#039;] );
+			$content .= &quot;[gd_post_images type=&#039;$image_type&#039; ajax_load=&#039;true&#039; link_to=&#039;$image_link&#039; types=&#039;logo,post_images&#039; controlnav=&#039;0&#039;]&quot;;
+
+			// Close header
+			$content .= $is_preview ? &#039;&lt;/div&gt;&#039; : &quot;[gd_archive_item_section type=&#039;close&#039; position=&#039;left&#039;]&quot;;
+		}
+
+
+
+
+		// Open Body
+		// wrapper class
+		$args = array();
+		$args[&#039;bg&#039;] = esc_attr( $instance[&#039;body_bg_color&#039;] );
+		$args[&#039;pt&#039;] = esc_attr( $instance[&#039;body_pt&#039;] );
+		$args[&#039;pr&#039;] = esc_attr( $instance[&#039;body_pr&#039;] );
+		$args[&#039;pb&#039;] = esc_attr( $instance[&#039;body_pb&#039;] );
+		$args[&#039;pl&#039;] = esc_attr( $instance[&#039;body_pl&#039;] );
+		$wrap_class = geodir_build_aui_class($args);
+		$wrap_class = $wrap_class ? $wrap_class : &#039;p-2&#039;;
+		$content .= $is_preview ? &#039;&lt;div class=&quot;card-body &#039;.$wrap_class.&#039;&quot; &gt;&#039; : &quot;[gd_archive_item_section type=&#039;open&#039; position=&#039;right&#039; bg=&#039;&quot;.esc_attr($instance[&#039;body_bg_color&#039;]).&quot;&#039; pt=&#039;&quot;.$args[&#039;pt&#039;].&quot;&#039; pr=&#039;&quot;.$args[&#039;pr&#039;].&quot;&#039; pb=&#039;&quot;.$args[&#039;pb&#039;].&quot;&#039; pl=&#039;&quot;.$args[&#039;pl&#039;].&quot;&#039;]&quot;;
+
+		$circle_image_type = esc_attr( $instance[&#039;circle_image_type&#039;] );
+		if($circle_image_type  != &#039;hide&#039;){
+			$circle_image_align = esc_attr( $instance[&#039;circle_image_align&#039;] );
+			$image_url = &#039;&#039;;
+			$image_link = &#039;&#039;;
+			$link_title = &#039;&#039;;
+			$logo = &#039;&#039;;
+			if ( $circle_image_type == &#039;author&#039; || ($circle_image_type == &#039;author_claimed&#039; &amp;&amp; ($is_preview || !empty($gd_post-&gt;claimed)) ) ) {
+				$author_id = !empty($gd_post-&gt;post_author) ? absint($gd_post-&gt;post_author) : 0;
+				$image_link = $is_preview ? &#039;#&#039; : get_author_posts_url($author_id);
+				$image_url = get_avatar_url($author_id);
+				$link_title = $is_preview ? &#039;User Name&#039; : get_the_author_meta( &#039;nicename&#039;, $author_id );
+			}elseif($circle_image_type == &#039;logo&#039; ){
+				if ( $is_preview ) {
+					$image_url = geodir_plugin_url() .&quot;/assets/images/ayecode-logo.svg&quot;;
+				}elseif(!empty($gd_post-&gt;logo)){
+					$logo_image = geodir_get_images( $gd_post-&gt;ID,1, 0,0, array(&#039;logo&#039;));
+					if ( ! empty( $logo_image ) ) {
+//						$logo = geodir_get_image_tag( $logo_image[0],&#039;thumbnail&#039;,&#039;&#039;,&#039;rounded-circle shadow border border-white border-width-4 mt-n5 bg-white&#039; );
+//						$logo = str_replace( &quot;&lt;img &quot;, &#039;&lt;img style=&quot;max-height:75px;&quot; &#039;, $logo );
+//						$image_url = geodir_get_image_src($logo_image[0],&#039;thumbnail&#039;);
+						$image_url = geodir_get_image_src($logo_image[0]);
+					}
+
+//					print_r( $logo_image );
+
+//					$image_url = geodir_plugin_url() .&quot;/assets/images/ayecode-logo.svg&quot;;
+					$image_link = get_permalink();
+//					$logo = &quot;[gd_post_images title=&#039;&#039;  id=&#039;&#039;  types=&#039;&#039;  fallback_types=&#039;&#039;  ajax_load=&#039;true&#039;  limit=&#039;1&#039;  limit_show=&#039;&#039;  css_class=&#039;&#039;  type=&#039;image&#039;  slideshow=&#039;false&#039;  controlnav=&#039;1&#039;  animation=&#039;slide&#039;  show_title=&#039;false&#039;  show_caption=&#039;false&#039;  image_size=&#039;thumbnail&#039;  aspect=&#039;1x1&#039;  cover=&#039;&#039;  link_to=&#039;post&#039;  link_screenshot_to=&#039;&#039;  bg=&#039;&#039;  mt=&#039;n5&#039;  mr=&#039;&#039;  mb=&#039;&#039;  ml=&#039;&#039;  pt=&#039;&#039;  pr=&#039;&#039;  pb=&#039;&#039;  pl=&#039;&#039;  border=&#039;&#039;  rounded=&#039;&#039;  rounded_size=&#039;&#039;  shadow=&#039;&#039; ]&quot;;
+				}
+			}
+
+
+
+			// align
+			if($circle_image_align == &#039;left&#039;){$author_image_class = &#039;start&#039;;}
+			elseif($circle_image_align == &#039;right&#039;){$author_image_class = &#039;end&#039;;}
+			else{$author_image_class = &#039;center&#039;;}
+
+			if ( $image_url || $logo ) {
+				$content .= &#039;&lt;div class=&quot;row justify-content-&#039;.$author_image_class.&#039; gv-hide-3 gv-hide-0&quot;&gt;&#039;;
+				$content .= &#039;&lt;div class=&quot;col col-4 text-center tofront &quot;&gt;&#039;;
+				if ( $logo ) {
+					$content .= $logo;
+				}else{
+					$content .= &#039;&lt;a href=&quot;&#039;.esc_url($image_link).&#039;&quot; title=&quot;&#039;.esc_attr($link_title).&#039;&quot;&gt;&lt;img style=&quot;max-height:75px;&quot; class=&quot;rounded-circle shadow border border-white border-width-4 p-0 mw-100 mt-n5 bg-white&quot; src=&quot;&#039;.esc_url($image_url).&#039;&quot; alt=&quot;&#039;.__(&#039;Author Image&#039;,&#039;geodirectory&#039;).&#039;&quot;&gt;&lt;/a&gt;&#039;;
+				}
+				$content .= &#039;&lt;/div&gt;&#039;;
+				$content .= &#039;&lt;/div&gt;&#039;;
+			}
+
+		}
+
+
+
+		// title
+		$args = array();
+		$args[&#039;pt&#039;] = esc_attr( $instance[&#039;title_pt&#039;] );
+		$args[&#039;pb&#039;] = esc_attr( $instance[&#039;title_pb&#039;] );
+		$args[&#039;font_size_class&#039;] = esc_attr( $instance[&#039;title_font_size&#039;] );
+		$args[&#039;text_align&#039;] = esc_attr( $instance[&#039;title_text_align&#039;] );
+		$args[&#039;text_color&#039;] = esc_attr( $instance[&#039;title_text_color&#039;] );
+		$args_out = &#039;&#039;;
+		foreach ( $args as $key =&gt; $val ) {
+			$args_out .= &quot; $key=&#039;$val&#039;&quot;;
+		}
+		$content .= &quot;[gd_post_title tag=&#039;h2&#039; $args_out]&quot;;
+
+		// content
+		$args = array();
+		$args[&#039;pt&#039;] = esc_attr( $instance[&#039;desc_pt&#039;] );
+		$args[&#039;pb&#039;] = esc_attr( $instance[&#039;desc_pb&#039;] );
+		$args[&#039;text_color&#039;] = esc_attr( $instance[&#039;desc_text_color&#039;] );
+		$args_out = &#039;&#039;;
+		foreach ( $args as $key =&gt; $val ) {
+			$args_out .= &quot; $key=&#039;$val&#039;&quot;;
+		}
+		$alignment = esc_attr( $instance[&#039;desc_text_align&#039;] );
+//		$alignment = $alignment ? &quot;text-$alignment&quot; : &#039;&#039;;
+		$limit = absint( $instance[&#039;limit&#039;] );
+		$read_more = esc_attr( $instance[&#039;read_more&#039;] );
+		$content .= $limit !== 0 ? &quot;[gd_post_content key=&#039;post_content&#039; limit=&#039;$limit&#039; read_more=&#039;$read_more&#039; alignment=&#039;$alignment&#039; $args_out]&quot; : &#039;&#039;;
+
+
+		// Output location
+		$args = array();
+		$args[&#039;pt&#039;] = esc_attr( $instance[&#039;list_pt&#039;] );
+		$args[&#039;pb&#039;] = esc_attr( $instance[&#039;list_pb&#039;] );
+		$args[&#039;text_align&#039;] = esc_attr( $instance[&#039;list_text_align&#039;] );
+		$args_out = &#039;&#039;;
+		foreach ( $args as $key =&gt; $val ) {
+			$args_out .= &quot; $key=&#039;$val&#039;&quot;;
+		}
+		$list_style = esc_attr($instance[&#039;list_style&#039;]);
+		$list_py = esc_attr($instance[&#039;item_py&#039;]);
+		$content .= &quot;[gd_output_location location=&#039;listing&#039; list_style=&#039;$list_style&#039; item_py=&#039;$list_py&#039;  $args_out]&quot;;
+
+		// Author Actions
+		$content .= &quot;[gd_author_actions author_page_only=&#039;1&#039;]&quot;;
+
+		// Close Body
+		$content .= $is_preview ? &#039;&lt;/div&gt;&#039; : &quot;[gd_archive_item_section type=&#039;close&#039; position=&#039;right&#039;]&quot;;
+
+		// Open Footer
+		$footer_items = absint($instance[&#039;footer_items&#039;]);
+
+		$footer_item_1 = $footer_items &gt; 0 ? self::get_badge_type( $instance[&#039;footer_item_1&#039;], array( &#039;show&#039; =&gt; $instance[&#039;footer_item_1_show&#039;] ) ) : &#039;&#039;;
+		$footer_item_2 = $footer_items &gt; 1 ? self::get_badge_type( $instance[&#039;footer_item_2&#039;], array( &#039;show&#039; =&gt; $instance[&#039;footer_item_2_show&#039;] ) ) : &#039;&#039;;
+		$footer_item_3 = $footer_items &gt; 2 ? self::get_badge_type( $instance[&#039;footer_item_3&#039;], array( &#039;show&#039; =&gt; $instance[&#039;footer_item_3_show&#039;] ) ) : &#039;&#039;;
+		$footer_item_4 = $footer_items &gt; 3 ? self::get_badge_type( $instance[&#039;footer_item_4&#039;], array( &#039;show&#039; =&gt; $instance[&#039;footer_item_4_show&#039;] ) ) : &#039;&#039;;
+		$footer_item_5 = $footer_items &gt; 4 ? self::get_badge_type( $instance[&#039;footer_item_5&#039;], array( &#039;show&#039; =&gt; $instance[&#039;footer_item_5_show&#039;] ) ) : &#039;&#039;;
+
+		if ( $footer_items ) {
+
+			// wrapper class
+			$args = array();
+			$args[&#039;bg&#039;] = esc_attr( $instance[&#039;footer_bg_color&#039;] );
+			$args[&#039;pt&#039;] = esc_attr( $instance[&#039;footer_pt&#039;] );
+			$args[&#039;pr&#039;] = esc_attr( $instance[&#039;footer_pr&#039;] );
+			$args[&#039;pb&#039;] = esc_attr( $instance[&#039;footer_pb&#039;] );
+			$args[&#039;pl&#039;] = esc_attr( $instance[&#039;footer_pl&#039;] );
+			$args[&#039;border&#039;] = esc_attr( $instance[&#039;footer_border&#039;] );
+			$wrap_class = geodir_build_aui_class($args);
+
+			$wrap_class .= &quot; p-2&quot;;
+
+			// border
+			if(!empty($instance[&#039;footer_border&#039;]) &amp;&amp; $instance[&#039;footer_border&#039;]!=&#039;none&#039;){
+				$wrap_class .= &quot; border-right-0 border-left-0 border-bottom-0&quot;;
+			}
+
+			// font size
+			$font_size = &#039;&#039;;
+			if(!empty($instance[&#039;footer_font_size&#039;]) &amp;&amp; $instance[&#039;footer_font_size&#039;]==&#039;small&#039;){
+				$font_size = &#039;font_size=&quot;small&quot;&#039;;
+				$wrap_class .= &quot; small&quot;;
+			}
+
+			$content .= $is_preview ? &#039;&lt;div class=&quot;card-footer &#039;.$wrap_class .&#039;&quot; &gt;&#039; : &quot;[gd_archive_item_section type=&#039;open&#039; position=&#039;footer&#039; $font_size  border=&#039;&quot;.esc_attr($instance[&#039;footer_border&#039;]).&quot;&#039; bg=&#039;&quot;.esc_attr($instance[&#039;footer_bg_color&#039;]).&quot;&#039; pt=&#039;&quot;.$args[&#039;pt&#039;].&quot;&#039; pr=&#039;&quot;.$args[&#039;pr&#039;].&quot;&#039; pb=&#039;&quot;.$args[&#039;pb&#039;].&quot;&#039; pl=&#039;&quot;.$args[&#039;pl&#039;].&quot;&#039;]&quot;;
+
+			$content .= &quot;&lt;div class=&#039;d-flex justify-content-between align-items-center flex-wrap&#039;&gt;&quot;;
+			$content .= $footer_item_1  ? &quot;&lt;div&gt;&quot;.$footer_item_1 .&quot;&lt;/div&gt;&quot; : &#039;&#039;;
+			$content .= $footer_item_2  ? &quot;&lt;div&gt;&quot;.$footer_item_2 .&quot;&lt;/div&gt;&quot; : &#039;&#039;;
+			$content .= $footer_item_3  ? &quot;&lt;div&gt;&quot;.$footer_item_3 .&quot;&lt;/div&gt;&quot; : &#039;&#039;;
+			$content .= $footer_item_4  ? &quot;&lt;div&gt;&quot;.$footer_item_4 .&quot;&lt;/div&gt;&quot; : &#039;&#039;;
+			$content .= $footer_item_5  ? &quot;&lt;div&gt;&quot;.$footer_item_5 .&quot;&lt;/div&gt;&quot; : &#039;&#039;;
+			$content .= &quot;&lt;/div&gt;&quot;;
+
+			// Close Footer
+			$content .= $is_preview ? &#039;&lt;/div&gt;&#039; : &quot;[gd_archive_item_section type=&#039;close&#039; position=&#039;footer&#039;]&quot;;
+		}
+		
+		// preview wrapper close
+		$content .= $is_preview ? &#039;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&#039; : &#039;&#039;;
+
+
+//	    $content = do_blocks( $content );
+		$content = do_shortcode( $content );
+
+		return $content;
+	}
+
+	public function get_badge_options($over_image = false){
+		$badge_options = array(
+			&#039;none&#039;     =&gt; __( &#039;None&#039;, &#039;geodirectory&#039; ),
+			&#039;new&#039;      =&gt; __( &#039;New&#039;, &#039;geodirectory&#039; ),
+			&#039;featured&#039; =&gt; __( &#039;Featured&#039;, &#039;geodirectory&#039; ),
+			&#039;favorite&#039; =&gt; __( &#039;Favorite&#039;, &#039;geodirectory&#039; ),
+			&#039;category&#039; =&gt; __( &#039;Category&#039;, &#039;geodirectory&#039; ),
+//			&#039;custom&#039; =&gt; __( &#039;Custom&#039;, &#039;geodirectory&#039; ),
+		);
+
+		if(!$over_image){
+			$badge_options[&#039;rating&#039;] = __( &#039;Rating&#039;, &#039;geodirectory&#039; );
+			$badge_options[&#039;business_hours&#039;] = __( &#039;Business Hours&#039;, &#039;geodirectory&#039; );
+
+			$custom_fields = $this-&gt;get_custom_field_keys();
+
+			if ( ! empty( $custom_fields ) ) {
+				foreach ( $custom_fields as $key ) {
+					$badge_options[$key] = $key;
+				}
+			}
+		}else{
+			$badge_options[&#039;custom&#039;] = __( &#039;Custom&#039;, &#039;geodirectory&#039; );
+		}
+
+		return $badge_options;
+	}
+
+	public function get_custom_badge($position, $instance){
+
+		$keys = array(
+			&#039;key&#039;,
+			&#039;condition&#039;,
+			&#039;search&#039;,
+			&#039;icon_class&#039;,
+			&#039;badge&#039;,
+			&#039;link&#039;,
+			&#039;type&#039;,
+			&#039;color&#039;,
+			&#039;bg_color&#039;,
+			&#039;txt_color&#039;,
+//			&#039;&#039;,
+		);
+		$args = array();
+
+
+		foreach ( $keys as $key ) {
+			$args[$key] = isset($instance[$position.&quot;_badge_&quot;.$key]) ? esc_attr($instance[$position.&quot;_badge_&quot;.$key]) : &#039;&#039;;
+		}
+
+		$a = array(&#039;position&#039; =&gt; str_replace(&quot;_&quot;,&quot;-&quot;,$position) );
+
+		return $this-&gt;get_badge_type( &#039;custom_badge&#039;, $a, $args );
+
+
+	}
+
+	public function get_badge_type( $type, $args = array(),$badge_args = array() ) {
+
+		$type = esc_attr( $type );
+
+		$output = &#039;&#039;;
+
+		// possition
+		$position_args = &#039;&#039;;
+		$position = ! empty( $args[&#039;position&#039;] ) ? esc_attr( $args[&#039;position&#039;] ) : &#039;&#039;;
+		$mb = $type ==&#039;favorite&#039; ? &#039;n1&#039; : &#039;0&#039;;
+		$mt = $type ==&#039;favorite&#039; ? &#039;0&#039; : &#039;1&#039;;
+		if ( $position == &#039;top-left&#039; ) {
+			$position_args = &quot; position=&#039;ab-top-left&#039;  mt=&#039;$mt&#039;  ml=&#039;1&#039; &quot;;
+		} elseif ($position == &#039;top-right&#039;) {
+			$position_args = &quot; position=&#039;ab-top-right&#039;  mt=&#039;$mt&#039;  mr=&#039;1&#039; &quot;;
+		}elseif ($position == &#039;bottom-left&#039;) {
+			$position_args = &quot; position=&#039;ab-bottom-left&#039;  mt=&#039;&#039;  mr=&#039;&#039;  mb=&#039;$mb&#039;  ml=&#039;1&#039; &quot;;
+		}elseif ($position == &#039;bottom-right&#039;) {
+			$position_args = &quot; position=&#039;ab-bottom-right&#039;  mt=&#039;&#039;  mr=&#039;1&#039;  mb=&#039;$mb&#039;  ml=&#039;&#039; &quot;;
+		}
+
+
+		// alignment
+		$alignment = ! empty( $args[&#039;alignment&#039;] ) ? esc_attr( $args[&#039;alignment&#039;] ) : &#039;&#039;;
+		if ( $alignment ) {
+			$alignment = &#039;&#039;;//&quot;alignment=&#039;&quot;.esc_attr($alignment).&quot;&#039;&quot;;
+		}
+
+
+
+		if ( $type == &#039;featured&#039; ) {
+			$output = &quot;[gd_post_badge key=&#039;featured&#039; condition=&#039;is_not_empty&#039; badge=&#039;FEATURED&#039; bg_color=&#039;#fd4700&#039; txt_color=&#039;#ffffff&#039; css_class=&#039;&#039; $alignment $position_args]&quot;;
+		} elseif ($type == &#039;new&#039; ) {
+			$output = &quot;[gd_post_badge id=&#039;&#039;  key=&#039;post_date&#039;  condition=&#039;is_less_than&#039;  search=&#039;+30&#039;  icon_class=&#039;&#039;  badge=&#039;New&#039;  link=&#039;&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;&#039;  bg_color=&#039;#ff0000&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  $alignment  mb=&#039;&#039;  ml=&#039;&#039; $position_args  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]&quot;;
+		} elseif ($type == &#039;favorite&#039; ) {
+			$output = &quot;[gd_post_fav show=&#039;icon&#039;  icon=&#039;&#039;  icon_color_off=&#039;rgba(223,223,223,0.8)&#039;  icon_color_on=&#039;#ff0000&#039;  type=&#039;link&#039;  shadow=&#039;&#039;  color=&#039;&#039;  bg_color=&#039;&#039;  txt_color=&#039;&#039;  size=&#039;h5&#039;  $alignment $position_args  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039; ]&quot;;
+		} elseif ($type == &#039;price&#039; ) {
+			$output = &quot;[gd_post_badge id=&#039;&#039;  key=&#039;price&#039;  condition=&#039;is_not_empty&#039;  search=&#039;&#039;  icon_class=&#039;&#039;  badge=&#039;%%input%% &#039;  link=&#039;%%post_url%%&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;danger&#039;  bg_color=&#039;#0073aa&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  $alignment $position_args  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]&quot;;
+		} elseif ($type == &#039;category&#039; ) {
+			$output = &quot;[gd_post_badge id=&#039;&#039;  key=&#039;default_category&#039;  condition=&#039;is_not_empty&#039;  search=&#039;&#039;  icon_class=&#039;&#039;  badge=&#039;%%input%%&#039;  link=&#039;%%input%%&#039;  new_window=&#039;false&#039;  popover_title=&#039;&#039;  popover_text=&#039;&#039;  cta=&#039;0&#039;  tooltip_text=&#039;&#039;  hover_content=&#039;&#039;  hover_icon=&#039;&#039;  type=&#039;&#039;  shadow=&#039;&#039;  color=&#039;&#039;  bg_color=&#039;rgba(0,0,0,0.5)&#039;  txt_color=&#039;#ffffff&#039;  size=&#039;&#039;  $alignment $position_args  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039;  css_class=&#039;&#039; ]&quot;;
+		} elseif ($type == &#039;rating&#039; ) {
+			$output = &quot;[gd_post_rating show=&#039;stars&#039;  size=&#039;&#039;  $alignment  list_hide=&#039;&#039;  list_hide_secondary=&#039;&#039; ]&quot;;
+		} elseif ($type == &#039;business_hours&#039; ) {
+			$lhs = self::is_preview() ? &#039;1&#039; : &#039;2&#039;;
+			$output = &quot;[gd_post_meta title=&#039;&#039;  id=&#039;&#039;  key=&#039;business_hours&#039;  show=&#039;&#039;  no_wrap=&#039;false&#039;  $alignment text_alignment=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;$lhs&#039;  location=&#039;&#039;  css_class=&#039;&#039; ]&quot;;
+		} elseif ($type == &#039;custom_badge&#039; ) {
+			$args_out = &#039;&#039;;
+			if ( $badge_args ) {
+				foreach ( $badge_args as $key =&gt; $val ) {
+					$args_out .= &quot; $key=&#039;$val&#039;&quot;;
+				}
+			}
+
+			$output = &quot;[gd_post_badge $args_out $alignment $position_args]&quot;;
+		} else {
+			$lhs = self::is_preview() ? &#039;1&#039; : &#039;2&#039;;
+			$show = !empty($args[&#039;show&#039;]) ? esc_attr($args[&#039;show&#039;]) : &#039;&#039;;
+			$css_class = &#039;&#039;;
+			if ( $show == &#039;badge&#039; ) {
+				$show = &#039;value&#039;;
+				$css_class = &#039;badge badge-primary&#039;;
+			}
+			$output = &quot;[gd_post_meta title=&#039;&#039;  id=&#039;&#039;  key=&#039;$type&#039;  show=&#039;$show&#039;  no_wrap=&#039;false&#039;  $alignment text_alignment=&#039;&#039;  list_hide=&#039;&#039;  list_hide_secondary=&#039;$lhs&#039;  location=&#039;&#039;  css_class=&#039;$css_class&#039; ]&quot;;
+		}
+
+		return $output;
+	}
+
+	/**
+	 * Gets an array of custom field keys.
+	 *
+	 * @return array
+	 */
+	public function get_custom_field_keys() {
+		$fields = geodir_post_custom_fields( &#039;&#039;, &#039;all&#039;, &#039;all&#039;, &#039;none&#039; );
+		$keys = array();
+		if ( ! empty( $fields ) ) {
+			foreach( $fields as $field ) {
+				$keys[ $field[&#039;htmlvar_name&#039;] ] = $field[&#039;htmlvar_name&#039;];
+			}
+		}
+
+		// Advance fields
+		$advance_fields = geodir_post_meta_advance_fields();
+		if ( ! empty( $advance_fields ) ) {
+			foreach ( $advance_fields as $field =&gt; $args ) {
+				$keys[ $field ] = $field;
+			}
+		}
+
+		return $keys;
+	}
+
+	public function image_badge($type = &#039;top_left&#039;){
+
+		if ( $type == &#039;top_left&#039; ) {
+			$title = __( &#039;Top Left Badge&#039;, &#039;geodirectory&#039; );
+			$group = __( &quot;Image Badge (top left)&quot;, &quot;geodirectory&quot; );
+			$default = &#039;featured&#039;;
+		}elseif( $type == &#039;top_right&#039; ){
+			$title = __( &#039;Top Right Badge&#039;, &#039;geodirectory&#039; );
+			$group = __( &quot;Image Badge (top right)&quot;, &quot;geodirectory&quot; );
+			$default = &#039;new&#039;;
+		}elseif( $type == &#039;bottom_left&#039; ){
+			$title = __( &#039;Bottom Left Badge&#039;, &#039;geodirectory&#039; );
+			$group = __( &quot;Image Badge (bottom left)&quot;, &quot;geodirectory&quot; );
+			$default = &#039;category&#039;;
+		}elseif( $type == &#039;bottom_right&#039; ){
+			$title = __( &#039;Bottom Right Badge&#039;, &#039;geodirectory&#039; );
+			$group = __( &quot;Image Badge (bottom right)&quot;, &quot;geodirectory&quot; );
+			$default = &#039;favorite&#039;;
+		}else{
+			return array();
+		}
+
+
+		$badge = array();
+		$badge[$type . &#039;_badge_preset&#039;] = array(
+			&#039;title&#039;    =&gt; $title ,
+			&#039;desc&#039;     =&gt; __( &#039;Select the badge to show&#039;, &#039;geodirectory&#039; ),
+			&#039;type&#039;     =&gt; &#039;select&#039;,
+			&#039;options&#039;  =&gt; $this-&gt;get_badge_options(true),
+			&#039;default&#039;  =&gt; $default,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; false,
+			&#039;group&#039;    =&gt; $group,
+			&#039;element_require&#039; =&gt; &#039;[%image_type%]!=&quot;none&quot;&#039;,
+		);
+
+		$badge[$type . &#039;_badge_key&#039;] = array(
+			&#039;type&#039; =&gt; &#039;select&#039;,
+			&#039;title&#039; =&gt; __(&#039;Field Key:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;This is the custom field key.&#039;, &#039;geodirectory&#039;),
+			&#039;placeholder&#039; =&gt; &#039;&#039;,
+			&#039;options&#039; =&gt; $this-&gt;get_custom_field_keys(),
+			&#039;default&#039;  =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; false,
+			&#039;group&#039;    =&gt; $group,
+			&#039;element_require&#039; =&gt; &#039;[%&#039;.$type.&#039;_badge_preset%]==&quot;custom&quot;&#039;,
+		);
+
+
+		$badge[$type . &#039;_badge_condition&#039;]  = array(
+			&#039;type&#039; =&gt; &#039;select&#039;,
+			&#039;title&#039; =&gt; __(&#039;Field condition:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;Select the custom field condition.&#039;, &#039;geodirectory&#039;),
+			&#039;placeholder&#039; =&gt; &#039;&#039;,
+			&#039;options&#039; =&gt; $this-&gt;get_badge_conditions(),
+			&#039;default&#039; =&gt; &#039;is_equal&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; false,
+			&#039;group&#039;    =&gt; $group,
+			&#039;element_require&#039; =&gt; &#039;[%&#039;.$type.&#039;_badge_preset%]==&quot;custom&quot;&#039;,
+		);
+		$badge[$type . &#039;_badge_search&#039;]  = array(
+			&#039;type&#039; =&gt; &#039;text&#039;,
+			&#039;title&#039; =&gt; __(&#039;Value to match:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;Match this text with field value to display post badge. For post date enter value like +7 or -7.&#039;, &#039;geodirectory&#039;),
+			&#039;placeholder&#039; =&gt; &#039;&#039;,
+			&#039;default&#039; =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; false,
+			&#039;group&#039;    =&gt; $group,
+			&#039;element_require&#039; =&gt; &#039;[%&#039;.$type.&#039;_badge_preset%]==&quot;custom&quot; &amp;&amp; [%&#039;.$type.&#039;_badge_condition%]!=&quot;is_empty&quot; &amp;&amp; [%&#039;.$type.&#039;_badge_condition%]!=&quot;is_not_empty&quot;&#039;
+		);
+		$badge[$type . &#039;_badge_icon_class&#039;]  = array(
+			&#039;type&#039; =&gt; &#039;text&#039;,
+			&#039;title&#039; =&gt; __(&#039;Icon class:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;You can show a font-awesome icon here by entering the icon class.&#039;, &#039;geodirectory&#039;),
+			&#039;placeholder&#039; =&gt; &#039;fas fa-award&#039;,
+			&#039;default&#039; =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;group&#039;    =&gt; $group,
+			&#039;element_require&#039; =&gt; &#039;[%&#039;.$type.&#039;_badge_preset%]==&quot;custom&quot;&#039;,
+		);
+		$badge[$type . &#039;_badge_badge&#039;]  = array(
+			&#039;type&#039; =&gt; &#039;text&#039;,
+			&#039;title&#039; =&gt; __(&#039;Badge:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;Badge text. Ex: FOR SALE. Leave blank to show field title as a badge, or use %%input%% to use the input value of the field or %%post_url%% for the post url, or the field key for any other info %%email%%.&#039;, &#039;geodirectory&#039;),
+			&#039;placeholder&#039; =&gt; &#039;&#039;,
+			&#039;default&#039; =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; false,
+			&#039;group&#039;    =&gt; $group,
+			&#039;element_require&#039; =&gt; &#039;[%&#039;.$type.&#039;_badge_preset%]==&quot;custom&quot;&#039;,
+		);
+		$badge[$type . &#039;_badge_link&#039;]  = array(
+			&#039;type&#039; =&gt; &#039;text&#039;,
+			&#039;title&#039; =&gt; __(&#039;Link url:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;Badge link url. You can use this to make the button link to something, %%input%% can be used here if a link or %%post_url%% for the post url.&#039;, &#039;geodirectory&#039;),
+			&#039;placeholder&#039; =&gt; &#039;&#039;,
+			&#039;default&#039; =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;group&#039;    =&gt; $group,
+			&#039;element_require&#039; =&gt; &#039;[%&#039;.$type.&#039;_badge_preset%]==&quot;custom&quot;&#039;,
+		);
+
+
+		$badge[$type . &#039;_badge_type&#039;] = array(
+			&#039;title&#039; =&gt; __(&#039;Type&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;Select the badge type.&#039;, &#039;geodirectory&#039;),
+			&#039;type&#039; =&gt; &#039;select&#039;,
+			&#039;options&#039;   =&gt;  array(
+				&quot;&quot; =&gt; __(&#039;Badge&#039;, &#039;geodirectory&#039;),
+				&quot;pill&quot; =&gt; __(&#039;Pill&#039;, &#039;geodirectory&#039;),
+			),
+			&#039;default&#039;  =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; false,
+			&#039;group&#039;    =&gt; $group,
+			&#039;element_require&#039; =&gt; &#039;[%&#039;.$type.&#039;_badge_preset%]==&quot;custom&quot;&#039;,
+		);
+		$badge[$type . &#039;_badge_color&#039;] = array(
+			&#039;title&#039; =&gt; __(&#039;Badge Color&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;Select the the badge color.&#039;, &#039;geodirectory&#039;),
+			&#039;type&#039; =&gt; &#039;select&#039;,
+			&#039;options&#039;   =&gt;  array(
+				                &quot;&quot; =&gt; __(&#039;Custom colors&#039;, &#039;geodirectory&#039;),
+			                )+geodir_aui_colors(true),
+			&#039;default&#039;  =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; false,
+			&#039;group&#039;    =&gt; $group,
+			&#039;element_require&#039; =&gt; &#039;[%&#039;.$type.&#039;_badge_preset%]==&quot;custom&quot;&#039;,
+		);
+		$badge[$type . &#039;_badge_bg_color&#039;]  = array(
+			&#039;type&#039; =&gt; &#039;color&#039;,
+			&#039;title&#039; =&gt; __(&#039;Badge background color:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;Color for the badge background.&#039;, &#039;geodirectory&#039;),
+			&#039;placeholder&#039; =&gt; &#039;&#039;,
+			&#039;default&#039; =&gt; &#039;#0073aa&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;group&#039;    =&gt; $group,
+			&#039;element_require&#039; =&gt; &#039;[%&#039;.$type.&#039;_badge_preset%]==&quot;custom&quot; &amp;&amp; [%&#039;.$type.&#039;_badge_color%]==&quot;&quot;&#039;,
+		);
+		$badge[$type . &#039;_badge_txt_color&#039;]  = array(
+			&#039;type&#039; =&gt; &#039;color&#039;,
+			&#039;title&#039; =&gt; __(&#039;Badge text color:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;Color for the badge text.&#039;, &#039;geodirectory&#039;),
+			&#039;placeholder&#039; =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;default&#039;  =&gt; &#039;#ffffff&#039;,
+			&#039;group&#039;    =&gt; $group,
+			&#039;element_require&#039; =&gt; &#039;[%&#039;.$type.&#039;_badge_preset%]==&quot;custom&quot; &amp;&amp; [%&#039;.$type.&#039;_badge_color%]==&quot;&quot;&#039;,
+		);
+
+		return $badge;
+	}
+
+	/**
+	 * Gets an array of badge field conditions.
+	 *
+	 * @return array
+	 */
+	public function get_badge_conditions(){
+		$conditions = array(
+			&#039;is_equal&#039; =&gt; __( &#039;is equal&#039;, &#039;geodirectory&#039; ),
+			&#039;is_not_equal&#039; =&gt; __( &#039;is not equal&#039;, &#039;geodirectory&#039; ),
+			&#039;is_greater_than&#039; =&gt; __( &#039;is greater than&#039;, &#039;geodirectory&#039; ),
+			&#039;is_less_than&#039; =&gt; __( &#039;is less than&#039;, &#039;geodirectory&#039; ),
+			&#039;is_empty&#039; =&gt; __( &#039;is empty&#039;, &#039;geodirectory&#039; ),
+			&#039;is_not_empty&#039; =&gt; __( &#039;is not empty&#039;, &#039;geodirectory&#039; ),
+			&#039;is_contains&#039; =&gt; __( &#039;is contains&#039;, &#039;geodirectory&#039; ),
+			&#039;is_not_contains&#039; =&gt; __( &#039;is not contains&#039;, &#039;geodirectory&#039; ),
+		);
+
+		return apply_filters( &#039;geodir_badge_conditions&#039;, $conditions );
+	}
+
+}
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

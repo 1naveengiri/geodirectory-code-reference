@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-ajax.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+/**
+ * GeoDirectory GeoDir_AJAX.
+ *
+ * AJAX Event Handler.
+ *
+ * @class    GeoDir_AJAX
+ * @package  GeoDirectory/Classes
+ * @category Class
+ * @author   AyeCode
+ */
+class GeoDir_AJAX {
+
+	/**
+	 * Hook in ajax handlers.
+	 */
+	public static function init() {
+		add_action( &#039;init&#039;, array( __CLASS__, &#039;define_ajax&#039; ), 0 );
+		add_action( &#039;template_redirect&#039;, array( __CLASS__, &#039;do_gd_ajax&#039; ), 0 );
+		self::add_ajax_events();
+	}
+	
+	/**
+	 * Hook in methods - uses WordPress ajax handlers (admin-ajax).
+	 */
+	public static function add_ajax_events() {
+		// geodirectory_EVENT =&gt; nopriv
+		$ajax_events = array(
+			&#039;get_custom_field_form&#039;   =&gt; false,
+			&#039;get_custom_field_sorting_form&#039;   =&gt; false,
+			&#039;auto_save_custom_field&#039;  =&gt; false,
+			&#039;save_custom_field&#039;       =&gt; false,
+			&#039;save_custom_sort_field&#039;       =&gt; false,
+			&#039;delete_custom_field&#039;     =&gt; false,
+			&#039;delete_custom_sort_field&#039; =&gt; false,
+			&#039;order_custom_fields&#039;     =&gt; false,
+			&#039;order_custom_sort_fields&#039;     =&gt; false,
+			&#039;insert_dummy_data&#039;       =&gt; false,
+			&#039;delete_dummy_data&#039;       =&gt; false,
+			&#039;wizard_insert_widgets_top&#039;       =&gt; false,
+			&#039;wizard_insert_widgets&#039;       =&gt; false,
+			&#039;wizard_setup_menu&#039;       =&gt; false,
+			&#039;post_attachment_upload&#039;       =&gt; true,
+			&#039;get_category_select&#039;       =&gt; false,
+			&#039;user_add_fav&#039;       =&gt; false,
+			&#039;save_post&#039;       =&gt; true,
+			&#039;auto_save_post&#039;       =&gt; true,
+			&#039;delete_revision&#039;       =&gt; true,
+			&#039;user_delete_post&#039;       =&gt; false,
+			&#039;import_export&#039;         =&gt; false,
+			&#039;save_api_key&#039;			=&gt; false,
+			&#039;bestof&#039;			=&gt; true,
+			&#039;cpt_categories&#039; =&gt; true,
+			&#039;json_search_users&#039; =&gt; false,
+			&#039;ninja_forms&#039; =&gt; true,
+			&#039;get_tabs_form&#039; =&gt; false,
+			&#039;save_tab_item&#039; =&gt; false,
+			&#039;save_tabs_order&#039; =&gt; false,
+			&#039;delete_tab&#039; =&gt; false,
+			&#039;manual_map&#039; =&gt; true,
+			&#039;widget_listings&#039; =&gt; true,
+			&#039;recently_viewed_listings&#039; =&gt; true,
+			&#039;embed_widget&#039; =&gt; true,
+			&#039;embed_script&#039; =&gt; true,
+			&#039;timezone_data&#039; =&gt; true,
+			&#039;get_sort_options&#039; =&gt; false,
+			&#039;tool_regenerate_thumbnails&#039; =&gt; true,
+			&#039;regenerate_thumbnails&#039; =&gt; true,
+			&#039;post_author_action&#039; =&gt; false,
+			&#039;report_post_form&#039; =&gt; true,
+			&#039;submit_report_post&#039; =&gt; true,
+			&#039;new_wp_template&#039; =&gt; true,
+		);
+
+		foreach ( $ajax_events as $ajax_event =&gt; $nopriv ) {
+			add_action( &#039;wp_ajax_geodir_&#039; . $ajax_event, array( __CLASS__, $ajax_event ) );
+
+			if ( $nopriv ) {
+				add_action( &#039;wp_ajax_nopriv_geodir_&#039; . $ajax_event, array( __CLASS__, $ajax_event ) );
+
+				// GeoDir AJAX can be used for frontend ajax requests.
+				add_action( &#039;gd_ajax_&#039; . $ajax_event, array( __CLASS__, $ajax_event ) );
+			}
+		}
+	}
+
+	/**
+	 * Get the CPT sort options for the listings widget.
+	 */
+	public static function get_sort_options(){
+		$post_type = !empty($_REQUEST[&#039;post_type&#039;]) ? sanitize_key( $_REQUEST[&#039;post_type&#039;] ) : &#039;gd_place&#039;;
+		$sort_options = geodir_sort_by_options( $post_type );
+
+		echo json_encode($sort_options);
+		exit;
+	}
+
+	public static function embed_script(){
+		$html = GeoDir_External_Embed::get_embed_script();
+		if($html ){
+			echo $html;
+		}
+		exit;
+	}
+
+	public static function embed_widget(){
+		$html = GeoDir_External_Embed::get_embed_widget();
+		if($html ){
+			echo $html;
+		}
+		exit;
+	}
+
+	/**
+	 * Set GD AJAX constant and headers.
+	 */
+	public static function define_ajax() {
+		if ( ! empty( $_GET[&#039;gd-ajax&#039;] ) ) {
+			if(!defined(&#039;DOING_AJAX&#039;))define( &#039;DOING_AJAX&#039;, true );
+			if(!defined(&#039;GD_DOING_AJAX&#039;))define( &#039;GD_DOING_AJAX&#039;, true );
+			if ( ! WP_DEBUG || ( WP_DEBUG &amp;&amp; ! WP_DEBUG_DISPLAY ) ) {
+				/** @scrutinizer ignore-unhandled */ @ini_set( &#039;display_errors&#039;, 0 ); // Turn off display_errors during AJAX events to prevent malformed JSON.
+			}
+			$GLOBALS[&#039;wpdb&#039;]-&gt;hide_errors();
+		}
+	}
+
+	/**
+	 * Check for WC Ajax request and fire action.
+	 */
+	public static function do_gd_ajax() {
+		global $wp_query;
+
+		if ( ! empty( $_GET[&#039;gd-ajax&#039;] ) ) {
+			$wp_query-&gt;set( &#039;gd-ajax&#039;, sanitize_text_field( wp_unslash( $_GET[&#039;gd-ajax&#039;] ) ) );
+		}
+
+		$action = $wp_query-&gt;get( &#039;gd-ajax&#039; );
+
+		if ( $action ) {
+			self::gd_ajax_headers();
+			$action = sanitize_text_field( $action );
+			do_action( &#039;gd_ajax_&#039; . $action );
+			wp_die();
+		}
+	}
+
+	/**
+	 * Send headers for GD Ajax Requests.
+	 *
+	 * @since 2.0.0.58
+	 */
+	private static function gd_ajax_headers() {
+		send_origin_headers();
+		/** @scrutinizer ignore-unhandled */ @header( &#039;Content-Type: text/html; charset=&#039; . get_option( &#039;blog_charset&#039; ) ); // @codingStandardsIgnoreLine
+		/** @scrutinizer ignore-unhandled */ @header( &#039;X-Robots-Tag: noindex&#039; ); // @codingStandardsIgnoreLine
+		send_nosniff_header();
+		nocache_headers();
+		status_header( 200 );
+	}
+
+	/**
+	 * Manual map
+	 *
+	 * @since 2.0.0
+	 */
+	public static function manual_map() {
+		global $geodirectory, $mapzoom, $geodir_manual_map;
+
+		$prefix = isset( $_POST[&#039;trigger&#039;] ) ? sanitize_title( geodir_clean( $_POST[&#039;trigger&#039;] ) ) : &#039;geodir_manual_location_&#039;;
+		$prefix = esc_attr( $prefix );
+
+		$map_title = __( &quot;Select Your Location&quot;, &#039;geodirectory&#039; );
+		$location = $geodirectory-&gt;location-&gt;get_default_location();
+		$country = isset( $location-&gt;country ) ? $location-&gt;country : &#039;&#039;;
+		$region = isset( $location-&gt;region ) ? $location-&gt;region : &#039;&#039;;
+		$city = isset( $location-&gt;city ) ? $location-&gt;city : &#039;&#039;;
+		$lat = isset( $location-&gt;latitude ) ? $location-&gt;latitude : &#039;&#039;;
+		$lng = isset( $location-&gt;longitude ) ? $location-&gt;longitude : &#039;&#039;;
+		$mapzoom = 8;
+
+		$design_style = geodir_design_style();
+		$geodir_manual_map = true;
+
+		// Try and center the map as close to the user as possible.
+		if ( $ip = geodir_get_ip() ) {
+			$geo = geodir_geo_by_ip( $ip );
+
+			if ( ! empty( $geo ) &amp;&amp; ! empty( $geo[&#039;latitude&#039;] ) &amp;&amp; ! empty( $geo[&#039;longitude&#039;] ) ) {
+				$lat = $geo[&#039;latitude&#039;];
+				$lng = $geo[&#039;longitude&#039;];
+			}
+		}
+
+		add_filter( &#039;geodir_add_listing_map_restrict&#039;, &#039;__return_false&#039; );
+
+		if(!$design_style ){
+			echo &quot;&lt;style&gt;.lity-show #&quot; . $prefix . &quot;set_address_button,.lity-show .TopLeft,.lity-show .TopRight,.lity-show .BottomRight,.lity-show .BottomLeft{display:none}.lity-show .geodir_map_container{margin-top:0 !important}&lt;/style&gt;&quot;;
+		}
+
+		if($design_style ){
+			echo aui()-&gt;alert(array(
+					&#039;type&#039;=&gt; &#039;info&#039;,
+					&#039;content&#039;=&gt; __(&quot;Auto location detection failed, please manually set your location below by dragging the map / marker.&quot;,&quot;geodirectory&quot;)
+				)
+			);
+			include_once( GEODIRECTORY_PLUGIN_DIR . &#039;templates/bootstrap/map/map-add-listing.php&#039; );
+		}else{
+			include_once( GEODIRECTORY_PLUGIN_DIR . &#039;templates/map.php&#039; );
+		}
+
+		?&gt;
+		&lt;input type=&quot;hidden&quot; id=&quot;&lt;?php echo $prefix . &#039;latitude&#039;; ?&gt;&quot;&gt;
+		&lt;input type=&quot;hidden&quot; id=&quot;&lt;?php echo $prefix . &#039;longitude&#039;; ?&gt;&quot;&gt;
+
+		&lt;?php
+		if( $design_style ) {
+			?&gt;
+			&lt;div class=&quot;text-right&quot;&gt;
+			&lt;button type=&quot;button&quot; class=&quot;btn btn-link&quot; data-dismiss=&quot;modal&quot;&gt;&lt;?php _e(&quot;Cancel&quot;,&quot;geodirectory&quot;);?&gt;&lt;/button&gt;
+			&lt;button class=&quot;btn btn-primary&quot;
+			        onclick=&quot;if(jQuery(&#039;#&lt;?php echo $prefix . &#039;latitude&#039;; ?&gt;&#039;).val()==&#039;&#039;){alert(&#039;&lt;?php _e( &#039;Please drag the marker or the map to set the position.&#039;, &#039;geodirectory&#039; ); ?&gt;&#039;);}else{jQuery(window).triggerHandler(&#039;&lt;?php echo $prefix; ?&gt;&#039;, [jQuery(&#039;#&lt;?php echo $prefix . &#039;latitude&#039;; ?&gt;&#039;).val(), jQuery(&#039;#&lt;?php echo $prefix . &#039;longitude&#039;; ?&gt;&#039;).val()]);}&quot;&gt;&lt;?php _e( &#039;Set my location&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/button&gt;
+			&lt;/div&gt;&lt;?php
+		}else{
+			?&gt;
+			&lt;button style=&quot;float: right;margin: 10px 0 0 0;&quot;
+			        onclick=&quot;if(jQuery(&#039;#&lt;?php echo $prefix . &#039;latitude&#039;; ?&gt;&#039;).val()==&#039;&#039;){alert(&#039;&lt;?php _e( &#039;Please drag the marker or the map to set the position.&#039;, &#039;geodirectory&#039; ); ?&gt;&#039;);}else{jQuery(window).triggerHandler(&#039;&lt;?php echo $prefix; ?&gt;&#039;, [jQuery(&#039;#&lt;?php echo $prefix . &#039;latitude&#039;; ?&gt;&#039;).val(), jQuery(&#039;#&lt;?php echo $prefix . &#039;longitude&#039;; ?&gt;&#039;).val()]);}&quot;&gt;&lt;?php _e( &#039;Set my location&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/button&gt;
+			&lt;?php
+		}
+		wp_die();
+	}
+
+    /**
+     * Delete Tab input form
+     *
+     * @since 2.0.0
+     */
+	public static function delete_tab(){
+		// security
+		check_ajax_referer( &#039;gd_new_field_nonce&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+		
+		$tab_id = isset($_POST[&#039;tab_id&#039;]) &amp;&amp; $_POST[&#039;tab_id&#039;] ? absint($_POST[&#039;tab_id&#039;]) : &#039;&#039;;
+
+		if(!$tab_id){
+			wp_send_json_error( __(&quot;No tab_id provided.&quot;,&quot;geodirectory&quot;) );
+		}else{
+			$post_type = isset($_POST[&#039;post_type&#039;]) &amp;&amp; $_POST[&#039;post_type&#039;] ? esc_attr($_POST[&#039;post_type&#039;]) : &#039;&#039;;
+			$result = GeoDir_Settings_Cpt_Tabs::delete_tab($tab_id,$post_type);
+
+			if(is_wp_error( $result ) ){
+				wp_send_json_error( $result-&gt;get_error_message() );
+			}else{
+				wp_send_json_success();
+			}
+		}
+
+		wp_die();
+	}
+
+	public static function recently_viewed_listings(){
+		global $gd_post, $post,$gd_layout_class, $geodir_is_widget_listing;
+		ob_start();
+
+
+		$list_per_page = !empty($_REQUEST[&#039;list_per_page&#039;]) ? absint($_REQUEST[&#039;list_per_page&#039;]) : &#039;&#039;;
+
+		$post_type = !empty($_REQUEST[&#039;post_type&#039;]) ? sanitize_key( $_REQUEST[&#039;post_type&#039;] ) : &#039;&#039;;
+
+		$all_postypes = geodir_get_posttypes();
+		if (!in_array($post_type, $all_postypes)){
+			$post_type = &#039;gd_place&#039;;
+		}
+
+		$layout = empty( $_REQUEST[&#039;layout&#039;] ) ? &#039;gridview_onehalf&#039; : apply_filters( &#039;widget_layout&#039;, geodir_convert_listing_view_class($_REQUEST[&#039;layout&#039;]) );
+
+		$post_ids = !empty($_REQUEST[&#039;viewed_post_id&#039;]) ? json_decode(stripslashes($_REQUEST[&#039;viewed_post_id&#039;]), true) : &#039;&#039;;
+
+		// elementor pro
+		$skin_id = ! empty( $_REQUEST[&#039;skin_id&#039;] ) ? absint( $_REQUEST[&#039;skin_id&#039;] ) : &#039;&#039;;
+		$skin_column_gap = ! empty( $_REQUEST[&#039;skin_column_gap&#039;] ) ? absint( $_REQUEST[&#039;skin_column_gap&#039;] ) : &#039;&#039;;
+		$skin_row_gap = ! empty( $_REQUEST[&#039;skin_row_gap&#039;] ) ? absint( $_REQUEST[&#039;skin_row_gap&#039;] ) : &#039;&#039;;
+
+		// AUI
+		$column_gap = ! empty( $_REQUEST[&#039;column_gap&#039;] ) ? absint( $_REQUEST[&#039;column_gap&#039;] ) : &#039;&#039;;
+		$row_gap = ! empty( $_REQUEST[&#039;row_gap&#039;] ) ? absint( $_REQUEST[&#039;row_gap&#039;] ) : &#039;&#039;;
+		$card_border = ! empty( $_REQUEST[&#039;card_border&#039;] ) ? sanitize_html_class( $_REQUEST[&#039;card_border&#039;] ) : &#039;&#039;;
+		$card_shadow = ! empty( $_REQUEST[&#039;card_shadow&#039;] ) ? sanitize_html_class( $_REQUEST[&#039;card_shadow&#039;] ) : &#039;&#039;;
+
+
+		$listings_ids = array();
+
+		if( !empty( $post_type ) ) {
+
+			if( !empty( $post_ids ) &amp;&amp; $post_ids !=&#039;&#039; &amp;&amp; !empty($post_ids[$post_type]) ) {
+
+				$listings_ids = $post_ids[$post_type];
+			}
+		}
+
+		$listings_ids = !empty( $listings_ids ) ? array_reverse($listings_ids) : array();
+		$listings_ids = !empty($listings_ids) ? array_slice($listings_ids, 0, $list_per_page) : array();
+		$widget_listings = array();
+		if(!empty($listings_ids)){
+
+			foreach($listings_ids as $post_id){
+				$post_id = absint($post_id);
+				$listing = geodir_get_post_info($post_id);
+				if(!empty($listing) &amp;&amp; isset($listing-&gt;ID)){
+					$widget_listings[] = $listing;
+				}
+			}
+		}
+
+		if(!empty($widget_listings)){
+
+			// elementor
+			$skin_active = false;
+			$columns = 1;
+			if(defined( &#039;ELEMENTOR_PRO_VERSION&#039; )  &amp;&amp; $skin_id){
+				if(get_post_status ( $skin_id )==&#039;publish&#039;){
+					$skin_active = true;
+				}
+				if($skin_active){
+					$columns = isset($layout) ? absint($layout) : 1;
+					if($columns == &#039;0&#039;){$columns = 6;}// we have no 6 row option to lets use list view
+				}
+			}
+
+			$gd_layout_class = geodir_convert_listing_view_class( $layout );
+
+			// card border class
+			$card_border_class = &#039;&#039;;
+			if(!empty($card_border)){
+				if($card_border==&#039;none&#039;){
+					$card_border_class = &#039;border-0&#039;;
+				}else{
+					$card_border_class = &#039;border-&#039;.sanitize_html_class($card_border);
+				}
+			}
+
+			// card shadow
+			$card_shadow_class = &#039;&#039;;
+			if(!empty($card_shadow)){
+				if($card_shadow==&#039;small&#039;){
+					$card_shadow_class = &#039;shadow-sm&#039;;
+				}elseif($card_shadow==&#039;medium&#039;){
+					$card_shadow_class = &#039;shadow&#039;;
+				}elseif($card_shadow==&#039;large&#039;){
+					$card_shadow_class = &#039;shadow-lg&#039;;
+				}
+			}
+
+			if($skin_active){
+				$column_gap = $skin_column_gap;
+				$row_gap = $skin_row_gap;
+				geodir_get_template( &#039;elementor/content-widget-listing.php&#039;, array( &#039;widget_listings&#039; =&gt; $widget_listings,&#039;skin_id&#039; =&gt; $skin_id,&#039;columns&#039;=&gt;$columns,&#039;column_gap&#039;=&gt; $column_gap,&#039;row_gap&#039;=&gt;$row_gap ) );
+
+			}else{
+				$design_style = geodir_design_style();
+				$template = $design_style ? $design_style.&quot;/content-widget-listing.php&quot; : &quot;content-widget-listing.php&quot;;
+
+				echo geodir_get_template_html( $template, array(
+					&#039;widget_listings&#039; =&gt; $widget_listings,
+					&#039;column_gap_class&#039;   =&gt; $column_gap ? &#039;mb-&#039;.absint($column_gap) : &#039;mb-4&#039;,
+					&#039;row_gap_class&#039;   =&gt; $row_gap ? &#039;px-&#039;.absint($row_gap) : &#039;&#039;,
+					&#039;card_border_class&#039;   =&gt; $card_border_class,
+					&#039;card_shadow_class&#039;  =&gt;  $card_shadow_class,
+				) );
+
+			}
+
+		}else{
+			echo aui()-&gt;alert(array(
+					&#039;type&#039;=&gt; &#039;info&#039;,
+					&#039;content&#039;=&gt; __(&quot;Your recently viewed listings will show here.&quot;,&quot;geodirectory&quot;)
+				)
+			);
+
+		}
+
+		echo ob_get_clean();
+
+		wp_die();
+	}
+
+	/**
+	 * Save tabs order input form.
+     *
+     * @since 2.0.0
+	 */
+	public static function save_tabs_order(){
+		// security
+		check_ajax_referer( &#039;gd_new_field_nonce&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$tabs = isset($_POST[&#039;tabs&#039;]) &amp;&amp; $_POST[&#039;tabs&#039;] ? $_POST[&#039;tabs&#039;] : &#039;&#039;;
+
+		if(!$tabs){
+			wp_send_json_error( __(&quot;No tabs provided.&quot;,&quot;geodirectory&quot;) );
+		}else{
+			$result = GeoDir_Settings_Cpt_Tabs::set_tabs_orders($tabs);
+
+			if(is_wp_error( $result ) ){
+				wp_send_json_error( $result-&gt;get_error_message() );
+			}else{
+				wp_send_json_success();
+			}
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Save tab item.
+     *
+     * @since 2.0.0
+	 */
+	public static function save_tab_item(){
+		// security
+		check_ajax_referer( &#039;gd_new_field_nonce&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$tab_type = isset($_POST[&#039;tab_type&#039;]) &amp;&amp; $_POST[&#039;tab_type&#039;] ? esc_attr($_POST[&#039;tab_type&#039;]) : &#039;&#039;;
+
+		if(!$tab_type){
+			wp_send_json_error( __(&quot;No tab_type provided.&quot;,&quot;geodirectory&quot;) );
+		}else{
+			$result = GeoDir_Settings_Cpt_Tabs::save_tab_item($_POST);
+
+			if(is_wp_error( $result ) ){
+				wp_send_json_error( $result-&gt;get_error_message() );
+			}else{
+				wp_send_json_success($result);
+			}
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Get tabs input form.
+     *
+     * @since 2.0.0
+	 */
+	public static function get_tabs_form(){
+		// security
+		check_ajax_referer( &#039;gd_new_field_nonce&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$tab_type = isset($_POST[&#039;tab_type&#039;]) &amp;&amp; $_POST[&#039;tab_type&#039;] ? esc_attr($_POST[&#039;tab_type&#039;]) : &#039;&#039;;
+
+		if(!$tab_type){
+			wp_send_json_error( __(&quot;No tab_type provided.&quot;,&quot;geodirectory&quot;) );
+		}else{
+			$result = GeoDir_Settings_Cpt_Tabs::get_tab_item($_POST);
+
+			if(is_wp_error( $result ) ){
+				wp_send_json_error( $result-&gt;get_error_message() );
+			}else{
+				wp_send_json_success($result);
+			}
+		}
+
+		wp_die();
+	}
+
+    /**
+     * Get Ninja forms html.
+     *
+     * @since 2.0.0
+     *
+     * @return string
+     */
+	public static function ninja_forms(){
+		check_ajax_referer( &#039;geodir_basic_nonce&#039;, &#039;security&#039; );
+
+		$post_id = isset($_REQUEST[&#039;p&#039;]) ? absint($_REQUEST[&#039;p&#039;]) : url_to_postid( wp_get_referer() );
+		$form_id = isset($_REQUEST[&#039;extra&#039;]) ? absint($_REQUEST[&#039;extra&#039;]) : &#039;&#039;;
+		
+		if ( ! $post_id || ! $form_id ) {
+			return &#039;no post id&#039;;
+		}
+
+		global $post;
+		$the_post = get_post( $post_id );
+		$post = $the_post;
+
+		// fake the post_id for ninja forms
+		add_filter( &#039;url_to_postid&#039;, function ( $url ) {
+			global $post;
+			return add_query_arg( &#039;p&#039;, $post-&gt;ID, $url );
+		});
+
+		/*
+		 * We only need the form and its basic CSS/JS so we hack away all lots of others stuff in a naughty way.
+		 */
+		remove_all_actions( &#039;wp_footer&#039;);
+		add_action( &#039;wp_footer&#039;, &#039;wp_print_footer_scripts&#039;, 20 );
+		add_action(&#039;wp_print_styles&#039;, function () {global $wp_styles; $wp_styles-&gt;queue = array(&#039;font-awesome&#039;);}, 1000);
+		add_action(&#039;wp_print_scripts&#039;, function () {global $wp_scripts; $wp_scripts-&gt;queue = array(&#039;jquery&#039;);}, 1000);
+
+		echo &#039;&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en-US&quot;&gt;&lt;head&gt;&#039;;
+		wp_head();
+		echo &quot;&lt;style&gt;body { background: #fff;padding: 20px 50px;}&lt;/style&gt;&quot;;
+		echo &#039;&lt;/head&gt;&lt;body&gt;&#039;;
+
+		// Set post back.
+		if ( $post-&gt;ID != $the_post-&gt;ID ) {
+			$post = $the_post;
+		}
+
+		// allow other plugins to override the call
+		$override_html = apply_filters(&#039;geodir_ajax_ninja_forms_override&#039;,&#039;&#039;,$post_id,$form_id);
+		if(!empty($override_html)){
+			echo $override_html;
+		}else{
+			echo do_shortcode( &quot;[ninja_form id=$form_id]&quot; );
+		}
+
+		wp_footer();
+		echo &#039;&lt;/body&gt;&lt;/html&gt;&#039;;
+		wp_die();
+	}
+
+    /**
+     * Setup wizard menu.
+     *
+     * @since 2.0.0
+     */
+	public static function wizard_setup_menu(){
+		// security
+		check_ajax_referer( &#039;geodir-wizard-setup-menu&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$menu_id = isset($_REQUEST[&#039;menu_id&#039;]) ?  sanitize_title_with_dashes($_REQUEST[&#039;menu_id&#039;]) : &#039;&#039;;
+		$menu_location = isset($_REQUEST[&#039;menu_location&#039;]) ?  sanitize_title_with_dashes($_REQUEST[&#039;menu_location&#039;]) : &#039;&#039;;
+		$result = GeoDir_Admin_Dummy_Data::setup_menu( $menu_id, $menu_location);
+
+		if(is_wp_error( $result ) ){
+			wp_send_json_error( $result-&gt;get_error_message() );
+		}else{
+			wp_send_json_success(geodir_notification( array( &#039;info&#039; =&gt; $result) ));
+		}
+
+		wp_die();
+	}
+	
+	/**
+	 * Adds widgets to sidebar during setup wizard.
+     *
+     * @since 2.0.0
+	 */
+	public static function wizard_insert_widgets_top(){
+		// security
+		check_ajax_referer( &#039;geodir-wizard-widgets-top&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$sidebar_id = isset($_REQUEST[&#039;sidebar_id&#039;]) ?  sanitize_title_with_dashes($_REQUEST[&#039;sidebar_id&#039;]) : &#039;&#039;;
+
+		$result = GeoDir_Admin_Dummy_Data::insert_widgets( $sidebar_id, &#039;top&#039;);
+
+		if(is_wp_error( $result ) ){
+			wp_send_json_error( $result-&gt;get_error_message() );
+		}else{
+			wp_send_json_success(geodir_notification( array( &#039;info&#039; =&gt; $result) ));
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Adds widgets to sidebar during setup wizard.
+	 *
+	 * @since 2.0.0
+	 */
+	public static function wizard_insert_widgets(){
+		// security
+		check_ajax_referer( &#039;geodir-wizard-widgets&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$sidebar_id = isset($_REQUEST[&#039;sidebar_id&#039;]) ?  sanitize_title_with_dashes($_REQUEST[&#039;sidebar_id&#039;]) : &#039;&#039;;
+
+		$result = GeoDir_Admin_Dummy_Data::insert_widgets( $sidebar_id);
+
+		if(is_wp_error( $result ) ){
+			wp_send_json_error( $result-&gt;get_error_message() );
+		}else{
+			wp_send_json_success(geodir_notification( array( &#039;info&#039; =&gt; $result) ));
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Best of listings widget ajax.
+     *
+     * @since 2.0.0
+	 */
+	public static function bestof(){
+		// security
+		check_ajax_referer( &#039;geodir_basic_nonce&#039;, &#039;security&#039; );
+
+		GeoDir_Widget_Best_Of::best_of(array(), $_REQUEST);
+
+		wp_die();
+	}
+	
+	/**
+	 * GD Categories widget ajax.
+     *
+     * @since 2.0.0
+	 */
+	public static function cpt_categories(){
+		// security
+		check_ajax_referer( &#039;geodir_basic_nonce&#039;, &#039;security&#039; );
+
+		GeoDir_Widget_Categories::get_categories($_POST);
+
+		wp_die();
+	}
+
+	/**
+	 * User delete post.
+     *
+     * @since 2.0.0
+	 */
+	public static function user_delete_post(){
+		// security
+		check_ajax_referer( &#039;geodir_basic_nonce&#039;, &#039;security&#039; );
+
+		$post_id = isset($_POST[&#039;post_id&#039;]) &amp;&amp; $_POST[&#039;post_id&#039;] ? absint($_POST[&#039;post_id&#039;]) : 0;
+
+		$data = array();
+		if(!$post_id){
+			$data[&#039;message&#039;] = __( &quot;No post_id provided.&quot;, &quot;geodirectory&quot; );
+			wp_send_json_error( $data );
+		}else{
+			$post_type = get_post_type( $post_id );
+
+			$result = GeoDir_User::delete_post( $post_id );
+
+			if(is_wp_error( $result ) ){
+				$data[&#039;message&#039;] = $result-&gt;get_error_message();
+				wp_send_json_error( $data );
+			}else{
+			    $data[&#039;message&#039;] = __( &#039;You have successfully deleted the Listing.&#039;, &#039;geodirectory&#039; );
+				$data[&#039;redirect_to&#039;] = get_post_type_archive_link( $post_type );
+				wp_send_json_success( $data );
+			}
+		}
+
+		wp_die();
+	}
+
+    /**
+     * Import export.
+     *
+     * @since 2.0.0
+     */
+	public static function import_export(){
+		// security
+		check_ajax_referer( &#039;geodir_import_export_nonce&#039;, &#039;_nonce&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+		
+		$result = GeoDir_Admin_Import_Export::start_import_export();
+
+		if(is_wp_error( $result ) ){
+			wp_send_json_error( $result-&gt;get_error_message() );
+		}elseif(isset($result[&#039;error&#039;]) &amp;&amp; !empty($result[&#039;error&#039;])){
+			wp_send_json_error( $result[&#039;error&#039;] );
+		}else{
+			wp_send_json($result);
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Auto save post revisions and auto-drafts.
+     *
+     * @since 2.0.0
+	 */
+	public static function auto_save_post(){
+		// security
+		check_ajax_referer( &#039;geodir-save-post&#039;, &#039;security&#039; );
+
+		$result = GeoDir_Post_Data::auto_save_post( $_REQUEST );
+
+		if(is_wp_error( $result ) ){
+			wp_send_json_error( $result-&gt;get_error_message() );
+		}else{
+			wp_send_json_success($result);
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Delete post revisions and auto-drafts.
+     *
+     * @since 2.0.0
+     *
+	 */
+	public static function delete_revision(){
+		// security
+		check_ajax_referer( &#039;geodir-save-post&#039;, &#039;security&#039; );
+
+		$result = GeoDir_Post_Data::delete_revision( $_REQUEST );
+
+		if(is_wp_error( $result ) ){
+			wp_send_json_error( $result-&gt;get_error_message() );
+		}else{
+			wp_send_json_success();
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Save the post.
+     *
+     * @since 2.0.0
+	 */
+	public static function save_post(){
+		// security
+		check_ajax_referer( &#039;geodir-save-post&#039;, &#039;security&#039; );
+		
+		$result = GeoDir_Post_Data::ajax_save_post( $_REQUEST );
+		
+		if(is_wp_error( $result ) ){
+			wp_send_json_error( $result-&gt;get_error_message() );
+		}else{
+			wp_send_json_success($result);
+		}
+
+		wp_die();
+
+	}
+
+	/**
+	 * Add post to user favs.
+     *
+     * @since 2.0.0
+	 */
+	public static function user_add_fav() {
+		// security
+		check_ajax_referer( &#039;geodir_basic_nonce&#039;, &#039;security&#039; );
+
+		$user_id = get_current_user_id();
+		$post_id = absint( $_REQUEST[&#039;pid&#039;] );
+		$type_action = isset( $_REQUEST[&#039;type_action&#039;] ) &amp;&amp; $_REQUEST[&#039;type_action&#039;] == &#039;add&#039; ? &#039;add&#039; : &#039;remove&#039;;
+
+		if ( $user_id &amp;&amp; $post_id ) {
+			$data = array();
+
+			if ( $type_action == &#039;add&#039; ) {
+				$result = GeoDir_User::add_fav( $post_id, $user_id );
+				if ( $result ) {
+					$data[&#039;action_text&#039;] = apply_filters( &#039;geodir_favourite_text&#039;, __( &#039;Unfavorite&#039;, &#039;geodirectory&#039; ) );
+				}
+			} else {
+				$result = GeoDir_User::remove_fav( $post_id, $user_id );
+				if ( $result ) {
+					$data[&#039;action_text&#039;] = apply_filters( &#039;geodir_unfavourite_text&#039;, __( &#039;Favorite&#039;, &#039;geodirectory&#039; ) );
+				}
+			}
+
+			if ( $result ){
+				wp_send_json_success( $data );
+			} else {
+				wp_send_json_error( __( &#039;Action failed.&#039;, &#039;geodirectory&#039; ) );
+			}
+		} else {
+			wp_send_json_error( __( &#039;Action failed.&#039;, &#039;geodirectory&#039; ) );
+		}
+		wp_die();
+	}
+
+    /**
+     * Get category select.
+     *
+     * @since 2.0.0
+     */
+	public static function get_category_select(){
+		// security
+		//check_ajax_referer( &#039;geodir_get_category_select&#039;);
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+		$selected = isset($_REQUEST[&#039;selected&#039;]) ? $_REQUEST[&#039;selected&#039;] : &#039;&#039;;
+		$tax = new GeoDir_Admin_Taxonomies();
+		$tax-&gt;get_category_select($_REQUEST[&#039;post_type&#039;], $selected, false, true);
+		wp_die();
+	}
+	
+
+	/**
+	 * Admin action to get a custom field sorting form.
+     *
+     * @since 2.0.0
+	 */
+	public static function get_custom_field_sorting_form(){
+		// security
+		check_ajax_referer( &#039;gd_new_field_nonce&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$cfs = new GeoDir_Settings_Cpt_Sorting();
+
+		$field = new stdClass();
+		$field-&gt;id = isset($_REQUEST[&#039;field_id&#039;]) ? sanitize_text_field($_REQUEST[&#039;field_id&#039;]) : &#039;&#039;;
+		$field-&gt;post_type = isset($_REQUEST[&#039;listing_type&#039;]) ? sanitize_text_field($_REQUEST[&#039;listing_type&#039;]) : &#039;&#039;;
+		$field-&gt;field_type = isset($_REQUEST[&#039;field_type&#039;]) ? sanitize_text_field($_REQUEST[&#039;field_type&#039;]) : &#039;&#039;;
+		$field-&gt;field_type_key = isset($_REQUEST[&#039;field_type_key&#039;]) ? sanitize_text_field($_REQUEST[&#039;field_type_key&#039;]) : &#039;&#039;;
+		$field-&gt;htmlvar_name = isset($_REQUEST[&#039;field_type_key&#039;]) ? sanitize_text_field($_REQUEST[&#039;field_type_key&#039;]) : &#039;&#039;;
+
+		echo $cfs-&gt;output_custom_field_setting_item(&#039;&#039;,$field);
+		wp_die();
+	}
+
+    /**
+     * Post attachment upload.
+     *
+     * @since 2.0.0
+     */
+	public static function post_attachment_upload(){
+		// security
+		check_ajax_referer( &#039;geodir_attachment_upload&#039;, &#039;_ajax_nonce&#039; );
+		
+		GeoDir_Media::post_attachment_upload();
+		wp_die();
+	}
+
+	/**
+	 * Admin action to insert dummy data.
+     *
+     * @since 2.0.0
+	 */
+	public static function insert_dummy_data(){
+		// security
+		check_ajax_referer( &#039;geodir_dummy_data&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		//Suspend cache additions
+		wp_suspend_cache_addition(true);
+		
+		$result = GeoDir_Admin_Dummy_Data::create_dummy_posts( $_REQUEST );
+
+		if(is_wp_error( $result ) ){
+			wp_send_json_error( $result-&gt;get_error_message() );
+		}else{
+			wp_send_json_success();
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Admin action to delete dummy data.
+     *
+     * @since 2.0.0
+	 */
+	public static function delete_dummy_data(){
+		// security
+		check_ajax_referer( &#039;geodir_dummy_data&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$result = GeoDir_Admin_Dummy_Data::delete_dummy_posts( $_REQUEST[&#039;post_type&#039;] );
+
+		if(is_wp_error( $result ) ){
+			wp_send_json_error( $result-&gt;get_error_message() );
+		}else{
+			wp_send_json_success();
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Admin action to get a custom field form.
+     *
+     * @since 2.0.0
+	 */
+	public static function get_custom_field_form(){
+		// security
+		check_ajax_referer( &#039;gd_new_field_nonce&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$cfs = new GeoDir_Settings_Cpt_Cf();
+
+		$field = new stdClass();
+		$field-&gt;id = isset($_REQUEST[&#039;field_id&#039;]) ? sanitize_text_field($_REQUEST[&#039;field_id&#039;]) : &#039;&#039;;
+		$field-&gt;post_type = isset($_REQUEST[&#039;listing_type&#039;]) ? sanitize_text_field($_REQUEST[&#039;listing_type&#039;]) : &#039;&#039;;
+		$field-&gt;field_type = isset($_REQUEST[&#039;field_type&#039;]) ? sanitize_text_field($_REQUEST[&#039;field_type&#039;]) : &#039;&#039;;
+		$field-&gt;field_type_key = isset($_REQUEST[&#039;field_type_key&#039;]) ? sanitize_text_field($_REQUEST[&#039;field_type_key&#039;]) : &#039;&#039;;
+
+		echo $cfs-&gt;output_custom_field_setting_item(&#039;&#039;,$field);
+		wp_die();
+	}
+
+	/**
+	 * Admin action to save a custom sort field.
+     *
+     * @since 2.0.0
+	 */
+	public static function save_custom_sort_field(){
+		// security
+		check_ajax_referer( &#039;custom_fields_&#039;.sanitize_text_field($_POST[&#039;field_id&#039;]), &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+		
+		$result = GeoDir_Settings_Cpt_Sorting::save_custom_field($_POST);
+
+		if(is_wp_error( $result ) ){
+			wp_send_json_error( $result-&gt;get_error_message() );
+		}else{
+
+			global $wpdb;
+			$fields = $wpdb-&gt;get_results( $wpdb-&gt;prepare( &quot;SELECT * FROM &quot; . GEODIR_CUSTOM_SORT_FIELDS_TABLE . &quot; WHERE id = %d OR tab_parent = %d ORDER BY sort_order ASC&quot;, array( $result, $result ) ) );
+			$cfs = new GeoDir_Settings_Cpt_Sorting();
+			if(count($fields) &gt; 1){
+				echo $cfs-&gt;loop_fields_output($fields);
+			}else{
+				echo $cfs-&gt;output_custom_field_setting_item($result);
+			}
+
+		}
+		wp_die();
+	}
+
+	/**
+	 * Admin action to delete a custom sort field.
+     *
+     * @since 2.0.0
+	 */
+	public static function delete_custom_sort_field(){
+		// security
+		$field_id = absint($_REQUEST[&#039;field_id&#039;]);
+		check_ajax_referer( &#039;custom_fields_&#039;.$field_id, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$cfs = new GeoDir_Settings_Cpt_Sorting();
+		$result = $cfs-&gt;delete_custom_field($field_id);
+		if(is_wp_error( $result ) ){
+			$data = array(
+				&#039;error&#039; =&gt; $result-&gt;get_error_message()
+			);
+		}else{
+			$data = array(
+				&#039;success&#039; =&gt; true
+			);
+		}
+		wp_send_json( $data );
+	}
+
+	/**
+	 * Auto save custom field.
+	 *
+	 * @since 2.1.0.17
+	 */
+	public static function auto_save_custom_field() {
+		// Security
+		check_ajax_referer( &#039;custom_fields_&#039; . sanitize_text_field( $_POST[&#039;field_id&#039;] ), &#039;security&#039; );
+
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$result = geodir_custom_field_save( $_POST );
+
+		if ( is_wp_error( $result ) ) {
+			wp_send_json_error( $result-&gt;get_error_message() );
+		} else {
+			$field = GeoDir_Settings_Cpt_Cf::get_item( $result );
+
+			$data = array();
+			if ( ! empty( $field ) ) {
+				$data[&#039;field_id&#039;] = $field-&gt;id;
+				$data[&#039;htmlvar_name&#039;] = $field-&gt;htmlvar_name;
+				$data[&#039;admin_title&#039;] = stripslashes( $field-&gt;admin_title );
+				$data[&#039;field_icon&#039;] = ! empty( $field-&gt;field_icon ) &amp;&amp; geodir_is_fa_icon( $field-&gt;field_icon ) ? $field-&gt;field_icon : &#039;&#039;;
+				$data[&#039;nonce&#039;] = wp_create_nonce( &#039;custom_fields_&#039; . $field-&gt;id );
+			}
+
+			wp_send_json_success( $data );
+		}
+		wp_die();
+	}
+
+	/**
+	 * Admin action to save a custom field.
+     *
+     * @since 2.0.0
+	 */
+	public static function save_custom_field(){
+		// security
+		check_ajax_referer( &#039;custom_fields_&#039;.sanitize_text_field($_POST[&#039;field_id&#039;]), &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$result = geodir_custom_field_save($_POST);
+
+		if(is_wp_error( $result ) ){
+			wp_send_json_error( $result-&gt;get_error_message() );
+		}else{
+			$field = GeoDir_Settings_Cpt_Cf::get_item( $result );
+			$childs = GeoDir_Settings_Cpt_Cf::get_childs( $result );
+
+			$cfs = new GeoDir_Settings_Cpt_Cf();
+			$output = $cfs-&gt;output_custom_field_setting_item( $result, $field );
+
+			// Child fields
+			if ( ! empty( $childs ) ) {
+				$output = str_replace( &quot;&lt;/li&gt;&quot;, &quot;&quot;, $output );
+
+				$output .= &quot;&lt;ul&gt;&quot;;
+				foreach ( $childs as $key =&gt; $child ) {
+					$output .= $cfs::output_custom_field_setting_item( $child-&gt;id, $child );
+				}
+				$output .= &quot;&lt;/ul&gt;&quot;;
+
+				$output .= &quot;&lt;/li&gt;&quot;;
+			}
+
+			echo $output;
+		}
+		wp_die();
+	}
+
+	/**
+	 * Admin action to delete a custom field.
+     *
+     * @since 2.0.0
+	 */
+	public static function delete_custom_field(){
+		// security
+		$field_id = absint($_REQUEST[&#039;field_id&#039;]);
+		check_ajax_referer( &#039;custom_fields_&#039;.$field_id, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$cfs = new GeoDir_Settings_Cpt_Cf();
+		$result = $cfs-&gt;delete_custom_field($field_id);
+		if(is_wp_error( $result ) ){
+			$data = array(
+				&#039;error&#039; =&gt; $result-&gt;get_error_message()
+			);
+		}else{
+			$data = array(
+				&#039;success&#039; =&gt; true
+			);
+		}
+		wp_send_json( $data );
+	}
+
+	/**
+	 * Admin action to save the custom fields sort order.
+     *
+     * @since 2.0.0
+	 */
+	public static function order_custom_fields(){
+		// security
+		check_ajax_referer( &#039;gd_new_field_nonce&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		//print_r($_REQUEST);exit;
+
+		$tabs = isset($_POST[&#039;tabs&#039;]) &amp;&amp; $_POST[&#039;tabs&#039;] ? $_POST[&#039;tabs&#039;] : &#039;&#039;;
+
+		if(!$tabs){
+			wp_send_json_error( __(&quot;No tabs provided.&quot;,&quot;geodirectory&quot;) );
+		}else{
+
+			$cfs = new GeoDir_Settings_Cpt_Cf();
+			$result = $cfs-&gt;set_field_orders($tabs);
+			
+			//$result = GeoDir_Settings_Cpt_Tabs::set_tabs_orders($tabs);
+
+			if(is_wp_error( $result ) ){
+				wp_send_json_error( $result-&gt;get_error_message() );
+			}else{
+				wp_send_json_success();
+			}
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Admin action to save the custom sort fields sort order.
+     *
+     * @since 2.0.0
+	 */
+	public static function order_custom_sort_fields(){
+		// security
+		check_ajax_referer( &#039;gd_new_field_nonce&#039;, &#039;security&#039; );
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$tabs = isset($_POST[&#039;tabs&#039;]) &amp;&amp; $_POST[&#039;tabs&#039;] ? $_POST[&#039;tabs&#039;] : &#039;&#039;;
+
+		if(!$tabs){
+			wp_send_json_error( __(&quot;No tabs provided.&quot;,&quot;geodirectory&quot;) );
+		}else{
+			$cfs = new GeoDir_Settings_Cpt_Sorting();
+			$result = $cfs-&gt;set_field_orders($tabs);
+
+			if(is_wp_error( $result ) ){
+				wp_send_json_error( $result-&gt;get_error_message() );
+			}else{
+				wp_send_json_success();
+			}
+		}
+
+		wp_die();
+	}
+	
+	/**
+	 * Create/Update API key.
+     *
+     * @since 2.0.0
+	 */
+	public static function save_api_key() {
+		ob_start();
+
+		global $wpdb;
+
+		check_ajax_referer( &#039;save-api-key&#039;, &#039;security&#039; );
+
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		try {
+			if ( empty( $_POST[&#039;description&#039;] ) ) {
+				throw new Exception( __( &#039;Description is missing.&#039;, &#039;geodirectory&#039; ) );
+			}
+			if ( empty( $_POST[&#039;user&#039;] ) ) {
+				throw new Exception( __( &#039;User is missing.&#039;, &#039;geodirectory&#039; ) );
+			}
+			if ( empty( $_POST[&#039;permissions&#039;] ) ) {
+				throw new Exception( __( &#039;Permissions is missing.&#039;, &#039;geodirectory&#039; ) );
+			}
+
+			$key_id      = absint( $_POST[&#039;key_id&#039;] );
+			$description = sanitize_text_field( wp_unslash( $_POST[&#039;description&#039;] ) );
+			$permissions = ( in_array( $_POST[&#039;permissions&#039;], array( &#039;read&#039;, &#039;write&#039;, &#039;read_write&#039; ) ) ) ? sanitize_text_field( $_POST[&#039;permissions&#039;] ) : &#039;read&#039;;
+			$user_id     = absint( $_POST[&#039;user&#039;] );
+
+			if ( 0 &lt; $key_id ) {
+				$data = array(
+					&#039;user_id&#039;     =&gt; $user_id,
+					&#039;description&#039; =&gt; $description,
+					&#039;permissions&#039; =&gt; $permissions,
+				);
+
+				$wpdb-&gt;update(
+					GEODIR_API_KEYS_TABLE,
+					$data,
+					array( &#039;key_id&#039; =&gt; $key_id ),
+					array(
+						&#039;%d&#039;,
+						&#039;%s&#039;,
+						&#039;%s&#039;,
+					),
+					array( &#039;%d&#039; )
+				);
+
+				$data[&#039;consumer_key&#039;]    = &#039;&#039;;
+				$data[&#039;consumer_secret&#039;] = &#039;&#039;;
+				$data[&#039;message&#039;]         = __( &#039;API Key updated successfully.&#039;, &#039;geodirectory&#039; );
+			} else {
+				$consumer_key    = &#039;ck_&#039; . geodir_rand_hash();
+				$consumer_secret = &#039;cs_&#039; . geodir_rand_hash();
+
+				$data = array(
+					&#039;user_id&#039;         =&gt; $user_id,
+					&#039;description&#039;     =&gt; $description,
+					&#039;permissions&#039;     =&gt; $permissions,
+					&#039;consumer_key&#039;    =&gt; geodir_api_hash( $consumer_key ),
+					&#039;consumer_secret&#039; =&gt; $consumer_secret,
+					&#039;truncated_key&#039;   =&gt; substr( $consumer_key, -7 ),
+				);
+
+				$wpdb-&gt;insert(
+					GEODIR_API_KEYS_TABLE,
+					$data,
+					array(
+						&#039;%d&#039;,
+						&#039;%s&#039;,
+						&#039;%s&#039;,
+						&#039;%s&#039;,
+						&#039;%s&#039;,
+						&#039;%s&#039;,
+					)
+				);
+
+				$key_id                  = $wpdb-&gt;insert_id;
+				$data[&#039;consumer_key&#039;]    = $consumer_key;
+				$data[&#039;consumer_secret&#039;] = $consumer_secret;
+				$data[&#039;message&#039;]         = __( &#039;API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page.&#039;, &#039;geodirectory&#039; );
+				$data[&#039;revoke_url&#039;]      = &#039;&lt;a class=&quot;btn btn-danger&quot; href=&quot;&#039; . esc_url( wp_nonce_url( add_query_arg( array( &#039;revoke-key&#039; =&gt; $key_id ), admin_url( &#039;admin.php?page=gd-settings&amp;tab=api&amp;section=keys&#039; ) ), &#039;revoke&#039; ) ) . &#039;&quot;&gt;&#039; . __( &#039;Revoke key&#039;, &#039;geodirectory&#039; ) . &#039;&lt;/a&gt;&#039;;
+			}
+
+			wp_send_json_success( $data );
+		} catch ( Exception $e ) {
+			wp_send_json_error( array( &#039;message&#039; =&gt; $e-&gt;getMessage() ) );
+		}
+	}
+	
+	/**
+	 * Search for customers and return json.
+     *
+     * @since 2.0.0
+	 */
+	public static function json_search_users() {
+		ob_start();
+
+		check_ajax_referer( &#039;search-users&#039;, &#039;security&#039; );
+
+		if ( ! current_user_can( &#039;edit_posts&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$term    = geodir_clean( stripslashes( $_GET[&#039;term&#039;] ) );
+		$exclude = array();
+		$limit   = &#039;&#039;;
+
+		if ( empty( $term ) ) {
+			wp_die();
+		}
+
+		$user_ids = array();
+		// Search by ID.
+		if ( is_numeric( $term ) ) {
+			$user = get_user_by( &#039;id&#039;, intval( $term ) );
+
+			// Customer does not exists.
+			if ( ! empty( $user ) ) {
+				$user_ids = array( $user-&gt;ID );
+			}
+		}
+
+		if ( empty( $user_ids ) ) {
+			if ( 3 &gt; strlen( $term ) ) {
+				$limit = 20;
+			}
+			$user_ids = GeoDir_AJAX::search_users( $term, $limit );
+		}
+
+		$exclude_ids = ! empty( $_GET[&#039;exclude&#039;] ) &amp;&amp; is_array( $_GET[&#039;exclude&#039;] ) ? $_GET[&#039;exclude&#039;] : array();
+
+		$found_users = array();
+		if ( ! empty( $user_ids ) ) {
+			foreach ( $user_ids as $user_id ) {
+				$user = get_user_by( &#039;id&#039;, $user_id );
+				if ( empty( $user ) ) {
+					continue;
+				}
+				if ( ! empty( $exclude_ids ) &amp;&amp; in_array( $user_id, $exclude_ids ) ) {
+					continue;
+				}
+
+				/* translators: 1: user display name 2: user ID 3: user email */
+				$found_users[ $user_id ] = wp_sprintf(
+					esc_html__( &#039;%1$s (#%2$s &amp;ndash; %3$s)&#039;, &#039;geodirectory&#039; ),
+					$user-&gt;display_name,
+					absint( $user-&gt;ID ),
+					$user-&gt;user_email
+				);
+			}
+		}
+
+		wp_send_json( apply_filters( &#039;geodir_json_search_found_users&#039;, $found_users ) );
+	}
+
+	/**
+	 * Search users and return user IDs.
+	 *
+	 * @param  string     $term
+	 * @param  int|string $limit
+	 *
+	 * @return array
+	 */
+	public static function search_users( $term, $limit = &#039;&#039; ) {
+		$results = apply_filters( &#039;geodir_user_pre_search_customers&#039;, false, $term, $limit );
+		if ( is_array( $results ) ) {
+			return $results;
+		}
+
+		$main_query = new WP_User_Query( apply_filters( &#039;geodir_user_search_users&#039;, array(
+			&#039;search&#039;         =&gt; &#039;*&#039; . esc_attr( $term ) . &#039;*&#039;,
+			&#039;search_columns&#039; =&gt; array( &#039;user_login&#039;, &#039;user_url&#039;, &#039;user_email&#039;, &#039;user_nicename&#039;, &#039;display_name&#039; ),
+			&#039;fields&#039;         =&gt; &#039;ID&#039;,
+			&#039;number&#039;         =&gt; $limit,
+		), $term, $limit, &#039;main_query&#039; ) );
+
+		$meta_query = new WP_User_Query( apply_filters( &#039;geodir_user_search_users&#039;, array(
+			&#039;fields&#039;         =&gt; &#039;ID&#039;,
+			&#039;number&#039;         =&gt; $limit,
+			&#039;meta_query&#039;     =&gt; array(
+				&#039;relation&#039; =&gt; &#039;OR&#039;,
+				array(
+					&#039;key&#039;     =&gt; &#039;first_name&#039;,
+					&#039;value&#039;   =&gt; $term,
+					&#039;compare&#039; =&gt; &#039;LIKE&#039;,
+				),
+				array(
+					&#039;key&#039;     =&gt; &#039;last_name&#039;,
+					&#039;value&#039;   =&gt; $term,
+					&#039;compare&#039; =&gt; &#039;LIKE&#039;,
+				),
+			),
+		), $term, $limit, &#039;meta_query&#039; ) );
+
+		$results = wp_parse_id_list( array_merge( (array) $main_query-&gt;get_results(), (array) $meta_query-&gt;get_results() ) );
+
+		if ( $limit &amp;&amp; count( $results ) &gt; $limit ) {
+			$results = array_slice( $results, 0, $limit );
+		}
+
+		return $results;
+	}
+	
+	/**
+	 * GD Listings widget ajax pagination.
+     *
+     * @since 2.0.0
+	 */
+	public static function widget_listings(){
+		check_ajax_referer( &#039;geodir_basic_nonce&#039;, &#039;security&#039; );
+
+		$widget_listings = new GeoDir_Widget_Listings();
+		$widget_listings-&gt;ajax_listings( $_POST );
+
+		wp_die();
+	}
+
+	/**
+	 * Get timezone data for latitude &amp; longitude.
+     *
+     * @since 2.0.0.66
+	 */
+	public static function timezone_data(){
+		// security
+		check_ajax_referer( &#039;geodir_basic_nonce&#039;, &#039;security&#039; );
+
+		$latitude = isset( $_POST[&#039;lat&#039;] ) ? sanitize_text_field( $_POST[&#039;lat&#039;] ) : &#039;&#039;;
+		$longitude = isset( $_POST[&#039;lon&#039;] ) ? sanitize_text_field( $_POST[&#039;lon&#039;] ) : &#039;&#039;;
+		$timestamp = isset( $_POST[&#039;ts&#039;] ) ? absint( $_POST[&#039;ts&#039;] ) : 0;
+
+		$data = geodir_get_timezone_by_lat_lon( $latitude, $longitude, $timestamp = 0 );
+		
+		if ( is_wp_error( $data ) ) {
+			wp_send_json_error( array( &#039;error&#039; =&gt; $data-&gt;get_error_message() ) );
+		} else {
+			wp_send_json_success( $data );
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Regenerate thumbnails for bulk attachments.
+	 *
+	 * @since 2.1.0.10
+	 *
+	 * @return mixed
+	 */
+	public static function tool_regenerate_thumbnails() {
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$page = ! empty( $_POST[&#039;per_page&#039;] ) ? absint( $_POST[&#039;page&#039;] ) : 1;
+		$per_page = ! empty( $_POST[&#039;per_page&#039;] ) ? absint( $_POST[&#039;per_page&#039;] ) : 10;
+
+		$data = GeoDir_Media::generate_bulk_attachment_metadata( $page, $per_page );
+
+		if ( is_wp_error( $data ) ) {
+			wp_send_json_error( array( &#039;error&#039; =&gt; $data-&gt;get_error_message() ) );
+		} else {
+			wp_send_json_success( $data );
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Regenerate thumbnails.
+	 *
+	 * @since 2.1.0.10
+	 *
+	 * @return mixed
+	 */
+	public static function regenerate_thumbnails() {
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		$post_id = ! empty( $_POST[&#039;post_id&#039;] ) ? absint( $_POST[&#039;post_id&#039;] ) : 0;
+
+		$data = GeoDir_Media::generate_post_attachment_metadata( $post_id );
+
+		if ( is_wp_error( $data ) ) {
+			wp_send_json_error( array( &#039;error&#039; =&gt; $data-&gt;get_error_message() ) );
+		} else {
+			wp_send_json_success( $data );
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Handle user post action.
+	 *
+	 * @since 2.1.1.5
+	 *
+	 * @return mixed
+	 */
+	public static function post_author_action() {
+		// Security
+		check_ajax_referer( &#039;geodir_basic_nonce&#039;, &#039;security&#039; );
+
+		$the_post = ! empty( $_POST[&#039;post_id&#039;] ) ? geodir_get_post_info( absint( $_POST[&#039;post_id&#039;] ) ) : array();
+		$action = ! empty( $_POST[&#039;_action&#039;] ) ? geodir_clean( $_POST[&#039;_action&#039;] ) : &#039;&#039;;
+
+		$data = array();
+		if ( empty( $the_post ) ) {
+			$data[&#039;message&#039;] = __( &#039;Invalid post.&#039;, &#039;geodirectory&#039; );
+			wp_send_json_error( $data );
+		} else {
+			if ( ! geodir_listing_belong_to_current_user( $the_post-&gt;ID ) ) {
+				$data[&#039;message&#039;] = __( &#039;Invalid post.&#039;, &#039;geodirectory&#039; );
+				wp_send_json_error( $data );
+			} else {
+				$result = GeoDir_User::post_author_action( $action, $the_post );
+
+				if ( is_wp_error( $result ) ) {
+					$data[&#039;message&#039;] = $result-&gt;get_error_message();
+
+					wp_send_json_error( $data );
+				} else {
+					wp_send_json_success( $result );
+				}
+			}
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Handle report post action.
+	 *
+	 * @since 2.1.1.12
+	 *
+	 * @return mixed
+	 */
+	public static function report_post_form() {
+		// Security
+		check_ajax_referer( &#039;geodir_basic_nonce&#039;, &#039;security&#039; );
+
+		$the_post = ! empty( $_POST[&#039;post_id&#039;] ) ? geodir_get_post_info( absint( $_POST[&#039;post_id&#039;] ) ) : array();
+		$extra = ! empty( $_POST[&#039;extra&#039;] ) ? geodir_clean( $_POST[&#039;extra&#039;] ) : &#039;&#039;;
+
+		$success = false;
+		$data = array(
+			&#039;title&#039; =&gt; __( &#039;Report Post&#039;, &#039;geodirectory&#039; )
+		);
+
+		if ( empty( $the_post ) ) {
+			$data[&#039;body&#039;] = aui()-&gt;alert(
+				array(
+					&#039;type&#039;=&gt; &#039;warning&#039;,
+					&#039;content&#039;=&gt; __( &#039;Invalid post.&#039;, &#039;geodirectory&#039; ),
+					&#039;class&#039; =&gt; &#039;mb-0&#039;
+				)
+			);
+		} else {
+			if ( ! apply_filters( &#039;geodir_allow_report_post&#039;, true, $the_post ) ) {
+				$data[&#039;body&#039;] = aui()-&gt;alert(
+					array(
+						&#039;type&#039;=&gt; &#039;warning&#039;,
+						&#039;content&#039;=&gt; __( &#039;You can\&#039; report this post.&#039;, &#039;geodirectory&#039; ),
+						&#039;class&#039; =&gt; &#039;mb-0&#039;
+					)
+				);
+			} else {
+				$success = true;
+				$data[&#039;body&#039;] = GeoDir_Report_Post::get_form( $the_post );
+			}
+		}
+
+		$data = apply_filters( &#039;geodir_report_post_form_response&#039;, $data, $success );
+
+		if ( $success ) {
+			wp_send_json_success( $data );
+		} else {
+			wp_send_json_error( $data );
+		}
+
+		wp_die();
+	}
+
+	/**
+	 * Handle report post request.
+	 *
+	 * @since 2.1.1.12
+	 *
+	 * @return mixed
+	 */
+	public static function submit_report_post() {
+		// Security
+		check_ajax_referer( &#039;geodir_basic_nonce&#039;, &#039;security&#039; );
+
+		GeoDir_Report_Post::handle_request( $_POST );
+
+		wp_die();
+	}
+
+	/**
+	 * Handle new template request.
+	 *
+	 * @since 2.2.4
+	 *
+	 * @return mixed
+	 */
+	public static function new_wp_template() {
+		if ( ! class_exists( &#039;GeoDir_Block_Theme&#039; ) ) {
+			wp_die( -1 );
+		}
+
+		// Security
+		check_ajax_referer( &#039;geodir_basic_nonce&#039;, &#039;security&#039; );
+
+		GeoDir_Block_Theme::handle_new_template_request( $_POST );
+
+		wp_die();
+	}
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

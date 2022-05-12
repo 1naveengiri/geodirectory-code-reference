@@ -1,0 +1,1851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">dashboard-functions.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_start_end_dates">
+        geodir_dashboard_start_end_dates()
+        <a href="#function_geodir_dashboard_start_end_dates" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.18">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard starts and end dates.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_start_end_dates</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;this_month&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;this_month&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Dates Month period. Default this_month.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_default_chart_params">
+        geodir_dashboard_default_chart_params()
+        <a href="#function_geodir_dashboard_default_chart_params" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.78">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">78</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard default chart parameters.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_default_chart_params</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Type.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Start and end date Month period.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_ajax_stats">
+        geodir_dashboard_ajax_stats()
+        <a href="#function_geodir_dashboard_ajax_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.100">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">100</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard ajax state.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_ajax_stats</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_listings_stats">
+        geodir_dashboard_listings_stats()
+        <a href="#function_geodir_dashboard_listings_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.132">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">132</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard listings states.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_listings_stats</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stats</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$stats</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Listing states array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Listing type.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>period.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_post_types_stats">
+        geodir_dashboard_post_types_stats()
+        <a href="#function_geodir_dashboard_post_types_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.179">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">179</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard post types states.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_post_types_stats</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$statuses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Listing type Default all.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Period. Default all.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$statuses</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Statuses. Default array.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_post_type_stats">
+        geodir_dashboard_post_type_stats()
+        <a href="#function_geodir_dashboard_post_type_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.209">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">209</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard post type states.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_post_type_stats</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_type</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$statuses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post type.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Period. Default all.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$statuses</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Statuses. Default array.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_query_posts_count">
+        geodir_dashboard_query_posts_count()
+        <a href="#function_geodir_dashboard_query_posts_count" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.241">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">241</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard posts Query count.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_query_posts_count</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_type</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$statuses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$where</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post type.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$statuses</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Statuses. Default array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$where</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Where. Default null.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_reviews_stats">
+        geodir_dashboard_reviews_stats()
+        <a href="#function_geodir_dashboard_reviews_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.269">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">269</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard reviews stats.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_reviews_stats</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stats</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$stats</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>State.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Type.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Period.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_post_types_reviews_stats">
+        geodir_dashboard_post_types_reviews_stats()
+        <a href="#function_geodir_dashboard_post_types_reviews_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.316">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">316</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard Post type reviews stats.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_post_types_reviews_stats</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$statuses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Type. Default all.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Period. Default all.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$statuses</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Statuses. Default array.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_post_type_reviews_stats">
+        geodir_dashboard_post_type_reviews_stats()
+        <a href="#function_geodir_dashboard_post_type_reviews_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.346">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">346</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard post type reviews state.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_post_type_reviews_stats</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_type</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$statuses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post type.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Period Default all.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$statuses</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Statuses. Default array.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_query_reviews_count">
+        geodir_dashboard_query_reviews_count()
+        <a href="#function_geodir_dashboard_query_reviews_count" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.378">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">378</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard reviews count.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_query_reviews_count</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_type</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$statuses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$where</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Posttype.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$statuses</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Statuses. Default array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$where</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Where. Default null.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_users_stats">
+        geodir_dashboard_users_stats()
+        <a href="#function_geodir_dashboard_users_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.406">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">406</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard users stats.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_users_stats</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stats</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$stats</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Stats.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Type.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Period.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_get_users_stats">
+        geodir_dashboard_get_users_stats()
+        <a href="#function_geodir_dashboard_get_users_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.450">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">450</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard get users stats.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_get_users_stats</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$statuses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Type. Default all.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;all&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Period. Default all.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$statuses</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Statuses. Default array.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_query_users_count">
+        geodir_dashboard_query_users_count()
+        <a href="#function_geodir_dashboard_query_users_count" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.481">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">481</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard users count.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_query_users_count</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$statuses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$where</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$statuses</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Statuses. Default array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$where</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Where. Default null.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_paid_listings_stats">
+        geodir_dashboard_paid_listings_stats()
+        <a href="#function_geodir_dashboard_paid_listings_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.509">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">509</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard paid listings stats.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_paid_listings_stats</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stats</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$stats</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Stats.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Type.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Period.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_revenues_stats">
+        geodir_dashboard_revenues_stats()
+        <a href="#function_geodir_dashboard_revenues_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.541">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">541</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard revenue stats.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_revenues_stats</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stats</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$period</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$stats</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Stats.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Type.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$period</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Period.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_dashboard_get_pending_stats">
+        geodir_dashboard_get_pending_stats()
+        <a href="#function_geodir_dashboard_get_pending_stats" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/admin/dashboard-functions.php"><a href="../files/geodirectory-includes-admin-dashboard-functions.html#source-view.570">geodirectory/includes/admin/dashboard-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">570</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Dashboard get pending stats.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_dashboard_get_pending_stats</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+add_filter( &#039;geodir_dashboard_get_stats&#039;, &#039;geodir_dashboard_listings_stats&#039;, 1, 3 ); 			// 1. Listings
+add_filter( &#039;geodir_dashboard_get_stats&#039;, &#039;geodir_dashboard_reviews_stats&#039;, 2, 3 ); 			// 2. Reviews
+// @todo implement via related plugin
+//add_filter( &#039;geodir_dashboard_get_stats&#039;, &#039;geodir_dashboard_paid_listings_stats&#039;, 4, 3 ); 		// 4. Paid Listings
+//add_filter( &#039;geodir_dashboard_get_stats&#039;, &#039;geodir_dashboard_revenues_stats&#039;, 5, 3 ); 			// 5. Revenues
+add_filter( &#039;geodir_dashboard_get_stats&#039;, &#039;geodir_dashboard_users_stats&#039;, 6, 3 ); 				// 6. Users
+
+/**
+ * Dashboard starts and end dates.
+ *
+ * @since 2.0.0
+ *
+ * @param string $period Optional. Dates Month period. Default this_month.
+ *
+ * @return array $dates.
+ */
+function geodir_dashboard_start_end_dates( $period = &#039;this_month&#039; ) {
+	$dates = array();
+
+	switch ( $period ) {
+		case &#039;this_year&#039;:
+		case &#039;last_year&#039;:
+			$year = $period == &#039;this_year&#039; ? date( &#039;Y&#039;, time() ) : date( &#039;Y&#039;, strtotime( &#039;-1 year&#039; ) );
+
+			for ( $m = 1; $m &lt;= 12; $m++ ) {
+				$time = strtotime( date( $year . &#039;-&#039; . $m . &#039;-01&#039; ) );
+				$dates[ date( &#039;M&#039;, $time ) ] = array (
+					&#039;start&#039; =&gt; date( $year . &#039;-m-01 00:00:00&#039;, $time ),
+					&#039;end&#039; =&gt; date( $year . &#039;-m-t 23:59:59&#039;, $time )
+				);
+			}
+		break;
+		case &#039;this_month&#039;:
+		case &#039;last_month&#039;:
+			$time = $period == &#039;this_month&#039; ? time() : strtotime( &#039;-1 month&#039; );
+			$year = date( &#039;Y&#039;, $time );
+			$month = date( &#039;m&#039;, $time );
+			$last_day = date( &#039;t&#039;, $time );
+
+			for ( $d = 1; $d &lt;= $last_day; $d++ ) {
+				$dates[ $d ] = array (
+					&#039;start&#039; =&gt; $year . &#039;-&#039; . $month . &#039;-&#039; . sprintf( &#039;%02d&#039;, $d ) . &#039; 00:00:00&#039;,
+					&#039;end&#039; =&gt; $year . &#039;-&#039; . $month . &#039;-&#039; . sprintf( &#039;%02d&#039;, $d ) . &#039; 23:59:59&#039;
+				);
+			}
+		break;
+		case &#039;this_week&#039;:
+		case &#039;last_week&#039;:
+			$time = $period == &#039;this_week&#039; ? time() : strtotime( &#039;-1 week&#039; );
+			$year = date( &#039;Y&#039;, $time );
+			$month = date( &#039;m&#039;, $time );
+			$week = date( &#039;W&#039;, $time );
+
+			for ( $d = 1; $d &lt;= 7; $d++ ) {
+				$time = strtotime( $year . &#039;-W&#039; . $week . &#039;-&#039; . $d );
+				$dates[ date( &#039;D&#039;, $time ) ] = array (
+					&#039;start&#039; =&gt; date( &#039;Y-m-d 00:00:00&#039;, $time ),
+					&#039;end&#039; =&gt; date( &#039;Y-m-d 23:59:59&#039;, $time ),
+				);
+			}
+		break;
+	}
+	
+	return apply_filters( &#039;geodir_dashboard_start_end_dates&#039;, $dates, $period );
+}
+
+/**
+ * Dashboard default chart parameters.
+ *
+ * @since 2.0.0
+ *
+ * @param $type Type.
+ * @param $period Start and end date Month period.
+ *
+ * @return array $params
+ */
+function geodir_dashboard_default_chart_params( $type, $period ) {
+	$params = array();
+
+	$dates = geodir_dashboard_start_end_dates( $period );
+	$data = array();
+	if ( ! empty( $dates ) ) {
+		foreach ( $dates as $day =&gt; $days ) {
+			$data[] = array( &#039;key&#039; =&gt; $day );
+		}
+	}
+	$params[&#039;ykeys&#039;] = array();
+	$params[&#039;labels&#039;] = array();
+	$params[&#039;data&#039;] = $data;
+
+	return apply_filters( &#039;geodir_dashboard_default_chart_params&#039;, $params, $type, $period );
+}
+
+/**
+ * Dashboard ajax state.
+ *
+ * @since 2.0.0
+ */
+function geodir_dashboard_ajax_stats() {
+	$data = array();
+	
+	if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+		wp_send_json( $data );
+		exit;
+	}
+	
+	$type = isset( $_REQUEST[&#039;type&#039;] ) ? sanitize_text_field( $_REQUEST[&#039;type&#039;] ) : &#039;all&#039;;
+	$period = isset( $_REQUEST[&#039;period&#039;] ) ? sanitize_text_field( $_REQUEST[&#039;period&#039;] ) : &#039;this_month&#039;;
+	
+	$data = array( 
+		&#039;stats&#039; =&gt; array(), 
+		&#039;chart_params&#039; =&gt; geodir_dashboard_default_chart_params( $type, $period )
+	);
+	$data = apply_filters( &#039;geodir_dashboard_get_stats&#039;, $data, $type, $period );
+	
+	wp_send_json( $data );
+	exit;
+}
+add_action( &#039;wp_ajax_geodir_stats_ajax&#039;, &#039;geodir_dashboard_ajax_stats&#039; );
+
+/**
+ * Dashboard listings states.
+ *
+ * @since 2.0.0
+ *
+ * @param array $stats Listing states array.
+ * @param string $type Listing type.
+ * @param string $period period.
+ * @return array $stats
+ */
+function geodir_dashboard_listings_stats( $stats, $type, $period ) {
+	$post_types	= geodir_get_posttypes();
+	if ( ! ( $type == &#039;all&#039; || in_array( $type, $post_types ) ) ) {
+		return $stats;
+	}
+
+	$listing_stats = geodir_dashboard_post_types_stats( $type, $period );
+
+	$stat_key = &#039;listings&#039;;
+	$stat_label = __( &#039;Listings&#039;, &#039;geodirectory&#039; );
+
+	$stats[&#039;stats&#039;][ $stat_key ] = array(
+		&#039;icon&#039; =&gt; &#039;fas fa-list-ul&#039;,
+		&#039;label&#039; =&gt; $stat_label,
+		&#039;value&#039; =&gt; ! empty( $listing_stats[&#039;total&#039;] ) ? (int)$listing_stats[&#039;total&#039;] : 0
+	);
+
+	$stats[&#039;chart_params&#039;][&#039;ykeys&#039;][] = $stat_key;
+	$stats[&#039;chart_params&#039;][&#039;labels&#039;][] = $stat_label;
+
+	if ( ! empty( $stats[&#039;chart_params&#039;][&#039;data&#039;] ) ) {
+		foreach ( $stats[&#039;chart_params&#039;][&#039;data&#039;] as $key =&gt; $data ) {
+			$count = 0;
+			if ( ! empty( $listing_stats[&#039;post_types&#039;] ) ) {
+				foreach ( $listing_stats[&#039;post_types&#039;] as $post_type =&gt; $cpt_data ) {
+					if ( isset( $cpt_data[&#039;dates&#039;] ) &amp;&amp; isset( $data[&#039;key&#039;] ) &amp;&amp; isset( $cpt_data[&#039;dates&#039;][ $data[&#039;key&#039;] ] ) ) {
+						$count += $cpt_data[&#039;dates&#039;][ $data[&#039;key&#039;] ];
+					}
+				}
+			}
+			$stats[&#039;chart_params&#039;][&#039;data&#039;][$key][ $stat_key ] = $count;
+		}
+	}
+
+	return $stats;
+}
+
+/**
+ * Dashboard post types states.
+ *
+ * @since 2.0.0
+ *
+ * @param string $type Optional. Listing type Default all.
+ * @param string $period Optional. Period. Default all.
+ * @param array $statuses Optional. Statuses. Default array.
+ * @return array $stats.
+ */
+function geodir_dashboard_post_types_stats( $type = &#039;all&#039;, $period = &#039;all&#039;, $statuses = array() ) {
+	$post_types	= geodir_get_posttypes( &#039;array&#039; );
+	if ( ! empty( $type ) &amp;&amp; $type != &#039;all&#039; ) {
+		$post_types = isset( $post_types[ $type ] ) ? array( $type =&gt; $post_types[ $type ] ) : array();
+	}
+
+	$total = 0;
+	$items = array();
+	foreach ( $post_types as $post_type =&gt; $cpt ) {
+		$post_type_stats = geodir_dashboard_post_type_stats( $post_type, $period, $statuses );
+		$items[ $post_type ] = $post_type_stats;
+		if ( ! empty( $post_type_stats[&#039;total&#039;] ) ) {
+			$total += (int)$post_type_stats[&#039;total&#039;];
+		}
+	}
+	$stats = array( &#039;post_types&#039; =&gt; $items , &#039;total&#039; =&gt; $total );
+	
+	return apply_filters( &#039;geodir_dashboard_post_types_stats&#039;, $stats, $type, $period, $statuses );
+}
+
+/**
+ * Dashboard post type states.
+ *
+ * @since 2.0.0
+ *
+ * @param $post_type Post type.
+ * @param string $period Optional. Period. Default all.
+ * @param array $statuses Optional. Statuses. Default array.
+ * @return array $stats.
+ */
+function geodir_dashboard_post_type_stats( $post_type, $period = &#039;all&#039;, $statuses = array() ) {
+	$dates = geodir_dashboard_start_end_dates( $period );
+
+	$stats = array();
+	if ( ! empty( $dates ) ) {
+		$total = 0;
+		$date_stats = array();
+		foreach ( $dates as $day =&gt; $days ) {
+			$count = geodir_dashboard_query_posts_count( $post_type, $statuses, &quot;AND post_date &gt;= &#039;&quot; . $days[&#039;start&#039;] . &quot;&#039; AND post_date &lt;= &#039;&quot; . $days[&#039;end&#039;] . &quot;&#039;&quot; );
+			$date_stats[ $day ] = $count;
+			$total += $count;
+		}
+		$stats[&#039;dates&#039;] = $date_stats;
+		$stats[&#039;total&#039;] = $total;
+	} else {
+		$stats[&#039;dates&#039;] = array();
+		$stats[&#039;total&#039;] = geodir_dashboard_query_posts_count( $post_type, $statuses );
+	}
+	
+	return apply_filters( &#039;geodir_dashboard_post_type_stats&#039;, $stats, $period, $post_type, $statuses );
+}
+
+/**
+ * Dashboard posts Query count.
+ *
+ * @since 2.0.0
+ *
+ * @param $post_type Post type.
+ * @param array $statuses Optional. Statuses. Default array.
+ * @param string $where Optional. Where. Default null.
+ * @return array $count.
+ */
+function geodir_dashboard_query_posts_count( $post_type, $statuses = array(), $where = &#039;&#039; ) {
+	global $wpdb;
+
+	if ( empty( $statuses ) ) {
+		$statuses = array_keys( geodir_get_post_statuses( $post_type ) );
+		$statuses = apply_filters( &#039;geodir_dashboard_query_posts_statuses&#039;, $statuses, $post_type );
+	} else {
+		if ( ! is_array( $statuses ) ) {
+			$statuses = array( $statuses );
+		}
+	}
+
+	$query = &quot;SELECT COUNT(ID) FROM &quot; . $wpdb-&gt;posts . &quot; WHERE post_type = &#039;&quot; . $post_type . &quot;&#039; AND post_status IN(&#039;&quot; . implode( &quot;&#039;,&#039;&quot;, $statuses ) . &quot;&#039;) &quot; . $where;
+	$count = $wpdb-&gt;get_var( $query );
+
+	return apply_filters( &#039;geodir_dashboard_query_posts_count&#039;, $count, $post_type, $statuses, $where );
+}
+
+/**
+ * Dashboard reviews stats.
+ *
+ * @since 2.0.0
+ *
+ * @param $stats State.
+ * @param $type Type.
+ * @param $period Period.
+ * @return array $stats.
+ */
+function geodir_dashboard_reviews_stats( $stats, $type, $period ) {
+	$post_types	= geodir_get_posttypes();
+	if ( ! ( $type == &#039;all&#039; || in_array( $type, $post_types ) ) ) {
+		return $stats;
+	}
+
+	$review_stats = geodir_dashboard_post_types_reviews_stats( $type, $period );
+
+	$stat_key = &#039;reviews&#039;;
+	$stat_label = __( &#039;Reviews&#039;, &#039;geodirectory&#039; );
+
+	$stats[&#039;stats&#039;][ $stat_key ] = array(
+		&#039;icon&#039; =&gt; &#039;fas fa-star&#039;,
+		&#039;label&#039; =&gt; $stat_label,
+		&#039;value&#039; =&gt; ! empty( $review_stats[&#039;total&#039;] ) ? (int)$review_stats[&#039;total&#039;] : 0
+	);
+
+	$stats[&#039;chart_params&#039;][&#039;ykeys&#039;][] = $stat_key;
+	$stats[&#039;chart_params&#039;][&#039;labels&#039;][] = $stat_label;
+
+	if ( ! empty( $stats[&#039;chart_params&#039;][&#039;data&#039;] ) ) {
+		foreach ( $stats[&#039;chart_params&#039;][&#039;data&#039;] as $key =&gt; $data ) {
+			$count = 0;
+			if ( ! empty( $review_stats[&#039;post_types&#039;] ) ) {
+				foreach ( $review_stats[&#039;post_types&#039;] as $post_type =&gt; $cpt_data ) {
+					if ( isset( $cpt_data[&#039;dates&#039;] ) &amp;&amp; isset( $data[&#039;key&#039;] ) &amp;&amp; isset( $cpt_data[&#039;dates&#039;][ $data[&#039;key&#039;] ] ) ) {
+						$count += $cpt_data[&#039;dates&#039;][ $data[&#039;key&#039;] ];
+					}
+				}
+			}
+			$stats[&#039;chart_params&#039;][&#039;data&#039;][$key][ $stat_key ] = $count;
+		}
+	}
+
+	return $stats;
+}
+
+/**
+ * Dashboard Post type reviews stats.
+ *
+ * @since 2.0.0
+ *
+ * @param string $type Optional. Type. Default all.
+ * @param string $period Optional. Period. Default all.
+ * @param array $statuses Optional. Statuses. Default array.
+ * @return array $stats.
+ */
+function geodir_dashboard_post_types_reviews_stats( $type = &#039;all&#039;, $period = &#039;all&#039;, $statuses = array() ) {
+	$post_types	= geodir_get_posttypes( &#039;array&#039; );
+	if ( ! empty( $type ) &amp;&amp; $type != &#039;all&#039; ) {
+		$post_types = isset( $post_types[ $type ] ) ? array( $type =&gt; $post_types[ $type ] ) : array();
+	}
+
+	$total = 0;
+	$items = array();
+	foreach ( $post_types as $post_type =&gt; $cpt ) {
+		$post_type_stats = geodir_dashboard_post_type_reviews_stats( $post_type, $period, $statuses );
+		$items[ $post_type ] = $post_type_stats;
+		if ( ! empty( $post_type_stats[&#039;total&#039;] ) ) {
+			$total += (int)$post_type_stats[&#039;total&#039;];
+		}
+	}
+	$stats = array( &#039;post_types&#039; =&gt; $items , &#039;total&#039; =&gt; $total );
+	
+	return apply_filters( &#039;geodir_dashboard_post_type_reviews_stats&#039;, $stats, $type, $period, $statuses );
+}
+
+/**
+ * Dashboard post type reviews state.
+ *
+ * @since 2.0.0
+ *
+ * @param string $post_type Post type.
+ * @param string $period Optional. Period Default all.
+ * @param array $statuses Optional. Statuses. Default array.
+ * @return array $stats.
+ */
+function geodir_dashboard_post_type_reviews_stats( $post_type, $period = &#039;all&#039;, $statuses = array() ) {
+	$dates = geodir_dashboard_start_end_dates( $period );
+
+	$stats = array();
+	if ( ! empty( $dates ) ) {
+		$total = 0;
+		$date_stats = array();
+		foreach ( $dates as $day =&gt; $days ) {
+			$count = geodir_dashboard_query_reviews_count( $post_type, $statuses, &quot;AND cmt.comment_date &gt;= &#039;&quot; . $days[&#039;start&#039;] . &quot;&#039; AND cmt.comment_date &lt;= &#039;&quot; . $days[&#039;end&#039;] . &quot;&#039;&quot; );
+			$date_stats[ $day ] = $count;
+			$total += $count;
+		}
+		$stats[&#039;dates&#039;] = $date_stats;
+		$stats[&#039;total&#039;] = $total;
+	} else {
+		$stats[&#039;dates&#039;] = array();
+		$stats[&#039;total&#039;] = geodir_dashboard_query_reviews_count( $post_type, $statuses );
+	}
+	
+	return apply_filters( &#039;geodir_dashboard_post_type_reviews_stats&#039;, $stats, $period, $post_type, $statuses );
+}
+
+/**
+ * Dashboard reviews count.
+ *
+ * @since 2.0.0
+ *
+ * @param string $post_type Posttype.
+ * @param array $statuses Optional. Statuses. Default array.
+ * @param string $where Optional. Where. Default null.
+ * @return array $count.
+ */
+function geodir_dashboard_query_reviews_count( $post_type, $statuses = array(), $where = &#039;&#039; ) {
+	global $wpdb;
+
+	if ( empty( $statuses ) ) {
+		$statuses = array( &#039;1&#039;, &#039;0&#039; );
+		$statuses = apply_filters( &#039;geodir_dashboard_query_reviews_statuses&#039;, $statuses, $post_type );
+	} else {
+		if ( ! is_array( $statuses ) ) {
+			$statuses = array( $statuses );
+		}
+	}
+
+	$query = &quot;SELECT COUNT(r.comment_id) FROM &quot; . GEODIR_REVIEW_TABLE . &quot; AS r INNER JOIN {$wpdb-&gt;comments} AS cmt ON cmt.comment_ID = r.comment_id INNER JOIN {$wpdb-&gt;posts} AS p ON p.ID = cmt.comment_post_ID WHERE p.post_type = &#039;&quot; . $post_type . &quot;&#039; AND p.post_status = &#039;publish&#039; AND cmt.comment_approved IN(&#039;&quot; . implode( &quot;&#039;,&#039;&quot;, $statuses ) . &quot;&#039;) AND r.rating &gt; 0 &quot; . $where;
+	$count = $wpdb-&gt;get_var( $query );
+
+	return apply_filters( &#039;geodir_dashboard_query_reviews_count&#039;, $count, $post_type, $statuses, $where );
+}
+
+/**
+ * Dashboard users stats.
+ *
+ * @since 2.0.0
+ *
+ * @param array $stats Stats.
+ * @param string $type Type.
+ * @param string $period Period.
+ * @return array $stats.
+ */
+function geodir_dashboard_users_stats( $stats, $type, $period ) {
+	if ( $type != &#039;all&#039; ) {
+		return $stats;
+	}
+
+	$user_stats = geodir_dashboard_get_users_stats( $type, $period );
+
+	$stat_key = &#039;users&#039;;
+	$stat_label = __( &#039;Users&#039;, &#039;geodirectory&#039; );
+
+	$stats[&#039;stats&#039;][ $stat_key ] = array(
+		&#039;icon&#039; =&gt; &#039;fas fa-users&#039;,
+		&#039;label&#039; =&gt; $stat_label,
+		&#039;value&#039; =&gt; ! empty( $user_stats[&#039;total&#039;] ) ? (int)$user_stats[&#039;total&#039;] : 0
+	);
+
+	$stats[&#039;chart_params&#039;][&#039;ykeys&#039;][] = $stat_key;
+	$stats[&#039;chart_params&#039;][&#039;labels&#039;][] = $stat_label;
+
+	if ( ! empty( $stats[&#039;chart_params&#039;][&#039;data&#039;] ) ) {
+		foreach ( $stats[&#039;chart_params&#039;][&#039;data&#039;] as $key =&gt; $data ) {
+			$count = 0;
+			if ( ! empty( $user_stats[&#039;dates&#039;] ) ) {
+				if ( isset( $user_stats[&#039;dates&#039;] ) &amp;&amp; isset( $data[&#039;key&#039;] ) &amp;&amp; isset( $user_stats[&#039;dates&#039;][ $data[&#039;key&#039;] ] ) ) {
+					$count += $user_stats[&#039;dates&#039;][ $data[&#039;key&#039;] ];
+				}
+			}
+			$stats[&#039;chart_params&#039;][&#039;data&#039;][$key][ $stat_key ] = $count;
+		}
+	}
+
+	return $stats;
+}
+
+/**
+ * Dashboard get users stats.
+ *
+ * @since 2.0.0
+ *
+ * @param string $type Optional. Type. Default all.
+ * @param string $period Optional. Period. Default all.
+ * @param array $statuses Optional. Statuses. Default array.
+ * @return array $stats.
+ */
+function geodir_dashboard_get_users_stats( $type = &#039;all&#039;, $period = &#039;all&#039;, $statuses = array() ) {
+	$dates = geodir_dashboard_start_end_dates( $period );
+
+	$stats = array();
+	if ( ! empty( $dates ) ) {
+		$total = 0;
+		$date_stats = array();
+		foreach ( $dates as $day =&gt; $days ) {
+			$count = geodir_dashboard_query_users_count( $statuses, &quot;AND user_registered &gt;= &#039;&quot; . $days[&#039;start&#039;] . &quot;&#039; AND user_registered &lt;= &#039;&quot; . $days[&#039;end&#039;] . &quot;&#039;&quot; );
+			$date_stats[ $day ] = $count;
+			$total += $count;
+		}
+		$stats[&#039;dates&#039;] = $date_stats;
+		$stats[&#039;total&#039;] = $total;
+	} else {
+		$stats[&#039;dates&#039;] = array();
+		$stats[&#039;total&#039;] = geodir_dashboard_query_users_count( $statuses );
+	}
+	
+	return apply_filters( &#039;geodir_dashboard_get_users_stats&#039;, $stats, $type, $period, $statuses );
+}
+
+/**
+ * Dashboard users count.
+ *
+ * @since 2.0.0
+ *
+ * @param array $statuses Optional. Statuses. Default array.
+ * @param string $where Optional. Where. Default null.
+ * @return array $count.
+ */
+function geodir_dashboard_query_users_count( $statuses = array(), $where = &#039;&#039; ) {
+	global $wpdb;
+
+	if ( empty( $statuses ) ) {
+		$statuses = array( &#039;1&#039;, &#039;0&#039; );
+		$statuses = apply_filters( &#039;geodir_dashboard_query_users_statuses&#039;, $statuses );
+	} else {
+		if ( ! is_array( $statuses ) ) {
+			$statuses = array( $statuses );
+		}
+	}
+
+	$query = &quot;SELECT COUNT(ID) FROM {$wpdb-&gt;users} WHERE user_status IN(&#039;&quot; . implode( &quot;&#039;,&#039;&quot;, $statuses ) . &quot;&#039;) &quot; . $where;
+	$count = $wpdb-&gt;get_var( $query );
+
+	return apply_filters( &#039;geodir_dashboard_query_users_count&#039;, $count, $statuses, $where );
+}
+
+/**
+ * Dashboard paid listings stats.
+ *
+ * @since 2.0.0
+ *
+ * @param array $stats Stats.
+ * @param string $type Type.
+ * @param string $period Period.
+ * @return array $stats.
+ */
+function geodir_dashboard_paid_listings_stats( $stats, $type, $period ) {
+	$stat_key = &#039;paid_listings&#039;;
+	$stat_label = __( &#039;Paid Listings&#039;, &#039;geodirectory&#039; );
+
+	$stats[&#039;stats&#039;][ $stat_key ] = array(
+		&#039;icon&#039; =&gt; &#039;fas fa-shopping-cart&#039;,
+		&#039;label&#039; =&gt; $stat_label,
+		&#039;value&#039; =&gt; 0
+	);
+
+	$stats[&#039;chart_params&#039;][&#039;ykeys&#039;][] = $stat_key;
+	$stats[&#039;chart_params&#039;][&#039;labels&#039;][] = $stat_label;
+
+	if ( ! empty( $stats[&#039;chart_params&#039;][&#039;data&#039;] ) ) {
+		foreach ( $stats[&#039;chart_params&#039;][&#039;data&#039;] as $key =&gt; $data ) {
+			$stats[&#039;chart_params&#039;][&#039;data&#039;][$key][ $stat_key ] = 0;
+		}
+	}
+
+	return $stats;
+}
+
+/**
+ * Dashboard revenue stats.
+ *
+ * @since 2.0.0
+ *
+ * @param array $stats Stats.
+ * @param string $type Type.
+ * @param string $period Period.
+ * @return array $stats.
+ */
+function geodir_dashboard_revenues_stats( $stats, $type, $period ) {
+	$stat_key = &#039;revenues&#039;;
+	$stat_label = __( &#039;Revenues&#039;, &#039;geodirectory&#039; );
+
+	$stats[&#039;stats&#039;][ $stat_key ] = array(
+		&#039;icon&#039; =&gt; &#039;fas fa-dollar-sign&#039;,
+		&#039;label&#039; =&gt; $stat_label,
+		&#039;value&#039; =&gt; 0
+	);
+
+	$stats[&#039;chart_params&#039;][&#039;ykeys&#039;][] = $stat_key;
+	$stats[&#039;chart_params&#039;][&#039;labels&#039;][] = $stat_label;
+
+	if ( ! empty( $stats[&#039;chart_params&#039;][&#039;data&#039;] ) ) {
+		foreach ( $stats[&#039;chart_params&#039;][&#039;data&#039;] as $key =&gt; $data ) {
+			$stats[&#039;chart_params&#039;][&#039;data&#039;][$key][ $stat_key ] = 0;
+		}
+	}
+
+	return $stats;
+}
+
+/**
+ * Dashboard get pending stats.
+ *
+ * @since 2.0.0
+ *
+ * @return array $stats.
+ */
+function geodir_dashboard_get_pending_stats() {
+	$stats = array();
+	$stats[&#039;listings&#039;] = array(
+		&#039;icon&#039; =&gt; &#039;fas fa-list-ul&#039;,
+		&#039;label&#039; =&gt; __( &#039;Pending Listings&#039;, &#039;geodirectory&#039; ),
+		&#039;total&#039; =&gt; 0,
+		&#039;url&#039; =&gt; &#039;&#039;,
+	);
+	$stats[&#039;reviews&#039;] = array(
+		&#039;icon&#039; =&gt; &#039;fas fa-star&#039;,
+		&#039;label&#039; =&gt; __( &#039;Pending Reviews&#039;, &#039;geodirectory&#039; ),
+		&#039;total&#039; =&gt; 0,
+		&#039;url&#039; =&gt; admin_url( &#039;edit-comments.php?comment_type=comment&amp;comment_status=moderated&#039; ),
+	);
+	
+	
+	
+	$item_stats = geodir_dashboard_post_types_stats( &#039;all&#039;, &#039;all&#039;, array( &#039;pending&#039; ) );
+	if ( ! empty( $item_stats[&#039;post_types&#039;] ) ) {
+		$items = array();
+		foreach ( $item_stats[&#039;post_types&#039;] as $post_type =&gt; $data ) {
+			$items[] = array(
+				&#039;icon&#039; =&gt; &#039;fas fa-map-marker-alt&#039;,
+				&#039;label&#039; =&gt; geodir_post_type_name( $post_type ),
+				&#039;total&#039; =&gt; $data[&#039;total&#039;],
+				&#039;url&#039; =&gt; admin_url( &#039;edit.php?post_status=pending&amp;post_type=&#039; . $post_type ),
+			);
+		}
+		$stats[&#039;listings&#039;][&#039;items&#039;] = $items;
+		$stats[&#039;listings&#039;][&#039;total&#039;] = $item_stats[&#039;total&#039;];
+	}
+	
+	$item_stats = geodir_dashboard_post_types_reviews_stats( &#039;all&#039;, &#039;all&#039;, array( &#039;0&#039; ) );
+	if ( ! empty( $item_stats[&#039;post_types&#039;] ) ) {
+		$items = array();
+		foreach ( $item_stats[&#039;post_types&#039;] as $post_type =&gt; $data ) {
+			$items[] = array(
+				&#039;icon&#039; =&gt; &#039;fas fa-map-marker-alt&#039;,
+				&#039;label&#039; =&gt; geodir_post_type_name( $post_type ),
+				&#039;total&#039; =&gt; $data[&#039;total&#039;],
+				&#039;url&#039; =&gt; &#039;&#039;,
+			);
+		}
+		$stats[&#039;reviews&#039;][&#039;items&#039;] = $items;
+		$stats[&#039;reviews&#039;][&#039;total&#039;] = $item_stats[&#039;total&#039;];
+	}
+
+	
+	return apply_filters( &#039;geodir_dashboard_get_pending_stats&#039;, $stats );
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

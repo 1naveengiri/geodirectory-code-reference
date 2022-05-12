@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-widget-map-pinpoint.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory Widget: GeoDir_Widget_Map_Pinpoint class
+ *
+ * @package GeoDirectory
+ *
+ * @since 2.0.0
+ */
+
+/**
+ * Core class used to implement a Map Pinpoint widget.
+ *
+ * @since 2.0.0
+ *
+ */
+class GeoDir_Widget_Map_Pinpoint extends WP_Super_Duper {
+
+	public $arguments;
+
+	/**
+	 * Sets up the widgets name etc.
+     *
+     * @since 2.0.0
+	 */
+	public function __construct() {
+
+		$options = array(
+			&#039;textdomain&#039;    =&gt; GEODIRECTORY_TEXTDOMAIN,
+			&#039;block-icon&#039;    =&gt; &#039;admin-site&#039;,
+			&#039;block-category&#039;=&gt; &#039;geodirectory&#039;,
+			&#039;block-keywords&#039;=&gt; &quot;[&#039;post&#039;,&#039;map&#039;,&#039;pinpoint&#039;]&quot;,
+			&#039;class_name&#039;    =&gt; __CLASS__,
+			&#039;base_id&#039;       =&gt; &#039;gd_map_pinpoint&#039;,
+			&#039;name&#039;          =&gt; __( &#039;GD &gt; Map Pinpoint&#039;, &#039;geodirectory&#039; ),
+			&#039;widget_ops&#039;    =&gt; array(
+				&#039;classname&#039;   =&gt; &#039;geodir-map-pinpoint &#039;.geodir_bsui_class(),
+				&#039;description&#039; =&gt; esc_html__( &#039;Shows a link that will open the map marker window on the map.&#039;, &#039;geodirectory&#039; ),
+				&#039;geodirectory&#039; =&gt; true,
+			),
+			&#039;arguments&#039;     =&gt; array(
+                &#039;show&#039;  =&gt; array(
+                    &#039;name&#039; =&gt; &#039;show&#039;,
+                    &#039;title&#039; =&gt; __(&#039;Show:&#039;, &#039;geodirectory&#039;),
+                    &#039;desc&#039; =&gt; __(&#039;What part of the post meta to show.&#039;, &#039;geodirectory&#039;),
+                    &#039;type&#039; =&gt; &#039;select&#039;,
+                    &#039;options&#039;   =&gt;  array(
+                        &quot;&quot; =&gt; __(&#039;All&#039;, &#039;geodirectory&#039;),
+                        &quot;icon&quot; =&gt; __(&#039;Icon&#039;, &#039;geodirectory&#039;),
+                        &quot;text&quot; =&gt; __(&#039;Text&#039;, &#039;geodirectory&#039;),
+                    ),
+                    &#039;desc_tip&#039; =&gt; true,
+                    &#039;advanced&#039; =&gt; false
+                ),
+                &#039;alignment&#039;  =&gt; array(
+                    &#039;name&#039; =&gt; &#039;alignment&#039;,
+                    &#039;title&#039; =&gt; __(&#039;Alignment:&#039;, &#039;geodirectory&#039;),
+                    &#039;desc&#039; =&gt; __(&#039;How the item should be positioned on the page.&#039;, &#039;geodirectory&#039;),
+                    &#039;type&#039; =&gt; &#039;select&#039;,
+                    &#039;options&#039;   =&gt;  array(
+                        &quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+                        &quot;left&quot; =&gt; __(&#039;Left&#039;, &#039;geodirectory&#039;),
+                        &quot;center&quot; =&gt; __(&#039;Center&#039;, &#039;geodirectory&#039;),
+                        &quot;right&quot; =&gt; __(&#039;Right&#039;, &#039;geodirectory&#039;),
+                    ),
+                    &#039;desc_tip&#039; =&gt; true,
+                    &#039;advanced&#039; =&gt; false
+                ),
+            )
+		);
+
+
+		$design_style = geodir_design_style();
+
+		if($design_style){
+			$arguments[&#039;badge&#039;]  = array(
+				&#039;type&#039; =&gt; &#039;text&#039;,
+				&#039;title&#039; =&gt; __(&#039;Text&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Enter the text for the button.&#039;, &#039;geodirectory&#039;),
+				&#039;placeholder&#039; =&gt; esc_attr__( &#039;Pinpoint&#039;, &#039;geodirectory&#039; ),
+				&#039;default&#039; =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+			);
+			$arguments[&#039;icon_class&#039;]  = array(
+				&#039;type&#039; =&gt; &#039;text&#039;,
+				&#039;title&#039; =&gt; __(&#039;Icon class:&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;You can show a font-awesome icon here by entering the icon class.&#039;, &#039;geodirectory&#039;),
+				&#039;placeholder&#039; =&gt; &#039;fas fa-map-marker-alt&#039;,
+				&#039;default&#039; =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+
+
+			$arguments[&#039;type&#039;] = array(
+				&#039;title&#039; =&gt; __(&#039;Type&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Select the badge type.&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039;   =&gt;  array(
+					&quot;&quot; =&gt; __(&#039;Badge&#039;, &#039;geodirectory&#039;),
+					&quot;pill&quot; =&gt; __(&#039;Pill&#039;, &#039;geodirectory&#039;),
+				),
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+
+			$arguments[&#039;shadow&#039;] = array(
+				&#039;title&#039; =&gt; __(&#039;Shadow&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Select the shadow badge type.&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039;   =&gt;  array(
+					&quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+					&quot;small&quot; =&gt; __(&#039;small&#039;, &#039;geodirectory&#039;),
+					&quot;medium&quot; =&gt; __(&#039;medium&#039;, &#039;geodirectory&#039;),
+					&quot;large&quot; =&gt; __(&#039;large&#039;, &#039;geodirectory&#039;),
+				),
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+
+			$arguments[&#039;color&#039;] = array(
+				&#039;title&#039; =&gt; __(&#039;Badge Color&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Select the the badge color.&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039;   =&gt;  array(
+					                &quot;&quot; =&gt; __(&#039;Custom colors&#039;, &#039;geodirectory&#039;),
+				                )+geodir_aui_colors(true),
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+			$arguments[&#039;bg_color&#039;]  = array(
+				&#039;type&#039; =&gt; &#039;color&#039;,
+				&#039;title&#039; =&gt; __(&#039;Badge background color:&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Color for the badge background.&#039;, &#039;geodirectory&#039;),
+				&#039;placeholder&#039; =&gt; &#039;&#039;,
+				&#039;default&#039; =&gt; &#039;#0073aa&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+				&#039;element_require&#039; =&gt; $design_style ?  &#039;[%color%]==&quot;&quot;&#039; : &#039;&#039;,
+			);
+			$arguments[&#039;txt_color&#039;]  = array(
+				&#039;type&#039; =&gt; &#039;color&#039;,
+				&#039;title&#039; =&gt; __(&#039;Badge text color:&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Color for the badge text.&#039;, &#039;geodirectory&#039;),
+				&#039;placeholder&#039; =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;default&#039;  =&gt; &#039;#ffffff&#039;,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;),
+				&#039;element_require&#039; =&gt; $design_style ?  &#039;[%color%]==&quot;&quot;&#039; : &#039;&#039;,
+			);
+			$arguments[&#039;size&#039;]  = array(
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;title&#039; =&gt; __(&#039;Badge size:&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Size of the badge.&#039;, &#039;geodirectory&#039;),
+				&#039;options&#039; =&gt;  array(
+					&quot;&quot; =&gt; __(&#039;h6&#039;, &#039;geodirectory&#039;),
+					&quot;h5&quot; =&gt; __(&#039;h5&#039;, &#039;geodirectory&#039;),
+					&quot;h4&quot; =&gt; __(&#039;h4&#039;, &#039;geodirectory&#039;),
+					&quot;h3&quot; =&gt; __(&#039;h3&#039;, &#039;geodirectory&#039;),
+					&quot;h2&quot; =&gt; __(&#039;h2&#039;, &#039;geodirectory&#039;),
+					&quot;h1&quot; =&gt; __(&#039;h1&#039;, &#039;geodirectory&#039;),
+
+				),
+				&#039;default&#039; =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+			$arguments[&#039;alignment&#039;]  = array(
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;title&#039; =&gt; __(&#039;Alignment:&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;How the item should be positioned on the page.&#039;, &#039;geodirectory&#039;),
+				&#039;options&#039;   =&gt;  array(
+					&quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+					&quot;left&quot; =&gt; __(&#039;Left&#039;, &#039;geodirectory&#039;),
+					&quot;center&quot; =&gt; __(&#039;Center&#039;, &#039;geodirectory&#039;),
+					&quot;right&quot; =&gt; __(&#039;Right&#039;, &#039;geodirectory&#039;),
+				),
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+			$arguments[&#039;list_hide&#039;]  = array(
+				&#039;title&#039; =&gt; __(&#039;Hide item on view:&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;You can set at what view the item will become hidden.&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039;   =&gt;  array(
+					&quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+					&quot;2&quot; =&gt; __(&#039;Grid view 2&#039;, &#039;geodirectory&#039;),
+					&quot;3&quot; =&gt; __(&#039;Grid view 3&#039;, &#039;geodirectory&#039;),
+					&quot;4&quot; =&gt; __(&#039;Grid view 4&#039;, &#039;geodirectory&#039;),
+					&quot;5&quot; =&gt; __(&#039;Grid view 5&#039;, &#039;geodirectory&#039;),
+				),
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+			$arguments[&#039;list_hide_secondary&#039;]  = array(
+				&#039;title&#039; =&gt; __(&#039;Hide secondary info on view&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;You can set at what view the secondary info such as label will become hidden.&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039;   =&gt;  array(
+					&quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+					&quot;2&quot; =&gt; __(&#039;Grid view 2&#039;, &#039;geodirectory&#039;),
+					&quot;3&quot; =&gt; __(&#039;Grid view 3&#039;, &#039;geodirectory&#039;),
+					&quot;4&quot; =&gt; __(&#039;Grid view 4&#039;, &#039;geodirectory&#039;),
+					&quot;5&quot; =&gt; __(&#039;Grid view 5&#039;, &#039;geodirectory&#039;),
+				),
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+			$arguments[&#039;css_class&#039;]  = array(
+				&#039;type&#039; =&gt; &#039;text&#039;,
+				&#039;title&#039; =&gt; __(&#039;Extra class:&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;Give the wrapper an extra class so you can style things as you want.&#039;, &#039;geodirectory&#039;),
+				&#039;placeholder&#039; =&gt; &#039;&#039;,
+				&#039;default&#039; =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+
+			$options[&#039;arguments&#039;] = $arguments;
+
+		}
+
+		parent::__construct( $options );
+	}
+
+	/**
+	 * Outputs the the content.
+	 *
+	 * @param array $args
+	 * @param array $widget_args
+	 * @param string $content
+	 *
+	 * @return mixed|string|void
+	 */
+	public function output( $args = array(), $widget_args = array(), $content = &#039;&#039; ) {
+		global $wp_query, $gd_post,$gdecs_render_loop;
+
+		$post_id = isset($gd_post-&gt;ID) ? $gd_post-&gt;ID : 0;
+
+		if ( !$this-&gt;is_block_content_call() ) {
+			// skip some checks for elementor
+			if($gdecs_render_loop || (is_admin())){
+				if ( empty( $gd_post-&gt;default_category ) ) {
+					return;
+				}
+			}
+			else{
+				if ( ! ( ! empty( $wp_query ) &amp;&amp; $wp_query-&gt;is_main_query() &amp;&amp; ! empty( $gd_post ) ) ) {
+					return;
+				}
+
+				if ( empty( $gd_post-&gt;default_category ) ) {
+					return;
+				}
+
+				// Location-less
+				if ( ! GeoDir_Post_types::supports( $gd_post-&gt;post_type, &#039;location&#039; ) || geodir_is_page( &#039;detail&#039; ) ) {
+					return;
+				}
+			}
+
+		}
+
+		$design_style = geodir_design_style();
+
+		$defaults = array(
+            &#039;show&#039; =&gt; &#039;&#039;,
+            &#039;alignment&#039; =&gt; &#039;&#039;,
+            &#039;badge&#039; =&gt; esc_attr__( &#039;Pinpoint&#039;, &#039;geodirectory&#039; ),
+            &#039;icon_class&#039; =&gt; &#039;fas fa-map-marker-alt&#039;,
+        );
+
+		$args = wp_parse_args( $args, $defaults );
+
+		// set defaults
+		if(empty($args[&#039;badge&#039;])){$args[&#039;badge&#039;] = $defaults[&#039;badge&#039;];}
+
+
+		$term_icon = get_term_meta( $gd_post-&gt;default_category, &#039;ct_cat_font_icon&#039;, true );
+		if ( empty( $term_icon ) ) {
+			$term_icon = &#039;fas fa-map-marker-alt&#039;;
+		}
+
+
+		ob_start();
+
+		if($design_style){
+
+			if(empty($args[&#039;icon_class&#039;])){
+				$args[&#039;icon_class&#039;] = $term_icon;
+			}
+
+			// set list_hide class
+			if($args[&#039;list_hide&#039;]==&#039;2&#039;){$args[&#039;css_class&#039;] .= $design_style ? &quot; gv-hide-2 &quot; : &quot; gd-lv-2 &quot;;}
+			if($args[&#039;list_hide&#039;]==&#039;3&#039;){$args[&#039;css_class&#039;] .= $design_style ? &quot; gv-hide-3 &quot; : &quot; gd-lv-3 &quot;;}
+			if($args[&#039;list_hide&#039;]==&#039;4&#039;){$args[&#039;css_class&#039;] .= $design_style ? &quot; gv-hide-4 &quot; : &quot; gd-lv-4 &quot;;}
+			if($args[&#039;list_hide&#039;]==&#039;5&#039;){$args[&#039;css_class&#039;] .= $design_style ? &quot; gv-hide-5 &quot; : &quot; gd-lv-5 &quot;;}
+
+			// set list_hide_secondary class
+			if($args[&#039;list_hide_secondary&#039;]==&#039;2&#039;){$args[&#039;css_class&#039;] .= $design_style ? &quot; gv-hide-s-2 &quot; : &quot; gd-lv-s-2 &quot;;}
+			if($args[&#039;list_hide_secondary&#039;]==&#039;3&#039;){$args[&#039;css_class&#039;] .= $design_style ? &quot; gv-hide-s-3 &quot; : &quot; gd-lv-s-3 &quot;;}
+			if($args[&#039;list_hide_secondary&#039;]==&#039;4&#039;){$args[&#039;css_class&#039;] .= $design_style ? &quot; gv-hide-s-4 &quot; : &quot; gd-lv-s-4 &quot;;}
+			if($args[&#039;list_hide_secondary&#039;]==&#039;5&#039;){$args[&#039;css_class&#039;] .= $design_style ? &quot; gv-hide-s-5 &quot; : &quot; gd-lv-s-5 &quot;;}
+
+			$design_style = geodir_design_style();
+			if(!empty($args[&#039;size&#039;])){
+				switch ($args[&#039;size&#039;]) {
+					case &#039;small&#039;:
+						$args[&#039;size&#039;] = $design_style ? &#039;&#039; : &#039;small&#039;;
+						break;
+					case &#039;medium&#039;:
+						$args[&#039;size&#039;] = $design_style ? &#039;h4&#039; : &#039;medium&#039;;
+						break;
+					case &#039;large&#039;:
+						$args[&#039;size&#039;] = $design_style ? &#039;h2&#039; : &#039;large&#039;;
+						break;
+					case &#039;extra-large&#039;:
+						$args[&#039;size&#039;] = $design_style ? &#039;h1&#039; : &#039;extra-large&#039;;
+						break;
+					case &#039;h6&#039;: $args[&#039;size&#039;] = &#039;h6&#039;;break;
+					case &#039;h5&#039;: $args[&#039;size&#039;] = &#039;h5&#039;;break;
+					case &#039;h4&#039;: $args[&#039;size&#039;] = &#039;h4&#039;;break;
+					case &#039;h3&#039;: $args[&#039;size&#039;] = &#039;h3&#039;;break;
+					case &#039;h2&#039;: $args[&#039;size&#039;] = &#039;h2&#039;;break;
+					case &#039;h1&#039;: $args[&#039;size&#039;] = &#039;h1&#039;;break;
+					default:
+						$args[&#039;size&#039;] = &#039;&#039;;
+
+				}
+
+			}
+
+			// set the link
+			$args[&#039;link&#039;] = &#039;#open-marker&#039;;
+			$args[&#039;onclick&#039;] = &quot;if(typeof openMarker==&#039;function&#039;){openMarker(&#039;listing_map_canvas&#039; ,&#039;$post_id&#039;)}&quot;;
+
+			$args[&#039;extra_attributes&#039;] = array(
+				&#039;onmouseover&#039; =&gt; &quot;if(typeof animate_marker==&#039;function&#039;){animate_marker(&#039;listing_map_canvas&#039; ,&#039;$post_id&#039;)}&quot;,
+				&#039;onmouseout&#039; =&gt; &quot;if(typeof stop_marker_animation==&#039;function&#039;){stop_marker_animation(&#039;listing_map_canvas&#039; ,&#039;$post_id&#039;)}&quot;,
+			);
+
+			echo geodir_get_post_badge( $post_id, $args );
+		}else{
+			?&gt;
+			&lt;a href=&quot;javascript:void(0)&quot; class=&quot;geodir-pinpoint-target&quot;
+			   onclick=&quot;if(typeof openMarker==&#039;function&#039;){openMarker(&#039;listing_map_canvas&#039; ,&#039;&lt;?php echo $post_id; ?&gt;&#039;)}&quot;
+			   onmouseover=&quot;if(typeof animate_marker==&#039;function&#039;){animate_marker(&#039;listing_map_canvas&#039; ,&#039;&lt;?php echo $post_id; ?&gt;&#039;)}&quot;
+			   onmouseout=&quot;if(typeof stop_marker_animation==&#039;function&#039;){stop_marker_animation(&#039;listing_map_canvas&#039; ,&#039;&lt;?php echo $post_id; ?&gt;&#039;)}&quot; &gt;
+				&lt;?php if ( $args[&#039;show&#039;] != &#039;text&#039; ) { ?&gt;
+					&lt;span class=&quot;geodir-pinpoint-icon&quot;&gt;&lt;i class=&quot;&lt;?php echo esc_attr( $term_icon ); ?&gt;&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; &lt;/span&gt;
+				&lt;?php } if ( $args[&#039;show&#039;] != &#039;icon&#039; ) { ?&gt;
+					&lt;span class=&quot;geodir-pinpoint-text&quot;&gt;&lt;?php _e( &#039;Pinpoint&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/span&gt;
+				&lt;?php } ?&gt;
+			&lt;/a&gt;
+			&lt;?php
+		}
+		$content = ob_get_clean();
+
+
+		if ( empty( $content ) ) {
+			return;
+		}
+
+		$class = &#039;&#039;;
+        if($args[&#039;alignment&#039;]==&#039;left&#039;){
+            $class = &quot;geodir-align-left&quot;;
+        }elseif($args[&#039;alignment&#039;]==&#039;center&#039;){
+            $class = &quot;geodir-align-center&quot;;
+        }elseif($args[&#039;alignment&#039;]==&#039;right&#039;){
+            $class = &quot;geodir-align-right&quot;;
+        }
+
+        if($args[&#039;show&#039;]==&#039;icon&#039;){
+            $class .= &#039; gd-pinpoint-hide-text &#039;;
+        }elseif($args[&#039;show&#039;]==&#039;text&#039;){
+            $class .= &#039; gd-pinpoint-hide-icon &#039;;
+        }
+
+		$before = &#039;&lt;div class=&quot;geodir_post_meta gd-pinpoint-info-wrap &#039;. $class .&#039;&quot; &gt;&#039;;
+        $after  = &#039;&lt;/div&gt;&#039;;
+
+
+
+        return $before . $content . $after;
+	}
+
+	/**
+     * Get pinpoint html.
+     *
+     * @since 2.0.0
+     *
+     * @return string Pinpoint html.
+	 * @deprecated 2.1.0
+     */
+    public function get_pinpoint_html( $gd_post, $args ) {
+
+    }
+
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

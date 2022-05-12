@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-user.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit; // Exit if accessed directly
+}
+
+/**
+ * User Class
+ *
+ * @version 2.0.0
+ */
+class GeoDir_User {
+
+
+	/**
+	 * The current blog id or blank if main site.
+	 *
+	 * @var mixed
+	 */
+	protected static $blog_id = &#039;&#039;;
+
+	public function __construct() {
+
+
+	}
+
+
+	/**
+	 * Add a post to the user fav list.
+	 *
+	 * @param int $post_id The post ID.
+	 * @param int $user_id (optional) The user id to add to.
+	 *
+	 * @return bool
+	 */
+	public static function add_fav( $post_id, $user_id = &#039;&#039; ) {
+
+		if ( ! $user_id ) {
+			$user_id = get_current_user_id();
+		}
+
+		// If we have no user then bail.
+		if ( ! $user_id ) {
+			return false;
+		}
+
+		$user_favs = self::get_user_favs( $user_id );
+
+		if ( empty( $user_favs ) || ( ! empty( $user_favs ) &amp;&amp; ! in_array( $post_id, $user_favs ) ) ) {
+			$user_favs[] = $post_id;
+		}
+
+		$site_id = &#039;&#039;;
+		if ( is_multisite() ) {
+			$blog_id = get_current_blog_id();
+			if ( $blog_id &amp;&amp; $blog_id != &#039;1&#039; ) {
+				$site_id = &#039;_&#039; . $blog_id;
+			}
+		}
+		$return = update_user_meta( $user_id, &#039;gd_user_favourite_post&#039; . $site_id, $user_favs );
+
+		if ( ! $return ) {
+			return false;
+		}
+
+		/**
+		 * Called after adding the post from favourites.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 *
+		 * @param int $post_id The post ID.
+		 * @param int $user_id The user ID.
+		 */
+		do_action( &#039;geodir_add_fav_true&#039;, $post_id, $user_id );
+
+		return true;
+
+	}
+
+	/**
+	 * Remove a post to the user fav list.
+	 *
+	 * @param int $post_id The post ID.
+	 * @param int $user_id (optional) The user id to add to.
+	 *
+	 * @return bool
+	 */
+	public static function remove_fav( $post_id, $user_id = &#039;&#039; ) {
+
+		if ( ! $user_id ) {
+			$user_id = get_current_user_id();
+		}
+
+		// If we have no user then bail.
+		if ( ! $user_id ) {
+			return false;
+		}
+
+		$user_favs = self::get_user_favs( $user_id );
+
+		if ( ! empty( $user_favs ) ) {
+
+			if ( ( $key = array_search( $post_id, $user_favs ) ) !== false ) {
+				unset( $user_favs[ $key ] );
+			}
+
+		}
+
+		$site_id = &#039;&#039;;
+		if ( is_multisite() ) {
+			$blog_id = get_current_blog_id();
+			if ( $blog_id &amp;&amp; $blog_id != &#039;1&#039; ) {
+				$site_id = &#039;_&#039; . $blog_id;
+			}
+		}
+		$return = update_user_meta( $user_id, &#039;gd_user_favourite_post&#039; . $site_id, $user_favs );
+
+		if ( ! $return ) {
+			return false;
+		}
+
+		/**
+		 * Called after removing the post from favourites.
+		 *
+		 * @since 2.0.0
+		 * @package GeoDirectory
+		 *
+		 * @param int $post_id The post ID.
+		 * @param int $user_id The user ID.
+		 */
+		do_action( &#039;geodir_remove_fav_true&#039;, $post_id, $user_id );
+
+		return true;
+
+	}
+
+	/**
+	 * Get the user favs.
+     *
+     * @since 2.0.0
+	 *
+	 * @param string $user_id Optional. User id. Default null.
+	 *
+	 * @return array|bool|mixed
+	 */
+	public static function get_user_favs( $user_id = &#039;&#039; ) {
+		if ( ! $user_id ) {
+			$user_id = get_current_user_id();
+		}
+
+		// If we have no user then bail.
+		if ( ! $user_id ) {
+			return false;
+		}
+
+		$site_id = &#039;&#039;;
+		if ( is_multisite() ) {
+			$blog_id = get_current_blog_id();
+			if ( $blog_id &amp;&amp; $blog_id != &#039;1&#039; ) {
+				$site_id = &#039;_&#039; . $blog_id;
+			}
+		}
+
+		$user_favs = get_user_meta( $user_id, &#039;gd_user_favourite_post&#039; . $site_id, true );
+
+		if ( ! $user_favs ) {
+			return array();
+		} else {
+			return $user_favs;
+		}
+	}
+
+
+	/**
+	 * Get the fav counts per post type for a user.
+     *
+     * @since 2.0.0
+	 *
+	 * @param int $user_id Optional. User id. Default 0.
+     *
+     * @global object $wpdb WordPress Database object.
+	 *
+	 * @return array $user_listing.
+	 */
+	public static function get_post_type_fav_counts( $user_id = 0 ) {
+		global $wpdb;
+
+		if ( ! $user_id ) {
+			$user_id = get_current_user_id();
+		}
+		if ( ! $user_id ) {
+			return array();
+		}
+
+		$post_types = geodir_fav_allowed_post_types();
+
+		$user_favorites = self::get_user_favs( $user_id );
+
+		$user_listing = array();
+		if ( is_array( $post_types ) &amp;&amp; ! empty( $post_types ) &amp;&amp; is_array( $user_favorites ) &amp;&amp; ! empty( $user_favorites ) ) {
+			$user_favorites = &quot;&#039;&quot; . implode( &quot;&#039;,&#039;&quot;, $user_favorites ) . &quot;&#039;&quot;;
+
+			foreach ( $post_types as $ptype ) {
+				$total_posts = $wpdb-&gt;get_var( &quot;SELECT count( ID ) FROM &quot; . $wpdb-&gt;prefix . &quot;posts WHERE  post_type=&#039;&quot; . $ptype . &quot;&#039; AND post_status = &#039;publish&#039; AND ID IN (&quot; . $user_favorites . &quot;)&quot; );
+
+				if ( $total_posts &gt; 0 ) {
+					$user_listing[ $ptype ] = $total_posts;
+				}
+			}
+		}
+
+		return $user_listing;
+	}
+
+	/**
+	 * Get the users favourites in a select or a string.
+     *
+     * @since 2.0.0
+	 *
+	 * @param string $user_id Optional. User id. Default null.
+	 * @param string $output_type Optional. Output type. Default select.
+	 *
+	 * @return string
+	 */
+	public static function show_favourites( $user_id = &#039;&#039;, $output_type = &#039;select&#039; ) {
+
+		if ( ! $user_id ) {
+			$user_id = get_current_user_id();
+		}
+		if ( ! $user_id ) {
+			return &#039;&#039;;
+		}
+
+		$design_style = geodir_design_style();
+		$options = array();
+		// My Favourites in Dashboard
+		$show_favorite_link_user_dashboard = geodir_fav_allowed_post_types();
+		$user_favourite                    = self::get_post_type_fav_counts( $user_id );
+
+		if ( ! empty( $show_favorite_link_user_dashboard ) &amp;&amp; ! empty( $user_favourite ) ) {
+			$favourite_links = $output_type == &#039;select&#039; ? &#039;&#039; : array();
+			$post_types      = geodir_get_posttypes( &#039;object&#039; );
+
+			$author_link = get_author_posts_url( $user_id );
+			$author_link = geodir_getlink( $author_link, array(), false );
+
+			foreach ( $post_types as $key =&gt; $postobj ) {
+				if ( in_array( $key, $show_favorite_link_user_dashboard ) &amp;&amp; array_key_exists( $key, $user_favourite ) ) {
+					$name           = $postobj-&gt;labels-&gt;name;
+					$post_type_link = trailingslashit($author_link).GeoDir_Permalinks::favs_slug($key).&quot;/&quot;.$postobj-&gt;rewrite-&gt;slug.&quot;/&quot;;
+
+					$selected = &#039;&#039;;
+
+					if ( isset( $_REQUEST[&#039;list&#039;] ) &amp;&amp; $_REQUEST[&#039;list&#039;] == &#039;favourite&#039; &amp;&amp; isset( $_REQUEST[&#039;stype&#039;] ) &amp;&amp; $_REQUEST[&#039;stype&#039;] == $key &amp;&amp; isset( $_REQUEST[&#039;geodir_dashbord&#039;] ) ) {
+						$selected = &#039;selected=&quot;selected&quot;&#039;;
+					}
+					/**
+					 * Filter favorite listing link.
+					 *
+					 * @since 1.0.0
+					 *
+					 * @param string $post_type_link Favorite listing link.
+					 * @param string $key Favorite listing array key.
+					 * @param int $current_user -&gt;ID Current user ID.
+					 */
+					$post_type_link = apply_filters( &#039;geodir_dashboard_link_favorite_listing&#039;, $post_type_link, $key, $user_id );
+
+					if ( $output_type == &#039;select&#039; ) {
+						$favourite_links .= &#039;&lt;option &#039; . $selected . &#039; value=&quot;&#039; . $post_type_link . &#039;&quot;&gt;&#039; . __( geodir_utf8_ucfirst( $name ), &#039;geodirectory&#039; ) . &#039;&lt;/option&gt;&#039;;
+					} elseif ( $output_type == &#039;link&#039; ) {
+						$favourite_links[] = &#039;&lt;a href=&quot;&#039; . $post_type_link . &#039;&quot;&gt;&#039; . __( geodir_utf8_ucfirst( $name ), &#039;geodirectory&#039; ) . &#039;&lt;/a&gt;&#039;;
+					}elseif($output_type == &#039;array&#039;){
+						$favourite_links[$key] = array(&#039;url&#039; =&gt; $post_type_link,&#039;text&#039;=&gt;__( geodir_utf8_ucfirst( $name ), &#039;geodirectory&#039; ));
+					}
+
+					$options[$post_type_link] = __( geodir_utf8_ucfirst( $name ), &#039;geodirectory&#039; );
+
+
+				}
+			}
+
+			if ( $favourite_links != &#039;&#039; ) {
+				if ( $output_type == &#039;select&#039; ) {
+					if($design_style){
+						echo &quot;&lt;li class=&#039;list-unstyled&#039;&gt;&quot;;
+						echo  aui()-&gt;select( array(
+							&#039;id&#039;               =&gt; &quot;geodir_my_favourites&quot;,
+							&#039;name&#039;             =&gt; &quot;geodir_my_favourites&quot;,
+							&#039;class&#039;             =&gt; &#039;mw-100&#039;,
+							&#039;placeholder&#039;      =&gt; esc_attr__( &#039;My Favorites&#039;, &#039;geodirectory&#039; ),
+							&#039;value&#039;            =&gt; &#039;&#039;,
+							&#039;options&#039;          =&gt; $options,
+							&#039;extra_attributes&#039; =&gt; array(
+								&#039;option-autoredirect&#039; =&gt; &quot;1&quot;
+							)
+						) );
+						echo &quot;&lt;/li&gt;&quot;;
+					}else {
+						?&gt;
+						&lt;li&gt;
+							&lt;select id=&quot;geodir_my_favourites&quot; class=&quot;geodir-select&quot;
+							        option-autoredirect=&quot;1&quot; name=&quot;geodir_my_favourites&quot; option-ajaxchosen=&quot;false&quot;
+							        data-placeholder=&quot;&lt;?php esc_attr_e( &#039;My Favorites&#039;, &#039;geodirectory&#039; ); ?&gt;&quot;
+							        aria-label=&quot;&lt;?php esc_attr_e( &#039;My Favorites&#039;, &#039;geodirectory&#039; ); ?&gt;&quot;&gt;
+								&lt;option value=&quot;&quot; disabled=&quot;disabled&quot; selected=&quot;selected&quot;
+								        style=&#039;display:none;&#039;&gt;&lt;?php echo esc_attr( __( &#039;My Favorites&#039;, &#039;geodirectory&#039; ) ); ?&gt;&lt;/option&gt;
+								&lt;?php echo $favourite_links; ?&gt;
+							&lt;/select&gt;
+						&lt;/li&gt;
+						&lt;?php
+					}
+				} elseif ( $output_type == &#039;link&#039; ) {
+					if ( ! empty( $favourite_links ) ) {
+						echo implode( &quot; | &quot;, $favourite_links );
+					}
+
+				}elseif($output_type == &#039;array&#039;){
+					return $favourite_links;
+				}
+			}
+		}
+	}
+
+
+	/**
+	 * Show the users listings in a select or string.
+     *
+     * @since 2.0.0
+	 *
+	 * @param string $user_id Optional. User id. Default null.
+	 * @param string $output_type Optional. Output type. Default select.
+	 *
+	 * @return string
+	 */
+	public static function show_listings( $user_id = &#039;&#039;, $output_type = &#039;select&#039; ) {
+
+		if ( ! $user_id ) {
+			$user_id = get_current_user_id();
+		}
+		if ( ! $user_id ) {
+			return &#039;&#039;;
+		}
+
+		$design_style = geodir_design_style();
+		$options = array();
+
+		$user_listing = geodir_user_post_listing_count( $user_id, true );
+
+		$listing_links = array();
+
+		$post_types = geodir_get_posttypes( &#039;object&#039; );
+
+		$author_link = get_author_posts_url( $user_id );
+		$author_link = geodir_getlink( $author_link, array(), false );
+
+		foreach ( $post_types as $key =&gt; $postobj ) {
+			if ( array_key_exists( $key, $user_listing ) ) {
+				$name         = $postobj-&gt;labels-&gt;name;
+				$cpt_slug     = geodir_cpt_permalink_rewrite_slug( $key, $postobj );
+				$listing_link = trailingslashit($author_link) . $cpt_slug . &quot;/&quot;;
+
+
+				$selected = &#039;&#039;;
+				if ( ! isset( $_REQUEST[&#039;list&#039;] ) &amp;&amp; isset( $_REQUEST[&#039;geodir_dashbord&#039;] ) &amp;&amp; isset( $_REQUEST[&#039;stype&#039;] ) &amp;&amp; $_REQUEST[&#039;stype&#039;] == $key ) {
+					$selected = &#039;selected=&quot;selected&quot;&#039;;
+				}
+
+				/**
+				 * Filter my listing link.
+				 *
+				 * @since 1.0.0
+				 *
+				 * @param string $listing_link My listing link.
+				 * @param string $key My listing array key.
+				 * @param int $current_user -&gt;ID Current user ID.
+				 */
+				$listing_link = apply_filters( &#039;geodir_dashboard_link_my_listing&#039;, $listing_link, $key, $user_id );
+				if ( $output_type == &#039;select&#039; ) {
+					$listing_links[] = &#039;&lt;option &#039; . $selected . &#039; value=&quot;&#039; . $listing_link . &#039;&quot;&gt;&#039; . __( geodir_utf8_ucfirst( $name ), &#039;geodirectory&#039; ) . &#039;&lt;/option&gt;&#039;;
+				} elseif ( $output_type == &#039;link&#039; ) {
+					$listing_links[] = &#039;&lt;a href=&quot;&#039; . $listing_link . &#039;&quot;&gt;&#039; . __( geodir_utf8_ucfirst( $name ), &#039;geodirectory&#039; ) . &#039;&lt;/a&gt;&#039;;
+				}elseif($output_type == &#039;array&#039;){
+					$listing_links[] = array(&#039;url&#039; =&gt; $listing_link,&#039;text&#039;=&gt;__( geodir_utf8_ucfirst( $name ), &#039;geodirectory&#039; ));
+				}
+
+				$options[$listing_link] = __( geodir_utf8_ucfirst( $name ), &#039;geodirectory&#039; );
+
+			}
+		}
+
+
+		if ( !empty($listing_links) ) {
+			if ( $output_type == &#039;select&#039; ) {
+				if($design_style){
+					echo &quot;&lt;li class=&#039;list-unstyled&#039;&gt;&quot;;
+					echo  aui()-&gt;select( array(
+						&#039;id&#039;               =&gt; &quot;geodir_my_listings&quot;,
+						&#039;name&#039;             =&gt; &quot;geodir_my_listings&quot;,
+						&#039;class&#039;             =&gt; &#039;mw-100&#039;,
+						&#039;placeholder&#039;      =&gt; esc_attr__( &#039;My Listings&#039;, &#039;geodirectory&#039; ),
+						&#039;value&#039;            =&gt; &#039;&#039;,
+						&#039;options&#039;          =&gt; $options,
+						&#039;extra_attributes&#039; =&gt; array(
+							&#039;option-autoredirect&#039; =&gt; &quot;1&quot;
+						)
+					) );
+					echo &quot;&lt;/li&gt;&quot;;
+				}else {
+					?&gt;
+					&lt;li&gt;
+						&lt;select id=&quot;geodir_my_listings&quot; class=&quot;geodir-select&quot;
+						        option-autoredirect=&quot;1&quot; name=&quot;geodir_my_listings&quot; option-ajaxchosen=&quot;false&quot;
+						        data-placeholder=&quot;&lt;?php echo esc_attr( __( &#039;My Listings&#039;, &#039;geodirectory&#039; ) ); ?&gt;&quot;
+						        aria-label=&quot;&lt;?php esc_attr_e( &#039;My Listings&#039;, &#039;geodirectory&#039; ); ?&gt;&quot;&gt;
+							&lt;option value=&quot;&quot; disabled=&quot;disabled&quot; selected=&quot;selected&quot;
+							        style=&#039;display:none;&#039;&gt;&lt;?php echo esc_attr( __( &#039;My Listings&#039;, &#039;geodirectory&#039; ) ); ?&gt;&lt;/option&gt;
+							&lt;?php echo implode( &quot;&quot;, $listing_links ); ?&gt;
+						&lt;/select&gt;
+					&lt;/li&gt;
+					&lt;?php
+				}
+			} elseif ( $output_type == &#039;link&#039; ) {
+				if ( ! empty( $listing_links ) ) {
+					echo implode( &quot; | &quot;, $listing_links );
+				}
+
+			}elseif($output_type == &#039;array&#039;){
+				return $listing_links;
+			}
+		}
+
+
+	}
+
+    /**
+     * Get the add listing links.
+     *
+     * @since 2.0.0
+     *
+     */
+	public static function show_add_listings($output = &#039;select&#039;) {
+
+		$post_types = geodir_get_posttypes( &#039;object&#039; );
+		$design_style = geodir_design_style();
+		$options = array();
+		$addlisting_links = $output==&#039;array&#039; ? array() : &#039;&#039;;
+		foreach ( $post_types as $key =&gt; $postobj ) {
+			
+			if ( ! isset( $postobj-&gt;disable_frontend_add ) || $postobj-&gt;disable_frontend_add == &#039;0&#039; ) {
+				if ( $add_link = geodir_add_listing_page_url( $key ) ) {
+
+					$name = $postobj-&gt;labels-&gt;name;
+
+					$selected = &#039;&#039;;
+					if ( geodir_get_current_posttype() == $key &amp;&amp; geodir_is_page( &#039;add-listing&#039; ) ) {
+						$selected = &#039;selected=&quot;selected&quot;&#039;;
+					}
+
+					/**
+					 * Filter add listing link.
+					 *
+					 * @since 1.0.0
+					 *
+					 * @param string $add_link Add listing link.
+					 * @param string $key Add listing array key.
+					 * @param int $current_user -&gt;ID Current user ID.
+					 */
+					$add_link = apply_filters( &#039;geodir_dashboard_link_add_listing&#039;, $add_link, $key, get_current_user_id() );
+					$name     = apply_filters( &#039;geodir_dashboard_label_add_listing&#039;, $name, $key, get_current_user_id() );
+
+					$options[$add_link] = __( geodir_utf8_ucfirst( $name ), &#039;geodirectory&#039; );
+					if($output == &#039;array&#039;){
+						$addlisting_links[$key] = array(&#039;url&#039; =&gt; $add_link,&#039;text&#039;=&gt;__( geodir_utf8_ucfirst( $name ), &#039;geodirectory&#039; ));
+					}else{
+						$addlisting_links .= &#039;&lt;option &#039; . $selected . &#039; value=&quot;&#039; . $add_link . &#039;&quot;&gt;&#039; . __( geodir_utf8_ucfirst( $name ), &#039;geodirectory&#039; ) . &#039;&lt;/option&gt;&#039;;
+					}
+
+				}
+			}
+
+		}
+
+		if($output == &#039;array&#039;){
+			return $addlisting_links;
+		}
+		elseif ( $addlisting_links != &#039;&#039; ) {
+			if($design_style ){
+				echo &quot;&lt;li class=&#039;list-unstyled&#039;&gt;&quot;;
+				echo  aui()-&gt;select( array(
+					&#039;id&#039;               =&gt; &quot;geodir_add_listing&quot;,
+					&#039;name&#039;               =&gt; &quot;geodir_add_listing&quot;,
+					&#039;class&#039;             =&gt; &#039;mw-100&#039;,
+					&#039;placeholder&#039;      =&gt; esc_attr__( &#039;Add Listing&#039;, &#039;geodirectory&#039; ),
+					&#039;value&#039;            =&gt; &#039;&#039;,
+					&#039;options&#039;          =&gt; $options,
+					&#039;extra_attributes&#039; =&gt; array(
+						&#039;option-autoredirect&#039; =&gt; &quot;1&quot;
+					)
+				) );
+				echo &quot;&lt;/li&gt;&quot;;
+			}else {
+				?&gt;
+				&lt;li&gt;&lt;select id=&quot;geodir_add_listing&quot; class=&quot;geodir-select&quot;
+				            option-autoredirect=&quot;1&quot; name=&quot;geodir_add_listing&quot; option-ajaxchosen=&quot;false&quot;
+				            data-placeholder=&quot;&lt;?php echo esc_attr( __( &#039;Add Listing&#039;, &#039;geodirectory&#039; ) ); ?&gt;&quot;
+				            aria-label=&quot;&lt;?php esc_attr_e( &#039;Add Listing&#039;, &#039;geodirectory&#039; ); ?&gt;&quot;&gt;
+						&lt;option value=&quot;&quot; disabled=&quot;disabled&quot; selected=&quot;selected&quot;
+						        style=&#039;display:none;&#039;&gt;&lt;?php echo esc_attr( __( &#039;Add Listing&#039;, &#039;geodirectory&#039; ) ); ?&gt;&lt;/option&gt;
+						&lt;?php echo $addlisting_links; ?&gt;
+					&lt;/select&gt;&lt;/li&gt; &lt;?php
+			}
+
+		}
+
+
+	}
+
+    /**
+     * Delete Post.
+     *
+     * @since 2.0.0
+     *
+     * @param int $post_id Post id.
+     *
+     * @return bool|WP_Error
+     */
+	public static function delete_post($post_id){
+	    if(!geodir_listing_belong_to_current_user($post_id)){
+		    return new WP_Error( &#039;gd-delete-failed&#039;, __( &quot;You do not have permission to delete this post.&quot;, &quot;geodirectory&quot; ) );
+	    }
+		$force_delete = geodir_get_option(&#039;user_trash_posts&#039;)==1 ? false : true;
+
+	    if($force_delete){
+		    $result = wp_delete_post( $post_id, $force_delete );
+	    }else{
+		    $result = wp_trash_post( $post_id );
+	    }
+	    if($result == false){
+		    return new WP_Error( &#039;gd-delete-failed&#039;, __( &quot;Delete post failed.&quot;, &quot;geodirectory&quot; ) );
+	    }else{
+	        return true;
+        }
+    }
+
+	public static function login_link( $redirect = &#039;&#039; ) {
+		$login_title = esc_attr__( &#039;Login&#039;, &#039;geodirectory&#039; );
+
+		if ( $redirect == &#039;&#039; ) {
+			$redirect = geodir_curPageURL();
+		}
+		$login_link = wp_login_url( $redirect );
+
+		$design_style = geodir_design_style();
+
+		$btn_class = $design_style ? &#039;btn btn-primary&#039; : &#039;&#039;;
+
+		$output = &quot;&lt;div class=&#039;gd-login-links&#039;&gt;&quot;;
+		$output .= &#039;&lt;a class=&quot;login-link uwp-login-link &#039;.$btn_class.&#039;&quot; href=&quot;&#039; . esc_url( $login_link ) . &#039;&quot; title=&quot;&#039; . $login_title . &#039;&quot;&gt;&#039; . $login_title . &#039;&lt;/a&gt;&#039;;
+
+		if ( get_option( &#039;users_can_register&#039; ) ) {
+			$btn_class = $design_style ? &#039;btn btn-outline-primary&#039; : &#039;&#039;;
+			$register_title = esc_attr__( &#039;Register&#039;, &#039;geodirectory&#039; );
+			$register_link = wp_registration_url();
+			$output .= $design_style ? &#039; &#039; : &#039; | &#039;;
+			$output .= &#039;&lt;a class=&quot;register-link uwp-register-link &#039;.$btn_class.&#039;&quot; href=&quot;&#039; . esc_url( $register_link ) . &#039;&quot; title=&quot;&#039; . $register_title . &#039;&quot;&gt;&#039; . $register_title . &#039;&lt;/a&gt;&#039;;
+		}
+
+		$output .= &quot;&lt;/div&gt;&quot;;
+
+		return apply_filters( &#039;geodir_login_link&#039;, $output, $login_title, $login_link, $redirect );
+	}
+
+	public static function post_author_action( $action, $the_post ) {
+		$data = array();
+
+		return apply_filters( &#039;geodir_post_author_action_&#039; . $action, $data, $action, $the_post );
+	}
+
+	/**
+	 * Returns whether the current user has the specified capability.
+	 *
+	 * @since 2.1.1.9
+	 *
+	 * @param string $capability Capability name.
+	 * @param array  $args Further parameters.
+	 * @return bool Whether the current user has the given capability.
+	 */
+	public static function user_can( $capability, $args = array() ) {
+		$_args = $args;
+
+		switch( $capability ) {
+			case &#039;see_private_address&#039;:
+				$has_cap = true;
+
+				$defaults = array(
+					&#039;post&#039; =&gt; NULL,
+					&#039;author&#039; =&gt; true,
+				);
+
+				$_args = wp_parse_args( $args, $defaults );
+
+				if ( GeoDir_Post_Data::has_private_address( $_args[&#039;post&#039;] ) ) {
+					if ( ! empty( $_args[&#039;author&#039;] ) ) {
+						if ( is_scalar( $_args[&#039;post&#039;] ) ) {
+							$post_ID = absint( $_args[&#039;post&#039;] );
+						} else if ( is_object( $_args[&#039;post&#039;] ) ) {
+							$post_ID = $_args[&#039;post&#039;]-&gt;ID;
+						} else {
+							$post_ID = 0;
+						}
+
+						if ( ! geodir_listing_belong_to_current_user( $post_ID ) ) {
+							$has_cap = false;
+						}
+					} else {
+						$has_cap = false;
+					}
+				}
+				break;
+			default:
+				$has_cap = false;
+
+				break;
+		}
+
+		/**
+		 * Filters whether the current user has the specified capability.
+		 *
+		 * @since 2.1.1.9
+		 *
+		 * @param bool   $has_cap Whether the current user has the given capability.
+		 * @param string $capability Capability name.
+		 * @param array  $_args Further parameters.
+		 * @param array  $args Original parameters.
+		 * @return bool Whether the current user has the given capability.
+		 */
+		return apply_filters( &#039;geodir_current_user_can&#039;, $has_cap, $capability, $_args, $args );
+	}
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

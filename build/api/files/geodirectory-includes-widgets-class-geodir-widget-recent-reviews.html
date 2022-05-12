@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-widget-recent-reviews.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory Recent Reviews Widget
+ *
+ * @since 1.0.0
+ *
+ * @package GeoDirectory
+ */
+
+/**
+ * GeoDirectory recent reviews widget class.
+ *
+ * @since 1.0.0
+ */
+class GeoDir_Widget_Recent_Reviews extends WP_Super_Duper {
+    
+    /**
+     * Register the categories with WordPress.
+     *
+     * @since 2.0.0
+     *
+     */
+    public function __construct() {
+
+        $options = array(
+            &#039;textdomain&#039;    =&gt; GEODIRECTORY_TEXTDOMAIN,
+            &#039;block-icon&#039;    =&gt; &#039;admin-site&#039;,
+            &#039;block-category&#039;=&gt; &#039;geodirectory&#039;,
+            &#039;block-keywords&#039;=&gt; &quot;[&#039;geo&#039;,&#039;reviews&#039;,&#039;comments&#039;]&quot;,
+
+            &#039;class_name&#039;    =&gt; __CLASS__,
+            &#039;base_id&#039;       =&gt; &#039;gd_recent_reviews&#039;, // this us used as the widget id and the shortcode id.
+            &#039;name&#039;          =&gt; __(&#039;GD &gt; Recent Reviews&#039;,&#039;geodirectory&#039;), // the name of the widget.
+            //&#039;disable_widget&#039;=&gt; true,
+            &#039;widget_ops&#039;    =&gt; array(
+                &#039;classname&#039;   =&gt; &#039;geodir-wgt-recent-reviews &#039;.geodir_bsui_class(), // widget class
+                &#039;description&#039; =&gt; esc_html__(&#039;Display a list of recent reviews from GeoDirectory listings.&#039;,&#039;geodirectory&#039;), // widget description
+                &#039;customize_selective_refresh&#039; =&gt; true,
+                &#039;geodirectory&#039; =&gt; true,
+            ),
+            &#039;arguments&#039;     =&gt; array(
+                &#039;title&#039;  =&gt; array(
+                    &#039;title&#039; =&gt; __(&#039;Title:&#039;, &#039;geodirectory&#039;),
+                    &#039;desc&#039; =&gt; __(&#039;The widget title.&#039;, &#039;geodirectory&#039;),
+                    &#039;type&#039; =&gt; &#039;text&#039;,
+                    &#039;default&#039;  =&gt; &#039;&#039;,
+                    &#039;desc_tip&#039; =&gt; true,
+                    &#039;advanced&#039; =&gt; false,
+                    &#039;group&#039;     =&gt; __(&quot;Title&quot;,&quot;geodirectory&quot;)
+                ),
+                &#039;count&#039;  =&gt; array(
+                    &#039;title&#039; =&gt; __(&#039;Number of reviews to show:&#039;, &#039;geodirectory&#039;),
+                    &#039;desc&#039; =&gt; __(&#039;Number of reviews to show.&#039;, &#039;geodirectory&#039;),
+                    &#039;type&#039; =&gt; &#039;number&#039;,
+                    &#039;default&#039;  =&gt; &#039;5&#039;,
+                    &#039;desc_tip&#039; =&gt; true,
+                    &#039;advanced&#039; =&gt; false,
+                    &#039;group&#039;     =&gt; __(&quot;Filter&quot;,&quot;geodirectory&quot;)
+                ),
+                &#039;min_rating&#039;  =&gt; array(
+	                &#039;title&#039; =&gt; __(&#039;Minimum rating of reviews:&#039;, &#039;geodirectory&#039;),
+	                &#039;desc&#039; =&gt; __(&#039;This will only show reviews with a rating of this number or above.&#039;, &#039;geodirectory&#039;),
+	                &#039;type&#039; =&gt; &#039;number&#039;,
+	                &#039;default&#039;  =&gt; &#039;&#039;,
+	                &#039;desc_tip&#039; =&gt; true,
+	                &#039;advanced&#039; =&gt; false,
+	                &#039;group&#039;     =&gt; __(&quot;Filter&quot;,&quot;geodirectory&quot;)
+                ),
+			    &#039;add_location_filter&#039;  =&gt; array(
+				    &#039;title&#039; =&gt; __(&quot;Enable location filter&quot;, &#039;geodirectory&#039;),
+				    &#039;type&#039; =&gt; &#039;checkbox&#039;,
+				    &#039;desc_tip&#039; =&gt; true,
+				    &#039;value&#039;  =&gt; &#039;1&#039;,
+				    &#039;default&#039;  =&gt; 0,
+				    &#039;advanced&#039; =&gt; false,
+				    &#039;group&#039;     =&gt; __(&quot;Filter&quot;,&quot;geodirectory&quot;)
+			    ),
+			    &#039;use_viewing_post_type&#039;  =&gt; array(
+				    &#039;title&#039; =&gt; __(&quot;Filter reviews for current viewing post type&quot;, &#039;geodirectory&#039;),
+				    &#039;type&#039; =&gt; &#039;checkbox&#039;,
+				    &#039;desc_tip&#039; =&gt; true,
+				    &#039;value&#039;  =&gt; &#039;1&#039;,
+				    &#039;default&#039;  =&gt; 0,
+				    &#039;advanced&#039; =&gt; false,
+				    &#039;group&#039;     =&gt; __(&quot;Filter&quot;,&quot;geodirectory&quot;)
+				),
+				&#039;review_by_author&#039;      =&gt; array(
+					&#039;title&#039;    =&gt; __(&#039;Reviews by author:&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039;     =&gt; __(&#039;Filter by current_user, current_author or ID (default = unfiltered). current_user: Filters the reviews by author id of the logged in user. current_author: Filters the reviews by author id of current viewing post/listing/profile&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; false,
+					&#039;group&#039;    =&gt; __( &quot;Filter&quot;, &quot;geodirectory&quot; )
+				),
+				&#039;post_id&#039;    =&gt; array(
+					&#039;title&#039;    =&gt; __(&#039;Reviews for Post ID:&#039;, &#039;geodirectory&#039;),
+					&#039;desc&#039;     =&gt; __(&#039;Filter by current or ID or blank (default = unfiltered). current: filters reviews submitted under current viewing post. ID: filters reviews submitted under specific post id. Leave blank to not apply post id filter.&#039;, &#039;geodirectory&#039;),
+					&#039;type&#039;     =&gt; &#039;text&#039;,
+					&#039;default&#039;  =&gt; &#039;&#039;,
+					&#039;desc_tip&#039; =&gt; true,
+					&#039;advanced&#039; =&gt; false,
+					&#039;group&#039;    =&gt; __( &quot;Filter&quot;, &quot;geodirectory&quot; )
+				)
+            )
+        );
+
+	    $design_style = geodir_design_style();
+
+	    if($design_style) {
+
+		    // title styles
+		    $title_args = geodir_get_sd_title_inputs();
+		    $options[&#039;arguments&#039;] = $options[&#039;arguments&#039;] + $title_args;
+
+		    $options[&#039;arguments&#039;][&#039;row_items&#039;] = array(
+			    &#039;title&#039; =&gt; __(&#039;Row Items&#039;, &#039;geodirectory&#039;),
+			    &#039;desc&#039; =&gt; __(&#039;The number of items in a row on desktop view.&#039;, &#039;geodirectory&#039;),
+			    &#039;type&#039; =&gt; &#039;select&#039;,
+			    &#039;options&#039;   =&gt;  array(
+				    &quot;&quot; =&gt; __(&#039;Default (1)&#039;, &#039;geodirectory&#039;),
+				    &quot;2&quot; =&gt; &quot;2&quot;,
+				    &quot;3&quot; =&gt; &quot;3&quot;,
+				    &quot;4&quot; =&gt; &quot;4&quot;,
+				    &quot;5&quot; =&gt; &quot;5&quot;,
+				    &quot;6&quot; =&gt; &quot;6&quot;,
+			    ),
+			    &#039;default&#039;  =&gt; &#039;&#039;,
+			    &#039;desc_tip&#039; =&gt; true,
+			    &#039;advanced&#039; =&gt; false,
+			    &#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+		    );
+
+		    $options[&#039;arguments&#039;][&#039;carousel&#039;] = array(
+			    &#039;title&#039; =&gt; __(&#039;Carousel&#039;, &#039;geodirectory&#039;),
+			    &#039;desc&#039; =&gt; __(&#039;Display as a carousel.&#039;, &#039;geodirectory&#039;),
+			    &#039;type&#039; =&gt; &#039;select&#039;,
+			    &#039;options&#039;   =&gt;  array(
+				    &quot;&quot; =&gt; __(&#039;None&#039;, &#039;geodirectory&#039;),
+				    &quot;slide&quot; =&gt; __(&#039;Slide&#039;, &#039;geodirectory&#039;),
+				    &quot;fade&quot; =&gt; __(&#039;Fade&#039;, &#039;geodirectory&#039;),
+			    ),
+			    &#039;default&#039;  =&gt; &#039;&#039;,
+			    &#039;desc_tip&#039; =&gt; true,
+			    &#039;advanced&#039; =&gt; false,
+			    &#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+		    );
+
+		    // background
+		    $arguments[&#039;bg&#039;]  = geodir_get_sd_background_input(&#039;mt&#039;);
+
+		    // margins
+		    $arguments[&#039;mt&#039;]  = geodir_get_sd_margin_input(&#039;mt&#039;);
+		    $arguments[&#039;mr&#039;]  = geodir_get_sd_margin_input(&#039;mr&#039;);
+		    $arguments[&#039;mb&#039;]  = geodir_get_sd_margin_input(&#039;mb&#039;,array(&#039;default&#039;=&gt;3));
+		    $arguments[&#039;ml&#039;]  = geodir_get_sd_margin_input(&#039;ml&#039;);
+
+		    // padding
+		    $arguments[&#039;pt&#039;]  = geodir_get_sd_padding_input(&#039;pt&#039;);
+		    $arguments[&#039;pr&#039;]  = geodir_get_sd_padding_input(&#039;pr&#039;);
+		    $arguments[&#039;pb&#039;]  = geodir_get_sd_padding_input(&#039;pb&#039;);
+		    $arguments[&#039;pl&#039;]  = geodir_get_sd_padding_input(&#039;pl&#039;);
+
+		    // border
+		    $arguments[&#039;border&#039;]  = geodir_get_sd_border_input(&#039;border&#039;);
+		    $arguments[&#039;rounded&#039;]  = geodir_get_sd_border_input(&#039;rounded&#039;);
+		    $arguments[&#039;rounded_size&#039;]  = geodir_get_sd_border_input(&#039;rounded_size&#039;);
+
+		    // shadow
+		    $arguments[&#039;shadow&#039;]  = geodir_get_sd_shadow_input(&#039;shadow&#039;);
+		    
+
+		    $options[&#039;arguments&#039;] = $options[&#039;arguments&#039;] + $arguments;
+	    }
+
+		parent::__construct( $options );
+	}
+
+     /**
+     * The Super block output function.
+     *
+     * @param array $args
+     * @param array $widget_args
+     * @param string $content
+     *
+     * @return mixed|string|void
+     */
+    public function output( $args = array(), $widget_args = array(), $content = &#039;&#039; ) {
+        $defaults = array(
+            &#039;title&#039; =&gt; &#039;&#039;,
+            &#039;count&#039; =&gt; &#039;5&#039;,
+            &#039;min_rating&#039; =&gt; 0,
+            &#039;add_location_filter&#039; =&gt; &#039;&#039;,
+            &#039;use_viewing_post_type&#039; =&gt; &#039;&#039;,
+            &#039;row_items&#039; =&gt; &#039;&#039;,
+            &#039;review_by_author&#039; =&gt; &#039;&#039;,
+            &#039;post_id&#039; =&gt; &#039;&#039;,
+            &#039;carousel&#039; =&gt; &#039;&#039;,
+            &#039;bg&#039;    =&gt; &#039;&#039;,
+            &#039;mt&#039;    =&gt; &#039;&#039;,
+            &#039;mb&#039;    =&gt; &#039;3&#039;,
+            &#039;mr&#039;    =&gt; &#039;&#039;,
+            &#039;ml&#039;    =&gt; &#039;&#039;,
+            &#039;pt&#039;    =&gt; &#039;&#039;,
+            &#039;pb&#039;    =&gt; &#039;&#039;,
+            &#039;pr&#039;    =&gt; &#039;&#039;,
+            &#039;pl&#039;    =&gt; &#039;&#039;,
+            &#039;border&#039;    =&gt; &#039;&#039;,
+            &#039;rounded&#039;    =&gt; &#039;&#039;,
+            &#039;rounded_size&#039;    =&gt; &#039;&#039;,
+            &#039;shadow&#039;    =&gt; &#039;&#039;,
+        );
+        $instance = wp_parse_args( $args, $defaults );
+
+		// prints the widget
+        extract( $widget_args, EXTR_SKIP );
+
+	    $design_style = geodir_design_style();
+
+        /** This filter is documented in includes/widget/class-geodir-widget-advance-search.php.php */
+        $title = empty($instance[&#039;title&#039;]) ? &#039;&#039; : apply_filters(&#039;widget_title&#039;, __($instance[&#039;title&#039;], &#039;geodirectory&#039;));
+        
+        /**
+         * Filter the number of reviews to display.
+         *
+         * @since 1.0.0
+         *
+         * @param int $instance[&#039;count&#039;] Number of reviews to display.
+         */
+        $count = empty($instance[&#039;count&#039;]) ? &#039;5&#039; : apply_filters(&#039;widget_count&#039;, $instance[&#039;count&#039;]);
+
+        /**
+         * Filter the height and width of the avatar image in pixels.
+         *
+         * @since 1.0.0
+         *
+         * @param int $g_size Height and width of the avatar image in pixels. Default 30.
+         */
+        $g_size = apply_filters(&#039;geodir_recent_reviews_g_size&#039;, $design_style ? 44 : 30);
+        /**
+         * Filter the excerpt length
+         *
+         * @since 1.0.0
+         *
+         * @param int $excerpt_length Excerpt length. Default 100.
+         */
+        $excerpt_length = apply_filters(&#039;geodir_recent_reviews_excerpt_length&#039;, 100);
+
+        /**
+         * Filters the recent reviews default location filter.
+         *
+         * @since 2.0.0
+         *
+         * @param bool   $add_location_filter Whether the location filter is active. Default false.
+         * @param array  $instance An array of the widget&#039;s settings.
+         * @param mixed  $id_base  The widget ID.
+         */
+        $add_location_filter = apply_filters( &#039;geodir_recent_reviews_widget_location_filter&#039;, empty( $instance[&#039;add_location_filter&#039;] ) ? false : true, $instance, $this-&gt;id_base );
+        
+        /**
+         * Filters the recent reviews viewing post type.
+         *
+         * @since 2.0.0
+         *
+         * @param bool   $use_viewing_post_type Whether the viewing post type filter is active. Default false.
+         * @param array  $instance An array of the widget&#039;s settings.
+         * @param mixed  $id_base  The widget ID.
+         */
+        $use_viewing_post_type = apply_filters( &#039;geodir_recent_reviews_widget_use_viewing_post_type&#039;, empty( $instance[&#039;use_viewing_post_type&#039;] ) ? false : true, $instance, $this-&gt;id_base );
+        $post_type = $use_viewing_post_type ? geodir_get_current_posttype() : &#039;&#039;;
+		/**
+		 * Filter the widget review_by_author param.
+		 *
+		 * @since 2.1.0.8
+		 *
+		 * @param string $instance [&#039;review_by_author&#039;] Filter by author.
+		 */
+		$review_by_author = empty( $instance[&#039;review_by_author&#039;] ) ? &#039;&#039; : apply_filters( &#039;widget_review_by_author&#039;, $instance[&#039;review_by_author&#039;], $instance, $this-&gt;id_base );
+		if ( ! empty( $review_by_author ) ) {
+			global $post;
+			// &#039;current&#039; left for backwards compatibility
+			if ( $review_by_author === &#039;current&#039; || $review_by_author === &#039;current_author&#039; ) {
+				if (
+					! empty( $post )
+					&amp;&amp; is_object( $post )
+					&amp;&amp; property_exists( $post, &#039;post_type&#039; )
+					&amp;&amp; property_exists( $post, &#039;post_author&#039; )
+					&amp;&amp; $post-&gt;post_type != &#039;page&#039;
+					&amp;&amp; isset( $post-&gt;post_author )
+				) {
+					$review_by_author = $post-&gt;post_author;
+				} else {
+					$review_by_author = -1; // Don&#039;t show any review widget.
+				}
+			} elseif ( $review_by_author === &#039;current_user&#039; ) {
+				if (
+					is_user_logged_in()
+					&amp;&amp;
+					( ! empty( get_current_user_id() ) )
+				) {
+					$review_by_author = get_current_user_id();
+				} else {
+					$review_by_author = -1; // If not logged in then don&#039;t show review widget.
+				}
+			} elseif ( absint( $review_by_author ) &gt; 0 ) {
+				$review_by_author = absint( $review_by_author );
+			} else {
+				$review_by_author = -1; // Don&#039;t show review widget.
+			}
+		}
+
+		/**
+		 * Filter the widget post_id param.
+		 *
+		 * @since 2.1.1.0
+		 *
+		 * @param string $instance [&#039;post_id&#039;] Filter by author.
+		 */
+		$post_id = empty( $instance[&#039;post_id&#039;] ) ? &#039;&#039; : apply_filters( &#039;widget_review_by_post_id&#039;, $instance[&#039;post_id&#039;], $instance, $this-&gt;id_base );
+
+		if ( ! empty( $post_id ) ) {
+			// &#039;current&#039; left for backwards compatibility.
+			if ( $post_id === &#039;current&#039; ) {
+				$post_id = get_the_ID();
+			} elseif ( absint( $post_id ) &gt; 0 ) {
+				$post_id = absint( $post_id );
+			} else {
+				$post_id = -1; // Don&#039;t show review widget.
+			}
+		}
+
+	    // wrap class
+	    $wrap_class = geodir_build_aui_class($instance);
+
+	    $ul_class = &#039;&#039;;
+	    $wrap_extra = &#039;&#039;;
+	    $slider_id = &#039;gd-reviews-&#039;.$this-&gt;get_instance_hash();
+	    if ( $design_style ) {
+
+
+		    if ( ! empty( $instance[&#039;carousel&#039;] ) ) {
+			    $wrap_extra .= &quot;data-ride=&#039;carousel&#039;  data-limit_show=&#039;&quot;.absint( $instance[&#039;row_items&#039;] ).&quot;&#039;&quot;;
+			    $wrap_class .= &#039; carousel slide carousel-multiple-items&#039;;
+			    if ( $instance[&#039;carousel&#039;] == &#039;fade&#039; ) {
+				    $wrap_class .= &#039; carousel-fade&#039;;
+			    }
+
+			    $ul_class .= &#039; carousel-inner&#039;;
+		    }else{
+			     $ul_class .= &quot; p-0 row row-cols-1 &quot;;
+			    if(!empty($instance[&#039;row_items&#039;])){
+				    $ul_class .= &quot; row-cols-sm-&quot; . absint( $instance[&#039;row_items&#039;] );
+			    }
+		    }
+	    }
+
+	    $comments_li = self::get_recent_reviews($g_size, $count, $excerpt_length, false, $post_type, $add_location_filter,$instance[&#039;min_rating&#039;],$instance[&#039;carousel&#039;], $review_by_author, $post_id );
+
+		$content = &#039;&#039;;
+        if ( !empty( $comments_li ) ) {
+			ob_start();
+			?&gt;
+			&lt;div id=&quot;&lt;?php echo $slider_id;?&gt;&quot; class=&quot;geodir_recent_reviews_section &lt;?php echo $wrap_class;?&gt; &quot; &lt;?php echo $wrap_extra;?&gt; &gt;
+				&lt;ul class=&quot;geodir_recent_reviews list-unstyled my-0 &lt;?php echo $ul_class;?&gt;&quot;&gt;&lt;?php echo $comments_li; ?&gt;&lt;/ul&gt;
+
+			&lt;?php
+	        if ( $design_style &amp;&amp; $instance[&#039;carousel&#039;]) {
+				$reviews_count = substr_count($comments_li,&quot; carousel-item&quot;);
+		        $loop_count = 0;
+		        ?&gt;
+		        &lt;ol class=&quot;carousel-indicators position-relative m-0&quot;&gt;
+			        &lt;?php
+			        while($loop_count &lt;= $reviews_count) {
+				        $active = $loop_count == 0 ? &#039;active&#039; : &#039;&#039;;
+				        echo &#039;&lt;li data-target=&quot;#&#039;.$slider_id.&#039;&quot; data-slide-to=&quot;&#039;.$loop_count.&#039;&quot; class=&quot;my-1 mx-1 bg-dark &#039;.$active.&#039;&quot;&gt;&lt;/li&gt;&#039;;
+				        $loop_count++;
+			        }
+			        ?&gt;
+		        &lt;/ol&gt;
+	        &lt;?php }?&gt;
+
+			&lt;/div&gt;
+			&lt;?php
+			$content = ob_get_clean();
+        }
+
+		return $content;
+    }
+
+
+	/**
+	 * Returns the recent reviews.
+	 *
+	 * @since   1.0.0
+	 * @since   1.6.21 Recent reviews doesn&#039;t working well with WPML.
+	 * @since   2.0.0 Location filter &amp; current post type filter added.
+	 * @package GeoDirectory
+	 *
+	 * @global object $wpdb        WordPress Database object.
+	 *
+	 * @param int $g_size          Optional. Avatar size in pixels. Default 60.
+	 * @param int $no_comments     Optional. Number of reviews you want to display. Default: 10.
+	 * @param int $comment_lenth   Optional. Maximum number of characters you want to display. After that read more link
+	 *                             will appear.
+	 * @param bool $show_pass_post Optional. Not yet implemented.
+	 * @param string $post_type    The post type.
+	 * @param bool $add_location_filter Whether the location filter is active. Default false.
+	 *
+	 * @return string Returns the recent reviews html.
+	 */
+	public static function get_recent_reviews( $g_size = 60, $no_comments = 10, $comment_lenth = 60, $show_pass_post = false, $post_type = &#039;&#039;, $add_location_filter = false, $min_rating = 0, $carousel = &#039;&#039;, $review_by_author = &#039;&#039;, $post_id = &#039;&#039; ) {
+		global $wpdb, $tablecomments, $tableposts, $rating_table_name, $table_prefix;
+		$tablecomments = $wpdb-&gt;comments;
+		$tableposts    = $wpdb-&gt;posts;
+		$comments_echo  = &#039;&#039;;
+		$join = &quot;JOIN &quot; . $wpdb-&gt;comments . &quot; AS c ON c.comment_ID = r.comment_id JOIN &quot; . $wpdb-&gt;posts . &quot; AS p ON p.ID = c.comment_post_ID&quot;;
+		$where = &quot;c.comment_parent = 0 AND c.comment_approved = 1 AND r.rating &gt; 0 AND p.post_status = &#039;publish&#039;&quot;;
+
+		if(absint($min_rating)){
+			$where .= $wpdb-&gt;prepare(&quot; AND r.rating &gt;= %d &quot;,absint($min_rating));
+		}
+
+		if ( !empty( $post_type ) ) {
+			$where .= $wpdb-&gt;prepare( &quot; AND p.post_type = %s&quot;, $post_type );
+		}
+		if ( ! empty( $review_by_author ) ) {
+			$where .= $wpdb-&gt;prepare( &#039; AND r.user_id = %s&#039;, $review_by_author );
+		}
+		if ( ! empty( $post_id ) ) {
+			$where .= $wpdb-&gt;prepare( &#039; AND p.ID = %s&#039;, $post_id );
+		}
+
+		if ( GeoDir_Post_types::supports( $post_type, &#039;location&#039; ) &amp;&amp; $add_location_filter &amp;&amp; defined( &#039;GEODIRLOCATION_VERSION&#039; ) ) {
+			$source = geodir_is_page( &#039;search&#039; ) ? &#039;session&#039; : &#039;query_vars&#039;;
+			$location_terms = geodir_get_current_location_terms( $source );
+			$country = !empty( $location_terms[&#039;country&#039;] ) ? get_actual_location_name( &#039;country&#039;, $location_terms[&#039;country&#039;] ) : &#039;&#039;;
+			$region = !empty( $location_terms[&#039;region&#039;] ) ? get_actual_location_name( &#039;region&#039;, $location_terms[&#039;region&#039;] ) : &#039;&#039;;
+			$city = !empty( $location_terms[&#039;city&#039;] ) ? get_actual_location_name( &#039;city&#039;, $location_terms[&#039;city&#039;] ) : &#039;&#039;;
+
+			if ( $country ) {
+				$where .= $wpdb-&gt;prepare( &quot; AND r.country LIKE %s&quot;, $country );
+			}
+			if ( $region ) {
+				$where .= $wpdb-&gt;prepare( &quot; AND r.region LIKE %s&quot;, $region );
+			}
+			if ( $city ) {
+				$where .= $wpdb-&gt;prepare( &quot; AND r.city LIKE %s&quot;, $city );
+			}
+		}
+
+		$join = apply_filters( &#039;geodir_recent_reviews_query_join&#039;, $join, $post_type, $add_location_filter );
+		$where = apply_filters( &#039;geodir_recent_reviews_query_where&#039;, $where, $post_type, $add_location_filter );
+
+		$where = ! empty( $where ) ? &quot;WHERE {$where}&quot; : &quot;&quot;;
+		$count = $wpdb-&gt;prepare( &quot;%d&quot;, $no_comments );
+		$request = &quot;SELECT c.comment_ID, c.comment_author, c.comment_author_email, c.comment_content, c.comment_date, r.rating, r.user_id, r.post_id, r.post_type FROM &quot; . GEODIR_REVIEW_TABLE . &quot; AS r {$join} {$where} ORDER BY c.comment_date DESC, c.comment_ID DESC LIMIT $count&quot;;
+
+		$comments = $wpdb-&gt;get_results( $request );
+
+		$design_style = geodir_design_style();
+		$i = 0;
+		foreach ( $comments as $comment ) {
+			$comment_id      = $comment-&gt;comment_ID;
+			$comment_content = strip_tags( $comment-&gt;comment_content );
+			$comment_content = preg_replace( &#039;#(\\[img\\]).+(\\[\\/img\\])#&#039;, &#039;&#039;, $comment_content );
+
+			$permalink            = get_permalink( $comment-&gt;post_id ) . &quot;#comment-&quot; . $comment-&gt;comment_ID;
+			$comment_author_email = $comment-&gt;comment_author_email;
+			$comment_post_ID      = $comment-&gt;post_id;
+
+			$post_title        = trim( esc_html( strip_tags( stripslashes( get_the_title( $comment_post_ID ) ) ) ) );
+			$permalink         = get_permalink( $comment_post_ID );
+			$comment_permalink = $permalink . &quot;#comment-&quot; . $comment-&gt;comment_ID;
+			$readmore_seo_class = $design_style ? &#039;sr-only&#039; : &#039;&#039;;
+			$read_more         = &#039;&lt;a class=&quot;comment_excerpt&quot; href=&quot;&#039; . $comment_permalink . &#039;&quot;&gt;&#039; . __( &#039;Read more&#039;, &#039;geodirectory&#039; ) . &#039;&lt;span class=&quot;gd-visuallyhidden &#039;.$readmore_seo_class.&#039;&quot;&gt; &#039; . __( &#039;about this listing&#039;, &#039;geodirectory&#039; ) . &#039;&lt;/span&gt;&lt;/a&gt;&#039;;
+
+			$comment_content_length = strlen( $comment_content );
+			if ( $comment_content_length &gt; $comment_lenth ) {
+				$comment_excerpt = geodir_utf8_substr( $comment_content, 0, $comment_lenth ) . &#039;... &#039; . $read_more;
+			} else {
+				$comment_excerpt = $comment_content;
+			}
+
+			if ( $comment-&gt;user_id ) {
+				$user_profile_url = get_author_posts_url( $comment-&gt;user_id );
+			} else {
+				$user_profile_url = &#039;&#039;;
+			}
+
+			if ( $comment_id ) {
+
+				$avatar_size = apply_filters( &#039;geodir_comment_avatar_size&#039;, $g_size );
+
+				$template = $design_style ? $design_style.&quot;/reviews/recent-item.php&quot; : &quot;legacy/reviews/recent-item.php&quot;;
+
+				$args = array(
+					&#039;comment&#039;  =&gt; $comment,
+					&#039;comment_id&#039;  =&gt; $comment_id,
+					&#039;avatar_size&#039;  =&gt; $avatar_size,
+					&#039;permalink&#039;  =&gt;  $permalink,
+					&#039;comment_excerpt&#039;  =&gt; $comment_excerpt,
+					&#039;post_title&#039;  =&gt; $post_title,
+					&#039;comment_post_ID&#039;  =&gt; $comment_post_ID,
+					&#039;carousel&#039;  =&gt; $carousel,
+					&#039;active&#039;  =&gt; $carousel &amp;&amp; $i===0,
+				);
+				$comments_echo .= geodir_get_template_html( $template, $args );
+				$i++;
+			}
+		}
+
+		return $comments_echo;
+	}
+
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

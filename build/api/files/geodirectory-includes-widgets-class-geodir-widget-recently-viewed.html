@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-widget-recently-viewed.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+/**
+ * GeoDirectory Search widget.
+ *
+ * @since 1.0.0
+ */
+class GeoDir_Widget_Recently_Viewed extends WP_Super_Duper {
+
+	public function __construct() {
+
+		$options = array(
+			&#039;textdomain&#039;    =&gt; GEODIRECTORY_TEXTDOMAIN,
+			&#039;block-icon&#039;    =&gt; &#039;admin-site&#039;,
+			&#039;block-category&#039;=&gt; &#039;geodirectory&#039;,
+			&#039;block-keywords&#039;=&gt; &quot;[&#039;Recently Viewed&#039;,&#039;geodir&#039;]&quot;,
+			&#039;class_name&#039;    =&gt; __CLASS__,
+			&#039;base_id&#039;       =&gt; &#039;gd_recently_viewed&#039;,
+			&#039;name&#039;          =&gt; __(&#039;GD &gt; Recently Viewed&#039;,&#039;geodirectory&#039;), // the name of the widget.
+			&#039;widget_ops&#039;    =&gt; array(
+				&#039;classname&#039;   =&gt; &#039;geodir-recently-viewed &#039;.geodir_bsui_class(), // widget class
+				&#039;description&#039; =&gt; esc_html__(&#039;Shows the GeoDirectory Most Recently Viewed Listings.&#039;,&#039;geodirectory&#039;),
+				&#039;geodirectory&#039; =&gt; true,
+			),
+		);
+
+		parent::__construct( $options );
+
+
+		add_action(&#039;wp_enqueue_scripts&#039;,array( $this,  &#039;enqueue_script&#039;) );
+//		add_action(&#039;wp_footer&#039;, array( $this, &#039;geodir_recently_viewed_posts&#039; ),1000);
+
+	}
+
+	/**
+	 * Set the arguments later.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @return array
+	 */
+	public function set_arguments(){
+
+		$design_style = geodir_design_style();
+
+		$widget_args = array();
+
+		$widget_args[&#039;title&#039;] = array(
+			&#039;title&#039; =&gt; __(&#039;Title:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;The Recently Viewed widget title.&#039;, &#039;geodirectory&#039;),
+			&#039;type&#039; =&gt; &#039;text&#039;,
+			&#039;placeholder&#039; =&gt; __( &#039;Recently Viewed&#039;, &#039;geodirectory&#039; ),
+			&#039;default&#039;  =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; false,
+		);
+
+		$widget_args[&#039;post_limit&#039;] = array(
+			&#039;title&#039; =&gt; __(&#039;Posts to show:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;The number of posts to show by default. (max 50)&#039;, &#039;geodirectory&#039;),
+			&#039;type&#039; =&gt; &#039;number&#039;,
+			&#039;default&#039;  =&gt; &#039;6&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; true
+		);
+
+		$widget_args[&#039;layout&#039;] = array(
+			&#039;title&#039; =&gt; __(&#039;Layout:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;How the listings should laid out by default.&#039;, &#039;geodirectory&#039;),
+			&#039;type&#039; =&gt; &#039;select&#039;,
+			&#039;options&#039;   =&gt;  geodir_get_layout_options(),
+			&#039;default&#039;  =&gt; &#039;2&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; true
+		);
+
+		$get_posts = geodir_get_posttypes(&#039;options-plural&#039;);
+
+		$widget_args[&#039;post_type&#039;] = array(
+			&#039;title&#039; =&gt; __(&#039;Post Type:&#039;, &#039;geodirectory&#039;),
+			&#039;desc&#039; =&gt; __(&#039;The custom post types to show. Only used when there are multiple CPTs.&#039;, &#039;geodirectory&#039;),
+			&#039;type&#039; =&gt; &#039;select&#039;,
+			&#039;options&#039;   =&gt;  $get_posts,
+			&#039;default&#039;  =&gt; &#039;&#039;,
+			&#039;desc_tip&#039; =&gt; true,
+			&#039;advanced&#039; =&gt; true
+		);
+
+
+		// not needed in AUI
+		if(!$design_style){
+			$widget_args[&#039;enqueue_slider&#039;]  = array(
+				&#039;title&#039; =&gt; __(&#039;Enqueue Slider Script:&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;This is only needed if your archive items are using a image slider.&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;checkbox&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;value&#039;  =&gt; &#039;1&#039;,
+				&#039;default&#039;  =&gt; 0,
+				&#039;advanced&#039; =&gt; true
+			);
+		}
+
+
+		if($design_style) {
+
+			$arguments[&#039;row_gap&#039;] = array(
+				&#039;title&#039; =&gt; __( &quot;Card row gap&quot;, &#039;geodirectory&#039; ),
+				&#039;desc&#039; =&gt; __(&#039;This adjusts the spacing between the cards horizontally.&#039;,&#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039; =&gt;  array(
+					&#039;&#039;  =&gt;  __(&quot;Default&quot;,&quot;geodirectory&quot;),
+					&#039;1&#039;  =&gt;  &#039;1&#039;,
+					&#039;2&#039;  =&gt;  &#039;2&#039;,
+					&#039;3&#039;  =&gt;  &#039;3&#039;,
+					&#039;4&#039;  =&gt;  &#039;4&#039;,
+					&#039;5&#039;  =&gt;  &#039;5&#039;,
+				),
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; false,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Card Design&quot;,&quot;geodirectory&quot;)
+			);
+
+			$arguments[&#039;column_gap&#039;] = array(
+				&#039;title&#039; =&gt; __( &quot;Card column gap&quot;, &#039;geodirectory&#039; ),
+				&#039;desc&#039; =&gt; __(&#039;This adjusts the spacing between the cards vertically.&#039;,&#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039; =&gt;  array(
+					&#039;&#039;  =&gt;  __(&quot;Default&quot;,&quot;geodirectory&quot;),
+					&#039;1&#039;  =&gt;  &#039;1&#039;,
+					&#039;2&#039;  =&gt;  &#039;2&#039;,
+					&#039;3&#039;  =&gt;  &#039;3&#039;,
+					&#039;4&#039;  =&gt;  &#039;4&#039;,
+					&#039;5&#039;  =&gt;  &#039;5&#039;,
+				),
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; false,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Card Design&quot;,&quot;geodirectory&quot;)
+			);
+
+			$arguments[&#039;card_border&#039;] = array(
+				&#039;title&#039; =&gt; __( &quot;Card border&quot;, &#039;geodirectory&#039; ),
+				&#039;desc&#039; =&gt; __(&#039;Set the border style for the card.&#039;,&#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039; =&gt;  array(
+					              &#039;&#039;  =&gt;  __(&quot;Default&quot;,&quot;geodirectory&quot;),
+					              &#039;none&#039;  =&gt;  __(&quot;None&quot;,&quot;geodirectory&quot;),
+				              ) + geodir_aui_colors(),
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; false,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Card Design&quot;,&quot;geodirectory&quot;)
+			);
+
+			$arguments[&#039;card_shadow&#039;] = array(
+				&#039;title&#039; =&gt; __( &quot;Card shadow&quot;, &#039;geodirectory&#039; ),
+				&#039;desc&#039; =&gt; __(&#039;Set the card shadow style.&#039;,&#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039; =&gt;  array(
+					&#039;&#039;  =&gt;  __(&quot;None&quot;,&quot;geodirectory&quot;),
+					&#039;small&#039;  =&gt;  __(&quot;Small&quot;,&quot;geodirectory&quot;),
+					&#039;medium&#039;  =&gt;  __(&quot;Medium&quot;,&quot;geodirectory&quot;),
+					&#039;large&#039;  =&gt;  __(&quot;Large&quot;,&quot;geodirectory&quot;),
+				),
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; false,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Card Design&quot;,&quot;geodirectory&quot;)
+			);
+
+			// background
+			$arguments[&#039;bg&#039;]  = geodir_get_sd_background_input(&#039;mt&#039;);
+
+			// margins
+			$arguments[&#039;mt&#039;]  = geodir_get_sd_margin_input(&#039;mt&#039;);
+			$arguments[&#039;mr&#039;]  = geodir_get_sd_margin_input(&#039;mr&#039;);
+			$arguments[&#039;mb&#039;]  = geodir_get_sd_margin_input(&#039;mb&#039;,array(&#039;default&#039;=&gt;3));
+			$arguments[&#039;ml&#039;]  = geodir_get_sd_margin_input(&#039;ml&#039;);
+
+			// padding
+			$arguments[&#039;pt&#039;]  = geodir_get_sd_padding_input(&#039;pt&#039;);
+			$arguments[&#039;pr&#039;]  = geodir_get_sd_padding_input(&#039;pr&#039;);
+			$arguments[&#039;pb&#039;]  = geodir_get_sd_padding_input(&#039;pb&#039;);
+			$arguments[&#039;pl&#039;]  = geodir_get_sd_padding_input(&#039;pl&#039;);
+
+			// border
+			$arguments[&#039;border&#039;]  = geodir_get_sd_border_input(&#039;border&#039;);
+			$arguments[&#039;rounded&#039;]  = geodir_get_sd_border_input(&#039;rounded&#039;);
+			$arguments[&#039;rounded_size&#039;]  = geodir_get_sd_border_input(&#039;rounded_size&#039;);
+
+			// shadow
+			$arguments[&#039;shadow&#039;]  = geodir_get_sd_shadow_input(&#039;shadow&#039;);
+
+			$widget_args = $widget_args + $arguments;
+
+		}
+
+
+		/*
+		 * Elementor Pro features below here
+		 */
+		if(defined( &#039;ELEMENTOR_PRO_VERSION&#039; )){
+			$widget_args[&#039;skin_id&#039;] = array(
+				&#039;title&#039; =&gt; __( &quot;Elementor Skin&quot;, &#039;geodirectory&#039; ),
+				&#039;desc&#039; =&gt; &#039;&#039;,
+				&#039;type&#039; =&gt; &#039;select&#039;,
+				&#039;options&#039; =&gt;  GeoDir_Elementor::get_elementor_pro_skins(),
+				&#039;default&#039;  =&gt; &#039;&#039;,
+				&#039;desc_tip&#039; =&gt; false,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+
+			$widget_args[&#039;skin_column_gap&#039;] = array(
+				&#039;title&#039; =&gt; __(&#039;Skin column gap&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;The px value for the column gap.&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;number&#039;,
+				&#039;default&#039;  =&gt; &#039;30&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+			$widget_args[&#039;skin_row_gap&#039;] = array(
+				&#039;title&#039; =&gt; __(&#039;Skin row gap&#039;, &#039;geodirectory&#039;),
+				&#039;desc&#039; =&gt; __(&#039;The px value for the row gap.&#039;, &#039;geodirectory&#039;),
+				&#039;type&#039; =&gt; &#039;number&#039;,
+				&#039;default&#039;  =&gt; &#039;35&#039;,
+				&#039;desc_tip&#039; =&gt; true,
+				&#039;advanced&#039; =&gt; false,
+				&#039;group&#039;     =&gt; __(&quot;Design&quot;,&quot;geodirectory&quot;)
+			);
+		}
+
+		return $widget_args;
+	}
+
+	/**
+	 * Outputs the map widget on the front-end.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param array $args
+	 * @param array $widget_args
+	 * @param string $content
+	 *
+	 * @return mixed|string
+	 */
+	public function output($args = array(), $widget_args = array(),$content = &#039;&#039;){
+		global $geodir_recently_viewed_count;
+		// if block demo return empty to show placeholder text
+//		if($this-&gt;is_block_content_call()){
+//			//return &#039;&#039;;
+//		}
+
+		$args = wp_parse_args(
+			(array)$args,
+			array(&#039;title&#039; =&gt; &#039;&#039;,
+			      &#039;post_type&#039; =&gt; &#039;&#039;,
+			      &#039;layout&#039; =&gt; &#039;2&#039;,
+			      &#039;post_limit&#039;  =&gt; &#039;6&#039;,
+				// elementor settings
+				  &#039;skin_id&#039; =&gt; &#039;&#039;,
+				  &#039;skin_column_gap&#039; =&gt; &#039;&#039;,
+				  &#039;skin_row_gap&#039; =&gt; &#039;&#039;,
+				// AUI settings
+				  &#039;column_gap&#039;  =&gt; &#039;&#039;,
+				  &#039;row_gap&#039;  =&gt; &#039;&#039;,
+				  &#039;card_border&#039;  =&gt; &#039;&#039;,
+				  &#039;card_shadow&#039;  =&gt; &#039;&#039;,
+				  &#039;bg&#039;    =&gt; &#039;&#039;,
+				  &#039;mt&#039;    =&gt; &#039;&#039;,
+				  &#039;mb&#039;    =&gt; &#039;3&#039;,
+				  &#039;mr&#039;    =&gt; &#039;&#039;,
+				  &#039;ml&#039;    =&gt; &#039;&#039;,
+				  &#039;pt&#039;    =&gt; &#039;&#039;,
+				  &#039;pb&#039;    =&gt; &#039;&#039;,
+				  &#039;pr&#039;    =&gt; &#039;&#039;,
+				  &#039;pl&#039;    =&gt; &#039;&#039;,
+				  &#039;border&#039;    =&gt; &#039;&#039;,
+				  &#039;rounded&#039;    =&gt; &#039;&#039;,
+				  &#039;rounded_size&#039;    =&gt; &#039;&#039;,
+				  &#039;shadow&#039;    =&gt; &#039;&#039;,
+			)
+		);
+
+		if(empty($geodir_recently_viewed_count)){
+			$geodir_recently_viewed_count = 1;
+		}else{
+			$geodir_recently_viewed_count++;
+		}
+
+		$design_style = geodir_design_style();
+
+		$post_page_limit = !empty( $args[&#039;post_limit&#039;] ) ? $args[&#039;post_limit&#039;] : &#039;6&#039;;
+		$layout = !empty( $args[&#039;layout&#039;] ) ? $args[&#039;layout&#039;] : &#039;2&#039;;
+		$post_type = !empty( $args[&#039;post_type&#039;] ) ? $args[&#039;post_type&#039;] : &#039;gd_place&#039;;
+		$enqueue_slider = !empty( $args[&#039;enqueue_slider&#039;] ) ? true : false;
+		
+		// elementor pro
+		if(defined( &#039;ELEMENTOR_PRO_VERSION&#039; )) {
+			$skin_id         = ! empty( $args[&#039;skin_id&#039;] ) ? absint( $args[&#039;skin_id&#039;] ) : &#039;&#039;;
+			$skin_column_gap = ! empty( $args[&#039;skin_column_gap&#039;] ) ? absint( $args[&#039;skin_column_gap&#039;] ) : &#039;&#039;;
+			$skin_row_gap    = ! empty( $args[&#039;skin_row_gap&#039;] ) ? absint( $args[&#039;skin_row_gap&#039;] ) : &#039;&#039;;
+		}
+
+		// elementor
+		$skin_active = false;
+		$elementor_wrapper_class = &#039;&#039;;
+		if(defined( &#039;ELEMENTOR_PRO_VERSION&#039; )  &amp;&amp; $skin_id){
+			if(get_post_status ( $skin_id )==&#039;publish&#039;){
+				$skin_active = true;
+			}
+			if($skin_active){
+				$columns = isset($layout) ? absint($layout) : 1;
+				if($columns == &#039;0&#039;){$columns = 6;}// we have no 6 row option to lets use list view
+				$elementor_wrapper_class = &#039; elementor-element elementor-element-9ff57fdx elementor-posts--thumbnail-top elementor-grid-&#039;.$columns.&#039; elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts &#039;;
+			}
+		}
+
+		// spinner
+		if($design_style){
+			$spinner = &#039;&lt;div class=&quot;spinner-border&quot; role=&quot;status&quot;&gt;
+  &lt;span class=&quot;sr-only&quot;&gt;&#039;.__(&quot;Loading...&quot;,&quot;geodirectory&quot;).&#039;&lt;/span&gt;
+&lt;/div&gt;&#039;;
+		}else{
+			$spinner = &#039;&lt;i class=&quot;fas fa-sync fa-spin fa-2x&quot;&gt;&lt;/i&gt;&#039;;
+		}
+
+		// preview
+		$preview_listings = &#039;&#039;;
+		if($this-&gt;is_preview() &amp;&amp; $design_style){
+
+			// card border class
+			$card_border_class = &#039;&#039;;
+			if(!empty($args[&#039;card_border&#039;])){
+				if($args[&#039;card_border&#039;]==&#039;none&#039;){
+					$card_border_class = &#039;border-0&#039;;
+				}else{
+					$card_border_class = &#039;border-&#039;.sanitize_html_class($args[&#039;card_border&#039;]);
+				}
+			}
+
+			// card shadow
+			$card_shadow_class = &#039;&#039;;
+			if(!empty($args[&#039;card_shadow&#039;])){
+				if($args[&#039;card_shadow&#039;]==&#039;small&#039;){
+					$card_shadow_class = &#039;shadow-sm&#039;;
+				}elseif($args[&#039;card_shadow&#039;]==&#039;medium&#039;){
+					$card_shadow_class = &#039;shadow&#039;;
+				}elseif($args[&#039;card_shadow&#039;]==&#039;large&#039;){
+					$card_shadow_class = &#039;shadow-lg&#039;;
+				}
+			}
+
+			$query_args = array(
+				&#039;posts_per_page&#039; =&gt; absint( $args[&#039;post_limit&#039;] ),
+				&#039;is_geodir_loop&#039; =&gt; true,
+				&#039;post_type&#039;      =&gt; $post_type,
+			);
+
+			$widget_listings = geodir_get_widget_listings( $query_args );
+
+			$template = $design_style ? $design_style.&quot;/content-widget-listing.php&quot; : &quot;content-widget-listing.php&quot;;
+			$preview_listings = geodir_get_template_html( $template, array(
+				&#039;widget_listings&#039; =&gt; $widget_listings,
+				&#039;column_gap_class&#039;   =&gt; $args[&#039;column_gap&#039;] ? &#039;mb-&#039;.absint($args[&#039;column_gap&#039;]) : &#039;mb-4&#039;,
+				&#039;row_gap_class&#039;   =&gt; $args[&#039;row_gap&#039;] ? &#039;px-&#039;.absint($args[&#039;row_gap&#039;]) : &#039;&#039;,
+				&#039;card_border_class&#039;   =&gt; $card_border_class,
+				&#039;card_shadow_class&#039;  =&gt;  $card_shadow_class,
+			) );
+		}
+		
+
+
+		// wrap class
+		$wrap_class = geodir_build_aui_class($args);
+
+		ob_start();
+
+		if($enqueue_slider &amp;&amp; !$design_style){
+			// enqueue flexslider JS
+			GeoDir_Frontend_Scripts::enqueue_script( &#039;jquery-flexslider&#039; );
+		}
+		?&gt;
+		&lt;div class=&quot;geodir-recently-reviewed &lt;?php echo $wrap_class;?&gt;&quot;&gt;
+			&lt;div class=&quot;recently-reviewed-content recently-reviewed-content-&lt;?php echo absint($geodir_recently_viewed_count); echo $elementor_wrapper_class;?&gt;&quot;&gt;&lt;?php echo $preview_listings;?&gt;&lt;/div&gt;
+			&lt;div class=&quot;recently-reviewed-loader&quot; style=&quot;display: none;text-align: center;&quot;&gt;
+&lt;?php echo $spinner;?&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;script type=&quot;text/javascript&quot;&gt;
+			document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+				if(!geodir_is_localstorage()){return;}
+				jQuery(&#039;.recently-reviewed-loader&#039;).show();
+
+				var recently_viewed = localStorage.getItem(&quot;gd_recently_viewed&quot;);
+				var data = {
+					&#039;action&#039;: &#039;geodir_recently_viewed_listings&#039;,
+					&#039;viewed_post_id&#039; : recently_viewed,
+					&#039;list_per_page&#039; :&#039;&lt;?php echo $post_page_limit; ?&gt;&#039; ,
+					&#039;layout&#039; : &#039;&lt;?php echo $layout; ?&gt;&#039;,
+					&#039;post_type&#039;:&#039;&lt;?php echo $post_type; ?&gt;&#039;,
+					&#039;column_gap&#039;:&#039;&lt;?php echo esc_attr($args[&#039;column_gap&#039;]); ?&gt;&#039;,
+					&#039;row_gap&#039;:&#039;&lt;?php echo esc_attr($args[&#039;row_gap&#039;]); ?&gt;&#039;,
+					&#039;card_border&#039;:&#039;&lt;?php echo esc_attr($args[&#039;card_border&#039;]); ?&gt;&#039;,
+					&#039;card_shadow&#039;:&#039;&lt;?php echo esc_attr($args[&#039;card_shadow&#039;]); ?&gt;&#039;,
+					&lt;?php
+					// elementor pro
+					if(defined( &#039;ELEMENTOR_PRO_VERSION&#039; )) {
+						?&gt;
+					&#039;skin_id&#039;:&#039;&lt;?php echo $skin_id; ?&gt;&#039;,
+					&#039;skin_column_gap&#039;:&#039;&lt;?php echo $skin_column_gap; ?&gt;&#039;,
+					&#039;skin_row_gap&#039;:&#039;&lt;?php echo $skin_row_gap; ?&gt;&#039;,
+						&lt;?php
+					}
+					?&gt;
+					
+				};
+
+				jQuery.post(geodir_params.ajax_url, data, function(response) {
+					jQuery(&#039;.geodir-recently-reviewed .recently-reviewed-content-&lt;?php echo absint($geodir_recently_viewed_count); ?&gt;&#039;).html(response);
+					jQuery(&#039;.recently-reviewed-loader&#039;).hide();
+					init_read_more();
+					geodir_init_lazy_load();
+					geodir_refresh_business_hours();
+					// init any sliders
+					geodir_init_flexslider();
+
+				});
+			});
+		&lt;/script&gt;
+
+		&lt;?php
+		return ob_get_clean();
+	}
+
+	/**
+	 * Added reviewed posts on local storage.
+	 *
+	 * Check if is_single page then added reviewed on local storage.
+	 *
+	 * @since 2.0.0
+	 */
+	public static function geodir_recently_viewed_posts() {
+		if ( is_single() ) {
+			$get_post_id = (int) get_the_ID();
+			$get_post_type = get_post_type( $get_post_id );
+
+			if ( geodir_is_gd_post_type( $get_post_type ) ) {
+				ob_start();
+				if ( 0 ) { ?&gt;&lt;script&gt;&lt;?php }?&gt;
+document.addEventListener(&quot;DOMContentLoaded&quot;, function(event) {
+	if (!geodir_is_localstorage()) {
+		return;
+	}
+	function gdrv_is_not_empty(obj) {
+		for (var key in obj) {
+			if (obj.hasOwnProperty(key))
+				return true;
+		}
+		return false;
+	}
+	/*localStorage.removeItem(&quot;gd_recently_viewed&quot;);*/
+	var post_id = &#039;&lt;?php echo $get_post_id; ?&gt;&#039;,
+		post_type = &#039;&lt;?php echo $get_post_type; ?&gt;&#039;,
+		reviewed_arr = {},
+		recently_reviewed = JSON.parse(localStorage.getItem(&#039;gd_recently_viewed&#039;));
+	if (null != recently_reviewed) {
+		if (gdrv_is_not_empty(recently_reviewed)) {
+			if (post_type in recently_reviewed) {
+				var temp_post_arr = [];
+				if (recently_reviewed[post_type].length &gt; 0) {
+					temp_post_arr = recently_reviewed[post_type];
+				}
+				if (jQuery.inArray(post_id, temp_post_arr) === -1) {
+					temp_post_arr.push(post_id);
+				}
+				/* Limit to 50 per CPT */
+				if (temp_post_arr.length &gt; 50) {
+					temp_post_arr = temp_post_arr.slice(-50);
+				}
+				recently_reviewed[post_type] = temp_post_arr;
+			} else {
+				recently_reviewed[post_type] = [post_id];
+			}
+		} else {
+			recently_reviewed[post_type] = [post_id];
+		}
+		localStorage.setItem(&quot;gd_recently_viewed&quot;, JSON.stringify(recently_reviewed));
+	} else {
+		reviewed_arr[post_type] = [post_id];
+		localStorage.setItem(&quot;gd_recently_viewed&quot;, JSON.stringify(reviewed_arr));
+	}
+});
+				&lt;?php if ( 0 ) { ?&gt;&lt;/script&gt;&lt;?php }
+
+				$script = ob_get_clean();
+
+				return trim( $script );
+			}
+		}
+
+		return &#039;&#039;;
+	}
+
+	public function enqueue_script(){
+		wp_add_inline_script( &#039;geodir&#039;, self::geodir_recently_viewed_posts() );
+	}
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

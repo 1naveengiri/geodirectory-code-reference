@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-geodir-settings-cpt-cf-extras.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory CPT Settings
+ *
+ * @author      AyeCode
+ * @category    Admin
+ * @package     GeoDirectory/Admin
+ * @version     2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit; // Exit if accessed directly
+}
+
+if ( ! class_exists( &#039;GeoDir_Settings_Cpt_Cf_Extras&#039;, false ) ) :
+
+
+	/**
+	 * GeoDir_Admin_Settings_General.
+	 */
+	class GeoDir_Settings_Cpt_Cf_Extras {
+
+		/**
+		 * The single instance of the class.
+		 *
+		 * @var GeoDirectory
+		 * @since 2.0.0
+		 */
+		protected static $_instance = null;
+
+
+		/**
+		 * Main GeoDirectory Instance.
+		 *
+		 * Ensures only one instance of GeoDirectory is loaded or can be loaded.
+		 *
+		 * @since 2.0.0
+		 * @static
+		 * @see GeoDir()
+		 * @return GeoDirectory - Main instance.
+		 */
+		public static function instance() {
+			if ( is_null( self::$_instance ) ) {
+				self::$_instance = new self();
+			}
+
+			return self::$_instance;
+		}
+
+		/**
+		 * Constructor.
+		 */
+		public function __construct() {
+
+			// add data type to text field
+			add_filter( &#039;geodir_cfa_data_type_text&#039;, array( $this, &#039;data_type&#039; ), 10, 4 );
+
+			// add wysiwyg option to textareas
+			add_filter( &#039;geodir_cfa_extra_fields_textarea&#039;, array( $this, &#039;advanced_editor&#039; ), 10, 4 );
+
+			// add embed option to html &amp; textareas
+			add_filter( &#039;geodir_cfa_extra_fields_html&#039;, array( $this, &#039;embed_input&#039; ), 10, 4 );
+			add_filter( &#039;geodir_cfa_extra_fields_textarea&#039;, array( $this, &#039;embed_input&#039; ), 10, 4 );
+
+			// validation pattern
+			add_filter( &#039;geodir_cfa_validation_pattern_text&#039;, array( $this, &#039;validation_pattern&#039; ), 10, 4 );
+			add_filter( &#039;geodir_cfa_validation_pattern_phone&#039;, array( $this, &#039;validation_pattern&#039; ), 10, 4 );
+			add_filter( &#039;geodir_cfa_validation_pattern_email&#039;, array( $this, &#039;validation_pattern&#039; ), 10, 4 );
+			add_filter( &#039;geodir_cfa_validation_pattern_url&#039;, array( $this, &#039;validation_pattern&#039; ), 10, 4 );
+
+			// category display type
+			add_filter( &#039;geodir_cfa_extra_fields_categories&#039;, array( $this, &#039;category_input_type&#039; ), 10, 4 );
+			
+			// extra address fields
+			add_filter(&#039;geodir_cfa_extra_fields_address&#039;,array( $this, &#039;address_fields&#039; ),10,4);
+
+			// multiselect input
+			add_filter(&#039;geodir_cfa_extra_fields_multiselect&#039;,array( $this,&#039;multiselect_input&#039;),10,4);
+
+			// Multiple value option values
+			add_filter(&#039;geodir_cfa_extra_fields_multiselect&#039;, array( $this, &#039;option_values&#039;),10,4);
+			add_filter(&#039;geodir_cfa_extra_fields_select&#039;,array( $this, &#039;option_values&#039;),10,4);
+			add_filter(&#039;geodir_cfa_extra_fields_radio&#039;,array( $this, &#039;option_values&#039;),10,4);
+
+			// Date picker date format
+			add_filter(&#039;geodir_cfa_extra_fields_datepicker&#039;,array( $this,&#039;date_format&#039;),10,4);
+			add_filter(&#039;geodir_cfa_extra_fields_datepicker&#039;,array( $this,&#039;date_range&#039;),10,4);
+
+			// file type input
+			add_filter(&#039;geodir_cfa_extra_fields_file&#039;,array( $this,&#039;file_types&#039;),10,4);
+			add_filter(&#039;geodir_cfa_extra_fields_file&#039;,array( $this,&#039;file_limit&#039;),10,4);
+
+			// post_images
+			add_filter(&#039;geodir_cfa_extra_fields_images&#039;,array( $this,&#039;file_limit&#039;),10,4);
+
+			// price fields
+			add_filter(&#039;geodir_cfa_extra_fields_text&#039;,array( $this,&#039;price_fields&#039;),10,4);
+
+			// REMOVE SOME FIELDS NO NEEDED FOR SOME CFs
+
+			// htmlvar not needed for fieldset, taxonomy, business_hours
+			add_filter( &#039;geodir_cfa_htmlvar_name_fieldset&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_htmlvar_name_taxonomy&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			//add_filter( &#039;geodir_cfa_htmlvar_name_business_hours&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+
+			// default_value not needed for textarea, html, file, fieldset, taxonomy, address, business_hours
+			add_filter( &#039;geodir_cfa_default_value_file&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_default_value_taxonomy&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_default_value_address&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_default_value_fieldset&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_default_value_business_hours&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+
+			// is_required not needed for fieldset
+			add_filter( &#039;geodir_cfa_is_required_fieldset&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_required_msg_fieldset&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_is_required_business_hours&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_required_msg_business_hours&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+
+			// field_icon not needed for fieldset
+			add_filter( &#039;geodir_cfa_field_icon_fieldset&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_css_class_fieldset&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+
+			// cat_sort not needed for some fields
+			add_filter( &#039;geodir_cfa_cat_sort_html&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_cat_sort_file&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_cat_sort_url&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_cat_sort_fieldset&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_cat_sort_multiselect&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_cat_sort_textarea&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_cat_sort_taxonomy&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_cat_sort_address&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			add_filter( &#039;geodir_cfa_cat_sort_business_hours&#039;, &#039;__return_empty_string&#039;, 10, 4 );
+			
+			// address field is always required
+			add_filter( &#039;geodir_cfa_is_required_address&#039;, array($this,&#039;is_required&#039;), 10, 4 );
+			
+			// No of tags.
+			add_filter( &#039;geodir_cfa_extra_fields_tags&#039;, array( $this, &#039;no_of_tags_input_type&#039; ), 10, 4 );
+		}
+
+		/**
+		 * Output hidden required field.
+		 *
+		 * @return string
+		 */
+		public function is_required(){
+			return &quot;&lt;input type=\&quot;hidden\&quot; name=\&quot;is_required\&quot; value=\&quot;1\&quot; /&gt;&quot;;
+		}
+
+		/**
+		 * Price fields.
+		 *
+		 * @since 2.0.0
+		 *
+		 * @param string $output Price fields html output.
+		 * @param string $result_str Price fields results.
+		 * @param array $cf Custom fields value.
+		 * @param object $field_info Price fields information.
+		 * @return string $output.
+		 */
+		public static function price_fields( $output, $result_str, $cf, $field_info ) {
+			$extra_fields = isset( $field_info-&gt;extra_fields ) &amp;&amp; $field_info-&gt;extra_fields != &#039;&#039; ? maybe_unserialize( $field_info-&gt;extra_fields ) : &#039;&#039;;
+			$radio_id = isset( $field_info-&gt;htmlvar_name ) ? $field_info-&gt;htmlvar_name : rand( 5, 500 );
+
+			$data_type = isset( $field_info-&gt;data_type ) ? $field_info-&gt;data_type : &#039;&#039;;
+
+			$is_int = $data_type == &#039;INT&#039; ? 1 : 0;
+			$is_float = $data_type == &#039;FLOAT&#039; || $data_type == &#039;DECIMAL&#039; ? 1 : 0;
+			$is_char = ! $is_int &amp;&amp; ! $is_float ? 1 : 0;
+
+			// is_price
+			$is_price = 0;
+			if ( ! empty( $extra_fields ) &amp;&amp; isset( $extra_fields[&#039;is_price&#039;] ) ) {
+				$is_price = (int) $extra_fields[&#039;is_price&#039;];
+			} else if ( isset( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;is_price&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;is_price&#039;] ) {
+				$is_price = (int) $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;is_price&#039;];
+			}
+
+			// thousand_separator
+			$thousand_separator = &#039;comma&#039;;
+			if ( $extra_fields &amp;&amp; isset( $extra_fields[&#039;thousand_separator&#039;] ) ) {
+				$thousand_separator = esc_attr( $extra_fields[&#039;thousand_separator&#039;] );
+			} else if ( isset( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;thousand_separator&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;thousand_separator&#039;] ) {
+				$thousand_separator = esc_attr( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;thousand_separator&#039;] );
+			}
+
+			// decimal_separator
+			$decimal_separator = &#039;.&#039;;
+			if ( $extra_fields &amp;&amp; isset( $extra_fields[&#039;decimal_separator&#039;] ) ) {
+				$decimal_separator = esc_attr( $extra_fields[&#039;decimal_separator&#039;] );
+			} else if ( isset( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;decimal_separator&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;decimal_separator&#039;] ) {
+				$decimal_separator = esc_attr( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;decimal_separator&#039;] );
+			}
+
+			// decimal_point
+			$decimal_point = 2;
+			if ( ! empty( $field_info ) &amp;&amp; isset( $field_info-&gt;decimal_point ) ) {
+				$decimal_point = (int) $field_info-&gt;decimal_point;
+			} else if ( $extra_fields &amp;&amp; isset( $extra_fields[&#039;decimal_point&#039;] ) ) {
+				$decimal_point = (int) $extra_fields[&#039;decimal_point&#039;];
+			} else if ( isset( $cf[&#039;defaults&#039;][&#039;decimal_point&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;decimal_point&#039;] ) {
+				$decimal_point = (int) $cf[&#039;defaults&#039;][&#039;decimal_point&#039;];
+			} else if ( isset( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;decimal_point&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;decimal_point&#039;] ) {
+				$decimal_point = (int) $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;decimal_point&#039;];
+			}
+
+			// decimal_display
+			$decimal_display = &#039;&#039;;
+			if ( $extra_fields &amp;&amp; isset( $extra_fields[&#039;decimal_display&#039;] ) ) {
+				$decimal_display = esc_attr( $extra_fields[&#039;decimal_display&#039;] );
+			} else if ( isset( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;decimal_display&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;decimal_display&#039;] ) {
+				$decimal_display = esc_attr( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;decimal_display&#039;] );
+			}
+
+			// currency_symbol
+			$currency_symbol = &#039;&#039;;
+			if ( $extra_fields &amp;&amp; isset( $extra_fields[&#039;currency_symbol&#039;] ) ) {
+				$currency_symbol = esc_attr( $extra_fields[&#039;currency_symbol&#039;] );
+			} else if ( isset( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;currency_symbol&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;currency_symbol&#039;] ) {
+				$currency_symbol = esc_attr( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;currency_symbol&#039;] );
+			}
+
+			// currency_symbol_placement
+			$currency_symbol_placement = &#039;&#039;;
+			if ( $extra_fields &amp;&amp; isset( $extra_fields[&#039;currency_symbol_placement&#039;] ) ) {
+				$currency_symbol_placement = esc_attr( $extra_fields[&#039;currency_symbol_placement&#039;] );
+			} else if ( isset( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;currency_symbol_placement&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;currency_symbol_placement&#039;] ) {
+				$currency_symbol_placement = esc_attr( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;currency_symbol_placement&#039;] );
+			}
+
+			$price_heading_style = &#039;&#039;;
+			if ( ! ( $is_int || $is_float ) ) {
+				$is_price = 0;
+				$thousand_separator = &#039;none&#039;;
+
+				$price_heading_style = &#039;style=&quot;display:none;&quot;&#039;;
+			}
+
+			if ( ! $is_float ) {
+				$decimal_point = &#039;&#039;;
+			}
+
+			if ( ! $is_price ) {
+				$currency_symbol = &#039;&#039;;
+			}
+			ob_start();
+			?&gt;
+			&lt;h3 class=&quot;gd-advanced-setting border-bottom text-dark h4 pt-3 pb-2 mb-3 aui-conditional-field&quot; data-element-require=&quot;jQuery(form).find(&amp;#039;[data-argument=&amp;quot;data_type&amp;quot;]&amp;#039;).find(&amp;#039;input,select,textarea&amp;#039;).val() == &amp;quot;INT&amp;quot; || jQuery(form).find(&amp;#039;[data-argument=&amp;quot;data_type&amp;quot;]&amp;#039;).find(&amp;#039;input,select,textarea&amp;#039;).val() == &amp;quot;DECIMAL&amp;quot;&quot; data-setting=&quot;price_heading&quot;&gt;&lt;?php _e( &#039;Number Options&#039;, &#039;geodirectory&#039; ); ?&gt;&lt;/h3&gt;
+			&lt;?php
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;               =&gt; &#039;is_price&#039;,
+					&#039;name&#039;             =&gt; &#039;extra[is_price]&#039;,
+					&#039;label_type&#039;       =&gt; &#039;horizontal&#039;,
+					&#039;label_col&#039;        =&gt; &#039;4&#039;,
+					&#039;label&#039;            =&gt; __( &#039;Display as price&#039;, &#039;geodirectory&#039; ),
+					&#039;type&#039;             =&gt; &#039;checkbox&#039;,
+					&#039;checked&#039;          =&gt; $is_price,
+					&#039;value&#039;            =&gt; &#039;1&#039;,
+					&#039;switch&#039;           =&gt; &#039;md&#039;,
+					&#039;label_force_left&#039; =&gt; true,
+					&#039;help_text&#039;        =&gt; geodir_help_tip( __( &#039;Select if this field should be displayed as a price value.&#039;, &#039;geodirectory&#039; ) ),
+					&#039;element_require&#039;  =&gt; &#039;[%data_type%] == &quot;INT&quot; || [%data_type%] == &quot;DECIMAL&quot;&#039;
+				)
+			);
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;              =&gt; &#039;currency_symbol&#039;,
+					&#039;name&#039;            =&gt; &#039;extra[currency_symbol]&#039;,
+					&#039;label_type&#039;      =&gt; &#039;top&#039;,
+					&#039;label&#039;           =&gt; __( &#039;Currency symbol&#039;, &#039;geodirectory&#039; ) . geodir_help_tip( __( &#039;Select the currency symbol.&#039;, &#039;geodirectory&#039; ) ),
+					&#039;type&#039;            =&gt; &#039;text&#039;,
+					&#039;value&#039;           =&gt; $currency_symbol,
+					&#039;element_require&#039; =&gt; &#039;[%is_price%:checked]&#039;
+				)
+			);
+
+			echo aui()-&gt;select(
+				array(
+					&#039;id&#039;              =&gt; &#039;currency_symbol_placement&#039;,
+					&#039;name&#039;            =&gt; &#039;extra[currency_symbol_placement]&#039;,
+					&#039;label_type&#039;      =&gt; &#039;top&#039;,
+					&#039;multiple&#039;        =&gt; false,
+					&#039;class&#039;           =&gt; &#039; mw-100&#039;,
+					&#039;options&#039;         =&gt; array(
+						&#039;left&#039;  =&gt; __( &#039;Left&#039;, &#039;geodirectory&#039; ),
+						&#039;right&#039; =&gt; __( &#039;Right&#039;, &#039;geodirectory&#039; ),
+					),
+					&#039;label&#039;           =&gt; __( &#039;Currency symbol placement&#039;, &#039;geodirectory&#039; ) . geodir_help_tip( __( &#039;Select the currency symbol placement.&#039;, &#039;geodirectory&#039; ) ),
+					&#039;value&#039;           =&gt; $currency_symbol_placement,
+					&#039;element_require&#039; =&gt; &#039;[%is_price%:checked]&#039;
+				)
+			);
+
+			echo aui()-&gt;select(
+				array(
+					&#039;id&#039;                =&gt; &#039;thousand_separator&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[thousand_separator]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;multiple&#039;   =&gt; false,
+					&#039;class&#039;             =&gt; &#039; mw-100&#039;,
+					&#039;options&#039;       =&gt; array(
+						&#039;comma&#039;   =&gt; __( &#039;, (comma)&#039;, &#039;geodirectory&#039; ),
+						&#039;slash&#039;   =&gt; __( &#039;\ (slash)&#039;, &#039;geodirectory&#039; ),
+						&#039;period&#039;   =&gt; __( &#039;. (period)&#039;, &#039;geodirectory&#039; ),
+						&#039;space&#039;   =&gt; __( &#039; (space)&#039;, &#039;geodirectory&#039; ),
+						&#039;none&#039;   =&gt; __( &#039;(none)&#039;, &#039;geodirectory&#039; ),
+					),
+					&#039;label&#039;              =&gt; __(&#039;Thousand separator&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Select the thousand separator.&#039;, &#039;geodirectory&#039; )),
+					&#039;value&#039;         =&gt; $thousand_separator,
+					&#039;element_require&#039;   =&gt; &#039;[%is_price%:checked]&#039;
+				)
+			);
+
+			echo aui()-&gt;select(
+				array(
+					&#039;id&#039;                =&gt; &#039;thousand_separator&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[thousand_separator]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;multiple&#039;   =&gt; false,
+					&#039;class&#039;             =&gt; &#039; mw-100&#039;,
+					&#039;options&#039;       =&gt; array(
+						&#039;comma&#039;   =&gt; __( &#039;, (comma)&#039;, &#039;geodirectory&#039; ),
+						&#039;slash&#039;   =&gt; __( &#039;\ (slash)&#039;, &#039;geodirectory&#039; ),
+						&#039;period&#039;   =&gt; __( &#039;. (period)&#039;, &#039;geodirectory&#039; ),
+						&#039;space&#039;   =&gt; __( &#039; (space)&#039;, &#039;geodirectory&#039; ),
+						&#039;none&#039;   =&gt; __( &#039;(none)&#039;, &#039;geodirectory&#039; ),
+					),
+					&#039;label&#039;              =&gt; __(&#039;Thousand separator&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Select the thousand separator.&#039;, &#039;geodirectory&#039; )),
+					&#039;value&#039;         =&gt; $thousand_separator,
+					&#039;element_require&#039;   =&gt; &#039;[%data_type%] == &quot;INT&quot; || [%data_type%] == &quot;DECIMAL&quot;&#039;
+				)
+			);
+
+			echo aui()-&gt;select(
+				array(
+					&#039;id&#039;                =&gt; &#039;decimal_separator&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[decimal_separator]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;multiple&#039;   =&gt; false,
+					&#039;class&#039;             =&gt; &#039; mw-100&#039;,
+					&#039;options&#039;       =&gt; array(
+						&#039;period&#039;   =&gt; __( &#039;. (period)&#039;, &#039;geodirectory&#039; ),
+						&#039;comma&#039;   =&gt; __( &#039;, (comma)&#039;, &#039;geodirectory&#039; ),
+					),
+					&#039;label&#039;              =&gt; __(&#039;Decimal separator&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Decimal point to display after point.&#039;, &#039;geodirectory&#039; )),
+					&#039;value&#039;         =&gt; $decimal_separator,
+					&#039;element_require&#039;   =&gt; &#039;[%data_type%] == &quot;DECIMAL&quot;&#039;
+				)
+			);
+
+			echo aui()-&gt;select(
+				array(
+					&#039;id&#039;                =&gt; &#039;decimal_point&#039;,
+					&#039;name&#039;              =&gt; &#039;decimal_point&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;multiple&#039;   =&gt; false,
+					&#039;class&#039;             =&gt; &#039; mw-100&#039;,
+					&#039;options&#039;       =&gt; array(
+						&#039;&#039;   =&gt; __( &#039;Select&#039;, &#039;geodirectory&#039; ),
+						&#039;1&#039;   =&gt; &#039;1&#039;,
+						&#039;2&#039;   =&gt; &#039;2&#039;,
+						&#039;3&#039;   =&gt; &#039;3&#039;,
+						&#039;4&#039;   =&gt; &#039;4&#039;,
+						&#039;5&#039;   =&gt; &#039;5&#039;,
+						&#039;6&#039;   =&gt; &#039;6&#039;,
+						&#039;7&#039;   =&gt; &#039;7&#039;,
+						&#039;8&#039;   =&gt; &#039;8&#039;,
+						&#039;9&#039;   =&gt; &#039;9&#039;,
+						&#039;10&#039;   =&gt; &#039;10&#039;,
+					),
+					&#039;label&#039;              =&gt; __(&#039;Decimal points&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Decimals to display after point.&#039;, &#039;geodirectory&#039; )),
+					&#039;value&#039;         =&gt; $decimal_point,
+					&#039;element_require&#039;   =&gt; &#039;[%data_type%] == &quot;DECIMAL&quot;&#039;
+				)
+			);
+
+			echo aui()-&gt;select(
+				array(
+					&#039;id&#039;                =&gt; &#039;decimal_display&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[decimal_display]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;multiple&#039;   =&gt; false,
+					&#039;class&#039;             =&gt; &#039; mw-100&#039;,
+					&#039;options&#039;       =&gt; array(
+						&#039;if&#039;   =&gt; __( &#039;Not show if not used&#039;, &#039;geodirectory&#039; ),
+						&#039;always&#039;   =&gt; __( &#039;Always (.00)&#039;, &#039;geodirectory&#039; ),
+					),
+					&#039;label&#039;              =&gt; __(&#039;Decimal display&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Select how the decimal is displayed if empty.&#039;, &#039;geodirectory&#039; )),
+					&#039;value&#039;         =&gt; $decimal_display,
+					&#039;element_require&#039;   =&gt; &#039;[%data_type%] == &quot;DECIMAL&quot; &amp;&amp; [%decimal_point%] != &quot;&quot; &#039;
+				)
+			);
+
+			$output .= ob_get_clean();
+
+			return $output;
+		}
+
+	    /**
+         * File type input.
+         *
+         * @since 2.0.0
+         *
+         * @param string $output File input html output.
+         * @param string $result_str File type result.
+         * @param array $cf File type input custom fields.
+         * @param object $field_info File type fields information.
+         * @return string $output.
+         */
+		public static function file_types($output,$result_str,$cf,$field_info){
+
+			$allowed_file_types = geodir_allowed_mime_types();
+
+			$extra_fields = isset($field_info-&gt;extra_fields) &amp;&amp; $field_info-&gt;extra_fields != &#039;&#039; ? maybe_unserialize($field_info-&gt;extra_fields) : &#039;&#039;;
+			$gd_file_types = !empty($extra_fields) &amp;&amp; !empty($extra_fields[&#039;gd_file_types&#039;]) ? maybe_unserialize($extra_fields[&#039;gd_file_types&#039;]) : array(&#039;*&#039;);
+
+			$options = array(
+				&#039;*&#039; =&gt; __(&#039;All types&#039;, &#039;geodirectory&#039;)
+			);
+
+//			print_r( $gd_file_types );exit;
+
+			foreach ( $allowed_file_types as $format =&gt; $types ) {
+
+				if ( ! empty( $types ) ) {
+					$options[] = array(
+						&#039;optgroup&#039;  =&gt; &#039;start&#039;,
+						&#039;label&#039;     =&gt; esc_attr( wp_sprintf(__(&#039;%s formats&#039;, &#039;geodirectory&#039;), __($format, &#039;geodirectory&#039;) ) )
+					);
+
+					foreach ( $types as $ext =&gt; $type ) {
+						$options[] = array(
+							&#039;value&#039;  =&gt; esc_attr($ext) ,
+							&#039;label&#039;     =&gt; &quot;.&quot;.esc_attr($ext)
+						);
+					}
+
+					$options[] = array(
+						&#039;optgroup&#039;  =&gt; &#039;end&#039;,
+					);
+				}
+
+			}
+
+			$output .= aui()-&gt;select(
+				array(
+					&#039;id&#039;                =&gt; &#039;gd_file_types&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[gd_file_types][]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;multiple&#039;   =&gt; true,
+					&#039;select2&#039;   =&gt; true,
+					&#039;class&#039;             =&gt; &#039; mw-100&#039;,
+					&#039;options&#039;       =&gt; $options,
+					&#039;label&#039;              =&gt; __(&#039;Allowed file types&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Select file types to allowed for file uploading. (Select multiple file types by holding down &quot;Ctrl&quot; key.)&#039;, &#039;geodirectory&#039; )),
+					&#039;value&#039;         =&gt; $gd_file_types,
+//					&#039;element_require&#039;   =&gt; &#039;[%data_type%] == &quot;DECIMAL&quot; &amp;&amp; [%decimal_point%] != &quot;&quot; &#039;
+				)
+			);
+
+
+			return $output;
+		}
+
+		/**
+		 * File limit input.
+		 *
+		 * @since 2.0.0
+		 *
+		 * @param string $output
+		 * @param string $result_str
+		 * @param array $cf
+		 * @param object $field_info
+		 * @return string $output.
+		 */
+		public static function file_limit( $output, $result_str, $cf, $field_info ) {
+			$extra_fields = ! empty( $field_info-&gt;extra_fields ) ? maybe_unserialize( $field_info-&gt;extra_fields ) : &#039;&#039;;
+			if ( strpos( $result_str, &#039;new-&#039; ) === 0 &amp;&amp; ! ( ! empty( $extra_fields ) &amp;&amp; isset( $extra_fields[&#039;file_limit&#039;] ) ) ) {
+				$gd_file_limit = 1;
+			} else {
+				$gd_file_limit = ! empty( $extra_fields ) &amp;&amp; ! empty( $extra_fields[&#039;file_limit&#039;] ) ? absint( $extra_fields[&#039;file_limit&#039;] ) : 0;
+			}
+
+			$output .= aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;gd_file_limit&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[file_limit]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;label&#039;              =&gt; __(&#039;File upload limit&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Select the number of files that can be uploaded, Leave blank or 0 to allow unlimited files.&#039;, &#039;geodirectory&#039; ) ),
+					&#039;type&#039;              =&gt;   &#039;number&#039;,
+					&#039;value&#039; =&gt; $gd_file_limit,
+					&#039;extra_attributes&#039;  =&gt; array(
+						&#039;step&#039;  =&gt; &quot;1&quot;,
+						&#039;min&#039;   =&gt; &quot;0&quot;
+					)
+//					&#039;placeholder&#039; =&gt;  $field-&gt;field_type == &#039;email&#039; ? __( &#039;info@mysite.com&#039;, &#039;geodirectory&#039; ) : &#039;&#039;
+				)
+			);
+
+			return $output;
+		}
+
+		/**
+         * Datepicker date format.
+         *
+         * @since 2.0.0
+         *
+         * @param string $output Datepicker html output.
+         * @param string $result_str Results string.
+         * @param array $cf Datepicker custom fields values.
+         * @param object $field_info Datepicker fields information.
+         * @return string $output.
+         */
+		public static function date_format($output,$result_str,$cf,$field_info){
+			ob_start();
+			$extra = array();
+			if ( isset( $field_info-&gt;extra_fields ) &amp;&amp; $field_info-&gt;extra_fields != &#039;&#039; ) {
+				$extra = maybe_unserialize( $field_info-&gt;extra_fields );
+			}
+
+			if ( is_array( $extra ) &amp;&amp; empty( $extra[&#039;date_format&#039;] ) ) {
+				$extra[&#039;date_format&#039;] = geodir_date_format();
+			}
+
+			$date_formats = array(
+				&#039;m/d/Y&#039;,
+				&#039;d/m/Y&#039;,
+				&#039;Y/m/d&#039;,
+				&#039;m-d-Y&#039;,
+				&#039;d-m-Y&#039;,
+				&#039;Y-m-d&#039;,
+				&#039;F j, Y&#039;,
+			);
+			/**
+			 * Filter the custom field date format options.
+			 *
+			 * @since 1.6.5
+			 * @param array $date_formats The PHP date format array.
+			 */
+			$date_formats = apply_filters(&#039;geodir_date_formats&#039;,$date_formats);
+			$date_formats_rendered = array();
+			foreach($date_formats as $format){
+				$date_formats_rendered[$format] = $format . &#039; (&#039;.date_i18n( $format, time()).&#039;)&#039;;
+			}
+
+			echo aui()-&gt;select(
+				array(
+					&#039;id&#039;                =&gt; &#039;date_format&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[date_format]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;multiple&#039;   =&gt; false,
+					&#039;class&#039;             =&gt; &#039; mw-100&#039;,
+					&#039;options&#039;       =&gt; $date_formats_rendered,
+					&#039;label&#039;              =&gt; __(&#039;Date Format&#039;,&#039;geodirectory&#039;).geodir_help_tip( __( &#039;Select the date format.&#039;, &#039;geodirectory&#039; )),
+					&#039;value&#039;         =&gt; $extra[&#039;date_format&#039;],
+				)
+			);
+
+			$output .= ob_get_clean();
+			return $output;
+		}
+
+		/**
+		 * Datepicker date range.
+		 *
+		 * @since 2.0.0.46
+		 *
+		 * @param string $output Datepicker html output.
+		 * @param string $result_str Results string.
+		 * @param array $cf Datepicker custom fields values.
+		 * @param object $field_info Datepicker fields information.
+		 * @return string $output.
+		 */
+		public static function date_range( $output, $result_str, $cf, $field_info ) {
+			$extra_fields = array();
+			if ( ! empty( $field_info-&gt;extra_fields ) ) {
+				$extra_fields = is_array( $field_info-&gt;extra_fields ) ? $field_info-&gt;extra_fields : maybe_unserialize( $field_info-&gt;extra_fields );
+			}
+
+			$value = &#039;&#039;;
+			if ( isset( $extra_fields[&#039;date_range&#039;] ) ) {
+				$value = esc_attr( $extra_fields[&#039;date_range&#039;] );
+			} elseif ( isset( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;date_range&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;date_range&#039;] ) {
+				$value = esc_attr( $cf[&#039;defaults&#039;][&#039;extra_fields&#039;][&#039;date_range&#039;] );
+			}
+
+			$output .= aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;date_range&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[date_range]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Date Range&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Set the date range, eg: 1920:2020 or for current dates: c-100:c+5&#039;, &#039;geodirectory&#039; )),
+					&#039;type&#039;              =&gt;   &#039;text&#039;,
+					///&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;value&#039; =&gt; $value,
+				)
+			);
+
+			return $output;
+		}
+
+        /**
+         * Multiple input option values.
+         *
+         * @since 2.0.0
+         *
+         * @param string $output Html output.
+         * @param string $result_str Results string.
+         * @param array $cf Input custom fields.
+         * @param object $field_info Fields information.
+         * @return string $output.
+         */
+		public static function option_values($output,$result_str,$cf,$field_info){
+
+			$value = &#039;&#039;;
+			if (isset($field_info-&gt;option_values)) {
+				$value = esc_attr($field_info-&gt;option_values);
+			}elseif(isset($cf[&#039;defaults&#039;][&#039;option_values&#039;]) &amp;&amp; $cf[&#039;defaults&#039;][&#039;option_values&#039;]){
+				$value = esc_attr($cf[&#039;defaults&#039;][&#039;option_values&#039;]);
+			}
+
+			$field_type = isset($field_info-&gt;field_type) ? $field_info-&gt;field_type : &#039;&#039;;
+
+			$option_values_tool_top = __( &#039;Option Values should be separated by comma.&#039;, &#039;geodirectory&#039; ).&#039;&lt;br/&gt;&#039;;
+			$option_values_tool_top .= __( &#039;If using for a &quot;tick filter&quot; place a / and then either a 1 for true or 0 for false&#039;, &#039;geodirectory&#039; ).&#039;&lt;br/&gt;&#039;;
+			$option_values_tool_top .= __( &#039;eg: &quot;No Dogs Allowed/0,Dogs Allowed/1&quot; (Select only, not multiselect)&#039;, &#039;geodirectory&#039; ).&#039;&lt;br/&gt;&#039;;
+			if ($field_type == &#039;multiselect&#039; || $field_type == &#039;select&#039;) {
+				$option_values_tool_top .= &#039;&lt;small&gt;&lt;span&gt;&#039;.__( &#039;- If using OPTGROUP tag to grouping options, use &quot;{optgroup}OPTGROUP-LABEL|OPTION-1,OPTION-2{/optgroup}&quot;&#039;, &#039;geodirectory&#039; ).&#039;&lt;/span&gt;&#039;;
+				$option_values_tool_top .= &#039;&lt;span&gt;&#039;.__( &#039;- If using OPTGROUP tag to grouping options, use &quot;{optgroup}OPTGROUP-LABEL|OPTION-1,OPTION-2{/optgroup}&quot;&#039;, &#039;geodirectory&#039; ).&#039;&lt;/span&gt;&lt;/small&gt;&#039;;
+			}
+
+
+			$output .= aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;option_values&#039;,
+					&#039;name&#039;              =&gt; &#039;option_values&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Option Values&#039;,&#039;geodirectory&#039;) . geodir_help_tip( $option_values_tool_top ),
+					&#039;type&#039;              =&gt; &#039;text&#039;,
+//					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;value&#039; =&gt; $value,
+//					&#039;placeholder&#039; =&gt;  $field-&gt;field_type == &#039;email&#039; ? __( &#039;info@mysite.com&#039;, &#039;geodirectory&#039; ) : &#039;&#039;
+				)
+			);
+
+			return $output;
+		}
+
+        /**
+         * The multiselect input setting.
+         *
+         * @since 2.0.0
+         *
+         * @param string $output Html output.
+         * @param string $result_str Results string.
+         * @param array $cf Custom fields values.
+         * @param object $field_info fields information.
+         * @return string $output.
+         */
+		public static function multiselect_input($output,$result_str,$cf,$field_info){
+
+			$extra_fields = !empty($field_info-&gt;extra_fields) ? maybe_unserialize($field_info-&gt;extra_fields) : NULL;
+			$multi_display_type = isset($extra_fields[&#039;multi_display_type&#039;]) ? $extra_fields[&#039;multi_display_type&#039;] : &#039;select&#039;;
+
+			$output .= aui()-&gt;select(
+				array(
+					&#039;id&#039;                =&gt; &#039;multi_display_type&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[multi_display_type]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;multiple&#039;   =&gt; false,
+					&#039;class&#039;             =&gt; &#039; mw-100&#039;,
+					&#039;options&#039;       =&gt; array(
+						&#039;select&#039;   =&gt; __( &#039;Select&#039;, &#039;geodirectory&#039; ),
+						&#039;checkbox&#039;   =&gt; __( &#039;Checkbox&#039;, &#039;geodirectory&#039; ),
+						&#039;radio&#039;   =&gt; __( &#039;Radio&#039;, &#039;geodirectory&#039; ),
+					),
+					&#039;label&#039;              =&gt; __(&#039;Multiselect display type&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Show multiselect input as multiselect,checkbox or radio.&#039;, &#039;geodirectory&#039; )),
+					&#039;value&#039;         =&gt; $multi_display_type,
+				)
+			);
+
+			return $output;
+		}
+
+
+        /**
+         * The address setting fields.
+         *
+         * @since 2.0.0
+         *
+         * @param string $output Html output.
+         * @param string $result_str Results string.
+         * @param array $cf Custom fields values.
+         * @param object $field_info Fields information.
+         * @return string $output.
+         */
+		public static function address_fields($output,$result_str,$cf,$field_info){
+
+			ob_start();
+			if (isset($field_info-&gt;extra_fields) &amp;&amp; $field_info-&gt;extra_fields != &#039;&#039;) {
+				$address = stripslashes_deep(maybe_unserialize($field_info-&gt;extra_fields));
+			}
+
+			/**
+			 * Called on the add custom fields settings page before the address field is output.
+			 *
+			 * @since 1.0.0
+			 * @param array $address The address settings array.
+			 * @param object $field_info Extra fields info.
+			 */
+			do_action(&#039;geodir_address_extra_admin_fields&#039;, $address, $field_info);
+
+
+			// setup address line 2 if not set
+			if(!isset($address[&#039;show_street2&#039;])){
+				$address[&#039;show_street2&#039;] = 0;
+			}
+			if(!isset($address[&#039;street2_lable&#039;])){
+				$address[&#039;street2_lable&#039;] = __(&#039;Address line 2 (optional)&#039;, &#039;geodirectory&#039;);
+			}
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;show_street2&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[show_street2]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;horizontal&#039;,
+					&#039;label_col&#039;        =&gt; &#039;4&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Display Address line 2&#039;,&#039;geodirectory&#039;) ,
+					&#039;type&#039;              =&gt; &#039;checkbox&#039;,
+					&#039;checked&#039; =&gt; $address[&#039;show_street2&#039;],
+					&#039;value&#039; =&gt; &#039;1&#039;,
+					&#039;switch&#039;    =&gt; &#039;md&#039;,
+					&#039;label_force_left&#039;  =&gt; true,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;help_text&#039; =&gt; geodir_help_tip( __( &#039;Select if you want to show address line 2 field in address section.&#039;, &#039;geodirectory&#039; ))
+				)
+			);
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;street2_lable&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[street2_lable]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Address line 2 label&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Enter Address line 2 field label in address section.&#039;, &#039;geodirectory&#039; )),
+					&#039;type&#039;              =&gt; &#039;text&#039;,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;value&#039; =&gt; $address[&#039;street2_lable&#039;],
+					&#039;element_require&#039;   =&gt; &#039;[%show_street2%:checked]&#039;
+
+				)
+			);
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;show_zip&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[show_zip]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;horizontal&#039;,
+					&#039;label_col&#039;         =&gt; &#039;4&#039;,
+					&#039;label&#039;             =&gt; __( &#039;Display zip/post code&#039;, &#039;geodirectory&#039; ) ,
+					&#039;type&#039;              =&gt; &#039;checkbox&#039;,
+					&#039;checked&#039;           =&gt; ( isset( $address[&#039;show_zip&#039;] ) ? $address[&#039;show_zip&#039;] : &#039;&#039; ),
+					&#039;value&#039;             =&gt; &#039;1&#039;,
+					&#039;switch&#039;            =&gt; &#039;md&#039;,
+					&#039;label_force_left&#039;  =&gt; true,
+					&#039;wrap_class&#039;        =&gt; geodir_advanced_toggle_class(),
+					&#039;help_text&#039;         =&gt; geodir_help_tip( __( &#039;Select if you want to show zip/post code field in address section.&#039;, &#039;geodirectory&#039; ))
+				)
+			);
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;zip_required&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[zip_required]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;horizontal&#039;,
+					&#039;label_col&#039;        =&gt; &#039;4&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Make zip code required&#039;,&#039;geodirectory&#039;) ,
+					&#039;type&#039;              =&gt; &#039;checkbox&#039;,
+					&#039;checked&#039; =&gt; isset($address[&#039;zip_required&#039;]) ? $address[&#039;zip_required&#039;] : &#039;&#039;,
+					&#039;value&#039; =&gt; &#039;1&#039;,
+					&#039;switch&#039;    =&gt; &#039;md&#039;,
+					&#039;label_force_left&#039;  =&gt; true,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;element_require&#039;   =&gt; &#039;[%show_zip%:checked]&#039;,
+					&#039;help_text&#039; =&gt; geodir_help_tip( __( &#039;Tick to set zip/post code field as required. Some countries do not use ZIP codes, please only enable if your directory is limited to countries that do.&#039;, &#039;geodirectory&#039; ))
+				)
+			);
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;zip_lable&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[zip_lable]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Zip/Post code label&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Enter zip/post code field label in address section.&#039;, &#039;geodirectory&#039; )),
+					&#039;type&#039;              =&gt; &#039;text&#039;,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;value&#039; =&gt; isset($address[&#039;zip_lable&#039;]) ? $address[&#039;zip_lable&#039;] : &#039;&#039;,
+					&#039;element_require&#039;   =&gt; &#039;[%show_zip%:checked]&#039;
+
+				)
+			);
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;map_lable&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[map_lable]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Map button label&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Enter text for `set address on map` button in address section.&#039;, &#039;geodirectory&#039; )),
+					&#039;type&#039;              =&gt; &#039;text&#039;,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;value&#039; =&gt; isset($address[&#039;map_lable&#039;]) ? $address[&#039;map_lable&#039;] : &#039;&#039;,
+//					&#039;element_require&#039;   =&gt; &#039;[%show_zip%:checked]&#039;
+				)
+			);
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;show_mapzoom&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[show_mapzoom]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;horizontal&#039;,
+					&#039;label_col&#039;        =&gt; &#039;4&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Use user zoom level&#039;,&#039;geodirectory&#039;) ,
+					&#039;type&#039;              =&gt; &#039;checkbox&#039;,
+					&#039;checked&#039; =&gt; isset($address[&#039;show_mapzoom&#039;]) ? $address[&#039;show_mapzoom&#039;] : &#039;&#039;,
+					&#039;value&#039; =&gt; &#039;1&#039;,
+					&#039;switch&#039;    =&gt; &#039;md&#039;,
+					&#039;label_force_left&#039;  =&gt; true,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+//					&#039;element_require&#039;   =&gt; &#039;[%show_zip%:checked]&#039;,
+					&#039;help_text&#039; =&gt; geodir_help_tip( __( &#039;Do you want to use the user defined map zoom level from the add listing page?&#039;, &#039;geodirectory&#039; ))
+				)
+			);
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;show_mapview&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[show_mapview]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;horizontal&#039;,
+					&#039;label_col&#039;        =&gt; &#039;4&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Display map view&#039;,&#039;geodirectory&#039;) ,
+					&#039;type&#039;              =&gt; &#039;checkbox&#039;,
+					&#039;checked&#039; =&gt; isset($address[&#039;show_mapview&#039;]) ? $address[&#039;show_mapview&#039;] : &#039;&#039;,
+					&#039;value&#039; =&gt; &#039;1&#039;,
+					&#039;switch&#039;    =&gt; &#039;md&#039;,
+					&#039;label_force_left&#039;  =&gt; true,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+//					&#039;element_require&#039;   =&gt; &#039;[%show_zip%:checked]&#039;,
+					&#039;help_text&#039; =&gt; geodir_help_tip( __( &#039;Select if you want to show `set default map` options in address section. ( Satellite Map, Hybrid Map, Terrain Map)&#039;, &#039;geodirectory&#039; ))
+				)
+			);
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;mapview_lable&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[mapview_lable]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Map view label&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Enter mapview field label in address section.&#039;, &#039;geodirectory&#039; )),
+					&#039;type&#039;              =&gt; &#039;text&#039;,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;value&#039; =&gt; isset($address[&#039;mapview_lable&#039;]) ? $address[&#039;mapview_lable&#039;] : &#039;&#039;,
+					&#039;element_require&#039;   =&gt; &#039;[%show_mapview%:checked]&#039;
+				)
+			);
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;show_latlng&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[show_latlng]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;horizontal&#039;,
+					&#039;label_col&#039;        =&gt; &#039;4&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Show latitude and longitude&#039;,&#039;geodirectory&#039;) ,
+					&#039;type&#039;              =&gt; &#039;checkbox&#039;,
+					&#039;checked&#039; =&gt; isset($address[&#039;show_latlng&#039;]) ? $address[&#039;show_latlng&#039;] : &#039;&#039;,
+					&#039;value&#039; =&gt; &#039;1&#039;,
+					&#039;switch&#039;    =&gt; &#039;md&#039;,
+					&#039;label_force_left&#039;  =&gt; true,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+//					&#039;element_require&#039;   =&gt; &#039;[%show_zip%:checked]&#039;,
+					&#039;help_text&#039; =&gt; geodir_help_tip( __( &#039;This will show/hide the longitude fields in the address section add listing form.&#039;, &#039;geodirectory&#039; ))
+				)
+			);
+			?&gt;
+
+			&lt;input type=&quot;hidden&quot; name=&quot;extra[show_map]&quot; value=&quot;1&quot; /&gt;
+
+			&lt;?php
+
+			$html = ob_get_clean();
+			return $output.$html;
+		}
+
+        /**
+         * The category display_type setting.
+         *
+         * @since 2.0.0
+         *
+         * @param string $output Html output.
+         * @param string $result_str Results string.
+         * @param array $cf Custom fields values
+         * @param object $field Extra fields information.
+         * @return string $output.
+         */
+		public static function category_input_type( $output, $result_str, $cf, $field ) {
+
+			if ( $field-&gt;htmlvar_name == &#039;post_category&#039; ) {
+
+				$extra = maybe_unserialize( $field-&gt;extra_fields );
+
+				if ( is_array( $extra ) &amp;&amp; ! empty( $extra[&#039;cat_display_type&#039;] ) ) {
+					$cat_display_type = $extra[&#039;cat_display_type&#039;];
+				} else {
+					$cat_display_type = &#039;select&#039;;
+				}
+
+				$output .= aui()-&gt;select(
+					array(
+						&#039;id&#039;                =&gt; &#039;cat_display_type&#039;,
+						&#039;name&#039;              =&gt; &#039;extra[cat_display_type]&#039;,
+						&#039;label_type&#039;        =&gt; &#039;top&#039;,
+						&#039;multiple&#039;   =&gt; false,
+						&#039;class&#039;             =&gt; &#039; mw-100&#039;,
+						&#039;options&#039;       =&gt; array(
+							&#039;select&#039;   =&gt; __( &#039;Select&#039;, &#039;geodirectory&#039; ),
+							&#039;multiselect&#039;   =&gt; __( &#039;Multiselect&#039;, &#039;geodirectory&#039; ),
+							&#039;checkbox&#039;   =&gt; __( &#039;Checkbox&#039;, &#039;geodirectory&#039; ),
+							&#039;radio&#039;   =&gt; __( &#039;Radio&#039;, &#039;geodirectory&#039; ),
+						),
+						&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+						&#039;label&#039;              =&gt; __(&#039;Category display type&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Show categories list as select, multiselect, checkbox or radio&#039;, &#039;geodirectory&#039; )),
+						&#039;value&#039;         =&gt; $cat_display_type,
+					)
+				);
+
+			}
+
+			return $output;
+		}
+		/**
+		 * The no of tags setting.
+		 *
+		 * @since 2.1.0.7
+		 *
+		 * @param string $output Html output.
+		 * @param string $result_str Results string.
+		 * @param array  $cf Custom fields values.
+		 * @param object $field Extra fields information.
+		 * @return string $output.
+		 */
+		public static function no_of_tags_input_type( $output, $result_str, $cf, $field ) {
+
+			if ( $field-&gt;htmlvar_name == &#039;post_tags&#039; ) {
+				$extra = maybe_unserialize( $field-&gt;extra_fields );
+
+				if ( geodir_design_style() ) {
+					// Disable New Tags
+					$output .= aui()-&gt;input(
+						array(
+							&#039;id&#039;               =&gt; &#039;disable_new_tags&#039;,
+							&#039;type&#039;             =&gt; &#039;checkbox&#039;,
+							&#039;name&#039;             =&gt; &#039;extra[disable_new_tags]&#039;,
+							&#039;label_type&#039;       =&gt; &#039;horizontal&#039;,
+							&#039;label_col&#039;        =&gt; &#039;4&#039;,
+							&#039;label&#039;            =&gt; __( &#039;Disable New Tags&#039;, &#039;geodirectory&#039; ) ,
+							&#039;checked&#039;          =&gt; ( is_array( $extra ) &amp;&amp; ! empty( $extra[&#039;disable_new_tags&#039;] ) ? 1 : 0 ),
+							&#039;value&#039;            =&gt; &#039;1&#039;,
+							&#039;switch&#039;           =&gt; &#039;md&#039;,
+							&#039;label_force_left&#039; =&gt; true,
+							&#039;wrap_class&#039;       =&gt; geodir_advanced_toggle_class(),
+							&#039;help_text&#039;        =&gt; geodir_help_tip( __( &#039;Disable create a new tags dynamically from frontend users.&#039;, &#039;geodirectory&#039; ) )
+						)
+					);
+				}
+
+				// Spell Check
+				$output .= aui()-&gt;input(
+					array(
+						&#039;id&#039;               =&gt; &#039;spellcheck&#039;,
+						&#039;type&#039;             =&gt; &#039;checkbox&#039;,
+						&#039;name&#039;             =&gt; &#039;extra[spellcheck]&#039;,
+						&#039;label_type&#039;       =&gt; &#039;horizontal&#039;,
+						&#039;label_col&#039;        =&gt; &#039;4&#039;,
+						&#039;label&#039;            =&gt; __( &#039;Spell Check&#039;, &#039;geodirectory&#039; ) ,
+						&#039;checked&#039;          =&gt; ( is_array( $extra ) &amp;&amp; ! empty( $extra[&#039;spellcheck&#039;] ) ? 1 : 0 ),
+						&#039;value&#039;            =&gt; &#039;1&#039;,
+						&#039;switch&#039;           =&gt; &#039;md&#039;,
+						&#039;label_force_left&#039; =&gt; true,
+						&#039;wrap_class&#039;       =&gt; geodir_advanced_toggle_class(),
+						&#039;help_text&#039;        =&gt; geodir_help_tip( __( &#039;Enable spell check for the new tag.&#039;, &#039;geodirectory&#039; ) )
+					)
+				);
+
+				if ( is_array( $extra ) &amp;&amp; ! empty( $extra[&#039;no_of_tag&#039;] ) ) {
+					$no_of_tag = $extra[&#039;no_of_tag&#039;];
+				} else {
+					$no_of_tag = &#039;&#039;;
+				}
+				$output .= aui()-&gt;input(
+					array(
+						&#039;id&#039;                =&gt; &#039;no_of_tag&#039;,
+						&#039;name&#039;              =&gt; &#039;extra[no_of_tag]&#039;,
+						&#039;label_type&#039;        =&gt; &#039;top&#039;,
+						&#039;label&#039;              =&gt; __(&#039;Number of allowed tags&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Enter number of allowed tags&#039;, &#039;geodirectory&#039; ) ),
+						&#039;type&#039;              =&gt; &#039;number&#039;,
+						&#039;value&#039; =&gt; $no_of_tag,
+						&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+						&#039;extra_attributes&#039;  =&gt; array(
+							&#039;step&#039;  =&gt; &quot;1&quot;,
+							&#039;min&#039;   =&gt; &quot;0&quot;
+						)
+//					&#039;placeholder&#039; =&gt;  $field-&gt;field_type == &#039;email&#039; ? __( &#039;info@mysite.com&#039;, &#039;geodirectory&#039; ) : &#039;&#039;
+					)
+				);
+			}
+
+			return $output;
+		}
+
+        /**
+         * Add HTML5 validation pattern fields.
+         *
+         * @since 2.0.0
+         *
+         * @param string $output Html output.
+         * @param string $result_str Result string.
+         * @param array $cf Custom fields values.
+         * @param object $field_info Extra fields information.
+         * @return string $output.
+         */
+		public static function validation_pattern( $output, $result_str, $cf, $field_info ) {
+			ob_start();
+
+			$value = &#039;&#039;;
+			if ( isset( $field_info-&gt;validation_pattern ) ) {
+				$value = esc_attr( $field_info-&gt;validation_pattern );
+			} elseif ( isset( $cf[&#039;defaults&#039;][&#039;validation_pattern&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;validation_pattern&#039;] ) {
+				$value = esc_attr( $cf[&#039;defaults&#039;][&#039;validation_pattern&#039;] );
+			}
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;         =&gt; &#039;validation_pattern&#039;,
+					&#039;name&#039;       =&gt; &#039;validation_pattern&#039;,
+					&#039;label_type&#039; =&gt; &#039;top&#039;,
+					&#039;label&#039;      =&gt; __(&#039;Validation Pattern&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Enter regex expression for HTML5 pattern validation.&#039;, &#039;geodirectory&#039; )),
+					&#039;type&#039;       =&gt; &#039;text&#039;,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;value&#039;      =&gt; addslashes_gpc( $value ), // Keep slashes
+				)
+			);
+
+			$value = &#039;&#039;;
+			if ( isset( $field_info-&gt;validation_msg ) ) {
+				$value = esc_attr( $field_info-&gt;validation_msg );
+			} elseif ( isset( $cf[&#039;defaults&#039;][&#039;validation_msg&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;validation_msg&#039;] ) {
+				$value = esc_attr( $cf[&#039;defaults&#039;][&#039;validation_msg&#039;] );
+			}
+
+			echo aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;validation_msg&#039;,
+					&#039;name&#039;              =&gt; &#039;validation_msg&#039;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Validation Message&#039;,&#039;geodirectory&#039;) . geodir_help_tip( __( &#039;Enter a extra validation message to show to the user if validation fails.&#039;, &#039;geodirectory&#039; )),
+					&#039;type&#039;              =&gt; &#039;text&#039;,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;value&#039; =&gt; $value,
+				)
+			);
+
+			$output = ob_get_clean();
+
+			return $output;
+		}
+
+        /**
+         * Advanced WYSIWYG editor option.
+         *
+         * @since 2.0.0
+         *
+         * @param string $output Html output.
+         * @param string $result_str Results string.
+         * @param array $cf Custom fields values.
+         * @param object $field_info Extra fields information.
+         * @return string $output.
+         */
+		public static function advanced_editor( $output, $result_str, $cf, $field_info ) {
+
+			$value = &#039;&#039;;
+			$extra = ! empty( $field_info-&gt;extra_fields ) ? maybe_unserialize( $field_info-&gt;extra_fields ) : array();
+			if ( is_array( $extra ) &amp;&amp; isset( $extra[&#039;advanced_editor&#039;] ) ) {
+				$value = absint( $extra[&#039;advanced_editor&#039;] );
+			} elseif ( isset( $cf[&#039;defaults&#039;][&#039;advanced_editor&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;advanced_editor&#039;] ) {
+				$value = absint( $cf[&#039;defaults&#039;][&#039;advanced_editor&#039;] );
+			}
+			$output .= aui()-&gt;input(
+				array(
+					&#039;id&#039;                =&gt; &#039;advanced_editor&#039;,
+					&#039;name&#039;              =&gt; &#039;extra[advanced_editor]&#039;,
+					&#039;label_type&#039;        =&gt; &#039;horizontal&#039;,
+					&#039;label_col&#039;        =&gt; &#039;4&#039;,
+					&#039;label&#039;              =&gt; __(&#039;Advanced editor&#039;,&#039;geodirectory&#039;) ,
+					&#039;type&#039;              =&gt; &#039;checkbox&#039;,
+					&#039;checked&#039; =&gt; $value,
+					&#039;value&#039; =&gt; &#039;1&#039;,
+					&#039;switch&#039;    =&gt; &#039;md&#039;,
+					&#039;label_force_left&#039;  =&gt; true,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;help_text&#039; =&gt; geodir_help_tip( __( &#039;Select if you want to show the advanced editor on add listing page.&#039;, &#039;geodirectory&#039; ))
+				)
+			);
+
+			return $output;
+		}
+
+        /**
+         * Add a data type selector fro text inputs.
+         *
+         * @since 2.0.0
+         *
+         * @param string $output Html output.
+         * @param string $result_str Results string.
+         * @param array $cf Custom fields value.
+         * @param object $field_info Extra fields information.
+         * @return string $output.
+         */
+		public static function data_type( $output, $result_str, $cf, $field_info ) {
+			ob_start();
+
+			$dt_value = &#039;&#039;;
+			if ( isset( $field_info-&gt;data_type ) ) {
+				$dt_value = esc_attr( $field_info-&gt;data_type );
+			} elseif ( isset( $cf[&#039;defaults&#039;][&#039;data_type&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;data_type&#039;] ) {
+				$dt_value = $cf[&#039;defaults&#039;][&#039;data_type&#039;];
+			}
+
+			// fix some values
+			if ( $dt_value == &#039;VARCHAR&#039; ) {
+				$dt_value = &#039;XVARCHAR&#039;;
+			} elseif ( $dt_value == &#039;FLOAT&#039; ) {
+				$dt_value = &#039;DECIMAL&#039;;
+			}
+
+			echo aui()-&gt;select(
+				array(
+					&#039;id&#039;                =&gt; &quot;data_type&quot;,
+					&#039;name&#039;              =&gt; &quot;data_type&quot;,
+					&#039;label_type&#039;        =&gt; &#039;top&#039;,
+					&#039;multiple&#039;   =&gt; false,
+					&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+					&#039;class&#039;             =&gt; &#039;mw-100&#039;,
+					&#039;options&#039;       =&gt; array(
+						&#039;XVARCHAR&#039;   =&gt; __( &#039;CHARACTER&#039;, &#039;geodirectory&#039; ),
+						&#039;INT&#039;   =&gt; __( &#039;NUMBER&#039;, &#039;geodirectory&#039; ),
+						&#039;DECIMAL&#039;   =&gt; __( &#039;DECIMAL&#039;, &#039;geodirectory&#039; ),
+					),
+					&#039;label&#039;              =&gt; __(&#039;Data Type&#039;,&#039;geodirectory&#039;).geodir_help_tip( __( &#039;Select the data type for the field. This can affect things like search filtering.&#039;, &#039;geodirectory&#039; )),
+					&#039;value&#039;         =&gt; $dt_value,
+					&#039;extra_attributes&#039;  =&gt; array(
+						&#039;onchange&#039;  =&gt; &quot;javascript:gd_data_type_changed(this, &#039;$result_str&#039;);&quot;
+					)
+				)
+			);
+
+			$output = ob_get_clean();
+
+			return $output;
+		}
+
+		/**
+         * Input to enable embed option for videos, images, tweets, audio, and other content.
+         *
+         * @since 2.0.0
+         *
+         * @param string $output Html output.
+         * @param string $result_str Results string.
+         * @param array $cf Custom fields values.
+         * @param object $field_info Extra fields information.
+         * @return string $output.
+         */
+		public static function embed_input( $output, $result_str, $cf, $field_info ) {
+			ob_start();
+			if ( ! empty( $field_info-&gt;htmlvar_name ) &amp;&amp; $field_info-&gt;htmlvar_name == &#039;video&#039; ) {
+				?&gt;
+				&lt;input type=&quot;hidden&quot; name=&quot;extra[embed]&quot; value=&quot;1&quot; /&gt;
+				&lt;?php
+			} else {
+
+				$extra = ! empty( $field_info-&gt;extra_fields ) ? maybe_unserialize( $field_info-&gt;extra_fields ) : array();
+
+				if ( is_array( $extra ) &amp;&amp; isset( $extra[&#039;embed&#039;] ) ) {
+					$value = absint( $extra[&#039;embed&#039;] );
+				} elseif ( isset( $cf[&#039;defaults&#039;][&#039;embed&#039;] ) &amp;&amp; $cf[&#039;defaults&#039;][&#039;embed&#039;] ) {
+					$value = absint( $cf[&#039;defaults&#039;][&#039;embed&#039;] );
+				} else {
+					$value = 0;
+				}
+				echo aui()-&gt;input(
+					array(
+						&#039;id&#039;                =&gt; &#039;embed&#039;,
+						&#039;name&#039;              =&gt; &#039;extra[embed]&#039;,
+						&#039;label_type&#039;        =&gt; &#039;horizontal&#039;,
+						&#039;label_col&#039;        =&gt; &#039;4&#039;,
+						&#039;label&#039;              =&gt; __(&#039;Embed Media URLs&#039;,&#039;geodirectory&#039;) ,
+						&#039;type&#039;              =&gt; &#039;checkbox&#039;,
+						&#039;checked&#039; =&gt; $value,
+						&#039;value&#039; =&gt; &#039;1&#039;,
+						&#039;switch&#039;    =&gt; &#039;md&#039;,
+						&#039;label_force_left&#039;  =&gt; true,
+						&#039;wrap_class&#039; =&gt; geodir_advanced_toggle_class(),
+						&#039;help_text&#039; =&gt; geodir_help_tip( __( &#039;Tick to allow embed videos, images, tweets, audio, and other content.&#039;, &#039;geodirectory&#039; ))
+					)
+				);
+
+			}
+			$output .= ob_get_clean();
+
+			return $output;
+		}
+	}
+
+endif;</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>

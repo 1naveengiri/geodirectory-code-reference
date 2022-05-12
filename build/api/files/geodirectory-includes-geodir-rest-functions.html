@@ -1,0 +1,1818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geodirectory Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1652334990">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/template.css?updated=1652334990">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KCYZ2CYMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'WooCommerce Core Code Reference',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img width="180" src="../images/logo.svg" alt="WooCommerce" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.woocommerce.com/">Documentation</a></li>
+                <li><a href="https://woocommerce.github.io/woocommerce-rest-api-docs/">REST API Docs</a></li>
+                <li><a href="https://woocommerce.com/careers/?utm_source=woocommerce+core+code+reference&utm_medium=devdocs&utm_campaign=woo+careers" target="_blank">We're hiring!</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title">Geodirectory Code Reference</h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/elementorpro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/elementorpro-modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Geodirectory.html"><abbr title="\Geodirectory">Geodirectory</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectory.html"><abbr title="\GeoDirectory">GeoDirectory</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/GeoDirectory-Templates.html"><abbr title="\GeoDirectory\Templates">Templates</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAbstracts.html"><abbr title="\GeoDirectoryAbstracts">GeoDirectoryAbstracts</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAPI.html"><abbr title="\GeoDirectoryAPI">GeoDirectoryAPI</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClasses.html"><abbr title="\GeoDirectoryClasses">GeoDirectoryClasses</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminFunctions.html"><abbr title="\GeoDirectoryAdminFunctions">GeoDirectoryAdminFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoruAdmin.html"><abbr title="\GeoDirectoruAdmin">GeoDirectoruAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdmin.html"><abbr title="\GeoDirectoryAdmin">GeoDirectoryAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirAdmin.html"><abbr title="\GeoDirAdmin">GeoDirAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectroyAdmin.html"><abbr title="\GeoDirectroyAdmin">GeoDirectroyAdmin</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminSystemStatus.html"><abbr title="\GeoDirectoryAdminSystemStatus">GeoDirectoryAdminSystemStatus</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminTools.html"><abbr title="\GeoDirectoryAdminTools">GeoDirectoryAdminTools</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryAdminWidgets.html"><abbr title="\GeoDirectoryAdminWidgets">GeoDirectoryAdminWidgets</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesEmails.html"><abbr title="\GeoDirectoryClassesEmails">GeoDirectoryClassesEmails</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryClassesData.html"><abbr title="\GeoDirectoryClassesData">GeoDirectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDIrectoryClassesData.html"><abbr title="\GeoDIrectoryClassesData">GeoDIrectoryClassesData</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/ElementorPro.html"><abbr title="\ElementorPro">ElementorPro</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/ElementorPro-Modules.html"><abbr title="\ElementorPro\Modules">Modules</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryFunctions.html"><abbr title="\GeoDirectoryFunctions">GeoDirectoryFunctions</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryparamarraytermsAnarrayoftermobjects.html"><abbr title="\GeoDirectoryparamarraytermsAnarrayoftermobjects">GeoDirectoryparamarraytermsAnarrayoftermobjects</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WP.html"><abbr title="\WP">WP</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WP-Background.html"><abbr title="\WP\Background">Background</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/GeoDirectoryTemplates.html"><abbr title="\GeoDirectoryTemplates">GeoDirectoryTemplates</abbr></a></h3>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">geodir-rest-functions.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_api_enabled">
+        geodir_api_enabled()
+        <a href="#function_geodir_api_enabled" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.24">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for api enabled.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_api_enabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_prepare_date_response">
+        geodir_rest_prepare_date_response()
+        <a href="#function_geodir_rest_prepare_date_response" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.37">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">37</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Parses and formats a date for ISO8601/RFC3339.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_prepare_date_response</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null|<a href="../classes/GeoDir-DateTime.html"><abbr title="\GeoDir_DateTime">GeoDir_DateTime</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$date</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$utc</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$date</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null|<a href="../classes/GeoDir-DateTime.html"><abbr title="\GeoDir_DateTime">GeoDir_DateTime</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$utc</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_allowed_image_mime_types">
+        geodir_rest_allowed_image_mime_types()
+        <a href="#function_geodir_rest_allowed_image_mime_types" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.59">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">59</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns image mime types users are allowed to upload via the API.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_allowed_image_mime_types</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_validate_reports_request_arg">
+        geodir_rest_validate_reports_request_arg()
+        <a href="#function_geodir_rest_validate_reports_request_arg" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.80">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">80</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Validate reports request arguments.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_validate_reports_request_arg</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\WP_REST_Request">WP_REST_Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$param</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\WP_Error">WP_Error</abbr>|bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$request</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\WP_REST_Request">WP_REST_Request</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$param</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_urlencode_rfc3986">
+        geodir_rest_urlencode_rfc3986()
+        <a href="#function_geodir_rest_urlencode_rfc3986" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.111">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">111</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Encodes a value according to RFC 3986.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_urlencode_rfc3986</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"><p>Supports multidimensional arrays.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The value to encode.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_check_post_permissions">
+        geodir_rest_check_post_permissions()
+        <a href="#function_geodir_rest_check_post_permissions" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.128">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">128</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Check permissions of posts on REST API.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_check_post_permissions</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_type</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;read&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object_id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post type.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$context</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;read&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Request context.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$object_id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post ID.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_check_post_term_permissions">
+        geodir_rest_check_post_term_permissions()
+        <a href="#function_geodir_rest_check_post_term_permissions" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.157">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">157</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Check permissions of product terms on REST API.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_check_post_term_permissions</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$taxonomy</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;read&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object_id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$taxonomy</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Taxonomy.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$context</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;read&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Request context.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$object_id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Post ID.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_check_manager_permissions">
+        geodir_rest_check_manager_permissions()
+        <a href="#function_geodir_rest_check_manager_permissions" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.181">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">181</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Check manager permissions on REST API.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_check_manager_permissions</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;read&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$object</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Object.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$context</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;read&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Request context.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_get_countries">
+        geodir_rest_get_countries()
+        <a href="#function_geodir_rest_get_countries" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.202">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">202</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for rest get countries.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_get_countries</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$params</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$params</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Countries argument parameters. Default array().</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">todo</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>kiran, please check this, i implemented new country class</p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_country_by_id">
+        geodir_rest_country_by_id()
+        <a href="#function_geodir_rest_country_by_id" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.240">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">240</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for get rest country by id.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_country_by_id</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Country id.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_country_by_name">
+        geodir_rest_country_by_name()
+        <a href="#function_geodir_rest_country_by_name" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.256">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">256</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for get rest country by name.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_country_by_name</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Country name.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_country_by_iso2">
+        geodir_rest_country_by_iso2()
+        <a href="#function_geodir_rest_country_by_iso2" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.272">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">272</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for get rest country by iso2.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_country_by_iso2</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Country iso2 value.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_data_type_to_field_type">
+        geodir_rest_data_type_to_field_type()
+        <a href="#function_geodir_rest_data_type_to_field_type" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.290">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">290</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for convert datatype to filed type.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_data_type_to_field_type</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data_type</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$data_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Data type.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_get_enum_values">
+        geodir_rest_get_enum_values()
+        <a href="#function_geodir_rest_get_enum_values" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.325">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">325</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for get enum values.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_get_enum_values</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$options</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>{
+Get enum option values.</p>
+<pre class="prettyprint"><code class="prettyprint"> @type string $value enum option value.
+ @type string  $optgroup enum option group value.
+</code></pre>
+<p>}</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_validate_request_arg">
+        geodir_rest_validate_request_arg()
+        <a href="#function_geodir_rest_validate_request_arg" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.349">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">349</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for rest validate request arguments.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_validate_request_arg</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$param</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Request argument value.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$request</span>
+                : <span class="phpdocumentor-signature__argument__return-type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Request argument object.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$param</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Request argument parameter.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_validate_value_from_schema">
+        geodir_rest_validate_value_from_schema()
+        <a href="#function_geodir_rest_validate_value_from_schema" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.369">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">369</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for rest validate value from schema.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_validate_value_from_schema</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$args</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$param</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Request argument value.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$args</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Request validate value schema array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$param</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Request argument parameter.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_markers_url">
+        geodir_rest_markers_url()
+        <a href="#function_geodir_rest_markers_url" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.506">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">506</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for get rest markers url.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_markers_url</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$query_args</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$query_args</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Rest markers url query argument. Default array.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_url">
+        geodir_rest_url()
+        <a href="#function_geodir_rest_url" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.527">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">527</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for get rest markers url.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_url</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$rest_base</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$query_args</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$rest_base</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$query_args</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional. Rest markers url query argument. Default array.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_geodir_rest_post_sort_options">
+        geodir_rest_post_sort_options()
+        <a href="#function_geodir_rest_post_sort_options" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="geodirectory/includes/geodir-rest-functions.php"><a href="../files/geodirectory-includes-geodir-rest-functions.html#source-view.551">geodirectory/includes/geodir-rest-functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">551</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Function for rest sort options by posttype.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">geodir_rest_post_sort_options</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post_type</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post_type</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Posttype.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">2.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * GeoDirectory REST Functions
+ *
+ * Functions for REST specific things.
+ *
+ * @author   GeoDirectory
+ * @category Core
+ * @package  GeoDirectory/Functions
+ * @version  2.0.0
+ */
+
+if ( ! defined( &#039;ABSPATH&#039; ) ) {
+	exit;
+}
+
+/**
+ * Function for api enabled.
+ *
+ * @since 2.0.0
+ *
+ * @return bool $api_enabled.
+ */
+function geodir_api_enabled() {
+	$api_enabled = geodir_get_option( &#039;rest_api_enabled&#039; ) ? true : false;
+	return apply_filters( &#039;geodir_api_enabled&#039;, $api_enabled );
+}
+
+/**
+ * Parses and formats a date for ISO8601/RFC3339.
+ *
+ * @since  2.0.0
+ * @param  string|null|GeoDir_DateTime $date
+ * @param  bool Send false to get local/offset time.
+ * @return string|null ISO8601/RFC3339 formatted datetime.
+ */
+function geodir_rest_prepare_date_response( $date, $utc = true ) {
+	if ( is_numeric( $date ) ) {
+		$date = new GeoDir_DateTime( &quot;@$date&quot;, new DateTimeZone( &#039;UTC&#039; ) );
+		$date-&gt;setTimezone( new DateTimeZone( geodir_timezone_string() ) );
+	} elseif ( is_string( $date ) ) {
+		$date = new GeoDir_DateTime( $date, new DateTimeZone( &#039;UTC&#039; ) );
+		$date-&gt;setTimezone( new DateTimeZone( geodir_timezone_string() ) );
+	}
+
+	if ( ! is_a( $date, &#039;GeoDir_DateTime&#039; ) ) {
+		return null;
+	}
+
+	// Get timestamp before changing timezone to UTC.
+	return gmdate( &#039;Y-m-d\TH:i:s&#039;, $utc ? $date-&gt;getTimestamp() : $date-&gt;getOffsetTimestamp() );
+}
+
+/**
+ * Returns image mime types users are allowed to upload via the API.
+ * @since  2.0.0
+ * @return array
+ */
+function geodir_rest_allowed_image_mime_types() {
+	return apply_filters( &#039;geodir_rest_allowed_image_mime_types&#039;, array(
+		&#039;jpg|jpeg|jpe&#039; =&gt; &#039;image/jpeg&#039;,
+		&#039;gif&#039;          =&gt; &#039;image/gif&#039;,
+		&#039;png&#039;          =&gt; &#039;image/png&#039;,
+		&#039;bmp&#039;          =&gt; &#039;image/bmp&#039;,
+		&#039;tiff|tif&#039;     =&gt; &#039;image/tiff&#039;,
+		&#039;ico&#039;          =&gt; &#039;image/x-icon&#039;,
+		&#039;webp&#039;         =&gt; &#039;image/webp&#039;,
+	) );
+}
+
+/**
+ * Validate reports request arguments.
+ *
+ * @since 2.0.0
+ * @param mixed $value
+ * @param WP_REST_Request $request
+ * @param string $param
+ * @return WP_Error|boolean
+ */
+function geodir_rest_validate_reports_request_arg( $value, $request, $param ) {
+
+	$attributes = $request-&gt;get_attributes();
+	if ( ! isset( $attributes[&#039;args&#039;][ $param ] ) || ! is_array( $attributes[&#039;args&#039;][ $param ] ) ) {
+		return true;
+	}
+	$args = $attributes[&#039;args&#039;][ $param ];
+
+	if ( &#039;string&#039; === $args[&#039;type&#039;] &amp;&amp; ! is_string( $value ) ) {
+		return new WP_Error( &#039;geodir__rest_invalid_param&#039;, sprintf( __( &#039;%1$s is not of type %2$s&#039;, &#039;geodirectory&#039; ), $param, &#039;string&#039; ) );
+	}
+
+	if ( &#039;date&#039; === $args[&#039;format&#039;] ) {
+		$regex = &#039;#^\d{4}-\d{2}-\d{2}$#&#039;;
+
+		if ( ! preg_match( $regex, $value, $matches ) ) {
+			return new WP_Error( &#039;geodir__rest_invalid_date&#039;, __( &#039;The date you provided is invalid.&#039;, &#039;geodirectory&#039; ) );
+		}
+	}
+
+	return true;
+}
+
+/**
+ * Encodes a value according to RFC 3986.
+ * Supports multidimensional arrays.
+ *
+ * @since 2.0.0
+ * @param string|array $value The value to encode.
+ * @return string|array       Encoded values.
+ */
+function geodir_rest_urlencode_rfc3986( $value ) {
+	if ( is_array( $value ) ) {
+		return array_map( &#039;geodir_rest_urlencode_rfc3986&#039;, $value );
+	} else {
+		return str_replace( array( &#039;+&#039;, &#039;%7E&#039; ), array( &#039; &#039;, &#039;~&#039; ), rawurlencode( $value ) );
+	}
+}
+
+/**
+ * Check permissions of posts on REST API.
+ *
+ * @since 2.0.0
+ * @param string $post_type Post type.
+ * @param string $context   Request context.
+ * @param int    $object_id Post ID.
+ * @return bool
+ */
+function geodir_rest_check_post_permissions( $post_type, $context = &#039;read&#039;, $object_id = 0 ) {
+	$contexts = array(
+		&#039;read&#039;   =&gt; &#039;read_private_posts&#039;,
+		&#039;create&#039; =&gt; &#039;publish_posts&#039;,
+		&#039;edit&#039;   =&gt; &#039;edit_post&#039;,
+		&#039;delete&#039; =&gt; &#039;delete_post&#039;,
+		&#039;batch&#039;  =&gt; &#039;edit_others_posts&#039;,
+	);
+
+	if ( &#039;revision&#039; === $post_type ) {
+		$permission = false;
+	} else {
+		$cap = $contexts[ $context ];
+		$post_type_object = get_post_type_object( $post_type );
+		$permission = current_user_can( $post_type_object-&gt;cap-&gt;$cap, $object_id );
+	}
+
+	return apply_filters( &#039;geodir_rest_check_permissions&#039;, $permission, $context, $object_id, $post_type );
+}
+
+/**
+ * Check permissions of product terms on REST API.
+ *
+ * @since 2.0.0
+ * @param string $taxonomy  Taxonomy.
+ * @param string $context   Request context.
+ * @param int    $object_id Post ID.
+ * @return bool
+ */
+function geodir_rest_check_post_term_permissions( $taxonomy, $context = &#039;read&#039;, $object_id = 0 ) {
+	$contexts = array(
+		&#039;read&#039;   =&gt; &#039;manage_terms&#039;,
+		&#039;create&#039; =&gt; &#039;edit_terms&#039;,
+		&#039;edit&#039;   =&gt; &#039;edit_terms&#039;,
+		&#039;delete&#039; =&gt; &#039;delete_terms&#039;,
+		&#039;batch&#039;  =&gt; &#039;edit_terms&#039;,
+	);
+
+	$cap = $contexts[ $context ];
+	$taxonomy_object = get_taxonomy( $taxonomy );
+	$permission = current_user_can( $taxonomy_object-&gt;cap-&gt;$cap, $object_id );
+
+	return apply_filters( &#039;geodir_rest_check_permissions&#039;, $permission, $context, $object_id, $taxonomy );
+}
+
+/**
+ * Check manager permissions on REST API.
+ *
+ * @since 2.0.0
+ * @param string $object  Object.
+ * @param string $context Request context.
+ * @return bool
+ */
+function geodir_rest_check_manager_permissions( $object, $context = &#039;read&#039; ) {
+	$objects = array(
+		&#039;reports&#039;          =&gt; &#039;manage_options&#039;,
+		&#039;settings&#039;         =&gt; &#039;manage_options&#039;,
+		&#039;system_status&#039;    =&gt; &#039;manage_options&#039;,
+	);
+
+	$permission = current_user_can( $objects[ $object ] );
+
+	return apply_filters( &#039;geodir_rest_check_permissions&#039;, $permission, $context, 0, $object );
+}
+
+/**
+ * Function for rest get countries.
+ *
+ * @since 2.0.0
+ *
+ * @param array $params Optional. Countries argument parameters. Default array().
+ * @return array $items.
+ * @todo kiran, please check this, i implemented new country class
+ */
+function geodir_rest_get_countries( $params = array() ) {
+    global $wpdb;
+    
+    $defaults = array(
+	    &#039;fields&#039;        =&gt; array(),
+	    &#039;where&#039;        =&gt; array(),
+	    &#039;like&#039;        =&gt; array(),
+        &#039;translated&#039;    =&gt; true,
+        &#039;order&#039;         =&gt; &#039;name&#039;,
+        &#039;orderby&#039;       =&gt; &#039;ASC&#039;,
+		&#039;limit&#039;			=&gt; &#039;&#039; // All
+    );
+    
+    $args = wp_parse_args( $params, $defaults );
+	
+	$items = wp_country_database()-&gt;get_countries($args);
+
+    if ( empty( $args[&#039;translated&#039;] ) ) {
+        return $items;
+    }
+    
+    if ( !empty( $items ) ) {
+        foreach ( $items as $key =&gt; $item ) {
+            $items[ $key ]-&gt;title = __( $item-&gt;name, &#039;geodirectory&#039; ); // translate
+        }
+    }
+    
+    return $items;
+}
+
+/**
+ * Function for get rest country by id.
+ *
+ * @since 2.0.0
+ *
+ * @param int $value Country id.
+ * @return array $rows.
+ */
+function geodir_rest_country_by_id( $value ) {
+    $rows = geodir_rest_get_countries( array( &#039;where&#039; =&gt; &quot;AND CountryId = &#039;&quot; . (int)$value . &quot;&#039;&quot;, &#039;limit&#039; =&gt; 1 ) );
+    
+    if ( !empty( $rows ) ) {
+		return $rows[0];
+    }
+}
+
+/**
+ * Function for get rest country by name.
+ *
+ * @since 2.0.0
+ *
+ * @param string $value Country name.
+ * @return array $rows.
+ */
+function geodir_rest_country_by_name( $value ) {
+    $rows = geodir_rest_get_countries( array( &#039;where&#039; =&gt; &quot;AND Country LIKE &#039;&quot; . wp_slash( $value ) . &quot;&#039;&quot;, &#039;limit&#039; =&gt; 1 ) );
+    
+    if ( !empty( $rows ) ) {
+        return $rows[0];
+    }
+}
+
+/**
+ * Function for get rest country by iso2.
+ *
+ * @since 2.0.0
+ *
+ * @param string $value Country iso2 value.
+ * @return array $rows.
+ */
+function geodir_rest_country_by_iso2( $value ) {
+    $rows = geodir_rest_get_countries( array( &#039;where&#039; =&gt; &quot;AND ISO2 LIKE &#039;&quot; . wp_slash( $value ) . &quot;&#039;&quot;, &#039;limit&#039; =&gt; 1 ) );
+
+    if ( !empty( $rows ) ) {
+        return $rows[0];
+    }
+    
+    return NULL;
+}
+
+/**
+ * Function for convert datatype to filed type.
+ *
+ * @since 2.0.0
+ *
+ * @param string $data_type Data type.
+ * @return string $type.
+ */
+function geodir_rest_data_type_to_field_type( $data_type ) {
+    switch ( strtolower( $data_type ) ) {
+        case &#039;float&#039;:
+            $type = &#039;number&#039;;
+            break;
+        case &#039;int&#039;:
+        case &#039;tinyint&#039;:
+        case &#039;integer&#039;:
+            $type = &#039;integer&#039;;
+            break;
+        case &#039;date&#039;:
+        case &#039;time&#039;:
+        case &#039;text&#039;:
+        case &#039;varchar&#039;:
+        default:
+            $type = &#039;string&#039;;
+            break;
+    }
+    
+    return $type;
+}
+
+/**
+ * Function for get enum values.
+ *
+ * @since 2.0.0
+ *
+ * @param array $options {
+ *      Get enum option values.
+ *
+ *      @type string $value enum option value.
+ *      @type string  $optgroup enum option group value.
+ * }
+ * @return array $values.
+ */
+function geodir_rest_get_enum_values( $options ) {
+    $values = array();
+    
+    if ( !empty( $options ) ) {
+        foreach ( $options as $option ) {
+            if ( isset( $option[&#039;value&#039;] ) &amp;&amp; $option[&#039;value&#039;] !== &#039;&#039; &amp;&amp; empty( $option[&#039;optgroup&#039;] ) ) {
+                $values[] = $option[&#039;value&#039;];
+            }            
+        }
+    }
+    
+    return $values;
+}
+
+/**
+ * Function for rest validate request arguments.
+ *
+ * @since 2.0.0
+ *
+ * @param string $value Request argument value.
+ * @param object $request Request argument object.
+ * @param string $param Request argument parameter.
+ * @return bool|string Return true or Wp_error.
+ */
+function geodir_rest_validate_request_arg( $value, $request, $param ) {
+    $attributes = $request-&gt;get_attributes();
+    if ( ! isset( $attributes[&#039;args&#039;][ $param ] ) || ! is_array( $attributes[&#039;args&#039;][ $param ] ) ) {
+        return true;
+    }
+    $args = $attributes[&#039;args&#039;][ $param ];
+
+    return geodir_rest_validate_value_from_schema( $value, $args, $param );
+}
+
+/**
+ * Function for rest validate value from schema.
+ *
+ * @since 2.0.0
+ *
+ * @param string $value Request argument value.
+ * @param array $args Request validate value schema array.
+ * @param string $param Request argument parameter.
+ * @return bool|string Return true or Wp_error.
+ */
+function geodir_rest_validate_value_from_schema( $value, $args, $param = &#039;&#039; ) {
+    if ( &#039;array&#039; === $args[&#039;type&#039;] ) {
+        if ( ! is_array( $value ) ) {
+            $value = preg_split( &#039;/[\s,]+/&#039;, $value );
+        }
+        if ( ! wp_is_numeric_array( $value ) ) {
+            /* translators: 1: parameter, 2: type name */
+            return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s is not of typeggg %2$s.&#039; ), $param, &#039;array&#039; ) );
+        }
+        foreach ( $value as $index =&gt; $v ) {
+            $is_valid = geodir_rest_validate_value_from_schema( $v, $args[&#039;items&#039;], $param . &#039;[&#039; . $index . &#039;]&#039; );
+            if ( is_wp_error( $is_valid ) ) {
+                return $is_valid;
+            }
+        }
+    }
+    if ( ! empty( $args[&#039;enum&#039;] ) ) {
+        if ( is_array( $value ) ) {
+            foreach ( $value as $index =&gt; $v ) {
+                if ( ! in_array( $v, $args[&#039;enum&#039;] ) ) {
+                    /* translators: 1: parameter, 2: value, 3: list of valid values */
+                    return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s value &quot;%2$s&quot; is not one of %3$s.&#039; ), $param, $v, implode( &#039;, &#039;, $args[&#039;enum&#039;] ) ) );
+                }
+            }
+        } else {
+            if ( ! in_array( $value, $args[&#039;enum&#039;] ) ) {
+                /* translators: 1: parameter, 2: list of valid values */
+                return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s is not one of %2$s.&#039; ), $param, implode( &#039;, &#039;, $args[&#039;enum&#039;] ) ) );
+            }
+        }
+    }
+
+    if ( in_array( $args[&#039;type&#039;], array( &#039;integer&#039;, &#039;number&#039; ) ) &amp;&amp; ! is_numeric( $value ) ) {
+        /* translators: 1: parameter, 2: type name */
+        return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s is not of type %2$s.&#039; ), $param, $args[&#039;type&#039;] ) );
+    }
+
+    if ( &#039;integer&#039; === $args[&#039;type&#039;] &amp;&amp; round( geodir_sanitize_float( $value ) ) !== geodir_sanitize_float( $value ) ) {
+        /* translators: 1: parameter, 2: type name */
+        return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s is not of type %2$s.&#039; ), $param, &#039;integer&#039; ) );
+    }
+
+    if ( &#039;boolean&#039; === $args[&#039;type&#039;] &amp;&amp; ! rest_is_boolean( $value ) ) {
+        /* translators: 1: parameter, 2: type name */
+        return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s is not of type %2$s.&#039; ), $value, &#039;boolean&#039; ) );
+    }
+
+    if ( &#039;string&#039; === $args[&#039;type&#039;] &amp;&amp; ! is_string( $value ) ) {
+        /* translators: 1: parameter, 2: type name */
+        return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s is not of type %2$s.&#039; ), $param, &#039;string&#039; ) );
+    }
+
+    if ( isset( $args[&#039;format&#039;] ) ) {
+        switch ( $args[&#039;format&#039;] ) {
+            case &#039;date-time&#039; :
+                if ( !empty( $args[ &#039;date_format&#039; ] ) ) {
+                    if ( $value &amp;&amp; $value != geodir_date( $value, $args[ &#039;date_format&#039; ], $args[ &#039;date_format&#039; ] ) ) {
+                        return new WP_Error( &#039;rest_invalid_date&#039;, sprintf( __( &#039;Invalid date. Valid format is %1$s.&#039; ), $args[ &#039;date_format&#039; ], &#039;string&#039; ) );
+                    }
+                } else {
+                    if ( ! rest_parse_date( $value ) ) {
+                        return new WP_Error( &#039;rest_invalid_date&#039;, __( &#039;Invalid date.&#039; ) );
+                    }
+                }
+                break;
+
+            case &#039;email&#039; :
+                // is_email() checks for 3 characters (a@b), but
+                // wp_handle_comment_submission() requires 6 characters (a@b.co)
+                //
+                // https://core.trac.wordpress.org/ticket/38506
+                if ( ! is_email( $value ) || strlen( $value ) &lt; 6 ) {
+                    return new WP_Error( &#039;rest_invalid_email&#039;, __( &#039;Invalid email address.&#039; ) );
+                }
+                break;
+            case &#039;ip&#039; :
+                if ( ! rest_is_ip_address( $value ) ) {
+                    /* translators: %s: IP address */
+                    return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%s is not a valid IP address.&#039; ), $value ) );
+                }
+                break;
+        }
+    }
+
+    if ( in_array( $args[&#039;type&#039;], array( &#039;number&#039;, &#039;integer&#039; ), true ) &amp;&amp; ( isset( $args[&#039;minimum&#039;] ) || isset( $args[&#039;maximum&#039;] ) ) ) {
+        if ( isset( $args[&#039;minimum&#039;] ) &amp;&amp; ! isset( $args[&#039;maximum&#039;] ) ) {
+            if ( ! empty( $args[&#039;exclusiveMinimum&#039;] ) &amp;&amp; $value &lt;= $args[&#039;minimum&#039;] ) {
+                /* translators: 1: parameter, 2: minimum number */
+                return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s must be greater than %2$d (exclusive)&#039; ), $param, $args[&#039;minimum&#039;] ) );
+            } elseif ( empty( $args[&#039;exclusiveMinimum&#039;] ) &amp;&amp; $value &lt; $args[&#039;minimum&#039;] ) {
+                /* translators: 1: parameter, 2: minimum number */
+                return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s must be greater than %2$d (inclusive)&#039; ), $param, $args[&#039;minimum&#039;] ) );
+            }
+        } elseif ( isset( $args[&#039;maximum&#039;] ) &amp;&amp; ! isset( $args[&#039;minimum&#039;] ) ) {
+            if ( ! empty( $args[&#039;exclusiveMaximum&#039;] ) &amp;&amp; $value &gt;= $args[&#039;maximum&#039;] ) {
+                /* translators: 1: parameter, 2: maximum number */
+                return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s must be less than %2$d (exclusive)&#039; ), $param, $args[&#039;maximum&#039;] ) );
+            } elseif ( empty( $args[&#039;exclusiveMaximum&#039;] ) &amp;&amp; $value &gt; $args[&#039;maximum&#039;] ) {
+                /* translators: 1: parameter, 2: maximum number */
+                return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s must be less than %2$d (inclusive)&#039; ), $param, $args[&#039;maximum&#039;] ) );
+            }
+        } elseif ( isset( $args[&#039;maximum&#039;] ) &amp;&amp; isset( $args[&#039;minimum&#039;] ) ) {
+            if ( ! empty( $args[&#039;exclusiveMinimum&#039;] ) &amp;&amp; ! empty( $args[&#039;exclusiveMaximum&#039;] ) ) {
+                if ( $value &gt;= $args[&#039;maximum&#039;] || $value &lt;= $args[&#039;minimum&#039;] ) {
+                    /* translators: 1: parameter, 2: minimum number, 3: maximum number */
+                    return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s must be between %2$d (exclusive) and %3$d (exclusive)&#039; ), $param, $args[&#039;minimum&#039;], $args[&#039;maximum&#039;] ) );
+                }
+            } elseif ( empty( $args[&#039;exclusiveMinimum&#039;] ) &amp;&amp; ! empty( $args[&#039;exclusiveMaximum&#039;] ) ) {
+                if ( $value &gt;= $args[&#039;maximum&#039;] || $value &lt; $args[&#039;minimum&#039;] ) {
+                    /* translators: 1: parameter, 2: minimum number, 3: maximum number */
+                    return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s must be between %2$d (inclusive) and %3$d (exclusive)&#039; ), $param, $args[&#039;minimum&#039;], $args[&#039;maximum&#039;] ) );
+                }
+            } elseif ( ! empty( $args[&#039;exclusiveMinimum&#039;] ) &amp;&amp; empty( $args[&#039;exclusiveMaximum&#039;] ) ) {
+                if ( $value &gt; $args[&#039;maximum&#039;] || $value &lt;= $args[&#039;minimum&#039;] ) {
+                    /* translators: 1: parameter, 2: minimum number, 3: maximum number */
+                    return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s must be between %2$d (exclusive) and %3$d (inclusive)&#039; ), $param, $args[&#039;minimum&#039;], $args[&#039;maximum&#039;] ) );
+                }
+            } elseif ( empty( $args[&#039;exclusiveMinimum&#039;] ) &amp;&amp; empty( $args[&#039;exclusiveMaximum&#039;] ) ) {
+                if ( $value &gt; $args[&#039;maximum&#039;] || $value &lt; $args[&#039;minimum&#039;] ) {
+                    /* translators: 1: parameter, 2: minimum number, 3: maximum number */
+                    return new WP_Error( &#039;rest_invalid_param&#039;, sprintf( __( &#039;%1$s must be between %2$d (inclusive) and %3$d (inclusive)&#039; ), $param, $args[&#039;minimum&#039;], $args[&#039;maximum&#039;] ) );
+                }
+            }
+        }
+    }
+
+    return true;
+}
+
+/**
+ * Function for get rest markers url.
+ *
+ * @since 2.0.0
+ *
+ * @param array $query_args Optional. Rest markers url query argument. Default array.
+ * @return string $url.
+ */
+function geodir_rest_markers_url( $query_args = array() ) {
+	$namespace = GEODIR_REST_SLUG . &#039;/v&#039; . GEODIR_REST_API_VERSION;
+	$rest_base = &#039;markers&#039;;
+
+	$url = rest_url( sprintf( &#039;%s/%s/&#039;, $namespace, $rest_base ) );
+
+	if ( ! empty( $query_args ) &amp;&amp; is_array( $query_args ) ) {
+		$url = add_query_arg( $query_args, $url );
+	}
+
+	return apply_filters( &#039;geodir_rest_markers_url&#039;, $url, $query_args );
+}
+
+/**
+ * Function for get rest markers url.
+ *
+ * @since 2.0.0
+ *
+ * @param array $query_args Optional. Rest markers url query argument. Default array.
+ * @return string $url.
+ */
+function geodir_rest_url($rest_base = &#039;&#039;, $query_args = array() ) {
+	$namespace = GEODIR_REST_SLUG . &#039;/v&#039; . GEODIR_REST_API_VERSION;
+
+	if($rest_base){
+		$url = rest_url( sprintf( &#039;%s/%s/&#039;, $namespace, $rest_base ) );
+	}else{
+		$url = rest_url( sprintf( &#039;%s/&#039;, $namespace ) );
+	}
+
+	if ( ! empty( $query_args ) &amp;&amp; is_array( $query_args ) ) {
+		$url = add_query_arg( $query_args, $url );
+	}
+
+	return apply_filters( &#039;geodir_rest_url&#039;, $url, $query_args, $namespace, $rest_base );
+}
+
+/**
+ * Function for rest sort options by posttype.
+ *
+ * @since 2.0.0
+ *
+ * @param string $post_type Posttype.
+ * @return array $options.
+ */
+function geodir_rest_post_sort_options( $post_type ) {
+    $sort_options = geodir_get_sort_options( $post_type );
+    
+    $default_orderby = &#039;post_date&#039;;
+    $default_order = &#039;desc&#039;;
+
+	$orderby_options = array();
+    if ( !empty( $sort_options ) ) {
+        $has_default = false;
+        $fields = array();
+        foreach ( $sort_options as $sort ) {
+            $sort = stripslashes_deep( $sort );
+
+			$field_name = $sort-&gt;htmlvar_name;
+            $field_label = __( $sort-&gt;frontend_title, &#039;geodirectory&#039; );
+
+			if ( $sort-&gt;field_type == &#039;random&#039; ) {
+				$field_name = &#039;random&#039;;
+				$sort-&gt;sort = &#039;&#039;;
+			}
+
+			if ( $sort-&gt;sort == &#039;asc&#039; ) {
+                $orderby_options[ $field_name . &#039;_asc&#039; ] = $field_label;
+            } else if ( $sort-&gt;sort == &#039;desc&#039; ) {
+                $orderby_options[ $field_name . &#039;_desc&#039; ] = $field_label;
+            } else {
+				$orderby_options[ $field_name ] = $field_label;
+			}
+
+			if ( (int)$sort-&gt;is_default == 1 ) {
+                $has_default = true;
+                $default_order = $sort-&gt;sort == &#039;desc&#039; ? &#039;desc&#039; : &#039;asc&#039;;
+                $default_orderby = $field_name;
+            }
+
+            $fields[] = $field_name;
+        }
+        
+        if ( ! $has_default &amp;&amp; ! in_array( $default_orderby, $fields ) ) {
+            $default_orderby = $default_orderby . &#039;_&#039; . $default_order;
+        }
+    }
+
+	$options = array( &#039;orderby_options&#039; =&gt; $orderby_options, &#039;default_orderby&#039; =&gt; $default_orderby, &#039;default_order&#039; =&gt; $default_order );
+
+    return apply_filters( &#039;geodir_rest_post_sort_options&#039;, $options, $post_type );
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Geodirectory Code Reference API documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on May 12th, 2022 at 05:56 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1652334990"></script>
+    <script src="../js/search.js?updated=1652334990"></script>
+</body>
+</html>
